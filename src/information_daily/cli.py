@@ -23,6 +23,7 @@ def main(argv: list[str] | None = None) -> int:
     generate.add_argument("--date", default=date.today().isoformat())
     generate.add_argument("--out", default="docs")
     generate.add_argument("--root", default=".")
+    generate.add_argument("--source-timeout", type=int, default=12)
     generate.add_argument(
         "--allow-fallback",
         action="store_true",
@@ -40,7 +41,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "generate":
             config = load_config(profile=args.profile, root=Path(args.root))
             issue_date = date.fromisoformat(args.date)
-            fetch = fetch_all(config)
+            fetch = fetch_all(config, timeout=args.source_timeout)
             issue = compile_issue(
                 config,
                 fetch.articles,
