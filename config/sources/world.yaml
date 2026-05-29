@@ -1,0 +1,29 @@
+sources:
+  - id: "bbc-world"
+    name: "BBC World"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+    default_section: "world"
+    weight: 1.0
+  - id: "guardian-world"
+    name: "The Guardian World"
+    type: "rss"
+    enabled: true
+    url: "https://www.theguardian.com/world/rss"
+    default_section: "world"
+    weight: 0.9
+  - id: "npr-world"
+    name: "NPR World"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.npr.org/1004/rss.xml"
+    default_section: "world"
+    weight: 0.85
+  - id: "aljazeera-all"
+    name: "Al Jazeera"
+    type: "rss"
+    enabled: true
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+    default_section: "world"
+    weight: 0.85

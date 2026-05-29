@@ -3,7 +3,7 @@ sources:
     name: "X AI Search"
     type: "x"
     enabled: false
-    default_section: "ai"
+    default_section: "ai-tech"
     weight: 0.7
     mode: "search"
     query: "(AI OR LLM OR agent) lang:en -is:retweet"

@@ -1,0 +1,50 @@
+sources:
+  - id: "bloomberg-markets"
+    name: "Bloomberg Markets"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.bloomberg.com/markets/news.rss"
+    default_section: "finance"
+    weight: 1.0
+  - id: "bloomberg-economics"
+    name: "Bloomberg Economics"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.bloomberg.com/economics/news.rss"
+    default_section: "finance"
+    weight: 0.95
+  - id: "marketwatch-top"
+    name: "MarketWatch"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    default_section: "finance"
+    weight: 0.9
+  - id: "wsj-markets"
+    name: "WSJ Markets"
+    type: "rss"
+    enabled: true
+    url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+    default_section: "finance"
+    weight: 0.9
+  - id: "investing-news"
+    name: "Investing.com"
+    type: "rss"
+    enabled: true
+    url: "https://www.investing.com/rss/news.rss"
+    default_section: "finance"
+    weight: 0.75
+  - id: "federal-reserve"
+    name: "Federal Reserve"
+    type: "rss"
+    enabled: true
+    url: "https://www.federalreserve.gov/feeds/press_all.xml"
+    default_section: "finance"
+    weight: 0.8
+  - id: "sec-press"
+    name: "SEC Press Releases"
+    type: "rss"
+    enabled: true
+    url: "https://www.sec.gov/news/pressreleases.rss"
+    default_section: "finance"
+    weight: 0.7

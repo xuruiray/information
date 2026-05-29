@@ -5,10 +5,12 @@ profile:
     - tech
     - papers
     - startup
+    - world
+    - finance
     - x
   selection:
     lookback_hours: 72
-    max_raw_items: 120
+    max_raw_items: 180
     max_per_source: 12
     min_score: 0
   llm:
@@ -20,13 +22,13 @@ profile:
     default_base_url: "https://api.openai.com/v1"
     default_model: "gpt-4o-mini"
     temperature: 0.2
-    max_input_items: 70
-    summary_style: "中文，简洁，适合日报；保留事实，不夸大，不编造。"
+    max_input_items: 100
+    summary_style: "中文，简洁，适合日报；保留事实，不夸大，不编造。每天必须覆盖 AI 科技、国际事务、财经理财三个大类。"
   sections:
-    - id: "ai"
-      title: "AI 与大模型"
-      icon: "🤖"
-      max_articles: 8
+    - id: "ai-tech"
+      title: "AI 科技"
+      icon: "01"
+      max_articles: 14
       keywords:
         - ai
         - artificial intelligence
@@ -37,11 +39,8 @@ profile:
         - google ai
         - hugging face
         - agent
-    - id: "dev"
-      title: "开发与编程"
-      icon: "💻"
-      max_articles: 7
-      keywords:
+        - technology
+        - tech
         - developer
         - programming
         - javascript
@@ -50,11 +49,6 @@ profile:
         - frontend
         - backend
         - engineering
-    - id: "open-source"
-      title: "开源与工具"
-      icon: "🧰"
-      max_articles: 7
-      keywords:
         - github
         - open source
         - cli
@@ -62,24 +56,50 @@ profile:
         - framework
         - library
         - release
-    - id: "startup"
-      title: "产品与创业"
-      icon: "🚀"
-      max_articles: 6
-      keywords:
         - startup
         - product
         - funding
-        - acquisition
-        - product hunt
-        - business
-    - id: "papers"
-      title: "研究论文"
-      icon: "🔬"
-      max_articles: 6
-      keywords:
         - arxiv
         - paper
         - research
-        - benchmark
-        - dataset
+    - id: "world"
+      title: "国际事务"
+      icon: "02"
+      max_articles: 14
+      keywords:
+        - world
+        - international
+        - diplomacy
+        - geopolitics
+        - war
+        - election
+        - government
+        - security
+        - policy
+        - united nations
+        - europe
+        - asia
+        - middle east
+    - id: "finance"
+      title: "财经理财"
+      icon: "03"
+      max_articles: 14
+      keywords:
+        - market
+        - markets
+        - finance
+        - economy
+        - economics
+        - stock
+        - stocks
+        - bond
+        - bonds
+        - inflation
+        - fed
+        - federal reserve
+        - sec
+        - investing
+        - wealth
+        - personal finance
+        - acquisition
+        - business

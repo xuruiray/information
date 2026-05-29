@@ -9,8 +9,11 @@
 </head>
 <body>
 <div class="stage">
-  <article class="sheet front" id="page-1">
+  {% for section in issue.sections %}
+  <article class="sheet{% if loop.first %} front{% endif %}" id="page-{{ loop.index }}">
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+
+    {% if loop.first %}
     <header class="masthead">
       <div class="corners">
         <span>第 {{ issue.date.strftime('%Y%m%d') }} 期</span>
@@ -20,8 +23,9 @@
       <div class="subtitle">{{ issue.site_subtitle }}</div>
       <div class="dateline"><span>{{ dateline }}</span></div>
     </header>
+    {% endif %}
 
-    {% if issue.warnings %}
+    {% if issue.warnings and loop.first %}
     <aside class="notice">
       {% for warning in issue.warnings %}
       <p>{{ warning }}</p>
@@ -29,61 +33,34 @@
     </aside>
     {% endif %}
 
-    <div class="frontgrid">
-      <section class="lead" aria-labelledby="headline-label">
-        <div class="lead-label" id="headline-label">{{ issue.briefing_title }}</div>
-        <section class="lead-main briefing" aria-label="{{ issue.briefing_title }}">
-          <span class="lt">{{ issue.site_title }}速览</span>
-          <p class="standfirst">{{ issue.briefing_summary }}</p>
-          {% if issue.headline %}
-          <a class="headline-link" href="{{ issue.headline.url }}" target="_blank" rel="noopener">
-            今日重点：{{ issue.headline.title }}
-          </a>
-          {% endif %}
-        </section>
-
-        <div class="lead-rest">
-          {% for section in issue.sections %}
-            {% if section.articles %}
-            {% set article = section.articles[0] %}
-            <a class="hl" href="{{ article.url }}" target="_blank" rel="noopener">
-              <span class="t">{{ article.title }}</span>
-              <span class="s">{{ article.summary }}</span>
-            </a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </section>
-
-      <aside class="index" aria-label="本期导读">
-        <h2>本期导读</h2>
-        <ul>
-          {% for section in issue.sections %}
-          <li>
-            <a href="#page-{{ loop.index + 1 }}">
-              <span>{{ section.display_title }}</span>
-              <span class="pg">第 {{ loop.index + 1 }} 版</span>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-        <a class="archive-link" href="{{ archive_href }}">往期</a>
-      </aside>
-    </div>
-
-    <footer class="colophon">
-      <span>第 1 版 · 头版</span>
-      <a href="{{ archive_href }}">查看往期 →</a>
-    </footer>
-  </article>
-
-  {% for section in issue.sections %}
-  <article class="sheet" id="page-{{ loop.index + 1 }}">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
+    <header class="pagehead category-head">
       <h2>{{ section.display_title }}</h2>
-      <span class="ed">第 {{ loop.index + 1 }} 版 / 共 {{ issue.sections | length + 1 }} 版</span>
+      <span class="ed">第 {{ loop.index }} 版 / 共 {{ issue.sections | length }} 版</span>
     </header>
+
+    {% if loop.first %}
+    <section class="briefing-panel issue-briefing" aria-label="{{ issue.briefing_title }}">
+      <div class="lead-label">{{ issue.briefing_title }}</div>
+      <p>{{ issue.briefing_summary }}</p>
+      {% if issue.headline %}
+      <a class="headline-link" href="{{ issue.headline.url }}" target="_blank" rel="noopener">
+        今日重点：{{ issue.headline.title }}
+      </a>
+      {% endif %}
+    </section>
+
+    <nav class="edition-nav" aria-label="本期三版">
+      <span>本期三版</span>
+      {% for nav_section in issue.sections %}
+      <a href="#page-{{ loop.index }}">{{ nav_section.display_title }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
+
+    <section class="briefing-panel category-briefing" aria-label="{{ section.briefing_title }}">
+      <div class="lead-label">{{ section.briefing_title }}</div>
+      <p>{{ section.briefing_summary }}</p>
+    </section>
 
     {% if section.articles %}
     <div class="columns">
@@ -101,8 +78,16 @@
     {% endif %}
 
     <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
+      {% if loop.first %}
+      <span>第 {{ loop.index }} 版 · {{ section.title }}</span>
+      <a href="#page-{{ loop.index + 1 }}">下一版 →</a>
+      {% elif loop.last %}
+      <a href="#page-{{ loop.index - 1 }}">← 上一版</a>
       <a href="{{ archive_href }}">往期 →</a>
+      {% else %}
+      <a href="#page-{{ loop.index - 1 }}">← 上一版</a>
+      <a href="#page-{{ loop.index + 1 }}">下一版 →</a>
+      {% endif %}
     </footer>
   </article>
   {% endfor %}

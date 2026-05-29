@@ -91,6 +91,8 @@ class CompiledSection:
     title: str
     icon: str
     articles: tuple[CompiledArticle, ...]
+    briefing_title: str = "AI 总结"
+    briefing_summary: str = ""
 
     @property
     def display_title(self) -> str:

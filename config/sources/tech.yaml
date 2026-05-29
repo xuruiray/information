@@ -4,7 +4,7 @@ sources:
     type: "rss"
     enabled: true
     url: "https://openai.com/news/rss.xml"
-    default_section: "ai"
+    default_section: "ai-tech"
     weight: 1.2
     keywords: ["openai", "model", "agent"]
   - id: "google-ai"
@@ -12,54 +12,54 @@ sources:
     type: "rss"
     enabled: true
     url: "https://blog.google/technology/ai/rss/"
-    default_section: "ai"
+    default_section: "ai-tech"
     weight: 1.1
   - id: "huggingface-blog"
     name: "Hugging Face Blog"
     type: "rss"
     enabled: true
     url: "https://huggingface.co/blog/feed.xml"
-    default_section: "ai"
+    default_section: "ai-tech"
     weight: 1.0
   - id: "techcrunch-ai"
     name: "TechCrunch AI"
     type: "rss"
     enabled: true
     url: "https://techcrunch.com/category/artificial-intelligence/feed/"
-    default_section: "ai"
+    default_section: "ai-tech"
     weight: 0.95
   - id: "simon-willison"
     name: "Simon Willison"
     type: "atom"
     enabled: true
     url: "https://simonwillison.net/atom/everything/"
-    default_section: "dev"
+    default_section: "ai-tech"
     weight: 1.1
   - id: "hn-frontpage"
     name: "Hacker News"
     type: "rss"
     enabled: true
     url: "https://hnrss.org/frontpage?points=100"
-    default_section: "dev"
+    default_section: "ai-tech"
     weight: 0.9
   - id: "github-blog"
     name: "GitHub Blog"
     type: "rss"
     enabled: true
     url: "https://github.blog/feed/"
-    default_section: "open-source"
+    default_section: "ai-tech"
     weight: 1.0
   - id: "vercel-blog"
     name: "Vercel Blog"
     type: "atom"
     enabled: true
     url: "https://vercel.com/blog/rss.xml"
-    default_section: "dev"
+    default_section: "ai-tech"
     weight: 0.9
   - id: "meta-engineering"
     name: "Meta Engineering"
     type: "rss"
     enabled: true
     url: "https://engineering.fb.com/feed/"
-    default_section: "dev"
+    default_section: "ai-tech"
     weight: 0.85

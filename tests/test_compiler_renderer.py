@@ -26,7 +26,8 @@ def test_fallback_compiles_dynamic_sections(monkeypatch):
 
     assert issue.headline is not None
     assert [section.id for section in issue.sections] == [section.id for section in config.sections]
-    assert any(section.articles for section in issue.sections if section.id == "ai")
+    assert any(section.articles for section in issue.sections if section.id == "ai-tech")
+    assert all(section.briefing_summary for section in issue.sections)
     assert issue.warnings
 
 
@@ -44,7 +45,11 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     paper = out_dir / "papers" / "2026-05-29.html"
 
     assert "信息日报" in index
-    assert "本期导读" in index
+    assert "本期三版" in index
+    assert "AI 科技总结" in index
+    assert "国际事务总结" in index
+    assert "财经理财总结" in index
+    assert index.count('class="sheet') == 3
     assert 'target="_blank" rel="noopener"' in index
     assert paper.exists()
     assert "往期信息日报" in archive
@@ -58,7 +63,7 @@ def _articles():
             url="https://example.com/openai-agent",
             source_id="openai-news",
             source_name="OpenAI News",
-            default_section="ai",
+            default_section="ai-tech",
             summary="A short update about AI agents and developer workflows.",
             published_at=datetime(2026, 5, 29, 1, 0, tzinfo=timezone.utc),
             weight=1.2,
@@ -69,7 +74,7 @@ def _articles():
             url="https://example.com/oss-cli",
             source_id="github-blog",
             source_name="GitHub Blog",
-            default_section="open-source",
+            default_section="ai-tech",
             summary="A command line tool for open source maintainers.",
             published_at=datetime(2026, 5, 29, 2, 0, tzinfo=timezone.utc),
             weight=1.0,
@@ -80,7 +85,7 @@ def _articles():
             url="https://example.com/llm-benchmark",
             source_id="huggingface-blog",
             source_name="Hugging Face Blog",
-            default_section="ai",
+            default_section="ai-tech",
             summary="A benchmark compares how current AI models perform on coding agent tasks.",
             published_at=datetime(2026, 5, 29, 3, 0, tzinfo=timezone.utc),
             weight=0.9,

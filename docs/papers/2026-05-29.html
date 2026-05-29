@@ -11,6 +11,7 @@
 <div class="stage">
   <article class="sheet front" id="page-1">
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+
     <header class="masthead">
       <div class="corners">
         <span>第 20260529 期</span>
@@ -22,343 +23,336 @@
     </header>
 
 
-    <div class="frontgrid">
-      <section class="lead" aria-labelledby="headline-label">
-        <div class="lead-label" id="headline-label">AI 总结</div>
-        <section class="lead-main briefing" aria-label="AI 总结">
-          <span class="lt">信息日报速览</span>
-          <p class="standfirst">今天 AI 领域迎来重磅消息：Anthropic 完成 650 亿美元 H 轮融资，估值逼近 1 万亿美元，同时发布 Claude Opus 4.8，强调诚实性改进并推出动态工作流工具；多家创业公司如 Glean、Corgi、H1 等获得投资；互联网基础设施正向机器流量重塑。研究方面，认知类别 Transformer（CCT）在语言建模中取得 12% 的困惑度改进，Aryabhata 2 通过强化学习提升 STEM 推理能力，多个工作探索了知识编辑、时间序列建模和强化学习保留机制。开源社区，datasette 1.0a31 发布新功能，llm-anthropic 插件更新支持 Opus 4.8。</p>
-          <a class="headline-link" href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">
-            今日重点：Claude Opus 4.8 发布：诚实性改进与动态工作流工具
-          </a>
-        </section>
-
-        <div class="lead-rest">
-            <a class="hl" href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo" target="_blank" rel="noopener">
-              <span class="t">Anthropic 完成 650 亿美元 H 轮融资，估值逼近 1 万亿美元</span>
-              <span class="s">Anthropic 完成 650 亿美元 H 轮融资，投后估值 9650 亿美元，可能是 IPO 前最后一轮。</span>
-            </a>
-            <a class="hl" href="https://simonwillison.net/2026/May/29/datasette" target="_blank" rel="noopener">
-              <span class="t">datasette 1.0a31 发布：支持 SQL 写查询与存储查询</span>
-              <span class="s">新版本允许有权限的用户对数据库执行写查询和保存存储查询。</span>
-            </a>
-            <a class="hl" href="https://simonwillison.net/2026/May/28/llm-anthropic" target="_blank" rel="noopener">
-              <span class="t">llm-anthropic 0.25.1 发布：支持 Claude Opus 4.8</span>
-              <span class="s">新版本添加 Claude Opus 4.8 模型支持、快速模式选项，并调整默认 max_tokens。</span>
-            </a>
-            <a class="hl" href="https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point" target="_blank" rel="noopener">
-              <span class="t">Glean 年收入突破 3 亿美元，AI 预算削减成为主要卖点</span>
-              <span class="s">企业 AI 搜索初创公司 Glean 营收翻三倍，尽管科技巨头进入同一赛道。</span>
-            </a>
-            <a class="hl" href="https://arxiv.org/abs/2605.28864" target="_blank" rel="noopener">
-              <span class="t">认知类别 Transformer：用于语言建模的范畴论归纳偏置</span>
-              <span class="s">CCT 在 GPT-2 基础上融入范畴论认知组件，WikiText-103 上困惑度降低 12%。</span>
-            </a>
-        </div>
-      </section>
-
-      <aside class="index" aria-label="本期导读">
-        <h2>本期导读</h2>
-        <ul>
-          <li>
-            <a href="#page-2">
-              <span>🤖 AI 与大模型</span>
-              <span class="pg">第 2 版</span>
-            </a>
-          </li>
-          <li>
-            <a href="#page-3">
-              <span>💻 开发与编程</span>
-              <span class="pg">第 3 版</span>
-            </a>
-          </li>
-          <li>
-            <a href="#page-4">
-              <span>🧰 开源与工具</span>
-              <span class="pg">第 4 版</span>
-            </a>
-          </li>
-          <li>
-            <a href="#page-5">
-              <span>🚀 产品与创业</span>
-              <span class="pg">第 5 版</span>
-            </a>
-          </li>
-          <li>
-            <a href="#page-6">
-              <span>🔬 研究论文</span>
-              <span class="pg">第 6 版</span>
-            </a>
-          </li>
-        </ul>
-        <a class="archive-link" href="../archive.html">往期</a>
-      </aside>
-    </div>
-
-    <footer class="colophon">
-      <span>第 1 版 · 头版</span>
-      <a href="../archive.html">查看往期 →</a>
-    </footer>
-  </article>
-
-  <article class="sheet" id="page-2">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
-      <h2>🤖 AI 与大模型</h2>
-      <span class="ed">第 2 版 / 共 6 版</span>
+    <header class="pagehead category-head">
+      <h2>01 AI 科技</h2>
+      <span class="ed">第 1 版 / 共 3 版</span>
     </header>
 
+    <section class="briefing-panel issue-briefing" aria-label="AI 总结">
+      <div class="lead-label">AI 总结</div>
+      <p>今日AI科技领域，Anthropic发布Claude Opus 4.8模型，同时多家企业反映LLM使用成本上升，表明产品市场契合点已现。多篇论文聚焦LLM智能体在生物、工程、金融等领域的应用与安全。国际方面，美伊冲突出现60天停火延期希望，但双方仍有打击；欧盟拟限制中国进口，世卫组织呼吁刚果（金）停火应对埃博拉。财经方面，全球股市因美伊协议希望创纪录新高，石油下跌；美联储官员警告不可依赖AI应对通胀，沃什面临挑战。</p>
+      <a class="headline-link" href="https://simonwillison.net/2026/May/27/product-market-fit" target="_blank" rel="noopener">
+        今日重点：Anthropic和OpenAI已找到产品市场契合点
+      </a>
+    </section>
+
+    <nav class="edition-nav" aria-label="本期三版">
+      <span>本期三版</span>
+      <a href="#page-1">01 AI 科技</a>
+      <a href="#page-2">02 国际事务</a>
+      <a href="#page-3">03 财经理财</a>
+    </nav>
+
+    <section class="briefing-panel category-briefing" aria-label="AI 科技总结">
+      <div class="lead-label">AI 科技总结</div>
+      <p>Anthropic发布Claude Opus 4.8，自称“适度但切实的改进”，并推出动态工作流工具。SQLite新增AGENTS.md文件以规范AI代理行为。多篇论文探索LLM在表型注释、有限元分析、药物分子优化、交易智能体等领域应用，以及安全防护、灾难性遗忘等机制研究。</p>
+    </section>
+
     <div class="columns">
-      <a class="art" href="https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo" target="_blank" rel="noopener">
-        <span class="at">Anthropic 完成 650 亿美元 H 轮融资，估值逼近 1 万亿美元</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">Anthropic 完成 650 亿美元 H 轮融资，投后估值 9650 亿美元，可能是 IPO 前最后一轮。</p>
+      <a class="art" href="https://simonwillison.net/2026/May/27/product-market-fit" target="_blank" rel="noopener">
+        <span class="at">Anthropic和OpenAI已找到产品市场契合点</span>
+        <span class="by">Simon Willison</span>
+        <p class="as">Anthropic和OpenAI均被强烈传闻即将迎来首个盈利季度，企业客户因员工大量使用LLM而面临高昂账单，表明两者已找到产品市场契合点。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines" target="_blank" rel="noopener">
-        <span class="at">互联网正被重建以适应机器流量</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">AWS、Cloudflare 等正为 AI 代理流量重新设计云基础设施。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app" target="_blank" rel="noopener">
-        <span class="at">Sesame 推出 iOS 应用，提供类人对话 AI 体验</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">Oculus 创始人创办的 Sesame 发布 iOS 应用，使其对话 AI 代理更自然。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai" target="_blank" rel="noopener">
-        <span class="at">Asana 收购无代码 Agent 构建平台 StackAI</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">Asana 将 StackAI 整合到其 AI 工作流工具套件中。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
-        <span class="at">VFEAgent：用于端到端自动有限元分析的多模态 Agent 框架</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">提出 VFEAgent 多智能体系统，从图像和问题描述直接自动化 FEA 建模与仿真。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28850" target="_blank" rel="noopener">
-        <span class="at">表征签名与风险反馈对齐在 LLM 交易 Agent 中的应用</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">使用 TradeArena 测试平台分析 LLM Agent 在金融决策中的行为对齐与表征动态。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28862" target="_blank" rel="noopener">
-        <span class="at">基于 Agentic 工具规划的分子先导优化</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">提出多步分子优化框架，利用 LLM Agent 自动改进 ADMET 性质。</p>
+      <a class="art" href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">
+        <span class="at">Claude Opus 4.8：适度但切实的改进</span>
+        <span class="by">Simon Willison</span>
+        <p class="as">Anthropic发布Claude Opus 4.8，官方称其为前代产品的适度但切实改进，并承诺未来将以更低成本提供类似能力。</p>
         <span class="more">阅读全文 →</span>
       </a>
       <a class="art" href="https://arxiv.org/abs/2605.28965" target="_blank" rel="noopener">
-        <span class="at">前沿 LLM Agent 可克服自然表型本体整理瓶颈</span>
+        <span class="at">基于前沿LLM的智能体可克服自然表型本体管理瓶颈</span>
         <span class="by">arXiv cs.AI</span>
-        <p class="as">利用 LLM Agent 自动化表型标注，显著减少人工工作量。</p>
+        <p class="as">研究提出利用前沿LLM智能体自动化表型注释，将自由文本描述与本体术语链接，克服传统依赖专家的人工瓶颈。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
+        <span class="at">VFEAgent：面向端到端自动有限元分析的多模态智能体框架</span>
+        <span class="by">arXiv cs.AI</span>
+        <p class="as">提出VFEAgent框架，集成多模态输入和LLM，实现有限元分析工作流的端到端自动化，降低工程领域专业知识依赖。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28994" target="_blank" rel="noopener">
+        <span class="at">BEAMS：AI建模与模拟的基准测试与评估</span>
+        <span class="by">arXiv cs.AI</span>
+        <p class="as">BEAMS倡议旨在开发AI工具以辅助真实世界决策的建模与模拟，强调AI应补充而非替代人类专业知识。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28825" target="_blank" rel="noopener">
+        <span class="at">MechELK：大语言模型潜在知识提取的机制可解释性框架</span>
+        <span class="by">arXiv cs.CL</span>
+        <p class="as">提出MechELK框架，通过机制可解释性方法提取LLM内部编码但未在输出中忠实反映的潜在知识，超越传统对比一致性搜索。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28850" target="_blank" rel="noopener">
+        <span class="at">LLM交易智能体中的表示特征与风险反馈对齐</span>
+        <span class="by">arXiv cs.LG</span>
+        <p class="as">在TradeArena可审计交易测试平台上研究LLM智能体的行为对齐与表示动态，分析其理由、头寸与干预之间的交互。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28860" target="_blank" rel="noopener">
+        <span class="at">灾难性遗忘的机制起源：为何强化学习比监督微调更好地保留电路？</span>
+        <span class="by">arXiv cs.LG</span>
+        <p class="as">研究揭示强化学习比监督微调更少导致灾难性遗忘，归因于策略梯度更新更接近基座模型，保留原有电路。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28862" target="_blank" rel="noopener">
+        <span class="at">通过智能体工具规划进行分子先导优化</span>
+        <span class="by">arXiv cs.LG</span>
+        <p class="as">提出基于智能体工具规划的分子先导优化方法，通过精细结构修饰改善ADMET相关性质，加速药物研发。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://simonwillison.net/2026/May/27/sqlite-agents" target="_blank" rel="noopener">
+        <span class="at">SQLite新增AGENTS.md文件</span>
+        <span class="by">Simon Willison</span>
+        <p class="as">SQLite代码库新增AGENTS.md，旨在为AI代理提供指导，包括不接受未经事先约定的拉取请求等规则。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28897" target="_blank" rel="noopener">
+        <span class="at">Review Arcade：LLM评审的人类对齐与可游戏性研究</span>
+        <span class="by">arXiv cs.AI</span>
+        <p class="as">研究LLM生成的论文评审，发现评审者和作者都可能利用LLM，评审系统存在被“游戏化”的风险。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
+        <span class="at">轻量多模态LLM实现输电设备低成本缺陷分级</span>
+        <span class="by">arXiv cs.CL</span>
+        <p class="as">提出轻量多模态LLM方法，用于输电设备缺陷分级，解决传统方法难以整合专家经验和类别不平衡问题。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28830" target="_blank" rel="noopener">
+        <span class="at">开源安全防护模型基准测试：全面评估</span>
+        <span class="by">arXiv cs.CL</span>
+        <p class="as">对14个开源安全防护模型在涵盖8个NIST安全类别的79331个样本上进行了全面评估，提供性能基准。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
+        <span class="at">TaxDistill：通过蒸馏基因组基础模型改进宏基因组分类注释</span>
+        <span class="by">arXiv cs.LG</span>
+        <p class="as">提出TaxDistill方法，利用蒸馏的基因组基础模型改进宏基因组中DNA片段的微生物来源注释，克服传统序列相似性局限。</p>
         <span class="more">阅读全文 →</span>
       </a>
     </div>
 
     <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
-      <a href="../archive.html">往期 →</a>
+      <span>第 1 版 · AI 科技</span>
+      <a href="#page-2">下一版 →</a>
+    </footer>
+  </article>
+  <article class="sheet" id="page-2">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+
+
+
+    <header class="pagehead category-head">
+      <h2>02 国际事务</h2>
+      <span class="ed">第 2 版 / 共 3 版</span>
+    </header>
+
+
+    <section class="briefing-panel category-briefing" aria-label="国际事务总结">
+      <div class="lead-label">国际事务总结</div>
+      <p>美伊冲突出现转机，双方达成60天停火延期初步协议，但仍有相互打击。欧盟担忧中国进口激增，将讨论限制措施。世卫组织总干事呼吁刚果（金）停火以应对埃博拉疫情，并已抵达该国。葡萄牙遭遇创纪录热浪，真主党利用光纤无人机袭击以色列，俄罗斯与亚美尼亚关系紧张。</p>
+    </section>
+
+    <div class="columns">
+      <a class="art" href="https://www.theguardian.com/world/2026/may/28/eu-discuss-restrictions-chinese-imports-fears-overreliance" target="_blank" rel="noopener">
+        <span class="at">欧盟将讨论对中国进口限制，担忧过度依赖</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">欧盟委员将于周五举行关键会议，讨论对中国进口施加新限制，担忧进口激增可能导致类似美国锈带城镇的衰退。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola" target="_blank" rel="noopener">
+        <span class="at">世卫组织总干事呼吁刚果（金）停火以应对埃博拉疫情</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">世卫组织总干事谭德塞呼吁刚果（金）东部立即停火以应对埃博拉疫情，同时乌干达关闭边境阻止疫情扩散。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.npr.org/2026/05/28/nx-s1-5835313/u-s-and-iran-trade-strikes-how-will-this-affect-deal-to-end-war" target="_blank" rel="noopener">
+        <span class="at">美国与伊朗相互打击：如何影响结束战争的协议？</span>
+        <span class="by">NPR World</span>
+        <p class="as">美国与伊朗在停火谈判期间再次相互打击，专家分析此举是否会影响潜在结束战争的协议。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bbc.com/news/articles/c3v2yv5207xo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+        <span class="at">葡萄牙打破五月高温纪录，欧洲热浪肆虐</span>
+        <span class="by">BBC World</span>
+        <p class="as">葡萄牙创下五月最高温纪录，欧洲多国遭热浪袭击，法国学生在酷热学校中考试，意大利发布红色警报。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+        <span class="at">美伊是接近和平还是滑向战争？</span>
+        <span class="by">BBC World</span>
+        <p class="as">尽管最新一轮互相打击，但双方似乎均无意重返全面冲突，分析当前局势走向。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bbc.com/news/articles/c0r2ydlvk41o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+        <span class="at">从乌克兰战争汲取教训，真主党正使用光纤无人机打击以色列</span>
+        <span class="by">BBC World</span>
+        <p class="as">真主党学习乌克兰战争经验，将光纤无人机作为攻击以色列军民的首要武器，技术手段升级。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-29/russia-heads-for-showdown-with-armenia-over-european-ambitions" target="_blank" rel="noopener">
+        <span class="at">俄罗斯与亚美尼亚因欧洲野心面临摊牌</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">俄罗斯总统普京将参加欧亚经济联盟峰会，与亚美尼亚因后者向欧洲靠拢的矛盾日益紧张。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.theguardian.com/world/2026/may/29/who-chief-tedros-adhanom-ghebreyesus-drc-ebola-outbreak-epidemic" target="_blank" rel="noopener">
+        <span class="at">世卫总干事抵达刚果（金），承诺埃博拉疫情可被遏制</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">世卫总干事谭德塞抵达刚果（金）伊图里省，呼吁停止阻碍医疗救助的战斗，表示埃博拉疫情可以遏制。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.theguardian.com/world/2026/may/28/guatemala-us-military-drug-trafficking" target="_blank" rel="noopener">
+        <span class="at">危地马拉请求美国军事合作打击毒品贩运</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">危地马拉总统请求美国提供装备、培训及专家协助打击贩毒，已与美国防部长赫格塞斯确认合作条款。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.theguardian.com/world/2026/may/28/andrew-frederick-uk-family-fcdo-grenada-death" target="_blank" rel="noopener">
+        <span class="at">家属指责英国政府未对格林纳达英籍男子死亡事件提供足够支持</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">英籍男子安德鲁·弗雷德里克在格林纳达家中身亡，法医判定为他杀，家属称英国当局拒绝提供专家协助。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.theguardian.com/world/2026/may/28/argentina-european-self-image-racist-incidents-brazil" target="_blank" rel="noopener">
+        <span class="at">阿根廷的“欧洲”自我形象因巴西种族歧视事件再受审视</span>
+        <span class="by">The Guardian World</span>
+        <p class="as">巴西发生针对阿根廷人的种族歧视事件，重新引发对阿根廷自称“欧洲国家”自我认知的争议。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.aljazeera.com/news/liveblog/2026/5/29/iran-war-live-tehran-trump-yet-to-comment-on-60-day-truce-extension-plan?traffic_source=rss" target="_blank" rel="noopener">
+        <span class="at">伊朗战争直播：德黑兰和特朗普尚未评论60天停火延期计划</span>
+        <span class="by">Al Jazeera</span>
+        <p class="as">黎巴嫩总理批评以色列对黎巴嫩“和平人民”的军事打击，伊朗和特朗普尚未对60天停火延期表态。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.aljazeera.com/sports/2026/5/28/iran-ambassador-hits-out-at-country-to-the-north-in-us-world-cup-visa-row?traffic_source=rss" target="_blank" rel="noopener">
+        <span class="at">伊朗大使就美国世界杯签证争端抨击“北方国家”</span>
+        <span class="by">Al Jazeera</span>
+        <p class="as">伊朗足球队仍未获得美国签证，伊朗驻墨西哥大使批评“北方国家”使伊朗无法公平竞争。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.npr.org/2026/05/28/g-s1-124621/up-first-newsletter-iran-lebanon-israel-us-war-ebola-congo-food-insecurity-google-polymarket" target="_blank" rel="noopener">
+        <span class="at">美国再次打击伊朗；美司法部指控谷歌员工涉嫌Polymarket内幕交易</span>
+        <span class="by">NPR World</span>
+        <p class="as">美国在和平谈判期间再次打击伊朗；同时联邦政府指控一名谷歌员工利用内幕信息在Polymarket交易。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+    </div>
+
+    <footer class="colophon">
+      <a href="#page-1">← 上一版</a>
+      <a href="#page-3">下一版 →</a>
     </footer>
   </article>
   <article class="sheet" id="page-3">
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
-      <h2>💻 开发与编程</h2>
-      <span class="ed">第 3 版 / 共 6 版</span>
+
+
+
+    <header class="pagehead category-head">
+      <h2>03 财经理财</h2>
+      <span class="ed">第 3 版 / 共 3 版</span>
     </header>
 
+
+    <section class="briefing-panel category-briefing" aria-label="财经理财总结">
+      <div class="lead-label">财经理财总结</div>
+      <p>全球股市因美伊达成停火延期初步协议创纪录新高，石油价格下跌。美联储官员穆萨莱姆警告不可依赖AI解决通胀，新主席沃什面临鹰派挑战。戴尔因AI服务器收入暴增757%股价飙升，Okta业绩超预期。印度下调季风预测，铁矿石面临月线下跌，日本国债收益率上升。</p>
+    </section>
+
     <div class="columns">
-      <a class="art" href="https://simonwillison.net/2026/May/29/datasette" target="_blank" rel="noopener">
-        <span class="at">datasette 1.0a31 发布：支持 SQL 写查询与存储查询</span>
-        <span class="by">Simon Willison</span>
-        <p class="as">新版本允许有权限的用户对数据库执行写查询和保存存储查询。</p>
+      <a class="art" href="https://www.bloomberg.com/news/videos/2026-05-29/the-asia-trade-5-29-2026-video" target="_blank" rel="noopener">
+        <span class="at">全球股市因美伊协议希望上涨 | 亚洲交易 2026.5.29</span>
+        <span class="by">Bloomberg Markets</span>
+        <p class="as">亚洲早盘交易中，全球股市因美国与伊朗达成初步停火延期协议上涨，投资者关注中东局势缓和。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution" target="_blank" rel="noopener">
-        <span class="at">在 Postgres 上构建持久化工作流</span>
-        <span class="by">DBOS</span>
-        <p class="as">论证 Postgres 足以满足持久化执行需求，无需额外队列系统。</p>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap" target="_blank" rel="noopener">
+        <span class="at">股市创纪录新高，石油因伊朗乐观情绪下跌：市场综述</span>
+        <span class="by">Bloomberg Markets</span>
+        <p class="as">美股创纪录新高，石油下跌，因美国与伊朗达成初步协议延长停火，等待特朗普批准。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here" target="_blank" rel="noopener">
-        <span class="at">仍然是开发者，只是在户外：GitHub Shop 新系列</span>
-        <span class="by">GitHub Blog</span>
-        <p class="as">GitHub Shop 推出新系列，鼓励开发者户外活动。</p>
+      <a class="art" href="https://www.bloomberg.com/news/videos/2026-05-28/musalem-on-possible-fed-hike-balance-sheet-and-warsh-video" target="_blank" rel="noopener">
+        <span class="at">美联储穆萨莱姆谈及可能加息、资产负债表及沃什</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">圣路易斯联储主席穆萨莱姆表示经济风险转向通胀，并讨论AI影响、资产负债表及新任主席沃什。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://shvbsle.in/various-llm-smells" target="_blank" rel="noopener">
-        <span class="at">各种 LLM 代码气味</span>
-        <span class="by">shvbsle.in</span>
-        <p class="as">总结 LLM 生成代码的常见问题模式，帮助开发者识别。</p>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/fed-s-musalem-says-officials-can-t-rely-on-ai-to-fix-inflation" target="_blank" rel="noopener">
+        <span class="at">美联储穆萨莱姆：官员不能依赖AI繁荣来应对通胀</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">穆萨莱姆指出，政策制定者不能依赖人工智能带来的潜在生产力繁荣来缓解高通胀。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://nick.winans.io/blog/nice-nano" target="_blank" rel="noopener">
-        <span class="at">我在宿舍做出了百万美元的产品</span>
-        <span class="by">Nick Winans</span>
-        <p class="as">分享从宿舍制造硬件产品到年收入百万美元的经历。</p>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/warsh-s-new-challenge-containing-fed-hawks-as-inflation-simmers" target="_blank" rel="noopener">
+        <span class="at">沃什的新挑战：遏制美联储通胀鹰派</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">新任美联储主席沃什曾计划降息，但如今面临遏制其他官员加息预期的挑战，因通胀再次升温。</p>
         <span class="more">阅读全文 →</span>
       </a>
-      <a class="art" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy" target="_blank" rel="noopener">
-        <span class="at">挑剔《创：战纪》中的 shell 历史场景</span>
-        <span class="by">Simon Tatham</span>
-        <p class="as">分析电影中 shell 历史显示的合理性和技术细节。</p>
+      <a class="art" href="https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories" target="_blank" rel="noopener">
+        <span class="at">伊朗战争成本超出想象——推高通胀并威胁股市</span>
+        <span class="by">MarketWatch</span>
+        <p class="as">分析指出五角大楼对伊朗战争的成本低估，实际开支推高通胀并影响投资者投资组合。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting" target="_blank" rel="noopener">
+        <span class="at">SEC投资者咨询委员会将于6月4日举行会议</span>
+        <span class="by">SEC Press Releases</span>
+        <p class="as">SEC投资者咨询委员会将于6月4日在华盛顿总部举行公开会议，讨论私募市场、被动指数基金及基金命名建议。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/rbnz-yet-to-see-strong-second-round-price-pressure-silk-says" target="_blank" rel="noopener">
+        <span class="at">新西兰联储尚未看到强劲的第二轮通胀压力</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">新西兰联储助理行长西尔克表示尚未见到中期通胀压力出现，但准备在必要时强力回应。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bloomberg.com/news/videos/2026-05-28/musalem-says-fed-policy-at-or-slightly-below-neutral-video" target="_blank" rel="noopener">
+        <span class="at">穆萨莱姆：美联储政策“处于或略低于”中性水平</span>
+        <span class="by">Bloomberg Economics</span>
+        <p class="as">圣路易斯联储主席穆萨莱姆认为在FOMC上次会议时，宽松倾向已不再与经济风险平衡一致。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.marketwatch.com/story/im-setting-up-brokerage-accounts-for-my-grandkids-in-my-daughters-name-is-that-wise-or-am-i-asking-for-trouble-6728b2b2?mod=mw_rss_topstories" target="_blank" rel="noopener">
+        <span class="at">我为孙辈以女儿名义开立经纪账户，明智吗？</span>
+        <span class="by">MarketWatch</span>
+        <p class="as">一位祖父咨询以女儿名义为孙辈开设经纪账户并向标普500等基金投资是否明智，专家提供建议。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.marketwatch.com/story/earnings-season-slows-but-these-7-stocks-pack-explosive-sawtooth-volatility-next-week-d519d174?mod=mw_rss_topstories" target="_blank" rel="noopener">
+        <span class="at">财报季放缓但7只股票下周将现“锯齿”剧烈波动</span>
+        <span class="by">MarketWatch</span>
+        <p class="as">标普500闪现积极信号，七只股票预期在下周因财报事件出现剧烈波动，投资者可关注。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories" target="_blank" rel="noopener">
+        <span class="at">估值过高的股市刚刚闪现罕见买入信号</span>
+        <span class="by">MarketWatch</span>
+        <p class="as">市场时机指标显示投资者以前所未有的速度撤离，逆向投资者可视为买入机会。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm" target="_blank" rel="noopener">
+        <span class="at">美联储对Atlantic Union Bank和Frost Bank前雇员采取执法行动</span>
+        <span class="by">Federal Reserve</span>
+        <p class="as">美联储公布对Atlantic Union Bank和Frost Bank前雇员的执法行动，但未披露具体细节。</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-29/japan-2-year-bond-sale-sees-demand-in-line-with-12-month-average-mpqdmtdp" target="_blank" rel="noopener">
+        <span class="at">日本两年期国债收益率在平淡拍卖后上升</span>
+        <span class="by">Bloomberg Markets</span>
+        <p class="as">日本两年期国债拍卖需求略弱，收益率小幅上行，市场预期日本央行近期加息。</p>
         <span class="more">阅读全文 →</span>
       </a>
     </div>
 
     <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
-      <a href="../archive.html">往期 →</a>
-    </footer>
-  </article>
-  <article class="sheet" id="page-4">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
-      <h2>🧰 开源与工具</h2>
-      <span class="ed">第 4 版 / 共 6 版</span>
-    </header>
-
-    <div class="columns">
-      <a class="art" href="https://simonwillison.net/2026/May/28/llm-anthropic" target="_blank" rel="noopener">
-        <span class="at">llm-anthropic 0.25.1 发布：支持 Claude Opus 4.8</span>
-        <span class="by">Simon Willison</span>
-        <p class="as">新版本添加 Claude Opus 4.8 模型支持、快速模式选项，并调整默认 max_tokens。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28827" target="_blank" rel="noopener">
-        <span class="at">RightNow-Arabic-0.5B-Turbo：开源阿拉伯语小模型</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">518M 参数的阿拉伯语专用 LLM，基于 Qwen2.5-0.5B，通过扩展词汇表继续预训练。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here" target="_blank" rel="noopener">
-        <span class="at">GitHub Shop 户外系列发布</span>
-        <span class="by">GitHub Blog</span>
-        <p class="as">GitHub Shop 推出户外系列，鼓励开发者离开工位。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://nick.winans.io/blog/nice-nano" target="_blank" rel="noopener">
-        <span class="at">我在宿舍做出了百万美元产品（nice!nano）</span>
-        <span class="by">Nick Winans</span>
-        <p class="as">基于 nRF52840 的无线键盘控制器 nice!nano 的创业故事，硬件开源。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28830" target="_blank" rel="noopener">
-        <span class="at">开源安全守卫模型基准测试：14 个模型的综合评估</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">对 14 个开源安全模型在 8 类安全场景上进行评测，发现召回率是关键指标。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
-    <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
-      <a href="../archive.html">往期 →</a>
-    </footer>
-  </article>
-  <article class="sheet" id="page-5">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
-      <h2>🚀 产品与创业</h2>
-      <span class="ed">第 5 版 / 共 6 版</span>
-    </header>
-
-    <div class="columns">
-      <a class="art" href="https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point" target="_blank" rel="noopener">
-        <span class="at">Glean 年收入突破 3 亿美元，AI 预算削减成为主要卖点</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">企业 AI 搜索初创公司 Glean 营收翻三倍，尽管科技巨头进入同一赛道。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/corgi-announces-106m-raise-at-2-6b-valuation-three-weeks-after-160m-series-b" target="_blank" rel="noopener">
-        <span class="at">Corgi 宣布 1.06 亿美元融资，估值 26 亿美元——三周翻倍</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">Corgi 在 Series B 三周后再次融资，估值翻倍，引发对投资者重合的疑问。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/h1-secures-40m-from-cvs-proving-saas-startups-can-still-attract-investment" target="_blank" rel="noopener">
-        <span class="at">H1 从 CVS 获得 4000 万美元融资，证明 SaaS 初创仍具吸引力</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">H1 获得 CVS 投资，CEO 强调其医生数据不可被 AI 复制。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/bluesky-embraces-long-form-content-to-counter-x-articles" target="_blank" rel="noopener">
-        <span class="at">Bluesky 拥抱长文内容以对抗 X Articles</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">Bluesky 最新更新支持长文发布。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/startup-battlefield-200-application-deadline-extended-to-june-8-after-overwhelming-demand" target="_blank" rel="noopener">
-        <span class="at">Startup Battlefield 2026 申请截止延长至 6 月 8 日</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">由于需求旺盛，TechCrunch 将 Startup Battlefield 200 申请截止延至 6 月 8 日。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://techcrunch.com/2026/05/28/why-paris-may-be-the-most-important-ai-city-outside-silicon-valley" target="_blank" rel="noopener">
-        <span class="at">巴黎可能成为硅谷之外最重要的 AI 城市</span>
-        <span class="by">TechCrunch</span>
-        <p class="as">欧洲创业生态系统成熟，创始人更愿意本土发展。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
-    <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
-      <a href="../archive.html">往期 →</a>
-    </footer>
-  </article>
-  <article class="sheet" id="page-6">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-    <header class="pagehead">
-      <h2>🔬 研究论文</h2>
-      <span class="ed">第 6 版 / 共 6 版</span>
-    </header>
-
-    <div class="columns">
-      <a class="art" href="https://arxiv.org/abs/2605.28864" target="_blank" rel="noopener">
-        <span class="at">认知类别 Transformer：用于语言建模的范畴论归纳偏置</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">CCT 在 GPT-2 基础上融入范畴论认知组件，WikiText-103 上困惑度降低 12%。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28829" target="_blank" rel="noopener">
-        <span class="at">Aryabhata 2：基于强化学习扩展 STEM 推理能力</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">针对竞赛级 STEM 考试训练的推理模型，使用 RL 后训练。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28849" target="_blank" rel="noopener">
-        <span class="at">行为诱导的 Mirror-Prox 时序差分学习</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">提出 STHTD-MP 方法，用行为策略转移信息替代协方差度量，加速离策略预测。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28825" target="_blank" rel="noopener">
-        <span class="at">MechELK：从 LLM 中引出潜在知识的机制性可解释框架</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">统一框架结合机械可解释性与对比搜索，从 LLM 内部提取隐藏知识。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28823" target="_blank" rel="noopener">
-        <span class="at">它们在思考什么？LLM 中概念的界定、探测与追踪</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">开发低成本概念探针，可监测 LLM 推理过程中的概念存在。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.29018" target="_blank" rel="noopener">
-        <span class="at">采用不等于适应：LLM 对话的纵向分析</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">分析约 12,000 名 Bing Copilot 用户行为，发现用户习惯高度固化。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
-    <footer class="colophon">
-      <a href="#page-1">← 返回头版</a>
+      <a href="#page-2">← 上一版</a>
       <a href="../archive.html">往期 →</a>
     </footer>
   </article>

@@ -3,15 +3,15 @@
   "title": "信息日报 2026-05-29",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "Claude Opus 4.8 发布：诚实性改进与动态工作流工具",
-    "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8",
+    "title": "Anthropic和OpenAI已找到产品市场契合点",
+    "url": "https://simonwillison.net/2026/May/27/product-market-fit",
     "source": "Simon Willison",
-    "summary": "Anthropic 发布了 Claude Opus 4.8，该版本被描述为“微小但实质性的改进”，最突出的改进是诚实性——模型更少做出无根据的声明。此外还推出了名为 Dynamic Workflows 的新工具，用于协调子代理集群。该模型已在 llm-anthropic 插件中可用。",
-    "published_at": "2026-05-28T23:59:50+00:00",
-    "reason": "Claude Opus 4.8 代表了当前顶级 LLM 的最新迭代，其实诚性改进和动态工作流功能对 AI 应用具有重要影响，且 Anthropic 的融资与估值消息进一步凸显其行业地位。",
-    "score": 6.1
+    "summary": "Anthropic和OpenAI均被强烈传闻即将迎来首个盈利季度，企业客户因员工大量使用LLM而面临高昂账单，表明两者已找到产品市场契合点。",
+    "published_at": "2026-05-27T16:38:35+00:00",
+    "reason": "反映AI行业商业化关键里程碑，影响深远",
+    "score": 18.1
   },
   "path": "papers/2026-05-29.html",
-  "raw_count": 120,
-  "source_count": 14
+  "raw_count": 180,
+  "source_count": 25
 }

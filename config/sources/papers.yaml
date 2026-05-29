@@ -4,19 +4,19 @@ sources:
     type: "rss"
     enabled: true
     url: "https://export.arxiv.org/rss/cs.AI"
-    default_section: "papers"
+    default_section: "ai-tech"
     weight: 0.9
   - id: "arxiv-cl"
     name: "arXiv cs.CL"
     type: "rss"
     enabled: true
     url: "https://export.arxiv.org/rss/cs.CL"
-    default_section: "papers"
+    default_section: "ai-tech"
     weight: 0.9
   - id: "arxiv-lg"
     name: "arXiv cs.LG"
     type: "rss"
     enabled: true
     url: "https://export.arxiv.org/rss/cs.LG"
-    default_section: "papers"
+    default_section: "ai-tech"
     weight: 0.9

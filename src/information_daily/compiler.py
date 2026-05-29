@@ -96,6 +96,8 @@ def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: 
                 title=section.title,
                 icon=section.icon,
                 articles=tuple(_compiled_article(article, score) for article, score in items),
+                briefing_title=f"{section.title}总结",
+                briefing_summary=_fallback_section_briefing(section, items),
             )
         )
 
@@ -121,21 +123,18 @@ def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: da
     if not api_key:
         raise ConfigError(f"Missing required LLM secret: {config.llm.api_key_env}")
 
-    candidates = []
-    for article in articles[: config.llm.max_input_items]:
-        section, score = _best_section(config, article)
-        candidates.append(
-            {
-                "id": article.id,
-                "title": article.title,
-                "url": article.url,
-                "source": article.source_name,
-                "summary": article.summary[:700],
-                "published_at": article.published_at.isoformat() if article.published_at else None,
-                "suggested_section": section.id,
-                "score": round(score, 2),
-            }
-        )
+    ranked_by_section = _ranked_candidates_by_section(config, articles)
+    targets_by_section = {
+        section.id: min(section.max_articles, len(ranked_by_section.get(section.id, [])))
+        for section in config.sections
+    }
+    candidates_by_section = {}
+    for section in config.sections:
+        section_candidates = ranked_by_section.get(section.id, [])
+        candidates_by_section[section.id] = [
+            _article_candidate_payload(article, score)
+            for article, score in section_candidates[: max(section.max_articles * 2, section.max_articles)]
+        ]
 
     payload = {
         "model": os.environ.get(config.llm.model_env, config.llm.default_model),
@@ -148,6 +147,7 @@ def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: da
                     "你是严格的中文日报编辑和翻译。只能基于输入候选文章编纂，不得编造事实、链接、来源或日期。"
                     "所有新闻标题、摘要和入选理由必须用简体中文表达；英文只允许保留公司名、产品名、论文名、专有名词和来源名。"
                     "如果原文标题是英文，也要翻译成自然的中文新闻标题。输出必须是合法 JSON，不要 Markdown。"
+                    "每个版面都必须从对应候选池中尽量选满 target_articles 条，除非该版候选数量不足。"
                 ),
             },
             {
@@ -163,8 +163,15 @@ def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: da
                                 "title": section.title,
                                 "icon": section.icon,
                                 "max_articles": section.max_articles,
+                                "target_articles": targets_by_section[section.id],
                             }
                             for section in config.sections
+                        ],
+                        "requirements": [
+                            "sections 必须覆盖所有 section id，不能漏版。",
+                            "每个 sections[i].articles 的数量必须等于该版 target_articles。",
+                            "每个版面只能从 candidates_by_section[section_id] 中选择文章。",
+                            "不要因为其他版面更重要而压缩国际事务或财经理财版面。",
                         ],
                         "schema": {
                             "briefing": {
@@ -182,6 +189,10 @@ def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: da
                             "sections": [
                                 {
                                     "id": "section id",
+                                    "briefing": {
+                                        "title": "例如：AI 科技总结",
+                                        "summary": "120-220字简体中文，概括本版新闻重点",
+                                    },
                                     "articles": [
                                         {
                                             "title": "简体中文新闻标题",
@@ -195,7 +206,7 @@ def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: da
                                 }
                             ],
                         },
-                        "candidates": candidates,
+                        "candidates_by_section": candidates_by_section,
                     },
                     ensure_ascii=False,
                 ),
@@ -255,6 +266,7 @@ def _issue_from_llm_data(
     issue_date: date,
 ) -> Issue:
     allowed_by_url = {article.url: article for article in articles}
+    ranked_by_section = _ranked_candidates_by_section(config, articles)
     headline = _compiled_from_mapping(data.get("headline"), allowed_by_url)
     if headline is None and articles:
         headline = _compiled_article(articles[0], 0)
@@ -266,19 +278,34 @@ def _issue_from_llm_data(
             llm_sections_by_id[item["id"]] = item
 
     sections: list[CompiledSection] = []
+    used_urls = {headline.url} if headline else set()
     for section in config.sections:
-        raw_items = (llm_sections_by_id.get(section.id) or {}).get("articles") or []
-        compiled = tuple(
+        raw_section = llm_sections_by_id.get(section.id) or {}
+        raw_items = raw_section.get("articles") or []
+        raw_briefing = raw_section.get("briefing") if isinstance(raw_section.get("briefing"), dict) else {}
+        compiled = [
             item
             for item in (_compiled_from_mapping(raw_item, allowed_by_url) for raw_item in raw_items)
             if item is not None
-        )[: section.max_articles]
+        ][: section.max_articles]
+        used_urls.update(item.url for item in compiled)
+        for article, score in ranked_by_section.get(section.id, []):
+            if len(compiled) >= section.max_articles:
+                break
+            if article.url in used_urls:
+                continue
+            compiled.append(_compiled_article(article, score))
+            used_urls.add(article.url)
         sections.append(
             CompiledSection(
                 id=section.id,
                 title=section.title,
                 icon=section.icon,
-                articles=compiled,
+                articles=tuple(compiled),
+                briefing_title=normalize_space(str(raw_briefing.get("title") or f"{section.title}总结")),
+                briefing_summary=normalize_space(
+                    str(raw_briefing.get("summary") or _fallback_section_briefing(section, []))
+                ),
             )
         )
 
@@ -297,6 +324,37 @@ def _issue_from_llm_data(
         warnings=(),
         generated_at=_now(config),
     )
+
+
+def _ranked_candidates_by_section(
+    config: AppConfig,
+    articles: list[Article],
+) -> dict[str, list[tuple[Article, float]]]:
+    by_section = {section.id: [] for section in config.sections}
+    for article in articles:
+        section, score = _best_section(config, article)
+        by_section.setdefault(section.id, []).append((article, score))
+    for items in by_section.values():
+        items.sort(
+            key=lambda row: (
+                row[1],
+                row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC")),
+            ),
+            reverse=True,
+        )
+    return by_section
+
+
+def _article_candidate_payload(article: Article, score: float) -> dict:
+    return {
+        "id": article.id,
+        "title": article.title,
+        "url": article.url,
+        "source": article.source_name,
+        "summary": article.summary[:360],
+        "published_at": article.published_at.isoformat() if article.published_at else None,
+        "score": round(score, 2),
+    }
 
 
 def _compiled_from_mapping(value: object, allowed_by_url: dict[str, Article]) -> CompiledArticle | None:
@@ -357,6 +415,19 @@ def _fallback_briefing(scored: list[tuple[Article, SectionConfig, float]]) -> st
         "这是本地规则模式生成的版式预览，未进行正式中文翻译。"
         "生产环境配置 LLM 后，这里会自动汇总今日重点、翻译标题与摘要，并按栏目生成中文日报。"
         f" 本次预览共读取 {len(scored)} 条候选内容，主要来源包括：{'、'.join(top_sources)}。"
+    )
+
+
+def _fallback_section_briefing(
+    section: SectionConfig,
+    items: list[tuple[Article, float]],
+) -> str:
+    if not items:
+        return f"{section.title}暂无足够内容生成总结。请检查该类别的数据源、关键词或 LLM 输出。"
+    titles = "；".join(article.title for article, _ in items[:4])
+    return (
+        f"本版聚焦 {section.title}。本地规则预览未进行正式中文编纂，"
+        f"生产环境会由 LLM 生成本类别摘要。本版重点包括：{titles}。"
     )
 
 
