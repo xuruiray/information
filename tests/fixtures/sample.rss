@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample RSS</title>
+    <item>
+      <title>OpenAI releases a new agent framework</title>
+      <link>https://example.com/openai-agent?utm_source=test</link>
+      <description><![CDATA[<p>A short update about AI agents and developer workflows.</p>]]></description>
+      <pubDate>Fri, 29 May 2026 01:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python database tooling improves</title>
+      <link>https://example.com/python-db</link>
+      <description>New database tools for Python developers.</description>
+      <pubDate>Fri, 29 May 2026 02:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sample Atom</title>
+  <entry>
+    <title>Launch of a useful open source CLI</title>
+    <link href="https://example.com/oss-cli" rel="alternate"/>
+    <summary>A command line tool for open source maintainers.</summary>
+    <updated>2026-05-29T03:00:00Z</updated>
+  </entry>
+</feed>

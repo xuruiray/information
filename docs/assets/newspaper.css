@@ -1,0 +1,334 @@
+:root{
+  --paper:#f3ece0;
+  --paper2:#efe7d8;
+  --ink:#1c1a17;
+  --muted:#5a5347;
+  --rule:#2a2722;
+  --accent:#7a1f1a;
+  --link:#243b6b;
+  --soft:#d7cab0;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  padding:32px 16px 72px;
+  min-height:100vh;
+  background:#2f2a25;
+  background-image:radial-gradient(circle at 30% 10%, #3a342d 0%, #221e1a 75%);
+  color:var(--ink);
+  font-family:"Songti SC","Noto Serif SC","Source Han Serif SC",STSong,SimSun,Georgia,"Times New Roman",serif;
+  -webkit-font-smoothing:antialiased;
+  perspective:2000px;
+}
+a{color:inherit;}
+.stage{max-width:1060px;margin:0 auto;perspective:2000px;}
+.sheet{
+  position:relative;
+  margin:0 auto 34px;
+  padding:38px 48px 44px;
+  background:var(--paper);
+  background-image:
+    radial-gradient(circle at 18% 10%, rgba(255,255,255,.45), transparent 42%),
+    radial-gradient(circle at 84% 92%, rgba(120,90,50,.10), transparent 46%),
+    repeating-linear-gradient(0deg, rgba(42,39,34,.025) 0 1px, transparent 1px 7px),
+    repeating-linear-gradient(90deg, rgba(42,39,34,.018) 0 1px, transparent 1px 9px);
+  border-radius:2px;
+  box-shadow:0 2px 0 #d9cfba,0 30px 60px rgba(0,0,0,.55),inset 0 0 60px rgba(120,90,50,.10);
+  transform-style:preserve-3d;
+  transition:transform .12s ease-out;
+  will-change:transform;
+}
+.sheet::before,.sheet::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:var(--paper2);
+  border-radius:2px;
+  box-shadow:0 18px 40px rgba(0,0,0,.4);
+}
+.sheet::before{transform:translate(6px,8px) rotate(.4deg);}
+.sheet::after{transform:translate(11px,15px) rotate(-.6deg);}
+.peel{
+  position:absolute;
+  top:0;
+  right:0;
+  width:50px;
+  height:50px;
+  border:0;
+  cursor:pointer;
+  z-index:5;
+  background:linear-gradient(225deg,var(--paper) 46%,#cdbfa3 50%,#7c6f57 60%,rgba(0,0,0,.25) 100%);
+  box-shadow:-3px 3px 8px rgba(0,0,0,.25);
+  clip-path:polygon(100% 0,0 0,100% 100%);
+  transition:width .18s,height .18s,box-shadow .18s;
+}
+.peel:hover{width:80px;height:80px;box-shadow:-6px 6px 14px rgba(0,0,0,.35);}
+.masthead{
+  text-align:center;
+  border-bottom:4px double var(--rule);
+  padding-bottom:11px;
+}
+.corners{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  color:var(--muted);
+  font:600 11px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+.title{
+  margin:.06em 0 .04em;
+  font-size:clamp(38px,6.4vw,70px);
+  line-height:1.02;
+  letter-spacing:.06em;
+  font-weight:700;
+  text-shadow:0 1px 0 rgba(255,255,255,.5);
+}
+.subtitle{
+  color:var(--muted);
+  font:700 11.5px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.35em;
+  text-transform:uppercase;
+}
+.dateline{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  margin-top:8px;
+  padding:5px 0;
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+  color:var(--muted);
+  font:500 11.5px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.notice{
+  margin:12px 0 0;
+  padding:7px 12px;
+  border:1px solid #c9bfa0;
+  border-left:4px solid var(--accent);
+  background:rgba(255,255,255,.35);
+  color:#4a443b;
+  font-size:11.5px;
+  line-height:1.45;
+}
+.notice p{margin:0;}
+.frontgrid{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 250px;
+  gap:28px;
+  margin-top:14px;
+}
+.lead-label{
+  margin-bottom:4px;
+  color:var(--accent);
+  font:700 11.5px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.4em;
+  text-transform:uppercase;
+}
+.lead-main{
+  display:block;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-bottom:2px solid var(--rule);
+  color:var(--ink);
+  text-decoration:none;
+}
+.briefing{
+  color:var(--ink);
+}
+.lead-main .lt{
+  display:block;
+  font-size:clamp(26px,4.1vw,40px);
+  line-height:1.08;
+  font-weight:700;
+}
+.headline-link{
+  display:inline-block;
+  margin-top:7px;
+  color:var(--link);
+  font:700 12px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  text-decoration:none;
+}
+.headline-link:hover{text-decoration:underline;}
+.standfirst{
+  margin:7px 0 0;
+  color:#34302a;
+  font-size:14px;
+  line-height:1.5;
+}
+.by{
+  display:block;
+  margin-top:6px;
+  color:var(--muted);
+  font:600 10.5px/1.3 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.03em;
+}
+.lead-rest .hl{
+  display:block;
+  padding:7px 0;
+  border-top:1px dotted #b9ac90;
+  color:var(--ink);
+  text-decoration:none;
+}
+.lead-rest .hl:hover,.art:hover .at{color:var(--accent);}
+.lead-rest .t{
+  display:block;
+  font-size:16px;
+  line-height:1.22;
+  font-weight:700;
+}
+.lead-rest .s{
+  display:block;
+  margin-top:3px;
+  color:#4a443b;
+  font-size:12px;
+  line-height:1.42;
+}
+.index{
+  height:max-content;
+  padding:11px 13px;
+  border:1px solid var(--rule);
+  background:rgba(255,255,255,.28);
+}
+.index h2{
+  margin:0 0 8px;
+  padding-bottom:5px;
+  border-bottom:1px solid var(--rule);
+  font-size:14px;
+  letter-spacing:.1em;
+}
+.index ul{list-style:none;margin:0;padding:0;}
+.index li{margin:0 0 5px;}
+.index a{
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  color:var(--ink);
+  font-size:12px;
+  line-height:1.28;
+  text-decoration:none;
+}
+.index a:hover{color:var(--accent);}
+.index .pg{
+  flex:none;
+  color:var(--muted);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  white-space:nowrap;
+}
+.archive-link{
+  margin-top:9px;
+  padding-top:8px;
+  border-top:1px solid var(--soft);
+  color:var(--link)!important;
+}
+.pagehead{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:10px;
+  padding-bottom:6px;
+  border-bottom:3px double var(--rule);
+}
+.pagehead h2{
+  margin:0;
+  font-size:22px;
+  line-height:1.15;
+  letter-spacing:.06em;
+}
+.pagehead .ed{
+  color:var(--muted);
+  font:600 10.5px/1.3 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.1em;
+  white-space:nowrap;
+}
+.columns{
+  column-width:260px;
+  column-gap:28px;
+  column-rule:1px solid #cfc2a6;
+}
+.art{
+  break-inside:avoid;
+  display:block;
+  margin:0 -8px 5px;
+  padding:8px;
+  border-bottom:1px solid var(--soft);
+  border-radius:4px;
+  color:var(--ink);
+  text-decoration:none;
+  transition:transform .12s,box-shadow .12s,background .12s;
+}
+.art:hover{
+  background:rgba(255,255,255,.55);
+  box-shadow:0 6px 16px rgba(0,0,0,.12);
+  transform:translateY(-2px);
+}
+.art .at{
+  display:block;
+  font-size:15.5px;
+  line-height:1.22;
+  font-weight:700;
+}
+.as{
+  margin:4px 0 0;
+  color:#34302a;
+  font-size:12px;
+  line-height:1.46;
+  text-align:justify;
+}
+.more{
+  display:inline-block;
+  margin-top:4px;
+  color:var(--link);
+  font:600 10.5px/1.3 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.archive-list{
+  margin-top:14px;
+  column-width:260px;
+  column-gap:28px;
+  column-rule:1px solid #cfc2a6;
+}
+.empty{
+  margin:14px 0 0;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.5;
+}
+.colophon{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  margin-top:18px;
+  padding-top:9px;
+  border-top:4px double var(--rule);
+  color:var(--muted);
+  font:600 10.5px/1.3 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.06em;
+}
+.colophon a{
+  color:var(--link);
+  text-decoration:none;
+}
+.colophon a:hover{text-decoration:underline;}
+@media (max-width:760px){
+  body{padding:18px 8px 50px;}
+  .sheet{padding:22px 18px 30px;margin-bottom:24px;}
+  .corners,.pagehead,.colophon{align-items:flex-start;flex-direction:column;}
+  .title{font-size:clamp(36px,13vw,54px);}
+  .subtitle{letter-spacing:.22em;}
+  .frontgrid{grid-template-columns:1fr;}
+  .columns,.archive-list{column-count:1;column-width:auto;}
+  .lead-main .lt{font-size:27px;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .sheet,.art,.peel{transition:none!important;}
+}
+@media print{
+  body{background:#fff;padding:0;perspective:none;}
+  .sheet{box-shadow:none;margin:0;page-break-after:always;}
+  .sheet::before,.sheet::after,.peel{display:none;}
+}

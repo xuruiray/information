@@ -1,0 +1,13 @@
+from pathlib import Path
+
+from information_daily.config import load_config
+
+
+def test_load_default_config():
+    config = load_config("ai-tech", Path.cwd())
+
+    assert config.profile_id == "ai-tech"
+    assert config.site["title"] == "信息日报"
+    assert {section.id for section in config.sections} >= {"ai", "dev", "papers"}
+    assert any(source.type == "x" for source in config.sources)
+    assert any(source.id == "openai-news" for source in config.sources)

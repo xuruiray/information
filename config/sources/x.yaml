@@ -1,0 +1,12 @@
+sources:
+  - id: "x-ai-search"
+    name: "X AI Search"
+    type: "x"
+    enabled: false
+    default_section: "ai"
+    weight: 0.7
+    mode: "search"
+    query: "(AI OR LLM OR agent) lang:en -is:retweet"
+    accounts: []
+    list_id: null
+    token_env: "X_BEARER_TOKEN"

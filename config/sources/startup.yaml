@@ -1,0 +1,15 @@
+sources:
+  - id: "product-hunt"
+    name: "Product Hunt"
+    type: "atom"
+    enabled: true
+    url: "https://www.producthunt.com/feed"
+    default_section: "startup"
+    weight: 0.85
+  - id: "techcrunch-startups"
+    name: "TechCrunch Startups"
+    type: "rss"
+    enabled: true
+    url: "https://techcrunch.com/category/startups/feed/"
+    default_section: "startup"
+    weight: 0.8

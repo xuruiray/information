@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default('zh-CN') }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }} · 往期</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>ARCHIVE</span>
+        <span>{{ site.edition_label }}</span>
+      </div>
+      <h1 class="title">往期{{ site.title }}</h1>
+      <div class="subtitle">{{ site.subtitle }}</div>
+    </header>
+
+    <div class="archive-list">
+      {% for item in items %}
+      <a class="art" href="{{ item.path }}">
+        <span class="at">{{ item.date }} {{ site.title }}</span>
+        {% if item.headline %}
+        <p class="as">{{ item.headline.title }}</p>
+        {% endif %}
+        <span class="by">{{ item.profile_id }} · {{ item.raw_count }} articles</span>
+      </a>
+      {% else %}
+      <p class="empty">暂无归档。</p>
+      {% endfor %}
+    </div>
+
+    <footer class="colophon">
+      <a href="index.html">← 返回今日</a>
+      <span>{{ generated_at }}</span>
+    </footer>
+  </article>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){ window.scrollTo({top: 0, behavior: 'smooth'}); });
+  });
+})();
+</script>
+</body>
+</html>

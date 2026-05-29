@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default('zh-CN') }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ issue.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front" id="page-1">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 {{ issue.date.strftime('%Y%m%d') }} 期</span>
+        <span>{{ issue.edition_label }}</span>
+      </div>
+      <h1 class="title">{{ issue.site_title }}</h1>
+      <div class="subtitle">{{ issue.site_subtitle }}</div>
+      <div class="dateline"><span>{{ dateline }}</span></div>
+    </header>
+
+    {% if issue.warnings %}
+    <aside class="notice">
+      {% for warning in issue.warnings %}
+      <p>{{ warning }}</p>
+      {% endfor %}
+    </aside>
+    {% endif %}
+
+    <div class="frontgrid">
+      <section class="lead" aria-labelledby="headline-label">
+        <div class="lead-label" id="headline-label">{{ issue.briefing_title }}</div>
+        <section class="lead-main briefing" aria-label="{{ issue.briefing_title }}">
+          <span class="lt">{{ issue.site_title }}速览</span>
+          <p class="standfirst">{{ issue.briefing_summary }}</p>
+          {% if issue.headline %}
+          <a class="headline-link" href="{{ issue.headline.url }}" target="_blank" rel="noopener">
+            今日重点：{{ issue.headline.title }}
+          </a>
+          {% endif %}
+        </section>
+
+        <div class="lead-rest">
+          {% for section in issue.sections %}
+            {% if section.articles %}
+            {% set article = section.articles[0] %}
+            <a class="hl" href="{{ article.url }}" target="_blank" rel="noopener">
+              <span class="t">{{ article.title }}</span>
+              <span class="s">{{ article.summary }}</span>
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <aside class="index" aria-label="本期导读">
+        <h2>本期导读</h2>
+        <ul>
+          {% for section in issue.sections %}
+          <li>
+            <a href="#page-{{ loop.index + 1 }}">
+              <span>{{ section.display_title }}</span>
+              <span class="pg">第 {{ loop.index + 1 }} 版</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <a class="archive-link" href="{{ archive_href }}">往期</a>
+      </aside>
+    </div>
+
+    <footer class="colophon">
+      <span>第 1 版 · 头版</span>
+      <a href="{{ archive_href }}">查看往期 →</a>
+    </footer>
+  </article>
+
+  {% for section in issue.sections %}
+  <article class="sheet" id="page-{{ loop.index + 1 }}">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="pagehead">
+      <h2>{{ section.display_title }}</h2>
+      <span class="ed">第 {{ loop.index + 1 }} 版 / 共 {{ issue.sections | length + 1 }} 版</span>
+    </header>
+
+    {% if section.articles %}
+    <div class="columns">
+      {% for article in section.articles %}
+      <a class="art" href="{{ article.url }}" target="_blank" rel="noopener">
+        <span class="at">{{ article.title }}</span>
+        <span class="by">{{ article.source }}</span>
+        <p class="as">{{ article.summary }}</p>
+        <span class="more">阅读全文 →</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty">本版暂无入选文章。你可以在 profile 中调整关键词、数据源或栏目权重。</p>
+    {% endif %}
+
+    <footer class="colophon">
+      <a href="#page-1">← 返回头版</a>
+      <a href="{{ archive_href }}">往期 →</a>
+    </footer>
+  </article>
+  {% endfor %}
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
+  document.querySelectorAll('.sheet').forEach(function(sheet){
+    var peel = sheet.querySelector('.peel');
+    if (peel) {
+      peel.addEventListener('click', function(){
+        window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+      });
+    }
+    if (reduce || !fine) return;
+    sheet.addEventListener('mousemove', function(event){
+      var rect = sheet.getBoundingClientRect();
+      var cx = (event.clientX - (rect.left + rect.width / 2)) / rect.width;
+      var cy = (event.clientY - (rect.top + rect.height / 2)) / rect.height;
+      sheet.style.transform = 'rotateY(' + (cx * 2.2).toFixed(2) + 'deg) rotateX(' + (-cy * 1.8).toFixed(2) + 'deg)';
+    });
+    sheet.addEventListener('mouseleave', function(){
+      sheet.style.transform = 'rotateY(0) rotateX(0)';
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-29",
+  "title": "信息日报 2026-05-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Endava借助Codex构建代理型组织",
+    "url": "https://openai.com/index/endava",
+    "source": "OpenAI News",
+    "summary": "Endava使用OpenAI的Codex构建代理型组织，通过AI代理加速软件交付，将需求分析从数周缩短至数小时。该案例展示了企业如何利用AI代理自动化复杂开发流程，提升效率。",
+    "published_at": "2026-05-28T12:00:00+00:00",
+    "reason": "分数最高，代表企业AI代理落地的实际案例，与当前趋势紧密相关。",
+    "score": 7.2
+  },
+  "path": "papers/2026-05-29.html",
+  "raw_count": 120,
+  "source_count": 14
+}

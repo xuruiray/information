@@ -1,0 +1,85 @@
+profile:
+  id: "ai-tech"
+  name: "AI 科技编程"
+  source_packages:
+    - tech
+    - papers
+    - startup
+    - x
+  selection:
+    lookback_hours: 72
+    max_raw_items: 120
+    max_per_source: 12
+    min_score: 0
+  llm:
+    enabled: true
+    provider: "openai-compatible"
+    api_key_env: "OPENAI_API_KEY"
+    base_url_env: "OPENAI_BASE_URL"
+    model_env: "OPENAI_MODEL"
+    default_base_url: "https://api.openai.com/v1"
+    default_model: "gpt-4o-mini"
+    temperature: 0.2
+    max_input_items: 70
+    summary_style: "中文，简洁，适合日报；保留事实，不夸大，不编造。"
+  sections:
+    - id: "ai"
+      title: "AI 与大模型"
+      icon: "🤖"
+      max_articles: 8
+      keywords:
+        - ai
+        - artificial intelligence
+        - llm
+        - model
+        - openai
+        - anthropic
+        - google ai
+        - hugging face
+        - agent
+    - id: "dev"
+      title: "开发与编程"
+      icon: "💻"
+      max_articles: 7
+      keywords:
+        - developer
+        - programming
+        - javascript
+        - python
+        - database
+        - frontend
+        - backend
+        - engineering
+    - id: "open-source"
+      title: "开源与工具"
+      icon: "🧰"
+      max_articles: 7
+      keywords:
+        - github
+        - open source
+        - cli
+        - tool
+        - framework
+        - library
+        - release
+    - id: "startup"
+      title: "产品与创业"
+      icon: "🚀"
+      max_articles: 6
+      keywords:
+        - startup
+        - product
+        - funding
+        - acquisition
+        - product hunt
+        - business
+    - id: "papers"
+      title: "研究论文"
+      icon: "🔬"
+      max_articles: 6
+      keywords:
+        - arxiv
+        - paper
+        - research
+        - benchmark
+        - dataset
