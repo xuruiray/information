@@ -3,12 +3,12 @@
   "title": "信息日报 2026-05-29",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "Anthropic和OpenAI已找到产品市场契合点",
+    "title": "Anthropic与OpenAI或已找到产品市场契合点",
     "url": "https://simonwillison.net/2026/May/27/product-market-fit",
     "source": "Simon Willison",
-    "summary": "Anthropic和OpenAI均被强烈传闻即将迎来首个盈利季度，企业客户因员工大量使用LLM而面临高昂账单，表明两者已找到产品市场契合点。",
+    "summary": "Anthropic被强烈传闻即将迎来首个盈利季度，企业客户LLM账单高昂，表明两家公司均找到了产品市场契合点。",
     "published_at": "2026-05-27T16:38:35+00:00",
-    "reason": "反映AI行业商业化关键里程碑，影响深远",
+    "reason": "AI领域重大商业里程碑，反映大模型商业化成功。",
     "score": 18.1
   },
   "path": "papers/2026-05-29.html",
