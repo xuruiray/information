@@ -3,13 +3,13 @@
   "title": "信息日报 2026-05-29",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "Anthropic 完成 650 亿美元融资，估值逼近 1 万亿美元，计划 IPO",
-    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo",
-    "source": "TechCrunch AI",
-    "summary": "Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，这可能是其 IPO 前的最后一轮私人融资。",
-    "published_at": "2026-05-28T18:52:51+00:00",
-    "reason": "该事件创下 AI 领域最大私人融资纪录，反映行业资本热潮和 Anthropic 的快速增长。",
-    "score": 4.95
+    "title": "Claude Opus 4.8 发布：诚实性改进与动态工作流工具",
+    "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8",
+    "source": "Simon Willison",
+    "summary": "Anthropic 发布了 Claude Opus 4.8，该版本被描述为“微小但实质性的改进”，最突出的改进是诚实性——模型更少做出无根据的声明。此外还推出了名为 Dynamic Workflows 的新工具，用于协调子代理集群。该模型已在 llm-anthropic 插件中可用。",
+    "published_at": "2026-05-28T23:59:50+00:00",
+    "reason": "Claude Opus 4.8 代表了当前顶级 LLM 的最新迭代，其实诚性改进和动态工作流功能对 AI 应用具有重要影响，且 Anthropic 的融资与估值消息进一步凸显其行业地位。",
+    "score": 6.1
   },
   "path": "papers/2026-05-29.html",
   "raw_count": 120,
