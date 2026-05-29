@@ -1,3 +1,4 @@
+import json
 from datetime import date, datetime, timezone
 from pathlib import Path
 from shutil import copytree
@@ -28,7 +29,111 @@ def test_fallback_compiles_dynamic_sections(monkeypatch):
     assert [section.id for section in issue.sections] == [section.id for section in config.sections]
     assert any(section.articles for section in issue.sections if section.id == "ai-tech")
     assert all(section.briefing_summary for section in issue.sections)
+    assert all(len(section.subsections) == 3 for section in issue.sections)
+    assert all(subsection.briefing_summary for section in issue.sections for subsection in section.subsections)
+    ai_articles = next(section.articles for section in issue.sections if section.id == "ai-tech")
+    assert ai_articles[0].title.startswith("AI 科技：")
+    assert "适合" in ai_articles[0].summary or "关注" in ai_articles[0].summary
+    assert "LLM" not in ai_articles[0].summary
+    assert "规则预览" not in ai_articles[0].summary
+    assert ai_articles[0].title_en in {
+        "New LLM benchmark compares agent coding performance",
+        "Useful open source CLI for developers",
+    }
     assert issue.warnings
+
+
+def test_llm_compiles_overview_and_sections_separately(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    calls = []
+
+    def fake_post_chat_completion(config, payload, api_key):
+        del config, api_key
+        request = json.loads(payload["messages"][1]["content"])
+        calls.append(request["task"])
+        if "总览" in request["task"]:
+            first = request["candidates_by_section"]["ai-tech"][0]
+            return json.dumps(
+                {
+                    "briefing": {
+                        "title": "今日总结",
+                        "summary": "今日信息围绕 AI、国际事务和市场变化展开，适合快速把握重点。",
+                        "title_en": "Daily Briefing",
+                        "summary_en": "Today focuses on AI, world affairs, and market moves.",
+                    },
+                    "headline": {
+                        "title": "AI 框架更新",
+                        "title_en": first["title"],
+                        "url": first["url"],
+                        "source_zh": first["source_zh"],
+                        "source_en": first["source_en"],
+                        "summary": "OpenAI 发布新的智能体框架，开发者工作流继续演进。",
+                        "summary_en": first["summary"],
+                        "reason": "代表今日 AI 工具进展",
+                        "reason_en": "It represents today's AI tooling progress.",
+                        "score": first["score"],
+                    },
+                }
+            )
+
+        section = request["section"]
+        candidates = request["candidates"]
+        subsections = []
+        for subsection in section["subsections"]:
+            chosen = next(
+                (item for item in candidates if item["suggested_subsection"] == subsection["id"]),
+                candidates[0] if candidates else None,
+            )
+            subsections.append(
+                {
+                    "id": subsection["id"],
+                    "briefing": {
+                        "title": f"{subsection['title']}总结",
+                        "summary": f"{subsection['title']}今天有清晰线索可读。",
+                        "title_en": f"{subsection['title_en']} Briefing",
+                        "summary_en": f"{subsection['title_en']} has a clear item today.",
+                    },
+                    "articles": [
+                        {
+                            "title": f"{subsection['title']}新闻",
+                            "title_en": chosen["title"],
+                            "url": chosen["url"],
+                            "source_zh": chosen["source_zh"],
+                            "source_en": chosen["source_en"],
+                            "summary": "这是一条面向读者的正式中文摘要。",
+                            "summary_en": chosen["summary"],
+                            "reason": "与本小版主题相关",
+                            "reason_en": "Relevant to the subsection.",
+                            "score": chosen["score"],
+                        }
+                    ]
+                    if chosen
+                    else [],
+                }
+            )
+        return json.dumps(
+            {
+                "id": section["id"],
+                "briefing": {
+                    "title": f"{section['title']}总结",
+                    "summary": f"{section['title']}版面完成编纂。",
+                    "title_en": f"{section['title_en']} Briefing",
+                    "summary_en": f"{section['title_en']} section is compiled.",
+                },
+                "subsections": subsections,
+            }
+        )
+
+    monkeypatch.setattr("information_daily.compiler._post_chat_completion", fake_post_chat_completion)
+
+    issue = compile_issue(config, _articles(), date(2026, 5, 29), allow_fallback=False)
+
+    assert len(calls) == 1 + len(config.sections)
+    assert "总览" in calls[0]
+    assert [section.id for section in issue.sections] == [section.id for section in config.sections]
+    assert issue.briefing_summary.startswith("今日信息围绕")
+    assert issue.headline and issue.headline.source == "OpenAI 新闻"
 
 
 def test_render_issue_writes_pages(tmp_path, monkeypatch):
@@ -41,18 +146,38 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     render_issue(config, issue, out_dir)
 
     index = (out_dir / "index.html").read_text(encoding="utf-8")
+    en_index = (out_dir / "en" / "index.html").read_text(encoding="utf-8")
     archive = (out_dir / "archive.html").read_text(encoding="utf-8")
+    en_archive = (out_dir / "en" / "archive.html").read_text(encoding="utf-8")
+    ai_page = (out_dir / "sections" / "ai-tech.html").read_text(encoding="utf-8")
+    en_ai_page = (out_dir / "en" / "sections" / "ai-tech.html").read_text(encoding="utf-8")
     paper = out_dir / "papers" / "2026-05-29.html"
+    en_paper = out_dir / "en" / "papers" / "2026-05-29.html"
+    dated_ai_page = out_dir / "papers" / "2026-05-29" / "ai-tech.html"
+    en_dated_ai_page = out_dir / "en" / "papers" / "2026-05-29" / "ai-tech.html"
 
     assert "信息日报" in index
     assert "本期三版" in index
-    assert "AI 科技总结" in index
-    assert "国际事务总结" in index
-    assert "财经理财总结" in index
-    assert index.count('class="sheet') == 3
+    assert "sections/ai-tech.html" in index
+    assert "en/index.html" in index
+    assert "Information Daily" in en_index
+    assert "Daily Editions" in en_index
+    assert "../index.html" in en_index
+    assert "前沿模型" in ai_page
+    assert "开发与工具" in ai_page
+    assert "研究与产品" in ai_page
+    assert "前沿模型总结" in ai_page
+    assert "Frontier Models" in en_ai_page
+    assert "Developer Tools" in en_ai_page
+    assert "Research &amp; Products" in en_ai_page
+    assert index.count('class="sheet') == 1
     assert 'target="_blank" rel="noopener"' in index
     assert paper.exists()
+    assert en_paper.exists()
+    assert dated_ai_page.exists()
+    assert en_dated_ai_page.exists()
     assert "往期信息日报" in archive
+    assert "Information Daily Archive" in en_archive
 
 
 def _articles():

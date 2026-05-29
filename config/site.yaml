@@ -1,10 +1,14 @@
 site:
   title: "信息日报"
+  title_en: "Information Daily"
   subtitle: "INFORMATION DAILY"
+  subtitle_en: "INFORMATION DAILY"
   description: "面向个人阅读的可配置中文日报"
+  description_en: "A configurable personal daily newspaper for focused reading"
   language: "zh-CN"
   timezone: "Asia/Shanghai"
   edition_label: "AI 编纂 · 仅供阅读"
+  edition_label_en: "AI edited · For reading only"
   archive_limit: 60
   base_url: "https://xuruiray.github.io/information/"
   pages:

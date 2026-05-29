@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default('zh-CN') }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ section.display_title }} · {{ issue.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="{{ section.id }}">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>{% if lang == 'en' %}Issue {{ issue.date.strftime('%Y%m%d') }}{% else %}第 {{ issue.date.strftime('%Y%m%d') }} 期{% endif %}</span>
+        <span>{{ issue.edition_label }}</span>
+      </div>
+      <h1 class="title">{{ issue.site_title }}</h1>
+      <div class="subtitle">{{ issue.site_subtitle }}</div>
+      <div class="dateline"><span>{{ dateline }}</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="{% if lang == 'en' %}{{ current_href }}{% else %}{{ alternate_href }}{% endif %}"{% if lang == 'en' %} aria-current="page"{% endif %}>{{ labels.language_en }}</a>
+      <a href="{% if lang == 'zh' %}{{ current_href }}{% else %}{{ alternate_href }}{% endif %}"{% if lang == 'zh' %} aria-current="page"{% endif %}>{{ labels.language_zh }}</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="{{ labels.latest_editions }}">
+      <a href="{{ index_href }}">{{ labels.overview }}</a>
+      {% for link in section_links %}
+      <a href="{{ link.href }}"{% if link.active %} aria-current="page"{% endif %}>{{ link.section.display_title }}</a>
+      {% endfor %}
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>{{ section.display_title }}</h2>
+      <span class="ed">{{ section.articles | length }} {{ labels.articles }} / {{ section.subsections | length }} {{ labels.subsections }}</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="{{ section.briefing_title }}">
+      <div class="lead-label">{{ section.briefing_title }}</div>
+      <p>{{ section.briefing_summary }}</p>
+    </section>
+
+    <div class="subsection-stack">
+      {% for subsection in section.subsections %}
+      <section class="subsection-block" id="{{ subsection.id }}">
+        <header class="subsection-head">
+          <h3>{{ subsection.title }}</h3>
+          <span>{{ subsection.articles | length }} {{ labels.articles }}</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="{{ subsection.briefing_title }}">
+          <div class="lead-label">{{ subsection.briefing_title }}</div>
+          <p>{{ subsection.briefing_summary }}</p>
+        </section>
+
+        {% if subsection.articles %}
+        <div class="columns subsection-columns">
+          {% for article in subsection.articles %}
+          <a class="art" href="{{ article.url }}" target="_blank" rel="noopener">
+            <span class="at">{{ article.title }}</span>
+            <span class="by">{{ article.source }}</span>
+            <p class="as">{{ article.summary }}</p>
+            <span class="more">{{ labels.read_more }} →</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="empty">{{ labels.empty_subsection }}</p>
+        {% endif %}
+      </section>
+      {% endfor %}
+    </div>
+
+    <footer class="colophon">
+      <a href="{{ index_href }}">← {{ labels.back_overview }}</a>
+      <a href="{{ archive_href }}">{{ labels.archive }} →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

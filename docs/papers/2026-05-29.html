@@ -9,9 +9,8 @@
 </head>
 <body>
 <div class="stage">
-  <article class="sheet front" id="page-1">
+  <article class="sheet front overview" id="overview">
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-
     <header class="masthead">
       <div class="corners">
         <span>第 20260529 期</span>
@@ -22,337 +21,92 @@
       <div class="dateline"><span>2026年5月29日 星期五</span></div>
     </header>
 
+    <nav class="language-switch" aria-label="Language">
+      <a href="../en/papers/2026-05-29.html">English</a>
+      <a href="../index.html" aria-current="page">中文</a>
+    </nav>
 
-    <header class="pagehead category-head">
-      <h2>01 AI 科技</h2>
-      <span class="ed">第 1 版 / 共 3 版</span>
-    </header>
 
-    <section class="briefing-panel issue-briefing" aria-label="今日概览">
-      <div class="lead-label">今日概览</div>
-      <p>今日重点：AI领域Anthropic与OpenAI产品市场契合确认，Opus 4.8发布；国际方面美伊停火谈判取得进展，刚果埃博拉疫情引担忧；财经市场受停火预期提振，股市创纪录，油价回落。</p>
-      <a class="headline-link" href="https://simonwillison.net/2026/May/27/product-market-fit" target="_blank" rel="noopener">
-        今日重点：Anthropic与OpenAI或已找到产品市场契合点
+    <section class="briefing-panel issue-briefing" aria-label="AI 总结">
+      <div class="lead-label">AI 总结</div>
+      <p>今日日报涵盖三大领域：AI科技方面，Anthropic发布Claude Opus 4.8，带来适度但切实的提升；多篇前沿研究探讨LLM在工程、金融、药物发现等领域的应用。国际事务方面，美伊互袭后和平前景不明，欧盟拟限制中国进口，刚果（金）埃博拉疫情因援助削减而加剧。财经理财方面，美股高位震荡等待伊朗协议，美联储官员称加息时机未到，肯尼亚通胀因油价飙升创两年新高。</p>
+      <a class="headline-link" href="https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap" target="_blank" rel="noopener">
+        今日重点: 美股高位震荡，市场静待美伊和平协议
       </a>
     </section>
 
     <nav class="edition-nav" aria-label="本期三版">
       <span>本期三版</span>
-      <a href="#page-1">01 AI 科技</a>
-      <a href="#page-2">02 国际事务</a>
-      <a href="#page-3">03 财经理财</a>
+      <a href="2026-05-29/ai-tech.html">01 AI 科技</a>
+      <a href="2026-05-29/world.html">02 国际事务</a>
+      <a href="2026-05-29/finance.html">03 财经理财</a>
     </nav>
 
-    <section class="briefing-panel category-briefing" aria-label="AI科技版总结">
-      <div class="lead-label">AI科技版总结</div>
-      <p>Anthropic发布Claude Opus 4.8，带来动态工作流工具；多项研究聚焦模型可解释性、灾难性遗忘、安全对齐等前沿方向；开源安全防护模型基准测试发布。</p>
+    <section class="edition-grid" aria-label="分类页面">
+      <a class="edition-card" href="2026-05-29/ai-tech.html">
+        <span class="edition-no">01</span>
+        <span class="edition-title">AI 科技</span>
+        <span class="edition-summary">Anthropic 发布 Claude Opus 4.8，带来“动态工作流”工具，可协调子代理集群。OpenAI 发布前沿治理框架，并与 MUFG、Endava 合作推进 AI 原生转型。多篇 arXiv 论文探索 LLM 在表型注释、有限元分析、药物优化等领域的应用，以及模型遗忘机制、安全护栏等研究。</span>
+        <span class="edition-subheads">
+          <span>前沿模型 · 5</span>
+          <span>开发与工具 · 5</span>
+          <span>研究与产品 · 5</span>
+        </span>
+      </a>
+      <a class="edition-card" href="2026-05-29/world.html">
+        <span class="edition-no">02</span>
+        <span class="edition-title">国际事务</span>
+        <span class="edition-summary">美伊接近达成60天协议，但双方仍互有打击；俄罗斯无人机落入罗马尼亚引发北约谴责；以色列扩大加沙控制并打击贝鲁特；欧盟拟限制中国进口；刚果（金）埃博拉疫情持续，世卫组织总干事抵达；葡萄牙创下五月高温纪录；加拿大总理呼吁美加新伙伴关系。</span>
+        <span class="edition-subheads">
+          <span>地缘与安全 · 5</span>
+          <span>政府与政策 · 5</span>
+          <span>全球社会 · 5</span>
+        </span>
+      </a>
+      <a class="edition-card" href="2026-05-29/finance.html">
+        <span class="edition-no">03</span>
+        <span class="edition-title">财经理财</span>
+        <span class="edition-summary">全球市场在伊朗和平协议预期下高位震荡，美股持稳于历史高点。美联储官员暗示加息时机未到，欧洲多国通胀加速推升加息预期。日本央行或于6月加息，瑞典经济萎缩支持利率不变。个人理财方面，专家提醒谨慎选择财务顾问。</span>
+        <span class="edition-subheads">
+          <span>市场与资产 · 7</span>
+          <span>宏观与政策 · 7</span>
+          <span>理财与监管 · 1</span>
+        </span>
+      </a>
     </section>
 
-    <div class="columns">
-      <a class="art" href="https://simonwillison.net/2026/May/27/product-market-fit" target="_blank" rel="noopener">
-        <span class="at">Anthropic与OpenAI或已找到产品市场契合点</span>
-        <span class="by">Simon Willison</span>
-        <p class="as">Anthropic被强烈传闻即将迎来首个盈利季度，企业客户LLM账单高昂，表明两家公司均找到了产品市场契合点。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">
-        <span class="at">Claude Opus 4.8：“温和但切实的改进”</span>
-        <span class="by">Simon Willison</span>
-        <p class="as">Anthropic发布Claude Opus 4.8，官方称其为温和但切实的改进，并承诺未来将以更低成本提供类似能力。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28965" target="_blank" rel="noopener">
-        <span class="at">前沿LLM智能体可克服自然表型本体策划瓶颈</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">将自由文本表型描述链接到本体术语的自动标注方法，利用LLM智能体实现规模化比较形态学数据整合。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
-        <span class="at">VFEAgent：面向端到端有限元分析的多模态智能体框架</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">提出多模态智能体自动化有限元分析工作流，克服现有方法在处理多模态输入方面的局限。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28994" target="_blank" rel="noopener">
-        <span class="at">BEAMS：AI建模与仿真的基准测试与评估</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">BEAMS倡议旨在指导AI模拟建模工具的发展，强调辅助而非替代人类专长，支持实际决策。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28825" target="_blank" rel="noopener">
-        <span class="at">MechELK：基于机制可解释性的大型语言模型潜在知识激发框架</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">提出新框架从LLM内部表征中激发未被表面输出忠实反映的潜在知识，超越现有对比一致性搜索方法。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28850" target="_blank" rel="noopener">
-        <span class="at">LLM交易智能体中的表征签名与风险反馈对齐</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">通过可审计的交易测试平台，研究LLM智能体在金融决策中的行为对齐和表征动态。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28860" target="_blank" rel="noopener">
-        <span class="at">灾难性遗忘的机制根源：强化学习为何比监督微调更好地保留电路？</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">揭示RL在微调中保留先前能力优于SFT的机械论原因，归因于策略梯度更新更接近基线模型。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28862" target="_blank" rel="noopener">
-        <span class="at">通过智能体工具规划进行分子先导优化</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">利用智能体工具规划优化药物先导化合物的ADMET性质，实现高效的结构精炼。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://simonwillison.net/2026/May/27/sqlite-agents" target="_blank" rel="noopener">
-        <span class="at">SQLite 的 AGENTS.md 文件</span>
-        <span class="by">Simon Willison</span>
-        <p class="as">SQLite新增AGENTS.md文件，旨在指导AI智能体与代码库交互，强调需事先获得贡献许可。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28897" target="_blank" rel="noopener">
-        <span class="at">论文审阅街机：LLM审阅的人类对齐与可博弈性研究</span>
-        <span class="by">arXiv cs.AI</span>
-        <p class="as">实证评估LLM生成的科学论文审阅与人类审阅的一致性，并探讨作者利用LLM修改论文的可能。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
-        <span class="at">轻量级多模态LLM实现输电设备缺陷分级</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">提出轻量级多模态LLM方法解决输电设备缺陷分级中的专家经验整合和类别不平衡问题。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28830" target="_blank" rel="noopener">
-        <span class="at">开源安全防护模型基准测试：全面评估</span>
-        <span class="by">arXiv cs.CL</span>
-        <p class="as">在8个NIST安全类别、79331个样本上全面评估14个开源安全防护模型，提供性能概况。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
-        <span class="at">TaxDistill：通过蒸馏基因组基础模型改进宏基因组分类注释</span>
-        <span class="by">arXiv cs.LG</span>
-        <p class="as">利用知识蒸馏从基因组基础模型中提取特征，提升宏基因组DNA片段的微生物分类准确性。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
-    <footer class="colophon">
-      <span>第 1 版 · AI 科技</span>
-      <a href="#page-2">下一版 →</a>
-    </footer>
-  </article>
-  <article class="sheet" id="page-2">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-
-
-
-    <header class="pagehead category-head">
-      <h2>02 国际事务</h2>
-      <span class="ed">第 2 版 / 共 3 版</span>
-    </header>
-
-
-    <section class="briefing-panel category-briefing" aria-label="国际事务版总结">
-      <div class="lead-label">国际事务版总结</div>
-      <p>美伊接近达成停火延期协议，但双方尚未正式确认；刚果埃博拉疫情恶化，WHO呼吁停火；俄乌冲突持续，俄罗斯无人机落入罗马尼亚；欧洲热浪破纪录，多国受影响。</p>
+    <section class="overview-rail" aria-label="各版速览">
+      <div class="overview-section">
+        <h2>01 AI 科技</h2>
+        <p>Anthropic 发布 Claude Opus 4.8，带来“动态工作流”工具，可协调子代理集群。OpenAI 发布前沿治理框架，并与 MUFG、Endava 合作推进 AI 原生转型。多篇 arXiv 论文探索 LLM 在表型注释、有限元分析、药物优化等领域的应用，以及模型遗忘机制、安全护栏等研究。</p>
+        <ul>
+          <li><a href="https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool" target="_blank" rel="noopener">Anthropic 发布 Claude Opus 4.8，带来“动态工作流”工具</a></li>
+          <li><a href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">Claude Opus 4.8 发布：适度但切实的改进</a></li>
+          <li><a href="https://openai.com/index/openai-frontier-governance-framework" target="_blank" rel="noopener">OpenAI 发布前沿治理框架</a></li>
+        </ul>
+      </div>
+      <div class="overview-section">
+        <h2>02 国际事务</h2>
+        <p>美伊接近达成60天协议，但双方仍互有打击；俄罗斯无人机落入罗马尼亚引发北约谴责；以色列扩大加沙控制并打击贝鲁特；欧盟拟限制中国进口；刚果（金）埃博拉疫情持续，世卫组织总干事抵达；葡萄牙创下五月高温纪录；加拿大总理呼吁美加新伙伴关系。</p>
+        <ul>
+          <li><a href="https://www.bbc.com/news/articles/c87qng40wz9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">美伊接近达成60天协议，但双方仍互有打击</a></li>
+          <li><a href="https://www.bbc.com/news/articles/c93x4nxlkjeo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">俄罗斯无人机落入罗马尼亚，北约谴责俄方“鲁莽”</a></li>
+          <li><a href="https://www.bbc.com/news/articles/ceqpelq5reqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">以色列扩大加沙控制至70%，并打击贝鲁特</a></li>
+        </ul>
+      </div>
+      <div class="overview-section">
+        <h2>03 财经理财</h2>
+        <p>全球市场在伊朗和平协议预期下高位震荡，美股持稳于历史高点。美联储官员暗示加息时机未到，欧洲多国通胀加速推升加息预期。日本央行或于6月加息，瑞典经济萎缩支持利率不变。个人理财方面，专家提醒谨慎选择财务顾问。</p>
+        <ul>
+          <li><a href="https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories" target="_blank" rel="noopener">伊朗战争的真实成本比五角大楼说的多数十亿</a></li>
+          <li><a href="https://www.marketwatch.com/story/dell-stock-soars-toward-another-record-high-as-the-ai-boom-drives-a-big-earnings-beat-b7c0c203?mod=mw_rss_topstories" target="_blank" rel="noopener">戴尔股价因AI热潮推动盈利超预期而飙升</a></li>
+          <li><a href="https://www.marketwatch.com/story/okta-shares-rise-on-earnings-beat-and-ai-agent-opportunity-60a48690?mod=mw_rss_topstories" target="_blank" rel="noopener">Okta股价因盈利超预期和AI代理机遇上涨</a></li>
+        </ul>
+      </div>
     </section>
 
-    <div class="columns">
-      <a class="art" href="https://www.theguardian.com/world/2026/may/29/friday-briefing-what-do-the-cuts-in-aid-mean-for-the-fight-against-ebola-in-the-drc" target="_blank" rel="noopener">
-        <span class="at">周五简报：援助削减对刚果埃博拉抗疫的影响</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">埃博拉病毒在东非快速蔓延，已致至少240人死亡，援助削减可能导致危机延长。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/28/eu-discuss-restrictions-chinese-imports-fears-overreliance" target="_blank" rel="noopener">
-        <span class="at">欧盟将讨论限制中国进口，担忧过度依赖</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">欧盟委员担心中国进口激增可能导致类似美国铁锈地带的经济衰退，周五举行关键会谈。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola" target="_blank" rel="noopener">
-        <span class="at">WHO总干事呼吁刚果停火以应对埃博拉疫情</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">Tedros警告“疾病与冲突的灾难性碰撞”，乌干达关闭与刚果边境。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.npr.org/2026/05/28/nx-s1-5835313/u-s-and-iran-trade-strikes-how-will-this-affect-deal-to-end-war" target="_blank" rel="noopener">
-        <span class="at">美伊互相打击，是否会波及停战协议？</span>
-        <span class="by">NPR World</span>
-        <p class="as">最新打击行动是否影响潜在停战协议？NPR记者分析局势。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-29/russia-heads-for-showdown-with-armenia-over-european-ambitions" target="_blank" rel="noopener">
-        <span class="at">俄罗斯与亚美尼亚因欧洲野心面临摊牌</span>
-        <span class="by">Bloomberg Economics</span>
-        <p class="as">普京将出席欧亚经济联盟峰会，亚美尼亚向欧洲靠拢引发紧张。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/29/who-chief-tedros-adhanom-ghebreyesus-drc-ebola-outbreak-epidemic" target="_blank" rel="noopener">
-        <span class="at">WHO总抵达刚果，表示埃博拉疫情“可以遏制”</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">Tedros抵达Ituri省，呼吁停火以利医疗救援。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/28/guatemala-us-military-drug-trafficking" target="_blank" rel="noopener">
-        <span class="at">危地马拉请求美国军事合作打击贩毒</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">总统Arévalo与美方沟通，寻求设备、培训及专家支持。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/28/andrew-frederick-uk-family-fcdo-grenada-death" target="_blank" rel="noopener">
-        <span class="at">家属指控英国政府对在格林纳达死亡的英国人缺乏支持</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">病理学家认定Andrew Frederick死于他杀，但英方拒绝提供专家协助。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.theguardian.com/world/2026/may/28/argentina-european-self-image-racist-incidents-brazil" target="_blank" rel="noopener">
-        <span class="at">阿根廷“欧洲”自我形象因巴西种族主义事件再受审视</span>
-        <span class="by">The Guardian World</span>
-        <p class="as">涉及7岁男孩的案件成为拉美种族关系辩论的最新焦点。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bbc.com/news/articles/c3v2yv5207xo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
-        <span class="at">Portugal breaks hottest May day record as Europe swelters in heatwave</span>
-        <span class="by">BBC World</span>
-        <p class="as">French students are taking their exams in baking schools, while red alerts are issued in Italy.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bbc.com/news/articles/cze29764067o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
-        <span class="at">Are US and Iran close to peace or sliding back to war?</span>
-        <span class="by">BBC World</span>
-        <p class="as">Neither side seems interested in a return to all-out conflict, despite the latest exchange of strikes.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.aljazeera.com/sports/2026/5/29/senegal-deny-world-cup-travel-delay-is-due-to-coach-dispute?traffic_source=rss" target="_blank" rel="noopener">
-        <span class="at">Senegal deny World Cup travel delay is due to coach dispute</span>
-        <span class="by">Al Jazeera</span>
-        <p class="as">Senegal were stripped of the AFCON title after a mid-game boycott of the final and now face turbulent World Cup start.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.aljazeera.com/news/2026/5/29/mexico-backs-amendment-to-annul-election-results-over-foreign-interference?traffic_source=rss" target="_blank" rel="noopener">
-        <span class="at">Mexico backs amendment to annul election results over foreign interference</span>
-        <span class="by">Al Jazeera</span>
-        <p class="as">Critics say measure risks undermining electoral process and creating new avenues for contesting results.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.aljazeera.com/news/liveblog/2026/5/29/iran-war-live-tehran-trump-yet-to-comment-on-60-day-truce-extension-plan?traffic_source=rss" target="_blank" rel="noopener">
-        <span class="at">Iran war live: Tehran, Trump yet to comment on 60-day truce extension plan</span>
-        <span class="by">Al Jazeera</span>
-        <p class="as">Lebanese PM Nawaf Salam says &#39;nothing can justify&#39; Israel&#39;s military onslaught against &#39;peaceful people&#39; in Lebanon.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
     <footer class="colophon">
-      <a href="#page-1">← 上一版</a>
-      <a href="#page-3">下一版 →</a>
-    </footer>
-  </article>
-  <article class="sheet" id="page-3">
-    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-
-
-
-    <header class="pagehead category-head">
-      <h2>03 财经理财</h2>
-      <span class="ed">第 3 版 / 共 3 版</span>
-    </header>
-
-
-    <section class="briefing-panel category-briefing" aria-label="财经理财版总结">
-      <div class="lead-label">财经理财版总结</div>
-      <p>美伊停火预期推动股市创纪录，油价下跌；美联储新主席面临通胀压力，法国通胀加速至两年多最高；戴尔财报受益AI强劲，股价飙升。</p>
-    </section>
-
-    <div class="columns">
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap" target="_blank" rel="noopener">
-        <span class="at">股市创新高，油价因伊朗乐观情绪下跌：市场综述</span>
-        <span class="by">Bloomberg Markets</span>
-        <p class="as">美伊达成停火延期临时协议待特朗普批准，股市创纪录，油价下跌。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/warsh-s-new-challenge-containing-fed-hawks-as-inflation-simmers" target="_blank" rel="noopener">
-        <span class="at">Warsh的新挑战：遏制美联储通胀鹰派</span>
-        <span class="by">Bloomberg Economics</span>
-        <p class="as">新任美联储主席Warsh面临控制利率预期的压力，因通胀再现上升迹象。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting" target="_blank" rel="noopener">
-        <span class="at">SEC投资者咨询委员会将于6月4日举行会议</span>
-        <span class="by">SEC Press Releases</span>
-        <p class="as">讨论私人市场、被动指数基金及基金相关建议。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-29/jupiter-fund-taps-europe-s-ai-energy-boom-to-beat-92-of-peers" target="_blank" rel="noopener">
-        <span class="at">Jupiter基金利用欧洲AI能源热潮超越92%同行</span>
-        <span class="by">Bloomberg Markets</span>
-        <p class="as">聚焦欧洲电气化核心股票，该基金今年表现超越92%同行。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-28/rbnz-yet-to-see-strong-second-round-price-pressure-silk-says" target="_blank" rel="noopener">
-        <span class="at">新西兰联储尚未看到强劲的第二轮通胀压力</span>
-        <span class="by">Bloomberg Economics</span>
-        <p class="as">助理行长Silk表示，若中期通胀压力出现，央行准备积极应对。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm" target="_blank" rel="noopener">
-        <span class="at">美联储对Atlantic Union Bank和Frost Bank前员工采取执法行动</span>
-        <span class="by">Federal Reserve</span>
-        <p class="as">美联储发布针对两名银行前员工的执法行动。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.investing.com/news/stock-market-news/australia-stocks-higher-at-close-of-trade-spasx-200-up-162-4715941" target="_blank" rel="noopener">
-        <span class="at">澳大利亚股市收盘上涨，S&amp;P/ASX 200上涨1.62%</span>
-        <span class="by">Investing.com</span>
-        <p class="as">澳大利亚股市随全球市场上涨。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/articles/2026-05-29/french-inflation-accelerates-to-highest-in-more-than-two-years" target="_blank" rel="noopener">
-        <span class="at">法国通胀加速至两年多来最高水平</span>
-        <span class="by">Bloomberg Markets</span>
-        <p class="as">支持欧洲央行自2023年以来首次加息。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/live-blog/2026-05-29/what-s-moving-uk-markets-right-now-markets-today-mpqi1kqm" target="_blank" rel="noopener">
-        <span class="at">股票期货持稳，英镑因暂定停火延期而下跌</span>
-        <span class="by">Bloomberg Markets</span>
-        <p class="as">市场静待美伊停火协议细节。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.bloomberg.com/news/videos/2026-05-29/hk-on-track-to-meet-or-exceed-2026-visitor-target-video" target="_blank" rel="noopener">
-        <span class="at">香港：有望达到或超过2026年访客目标</span>
-        <span class="by">Bloomberg Markets</span>
-        <p class="as">文化体育旅游局局长Rosanna Law表示目前略超5380万访客目标。</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories" target="_blank" rel="noopener">
-        <span class="at">The true cost of the Iran war is billions more than the Pentagon says</span>
-        <span class="by">MarketWatch</span>
-        <p class="as">Washington’s ‘fuzzy math’ boosts inflation and threatens stocks.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.marketwatch.com/story/im-setting-up-brokerage-accounts-for-my-grandkids-in-my-daughters-name-is-that-wise-or-am-i-asking-for-trouble-6728b2b2?mod=mw_rss_topstories" target="_blank" rel="noopener">
-        <span class="at">I’m setting up brokerage accounts for my grandkids in my daughter’s name. Is that wise — or am I asking for trouble?</span>
-        <span class="by">MarketWatch</span>
-        <p class="as">“The contributions are invested in mutual funds tracking the S&amp;P 500, small-cap stocks and international equities.”</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.marketwatch.com/story/earnings-season-slows-but-these-7-stocks-pack-explosive-sawtooth-volatility-next-week-d519d174?mod=mw_rss_topstories" target="_blank" rel="noopener">
-        <span class="at">These 7 stocks pack explosive ‘sawtooth’ earnings volatility next week</span>
-        <span class="by">MarketWatch</span>
-        <p class="as">The S&amp;P 500 is flashing a green light to investors.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-      <a class="art" href="https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories" target="_blank" rel="noopener">
-        <span class="at">This overvalued stock market just flashed a rare buy signal</span>
-        <span class="by">MarketWatch</span>
-        <p class="as">Market-timers ran for the exits at a near-unprecedented pace, giving contrarian-minded bulls an opportunity.</p>
-        <span class="more">阅读全文 →</span>
-      </a>
-    </div>
-
-    <footer class="colophon">
-      <a href="#page-2">← 上一版</a>
+      <span>总览 · 三个独立页面</span>
       <a href="../archive.html">往期 →</a>
     </footer>
   </article>
@@ -361,23 +115,9 @@
 <script>
 (function(){
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var fine = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
-  document.querySelectorAll('.sheet').forEach(function(sheet){
-    var peel = sheet.querySelector('.peel');
-    if (peel) {
-      peel.addEventListener('click', function(){
-        window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
-      });
-    }
-    if (reduce || !fine) return;
-    sheet.addEventListener('mousemove', function(event){
-      var rect = sheet.getBoundingClientRect();
-      var cx = (event.clientX - (rect.left + rect.width / 2)) / rect.width;
-      var cy = (event.clientY - (rect.top + rect.height / 2)) / rect.height;
-      sheet.style.transform = 'rotateY(' + (cx * 2.2).toFixed(2) + 'deg) rotateX(' + (-cy * 1.8).toFixed(2) + 'deg)';
-    });
-    sheet.addEventListener('mouseleave', function(){
-      sheet.style.transform = 'rotateY(0) rotateX(0)';
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
     });
   });
 })();

@@ -9,23 +9,24 @@
 </head>
 <body>
 <div class="stage">
-  {% for section in issue.sections %}
-  <article class="sheet{% if loop.first %} front{% endif %}" id="page-{{ loop.index }}">
+  <article class="sheet front overview" id="overview">
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
-
-    {% if loop.first %}
     <header class="masthead">
       <div class="corners">
-        <span>第 {{ issue.date.strftime('%Y%m%d') }} 期</span>
+        <span>{% if lang == 'en' %}Issue {{ issue.date.strftime('%Y%m%d') }}{% else %}第 {{ issue.date.strftime('%Y%m%d') }} 期{% endif %}</span>
         <span>{{ issue.edition_label }}</span>
       </div>
       <h1 class="title">{{ issue.site_title }}</h1>
       <div class="subtitle">{{ issue.site_subtitle }}</div>
       <div class="dateline"><span>{{ dateline }}</span></div>
     </header>
-    {% endif %}
 
-    {% if issue.warnings and loop.first %}
+    <nav class="language-switch" aria-label="Language">
+      <a href="{% if lang == 'en' %}{{ current_href }}{% else %}{{ alternate_href }}{% endif %}"{% if lang == 'en' %} aria-current="page"{% endif %}>{{ labels.language_en }}</a>
+      <a href="{% if lang == 'zh' %}{{ current_href }}{% else %}{{ alternate_href }}{% endif %}"{% if lang == 'zh' %} aria-current="page"{% endif %}>{{ labels.language_zh }}</a>
+    </nav>
+
+    {% if issue.warnings %}
     <aside class="notice">
       {% for warning in issue.warnings %}
       <p>{{ warning }}</p>
@@ -33,86 +34,66 @@
     </aside>
     {% endif %}
 
-    <header class="pagehead category-head">
-      <h2>{{ section.display_title }}</h2>
-      <span class="ed">第 {{ loop.index }} 版 / 共 {{ issue.sections | length }} 版</span>
-    </header>
-
-    {% if loop.first %}
     <section class="briefing-panel issue-briefing" aria-label="{{ issue.briefing_title }}">
       <div class="lead-label">{{ issue.briefing_title }}</div>
       <p>{{ issue.briefing_summary }}</p>
       {% if issue.headline %}
       <a class="headline-link" href="{{ issue.headline.url }}" target="_blank" rel="noopener">
-        今日重点：{{ issue.headline.title }}
+        {{ labels.headline }}: {{ issue.headline.title }}
       </a>
       {% endif %}
     </section>
 
-    <nav class="edition-nav" aria-label="本期三版">
-      <span>本期三版</span>
-      {% for nav_section in issue.sections %}
-      <a href="#page-{{ loop.index }}">{{ nav_section.display_title }}</a>
+    <nav class="edition-nav" aria-label="{{ labels.latest_editions }}">
+      <span>{{ labels.latest_editions }}</span>
+      {% for link in section_links %}
+      <a href="{{ link.href }}">{{ link.section.display_title }}</a>
       {% endfor %}
     </nav>
-    {% endif %}
 
-    <section class="briefing-panel category-briefing" aria-label="{{ section.briefing_title }}">
-      <div class="lead-label">{{ section.briefing_title }}</div>
-      <p>{{ section.briefing_summary }}</p>
-    </section>
-
-    {% if section.articles %}
-    <div class="columns">
-      {% for article in section.articles %}
-      <a class="art" href="{{ article.url }}" target="_blank" rel="noopener">
-        <span class="at">{{ article.title }}</span>
-        <span class="by">{{ article.source }}</span>
-        <p class="as">{{ article.summary }}</p>
-        <span class="more">阅读全文 →</span>
+    <section class="edition-grid" aria-label="{{ labels.section_pages }}">
+      {% for link in section_links %}
+      {% set section = link.section %}
+      <a class="edition-card" href="{{ link.href }}">
+        <span class="edition-no">{{ section.icon }}</span>
+        <span class="edition-title">{{ section.title }}</span>
+        <span class="edition-summary">{{ section.briefing_summary }}</span>
+        <span class="edition-subheads">
+          {% for subsection in section.subsections %}
+          <span>{{ subsection.title }} · {{ subsection.articles | length }}</span>
+          {% endfor %}
+        </span>
       </a>
       {% endfor %}
-    </div>
-    {% else %}
-    <p class="empty">本版暂无入选文章。你可以在 profile 中调整关键词、数据源或栏目权重。</p>
-    {% endif %}
+    </section>
+
+    <section class="overview-rail" aria-label="{{ labels.overview_rail }}">
+      {% for section in issue.sections %}
+      <div class="overview-section">
+        <h2>{{ section.display_title }}</h2>
+        <p>{{ section.briefing_summary }}</p>
+        <ul>
+          {% for article in section.articles[:3] %}
+          <li><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
 
     <footer class="colophon">
-      {% if loop.first %}
-      <span>第 {{ loop.index }} 版 · {{ section.title }}</span>
-      <a href="#page-{{ loop.index + 1 }}">下一版 →</a>
-      {% elif loop.last %}
-      <a href="#page-{{ loop.index - 1 }}">← 上一版</a>
-      <a href="{{ archive_href }}">往期 →</a>
-      {% else %}
-      <a href="#page-{{ loop.index - 1 }}">← 上一版</a>
-      <a href="#page-{{ loop.index + 1 }}">下一版 →</a>
-      {% endif %}
+      <span>{{ labels.overview_footer }}</span>
+      <a href="{{ archive_href }}">{{ labels.archive }} →</a>
     </footer>
   </article>
-  {% endfor %}
 </div>
 
 <script>
 (function(){
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var fine = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
-  document.querySelectorAll('.sheet').forEach(function(sheet){
-    var peel = sheet.querySelector('.peel');
-    if (peel) {
-      peel.addEventListener('click', function(){
-        window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
-      });
-    }
-    if (reduce || !fine) return;
-    sheet.addEventListener('mousemove', function(event){
-      var rect = sheet.getBoundingClientRect();
-      var cx = (event.clientX - (rect.left + rect.width / 2)) / rect.width;
-      var cy = (event.clientY - (rect.top + rect.height / 2)) / rect.height;
-      sheet.style.transform = 'rotateY(' + (cx * 2.2).toFixed(2) + 'deg) rotateX(' + (-cy * 1.8).toFixed(2) + 'deg)';
-    });
-    sheet.addEventListener('mouseleave', function(){
-      sheet.style.transform = 'rotateY(0) rotateX(0)';
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
     });
   });
 })();

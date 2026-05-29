@@ -9,6 +9,7 @@ def test_load_default_config():
     assert config.profile_id == "ai-tech"
     assert config.site["title"] == "信息日报"
     assert [section.id for section in config.sections] == ["ai-tech", "world", "finance"]
+    assert all(len(section.subsections) == 3 for section in config.sections)
     assert any(source.type == "x" for source in config.sources)
     assert any(source.id == "openai-news" for source in config.sources)
     assert any(source.id == "bbc-world" for source in config.sources)

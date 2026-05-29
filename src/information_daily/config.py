@@ -5,7 +5,7 @@ from typing import Any
 
 import yaml
 
-from .models import AppConfig, LLMConfig, SectionConfig, SourceConfig
+from .models import AppConfig, LLMConfig, SectionConfig, SourceConfig, SubsectionConfig
 
 
 class ConfigError(RuntimeError):
@@ -84,11 +84,33 @@ def _parse_section(item: Any) -> SectionConfig:
     keywords = item.get("keywords") or []
     if not isinstance(keywords, list):
         raise ConfigError(f"section {section_id}.keywords must be a list")
+    subsections = item.get("subsections") or []
+    if not isinstance(subsections, list):
+        raise ConfigError(f"section {section_id}.subsections must be a list")
     return SectionConfig(
         id=section_id,
         title=title,
+        title_en=str(item.get("title_en") or title),
         icon=str(item.get("icon") or ""),
         max_articles=int(item.get("max_articles") or 6),
+        keywords=tuple(str(keyword).lower() for keyword in keywords),
+        subsections=tuple(_parse_subsection(subsection, section_id) for subsection in subsections),
+    )
+
+
+def _parse_subsection(item: Any, section_id: str) -> SubsectionConfig:
+    if not isinstance(item, dict):
+        raise ConfigError(f"Each subsection in section {section_id} must be a mapping")
+    subsection_id = _required_str(item, "id", f"subsection in section {section_id}")
+    title = _required_str(item, "title", f"subsection {subsection_id}")
+    keywords = item.get("keywords") or []
+    if not isinstance(keywords, list):
+        raise ConfigError(f"subsection {subsection_id}.keywords must be a list")
+    return SubsectionConfig(
+        id=subsection_id,
+        title=title,
+        title_en=str(item.get("title_en") or title),
+        max_articles=int(item.get("max_articles") or 5),
         keywords=tuple(str(keyword).lower() for keyword in keywords),
     )
 

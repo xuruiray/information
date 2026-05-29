@@ -1,15 +1,20 @@
 {
   "date": "2026-05-29",
   "title": "信息日报 2026-05-29",
+  "title_en": "Information Daily 2026-05-29",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "Anthropic与OpenAI或已找到产品市场契合点",
-    "url": "https://simonwillison.net/2026/May/27/product-market-fit",
-    "source": "Simon Willison",
-    "summary": "Anthropic被强烈传闻即将迎来首个盈利季度，企业客户LLM账单高昂，表明两家公司均找到了产品市场契合点。",
-    "published_at": "2026-05-27T16:38:35+00:00",
-    "reason": "AI领域重大商业里程碑，反映大模型商业化成功。",
-    "score": 18.1
+    "title": "美股高位震荡，市场静待美伊和平协议",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap",
+    "source": "彭博市场",
+    "summary": "美国股市在历史高位附近持稳，交易员等待华盛顿与伊朗能否最终达成和平协议，恢复霍尔木兹海峡的石油运输。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stocks Steady at Highs as Traders Await Iran Deal: Markets Wrap",
+    "summary_en": "US stocks held steady at all-time highs as traders waited to see whether Washington and Iran could finally get a peace deal across the line and restore oil flows through the Strait of Hormuz.",
+    "published_at": "2026-05-28T22:02:27+00:00",
+    "reason": "该新闻同时涉及国际地缘政治与金融市场两大核心板块，且对全球能源供应和经济预期有重大影响，是今日最具综合性和影响力的头条。",
+    "reason_en": "This story bridges geopolitics and financial markets, with significant implications for global energy supply and economic outlook, making it the most comprehensive and impactful lead of the day.",
+    "score": 7.0
   },
   "path": "papers/2026-05-29.html",
   "raw_count": 180,

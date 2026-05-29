@@ -23,12 +23,13 @@ profile:
     default_model: "gpt-4o-mini"
     temperature: 0.2
     max_input_items: 100
-    summary_style: "中文，简洁，适合日报；保留事实，不夸大，不编造。每天必须覆盖 AI 科技、国际事务、财经理财三个大类。"
+    summary_style: "中英文双语，简洁，适合日报；保留事实，不夸大，不编造。每天必须覆盖 AI 科技、国际事务、财经理财三个大类，并在每个大类下按小版块做细分总结。"
   sections:
     - id: "ai-tech"
       title: "AI 科技"
+      title_en: "AI & Technology"
       icon: "01"
-      max_articles: 14
+      max_articles: 15
       keywords:
         - ai
         - artificial intelligence
@@ -62,10 +63,59 @@ profile:
         - arxiv
         - paper
         - research
+      subsections:
+        - id: "frontier-ai"
+          title: "前沿模型"
+          title_en: "Frontier Models"
+          max_articles: 5
+          keywords:
+            - ai
+            - artificial intelligence
+            - llm
+            - model
+            - openai
+            - anthropic
+            - google ai
+            - hugging face
+            - agent
+        - id: "developer-tools"
+          title: "开发与工具"
+          title_en: "Developer Tools"
+          max_articles: 5
+          keywords:
+            - developer
+            - programming
+            - javascript
+            - python
+            - database
+            - frontend
+            - backend
+            - engineering
+            - github
+            - open source
+            - cli
+            - tool
+            - framework
+            - library
+            - release
+        - id: "research-product"
+          title: "研究与产品"
+          title_en: "Research & Products"
+          max_articles: 5
+          keywords:
+            - startup
+            - product
+            - funding
+            - arxiv
+            - paper
+            - research
+            - benchmark
+            - dataset
     - id: "world"
       title: "国际事务"
+      title_en: "World Affairs"
       icon: "02"
-      max_articles: 14
+      max_articles: 15
       keywords:
         - world
         - international
@@ -80,10 +130,47 @@ profile:
         - europe
         - asia
         - middle east
+      subsections:
+        - id: "geopolitics"
+          title: "地缘与安全"
+          title_en: "Geopolitics & Security"
+          max_articles: 5
+          keywords:
+            - diplomacy
+            - geopolitics
+            - war
+            - security
+            - middle east
+            - europe
+            - asia
+        - id: "government-policy"
+          title: "政府与政策"
+          title_en: "Government & Policy"
+          max_articles: 5
+          keywords:
+            - election
+            - government
+            - policy
+            - united nations
+            - administration
+            - parliament
+        - id: "global-society"
+          title: "全球社会"
+          title_en: "Global Society"
+          max_articles: 5
+          keywords:
+            - world
+            - international
+            - society
+            - climate
+            - migration
+            - health
+            - humanitarian
     - id: "finance"
       title: "财经理财"
+      title_en: "Finance & Wealth"
       icon: "03"
-      max_articles: 14
+      max_articles: 15
       keywords:
         - market
         - markets
@@ -103,3 +190,40 @@ profile:
         - personal finance
         - acquisition
         - business
+      subsections:
+        - id: "markets-assets"
+          title: "市场与资产"
+          title_en: "Markets & Assets"
+          max_articles: 5
+          keywords:
+            - market
+            - markets
+            - stock
+            - stocks
+            - bond
+            - bonds
+            - investing
+            - acquisition
+        - id: "macro-policy"
+          title: "宏观与政策"
+          title_en: "Macro & Policy"
+          max_articles: 5
+          keywords:
+            - economy
+            - economics
+            - inflation
+            - fed
+            - federal reserve
+            - rates
+            - central bank
+        - id: "wealth-regulation"
+          title: "理财与监管"
+          title_en: "Wealth & Regulation"
+          max_articles: 5
+          keywords:
+            - finance
+            - wealth
+            - personal finance
+            - sec
+            - regulation
+            - business

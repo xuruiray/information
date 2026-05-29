@@ -6,12 +6,23 @@ from typing import Any
 
 
 @dataclass(frozen=True)
+class SubsectionConfig:
+    id: str
+    title: str
+    title_en: str = ""
+    max_articles: int = 5
+    keywords: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
 class SectionConfig:
     id: str
     title: str
+    title_en: str = ""
     icon: str = ""
     max_articles: int = 6
     keywords: tuple[str, ...] = ()
+    subsections: tuple[SubsectionConfig, ...] = ()
 
     @property
     def display_title(self) -> str:
@@ -80,19 +91,39 @@ class CompiledArticle:
     url: str
     source: str
     summary: str
+    source_en: str = ""
+    title_en: str = ""
+    summary_en: str = ""
     published_at: str | None = None
     reason: str = ""
+    reason_en: str = ""
     score: float = 0.0
+
+
+@dataclass(frozen=True)
+class CompiledSubsection:
+    id: str
+    title: str
+    title_en: str
+    articles: tuple[CompiledArticle, ...]
+    briefing_title: str = "小版总结"
+    briefing_summary: str = ""
+    briefing_title_en: str = "Briefing"
+    briefing_summary_en: str = ""
 
 
 @dataclass(frozen=True)
 class CompiledSection:
     id: str
     title: str
+    title_en: str
     icon: str
     articles: tuple[CompiledArticle, ...]
     briefing_title: str = "AI 总结"
     briefing_summary: str = ""
+    briefing_title_en: str = "Briefing"
+    briefing_summary_en: str = ""
+    subsections: tuple[CompiledSubsection, ...] = ()
 
     @property
     def display_title(self) -> str:
@@ -103,11 +134,16 @@ class CompiledSection:
 class Issue:
     date: date
     site_title: str
+    site_title_en: str
     site_subtitle: str
+    site_subtitle_en: str
     edition_label: str
+    edition_label_en: str
     profile_id: str
     briefing_title: str
     briefing_summary: str
+    briefing_title_en: str
+    briefing_summary_en: str
     headline: CompiledArticle | None
     sections: tuple[CompiledSection, ...]
     source_count: int
