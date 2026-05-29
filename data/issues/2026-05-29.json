@@ -3,13 +3,13 @@
   "title": "信息日报 2026-05-29",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "Endava借助Codex构建代理型组织",
-    "url": "https://openai.com/index/endava",
-    "source": "OpenAI News",
-    "summary": "Endava使用OpenAI的Codex构建代理型组织，通过AI代理加速软件交付，将需求分析从数周缩短至数小时。该案例展示了企业如何利用AI代理自动化复杂开发流程，提升效率。",
-    "published_at": "2026-05-28T12:00:00+00:00",
-    "reason": "分数最高，代表企业AI代理落地的实际案例，与当前趋势紧密相关。",
-    "score": 7.2
+    "title": "Anthropic 完成 650 亿美元融资，估值逼近 1 万亿美元，计划 IPO",
+    "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo",
+    "source": "TechCrunch AI",
+    "summary": "Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，这可能是其 IPO 前的最后一轮私人融资。",
+    "published_at": "2026-05-28T18:52:51+00:00",
+    "reason": "该事件创下 AI 领域最大私人融资纪录，反映行业资本热潮和 Anthropic 的快速增长。",
+    "score": 4.95
   },
   "path": "papers/2026-05-29.html",
   "raw_count": 120,
