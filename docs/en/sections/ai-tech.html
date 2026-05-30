@@ -40,7 +40,7 @@
 
     <section class="briefing-panel category-briefing" aria-label="AI &amp; Technology Briefing">
       <div class="lead-label">AI &amp; Technology Briefing</div>
-      <p>This edition of AI &amp; Technology focuses on frontier model releases: Anthropic&#39;s Claude Opus 4.8 offers modest improvements; Vercel details inference theft protection; multiple AI-for-science studies gain attention. In research &amp; products, open-source safety guard benchmarks and Boston Children&#39;s AI diagnoses showcase AI deployment. Developer tools include TaxDistill for metagenomics, real-time outage maps, and Codex integrations.</p>
+      <p>This edition covers frontier model updates, developer tools, and research. Anthropic released Claude Opus 4.8 with modest but tangible improvements. Vercel warns about inference theft risks and suggests protective measures. Frontier models show potential in phenotype annotation, finite element analysis, and simulation modeling. OpenAI partnered with Boston Children&#39;s Hospital to diagnose over 40 rare diseases using AI. Safety guard model benchmarks and studies on LLM interpretability, catastrophic forgetting, and molecular optimization are featured. On the tools side, Vercel shares a real-time outage map case, Braintrust and Endava use Codex to accelerate development, and the llm-anthropic tool adds support for Opus 4.8.</p>
     </section>
 
     <div class="subsection-stack">
@@ -49,40 +49,40 @@
           <h3>Frontier Models</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models">
-          <div class="lead-label">Frontier Models</div>
-          <p>Frontier Models: Anthropic released Claude Opus 4.8, a modest but tangible improvement; Vercel warns about inference theft; BEAMS benchmarks AI for modeling and simulation; VFEAgent automates finite element analysis; frontier LLM agents overcome phenotype annotation bottleneck.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models Briefing">
+          <div class="lead-label">Frontier Models Briefing</div>
+          <p>Anthropic released Claude Opus 4.8, claiming modest but tangible improvements. Vercel warns about inference theft risks, stressing the need to protect AI endpoints. Studies show frontier models applied in biomedical ontology annotation, finite element analysis, and simulation modeling. OpenAI&#39;s partnership with Boston Children&#39;s Hospital diagnoses rare diseases, and the Rosalind Biodefense initiative expands AI use in public health.</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">
+            <span class="at">Claude Opus 4.8: &#34;a modest but tangible improvement&#34;</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Anthropic shipped Claude Opus 4.8, described as a modest but tangible improvement over its predecessor, while working on lower-cost models with similar capabilities.</p>
+            <span class="more">Read more →</span>
+          </a>
           <a class="art" href="https://vercel.com/blog/protecting-against-inference-theft" target="_blank" rel="noopener">
             <span class="at">Protecting against inference theft</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel warns that AI inference calls are millions of times more expensive than traditional APIs, making inference theft a high-margin attack, and shares defense measures.</p>
+            <p class="as">Vercel highlights the high cost of AI inference compared to traditional HTTP requests, making inference theft a high-margin business for attackers, and advises on endpoint protection.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2605.28965" target="_blank" rel="noopener">
+            <span class="at">Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Research uses frontier LLM agents to automate phenotype annotation, linking free-text descriptions to ontology terms, aiming to scale cross-study integration of morphological data.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28994" target="_blank" rel="noopener">
             <span class="at">BEAMS: Benchmarking and Evaluating AI for Modeling and Simulation</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">The BEAMS initiative aims to benchmark AI for modeling and simulation, emphasizing AI should complement rather than replace human expertise.</p>
+            <p class="as">The BEAMS initiative aims to develop AI tools that build simulation models for real-world decisions, emphasizing interpretability and complementing human expertise.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
-            <span class="at">VFEAgent: A Multimodal Agent for End-to-End Finite Element Analysis</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">VFEAgent automates finite element analysis using LLMs, supports multimodal input, lowering domain expertise barrier.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28965" target="_blank" rel="noopener">
-            <span class="at">Frontier LLM-based agents overcome ontology curation bottleneck for natural phenotypes</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">Frontier LLM agents link free-text phenotype descriptions to ontology terms, accelerating cross-study integration.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28825" target="_blank" rel="noopener">
-            <span class="at">MechELK: A Mechanistic Interpretability Framework for Eliciting Latent Knowledge in Large Language Models</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">arXiv:2605.28825v1 Announce Type: new Abstract: Large language models (LLMs) frequently encode factual and reasoning knowledge in their internal representations that is not faithfully reflected in their surface-level...</p>
+          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
+            <span class="at">Boston Children’s uses AI to unlock new diagnoses</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Boston Children’s Hospital uses OpenAI technology to improve patient care and diagnose over 40 rare disease cases, reducing operational burden.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -92,40 +92,40 @@
           <h3>Developer Tools</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Developer Tools">
-          <div class="lead-label">Developer Tools</div>
-          <p>Developer Tools: TaxDistill metagenomic annotation tool; Endeavour Energy real-time outage map; lightweight multimodal LLM for defect grading; Braintrust Codex integration; llm-anthropic update for Claude Opus 4.8.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Developer Tools Briefing">
+          <div class="lead-label">Developer Tools Briefing</div>
+          <p>This edition highlights practical implementations: Vercel shares a real-time power outage map built with Next.js, achieving sub-second page loads and faster deployments. Braintrust and Endava demonstrate how Codex accelerates code generation from customer requests and builds agentic organizations. The llm-anthropic tool updated to 0.25.1 with Claude Opus 4.8 support. On the academic side, TaxDistill improves metagenomic taxonomic annotation via distilled genomic foundation models.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
-            <span class="at">TaxDistill: Improving Metagenomic Taxonomic Annotation via Distilled Genomic Foundation Models</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">TaxDistill improves metagenomic fragment classification accuracy via distilled genomic foundation models.</p>
-            <span class="more">Read more →</span>
-          </a>
           <a class="art" href="https://vercel.com/blog/building-a-real-time-power-outage-map-with-next-js-on-vercel" target="_blank" rel="noopener">
             <span class="at">Building a real-time power outage map with Next.js on Vercel</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Endeavour Energy built a real-time outage map with Next.js on Vercel, achieving sub-1s page loads during peak traffic.</p>
+            <p class="as">Endeavour Energy built a real-time outage map on Vercel, achieving sub-1s page loads during peak storms, five-minute data sync, and 38% faster deployments.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
-            <span class="at">Lightweight Multimodal LLM for Cost-Effective Defect Grading of Power Transmission Equipment</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">A lightweight multimodal LLM for defect grading, addressing class imbalance and expert integration in power equipment.</p>
+          <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
+            <span class="at">TaxDistill: Improving Metagenomic Taxonomic Annotation via Distilled Genomic Foundation Models</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">TaxDistill proposes using distilled genomic foundation models to improve metagenomic taxonomic annotation, addressing limitations of reference database-dependent methods.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://openai.com/index/braintrust" target="_blank" rel="noopener">
             <span class="at">How Braintrust turns customer requests into code with Codex</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Braintrust engineers use Codex with GPT-5.5 to quickly turn customer requests into code, boosting development speed.</p>
+            <p class="as">Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster, turning customer requests into code efficiently.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/endava" target="_blank" rel="noopener">
+            <span class="at">How Endava builds an agentic organization with Codex</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/May/28/llm-anthropic" target="_blank" rel="noopener">
             <span class="at">llm-anthropic 0.25.1</span>
             <span class="by">Simon Willison</span>
-            <p class="as">llm-anthropic 0.25.1 adds Claude Opus 4.8 support and a fast mode option.</p>
+            <p class="as">llm-anthropic 0.25.1 adds support for Claude Opus 4.8, fast mode option, and default max_tokens set to model&#39;s maximum output.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -135,40 +135,40 @@
           <h3>Research &amp; Products</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Products">
-          <div class="lead-label">Research &amp; Products</div>
-          <p>Research &amp; Products: Open-source safety guard evaluation; URIEL drone logging method; MechELK latent knowledge elicitation; Boston Children&#39;s AI diagnoses; Review Arcade shows LLM reviews can be gameable.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Products Briefing">
+          <div class="lead-label">Research &amp; Products Briefing</div>
+          <p>This edition covers safety, industrial, and academic research. A benchmark of 14 open-source safety guard models is released, covering 8 NIST safety categories. In engineering, VFEAgent enables end-to-end automated finite element analysis, and URIEL proposes airborne robotics for sustainable tropical logging. Lightweight multimodal LLMs are applied to power transmission equipment defect grading. Studies also explore LLM review gameability and linear structure in representation alignment.</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://arxiv.org/abs/2605.28830" target="_blank" rel="noopener">
             <span class="at">Benchmarking Open-Source Safety Guard Models: A Comprehensive Evaluation</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">A comprehensive evaluation of 14 open-source safety guard models across 8 safety categories, revealing significant performance variations.</p>
+            <p class="as">A comprehensive evaluation of 14 open-source safety guard models on a curated benchmark of 79,331 samples spanning 8 NIST AI Risk Framework safety categories.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
+            <span class="at">VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">VFEAgent integrates LLMs for end-to-end automated finite element analysis, addressing the complexity and domain expertise requirements of traditional workflows.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28883" target="_blank" rel="noopener">
-            <span class="at">Ultra-Reduced-Impact-Encased-Logging using airborne robotics systems</span>
+            <span class="at">Ultra-Reduced-Impact-Encased-Logging (URIEL): propose a new method for selective sustainable logging and post-harvest silvicultural treatment in tropical forest using airborne robotics systems</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">URIEL proposes selective logging using drone systems to reduce deforestation impact on climate.</p>
+            <p class="as">URIEL proposes a novel logging method using airborne robotics for ultra-reduced-impact selective logging in tropical forests, aiming to mitigate climate impact.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
-            <span class="at">Boston Children&#39;s uses AI to unlock new diagnoses</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">Boston Children&#39;s Hospital uses OpenAI technology to improve patient care, diagnosing over 40 rare diseases.</p>
+          <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
+            <span class="at">Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">Research uses lightweight multimodal LLMs for defect grading of power transmission equipment, integrating expert experience and addressing class imbalance to improve stability.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28897" target="_blank" rel="noopener">
             <span class="at">Review Arcade: On the Human Alignment and Gameability of LLM Reviews</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">Research finds LLM-generated paper reviews can be gameable, and authors can influence reviews via prompt engineering.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28849" target="_blank" rel="noopener">
-            <span class="at">Behavior-Induced Mirror-Prox Temporal-Difference Learning for Faster Off-Policy Prediction</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">arXiv:2605.28849v1 Announce Type: new Abstract: Gradient temporal-difference methods provide stable off-policy prediction with linear function approximation, but their practical performance is strongly affected by the...</p>
+            <p class="as">Study on the gameability of LLM-generated paper reviews, suggesting authors may use LLMs to revise papers to align with expected reviews, raising academic integrity concerns.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

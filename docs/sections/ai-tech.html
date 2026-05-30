@@ -38,9 +38,9 @@
       <span class="ed">15 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 科技版">
-      <div class="lead-label">AI 科技版</div>
-      <p>本期AI科技版聚焦前沿模型发布：Anthropic推出Claude Opus 4.8，称其适度改进；Vercel发布推理窃取防护指南；多项AI for Science研究受关注。研究产品方面，开源安全卫士评测和波士顿儿童医院AI诊断等案例展示AI落地。开发工具带来TaxDistill宏基因组注释工具、实时停电地图等实用更新。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 科技总结">
+      <div class="lead-label">AI 科技总结</div>
+      <p>本期AI科技版重点涵盖前沿模型更新、开发工具实践和研究成果。Anthropic发布Claude Opus 4.8，带来适度但实质性的改进；Vercel发文警示AI推理被盗用的风险，建议采取保护措施。前沿模型在表型本体注释、有限元分析、模拟建模等专业领域展现潜力。OpenAI与波士顿儿童医院合作，利用AI诊断40余种罕见病。安全领域推出开源安全警卫模型基准测试，另有研究探索LLM可解释性、灾难性遗忘机理、分子优化等方向。开发工具方面，Vercel分享实时电力中断地图构建案例，Braintrust和Endava借助Codex加速软件开发，llm-anthropic工具发布支持Claude Opus 4.8的版本。</p>
     </section>
 
     <div class="subsection-stack">
@@ -49,40 +49,40 @@
           <h3>前沿模型</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型">
-          <div class="lead-label">前沿模型</div>
-          <p>前沿模型板块重点报道Anthropic发布Claude Opus 4.8、Vercel推理窃取防护、BEAMS基准、VFEAgent端到端有限元分析以及前沿LLM代理表型注释突破。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型总结">
+          <div class="lead-label">前沿模型总结</div>
+          <p>Anthropic发布Claude Opus 4.8，自称带来适度但实质性的改进。Vercel警告AI推理被盗用的风险，强调保护AI端点的重要性。多篇研究展示了前沿模型在生物医学本体注释、有限元分析、模拟建模等领域的应用，以及与医疗机构的合作诊断罕见病。此外，OpenAI推出Rosalind生物防御项目，扩展AI在公共卫生领域的应用。</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/May/28/claude-opus-4-8" target="_blank" rel="noopener">
+            <span class="at">Claude Opus 4.8 发布：适度但实质性的改进</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Anthropic 发布 Claude Opus 4.8，官方称其为“适度但实质性”的改进。同时表示正努力开发以更低成本提供类似能力的模型。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
           <a class="art" href="https://vercel.com/blog/protecting-against-inference-theft" target="_blank" rel="noopener">
-            <span class="at">Vercel提出推理窃取防护策略</span>
+            <span class="at">保护 AI 推理免受盗窃：Vercel 提出策略</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel指出AI推理调用比传统API昂贵百万倍，推理窃取成为攻击目标，并分享了防护方案。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28994" target="_blank" rel="noopener">
-            <span class="at">BEAMS：AI建模与仿真基准评测</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">BEAMS倡议旨在建立AI在建模与仿真中的基准，强调AI应辅助而非取代人类专家。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
-            <span class="at">VFEAgent：多模态智能体实现端到端有限元分析自动化</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">VFEAgent利用LLM自动化有限元分析流程，支持多模态输入，降低专业门槛。</p>
+            <p class="as">Vercel 指出 AI 推理成本高昂，推理盗窃成为高利润攻击手段。文章建议保护 API 端点，并分享了实际案例。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28965" target="_blank" rel="noopener">
-            <span class="at">前沿LLM代理突破表型本体注释瓶颈</span>
+            <span class="at">前沿 LLM 智能体克服表型本体注释瓶颈</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">前沿LLM代理能够自动将自由文本表型描述连接至本体术语，大幅加速跨研究整合。</p>
+            <p class="as">研究利用前沿 LLM 智能体自动化表型注释，将自由文本与本体术语关联，有望规模化整合比较形态学数据。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28825" target="_blank" rel="noopener">
-            <span class="at">AI 科技：arXiv 计算语言学关注的关键线索</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">这条科技线索来自arXiv 计算语言学，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+          <a class="art" href="https://arxiv.org/abs/2605.28994" target="_blank" rel="noopener">
+            <span class="at">BEAMS：AI 建模与模拟的基准评价框架</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">BEAMS 倡议旨在开发 AI 工具以支持真实世界决策，通过构建仿真模型提供可解释建议，强调 AI 应补充而非替代人类专长。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
+            <span class="at">波士顿儿童医院利用 AI 解锁新诊断</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">波士顿儿童医院使用 OpenAI 技术改善患者护理、减轻运营负担，已协助诊断 40 余种罕见病例。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -92,40 +92,40 @@
           <h3>开发与工具</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开发与工具">
-          <div class="lead-label">开发与工具</div>
-          <p>开发与工具板块介绍TaxDistill宏基因组工具、Endeavour Energy实时停电地图、轻量级多模态LLM缺陷分级、Braintrust Codex集成和llm-anthropic更新。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开发与工具总结">
+          <div class="lead-label">开发与工具总结</div>
+          <p>本期开发工具板块聚焦实际应用：Vercel 分享利用 Next.js 构建实时电力中断地图的案例，实现亚秒级页面加载和快速部署。Braintrust 和 Endava 分别展示如何使用 Codex 加速客户需求转化为代码及构建代理型组织。此外，llm-anthropic 工具更新至 0.25.1，新增对 Claude Opus 4.8 的支持和快速模式。学术方面，TaxDistill 提出通过蒸馏基因组基础模型改进宏基因组分类注释。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
-            <span class="at">TaxDistill：利用蒸馏基因组基础模型改进宏基因组分类注释</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">TaxDistill通过蒸馏基因组基础模型提高宏基因组样本中片段分类的准确性。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://vercel.com/blog/building-a-real-time-power-outage-map-with-next-js-on-vercel" target="_blank" rel="noopener">
-            <span class="at">Endeavour Energy 基于Next.js构建实时停电地图</span>
+            <span class="at">利用 Next.js 在 Vercel 上构建实时电力中断地图</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Endeavour Energy利用Next.js和Vercel搭建实时停电地图，峰值流量下页面加载小于1秒。</p>
+            <p class="as">Endeavour Energy 使用 Vercel 构建实时停电地图，风暴高峰期页面加载低于 1 秒，所有上游系统数据同步周期为 5 分钟，部署速度提升 38%。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
-            <span class="at">轻量级多模态LLM实现成本效益的电力设备缺陷分级</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">该工作提出轻量级多模态LLM，解决电力设备缺陷分级中的类不平衡和经验整合难题。</p>
+          <a class="art" href="https://arxiv.org/abs/2605.28868" target="_blank" rel="noopener">
+            <span class="at">TaxDistill：通过蒸馏基因组基础模型改进宏基因组分类注释</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">TaxDistill 提出使用蒸馏的基因组基础模型改进宏基因组分类注释，解决传统方法依赖参考数据库且覆盖面不全的问题。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://openai.com/index/braintrust" target="_blank" rel="noopener">
-            <span class="at">Braintrust利用Codex加速客户需求转化</span>
+            <span class="at">Braintrust 如何利用 Codex 将客户需求转化为代码</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Braintrust工程师使用Codex和GPT-5.5快速将客户需求转化为代码，提升开发效率。</p>
+            <p class="as">Braintrust 的工程师使用 Codex 和 GPT-5.5 快速进行实验和编码，将客户需求转化为代码。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/endava" target="_blank" rel="noopener">
+            <span class="at">Endava 如何利用 Codex 构建代理型组织</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Endava 利用 Codex 构建代理型组织，加速软件交付，将需求分析从数周缩短至数小时。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/May/28/llm-anthropic" target="_blank" rel="noopener">
             <span class="at">llm-anthropic 0.25.1 发布，支持 Claude Opus 4.8</span>
             <span class="by">Simon Willison</span>
-            <p class="as">llm-anthropic 0.25.1 新增 Claude Opus 4.8 模型支持及fast模式选项。</p>
+            <p class="as">llm-anthropic 0.25.1 发布，新增 Claude Opus 4.8 模型支持、快速模式选项，以及默认最大 token 调整为模型最大输出。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -135,40 +135,40 @@
           <h3>研究与产品</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与产品">
-          <div class="lead-label">研究与产品</div>
-          <p>研究与产品板块涵盖开源安全卫士评测、URIEL无人机伐木方法、MechELK潜在知识框架、波士顿儿童医院AI诊断和Review Arcade评审可操纵性研究。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与产品总结">
+          <div class="lead-label">研究与产品总结</div>
+          <p>本期研究与产品板块涵盖安全、工业、学术界多个领域。安全方面，14 个开源安全警卫模型基准测试发布，覆盖 8 个 NIST 安全类别。工程领域，VFEAgent 实现端到端自动有限元分析，URIEL 提出利用空中机器人进行可持续热带森林采伐的方法。电力行业，轻量级多模态 LLM 用于输电设备缺陷分级。此外，研究探索了 LLM 评审的易受游戏性、表示对齐的线性结构等基础问题。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://arxiv.org/abs/2605.28830" target="_blank" rel="noopener">
-            <span class="at">开源安全卫士模型综合基准评测</span>
+            <span class="at">开源安全警卫模型基准测试：全面评估</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究对14款开源安全卫士模型进行评测，涵盖8个安全类别，发现显著性能差异。</p>
+            <p class="as">研究评估了 14 个开源安全警卫模型，在包含 8 个 NIST 安全类别的 79,331 样本基准上，评估内容审核能力。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2605.28978" target="_blank" rel="noopener">
+            <span class="at">VFEAgent：用于端到端自动有限元分析的多模态智能体框架</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">VFEAgent 集成 LLM 实现端到端自动有限元分析，解决传统流程复杂且依赖领域专长的问题。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28883" target="_blank" rel="noopener">
-            <span class="at">URIEL：利用空中机器人实现热带森林可持续采伐新方法</span>
+            <span class="at">URIEL：利用空中机器人实现热带森林可持续选择性采伐</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">URIEL提出利用无人机系统进行选择性伐木，以减少热带森林砍伐对气候的影响。</p>
+            <p class="as">URIEL 提出使用空中机器人进行超低影响选择性采伐的新方法，旨在减少热带森林砍伐对气候的影响。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
-            <span class="at">波士顿儿童医院利用AI诊断40余种罕见病</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">波士顿儿童医院使用OpenAI技术改善诊疗，已帮助诊断40多种罕见病，减轻医护负担。</p>
+          <a class="art" href="https://arxiv.org/abs/2605.28822" target="_blank" rel="noopener">
+            <span class="at">轻量级多模态 LLM 用于输电设备缺陷分级</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究使用轻量级多模态 LLM 对输电设备进行缺陷分级，融合专家经验并解决类别不平衡问题，提升电力系统稳定性。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.28897" target="_blank" rel="noopener">
-            <span class="at">Review Arcade：LLM生成评审的可操纵性与人类对齐研究</span>
+            <span class="at">Review Arcade：LLM 评审的人类对齐与可游戏性研究</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">研究发现LLM生成的论文评审可被操纵，且作者可利用提示工程影响评审结果。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.28849" target="_blank" rel="noopener">
-            <span class="at">AI 科技：arXiv 人工智能关注的关键线索</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">这条科技线索来自arXiv 人工智能，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <p class="as">研究 LLM 生成的论文评审的易受游戏性，发现作者可能利用 LLM 修改论文以迎合评审，引发对学术诚信的担忧。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
