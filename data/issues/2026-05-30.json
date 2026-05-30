@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-30",
+  "title": "信息日报 2026-05-30",
+  "title_en": "Information Daily 2026-05-30",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 发布 Claude Opus 4.8：官方称“适度但切实的改进”",
+    "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8",
+    "source": "Simon Willison",
+    "summary": "Anthropic 今日推出 Claude Opus 4.8。官方声明称其相对上一代有“适度但切实的改进”，并强调正在研发低成本版本。该模型在多项基准测试中表现提升，但并非重大突破。",
+    "source_en": "Simon Willison",
+    "title_en": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+    "summary_en": "Anthropic released Claude Opus 4.8 today. The release notes call it a 'modest but tangible improvement' over its predecessor, with ongoing work on lower-cost models. The model shows incremental gains across benchmarks, but is not a breakthrough.",
+    "published_at": "2026-05-28T23:59:50+00:00",
+    "reason": "作为AI前沿模型的最新迭代，体现了行业以渐进式优化和成本控制为主导的发展趋势，且评分在所有候选新闻中最高。",
+    "reason_en": "As the latest iteration of a frontier AI model, it highlights the industry's focus on incremental improvement and cost optimization, and it has the highest score among all candidate items.",
+    "score": 14.1
+  },
+  "path": "papers/2026-05-30.html",
+  "raw_count": 180,
+  "source_count": 25
+}
