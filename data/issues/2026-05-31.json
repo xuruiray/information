@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "title": "信息日报 2026-05-31",
+  "title_en": "Information Daily 2026-05-31",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "分析：Anthropic与OpenAI或已找到产品市场契合点",
+    "url": "https://simonwillison.net/2026/May/27/product-market-fit",
+    "source": "Simon Willison",
+    "summary": "据流传，Anthropic即将实现首个盈利季度。企业客户因员工大量使用LLM而面临高昂API账单。分析认为，OpenAI和Anthropic均已找到产品市场契合点，企业市场正在大规模采用AI。",
+    "source_en": "Simon Willison",
+    "title_en": "I think Anthropic and OpenAI have found product-market fit",
+    "summary_en": "Anthropic is rumored to be about to have its first profitable quarter. Companies are surprised at how expensive their LLM bills are becoming due to staff usage. Analysis suggests OpenAI and Anthropic have both found product-market fit, with enterprise customers now paying API prices at scale.",
+    "published_at": "2026-05-27T16:38:35+00:00",
+    "reason": "AI行业最重要的趋势信号：两大头部公司首次实现产品市场契合，标志着AI从实验进入大规模企业落地阶段，影响深远。",
+    "reason_en": "The most significant signal in the AI industry: both top companies achieving product-market fit for the first time, marking the transition from experimentation to large-scale enterprise adoption with far-reaching implications.",
+    "score": 18.1
+  },
+  "path": "papers/2026-05-31.html",
+  "raw_count": 180,
+  "source_count": 25
+}
