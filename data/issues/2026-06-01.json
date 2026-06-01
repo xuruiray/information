@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "title": "信息日报 2026-06-01",
+  "title_en": "Information Daily 2026-06-01",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 公布 Claude 沙箱技术详细文档，提升 AI 安全透明度",
+    "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude",
+    "source": "Simon Willison",
+    "summary": "Anthropic 发布了一篇关于其 Claude AI 产品（包括 Claude.ai、Claude Code 和 Cowork）中沙箱技术的详细概述，解释了如何通过多种沙箱机制来确保模型安全，为行业提供了宝贵的透明度参考。",
+    "source_en": "Simon Willison",
+    "title_en": "How we contain Claude across products",
+    "summary_en": "Anthropic published a detailed overview of sandbox techniques used across its Claude AI products (Claude.ai, Claude Code, and Cowork), explaining how multiple sandbox mechanisms ensure model safety, providing valuable transparency for the industry.",
+    "published_at": "2026-05-30T21:36:24+00:00",
+    "reason": "该文章提供了 AI 安全领域罕见的详细实操文档，对于理解前沿模型的生产环境隔离至关重要，且是当日技术社区阅读和讨论的重点。",
+    "reason_en": "This article provides rare detailed operational documentation in AI safety, crucial for understanding production isolation of frontier models, and was a key focus of technical community reading and discussion.",
+    "score": 13.1
+  },
+  "path": "papers/2026-06-01.html",
+  "raw_count": 180,
+  "source_count": 25
+}
