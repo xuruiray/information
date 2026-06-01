@@ -40,7 +40,7 @@
 
     <section class="briefing-panel category-briefing" aria-label="AI 科技版总结">
       <div class="lead-label">AI 科技版总结</div>
-      <p>本版聚焦前沿模型安全与部署、开发者工具更新及最新研究成果。Anthropic详解Claude沙盒机制；多项研究探讨LLM自我进化与领域特化能力；Vercel推出AI端点令牌防盗措施并上线MiniMax M3模型；OpenAI合作波士顿儿童医院实现罕见病AI辅助诊断，同时发布Braintrust集成Codex案例；多篇论文提出长链数据分析基准、无DNN的LLM架构及量子计算指令集评估等创新。</p>
+      <p>本周AI科技版聚焦前沿模型安全、自主进化与开发工具创新。Anthropic详细披露跨产品沙箱机制；多篇论文探索LLM Agents自进化与长时任务管理。开发工具方面，MAVEN提升工具调用泛化，Vercel集成MiniMax M3，Braintrust借助Codex加速开发。研究产品方面，波士顿儿童医院用AI诊断罕见病，OpenAI推出Rosalind生物防御，海事异常检测与临床决策基准发布。</p>
     </section>
 
     <div class="subsection-stack">
@@ -49,40 +49,40 @@
           <h3>前沿模型</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型">
-          <div class="lead-label">前沿模型</div>
-          <p>Anthropic公布Claude沙盒实现细节，强化产品安全透明度。多项研究揭示LLM在自我进化与领域适应方面的突破，并指出基准测试中存在的内存泄露风险。应用层面，波士顿儿童医院借助GPT模型成功诊断40余例罕见病。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型小版总结">
+          <div class="lead-label">前沿模型小版总结</div>
+          <p>本周前沿模型领域聚焦安全与自主进化。Anthropic详解跨产品沙箱防护；研究揭示LLM Agents通过环境反馈自我进化；令牌窃取防护方案引发关注；用户对AI订阅价值的反思成为热议话题。</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/May/30/how-we-contain-claude" target="_blank" rel="noopener">
+            <span class="at">Anthropic 详解如何跨产品隔离 Claude</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Anthropic发布详尽文档，说明其在Claude.ai、Claude Code和Cowork等产品中实施的多层沙箱隔离技术，包括权限控制、数据隔离和输出过滤，旨在防止模型滥用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
           <a class="art" href="https://arxiv.org/abs/2605.30621" target="_blank" rel="noopener">
-            <span class="at">自我进化LLM智能体中的能力解耦</span>
+            <span class="at">LLM Agents 自进化能力需与工具更新区分</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">研究揭示LLM智能体通过外部工具实现自我进化，但分析表明进化收益被高估，需区分“工具更新”与“能力提升”。</p>
+            <p class="as">论文提出框架区分LLM Agents的“工具更新”与真正能力进化，指出智能体通过更新prompt、记忆等外部组件提升性能，但并非模型参数改变。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.30407" target="_blank" rel="noopener">
-            <span class="at">探索自主智能体数据工程实现模型特化</span>
+            <span class="at">自主数据工程：探索通过智能体实现模型专业化</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究尝试让LLM自主进行数据工程以适配专业领域，自动规划并执行数据收集、清洗与合成流程，减少人工干预。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
-            <span class="at">波士顿儿童医院借助AI解锁新诊断</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">波士顿儿童医院应用OpenAI技术，已辅助诊断40余例罕见病病例，并改善患者护理与运营效率。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30393" target="_blank" rel="noopener">
-            <span class="at">NumLeak：基础模型中的公开数值基准作为隐式标签</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">研究发现公开数值基准可能出现在预训练数据中，导致评估结果反映记忆而非泛化能力，提出NumLeak框架量化泄露风险。</p>
+            <p class="as">研究探索LLM能否自主设计数据筛选流程以实现垂直领域专业化，实验表明智能体可通过自我迭代改进训练数据质量。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://vercel.com/blog/protecting-against-token-theft" target="_blank" rel="noopener">
-            <span class="at">AI 科技：Vercel 博客关注的关键线索</span>
+            <span class="at">Vercel 发布令牌窃取防护方案</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">这条科技线索来自Vercel 博客，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <p class="as">Vercel指出AI推理成本高昂导致推理窃取成为高利润攻击，详述对暴露的AI端点实施速率限制、令牌绑定和异常检测等防护措施。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription" target="_blank" rel="noopener">
+            <span class="at">或许该取消AI订阅了</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">作者David Wilson列举16+个AI辅助项目后反思：AI工具常让任务从“写脚本”膨胀为构建完整系统，产出效率和必要性值得重新评估。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -92,40 +92,40 @@
           <h3>开发与工具</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开发与工具">
-          <div class="lead-label">开发与工具</div>
-          <p>Vercel推出AI端点令牌防盗措施，并上线MiniMax M3模型；OpenAI发布Braintrust集成Codex案例，展示AI辅助开发流程；也有开发者反思AI订阅价值，引发行业讨论。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开发与工具小版总结">
+          <div class="lead-label">开发与工具小版总结</div>
+          <p>开发工具方面，MAVEN框架提升智能体工具调用泛化能力；长时任务上下文管理新方法发布；MiniMax M3模型登陆Vercel平台；Braintrust借助Codex加速实验；NumLeak基准揭示模型记忆风险。</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2605.30738" target="_blank" rel="noopener">
+            <span class="at">MAVEN：提升智能体工具调用泛化能力</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">MAVEN框架通过组合推理策略、状态保持与跨域工具协调，显著提升LLM在不同工具调用环境下的泛化性能。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2605.30785" target="_blank" rel="noopener">
+            <span class="at">长时任务中的智能体上下文管理方法</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出上下文管理学习方法，帮助LLM智能体在长时任务（如网络搜索）中避免上下文退化和推理失败。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
           <a class="art" href="https://vercel.com/changelog/minimax-m3-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">MiniMax M3登录AI Gateway</span>
+            <span class="at">MiniMax M3 模型登陆 Vercel AI Gateway</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">MiniMax M3模型现已在Vercel AI Gateway上线，支持100万token上下文窗口与原生多模态能力，专为多轮协作设计。</p>
+            <p class="as">MiniMax M3是首个拥有1M token上下文窗口和多模态能力的模型，基于稀疏注意力，在软件工程和代理浏览等任务上表现优异。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://openai.com/index/braintrust" target="_blank" rel="noopener">
-            <span class="at">Braintrust如何借助Codex将客户需求转化为代码</span>
+            <span class="at">Braintrust 借助 Codex 加速客户需求到代码的转化</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Braintrust工程师使用Codex和GPT-5.5加速实验与编码，展示AI辅助开发的典型应用场景。</p>
+            <p class="as">Braintrust工程团队使用OpenAI Codex与GPT-5.5快速生成实验代码，将客户请求转化为可执行方案，大幅提升开发效率。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription" target="_blank" rel="noopener">
-            <span class="at">解决方案可能是我取消AI订阅</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">开发者David Wilson反思AI工具带来的项目膨胀，列出16个由AI启动的项目，质疑AI订阅的性价比。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense" target="_blank" rel="noopener">
-            <span class="at">利用Rosalind生物防御增强社会韧性</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI推出Rosalind Biodefense，为已验证开发者及美国政府伙伴提供GPT-Rosalind安全访问，助力生物防御与公共卫生。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser" target="_blank" rel="noopener">
-            <span class="at">AI 科技：Simon Willison关注的关键线索</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">这条科技线索来自Simon Willison，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+          <a class="art" href="https://arxiv.org/abs/2605.30393" target="_blank" rel="noopener">
+            <span class="at">NumLeak：公共数值基准成为基础模型的隐式标签</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">研究提出NumLeak测量框架，揭示公共数值基准可能被模型记忆，导致评估结果高估真实能力，为开发者提供可信评估工具。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -135,40 +135,40 @@
           <h3>研究与产品</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与产品">
-          <div class="lead-label">研究与产品</div>
-          <p>多项研究提出新工具与基准：基于AIS的海事异常检测指标MADQI、知识图谱图结构规则生成、长链数据分析基准LongDS-Bench、无深度神经网络的LLM架构RBF网络，以及量子计算指令集数据集QASM-Eval。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与产品小版总结">
+          <div class="lead-label">研究与产品小版总结</div>
+          <p>研究产品方面，波士顿儿童医院用AI诊断40余种罕见病；OpenAI推出Rosalind生物防御平台；海事异常检测新指标MADQI发布；知识图谱规则生成采用扩散模型；EHRBench临床决策基准填补空白。</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
+            <span class="at">波士顿儿童医院利用AI解锁新诊断方法</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">波士顿儿童医院采用OpenAI技术改善患者护理，减少运营负担，已协助诊断40多例罕见疾病。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense" target="_blank" rel="noopener">
+            <span class="at">OpenAI 推出 Rosalind 生物防御计划</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI启动Rosalind Biodefense，向经过审查的开发者及美国政府合作伙伴提供GPT-Rosalind访问权限，用于生物防御、公共卫生和大流行病防范。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
           <a class="art" href="https://arxiv.org/abs/2605.30388" target="_blank" rel="noopener">
-            <span class="at">面向AIS海事异常检测的无监督学习新评估指标：MADQI</span>
+            <span class="at">海事异常检测新指标：MADQI</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">提出MADQI指标系统评估无监督学习在海事AIS异常检测中的性能，涵盖速度、位置突跳、时间间隔等异常类型。</p>
+            <p class="as">该研究提出MADQI评估指标，用于自动识别船舶速度异常、位置跳跃等行为，提升海上安全监控能力。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.30747" target="_blank" rel="noopener">
-            <span class="at">通过扩散模型生成图结构规则用于知识图谱推理</span>
+            <span class="at">使用扩散模型生成知识图谱图结构规则</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">利用扩散模型生成图结构逻辑规则，突破传统链式规则局限，提升知识图谱推理的准确性与可解释性。</p>
+            <p class="as">论文首次将扩散模型应用于知识图谱规则生成，突破传统链式规则局限，生成更丰富的图结构规则以提高推理性能。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30434" target="_blank" rel="noopener">
-            <span class="at">LongDS-Bench：长链智能体数据分析的失败探究</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">引入LongDS基准测试，评估智能体在长链迭代数据分析中的表现，发现现有模型在长时间追踪分析上下文方面存在显著不足。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30385" target="_blank" rel="noopener">
-            <span class="at">无需深度神经网络的大语言模型：新架构、优势与案例研究</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">提出基于RBF网络替代标准DNN的LLM架构，声称在可解释性与准确性上均有提升，引发对LLM基础架构的重新思考。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30358" target="_blank" rel="noopener">
-            <span class="at">QASM-Eval：面向OpenQASM-3的LLM训练与评估数据集</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">发布QASM-Eval数据集，使LLM能够处理OpenQASM-3量子指令集，涵盖电路测量与经典反馈等功能，推动AI与量子计算交叉。</p>
+          <a class="art" href="https://arxiv.org/abs/2605.30637" target="_blank" rel="noopener">
+            <span class="at">EHRBench：基于电子健康记录的临床决策自动化基准</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">EHRBench提供自动化、可靠的电子健康记录基准，评估LLM在诊断、治疗选择等临床决策中的表现。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

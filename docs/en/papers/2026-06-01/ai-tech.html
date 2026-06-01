@@ -40,7 +40,7 @@
 
     <section class="briefing-panel category-briefing" aria-label="AI &amp; Technology Briefing">
       <div class="lead-label">AI &amp; Technology Briefing</div>
-      <p>This edition covers frontier model safety and deployment, developer tool updates, and latest research. Anthropic details Claude&#39;s sandboxing; studies explore LLM self-evolution and domain specialization. Vercel introduces token theft protection and launches MiniMax M3. OpenAI&#39;s Boston Children&#39;s collaboration aids rare disease diagnosis, and Braintrust integrates Codex. Research includes long-horizon data analysis benchmarks, DNN-free LLM architecture, and quantum assembly evaluation.</p>
+      <p>This week&#39;s AI &amp; Technology section highlights frontier model safety, autonomous evolution, and developer tools innovation. Anthropic discloses cross-product sandboxing techniques; several papers explore LLM agent self-evolution and long-horizon task management. On developer tools, MAVEN improves tool-calling generalization, Vercel integrates MiniMax M3, and Braintrust accelerates development with Codex. Research products include Boston Children&#39;s Hospital using AI for rare disease diagnosis, OpenAI&#39;s Rosalind biodefense launch, and benchmarks for maritime anomaly detection and clinical decision making.</p>
     </section>
 
     <div class="subsection-stack">
@@ -49,40 +49,40 @@
           <h3>Frontier Models</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models">
-          <div class="lead-label">Frontier Models</div>
-          <p>Anthropic reveals Claude&#39;s sandboxing details, enhancing product safety transparency. Studies highlight LLM breakthroughs in self-evolution and domain adaptation, noting benchmark memorization risks. Boston Children&#39;s Hospital uses GPT to diagnose over 40 rare diseases.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models Briefing">
+          <div class="lead-label">Frontier Models Briefing</div>
+          <p>This week&#39;s frontier models focus on safety and autonomous evolution. Anthropic details cross-product sandboxing; research shows LLM agents self-evolve via environmental feedback; token theft protection draws attention; user reflections on AI subscription value spark discussions.</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/May/30/how-we-contain-claude" target="_blank" rel="noopener">
+            <span class="at">How we contain Claude across products</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Anthropic publishes detailed documentation on multi-layer sandboxing techniques across Claude.ai, Claude Code, and Cowork, including permission controls, data isolation, and output filtering to prevent model abuse.</p>
+            <span class="more">Read more →</span>
+          </a>
           <a class="art" href="https://arxiv.org/abs/2605.30621" target="_blank" rel="noopener">
             <span class="at">Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">Study shows LLM agents self-evolve via external tools, but finds evolution benefits overestimated; distinguishes harness updating from capability gain.</p>
+            <p class="as">The paper proposes a framework to distinguish &#39;harness updates&#39; from true capability evolution in LLM agents, noting that agents improve performance by updating external components like prompts and memories, not by changing model parameters.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.30407" target="_blank" rel="noopener">
             <span class="at">Exploring Autonomous Agentic Data Engineering for Model Specialization</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">Explores LLM-driven autonomous data engineering for domain specialization, automating collection, cleaning, and synthesis to reduce human effort.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
-            <span class="at">Boston Children’s uses AI to unlock new diagnoses</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">Boston Children&#39;s Hospital uses OpenAI tech to diagnose over 40 rare disease cases, improving patient care and operational efficiency.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30393" target="_blank" rel="noopener">
-            <span class="at">NumLeak: Public Numeric Benchmarks as Latent Labels in Foundation Models</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">Study finds public numeric benchmarks may appear in pretraining data, causing evaluations to reflect memorization; introduces NumLeak framework to quantify leakage risk.</p>
+            <p class="as">Research explores whether LLMs can autonomously design data curation workflows for domain specialization, showing agents can iteratively improve training data quality.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://vercel.com/blog/protecting-against-token-theft" target="_blank" rel="noopener">
             <span class="at">Protecting against token theft</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">HTTP requests are inexpensive. Vercel charges ~$2/million, a fraction of a cent per call. But a single prompt to an agent on a frontier model can cost $2, making AI a million times more expensive, and inference theft...</p>
+            <p class="as">Vercel notes that high AI inference costs make inference theft a high-margin attack, detailing rate limiting, token binding, and anomaly detection protections for exposed AI endpoints.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription" target="_blank" rel="noopener">
+            <span class="at">The solution might be cancelling my AI subscription</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">David Wilson lists 16+ AI-assisted projects and reflects: AI tools often inflate tasks from &#39;write a quick script&#39; to building whole systems, worth re-evaluating productivity and necessity.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -92,40 +92,40 @@
           <h3>Developer Tools</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Developer Tools">
-          <div class="lead-label">Developer Tools</div>
-          <p>Vercel introduces token theft protection for AI endpoints and launches MiniMax M3. OpenAI showcases Braintrust integrating Codex for faster prototyping. A developer&#39;s reflection on AI subscription value sparks discussion.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Developer Tools Briefing">
+          <div class="lead-label">Developer Tools Briefing</div>
+          <p>Developer tools: MAVEN framework improves agent tool-calling generalization; new context management for long-horizon tasks; MiniMax M3 arrives on Vercel; Braintrust accelerates experiments with Codex; NumLeak benchmark reveals model memorization risks.</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2605.30738" target="_blank" rel="noopener">
+            <span class="at">MAVEN: Improving Generalization in Agentic Tool Calling</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">MAVEN framework significantly improves LLM generalization across tool-calling environments via combined reasoning strategies, state preservation, and cross-domain tool coordination.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2605.30785" target="_blank" rel="noopener">
+            <span class="at">Learning Agent-Compatible Context Management for Long-Horizon Tasks</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Proposes a learning-based context management method to help LLM agents avoid context degradation and reasoning failures in long-horizon tasks like web search.</p>
+            <span class="more">Read more →</span>
+          </a>
           <a class="art" href="https://vercel.com/changelog/minimax-m3-on-ai-gateway" target="_blank" rel="noopener">
             <span class="at">MiniMax M3 on AI Gateway</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">MiniMax M3 is now available on Vercel AI Gateway, featuring 1M-token context window, native multimodality, and tuning for multi-turn collaboration.</p>
+            <p class="as">MiniMax M3 is the first model with 1M-token context window and native multimodality, based on sparse attention, excelling at software engineering and agentic web browsing.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://openai.com/index/braintrust" target="_blank" rel="noopener">
             <span class="at">How Braintrust turns customer requests into code with Codex</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Braintrust engineers use Codex with GPT-5.5 to speed up experimentation and coding, showcasing AI-assisted development.</p>
+            <p class="as">Braintrust engineers use OpenAI Codex with GPT-5.5 to rapidly generate experimental code, turning customer requests into executable solutions, significantly boosting development efficiency.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription" target="_blank" rel="noopener">
-            <span class="at">The solution might be cancelling my AI subscription</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Developer David Wilson reflects on AI tools leading to project bloat, lists 16 AI-started projects, questioning subscription value.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense" target="_blank" rel="noopener">
-            <span class="at">Strengthening societal resilience with Rosalind Biodefense</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI launches Rosalind Biodefense, providing trusted access to GPT-Rosalind for vetted developers and US government partners, advancing biodefense and public health.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser" target="_blank" rel="noopener">
-            <span class="at">Running Python ASGI apps in the browser via Pyodide + a service worker</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four yea...</p>
+          <a class="art" href="https://arxiv.org/abs/2605.30393" target="_blank" rel="noopener">
+            <span class="at">NumLeak: Public Numeric Benchmarks as Latent Labels in Foundation Models</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">Introduces NumLeak measurement framework showing public numeric benchmarks may be memorized, leading to overestimated evaluation results, providing developers with credible assessment tools.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -135,40 +135,40 @@
           <h3>Research &amp; Products</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Products">
-          <div class="lead-label">Research &amp; Products</div>
-          <p>New tools and benchmarks: MADQI for maritime anomaly detection, graph-like rule generation for knowledge graphs, LongDS-Bench for long-horizon data analysis, RBF network as DNN-free LLM architecture, and QASM-Eval for quantum computing.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Products Briefing">
+          <div class="lead-label">Research &amp; Products Briefing</div>
+          <p>Research products: Boston Children&#39;s Hospital uses AI to diagnose 40+ rare diseases; OpenAI launches Rosalind biodefense; maritime anomaly detection metric MADQI published; diffusion models for knowledge graph rule generation; EHRBench fills clinical decision benchmarking gap.</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">
+            <span class="at">Boston Children’s uses AI to unlock new diagnoses</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Boston Children&#39;s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and has helped diagnose more than 40 rare disease cases.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense" target="_blank" rel="noopener">
+            <span class="at">Strengthening societal resilience with Rosalind Biodefense</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners for biodefense, public health, and pandemic preparedness.</p>
+            <span class="more">Read more →</span>
+          </a>
           <a class="art" href="https://arxiv.org/abs/2605.30388" target="_blank" rel="noopener">
             <span class="at">A Novel Evaluation Metric for Unsupervised Learning in AIS-Based Maritime Anomaly Detection: MADQI</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">Introduces MADQI to systematically evaluate unsupervised learning on maritime AIS anomaly detection, covering speed, position jumps, time gaps.</p>
+            <p class="as">Proposes MADQI evaluation metric for automated detection of vessel speed anomalies, position jumps, etc., improving maritime safety monitoring.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2605.30747" target="_blank" rel="noopener">
             <span class="at">Generating Graph-like Rules for Knowledge Graph Reasoning via Diffusion Models</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">Uses diffusion models to generate graph-like logical rules, overcoming chain-rule limitations, improving KG reasoning accuracy and interpretability.</p>
+            <p class="as">First application of diffusion models to knowledge graph rule generation, overcoming chain-like rule limitations and generating richer graph-like rules for better reasoning.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30434" target="_blank" rel="noopener">
-            <span class="at">LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">Introduces LongDS benchmark to evaluate agents on long-horizon iterative data analysis, revealing significant deficiencies in tracking evolving context.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30385" target="_blank" rel="noopener">
-            <span class="at">LLMs Without Deep Neural Networks: New Architecture, Benefits and Case Study</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">Proposes RBF network as substitute for standard DNN in LLMs, claiming improvements in explainability and accuracy, sparking rethinking of LLM architectures.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2605.30358" target="_blank" rel="noopener">
-            <span class="at">QASM-Eval: A Dataset to Train and Evaluate LLMs on OpenQASM-3 Beyond Quantum Circuits</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">Releases QASM-Eval dataset enabling LLMs to process OpenQASM-3 quantum instructions, including measurement and feedback, advancing AI-quantum intersection.</p>
+          <a class="art" href="https://arxiv.org/abs/2605.30637" target="_blank" rel="noopener">
+            <span class="at">EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">EHRBench provides an automated, reliable EHR-based benchmark to evaluate LLMs in clinical decision-making tasks such as diagnosis and treatment selection.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
