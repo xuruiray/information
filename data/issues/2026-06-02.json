@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "title": "信息日报 2026-06-02",
+  "title_en": "Information Daily 2026-06-02",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Pimco：美债收益率当前受美联储预期推动，而非AI",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-02/pimco-says-treasury-yields-driven-by-fed-bets-not-ai-for-now",
+    "source": "彭博市场",
+    "summary": "太平洋投资管理公司（Pimco）表示，人工智能相关借贷热潮长期可能影响债市，但近期长期美债收益率上升的背后主因是美联储政策预期，而非AI。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Pimco Says Treasury Yields Driven by Fed Bets, Not AI, for Now",
+    "summary_en": "A boom in AI-related borrowing may become a bigger influence on bond markets over time, but the idea that it’s behind a recent rise in long-dated Treasury yields appears overstated, according to Pacific Investment Management Co.",
+    "published_at": "2026-06-02T03:46:50+00:00",
+    "reason": "该观点挑战了市场对AI驱动的债券收益率上升的普遍认知，对投资者理解当前利率环境具有重要指导意义。",
+    "reason_en": "This view challenges the prevailing market narrative that AI is driving the rise in long-term bond yields, offering key insight for investors navigating the current rate environment.",
+    "score": 7.0
+  },
+  "path": "papers/2026-06-02.html",
+  "raw_count": 180,
+  "source_count": 25
+}
