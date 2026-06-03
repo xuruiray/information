@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-03",
+  "title": "信息日报 2026-06-03",
+  "title_en": "Information Daily 2026-06-03",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "微软发布两款新大型语言模型，推动AI竞争升级",
+    "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models",
+    "source": "Simon Willison",
+    "summary": "微软今日发布MAI-Thinking-1推理模型（1万亿参数，350亿活跃）和MAI-Code-1-Flash代码模型（1370亿参数，50亿活跃），专为GitHub Copilot和VS Code优化，将向部分用户推出。",
+    "source_en": "Simon Willison",
+    "title_en": "Microsoft's new MAI models",
+    "summary_en": "Microsoft announced MAI-Thinking-1 (1T params, 35B active) for reasoning and MAI-Code-1-Flash (137B params, 5B active) for coding, optimized for GitHub Copilot and VS Code, rolling out to select users.",
+    "published_at": "2026-06-02T22:21:52+00:00",
+    "reason": "微软新模型标志着AI领域的重要进展，参数规模与效率结合，直接影响未来AI应用和行业竞争格局。同时，作为科技巨头动态，与当日AI股市高涨呼应，是日报中最具趋势性的事件。",
+    "reason_en": "Microsoft's new models represent a major step in AI, combining scale and efficiency, directly impacting future AI applications and industry competition. Aligned with the day's AI-driven stock rally, it is the most trend-setting event in the report.",
+    "score": 10.1
+  },
+  "path": "papers/2026-06-03.html",
+  "raw_count": 180,
+  "source_count": 25
+}
