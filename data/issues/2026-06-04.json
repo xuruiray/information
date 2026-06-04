@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "title": "信息日报 2026-06-04",
+  "title_en": "Information Daily 2026-06-04",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Broadcom 预测不佳拖累美股从纪录高位回落，油价下跌",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-03/asian-stocks-set-to-fall-on-fresh-us-iran-clashes-markets-wrap",
+    "source": "彭博市场",
+    "summary": "美股从纪录高位回落，因 Broadcom 业绩展望不及预期，打击 AI 芯片交易动能；同时油价走低，中东不确定性持续。印尼市场因政策风险暴跌，卢比跌破 18,000。市场关注美联储加息前景。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stocks Fall From Record on Broadcom Miss, Oil Dips: Markets Wrap",
+    "summary_en": "Stocks pulled back from record levels after a weak forecast from Broadcom Inc. dented momentum in the AI trade; oil dipped amid Middle East uncertainty. Indonesian markets tumbled on policy risks, with the rupiah breaching 18,000 per dollar. Focus turns to Fed rate hike prospects.",
+    "published_at": "2026-06-03T22:04:45+00:00",
+    "reason": "该事件将 AI 产业 (Broadcom 芯片) 与金融市场、地缘政治 (油价) 紧密关联，是当日最综合、影响最广的头条，涵盖财经理财、AI 科技和国际事务三大类。",
+    "reason_en": "This event ties together AI (Broadcom chips), financial markets, and geopolitics (oil), making it the most comprehensive and impactful lead story of the day, covering all three required sections: finance, AI/tech, and world affairs.",
+    "score": 7.0
+  },
+  "path": "papers/2026-06-04.html",
+  "raw_count": 180,
+  "source_count": 25
+}
