@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "title": "信息日报 2026-06-05",
+  "title_en": "Information Daily 2026-06-05",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "面向企业AI代理部署前保障：基于本体论仿真与信任认证",
+    "url": "https://arxiv.org/abs/2606.04037",
+    "source": "arXiv 人工智能",
+    "summary": "arXiv发布新论文，提出一种基于本体论的仿真与信任认证方法，用于企业AI代理部署前的验证，填补了大模型能力基准测试与生产部署之间的关键差距。",
+    "source_en": "arXiv cs.AI",
+    "title_en": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+    "summary_en": "A new arXiv paper proposes ontology-grounded simulation and trust certification for pre-deployment verification of enterprise AI agents, addressing the critical gap between LLM benchmarking and production deployment.",
+    "published_at": "2026-06-05T00:00:00-04:00",
+    "reason": "该研究是当日最高分的前沿AI成果，直接关乎企业AI安全部署，具有重要实践意义。",
+    "reason_en": "This paper is the highest-scored AI research of the day, directly addressing enterprise AI deployment safety with significant practical implications.",
+    "score": 11.9
+  },
+  "path": "papers/2026-06-05.html",
+  "raw_count": 180,
+  "source_count": 25
+}
