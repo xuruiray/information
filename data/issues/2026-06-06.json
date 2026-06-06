@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "title": "信息日报 2026-06-06",
+  "title_en": "Information Daily 2026-06-06",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "纳斯达克100指数暴跌5% AI领跌 收益率攀升",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-04/asian-stocks-poised-to-edge-lower-oil-steadies-markets-wrap",
+    "source": "彭博市场",
+    "summary": "纳斯达克100指数暴跌5%，AI板块领跌，债券收益率攀升。强劲就业数据巩固了美联储今年加息预期，科技股抛售潮蔓延。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Nasdaq 100 Sinks 5% in AI-Led Rout as Yields Climb: Markets Wrap",
+    "summary_en": "Wall Street’s record weekly streak ended as stocks tumbled on a tech selloff and higher bond yields. A strong jobs report reinforced bets that the Federal Reserve will hike rates again. The Nasdaq 100 fell 5%, led by AI-related stocks.",
+    "published_at": "2026-06-04T22:12:54+00:00",
+    "reason": "美股科技板块暴跌反映市场对通胀和利率的担忧，同时AI行业的高估值和快速扩张引发回调。此事件牵动全球投资者情绪，影响理财决策，是今日最具影响力的财经新闻。",
+    "reason_en": "The tech rout led by AI stocks reflects market concerns over inflation and rate hikes, and the high valuation of AI companies. This event sways global investor sentiment and personal finance decisions, making it the most impactful finance story today.",
+    "score": 10.0
+  },
+  "path": "papers/2026-06-06.html",
+  "raw_count": 180,
+  "source_count": 25
+}
