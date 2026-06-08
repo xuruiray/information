@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "title": "信息日报 2026-06-08",
+  "title_en": "Information Daily 2026-06-08",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "股市下跌，AI热潮退烧，油价飙升：三重打击令市场承压",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-07/us-stock-futures-drop-after-tech-selloff-oil-up-markets-wrap",
+    "source": "彭博市场",
+    "summary": "全球股市与债券同步下跌，投资者面临三重逆风：人工智能交易退潮、美联储加息预期升温以及中东冲突恶化推高油价。科技股领跌，资金转向防御性板块。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stock Losses Build as AI Rally Cools, Oil Jumps: Markets Wrap",
+    "summary_en": "Stocks and bonds dropped as investors faced a trio of headwinds: a pullback in the artificial-intelligence trade, mounting bets on a US interest rate hike, and rising oil prices due to a worsening of the Middle East conflict. Tech stocks led the decline as money rotated into defensive sectors.",
+    "published_at": "2026-06-07T22:07:28+00:00",
+    "reason": "综合反映当日市场三大核心风险：AI板块估值回调、美联储政策转向预期及地缘政治紧张，直接影响全球资产配置，与AI科技和国际事务板块联动紧密。",
+    "reason_en": "Captures the three key market risks of the day: AI sector valuation correction, rising Fed rate hike expectations, and geopolitical tensions, directly impacting global asset allocation and closely tied to both AI/tech and world affairs sections.",
+    "score": 9.0
+  },
+  "path": "papers/2026-06-08.html",
+  "raw_count": 180,
+  "source_count": 25
+}
