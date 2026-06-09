@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "title": "信息日报 2026-06-09",
+  "title_en": "Information Daily 2026-06-09",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "用MicroPython和WASM在沙箱中运行Python代码",
+    "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox",
+    "source": "Simon Willison",
+    "summary": "Simon Willison发布alpha版micropython-wasm包，通过在WebAssembly沙箱中运行MicroPython实现安全的Python代码执行，并用于Datasette Agent的插件。",
+    "source_en": "Simon Willison",
+    "title_en": "Running Python code in a sandbox with MicroPython and WASM",
+    "summary_en": "Simon Willison released an alpha package micropython-wasm that runs MicroPython in a WebAssembly sandbox for secure Python code execution, used as a plugin for Datasette Agent.",
+    "published_at": "2026-06-06T03:53:34+00:00",
+    "reason": "该项目解决了长期以来的安全沙箱代码执行难题，技术可行性高，且已有实际应用，对开发者社区影响深远。",
+    "reason_en": "This project solves a long-standing challenge of secure sandboxed code execution, with high technical feasibility and practical applications, making a significant impact on the developer community.",
+    "score": 19.1
+  },
+  "path": "papers/2026-06-09.html",
+  "raw_count": 180,
+  "source_count": 25
+}
