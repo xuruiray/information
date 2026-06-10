@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-10",
+  "title": "信息日报 2026-06-10",
+  "title_en": "Information Daily 2026-06-10",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 发布 Claude Fable 5：性能强劲但成本高昂",
+    "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5",
+    "source": "Simon Willison",
+    "summary": "Anthropic 今日发布 Claude Fable 5，Simon Willison 经过 5.5 小时测试后表示，该模型性能强大但运行缓慢、成本极高，堪称“猛兽”。",
+    "source_en": "Simon Willison",
+    "title_en": "Initial impressions of Claude Fable 5",
+    "summary_en": "Anthropic released Claude Fable 5 today. After about 5.5 hours of testing, Simon Willison reports the model is powerful but slow and expensive, calling it a \"beast\".",
+    "published_at": "2026-06-09T23:59:54+00:00",
+    "reason": "AI 领域的重磅发布，性能与成本引发行业广泛讨论，且在多类候选新闻中得分最高（20.1）。",
+    "reason_en": "A major AI release that sparks industry-wide discussion on performance vs. cost, and has the highest score (20.1) among all candidates.",
+    "score": 20.1
+  },
+  "path": "papers/2026-06-10.html",
+  "raw_count": 180,
+  "source_count": 25
+}
