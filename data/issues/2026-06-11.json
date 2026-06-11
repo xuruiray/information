@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-11",
+  "title": "信息日报 2026-06-11",
+  "title_en": "Information Daily 2026-06-11",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "全球股市跌至一个月低点，油价因伊朗冲突上涨",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-10/stock-market-today-dow-s-p-live-updates",
+    "source": "彭博市场",
+    "summary": "全球股市跌至一个多月低点，科技股领跌，美伊冲突未见缓和迹象，油价走高。美国核心通胀数据温和，但债券交易员仍押注美联储年内加息。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Global Stocks Hit One-Month Low, Oil Gains on Iran: Markets Wrap",
+    "summary_en": "Global equities fell to a more than one-month low as a technology-led selloff deepened and the war in Iran showed little signs of ending. Oil rose. Bond traders maintained bets on a Fed rate hike despite a soft core CPI reading.",
+    "published_at": "2026-06-10T22:04:43+00:00",
+    "reason": "该新闻综合反映了当日最大地缘冲突（美伊互袭）对全球市场的影响，涵盖股市、商品与政策预期，是今日最重要的事件。",
+    "reason_en": "This story captures the market impact of the major geopolitical conflict (US-Iran strikes) on equities, oil, and policy expectations, making it the most significant event of the day.",
+    "score": 7.0
+  },
+  "path": "papers/2026-06-11.html",
+  "raw_count": 180,
+  "source_count": 25
+}
