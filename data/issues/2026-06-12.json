@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-12",
+  "title": "信息日报 2026-06-12",
+  "title_en": "Information Daily 2026-06-12",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "特朗普取消对伊朗打击并宣称和平协议，全球股市大涨",
+    "url": "https://www.aljazeera.com/economy/2026/6/12/stocks-markets-surge-as-trump-calls-off-strikes-on-iran-touts-peace-deal?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "美国总统特朗普宣布取消对伊朗的新一轮打击，声称德黑兰已批准和平协议。消息传出后，华尔街与亚洲股市大幅反弹，国际油价显著下跌。市场押注持续100多天的美伊冲突即将结束。",
+    "source_en": "Al Jazeera",
+    "title_en": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
+    "summary_en": "President Trump cancels new strikes on Iran, claiming Tehran has approved a peace deal. Wall Street and Asian markets surge, oil prices tumble as investors bet on a diplomatic end to the 100-day conflict.",
+    "published_at": "2026-06-12T01:44:15+00:00",
+    "reason": "美伊和平曙光主导全球风险情绪，股市大涨，同时牵动能源价格与地缘格局，是本日最具跨领域影响力的事件。",
+    "reason_en": "The prospect of US-Iran peace drives global risk-on mood, lifting equities and lowering oil prices; it is the most cross-cutting event of the day.",
+    "score": 4.85
+  },
+  "path": "papers/2026-06-12.html",
+  "raw_count": 180,
+  "source_count": 25
+}
