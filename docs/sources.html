@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>信息日报 · 数据源状态</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>2026-06-13</span>
+        <span>SOURCES</span>
+      </div>
+      <h1 class="title">数据源状态</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+    </header>
+
+    <nav class="edition-nav" aria-label="数据导览">
+      <span>数据导览</span>
+      <a href="index.html">返回日报</a>
+      <a href="raw/2026-06-13.html">原始候选</a>
+      <a href="archive.html">往期</a>
+    </nav>
+
+    <div class="source-table-wrap">
+      <table class="source-table">
+        <thead>
+          <tr>
+            <th>源</th>
+            <th>分类</th>
+            <th>状态</th>
+            <th>候选</th>
+            <th>耗时</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener">OpenAI News</a>
+              <span class="source-id">openai-news</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>542 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://blog.google/technology/ai/rss/" target="_blank" rel="noopener">Google AI Blog</a>
+              <span class="source-id">google-ai</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>395 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://huggingface.co/blog/feed.xml" target="_blank" rel="noopener">Hugging Face Blog</a>
+              <span class="source-id">huggingface-blog</span>
+              <span class="source-error">Source huggingface-blog returned HTTP 429</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-error">失败</span></td>
+            <td>0</td>
+            <td>238 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://techcrunch.com/category/artificial-intelligence/feed/" target="_blank" rel="noopener">TechCrunch AI</a>
+              <span class="source-id">techcrunch-ai</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>193 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://simonwillison.net/atom/everything/" target="_blank" rel="noopener">Simon Willison</a>
+              <span class="source-id">simon-willison</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>221 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://hnrss.org/frontpage?points=100" target="_blank" rel="noopener">Hacker News</a>
+              <span class="source-id">hn-frontpage</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>1366 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.blog/feed/" target="_blank" rel="noopener">GitHub Blog</a>
+              <span class="source-id">github-blog</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>10</td>
+            <td>160 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://vercel.com/blog/rss.xml" target="_blank" rel="noopener">Vercel Blog</a>
+              <span class="source-id">vercel-blog</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>711 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://engineering.fb.com/feed/" target="_blank" rel="noopener">Meta Engineering</a>
+              <span class="source-id">meta-engineering</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>9</td>
+            <td>105 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://export.arxiv.org/rss/cs.AI" target="_blank" rel="noopener">arXiv cs.AI</a>
+              <span class="source-id">arxiv-ai</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>0</td>
+            <td>233 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://export.arxiv.org/rss/cs.CL" target="_blank" rel="noopener">arXiv cs.CL</a>
+              <span class="source-id">arxiv-cl</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>0</td>
+            <td>207 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://export.arxiv.org/rss/cs.LG" target="_blank" rel="noopener">arXiv cs.LG</a>
+              <span class="source-id">arxiv-lg</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>0</td>
+            <td>186 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.producthunt.com/feed" target="_blank" rel="noopener">Product Hunt</a>
+              <span class="source-id">product-hunt</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>174 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://techcrunch.com/category/startups/feed/" target="_blank" rel="noopener">TechCrunch Startups</a>
+              <span class="source-id">techcrunch-startups</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>61 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.bbci.co.uk/news/world/rss.xml" target="_blank" rel="noopener">BBC World</a>
+              <span class="source-id">bbc-world</span>
+            </td>
+            <td>world</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>240 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.theguardian.com/world/rss" target="_blank" rel="noopener">The Guardian World</a>
+              <span class="source-id">guardian-world</span>
+            </td>
+            <td>world</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>286 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.npr.org/1004/rss.xml" target="_blank" rel="noopener">NPR World</a>
+              <span class="source-id">npr-world</span>
+            </td>
+            <td>world</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>10</td>
+            <td>389 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.aljazeera.com/xml/rss/all.xml" target="_blank" rel="noopener">Al Jazeera</a>
+              <span class="source-id">aljazeera-all</span>
+            </td>
+            <td>world</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>237 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.bloomberg.com/markets/news.rss" target="_blank" rel="noopener">Bloomberg Markets</a>
+              <span class="source-id">bloomberg-markets</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>468 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.bloomberg.com/economics/news.rss" target="_blank" rel="noopener">Bloomberg Economics</a>
+              <span class="source-id">bloomberg-economics</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>401 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.content.dowjones.io/public/rss/mw_topstories" target="_blank" rel="noopener">MarketWatch</a>
+              <span class="source-id">marketwatch-top</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>10</td>
+            <td>150 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://feeds.a.dj.com/rss/RSSMarketsMain.xml" target="_blank" rel="noopener">WSJ Markets</a>
+              <span class="source-id">wsj-markets</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>266 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.investing.com/rss/news.rss" target="_blank" rel="noopener">Investing.com</a>
+              <span class="source-id">investing-news</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>10</td>
+            <td>207 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.federalreserve.gov/feeds/press_all.xml" target="_blank" rel="noopener">Federal Reserve</a>
+              <span class="source-id">federal-reserve</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>90 ms</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.sec.gov/news/pressreleases.rss" target="_blank" rel="noopener">SEC Press Releases</a>
+              <span class="source-id">sec-press</span>
+            </td>
+            <td>finance</td>
+            <td><span class="status status-success">成功</span></td>
+            <td>12</td>
+            <td>135 ms</td>
+          </tr>
+          <tr>
+            <td>
+              X AI Search
+              <span class="source-id">x-ai-search</span>
+            </td>
+            <td>ai-tech</td>
+            <td><span class="status status-disabled">停用</span></td>
+            <td>0</td>
+            <td>0 ms</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="colophon">
+      <a href="index.html">← 返回日报</a>
+      <span>2026-06-13 16:03 CST</span>
+    </footer>
+  </article>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){ window.scrollTo({top: 0, behavior: 'smooth'}); });
+  });
+})();
+</script>
+</body>
+</html>

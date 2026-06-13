@@ -4,19 +4,25 @@
   "title_en": "Information Daily 2026-06-13",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "SpaceX创纪录IPO，马斯克成为全球首位万亿富翁",
-    "url": "https://www.bloomberg.com/news/articles/2026-06-12/what-to-know-about-spacex-s-record-breaking-ipo",
-    "source": "彭博市场",
-    "summary": "太空探索公司SpaceX于6月12日上市，募资750亿美元，市值约2.2万亿美元，创下史上最大IPO纪录。其创始人埃隆·马斯克身价随之突破1.11万亿美元，成为全球首位万亿富翁。上市首日股价上涨19%，点燃太空产业投资热情。",
-    "source_en": "Bloomberg Markets",
-    "title_en": "SpaceX's Record-Breaking IPO Makes Elon Musk World's First Trillionaire",
-    "summary_en": "SpaceX went public on June 12, raising $75 billion in the largest IPO in history, ending its first day with a market cap of about $2.2 trillion. Founder Elon Musk's net worth topped $1.11 trillion, making him the world's first trillionaire. The stock rose 19% on debut, fueling a surge in space industry investment.",
-    "published_at": "2026-06-12T22:16:11+00:00",
-    "reason": "SpaceX的IPO跨越财经理财、国际事务和AI科技三大领域，创下多项历史纪录，对全球经济、太空产业和科技创新具有里程碑意义。",
-    "reason_en": "SpaceX's IPO spans finance, world affairs, and AI/technology, setting multiple records and marking a milestone for the global economy, space industry, and tech innovation.",
-    "score": 6.0
+    "title": "SpaceX上市首日飙升19%，马斯克成全球首位万亿富翁",
+    "url": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "SpaceX在纳斯达克上市首日大涨19%，市值达2.2万亿美元，其创始人埃隆·马斯克身家跃升至1.11万亿美元，成为世界首位万亿富翁。此次IPO为华尔街史上最大规模。",
+    "source_en": "BBC World",
+    "title_en": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+    "summary_en": "SpaceX surged 19% on its Nasdaq debut, reaching a $2.2 trillion valuation. Founder Elon Musk's net worth climbed to $1.11 trillion, making him the world's first trillionaire. The IPO was the largest in Wall Street history.",
+    "original_title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+    "published_at": "2026-06-12T22:00:52+00:00",
+    "reason": "该事件融合科技与金融两大领域，是全球资本市场里程碑，影响深远。",
+    "reason_en": "This event merges technology and finance, marking a milestone in global capital markets with far-reaching implications.",
+    "score": 4.0
   },
   "path": "papers/2026-06-13.html",
-  "raw_count": 180,
-  "source_count": 25
+  "raw_path": "raw/2026-06-13.html",
+  "raw_count": 158,
+  "source_count": 25,
+  "warnings": [
+    "LLM subsection world/global-society ignored duplicate URL: https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
+    "Source huggingface-blog returned HTTP 429"
+  ]
 }
