@@ -1,4 +1,5 @@
 import json
+from dataclasses import replace
 from datetime import date, datetime, timezone
 from pathlib import Path
 from shutil import copytree
@@ -9,6 +10,7 @@ from information_daily.compiler import compile_issue
 from information_daily.config import ConfigError, load_config
 from information_daily.models import Article
 from information_daily.renderer import render_issue
+from information_daily.sources import FetchResult, SourceFetchStatus
 
 
 def test_missing_llm_key_fails_without_fallback(monkeypatch):
@@ -41,6 +43,32 @@ def test_fallback_compiles_dynamic_sections(monkeypatch):
         "Useful open source CLI for developers",
     }
     assert issue.warnings
+
+
+def test_lookback_hours_filters_old_articles(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.delenv(config.llm.api_key_env, raising=False)
+    old_article = Article(
+        id="old",
+        title="Old AI story",
+        url="https://example.com/old",
+        source_id="old-source",
+        source_name="Old Source",
+        default_section="ai-tech",
+        summary="Too old for the configured lookback window.",
+        published_at=datetime(2026, 5, 20, 1, 0, tzinfo=timezone.utc),
+    )
+
+    issue = compile_issue(
+        config,
+        [*_articles(), old_article],
+        date(2026, 5, 29),
+        allow_fallback=True,
+    )
+
+    urls = {article.url for section in issue.sections for article in section.articles}
+    assert old_article.url not in urls
+    assert issue.raw_count == len(_articles())
 
 
 def test_llm_compiles_overview_and_sections_separately(monkeypatch):
@@ -136,6 +164,130 @@ def test_llm_compiles_overview_and_sections_separately(monkeypatch):
     assert issue.headline and issue.headline.source == "OpenAI 新闻"
 
 
+def test_llm_max_input_items_limits_payload(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    config = replace(config, llm=replace(config.llm, max_input_items=2))
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    overview_request = {}
+
+    def fake_post_chat_completion(config, payload, api_key):
+        del config, api_key
+        request = json.loads(payload["messages"][1]["content"])
+        if "总览" in request["task"]:
+            overview_request.update(request)
+            first = request["candidates_by_section"]["ai-tech"][0]
+            return json.dumps(
+                {
+                    "briefing": {
+                        "title": "今日总结",
+                        "summary": "今日信息围绕 AI、国际事务和市场变化展开。",
+                        "title_en": "Daily Briefing",
+                        "summary_en": "Today focuses on AI, world affairs, and market moves.",
+                    },
+                    "headline": {
+                        "title": "AI 框架更新",
+                        "title_en": first["title"],
+                        "url": first["url"],
+                        "source_zh": "错误来源",
+                        "source_en": "Wrong Source",
+                        "summary": "OpenAI 发布新的智能体框架。",
+                        "summary_en": first["summary"],
+                        "score": first["score"],
+                    },
+                }
+            )
+        section = request["section"]
+        return json.dumps(
+            {
+                "id": section["id"],
+                "briefing": {
+                    "title": f"{section['title']}总结",
+                    "summary": f"{section['title']}版面完成编纂。",
+                    "title_en": f"{section['title_en']} Briefing",
+                    "summary_en": f"{section['title_en']} section is compiled.",
+                },
+                "subsections": [],
+            }
+        )
+
+    monkeypatch.setattr("information_daily.compiler._post_chat_completion", fake_post_chat_completion)
+
+    issue = compile_issue(config, _articles(), date(2026, 5, 29), allow_fallback=False)
+
+    total_candidates = sum(len(items) for items in overview_request["candidates_by_section"].values())
+    assert total_candidates == 2
+    assert issue.headline.original_title == "OpenAI releases a new agent framework"
+    assert issue.headline.source == "OpenAI 新闻"
+    assert issue.headline.source_en == "OpenAI News"
+
+
+def test_llm_invalid_duplicate_and_missing_sections_are_repaired(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+
+    def fake_post_chat_completion(config, payload, api_key):
+        del config, api_key
+        request = json.loads(payload["messages"][1]["content"])
+        if "总览" in request["task"]:
+            return json.dumps(
+                {
+                    "briefing": {
+                        "title": "今日总结",
+                        "summary": "今日信息围绕 AI、国际事务和市场变化展开。",
+                    },
+                    "headline": {
+                        "title": "未知头条",
+                        "url": "https://example.com/unknown",
+                        "summary": "不存在的候选。",
+                    },
+                }
+            )
+        section = request["section"]
+        if section["id"] != "ai-tech":
+            return json.dumps({"id": section["id"], "subsections": []})
+        first_subsection = section["subsections"][0]
+        return json.dumps(
+            {
+                "id": "ai-tech",
+                "briefing": {"title": "AI 科技总结", "summary": "AI 新闻。"},
+                "subsections": [
+                    {
+                        "id": first_subsection["id"],
+                        "briefing": {"title": "前沿模型总结", "summary": "模型新闻。"},
+                        "articles": [
+                            {
+                                "title": "CLI 工具",
+                                "url": "https://example.com/oss-cli",
+                                "summary": "一款开源 CLI 工具。",
+                            },
+                            {
+                                "title": "Duplicate CLI 工具",
+                                "url": "https://example.com/oss-cli",
+                                "summary": "重复链接。",
+                            },
+                            {
+                                "title": "Unknown",
+                                "url": "https://example.com/not-in-candidates",
+                                "summary": "不存在的候选。",
+                            },
+                        ],
+                    }
+                ],
+            }
+        )
+
+    monkeypatch.setattr("information_daily.compiler._post_chat_completion", fake_post_chat_completion)
+
+    issue = compile_issue(config, _articles(), date(2026, 5, 29), allow_fallback=False)
+
+    warning_text = "\n".join(issue.warnings)
+    assert "unknown URL" in warning_text
+    assert "duplicate URL" in warning_text
+    assert "missed subsection" in warning_text
+    urls = [article.url for section in issue.sections for article in section.articles]
+    assert len(urls) == len(set(urls))
+
+
 def test_render_issue_writes_pages(tmp_path, monkeypatch):
     root = _copy_project_bits(tmp_path)
     config = load_config("ai-tech", root)
@@ -143,12 +295,15 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     issue = compile_issue(config, _articles(), date(2026, 5, 29), allow_fallback=True)
 
     out_dir = tmp_path / "docs"
-    render_issue(config, issue, out_dir)
+    render_issue(config, issue, out_dir, fetch_result=_fetch_result(issue, _articles()))
 
     index = (out_dir / "index.html").read_text(encoding="utf-8")
     en_index = (out_dir / "en" / "index.html").read_text(encoding="utf-8")
     archive = (out_dir / "archive.html").read_text(encoding="utf-8")
     en_archive = (out_dir / "en" / "archive.html").read_text(encoding="utf-8")
+    sources = (out_dir / "sources.html").read_text(encoding="utf-8")
+    raw = (out_dir / "raw" / "2026-05-29.html").read_text(encoding="utf-8")
+    raw_json = json.loads((root / "data" / "raw" / "2026-05-29.json").read_text(encoding="utf-8"))
     ai_page = (out_dir / "sections" / "ai-tech.html").read_text(encoding="utf-8")
     en_ai_page = (out_dir / "en" / "sections" / "ai-tech.html").read_text(encoding="utf-8")
     paper = out_dir / "papers" / "2026-05-29.html"
@@ -158,6 +313,8 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
 
     assert "信息日报" in index
     assert "本期三版" in index
+    assert "原始候选" in index
+    assert "数据源状态" in index
     assert "sections/ai-tech.html" in index
     assert "en/index.html" in index
     assert "Information Daily" in en_index
@@ -178,6 +335,10 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     assert en_dated_ai_page.exists()
     assert "往期信息日报" in archive
     assert "Information Daily Archive" in en_archive
+    assert "OpenAI News" in sources
+    assert "原始候选" in raw
+    assert set(raw_json) == {"date", "profile_id", "generated_at", "sources", "articles", "warnings"}
+    assert raw_json["articles"][0]["rank"] == 1
 
 
 def _articles():
@@ -216,6 +377,29 @@ def _articles():
             weight=0.9,
         ),
     ]
+
+
+def _fetch_result(issue, articles):
+    return FetchResult(
+        articles=tuple(articles),
+        warnings=(),
+        sources=(
+            SourceFetchStatus(
+                id="openai-news",
+                name="OpenAI News",
+                type="rss",
+                category="ai-tech",
+                homepage="https://example.com/rss.xml",
+                language="en",
+                enabled=True,
+                status="success",
+                count=len(articles),
+                duration_ms=12,
+                error="",
+                fetched_at=issue.generated_at.isoformat() if issue.generated_at else "",
+            ),
+        ),
+    )
 
 
 def _copy_project_bits(tmp_path: Path) -> Path:

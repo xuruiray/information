@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default('zh-CN') }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }} · 原始候选 · {{ issue.slug }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>{{ issue.slug }}</span>
+        <span>RAW SIGNALS</span>
+      </div>
+      <h1 class="title">原始候选</h1>
+      <div class="subtitle">{{ site.subtitle }}</div>
+    </header>
+
+    <nav class="edition-nav" aria-label="数据导览">
+      <span>数据导览</span>
+      <a href="{{ index_href }}">返回日报</a>
+      <a href="{{ sources_href }}">数据源状态</a>
+      <a href="{{ archive_href }}">往期</a>
+    </nav>
+
+    {% for group in groups %}
+    <section class="source-block" id="source-{{ group.source.id }}">
+      <header class="source-head">
+        <h2>{{ group.source.name }}</h2>
+        <span class="status status-{{ group.source.status }}">{{ group.source.status_label }}</span>
+      </header>
+      <div class="source-meta">
+        <span>{{ group.source.category }}</span>
+        <span>{{ group.source.count }} 条</span>
+        <span>{{ group.source.duration_ms }} ms</span>
+        {% if group.source.homepage %}
+        <a href="{{ group.source.homepage }}" target="_blank" rel="noopener">来源</a>
+        {% endif %}
+      </div>
+      {% if group.source.error %}
+      <p class="source-error">{{ group.source.error }}</p>
+      {% endif %}
+      {% if group.articles %}
+      <div class="raw-list">
+        {% for article in group.articles %}
+        <a class="raw-item" href="{{ article.url }}" target="_blank" rel="noopener">
+          <span class="raw-rank">{{ article.rank }}</span>
+          <span class="raw-title">{{ article.title }}</span>
+          {% if article.summary %}
+          <span class="raw-summary">{{ article.summary }}</span>
+          {% endif %}
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="empty">本源本次未返回候选。</p>
+      {% endif %}
+    </section>
+    {% endfor %}
+
+    <footer class="colophon">
+      <a href="{{ index_href }}">← 返回日报</a>
+      <span>{{ generated_at }}</span>
+    </footer>
+  </article>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){ window.scrollTo({top: 0, behavior: 'smooth'}); });
+  });
+})();
+</script>
+</body>
+</html>

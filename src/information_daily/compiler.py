@@ -5,7 +5,7 @@ import os
 import urllib.error
 import urllib.request
 from dataclasses import asdict
-from datetime import date, datetime
+from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 
 from .config import ConfigError
@@ -60,10 +60,18 @@ def _prepare_articles(
     articles: list[Article] | tuple[Article, ...],
     issue_date: date,
 ) -> list[Article]:
-    del issue_date
+    timezone = ZoneInfo(str(config.site.get("timezone") or "UTC"))
+    cutoff = None
+    lookback_hours = config.selection.get("lookback_hours")
+    if lookback_hours:
+        issue_end = datetime.combine(issue_date + timedelta(days=1), time.min, tzinfo=timezone)
+        cutoff = issue_end - timedelta(hours=float(lookback_hours))
+
     seen: set[str] = set()
     deduped: list[Article] = []
     for article in articles:
+        if cutoff and article.published_at and article.published_at.astimezone(timezone) < cutoff:
+            continue
         title_key = normalize_space(article.title).lower()
         key = article.url or title_key
         if key in seen or title_key in seen:
@@ -168,9 +176,10 @@ def _compile_llm_overview(
     issue_date: date,
     api_key: str,
 ) -> dict:
+    llm_candidates_by_section = _llm_candidates_by_section(config, ranked_by_section)
     candidates_by_section = {}
     for section in config.sections:
-        section_candidates = ranked_by_section.get(section.id, [])
+        section_candidates = llm_candidates_by_section.get(section.id, [])
         candidates_by_section[section.id] = [
             _article_candidate_payload(article, score, section)
             for article, score in section_candidates[: min(8, max(section.max_articles, 1))]
@@ -250,9 +259,13 @@ def _compile_llm_section(
         for subsection in _section_subsections(section)
     }
     section_candidates = ranked_by_section.get(section.id, [])
+    section_candidate_limit = min(
+        max(1, int(config.llm.max_input_items or 60)),
+        max(section.max_articles * 2, section.max_articles),
+    )
     candidates = [
         _article_candidate_payload(article, score, section)
-        for article, score in section_candidates[: max(section.max_articles * 2, section.max_articles)]
+        for article, score in section_candidates[:section_candidate_limit]
     ]
 
     payload = _llm_payload(
@@ -421,10 +434,13 @@ def _issue_from_llm_data(
     articles: list[Article],
     issue_date: date,
 ) -> Issue:
-    allowed_by_url = {article.url: article for article in articles}
+    allowed_by_url = {article.url: article for article in articles if article.url}
     ranked_by_section = _ranked_candidates_by_section(config, articles)
     ranked_by_subsection = _ranked_candidates_by_subsection(config, articles)
-    headline = _compiled_from_mapping(data.get("headline"), allowed_by_url)
+    warnings: list[str] = []
+    headline, warning = _compiled_from_mapping_checked(data.get("headline"), allowed_by_url)
+    if warning and data.get("headline") is not None:
+        warnings.append(f"LLM headline ignored: {warning}")
     if headline is None and articles:
         headline = _compiled_article(articles[0], 0)
     briefing = data.get("briefing") if isinstance(data.get("briefing"), dict) else {}
@@ -438,6 +454,8 @@ def _issue_from_llm_data(
     used_urls = {headline.url} if headline else set()
     for section in config.sections:
         raw_section = llm_sections_by_id.get(section.id) or {}
+        if not raw_section:
+            warnings.append(f"LLM output missed section {section.id}; filled with ranked candidates.")
         raw_briefing = raw_section.get("briefing") if isinstance(raw_section.get("briefing"), dict) else {}
         raw_subsections_by_id = {
             item["id"]: item
@@ -448,16 +466,38 @@ def _issue_from_llm_data(
         section_compiled: list[CompiledArticle] = []
         for subsection in _section_subsections(section):
             raw_subsection = raw_subsections_by_id.get(subsection.id) or {}
+            if not raw_subsection:
+                warnings.append(
+                    f"LLM output missed subsection {section.id}/{subsection.id}; filled with ranked candidates."
+                )
             raw_items = raw_subsection.get("articles") or []
+            if not isinstance(raw_items, list):
+                warnings.append(
+                    f"LLM subsection {section.id}/{subsection.id} articles was not a list; filled with ranked candidates."
+                )
+                raw_items = []
             raw_subsection_briefing = (
                 raw_subsection.get("briefing") if isinstance(raw_subsection.get("briefing"), dict) else {}
             )
-            compiled = [
-                item
-                for item in (_compiled_from_mapping(raw_item, allowed_by_url) for raw_item in raw_items)
-                if item is not None and item.url not in used_urls
-            ][: subsection.max_articles]
-            used_urls.update(item.url for item in compiled)
+            compiled: list[CompiledArticle] = []
+            for raw_item in raw_items:
+                item, warning = _compiled_from_mapping_checked(raw_item, allowed_by_url)
+                if warning:
+                    warnings.append(
+                        f"LLM subsection {section.id}/{subsection.id} ignored item: {warning}"
+                    )
+                    continue
+                if item is None:
+                    continue
+                if item.url in used_urls:
+                    warnings.append(
+                        f"LLM subsection {section.id}/{subsection.id} ignored duplicate URL: {item.url}"
+                    )
+                    continue
+                compiled.append(item)
+                used_urls.add(item.url)
+                if len(compiled) >= subsection.max_articles:
+                    break
             for article, score in ranked_by_subsection.get(section.id, {}).get(subsection.id, []):
                 if len(compiled) >= subsection.max_articles or len(section_compiled) + len(compiled) >= section.max_articles:
                     break
@@ -549,7 +589,7 @@ def _issue_from_llm_data(
         sections=tuple(sections),
         source_count=len([source for source in config.sources if source.enabled]),
         raw_count=len(articles),
-        warnings=(),
+        warnings=tuple(warnings),
         generated_at=_now(config),
     )
 
@@ -595,6 +635,37 @@ def _ranked_candidates_by_subsection(
                 reverse=True,
             )
     return by_subsection
+
+
+def _llm_candidates_by_section(
+    config: AppConfig,
+    ranked_by_section: dict[str, list[tuple[Article, float]]],
+) -> dict[str, list[tuple[Article, float]]]:
+    total_limit = max(1, int(config.llm.max_input_items or 60))
+    pools = {
+        section.id: ranked_by_section.get(section.id, [])[
+            : min(8, max(section.max_articles, 1))
+        ]
+        for section in config.sections
+    }
+    selected = {section.id: [] for section in config.sections}
+    remaining = total_limit
+    index = 0
+    while remaining > 0:
+        progressed = False
+        for section in config.sections:
+            pool = pools.get(section.id, [])
+            if index >= len(pool):
+                continue
+            selected[section.id].append(pool[index])
+            remaining -= 1
+            progressed = True
+            if remaining <= 0:
+                break
+        if not progressed:
+            break
+        index += 1
+    return selected
 
 
 def _article_candidate_payload(article: Article, score: float, section: SectionConfig) -> dict:
@@ -664,25 +735,36 @@ def _compiled_subsections_from_pairs(
 
 
 def _compiled_from_mapping(value: object, allowed_by_url: dict[str, Article]) -> CompiledArticle | None:
+    item, _ = _compiled_from_mapping_checked(value, allowed_by_url)
+    return item
+
+
+def _compiled_from_mapping_checked(
+    value: object,
+    allowed_by_url: dict[str, Article],
+) -> tuple[CompiledArticle | None, str]:
     if not isinstance(value, dict):
-        return None
+        return None, "item was not an object"
     url = str(value.get("url") or "")
+    if not url:
+        return None, "missing URL"
     source_article = allowed_by_url.get(url)
     if source_article is None:
-        return None
+        return None, f"unknown URL: {url}"
     return CompiledArticle(
         title=normalize_space(str(value.get("title") or _fallback_article_title_zh(source_article))),
         url=url,
-        source=normalize_space(str(value.get("source_zh") or value.get("source_cn") or _source_label_zh(source_article.source_name))),
+        source=_source_label_zh(source_article.source_name),
         summary=normalize_space(str(value.get("summary") or _fallback_article_summary_zh(source_article))),
-        source_en=normalize_space(str(value.get("source_en") or value.get("source") or source_article.source_name)),
+        source_en=source_article.source_name,
         title_en=normalize_space(str(value.get("title_en") or source_article.title)),
         summary_en=normalize_space(str(value.get("summary_en") or source_article.summary or source_article.title)),
+        original_title=source_article.title,
         published_at=source_article.published_at.isoformat() if source_article.published_at else None,
         reason=normalize_space(str(value.get("reason") or "")),
         reason_en=normalize_space(str(value.get("reason_en") or value.get("reason") or "")),
-        score=float(value.get("score") or 0),
-    )
+        score=_float_value(value.get("score")),
+    ), ""
 
 
 def _best_section(config: AppConfig, article: Article) -> tuple[SectionConfig, float]:
@@ -712,9 +794,17 @@ def _compiled_article(article: Article, score: float) -> CompiledArticle:
         source_en=article.source_name,
         title_en=article.title,
         summary_en=summary,
+        original_title=article.title,
         published_at=article.published_at.isoformat() if article.published_at else None,
         score=round(score, 2),
     )
+
+
+def _float_value(value: object) -> float:
+    try:
+        return float(value or 0)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def _fallback_article_title_zh(article: Article) -> str:

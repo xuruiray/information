@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
+from time import perf_counter
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 
 from .models import AppConfig, Article, SourceConfig
 from .utils import canonical_url, normalize_space, parse_datetime, stable_id, strip_html
@@ -19,23 +21,142 @@ class SourceError(RuntimeError):
 class FetchResult:
     articles: tuple[Article, ...]
     warnings: tuple[str, ...]
+    sources: tuple[SourceFetchStatus, ...] = ()
 
 
-def fetch_all(config: AppConfig, timeout: int = 20) -> FetchResult:
-    articles: list[Article] = []
-    warnings: list[str] = []
+@dataclass(frozen=True)
+class SourceFetchStatus:
+    id: str
+    name: str
+    type: str
+    category: str
+    homepage: str
+    language: str
+    enabled: bool
+    status: str
+    count: int
+    duration_ms: int
+    error: str
+    fetched_at: str
+
+
+def fetch_all(config: AppConfig, timeout: int = 20, workers: int = 8) -> FetchResult:
     max_per_source = int(config.selection.get("max_per_source") or 20)
+    enabled_sources = [source for source in config.sources if source.enabled]
+    source_articles: dict[str, tuple[Article, ...]] = {}
+    source_statuses: dict[str, SourceFetchStatus] = {
+        source.id: _source_status(source, status="disabled")
+        for source in config.sources
+        if not source.enabled
+    }
+    warnings: list[str] = []
 
+    if enabled_sources:
+        max_workers = max(1, min(int(workers or 1), len(enabled_sources)))
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_by_source = {
+                executor.submit(_fetch_enabled_source, source, timeout, max_per_source): source
+                for source in enabled_sources
+            }
+            for future in as_completed(future_by_source):
+                source = future_by_source[future]
+                articles, status, warning = future.result()
+                source_articles[source.id] = articles
+                source_statuses[source.id] = status
+                if warning:
+                    warnings.append(warning)
+
+    articles: list[Article] = []
+    statuses: list[SourceFetchStatus] = []
     for source in config.sources:
-        if not source.enabled:
-            continue
-        try:
-            source_articles = fetch_source(source, timeout=timeout)[:max_per_source]
-        except SourceError as exc:
-            warnings.append(str(exc))
-            continue
-        articles.extend(source_articles)
-    return FetchResult(articles=tuple(articles), warnings=tuple(warnings))
+        status = source_statuses.get(source.id) or _source_status(
+            source,
+            status="error",
+            error=f"Source {source.id} did not complete",
+        )
+        statuses.append(status)
+        articles.extend(source_articles.get(source.id, ()))
+    return FetchResult(
+        articles=tuple(articles),
+        warnings=tuple(warnings),
+        sources=tuple(statuses),
+    )
+
+
+def _fetch_enabled_source(
+    source: SourceConfig,
+    timeout: int,
+    max_per_source: int,
+) -> tuple[tuple[Article, ...], SourceFetchStatus, str]:
+    started = perf_counter()
+    fetched_at = datetime.now(timezone.utc).isoformat()
+    try:
+        articles = tuple(fetch_source(source, timeout=timeout)[:max_per_source])
+    except SourceError as exc:
+        warning = str(exc)
+        return (
+            (),
+            _source_status(
+                source,
+                status="error",
+                duration_ms=_elapsed_ms(started),
+                error=warning,
+                fetched_at=fetched_at,
+            ),
+            warning,
+        )
+    except Exception as exc:
+        warning = f"Source {source.id} failed unexpectedly: {exc}"
+        return (
+            (),
+            _source_status(
+                source,
+                status="error",
+                duration_ms=_elapsed_ms(started),
+                error=warning,
+                fetched_at=fetched_at,
+            ),
+            warning,
+        )
+    return (
+        articles,
+        _source_status(
+            source,
+            status="success",
+            count=len(articles),
+            duration_ms=_elapsed_ms(started),
+            fetched_at=fetched_at,
+        ),
+        "",
+    )
+
+
+def _source_status(
+    source: SourceConfig,
+    status: str,
+    count: int = 0,
+    duration_ms: int = 0,
+    error: str = "",
+    fetched_at: str = "",
+) -> SourceFetchStatus:
+    return SourceFetchStatus(
+        id=source.id,
+        name=source.name,
+        type=source.type,
+        category=source.category or source.default_section,
+        homepage=source.homepage or source.url or "",
+        language=source.language,
+        enabled=source.enabled,
+        status=status,
+        count=count,
+        duration_ms=duration_ms,
+        error=error,
+        fetched_at=fetched_at,
+    )
+
+
+def _elapsed_ms(started: float) -> int:
+    return int((perf_counter() - started) * 1000)
 
 
 def fetch_source(source: SourceConfig, timeout: int = 20) -> list[Article]:

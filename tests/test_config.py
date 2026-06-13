@@ -14,3 +14,7 @@ def test_load_default_config():
     assert any(source.id == "openai-news" for source in config.sources)
     assert any(source.id == "bbc-world" for source in config.sources)
     assert any(source.id == "bloomberg-markets" for source in config.sources)
+    openai = next(source for source in config.sources if source.id == "openai-news")
+    assert openai.category == "ai-tech"
+    assert openai.homepage == "https://openai.com/news/rss.xml"
+    assert openai.display is True

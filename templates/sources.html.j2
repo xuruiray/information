@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default('zh-CN') }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }} · 数据源状态</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ asset_prefix }}assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>{{ issue.slug }}</span>
+        <span>SOURCES</span>
+      </div>
+      <h1 class="title">数据源状态</h1>
+      <div class="subtitle">{{ site.subtitle }}</div>
+    </header>
+
+    <nav class="edition-nav" aria-label="数据导览">
+      <span>数据导览</span>
+      <a href="{{ index_href }}">返回日报</a>
+      <a href="{{ raw_href }}">原始候选</a>
+      <a href="{{ archive_href }}">往期</a>
+    </nav>
+
+    <div class="source-table-wrap">
+      <table class="source-table">
+        <thead>
+          <tr>
+            <th>源</th>
+            <th>分类</th>
+            <th>状态</th>
+            <th>候选</th>
+            <th>耗时</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for source in sources %}
+          <tr>
+            <td>
+              {% if source.homepage %}
+              <a href="{{ source.homepage }}" target="_blank" rel="noopener">{{ source.name }}</a>
+              {% else %}
+              {{ source.name }}
+              {% endif %}
+              <span class="source-id">{{ source.id }}</span>
+              {% if source.error %}
+              <span class="source-error">{{ source.error }}</span>
+              {% endif %}
+            </td>
+            <td>{{ source.category }}</td>
+            <td><span class="status status-{{ source.status }}">{{ source.status_label }}</span></td>
+            <td>{{ source.count }}</td>
+            <td>{{ source.duration_ms }} ms</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="colophon">
+      <a href="{{ index_href }}">← 返回日报</a>
+      <span>{{ generated_at }}</span>
+    </footer>
+  </article>
+</div>
+<script>
+(function(){
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){ window.scrollTo({top: 0, behavior: 'smooth'}); });
+  });
+})();
+</script>
+</body>
+</html>

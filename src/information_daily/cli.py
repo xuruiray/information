@@ -24,6 +24,12 @@ def main(argv: list[str] | None = None) -> int:
     generate.add_argument("--out", default="docs")
     generate.add_argument("--root", default=".")
     generate.add_argument("--source-timeout", type=int, default=12)
+    generate.add_argument("--fetch-workers", type=int, default=8)
+    generate.add_argument(
+        "--skip-raw-pages",
+        action="store_true",
+        help="Write the raw JSON snapshot but skip raw/source browsing pages.",
+    )
     generate.add_argument(
         "--allow-fallback",
         action="store_true",
@@ -41,7 +47,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "generate":
             config = load_config(profile=args.profile, root=Path(args.root))
             issue_date = date.fromisoformat(args.date)
-            fetch = fetch_all(config, timeout=args.source_timeout)
+            fetch = fetch_all(config, timeout=args.source_timeout, workers=args.fetch_workers)
             issue = compile_issue(
                 config,
                 fetch.articles,
@@ -57,7 +63,13 @@ def main(argv: list[str] | None = None) -> int:
                     },
                     warnings=tuple([*issue.warnings, *fetch.warnings]),
                 )
-            render_issue(config, issue, Path(args.out))
+            render_issue(
+                config,
+                issue,
+                Path(args.out),
+                fetch_result=fetch,
+                render_raw_pages=not args.skip_raw_pages,
+            )
             print(f"generated: {Path(args.out).resolve() / 'index.html'}")
             return 0
     except (ConfigError, ValueError) as exc:

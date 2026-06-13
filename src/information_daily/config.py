@@ -125,7 +125,20 @@ def _parse_source(item: Any, path: Path) -> SourceConfig:
     keywords = item.get("keywords") or []
     if not isinstance(keywords, list):
         raise ConfigError(f"source {source_id}.keywords must be a list")
-    known = {"id", "name", "type", "enabled", "url", "default_section", "weight", "keywords"}
+    known = {
+        "id",
+        "name",
+        "type",
+        "enabled",
+        "url",
+        "default_section",
+        "weight",
+        "category",
+        "homepage",
+        "language",
+        "display",
+        "keywords",
+    }
     return SourceConfig(
         id=source_id,
         name=str(item.get("name") or source_id),
@@ -134,6 +147,10 @@ def _parse_source(item: Any, path: Path) -> SourceConfig:
         url=item.get("url"),
         default_section=_required_str(item, "default_section", f"source {source_id}"),
         weight=float(item.get("weight", 1.0)),
+        category=str(item.get("category") or item.get("default_section") or ""),
+        homepage=str(item.get("homepage") or item.get("url") or ""),
+        language=str(item.get("language") or ""),
+        display=bool(item.get("display", True)),
         keywords=tuple(str(keyword).lower() for keyword in keywords),
         options={key: value for key, value in item.items() if key not in known},
     )

@@ -38,6 +38,10 @@ class SourceConfig:
     default_section: str
     weight: float = 1.0
     url: str | None = None
+    category: str = ""
+    homepage: str = ""
+    language: str = ""
+    display: bool = True
     keywords: tuple[str, ...] = ()
     options: dict[str, Any] = field(default_factory=dict)
 
@@ -94,6 +98,7 @@ class CompiledArticle:
     source_en: str = ""
     title_en: str = ""
     summary_en: str = ""
+    original_title: str = ""
     published_at: str | None = None
     reason: str = ""
     reason_en: str = ""

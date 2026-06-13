@@ -27,7 +27,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -e .
+          pip install -e ".[test]"
+      - name: Run tests
+        run: pytest -q
       - name: Validate config
         run: python -m information_daily validate-config --profile "${PROFILE}"
         env:

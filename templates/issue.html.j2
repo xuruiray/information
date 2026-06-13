@@ -49,6 +49,12 @@
       {% for link in section_links %}
       <a href="{{ link.href }}">{{ link.section.display_title }}</a>
       {% endfor %}
+      {% if raw_href %}
+      <a href="{{ raw_href }}">{{ labels.raw_candidates }}</a>
+      {% endif %}
+      {% if sources_href %}
+      <a href="{{ sources_href }}">{{ labels.source_status }}</a>
+      {% endif %}
     </nav>
 
     <section class="edition-grid" aria-label="{{ labels.section_pages }}">
