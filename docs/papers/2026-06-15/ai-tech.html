@@ -43,9 +43,9 @@
       <span class="ed">15 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型版总结">
-      <div class="lead-label">AI 与大模型版总结</div>
-      <p>今日前沿模型研究聚焦文化对齐、智能体编排与LLM评判可靠性，多项新方法提升模型事实枚举能力。研究治理方面，跨医院罕见病诊断、电商欺骗性界面下的代理安全与伊斯兰继承法推理等议题受到关注。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI与大模型版总结">
+      <div class="lead-label">AI与大模型版总结</div>
+      <p>今日AI与大模型版聚焦前沿模型与研究治理两大方向。前沿模型方面，多项研究揭示文化对齐数据瓶颈、多智能体全模态编排、BI增强交互、评测可靠性及神经元修复重复循环等进展；研究治理方面，涉及跨医院罕见病诊断、电商代理安全性、宗教法律推理、超维计算异常检测及调度优化等应用与风险。共选入10篇论文。</p>
     </section>
 
     <div class="subsection-stack">
@@ -54,52 +54,52 @@
           <h3>前沿模型</h3>
           <span>7 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型版总结">
-          <div class="lead-label">前沿模型版总结</div>
-          <p>多项前沿模型研究发布：文化数据漏斗理论揭示对齐阶段不足，全模态智能体编排框架Orchestra-o1提出新范式，LLM评判可靠性受质疑，单神经元编辑可修复重复循环，工作智能体基准两年间性能翻倍。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型">
+          <div class="lead-label">前沿模型</div>
+          <p>前沿模型小版关注文化漏斗问题、Orchestra-o1全模态编排、TwinBI数字孪生、Judge可靠性及神经元编辑。这些研究揭示了模型对齐与推理的关键挑战，推动了多智能体协作与生成质量改进。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://arxiv.org/abs/2606.13808" target="_blank" rel="noopener">
-            <span class="at">文化漏斗：不在数据中的无法对齐</span>
+            <span class="at">文化漏斗：数据不存在就无法对齐</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文提出现代LLM管线存在文化数据漏斗问题，指出现有文化对齐方法忽略预训练、微调等阶段的数据缺陷，主张在整个训练流程中嵌入文化标签框架。</p>
+            <p class="as">当前文化对齐方法仅关注推理阶段干预，忽略了数据漏斗问题。研究提出多维标注框架，分析预训练、微调、对齐等阶段的文化知识缺失。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13707" target="_blank" rel="noopener">
             <span class="at">Orchestra-o1：全模态智能体编排框架</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">提出Orchestra-o1，一种全模态智能体编排框架，支持多模态任务分解与协作，超越现有单一模态编排限制。</p>
+            <p class="as">提出Orchestra-o1框架，实现全模态智能体编排，支持任务分解与协作，超越现有狭窄的编排方法。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13731" target="_blank" rel="noopener">
+            <span class="at">TwinBI：面向商业智能仪表板的智能数字孪生</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">提出TwinBI，一个智能数字孪生体，用于增强与BI仪表板的交互，保持多步分析中一致性。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13685" target="_blank" rel="noopener">
-            <span class="at">掷硬币的裁判？LLM评判的可靠性与偏差</span>
+            <span class="at">抛硬币的判定者？LLM作为评测者的可靠性与偏见</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究LLM-as-a-Judge的逐次可靠性，发现GPT-4o-mini和GPT-4.1-mini在29个任务中重复评估结果差异显著，质疑当前排行榜的可信度。</p>
+            <p class="as">研究LLM作为评测者的可靠性，发现GPT-4o-mini和GPT-4.1-mini在29个任务上存在显著运行间差异和偏见。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13705" target="_blank" rel="noopener">
             <span class="at">编辑一个神经元能否修复LLM的重复循环？</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">研究发现仅编辑Gemma 4模型中的一个神经元即可修复长序列枚举时的重复循环问题，但无法根治深层“厄运循环”。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13715" target="_blank" rel="noopener">
-            <span class="at">工作智能体两年回顾：WorkBench再探</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">对比2024年GPT-4与2026年Claude Opus 4.8在WorkBench上的表现，任务完成率从43%提升至89%，有害行为从26%降至更低。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13731" target="_blank" rel="noopener">
-            <span class="at">AI 与大模型：arXiv 人工智能关注的关键线索</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">这条科技线索来自arXiv 人工智能，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <p class="as">研究发现编辑Gemma 4中的单个神经元可以修复重复循环，但无法解决所有“灾难循环”。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://openai.com/index/introducing-openai-partner-network" target="_blank" rel="noopener">
             <span class="at">AI 与大模型：OpenAI 新闻关注的关键线索</span>
             <span class="by">OpenAI 新闻</span>
             <p class="as">这条科技线索来自OpenAI 新闻，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13710" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：arXiv 人工智能关注的关键线索</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">这条科技线索来自arXiv 人工智能，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -109,25 +109,25 @@
           <h3>AI 产品与平台</h3>
           <span>3 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台版总结">
-          <div class="lead-label">AI 产品与平台版总结</div>
-          <p>今日无重大AI产品发布。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI产品与平台">
+          <div class="lead-label">AI产品与平台</div>
+          <p>AI 产品与平台暂无足够内容生成总结。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://www.producthunt.com/products/kickbacks-ai" target="_blank" rel="noopener">
-            <span class="at">创业产品：Product Hunt关注的关键线索</span>
-            <span class="by">Product Hunt</span>
-            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://www.producthunt.com/products/agentbrush" target="_blank" rel="noopener">
-            <span class="at">创业产品：Product Hunt关注的关键线索</span>
-            <span class="by">Product Hunt</span>
-            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://www.producthunt.com/products/fonda" target="_blank" rel="noopener">
+            <span class="at">创业产品：Product Hunt关注的关键线索</span>
+            <span class="by">Product Hunt</span>
+            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://www.producthunt.com/products/pass-quick-access" target="_blank" rel="noopener">
+            <span class="at">创业产品：Product Hunt关注的关键线索</span>
+            <span class="by">Product Hunt</span>
+            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://www.producthunt.com/products/reignat" target="_blank" rel="noopener">
             <span class="at">创业产品：Product Hunt关注的关键线索</span>
             <span class="by">Product Hunt</span>
             <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
@@ -140,40 +140,40 @@
           <h3>研究与治理</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理版总结">
-          <div class="lead-label">研究与治理版总结</div>
-          <p>研究方面涉及跨医院罕见病诊断多智能体系统、电商环境下的网络代理安全基准、伊斯兰继承法推理评测，以及超维计算在异常检测中的应用。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理">
+          <div class="lead-label">研究与治理</div>
+          <p>研究与治理小版涵盖跨医院罕见病诊断、电商代理安全、伊斯兰继承推理、超维计算异常检测及调度优化。这些研究探索了AI在关键领域的应用与风险，为实际部署提供洞察。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://arxiv.org/abs/2606.13945" target="_blank" rel="noopener">
-            <span class="at">MedLatentDx：用于跨医院罕见病诊断的潜在多智能体通信</span>
+            <span class="at">MedLatentDx：基于潜在多智能体通信的跨医院罕见病诊断</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">提出跨医院罕见病诊断的潜在多智能体通信框架，在保护隐私的前提下整合分散病例证据，提升诊断准确率。</p>
+            <p class="as">提出MedLatentDx，通过潜在多智能体通信实现跨医院罕见病诊断，利用分布式证据弥补单医院知识不足。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13686" target="_blank" rel="noopener">
-            <span class="at">电商欺骗性界面下网络代理安全基准</span>
+            <span class="at">评估电商欺骗界面下Web代理的安全性</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">引入WebDecept框架，在电商领域测试网络代理面对欺骗性界面时的安全表现，发现代理易受误导。</p>
+            <p class="as">介绍WebDecept框架，用于评估web智能体在电商欺骗界面下的安全性，发现现有代理容易被误导。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13756" target="_blank" rel="noopener">
-            <span class="at">QIAS 2026：伊斯兰继承推理共享任务概述</span>
+            <span class="at">QIAS 2026：伊斯兰继承推理共享任务综述</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">评估LLM在伊斯兰继承法领域复杂推理能力的共享任务，揭示模型在宗教法律推理上的不足。</p>
+            <p class="as">概述QIAS 2026共享任务，评估LLM在伊斯兰继承法领域的复杂推理能力。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13754" target="_blank" rel="noopener">
-            <span class="at">D2H-AD：基于超维计算的混合异常检测模型</span>
+            <span class="at">D2H-AD：利用超维计算进行高级异常检测的混合模型</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">提出混合超维计算模型，无需大量标注数据即可实现高效异常检测，适用于医疗、网络安全等领域。</p>
+            <p class="as">提出D2H-AD混合模型，利用超维计算进行异常检测，减少对大型标注数据的依赖。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13682" target="_blank" rel="noopener">
-            <span class="at">基于深度强化学习的Transformer方法求解开放车间调度问题</span>
+            <span class="at">基于深度强化学习的Transformer方法解决开放车间调度问题</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">提出DRL-Transformer混合方法解决开放车间调度问题，在多个基准集上超越传统元启发式算法。</p>
+            <p class="as">提出基于深度强化学习的Transformer方法求解开放车间调度问题，在多个实例上超越传统方法。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

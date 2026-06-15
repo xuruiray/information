@@ -104,17 +104,6 @@ a{color:inherit;}
   color:var(--muted);
   font:500 11.5px/1.35 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
-.notice{
-  margin:12px 0 0;
-  padding:7px 12px;
-  border:1px solid #c9bfa0;
-  border-left:4px solid var(--accent);
-  background:rgba(255,255,255,.35);
-  color:#4a443b;
-  font-size:11.5px;
-  line-height:1.45;
-}
-.notice p{margin:0;}
 .language-switch{
   display:flex;
   justify-content:flex-end;

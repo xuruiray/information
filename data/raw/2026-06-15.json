@@ -1,7 +1,7 @@
 {
   "date": "2026-06-15",
   "profile_id": "ai-tech",
-  "generated_at": "2026-06-15T16:02:20.608662+08:00",
+  "generated_at": "2026-06-15T16:16:12.840123+08:00",
   "sources": [
     {
       "id": "openai-news",
@@ -13,9 +13,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 753,
+      "duration_ms": 608,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.105356+00:00"
+      "fetched_at": "2026-06-15T08:11:29.492713+00:00"
     },
     {
       "id": "google-ai",
@@ -27,9 +27,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 393,
+      "duration_ms": 696,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.106503+00:00"
+      "fetched_at": "2026-06-15T08:11:29.493666+00:00"
     },
     {
       "id": "huggingface-blog",
@@ -41,9 +41,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 254,
+      "duration_ms": 436,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.106747+00:00"
+      "fetched_at": "2026-06-15T08:11:29.493901+00:00"
     },
     {
       "id": "techcrunch-ai",
@@ -55,9 +55,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 144,
+      "duration_ms": 190,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.107003+00:00"
+      "fetched_at": "2026-06-15T08:11:29.494119+00:00"
     },
     {
       "id": "simon-willison",
@@ -69,9 +69,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 298,
+      "duration_ms": 220,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.107369+00:00"
+      "fetched_at": "2026-06-15T08:11:29.494331+00:00"
     },
     {
       "id": "hn-frontpage",
@@ -83,9 +83,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 533,
+      "duration_ms": 576,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.107633+00:00"
+      "fetched_at": "2026-06-15T08:11:29.494574+00:00"
     },
     {
       "id": "github-blog",
@@ -97,9 +97,9 @@
       "enabled": true,
       "status": "success",
       "count": 10,
-      "duration_ms": 262,
+      "duration_ms": 151,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.108032+00:00"
+      "fetched_at": "2026-06-15T08:11:29.494983+00:00"
     },
     {
       "id": "vercel-blog",
@@ -111,9 +111,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 549,
+      "duration_ms": 387,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.108357+00:00"
+      "fetched_at": "2026-06-15T08:11:29.495261+00:00"
     },
     {
       "id": "meta-engineering",
@@ -125,9 +125,9 @@
       "enabled": true,
       "status": "success",
       "count": 9,
-      "duration_ms": 69,
+      "duration_ms": 332,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.251711+00:00"
+      "fetched_at": "2026-06-15T08:11:29.646657+00:00"
     },
     {
       "id": "arxiv-ai",
@@ -139,9 +139,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 426,
+      "duration_ms": 289,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.321476+00:00"
+      "fetched_at": "2026-06-15T08:11:29.684453+00:00"
     },
     {
       "id": "arxiv-cl",
@@ -153,9 +153,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 315,
+      "duration_ms": 186,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.361406+00:00"
+      "fetched_at": "2026-06-15T08:11:29.714858+00:00"
     },
     {
       "id": "arxiv-lg",
@@ -167,9 +167,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 381,
+      "duration_ms": 142,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.370619+00:00"
+      "fetched_at": "2026-06-15T08:11:29.882549+00:00"
     },
     {
       "id": "sciencedaily-science",
@@ -181,9 +181,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 352,
+      "duration_ms": 310,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.405753+00:00"
+      "fetched_at": "2026-06-15T08:11:29.901349+00:00"
     },
     {
       "id": "sciencedaily-technology",
@@ -195,9 +195,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 265,
+      "duration_ms": 291,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.499653+00:00"
+      "fetched_at": "2026-06-15T08:11:29.930206+00:00"
     },
     {
       "id": "nasa-technology",
@@ -209,9 +209,9 @@
       "enabled": true,
       "status": "success",
       "count": 10,
-      "duration_ms": 438,
+      "duration_ms": 190,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.641187+00:00"
+      "fetched_at": "2026-06-15T08:11:29.973884+00:00"
     },
     {
       "id": "product-hunt",
@@ -223,9 +223,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 220,
+      "duration_ms": 129,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.658371+00:00"
+      "fetched_at": "2026-06-15T08:11:29.979078+00:00"
     },
     {
       "id": "techcrunch-startups",
@@ -237,9 +237,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 96,
+      "duration_ms": 97,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.677059+00:00"
+      "fetched_at": "2026-06-15T08:11:30.024929+00:00"
     },
     {
       "id": "bbc-world",
@@ -251,9 +251,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 213,
+      "duration_ms": 109,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.747586+00:00"
+      "fetched_at": "2026-06-15T08:11:30.071241+00:00"
     },
     {
       "id": "guardian-world",
@@ -265,9 +265,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 189,
+      "duration_ms": 151,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.752124+00:00"
+      "fetched_at": "2026-06-15T08:11:30.101600+00:00"
     },
     {
       "id": "npr-world",
@@ -279,9 +279,9 @@
       "enabled": true,
       "status": "success",
       "count": 10,
-      "duration_ms": 277,
+      "duration_ms": 93,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.758119+00:00"
+      "fetched_at": "2026-06-15T08:11:30.109015+00:00"
     },
     {
       "id": "aljazeera-all",
@@ -293,9 +293,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 229,
+      "duration_ms": 152,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.765366+00:00"
+      "fetched_at": "2026-06-15T08:11:30.122666+00:00"
     },
     {
       "id": "chinanews-china",
@@ -307,9 +307,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 894,
+      "duration_ms": 369,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.773580+00:00"
+      "fetched_at": "2026-06-15T08:11:30.164501+00:00"
     },
     {
       "id": "chinanews-society",
@@ -321,9 +321,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 801,
+      "duration_ms": 355,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.859193+00:00"
+      "fetched_at": "2026-06-15T08:11:30.180899+00:00"
     },
     {
       "id": "xinhuanet-politics",
@@ -335,9 +335,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 814,
+      "duration_ms": 1174,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.879401+00:00"
+      "fetched_at": "2026-06-15T08:11:30.190194+00:00"
     },
     {
       "id": "xinhuanet-tech",
@@ -349,9 +349,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 793,
+      "duration_ms": 1148,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.941406+00:00"
+      "fetched_at": "2026-06-15T08:11:30.202722+00:00"
     },
     {
       "id": "bloomberg-markets",
@@ -363,9 +363,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 212,
+      "duration_ms": 315,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.960967+00:00"
+      "fetched_at": "2026-06-15T08:11:30.212175+00:00"
     },
     {
       "id": "bloomberg-economics",
@@ -377,9 +377,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 138,
+      "duration_ms": 301,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:31.995145+00:00"
+      "fetched_at": "2026-06-15T08:11:30.221493+00:00"
     },
     {
       "id": "marketwatch-top",
@@ -391,9 +391,9 @@
       "enabled": true,
       "status": "success",
       "count": 10,
-      "duration_ms": 116,
+      "duration_ms": 68,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:32.035755+00:00"
+      "fetched_at": "2026-06-15T08:11:30.253603+00:00"
     },
     {
       "id": "wsj-markets",
@@ -405,9 +405,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 216,
+      "duration_ms": 74,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:32.079512+00:00"
+      "fetched_at": "2026-06-15T08:11:30.275477+00:00"
     },
     {
       "id": "investing-news",
@@ -419,9 +419,9 @@
       "enabled": true,
       "status": "success",
       "count": 10,
-      "duration_ms": 81,
+      "duration_ms": 100,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:32.133626+00:00"
+      "fetched_at": "2026-06-15T08:11:30.322443+00:00"
     },
     {
       "id": "federal-reserve",
@@ -433,9 +433,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 75,
+      "duration_ms": 64,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:32.152582+00:00"
+      "fetched_at": "2026-06-15T08:11:30.349960+00:00"
     },
     {
       "id": "sec-press",
@@ -447,9 +447,9 @@
       "enabled": true,
       "status": "success",
       "count": 12,
-      "duration_ms": 162,
+      "duration_ms": 48,
       "error": "",
-      "fetched_at": "2026-06-15T07:56:32.173733+00:00"
+      "fetched_at": "2026-06-15T08:11:30.414282+00:00"
     },
     {
       "id": "x-ai-search",
@@ -1194,7 +1194,7 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/ Comments URL: https://news.ycombinator.com/item?id=48537165 Points: 263 # Comments: 62",
+      "summary": "Article URL: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/ Comments URL: https://news.ycombinator.com/item?id=48537165 Points: 297 # Comments: 76",
       "published_at": "2026-06-15T06:02:57+00:00",
       "weight": 0.9,
       "rank": 61
@@ -1206,7 +1206,7 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://karthinks.com/software/even-more-batteries-included-with-emacs/ Comments URL: https://news.ycombinator.com/item?id=48535886 Points: 159 # Comments: 29",
+      "summary": "Article URL: https://karthinks.com/software/even-more-batteries-included-with-emacs/ Comments URL: https://news.ycombinator.com/item?id=48535886 Points: 165 # Comments: 30",
       "published_at": "2026-06-15T02:30:25+00:00",
       "weight": 0.9,
       "rank": 62
@@ -1218,7 +1218,7 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/ Comments URL: https://news.ycombinator.com/item?id=48533848 Points: 509 # Comments: 179",
+      "summary": "Article URL: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/ Comments URL: https://news.ycombinator.com/item?id=48533848 Points: 525 # Comments: 184",
       "published_at": "2026-06-14T22:54:55+00:00",
       "weight": 0.9,
       "rank": 63
@@ -1230,10 +1230,22 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds Comments URL: https://news.ycombinator.com/item?id=48533101 Points: 281 # Comments: 187",
+      "summary": "Article URL: https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds Comments URL: https://news.ycombinator.com/item?id=48533101 Points: 287 # Comments: 190",
       "published_at": "2026-06-14T21:42:12+00:00",
       "weight": 0.9,
       "rank": 64
+    },
+    {
+      "id": "6afb31172adf4086",
+      "title": "Show HN: Discover Wikipedia articles popular on Hacker News",
+      "url": "https://www.orangecrumbs.com/",
+      "source_id": "hn-frontpage",
+      "source_name": "Hacker News",
+      "default_section": "opinion",
+      "summary": "Article URL: https://www.orangecrumbs.com/ Comments URL: https://news.ycombinator.com/item?id=48530382 Points: 100 # Comments: 25",
+      "published_at": "2026-06-14T17:54:17+00:00",
+      "weight": 0.9,
+      "rank": 65
     },
     {
       "id": "a6466e6ffe570098",
@@ -1242,10 +1254,10 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://github.com/tamnd/kage Comments URL: https://news.ycombinator.com/item?id=48529990 Points: 535 # Comments: 108",
+      "summary": "Article URL: https://github.com/tamnd/kage Comments URL: https://news.ycombinator.com/item?id=48529990 Points: 542 # Comments: 108",
       "published_at": "2026-06-14T17:25:38+00:00",
       "weight": 0.9,
-      "rank": 65
+      "rank": 66
     },
     {
       "id": "71cc9fdce51f290e",
@@ -1254,10 +1266,10 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "What are you working on? Any new ideas that you're thinking about? Comments URL: https://news.ycombinator.com/item?id=48528779 Points: 217 # Comments: 774",
+      "summary": "What are you working on? Any new ideas that you're thinking about? Comments URL: https://news.ycombinator.com/item?id=48528779 Points: 219 # Comments: 780",
       "published_at": "2026-06-14T16:05:28+00:00",
       "weight": 0.9,
-      "rank": 66
+      "rank": 67
     },
     {
       "id": "67ff45128ed54156",
@@ -1266,10 +1278,10 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://github.com/nex-agi/Nex-N2/issues/4 Comments URL: https://news.ycombinator.com/item?id=48528371 Points: 335 # Comments: 182",
+      "summary": "Article URL: https://github.com/nex-agi/Nex-N2/issues/4 Comments URL: https://news.ycombinator.com/item?id=48528371 Points: 337 # Comments: 182",
       "published_at": "2026-06-14T15:37:31+00:00",
       "weight": 0.9,
-      "rank": 67
+      "rank": 68
     },
     {
       "id": "0758e40f2f5d8325",
@@ -1278,10 +1290,10 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locally on my M1 Max using open-source ML models, search for those moments, and send the best clips straight to my DaVinci Resolve timeline. I indexed 628 videos (668.68 GB, 15h 13m 18s of footage duration), more details in the metrics table in the last section of this article. Full article: https://iliashaddad.com/blog/i-indexed-669-gb-of-my-gopro-videos-using-my-m1-max-computer Comments URL: https://news.ycombinator.com/item?id=48528029 Points: 363 # Comments: 87",
+      "summary": "TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locally on my M1 Max using open-source ML models, search for those moments, and send the best clips straight to my DaVinci Resolve timeline. I indexed 628 videos (668.68 GB, 15h 13m 18s of footage duration), more details in the metrics table in the last section of this article. Full article: https://iliashaddad.com/blog/i-indexed-669-gb-of-my-gopro-videos-using-my-m1-max-computer Comments URL: https://news.ycombinator.com/item?id=48528029 Points: 364 # Comments: 88",
       "published_at": "2026-06-14T15:13:57+00:00",
       "weight": 0.9,
-      "rank": 68
+      "rank": 69
     },
     {
       "id": "8664988b7ec1a39a",
@@ -1293,18 +1305,6 @@
       "summary": "Article URL: https://www.cs.yale.edu/homes/perlis-alan/quotes.html Comments URL: https://news.ycombinator.com/item?id=48527820 Points: 110 # Comments: 56",
       "published_at": "2026-06-14T14:56:56+00:00",
       "weight": 0.9,
-      "rank": 69
-    },
-    {
-      "id": "c76aef3bd24e07b9",
-      "title": "FarOutCompany",
-      "url": "https://faroutcompany.com/",
-      "source_id": "hn-frontpage",
-      "source_name": "Hacker News",
-      "default_section": "opinion",
-      "summary": "Article URL: https://faroutcompany.com/ Comments URL: https://news.ycombinator.com/item?id=48527360 Points: 118 # Comments: 19",
-      "published_at": "2026-06-14T14:09:29+00:00",
-      "weight": 0.9,
       "rank": 70
     },
     {
@@ -1314,7 +1314,7 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://su3.io/posts/zeroserve-caddy-compat Comments URL: https://news.ycombinator.com/item?id=48527145 Points: 178 # Comments: 52",
+      "summary": "Article URL: https://su3.io/posts/zeroserve-caddy-compat Comments URL: https://news.ycombinator.com/item?id=48527145 Points: 180 # Comments: 52",
       "published_at": "2026-06-14T13:43:08+00:00",
       "weight": 0.9,
       "rank": 71
@@ -1326,7 +1326,7 @@
       "source_id": "hn-frontpage",
       "source_name": "Hacker News",
       "default_section": "opinion",
-      "summary": "Article URL: https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1 Comments URL: https://news.ycombinator.com/item?id=48526633 Points: 250 # Comments: 90",
+      "summary": "Article URL: https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1 Comments URL: https://news.ycombinator.com/item?id=48526633 Points: 253 # Comments: 91",
       "published_at": "2026-06-14T12:35:27+00:00",
       "weight": 0.9,
       "rank": 72
@@ -2544,100 +2544,16 @@
       "rank": 173
     },
     {
-      "id": "b719b551ef6627df",
-      "title": "Tinfoil Pigeons",
-      "url": "https://www.producthunt.com/products/tinfoil-pigeons",
+      "id": "9b3064273ccc170b",
+      "title": "Fonda",
+      "url": "https://www.producthunt.com/products/fonda",
       "source_id": "product-hunt",
       "source_name": "Product Hunt",
       "default_section": "startup-product",
-      "summary": "See the aircraft flying over you on a retro radar scope Discussion | Link",
-      "published_at": "2026-06-12T12:51:31-07:00",
+      "summary": "Your AI co-founder that remembers decisions + plans for you Discussion | Link",
+      "published_at": "2026-06-14T06:55:52-07:00",
       "weight": 0.85,
       "rank": 174
-    },
-    {
-      "id": "c7e79b4ff330d5da",
-      "title": "Capecho",
-      "url": "https://www.producthunt.com/products/capecho",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "Capture the new words you're reading & remember them later Discussion | Link",
-      "published_at": "2026-06-04T21:30:30-07:00",
-      "weight": 0.85,
-      "rank": 175
-    },
-    {
-      "id": "fe9dfcaba495fb28",
-      "title": "Kickbacks.ai",
-      "url": "https://www.producthunt.com/products/kickbacks-ai",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "Get paid to wait for Claude Code to finish Discussion | Link",
-      "published_at": "2026-06-14T23:04:58-07:00",
-      "weight": 0.85,
-      "rank": 176
-    },
-    {
-      "id": "849be9d3103f8d73",
-      "title": "Notra Image Generation",
-      "url": "https://www.producthunt.com/products/notra-3",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "Turn merged PRs into on-brand marketing visuals Discussion | Link",
-      "published_at": "2026-06-09T04:44:34-07:00",
-      "weight": 0.85,
-      "rank": 177
-    },
-    {
-      "id": "4de0b6f69b32366f",
-      "title": "stackd.cc",
-      "url": "https://www.producthunt.com/products/stackd-cc",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "The answer to \"what's your AI stack?\" Discussion | Link",
-      "published_at": "2026-06-13T09:41:59-07:00",
-      "weight": 0.85,
-      "rank": 178
-    },
-    {
-      "id": "42f0480de6ab45d4",
-      "title": "Dropmatico",
-      "url": "https://www.producthunt.com/products/dropmatico",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "Drop. Pick. Done. Discussion | Link",
-      "published_at": "2026-06-14T04:30:31-07:00",
-      "weight": 0.85,
-      "rank": 179
-    },
-    {
-      "id": "58dca1acdf0def16",
-      "title": "Sulsaly",
-      "url": "https://www.producthunt.com/products/sulsaly",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "#1 Agentic AI sales leads &outreach platform for MENA Region Discussion | Link",
-      "published_at": "2026-05-28T14:09:49-07:00",
-      "weight": 0.85,
-      "rank": 180
-    },
-    {
-      "id": "61f4b86abd8f8e4c",
-      "title": "Relay",
-      "url": "https://www.producthunt.com/products/relay-20",
-      "source_id": "product-hunt",
-      "source_name": "Product Hunt",
-      "default_section": "startup-product",
-      "summary": "Paste a site & get an AI receptionist that learns from calls Discussion | Link",
-      "published_at": "2026-06-11T12:53:03-07:00",
-      "weight": 0.85,
-      "rank": 181
     },
     {
       "id": "16c08735f57f8d6f",
@@ -2649,41 +2565,125 @@
       "summary": "On device private AI meeting transcripts Discussion | Link",
       "published_at": "2026-06-11T00:12:07-07:00",
       "weight": 0.85,
-      "rank": 182
+      "rank": 175
     },
     {
-      "id": "d25951a78c1b1aff",
-      "title": "Verol",
-      "url": "https://www.producthunt.com/products/verol",
+      "id": "e0c760534321c3f2",
+      "title": "Pass Quick Access",
+      "url": "https://www.producthunt.com/products/pass-quick-access",
       "source_id": "product-hunt",
       "source_name": "Product Hunt",
       "default_section": "startup-product",
-      "summary": "Stop AI hallucinations Discussion | Link",
-      "published_at": "2026-06-08T04:37:29-07:00",
+      "summary": "Native quick access and SSH agent for Proton Pass for macOS Discussion | Link",
+      "published_at": "2026-06-13T18:38:58-07:00",
+      "weight": 0.85,
+      "rank": 176
+    },
+    {
+      "id": "c7e79b4ff330d5da",
+      "title": "Capecho",
+      "url": "https://www.producthunt.com/products/capecho",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "Capture new words with context & remember them with SRS Discussion | Link",
+      "published_at": "2026-06-04T21:30:30-07:00",
+      "weight": 0.85,
+      "rank": 177
+    },
+    {
+      "id": "bbe005e2e53721d4",
+      "title": "AEVS",
+      "url": "https://www.producthunt.com/products/aevs-by-fetch-ai",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "proof-of-execution for AI agents Discussion | Link",
+      "published_at": "2026-06-10T23:55:08-07:00",
+      "weight": 0.85,
+      "rank": 178
+    },
+    {
+      "id": "849be9d3103f8d73",
+      "title": "Notra Image Generation",
+      "url": "https://www.producthunt.com/products/notra-3",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "Turn merged PRs into on-brand marketing visuals Discussion | Link",
+      "published_at": "2026-06-09T04:44:34-07:00",
+      "weight": 0.85,
+      "rank": 179
+    },
+    {
+      "id": "08b184ade5acdce8",
+      "title": "Wobo 2.0",
+      "url": "https://www.producthunt.com/products/wobo-ai",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "Tinder for jobs: swipe right and AI applies for you Discussion | Link",
+      "published_at": "2026-06-08T14:49:56-07:00",
+      "weight": 0.85,
+      "rank": 180
+    },
+    {
+      "id": "42f0480de6ab45d4",
+      "title": "Dropmatico",
+      "url": "https://www.producthunt.com/products/dropmatico",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "Drop. Pick. Done. Discussion | Link",
+      "published_at": "2026-06-14T04:30:31-07:00",
+      "weight": 0.85,
+      "rank": 181
+    },
+    {
+      "id": "11711ada9011eb72",
+      "title": "AutoEdit",
+      "url": "https://www.producthunt.com/products/autoedit",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "Your Claude AI Video Editor for Premiere Pro Discussion | Link",
+      "published_at": "2026-06-04T04:01:38-07:00",
+      "weight": 0.85,
+      "rank": 182
+    },
+    {
+      "id": "f98ecd08cfbcc962",
+      "title": "PandaProbe Cloud",
+      "url": "https://www.producthunt.com/products/pandaprobe-cloud",
+      "source_id": "product-hunt",
+      "source_name": "Product Hunt",
+      "default_section": "startup-product",
+      "summary": "agent engineering, fully managed. Discussion | Link",
+      "published_at": "2026-06-07T18:39:21-07:00",
       "weight": 0.85,
       "rank": 183
     },
     {
-      "id": "f8f9393b9fdc383f",
-      "title": "AgentBrush",
-      "url": "https://www.producthunt.com/products/agentbrush",
+      "id": "c05df6048465fe0e",
+      "title": "IdleDev",
+      "url": "https://www.producthunt.com/products/idledev",
       "source_id": "product-hunt",
       "source_name": "Product Hunt",
       "default_section": "startup-product",
-      "summary": "Your coding agent's missing tool: image generation Discussion | Link",
-      "published_at": "2026-06-14T22:21:36-07:00",
+      "summary": "Get paid while your AI agent thinks Discussion | Link",
+      "published_at": "2026-06-13T17:30:41-07:00",
       "weight": 0.85,
       "rank": 184
     },
     {
-      "id": "9b3064273ccc170b",
-      "title": "Fonda",
-      "url": "https://www.producthunt.com/products/fonda",
+      "id": "925f980c475456a8",
+      "title": "Reignat",
+      "url": "https://www.producthunt.com/products/reignat",
       "source_id": "product-hunt",
       "source_name": "Product Hunt",
       "default_section": "startup-product",
-      "summary": "Your AI co-founder that remembers decisions + plans for you Discussion | Link",
-      "published_at": "2026-06-14T06:55:52-07:00",
+      "summary": "Privacy-friendly web analytics platform built for makers Discussion | Link",
+      "published_at": "2026-06-14T16:37:43-07:00",
       "weight": 0.85,
       "rank": 185
     },
@@ -2904,6 +2904,18 @@
       "rank": 203
     },
     {
+      "id": "4264b2e9aaca33ac",
+      "title": "China detains two leaders of influential underground church",
+      "url": "https://www.bbc.com/news/articles/ce9582vlm83o?at_medium=RSS&at_campaign=rss",
+      "source_id": "bbc-world",
+      "source_name": "BBC World",
+      "default_section": "world",
+      "summary": "More than 30 members of Early Rain Covenant Church were taken for interrogation midway through Sunday service.",
+      "published_at": "2026-06-15T07:56:43+00:00",
+      "weight": 1.0,
+      "rank": 204
+    },
+    {
       "id": "4e0aae02241588c1",
       "title": "Teen shot and buses torched in Manhattan after historic NBA win for Knicks",
       "url": "https://www.bbc.com/news/articles/c8623n5pq2vo?at_medium=RSS&at_campaign=rss",
@@ -2913,7 +2925,7 @@
       "summary": "At least 63 people were arrested in the disorder after the Knicks beat the Spurs to clinch the title.",
       "published_at": "2026-06-14T14:08:03+00:00",
       "weight": 1.0,
-      "rank": 204
+      "rank": 205
     },
     {
       "id": "150ff29ca4e296fe",
@@ -2924,18 +2936,6 @@
       "default_section": "world",
       "summary": "Justin Gaethje beat Ilia Topuria to win the lightweight championship in the main event.",
       "published_at": "2026-06-15T07:00:16+00:00",
-      "weight": 1.0,
-      "rank": 205
-    },
-    {
-      "id": "d1211e84024138d7",
-      "title": "Fifa to pay Somali referee Artan full World Cup fee",
-      "url": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
-      "source_id": "bbc-world",
-      "source_name": "BBC World",
-      "default_section": "world",
-      "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full.",
-      "published_at": "2026-06-14T09:00:08+00:00",
       "weight": 1.0,
       "rank": 206
     },
@@ -2952,6 +2952,18 @@
       "rank": 207
     },
     {
+      "id": "d1211e84024138d7",
+      "title": "Fifa to pay Somali referee Artan full World Cup fee",
+      "url": "https://www.bbc.com/sport/football/articles/c79y10r2plzo?at_medium=RSS&at_campaign=rss",
+      "source_id": "bbc-world",
+      "source_name": "BBC World",
+      "default_section": "world",
+      "summary": "Somali referee Omar Artan, who was denied entry to the United States to officiate at the World Cup, will still receive his tournament fee from Fifa in full.",
+      "published_at": "2026-06-14T09:00:08+00:00",
+      "weight": 1.0,
+      "rank": 208
+    },
+    {
       "id": "10055edf08991b61",
       "title": "UK and Japan agree £18bn investment deal",
       "url": "https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&at_campaign=rss",
@@ -2960,18 +2972,6 @@
       "default_section": "world",
       "summary": "Japanese firms will spend billions on UK infrastructure and offshore wind, Downing Street says.",
       "published_at": "2026-06-14T20:29:15+00:00",
-      "weight": 1.0,
-      "rank": 208
-    },
-    {
-      "id": "9f883e5a90f0188f",
-      "title": "Norway braces for verdict in rape trial of crown princess's son Høiby",
-      "url": "https://www.bbc.com/news/articles/cd95xvk4vn2o?at_medium=RSS&at_campaign=rss",
-      "source_id": "bbc-world",
-      "source_name": "BBC World",
-      "default_section": "world",
-      "summary": "Marius Borg Høiby will appear via video link, almost three months after his trial came to an end on 40 charges, including four counts of rape.",
-      "published_at": "2026-06-13T23:11:28+00:00",
       "weight": 1.0,
       "rank": 209
     },
@@ -3240,6 +3240,42 @@
       "rank": 231
     },
     {
+      "id": "672184833f2cefac",
+      "title": "Iran war day 108: Iran, US reach a tentative deal to end conflict",
+      "url": "https://www.aljazeera.com/news/2026/6/15/iran-war-day-108-iran-us-reach-a-tentative-deal-to-end-conflict?traffic_source=rss",
+      "source_id": "aljazeera-all",
+      "source_name": "Al Jazeera",
+      "default_section": "world",
+      "summary": "US President Donald Trump and Iranian leaders say a deal has been agreed to end more than 100 days of war.",
+      "published_at": "2026-06-15T07:52:46+00:00",
+      "weight": 0.85,
+      "rank": 232
+    },
+    {
+      "id": "038d3e605bbbeec3",
+      "title": "US and Iran announce ‘understanding’ to end the war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/us-and-iran-announce-understanding-to-end-the-war?traffic_source=rss",
+      "source_id": "aljazeera-all",
+      "source_name": "Al Jazeera",
+      "default_section": "world",
+      "summary": "The US and Iran have announced a memorandum of understanding to end the war and re-open the Strait of Hormuz.",
+      "published_at": "2026-06-15T07:48:58+00:00",
+      "weight": 0.85,
+      "rank": 233
+    },
+    {
+      "id": "82f287b8727b7dcd",
+      "title": "Russian attacks in Ukraine kill nine, damage historic Kyiv cathedral",
+      "url": "https://www.aljazeera.com/news/2026/6/15/russian-attacks-in-ukraine-kill-nine-damage-historic-kyiv-cathedral?traffic_source=rss",
+      "source_id": "aljazeera-all",
+      "source_name": "Al Jazeera",
+      "default_section": "world",
+      "summary": "A large overnight missile and drone attack strikes Kyiv, Kharkiv and other Ukrainian cities.",
+      "published_at": "2026-06-15T07:40:51+00:00",
+      "weight": 0.85,
+      "rank": 234
+    },
+    {
       "id": "0b7fed3847fc6cac",
       "title": "World reacts as Iran and US reach deal",
       "url": "https://www.aljazeera.com/news/2026/6/15/global-relief-as-iran-us-sign-deal-to-end-war?traffic_source=rss",
@@ -3249,11 +3285,11 @@
       "summary": "Pakistan, Qatar applaud agreement as a step towards peace and lasting tranquillity in the region.",
       "published_at": "2026-06-15T07:05:57+00:00",
       "weight": 0.85,
-      "rank": 232
+      "rank": 235
     },
     {
       "id": "ead84ee61a69fb66",
-      "title": "Starbucks Korea to shut stores for history lessons after ‘Tank Day’ furore",
+      "title": "Starbucks Korea to shut stores for history training after ‘Tank Day’ furore",
       "url": "https://www.aljazeera.com/economy/2026/6/15/starbucks-korea-to-shut-stores-for-history-lessons-after-tank-day-furore?traffic_source=rss",
       "source_id": "aljazeera-all",
       "source_name": "Al Jazeera",
@@ -3261,7 +3297,7 @@
       "summary": "Coffee chain to hold 'historical awareness' training after backlash to ad campaign that evoked 1980 military crackdown.",
       "published_at": "2026-06-15T07:00:43+00:00",
       "weight": 0.85,
-      "rank": 233
+      "rank": 236
     },
     {
       "id": "c7c1459876550e23",
@@ -3273,7 +3309,7 @@
       "summary": "World welcomes US-Iran agreement as Trump says Strait of Hormuz to reopen on Friday when deal is signed.",
       "published_at": "2026-06-15T07:00:00+00:00",
       "weight": 0.85,
-      "rank": 234
+      "rank": 237
     },
     {
       "id": "70892663937b0eed",
@@ -3285,7 +3321,7 @@
       "summary": "US host city braces for protests near stadium as Iran prepares to start its World Cup campaign against New Zealand.",
       "published_at": "2026-06-15T06:46:35+00:00",
       "weight": 0.85,
-      "rank": 235
+      "rank": 238
     },
     {
       "id": "f785dd746dcbecf3",
@@ -3297,7 +3333,7 @@
       "summary": "Elon Musk just became the world's first trillionaire. We break down what $1 trillion can buy across 35 categories.",
       "published_at": "2026-06-15T06:21:54+00:00",
       "weight": 0.85,
-      "rank": 236
+      "rank": 239
     },
     {
       "id": "9281cfbd862e3256",
@@ -3309,7 +3345,7 @@
       "summary": "In perhaps the biggest upset in UFC history, ‌Gaethje becomes champion after Topuria's corner stops fight.",
       "published_at": "2026-06-15T06:11:56+00:00",
       "weight": 0.85,
-      "rank": 237
+      "rank": 240
     },
     {
       "id": "bf7a1f1102103622",
@@ -3321,7 +3357,7 @@
       "summary": "The 22-year-old scored two goals against Tunisia but had muted celebrations against the country of his father's birth.",
       "published_at": "2026-06-15T05:31:38+00:00",
       "weight": 0.85,
-      "rank": 238
+      "rank": 241
     },
     {
       "id": "8a86def59b0bfde0",
@@ -3333,7 +3369,7 @@
       "summary": "Experts say a trend is reshaping online harassment: the use of AI to generate sexualised imagery of Muslim women.",
       "published_at": "2026-06-15T05:30:23+00:00",
       "weight": 0.85,
-      "rank": 239
+      "rank": 242
     },
     {
       "id": "ca046b2f94322448",
@@ -3345,43 +3381,55 @@
       "summary": "Two goals from Ayari and one each from Isak, Gyokeres and Svanberg take Sweden to the top of Group F in Monterrey.",
       "published_at": "2026-06-15T04:37:03+00:00",
       "weight": 0.85,
-      "rank": 240
-    },
-    {
-      "id": "96106926b6243980",
-      "title": "Uruguay squad lands in US after flight delay ahead of World Cup opener",
-      "url": "https://www.aljazeera.com/sports/2026/6/15/uruguay-squad-lands-in-us-after-flight-delay-ahead-of-world-cup-opener?traffic_source=rss",
-      "source_id": "aljazeera-all",
-      "source_name": "Al Jazeera",
-      "default_section": "world",
-      "summary": "Uruguay arrived in the US less than 24 hours before the kickoff time for their game against Saudi Arabia.",
-      "published_at": "2026-06-15T03:05:55+00:00",
-      "weight": 0.85,
-      "rank": 241
-    },
-    {
-      "id": "e5a3dfe95f4e59c0",
-      "title": "Lebanese remain sceptical despite US-Iran ceasefire announcement",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/15/lebanese-remain-sceptical-despite-us-iran-ceasefire-announcement?traffic_source=rss",
-      "source_id": "aljazeera-all",
-      "source_name": "Al Jazeera",
-      "default_section": "world",
-      "summary": "The US-Iran ceasefire announcement has raised hopes in Lebanon.",
-      "published_at": "2026-06-15T02:26:06+00:00",
-      "weight": 0.85,
-      "rank": 242
-    },
-    {
-      "id": "7cfc176b63942144",
-      "title": "Ivory Coast beats Ecuador 1-0 at FIFA World Cup with Amad Diallo goal",
-      "url": "https://www.aljazeera.com/sports/2026/6/15/ivory-coast-beat-ecuador-1-0-at-fifa-world-cup-with-amad-diallo?traffic_source=rss",
-      "source_id": "aljazeera-all",
-      "source_name": "Al Jazeera",
-      "default_section": "world",
-      "summary": "Ecuador looked strong before Diallo broke through in the 90th minute with a clinical left-footed shot to seal the win.",
-      "published_at": "2026-06-15T02:05:44+00:00",
-      "weight": 0.85,
       "rank": 243
+    },
+    {
+      "id": "67b509b1404b6804",
+      "title": "全国党建工作座谈会在京召开",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640776.shtml",
+      "source_id": "chinanews-china",
+      "source_name": "中国新闻网时政",
+      "default_section": "china",
+      "summary": "原标题：全国党建工作座谈会在京召开 蔡奇出席并讲话 李希出席",
+      "published_at": "2026-06-15T16:03:02+08:00",
+      "weight": 0.9,
+      "rank": 244
+    },
+    {
+      "id": "a9943bfd5be638db",
+      "title": "外交部：奉劝有关机构停止渲染所谓“中国威胁”",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640774.shtml",
+      "source_id": "chinanews-china",
+      "source_name": "中国新闻网时政",
+      "default_section": "china",
+      "summary": "中新网北京6月15日电 (记者 曾玥)中国外交部发言人林剑15日主持例行记者会。有记者就澳大利亚某智库发布报告炒作所谓“中国威胁”提问。",
+      "published_at": "2026-06-15T16:02:04+08:00",
+      "weight": 0.9,
+      "rank": 245
+    },
+    {
+      "id": "5b1bb5d6a7d0252f",
+      "title": "（聚焦海峡论坛）业界人士吁深化两岸影视合拍等交流合作",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640764.shtml",
+      "source_id": "chinanews-china",
+      "source_name": "中国新闻网时政",
+      "default_section": "china",
+      "summary": "中新社厦门6月15日电 (郑江洛 徐雪莹)正在厦门举行的第十八届海峡论坛上，多位两岸影视从业者认为文化共鸣是最牢固的纽带，呼吁深化两岸间的影视合拍等交流合作。",
+      "published_at": "2026-06-15T15:59:27+08:00",
+      "weight": 0.9,
+      "rank": 246
+    },
+    {
+      "id": "37bf20b7ea8acf9d",
+      "title": "第二届“浙里军校日”举行 18所军校与浙江学子再续“强军之约”",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640759.shtml",
+      "source_id": "chinanews-china",
+      "source_name": "中国新闻网时政",
+      "default_section": "china",
+      "summary": "中新网宁波6月15日电 (丁斐煜 高卓妍)由东部战区海军、国防科技大学、宁波市教育考试院等多家军地单位联合举办的第二届“浙里军校日暨军队院校招生宣讲活动”14日在浙江省八一学校举行，千余名学子怀揣强军梦想齐聚于此，在政策宣讲与面对面咨询中明晰从军路径、坚定报国志向。",
+      "published_at": "2026-06-15T15:54:13+08:00",
+      "weight": 0.9,
+      "rank": 247
     },
     {
       "id": "f1598def680ead19",
@@ -3393,7 +3441,7 @@
       "summary": "中新网北京6月15日电 (记者 曾玥)中国外交部发言人林剑15日主持例行记者会。有记者就俄军对乌克兰首都基辅发动空袭一事提问。",
       "published_at": "2026-06-15T15:49:13+08:00",
       "weight": 0.9,
-      "rank": 244
+      "rank": 248
     },
     {
       "id": "1c71e412a5bb8bfa",
@@ -3405,7 +3453,7 @@
       "summary": "中新网北京6月15日电 (记者 曾玥)中国外交部发言人林剑15日主持例行记者会。",
       "published_at": "2026-06-15T15:45:22+08:00",
       "weight": 0.9,
-      "rank": 245
+      "rank": 249
     },
     {
       "id": "d1c87e0ea9bdb950",
@@ -3417,7 +3465,7 @@
       "summary": "中新网北京6月15日电 (记者 曾玥 李京泽)中国外交部发言人林剑15日主持例行记者会。",
       "published_at": "2026-06-15T15:42:38+08:00",
       "weight": 0.9,
-      "rank": 246
+      "rank": 250
     },
     {
       "id": "41834db3f93f6e2d",
@@ -3429,7 +3477,19 @@
       "summary": "中新网北京6月15日电 (记者 曾玥)中国外交部发言人林剑15日主持例行记者会。",
       "published_at": "2026-06-15T15:37:40+08:00",
       "weight": 0.9,
-      "rank": 247
+      "rank": 251
+    },
+    {
+      "id": "c8b14b043e2f7fe0",
+      "title": "时政微视频丨共产党员习近平",
+      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640778.shtml",
+      "source_id": "chinanews-china",
+      "source_name": "中国新闻网时政",
+      "default_section": "china",
+      "summary": "“第一身份是共产党员，第一职责是为党工作。”",
+      "published_at": "2026-06-15T15:35:02+08:00",
+      "weight": 0.9,
+      "rank": 252
     },
     {
       "id": "e927e4182a540620",
@@ -3441,7 +3501,7 @@
       "summary": "中新网北京6月15日电 (记者 曾玥)对于美伊达成协议重新开放霍尔木兹海峡一事，中国外交部发言人林剑15日在例行记者会上答问时表示，霍尔木兹海峡是用于国际航行的重要海峡，恢复海峡局势稳定符合地区国家和国际社会的共同利益。中方注意到伊美双方已达成的第一阶段谅解备忘录包含重开海峡等内容，希望海峡尽早恢复安全自由通行。中方愿同地区国家和国际社会就有关问题保持沟通。(完)",
       "published_at": "2026-06-15T15:29:43+08:00",
       "weight": 0.9,
-      "rank": 248
+      "rank": 253
     },
     {
       "id": "6f097198787e08dc",
@@ -3453,7 +3513,7 @@
       "summary": "新华社北京6月15日电(记者曹嘉玥、冯歆然)外交部发言人林剑15日在例行记者会上答问时说，霍尔木兹海峡是用于国际航行的重要海峡，恢复海峡局势稳定符合地区国家和国际社会的共同利益。中方注意到，伊美双方已达成的第一阶段谅解备忘录包含重开海峡等内容。“希望海峡尽早恢复安全自由通行，中方愿同地区国家和国际社会就有关问题保持沟通。”",
       "published_at": "2026-06-15T15:28:11+08:00",
       "weight": 0.9,
-      "rank": 249
+      "rank": 254
     },
     {
       "id": "581ea89d7b4b4038",
@@ -3465,67 +3525,19 @@
       "summary": "新华社北京6月15日电(记者曹嘉玥、吴梦桐)美国、伊朗以及美伊谈判斡旋方巴基斯坦北京时间6月15日确认，美伊双方达成谅解备忘录，定于19日在瑞士日内瓦签署。外交部发言人林剑15日在例行记者会上就此答问时说，中方对美国和伊朗就第一阶段谅解备忘录内容达成一致表示欢迎，对巴基斯坦所做的斡旋努力表示赞赏。",
       "published_at": "2026-06-15T15:27:33+08:00",
       "weight": 0.9,
-      "rank": 250
-    },
-    {
-      "id": "00fdf798c0542f9e",
-      "title": "习近平：一体推进教育科技人才发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640742.shtml",
-      "source_id": "chinanews-china",
-      "source_name": "中国新闻网时政",
-      "default_section": "china",
-      "summary": "一体推进教育科技人才发展※",
-      "published_at": "2026-06-15T15:21:15+08:00",
-      "weight": 0.9,
-      "rank": 251
-    },
-    {
-      "id": "183d4b2c6cacc082",
-      "title": "大唐河南发电有限公司原副总经理白献锁接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640736.shtml",
-      "source_id": "chinanews-china",
-      "source_name": "中国新闻网时政",
-      "default_section": "china",
-      "summary": "中新网6月15日电 据中央纪委国家监委驻中国大唐纪检监察组、河南省纪委监委消息：大唐河南发电有限公司原党委委员、副总经理白献锁涉嫌严重违纪违法，目前正接受中央纪委国家监委驻中国大唐纪检监察组纪律审查和河南省焦作市监察委员会监察调查。",
-      "published_at": "2026-06-15T15:07:42+08:00",
-      "weight": 0.9,
-      "rank": 252
-    },
-    {
-      "id": "b93ba359eb3d5a30",
-      "title": "《求是》杂志发表习近平总书记重要文章《一体推进教育科技人才发展》",
-      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640735.shtml",
-      "source_id": "chinanews-china",
-      "source_name": "中国新闻网时政",
-      "default_section": "china",
-      "summary": "新华社北京6月15日电#8195;6月16日出版的第12期《求是》杂志将发表中共中央总书记、国家主席、中央军委主席习近平的重要文章《一体推进教育科技人才发展》。这是习近平总书记2012年12月至2026年4月期间有关重要论述的节录。",
-      "published_at": "2026-06-15T15:01:56+08:00",
-      "weight": 0.9,
-      "rank": 253
-    },
-    {
-      "id": "90d13e971eaad64d",
-      "title": "中国空间科学卫星的“微笑”",
-      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640721.shtml",
-      "source_id": "chinanews-china",
-      "source_name": "中国新闻网时政",
-      "default_section": "china",
-      "summary": "原标题：中国空间科学卫星的“微笑”(创新谈)",
-      "published_at": "2026-06-15T14:44:38+08:00",
-      "weight": 0.9,
-      "rank": 254
-    },
-    {
-      "id": "a50d656cdc6a2b6d",
-      "title": "中国海军83舰编队起航执行远海综合实习访问任务",
-      "url": "https://www.chinanews.com.cn/gn/2026/06-15/10640707.shtml",
-      "source_id": "chinanews-china",
-      "source_name": "中国新闻网时政",
-      "default_section": "china",
-      "summary": "中新社北京6月15日电 由远洋航海训练舰戚继光舰和综合登陆舰昆仑山舰组成的中国海军83舰编队，15日上午从山东青岛某军港解缆起航，开始执行远海综合实习访问任务。",
-      "published_at": "2026-06-15T14:31:38+08:00",
-      "weight": 0.9,
       "rank": 255
+    },
+    {
+      "id": "a9ddeb90936306a2",
+      "title": "重庆警方破获特大“套路运”有组织诈骗案 涉案金额5000余万元",
+      "url": "https://www.chinanews.com.cn/sh/2026/06-15/10640758.shtml",
+      "source_id": "chinanews-society",
+      "source_name": "中国新闻网社会",
+      "default_section": "china",
+      "summary": "中新网重庆6月15日电 (记者 贾楠)15日，记者从重庆市九龙坡区获悉，近日，九龙坡区跨部门联动攻坚，成功破获特大“套路运”有组织诈骗案，涉案金额达5000余万元。",
+      "published_at": "2026-06-15T15:45:52+08:00",
+      "weight": 0.75,
+      "rank": 256
     },
     {
       "id": "df15c35b4b7e0a9f",
@@ -3537,7 +3549,7 @@
       "summary": "中新网杭州6月15日电 题：一餐热饭里的社区新事：“AI大厨”炒出“家常味”",
       "published_at": "2026-06-15T15:44:26+08:00",
       "weight": 0.75,
-      "rank": 256
+      "rank": 257
     },
     {
       "id": "08f0e5e4be21a700",
@@ -3549,7 +3561,7 @@
       "summary": "中新网乌鲁木齐6月15日电 (张家伟)“这里的山太美了，美得不可思议。”第一次来到新疆伊犁的俄罗斯画家薇拉·斯帕西布金娜，在草原上支起画架时这样感叹。",
       "published_at": "2026-06-15T15:39:44+08:00",
       "weight": 0.75,
-      "rank": 257
+      "rank": 258
     },
     {
       "id": "e2f282a6891a2feb",
@@ -3561,7 +3573,7 @@
       "summary": "中新网6月15日电 据应急管理部网站消息，6月13日以来，广西中东部、广东中北部和东部等地先后出现暴雨到大暴雨，局地降水量超过600毫米。预计15日至16日，上述部分地区仍有强降雨。中央气象台15日10时发布暴雨橙色预警。",
       "published_at": "2026-06-15T15:34:40+08:00",
       "weight": 0.75,
-      "rank": 258
+      "rank": 259
     },
     {
       "id": "afbee8b2aed5e994",
@@ -3573,7 +3585,7 @@
       "summary": "中新网6月15日电 据上海市公安局城市轨道和公交总队官方微博“轨交幺幺零”消息，一女子发布涉地铁虚假视频被行政拘留。",
       "published_at": "2026-06-15T15:28:35+08:00",
       "weight": 0.75,
-      "rank": 259
+      "rank": 260
     },
     {
       "id": "a73a635a4d005dcd",
@@ -3585,7 +3597,7 @@
       "summary": "“十五五”规划纲要指出，要优化基本养老服务供给，完善城乡养老服务网络，加强公共设施适老化和无障碍改造。发展医育、医养结合服务。推行长期护理保险，健全失能失智老年人照护体系，扩大康复护理、安宁疗护服务供给。2026年3月25日，中共中央办公厅、国务院办公厅发布《关于加快建立长期护理保险制度的意见》，提出用3年左右的时间基本建立符合我国基本国情的长期护理保险制度。",
       "published_at": "2026-06-15T15:24:37+08:00",
       "weight": 0.75,
-      "rank": 260
+      "rank": 261
     },
     {
       "id": "032f32f486b3bb87",
@@ -3597,7 +3609,7 @@
       "summary": "中新网海南文昌6月15日电 题：封关半年看海南：“老外”为何喜欢来“追箭”？",
       "published_at": "2026-06-15T15:19:59+08:00",
       "weight": 0.75,
-      "rank": 261
+      "rank": 262
     },
     {
       "id": "cbd1cdb61cef8a05",
@@ -3609,7 +3621,7 @@
       "summary": "中新网西安6月15日电(张远 刘一江)15日，西安东站内外部装饰装修工作全面完成，标志着这座西北地区大型综合交通枢纽进入最后收尾阶段。项目投用后，可实现西安东站、西安北站互联互通，进一步完善全国高速铁路网，为区域经济社会高质量发展注入新动能。",
       "published_at": "2026-06-15T15:18:47+08:00",
       "weight": 0.75,
-      "rank": 262
+      "rank": 263
     },
     {
       "id": "af7b7bd85273ebc9",
@@ -3621,7 +3633,7 @@
       "summary": "中新网西安6月15日电 题：西安老城阳台“吼”响秦腔 民众街巷邂逅传统戏韵",
       "published_at": "2026-06-15T15:18:13+08:00",
       "weight": 0.75,
-      "rank": 263
+      "rank": 264
     },
     {
       "id": "5d3afc4ebbe52f1e",
@@ -3633,7 +3645,7 @@
       "summary": "中新网广州6月15日电 (记者 王坚)据广东消防救援机动总队15日消息，受持续强降雨天气影响，粤东多地出现暴雨洪涝灾情，多个乡镇积水严重、内涝突发，部分企业厂区、施工区域被淹，群众生命财产安全受到威胁。",
       "published_at": "2026-06-15T15:16:17+08:00",
       "weight": 0.75,
-      "rank": 264
+      "rank": 265
     },
     {
       "id": "741351baa72738ab",
@@ -3645,7 +3657,7 @@
       "summary": "记者从水利部了解到，受降雨影响，昨天到今天，广西郁江支流猪儿河、贺江支流东安江，广东西江支流谷圩河、东江支流古竹水、韩江支流松源河，福建汀江上游及支流永定河、九龙江支流雁石溪、闽江上游沙溪支流长潭河，吉林二道松花江支流大沙河等20条中小河流发生超警以上洪水，最大超警幅度1.76米。目前，大部河流已退至警戒水位以下。",
       "published_at": "2026-06-15T14:59:47+08:00",
       "weight": 0.75,
-      "rank": 265
+      "rank": 266
     },
     {
       "id": "8ec059fc1169b5bc",
@@ -3656,18 +3668,6 @@
       "default_section": "china",
       "summary": "中新网6月15日电 据“天津航空”官方微博消息，6月15日，由天津飞往揭阳的GS7829航班，一名旅客携带的充电宝出现冒烟情况，机组人员第一时间发现并立即按程序妥善处置，期间机上无人员受伤，机上设施设备无损伤，航班平安落地。",
       "published_at": "2026-06-15T14:29:16+08:00",
-      "weight": 0.75,
-      "rank": 266
-    },
-    {
-      "id": "89d6233dbdb1d5e6",
-      "title": "广东强降雨致多地停课 全省累计转移逾1.3万人",
-      "url": "https://www.chinanews.com.cn/sh/2026/06-15/10640691.shtml",
-      "source_id": "chinanews-society",
-      "source_name": "中国新闻网社会",
-      "default_section": "china",
-      "summary": "中新社广州6月15日电 (记者 王坚)广东15日持续强降雨。受此轮强降雨影响，广东多地当天停课，目前全省累计转移人员超1.3万人。",
-      "published_at": "2026-06-15T14:23:31+08:00",
       "weight": 0.75,
       "rank": 267
     },
@@ -3960,6 +3960,42 @@
       "rank": 291
     },
     {
+      "id": "184e1e23a1e20181",
+      "title": "India, Indonesia Drew a Line; Now Markets Are Leaping Higher",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/india-indonesia-drew-a-line-now-markets-are-leaping-higher",
+      "source_id": "bloomberg-markets",
+      "source_name": "Bloomberg Markets",
+      "default_section": "finance",
+      "summary": "It was arguably about buying time until a peace deal emerged. In the end they didn’t have to wait too long.",
+      "published_at": "2026-06-15T08:03:05+00:00",
+      "weight": 1.0,
+      "rank": 292
+    },
+    {
+      "id": "5ca9ca82665c2fb2",
+      "title": "<strong>Carmen Li's Plan to Build a Futures Market for Compute</strong>",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/carmen-li-s-plan-to-build-a-futures-market-for-compute",
+      "source_id": "bloomberg-markets",
+      "source_name": "Bloomberg Markets",
+      "default_section": "finance",
+      "summary": "What it takes to build a GPU index.",
+      "published_at": "2026-06-15T08:00:15+00:00",
+      "weight": 1.0,
+      "rank": 293
+    },
+    {
+      "id": "ef116494c83bcece",
+      "title": "Odd Lots: Li’s Plan to Build a Compute Futures Market (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-06-15/odd-lots-li-s-plan-to-build-a-compute-futures-market-podcast",
+      "source_id": "bloomberg-markets",
+      "source_name": "Bloomberg Markets",
+      "default_section": "finance",
+      "summary": "",
+      "published_at": "2026-06-15T08:00:00+00:00",
+      "weight": 1.0,
+      "rank": 294
+    },
+    {
       "id": "7c2f48eeb7532cb2",
       "title": "Hormuz Trade Will Take Months to Return Normal, Analysts Say",
       "url": "https://www.bloomberg.com/news/articles/2026-06-15/hormuz-trade-will-take-months-to-return-to-normal-analysts-say",
@@ -3969,7 +4005,7 @@
       "summary": "Oil markets have reacted with enthusiasm to an interim agreement between US and Iran which should reopen the Strait of Hormuz and restore oil and gas flows — but that return to normality could be months away, analysts warn.",
       "published_at": "2026-06-15T05:07:11+00:00",
       "weight": 1.0,
-      "rank": 292
+      "rank": 295
     },
     {
       "id": "9bcd2cce109015d0",
@@ -3981,7 +4017,7 @@
       "summary": "The US and Iran said they reached an interim agreement to reopen the Strait of Hormuz, halting a war that killed thousands of people. Rosalind Mathieson has the latest. (Source: Bloomberg)",
       "published_at": "2026-06-15T07:46:37+00:00",
       "weight": 1.0,
-      "rank": 293
+      "rank": 296
     },
     {
       "id": "5d0d3b4e48d3d0cd",
@@ -3993,7 +4029,7 @@
       "summary": "Finnish retailer Kesko Oyj agreed to buy building materials distributor Dahl’s operations in Sweden, Norway and Denmark from Cie. de Saint-Gobain SA for €1.2 billion ($1.4 billion) excluding debt.",
       "published_at": "2026-06-15T06:31:30+00:00",
       "weight": 1.0,
-      "rank": 294
+      "rank": 297
     },
     {
       "id": "d445fab581724d87",
@@ -4005,7 +4041,7 @@
       "summary": "Billionaire Chey Tae-won of SK Hynix Inc. and his ex-wife Roh Soh-yeong failed to reach an agreement through court mediation, setting the stage for the resumption of their long-running divorce settlement battle.",
       "published_at": "2026-06-15T07:31:42+00:00",
       "weight": 1.0,
-      "rank": 295
+      "rank": 298
     },
     {
       "id": "b593ba8e172fd91c",
@@ -4017,7 +4053,7 @@
       "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
       "published_at": "2026-06-15T07:22:21+00:00",
       "weight": 1.0,
-      "rank": 296
+      "rank": 299
     },
     {
       "id": "66171b2c6e6034c4",
@@ -4029,7 +4065,7 @@
       "summary": "European Central Bank President Christine Lagarde said high energy prices are starting to feed through to other parts of the economy, according to an interview with France Culture.",
       "published_at": "2026-06-15T06:23:49+00:00",
       "weight": 1.0,
-      "rank": 297
+      "rank": 300
     },
     {
       "id": "6a6d3f47b1468b95",
@@ -4041,19 +4077,7 @@
       "summary": "Vision Group is in talks with South Africa’s Industrial Development Corp. to take an equity stake in sugar refiner Tongaat Hulett in exchange for additional funding.",
       "published_at": "2026-06-14T16:39:13+00:00",
       "weight": 1.0,
-      "rank": 298
-    },
-    {
-      "id": "32a99acced698a72",
-      "title": "Starbucks Korea to Close All Stores Early for History Training",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-15/starbucks-korea-to-close-all-stores-early-for-history-training",
-      "source_id": "bloomberg-markets",
-      "source_name": "Bloomberg Markets",
-      "default_section": "finance",
-      "summary": "Starbucks Korea will take the unprecedented step of closing all stores early on June 22 to conduct history training for its entire workforce following a botched promotional event that triggered a customer boycott.",
-      "published_at": "2026-06-15T07:13:39+00:00",
-      "weight": 1.0,
-      "rank": 299
+      "rank": 301
     },
     {
       "id": "fbb9acddeff22e28",
@@ -4065,7 +4089,7 @@
       "summary": "A liquefied natural gas tanker that has been trapped in the Persian Gulf for over three months is traversing the Strait of Hormuz, just as the US and Iran say they have reached a deal to reopen the waterway.",
       "published_at": "2026-06-14T22:56:13+00:00",
       "weight": 1.0,
-      "rank": 300
+      "rank": 302
     },
     {
       "id": "e81290242a6ae6d8",
@@ -4076,30 +4100,6 @@
       "default_section": "finance",
       "summary": "A global relief rally fueled stocks and bonds while oil tumbled to a three-month low after the US and Iran agreed to halt their war and reopen the Strait of Hormuz.",
       "published_at": "2026-06-14T22:06:25+00:00",
-      "weight": 1.0,
-      "rank": 301
-    },
-    {
-      "id": "64f836a2b033f7b3",
-      "title": "K-Content Powerhouse JoongAng Seeks Court-led Restructuring",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-15/korea-media-giant-seeks-rehabilitation-after-broadcaster-default",
-      "source_id": "bloomberg-markets",
-      "source_name": "Bloomberg Markets",
-      "default_section": "finance",
-      "summary": "The holding company of South Korea’s JoongAng Group, a sprawling media conglomerate and K-Content powerhouse behind hits like Netflix smash Culinary Class Wars, filed for court-led restructuring in Seoul.",
-      "published_at": "2026-06-15T01:19:47+00:00",
-      "weight": 1.0,
-      "rank": 302
-    },
-    {
-      "id": "7c58ad8b984d33f4",
-      "title": "Stocks and Bonds Rally on Interim US-Iran Deal",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-06-15/ftse-100-gilts-oil-trump-iran-deal-what-s-moving-uk-markets-right-now-markets-today",
-      "source_id": "bloomberg-markets",
-      "source_name": "Bloomberg Markets",
-      "default_section": "finance",
-      "summary": "",
-      "published_at": "2026-06-15T05:46:56+00:00",
       "weight": 1.0,
       "rank": 303
     },
@@ -4512,122 +4512,122 @@
       "rank": 337
     },
     {
-      "id": "677533c4c7ad4a2f",
-      "title": "Analysis-China bonds emerge as surprise haven as Iran war reshapes portfolios",
-      "url": "https://www.investing.com/news/economy-news/analysischina-bonds-emerge-as-surprise-haven-as-iran-war-reshapes-portfolios-4741186",
+      "id": "4d0b8011054e478f",
+      "title": "Roth/MKM upgrades Silvercorp Metals stock rating on production growth",
+      "url": "https://www.investing.com/news/analyst-ratings/rothmkm-upgrades-silvercorp-metals-stock-rating-on-production-growth-93CH-4741369",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:48:29+00:00",
+      "published_at": "2026-06-15T08:09:37+00:00",
       "weight": 0.75,
       "rank": 338
     },
     {
-      "id": "193a66ce3aaedcd0",
-      "title": "Sigma Healthcare shares closed higher after withdrawing from Boots sale process",
-      "url": "https://www.investing.com/news/stock-market-news/sigma-healthcare-withdraws-from-boots-sale-process-shares-jump-4741134",
+      "id": "e7ad8fc63a6ab90a",
+      "title": "THIS IS IT: Now’s the time to lock in InvestingPro for LOWEST PRICE OF 2026",
+      "url": "https://www.investing.com/news/stock-market-news/this-is-it-nows-the-time-to-lock-in-investingpro-for-lowest-price-of-2026-4741366",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:46:42+00:00",
+      "published_at": "2026-06-15T08:07:28+00:00",
       "weight": 0.75,
       "rank": 339
     },
     {
-      "id": "7c7771179a09b706",
-      "title": "Turkey’s industrial production rises 3.7% in April",
-      "url": "https://www.investing.com/news/economic-indicators/turkeys-industrial-production-rises-37-in-april-93CH-4741346",
+      "id": "dd7c2ecc317e0613",
+      "title": "Factbox-From Australia to Europe, countries move to curb children’s social media access",
+      "url": "https://www.investing.com/news/stock-market-news/factboxfrom-australia-to-europe-countries-move-to-curb-childrens-social-media-access-4741368",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:44:12+00:00",
+      "published_at": "2026-06-15T08:06:59+00:00",
       "weight": 0.75,
       "rank": 340
     },
     {
-      "id": "f2968114890e2a36",
-      "title": "KeyBanc upgrades Rocket Lab stock rating on launch progress",
-      "url": "https://www.investing.com/news/analyst-ratings/keybanc-upgrades-rocket-lab-stock-rating-on-launch-progress-93CH-4741345",
+      "id": "4227557044bdd2db",
+      "title": "Exclusive-Tesla presented misleading ‘Full Self-Driving’ safety data to European regulators",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivetesla-presented-misleading-full-selfdriving-safety-data-to-european-regulators-4741367",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:43:13+00:00",
+      "published_at": "2026-06-15T08:06:35+00:00",
       "weight": 0.75,
       "rank": 341
     },
     {
-      "id": "55d2695254e49af1",
-      "title": "Poland’s inflation eases to 3.1% in May from 3.2% in April",
-      "url": "https://www.investing.com/news/economic-indicators/polands-inflation-eases-to-31-in-may-from-32-in-april-93CH-4741344",
+      "id": "76c66c205bb26a5f",
+      "title": "Why is Bunzl stock rallying today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-bunzl-stock-rallying-today-93CH-4741365",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:43:10+00:00",
+      "published_at": "2026-06-15T08:03:36+00:00",
       "weight": 0.75,
       "rank": 342
     },
     {
-      "id": "79932564911b2bfd",
-      "title": "Shionogi stock upgraded to buy by UBS on valuation, pipeline",
-      "url": "https://www.investing.com/news/analyst-ratings/shionogi-stock-upgraded-to-buy-by-ubs-on-valuation-pipeline-93CH-4741343",
+      "id": "57095b3179d52b37",
+      "title": "Jefferies upgrades HawkEye 360 stock rating to buy on valuation",
+      "url": "https://www.investing.com/news/analyst-ratings/jefferies-upgrades-hawkeye-360-stock-rating-to-buy-on-valuation-93CH-4741364",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:43:05+00:00",
+      "published_at": "2026-06-15T08:03:11+00:00",
       "weight": 0.75,
       "rank": 343
     },
     {
-      "id": "0855064f4d871c0f",
-      "title": "Australia’s richest person Rinehart takes $1 billion stake in SpaceX IPO, WSJ reports",
-      "url": "https://www.investing.com/news/stock-market-news/australias-richest-person-rinehart-takes-1-billion-stake-in-spacex-ipo-wsj-reports-4741342",
+      "id": "50016d127029e075",
+      "title": "U.S., Iran reach interim peace deal; oil drops; gold gains - what’s moving markets",
+      "url": "https://www.investing.com/news/economy-news/us-iran-reach-interim-peace-deal-oil-drops-gold-gains--whats-moving-markets-4741363",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:42:52+00:00",
+      "published_at": "2026-06-15T08:02:57+00:00",
       "weight": 0.75,
       "rank": 344
     },
     {
-      "id": "c035744fe3bdd3c4",
-      "title": "Take Five: Be careful what you Warsh for",
-      "url": "https://www.investing.com/news/economy-news/take-five-be-careful-what-you-warsh-for-4741341",
+      "id": "0f0abe0c35c09b20",
+      "title": "SpaceX extends gains premarket after biggest IPO ever values it at $2.1 trillion",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-extends-gains-premarket-after-biggest-ipo-ever-values-it-at-21-trillion-4741362",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:42:33+00:00",
+      "published_at": "2026-06-15T08:02:22+00:00",
       "weight": 0.75,
       "rank": 345
     },
     {
-      "id": "a08c84ae9af32e21",
-      "title": "Frasers Group shares rise on Accent Group buyout offer",
-      "url": "https://www.investing.com/news/stock-market-news/frasers-group-shares-rise-on-accent-group-buyout-offer-93CH-4741340",
+      "id": "277b88b63aa3e5ef",
+      "title": "Eesti Energia appoints Gerrit Mäesalu to management board",
+      "url": "https://www.investing.com/news/company-news/eesti-energia-appoints-gerrit-maesalu-to-management-board-93CH-4741361",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:40:06+00:00",
+      "published_at": "2026-06-15T08:01:27+00:00",
       "weight": 0.75,
       "rank": 346
     },
     {
-      "id": "6f87672a84d42e74",
-      "title": "Euro yields fall, Oil tumbles after U.S.-Iran peace deal",
-      "url": "https://www.investing.com/news/forex-news/euro-yields-fall-oil-tumbles-after--usiran-peace-deal-4741251",
+      "id": "7274eb40fab3f601",
+      "title": "Why is Kesko stock plunging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-kesko-stock-plunging-today-93CH-4741360",
       "source_id": "investing-news",
       "source_name": "Investing.com",
       "default_section": "finance",
       "summary": "",
-      "published_at": "2026-06-15T07:39:33+00:00",
+      "published_at": "2026-06-15T08:01:00+00:00",
       "weight": 0.75,
       "rank": 347
     },
@@ -4921,12 +4921,13 @@
     }
   ],
   "warnings": [
+    "LLM output missed subsection science-tech/chips-hardware; filled with ranked candidates.",
+    "LLM output missed subsection science-tech/space-energy-robotics; filled with ranked candidates.",
     "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/fonda",
-    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/kickbacks-ai",
-    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/agentbrush",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/reignat",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/pass-quick-access",
     "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/2026/6/15/global-relief-as-iran-us-sign-deal-to-end-war?traffic_source=rss",
     "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-15/asia-welcomes-us-iran-deal-s-pledge-to-open-hormuz-oil-lifeline",
-    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-15/pakistan-finance-chief-sees-growth-rise-inflation-dip-next-year",
     "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-15/lagarde-says-ecb-has-started-to-see-second-round-effects",
     "LLM subsection opinion/community-discussion ignored duplicate URL: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss"
   ]

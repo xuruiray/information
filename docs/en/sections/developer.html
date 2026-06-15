@@ -45,7 +45,7 @@
 
     <section class="briefing-panel category-briefing" aria-label="Development &amp; Programming Briefing">
       <div class="lead-label">Development &amp; Programming Briefing</div>
-      <p>This edition highlights key developments in languages and frameworks, including an argument that AI won&#39;t replace software engineers, SQLite column provenance mapping, Julia Evans&#39; writing advice, and Vercel&#39;s Blob store limit increase. In open source, Pyodide now allows direct WASM wheel publishing to PyPI, and Luau-Wasm 0.1a0 enables Lua in the browser.</p>
+      <p>This edition covers the relationship between AI and software engineering, progress in WebAssembly integration with Pyodide, SQLite query result column provenance, and Vercel&#39;s increased Blob store limits. Open source highlights include publishing WASM wheels to PyPI and the release of luau-wasm 0.1a0.</p>
     </section>
 
     <div class="subsection-stack">
@@ -56,32 +56,32 @@
         </header>
         <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks Briefing">
           <div class="lead-label">Languages &amp; Frameworks Briefing</div>
-          <p>Discussions on AI vs. software engineers; SQLite query provenance research; Julia Evans&#39; one-person writing advice; Vercel increases Blob store limit to 100 for Hobby users.</p>
+          <p>Scholars Arvind Narayanan and Sayash Kapoor argue that AI will not replace software engineers; research on SQLite column provenance enhances Datasette queries; Vercel raises Hobby user Blob store limit from 5 to 100; Julia Evans advocates writing for one person.</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noopener">
             <span class="at">Why AI hasn’t replaced software engineers, and won’t</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Arvind Narayanan and Sayash Kappor argue that evidence rejects the narrative that AI will replace software engineers once capabilities reach a threshold, using software engineering as a profession uniquely suited to AI disruption.</p>
+            <p class="as">Arvind Narayanan and Sayash Kapoor examine software engineering, a profession uniquely susceptible to AI disruption, and find sufficient evidence to reject the narrative that once AI capabilities reach a certain threshold, humans will be replaced.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Jun/13/sqlite-column-provenance" target="_blank" rel="noopener">
             <span class="at">Mapping SQLite result columns back to their source `table.column`</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison researches mapping SQL query result columns back to source tables and columns to enrich Datasette queries with provenance information for better data visualization.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Jun/15/julia-evans" target="_blank" rel="noopener">
-            <span class="at">Quoting Julia Evans</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Julia Evans advises writers to envision a single specific person, such as &#39;me three years ago&#39; or a good friend, rather than a large audience—a technique embraced by many technical authors.</p>
+            <p class="as">A research into SQLite queries that aims to identify which tables and columns each result column comes from, enabling Datasette to render additional information for arbitrary SQL queries.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://vercel.com/changelog/increased-blob-store-limit-for-hobby-users" target="_blank" rel="noopener">
             <span class="at">Increased Blob store limit for Hobby users</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel increases Hobby users&#39; Blob store limit from 5 to 100, offering more flexibility to organize data by project, environment, or region, while storage, operations, and transfer limits still apply.</p>
+            <p class="as">Vercel announces that Hobby users can now create up to 100 Blob stores, up from 5, giving small projects more flexibility in data organization.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/15/julia-evans" target="_blank" rel="noopener">
+            <span class="at">Quoting Julia Evans: write for one person</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Julia Evans advises to picture a specific person, often “me, but 3 years ago” or a good friend, and write only for them.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -93,20 +93,20 @@
         </header>
         <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools Briefing">
           <div class="lead-label">Open Source &amp; Tools Briefing</div>
-          <p>Pyodide 314.0 enables direct WASM Python wheel publishing to PyPI, simplifying browser-based Python distribution; Luau-Wasm 0.1a0 released, bringing Lua to WebAssembly.</p>
+          <p>Pyodide 314.0 now supports publishing WASM Python packages directly to PyPI and installing at runtime; luau-wasm 0.1a0, an initial release, offers a new path for Lua on WebAssembly.</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels" target="_blank" rel="noopener">
             <span class="at">Publishing WASM wheels to PyPI for use with Pyodide</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Pyodide 314.0 announces a major update: developers can now publish Python packages built for Pyodide directly to PyPI and install them at runtime, eliminating the previous need for maintainer builds.</p>
+            <p class="as">Pyodide 314.0 enables publishing Python packages built for Pyodide or PyEmscripten platforms directly to PyPI, allowing runtime installation and greatly simplifying the WASM Python ecosystem.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Jun/13/luau-wasm" target="_blank" rel="noopener">
             <span class="at">luau-wasm 0.1a0</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Initial release of Luau-Wasm 0.1a0, enabling Luau (a Lua derivative) to run in WebAssembly environments, compatible with Pyodide.</p>
+            <p class="as">luau-wasm 0.1a0, the initial release of a WebAssembly runtime for Lua, offers a new option for running Lua in the browser.</p>
             <span class="more">Read more →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13940" target="_blank" rel="noopener">
@@ -124,7 +124,7 @@
         </header>
         <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data Briefing">
           <div class="lead-label">Infrastructure &amp; Data Briefing</div>
-          <p>There is not enough content to summarize Infrastructure &amp; Data.</p>
+          <p>No relevant articles in this edition.</p>
         </section>
 
         <div class="columns subsection-columns">
