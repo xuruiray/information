@@ -1,0 +1,41 @@
+sources:
+  - id: "chinanews-china"
+    name: "中国新闻网时政"
+    type: "rss"
+    enabled: true
+    url: "https://www.chinanews.com.cn/rss/china.xml"
+    default_section: "china"
+    weight: 0.9
+    category: "china"
+    language: "zh-CN"
+    keywords: ["中国", "国内", "时政", "政策", "政府", "监管"]
+  - id: "chinanews-society"
+    name: "中国新闻网社会"
+    type: "rss"
+    enabled: true
+    url: "https://www.chinanews.com.cn/rss/society.xml"
+    default_section: "china"
+    weight: 0.75
+    category: "china"
+    language: "zh-CN"
+    keywords: ["社会", "民生", "法治", "教育", "健康"]
+  - id: "xinhuanet-politics"
+    name: "新华网时政"
+    type: "rss"
+    enabled: true
+    url: "http://www.xinhuanet.com/politics/news_politics.xml"
+    default_section: "china"
+    weight: 0.85
+    category: "china"
+    language: "zh-CN"
+    keywords: ["新华", "时政", "政策", "中国", "政府"]
+  - id: "xinhuanet-tech"
+    name: "新华网科技"
+    type: "rss"
+    enabled: true
+    url: "http://www.xinhuanet.com/tech/news_tech.xml"
+    default_section: "science-tech"
+    weight: 0.7
+    category: "science-tech"
+    language: "zh-CN"
+    keywords: ["科技", "产业", "创新", "中国", "科学"]

@@ -34,15 +34,34 @@ def test_fallback_compiles_dynamic_sections(monkeypatch):
     assert all(len(section.subsections) == 3 for section in issue.sections)
     assert all(subsection.briefing_summary for section in issue.sections for subsection in section.subsections)
     ai_articles = next(section.articles for section in issue.sections if section.id == "ai-tech")
-    assert ai_articles[0].title.startswith("AI 科技：")
+    assert ai_articles[0].title.startswith("AI 与大模型：")
     assert "适合" in ai_articles[0].summary or "关注" in ai_articles[0].summary
     assert "LLM" not in ai_articles[0].summary
     assert "规则预览" not in ai_articles[0].summary
     assert ai_articles[0].title_en in {
+        "OpenAI releases a new agent framework",
         "New LLM benchmark compares agent coding performance",
         "Useful open source CLI for developers",
     }
     assert issue.warnings
+
+
+def test_fallback_balances_each_subsection_to_at_least_three(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.delenv(config.llm.api_key_env, raising=False)
+
+    issue = compile_issue(
+        config,
+        _balanced_articles(config),
+        date(2026, 5, 29),
+        allow_fallback=True,
+    )
+
+    for section in issue.sections:
+        for subsection in section.subsections:
+            assert len(subsection.articles) >= 3, f"{section.id}/{subsection.id}"
+    urls = [article.url for section in issue.sections for article in section.articles]
+    assert len(urls) == len(set(urls))
 
 
 def test_lookback_hours_filters_old_articles(monkeypatch):
@@ -161,7 +180,7 @@ def test_llm_compiles_overview_and_sections_separately(monkeypatch):
     assert "总览" in calls[0]
     assert [section.id for section in issue.sections] == [section.id for section in config.sections]
     assert issue.briefing_summary.startswith("今日信息围绕")
-    assert issue.headline and issue.headline.source == "OpenAI 新闻"
+    assert issue.headline and issue.headline.source == "Hugging Face 博客"
 
 
 def test_llm_max_input_items_limits_payload(monkeypatch):
@@ -216,9 +235,9 @@ def test_llm_max_input_items_limits_payload(monkeypatch):
 
     total_candidates = sum(len(items) for items in overview_request["candidates_by_section"].values())
     assert total_candidates == 2
-    assert issue.headline.original_title == "OpenAI releases a new agent framework"
-    assert issue.headline.source == "OpenAI 新闻"
-    assert issue.headline.source_en == "OpenAI News"
+    assert issue.headline.original_title == "New LLM benchmark compares agent coding performance"
+    assert issue.headline.source == "Hugging Face 博客"
+    assert issue.headline.source_en == "Hugging Face Blog"
 
 
 def test_llm_invalid_duplicate_and_missing_sections_are_repaired(monkeypatch):
@@ -312,7 +331,7 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     en_dated_ai_page = out_dir / "en" / "papers" / "2026-05-29" / "ai-tech.html"
 
     assert "信息日报" in index
-    assert "本期三版" in index
+    assert "本期版面" in index
     assert "原始候选" in index
     assert "数据源状态" in index
     assert "sections/ai-tech.html" in index
@@ -321,12 +340,12 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     assert "Daily Editions" in en_index
     assert "../index.html" in en_index
     assert "前沿模型" in ai_page
-    assert "开发与工具" in ai_page
-    assert "研究与产品" in ai_page
+    assert "AI 产品与平台" in ai_page
+    assert "研究与治理" in ai_page
     assert "前沿模型总结" in ai_page
     assert "Frontier Models" in en_ai_page
-    assert "Developer Tools" in en_ai_page
-    assert "Research &amp; Products" in en_ai_page
+    assert "AI Products &amp; Platforms" in en_ai_page
+    assert "Research &amp; Governance" in en_ai_page
     assert index.count('class="sheet') == 1
     assert 'target="_blank" rel="noopener"' in index
     assert paper.exists()
@@ -377,6 +396,31 @@ def _articles():
             weight=0.9,
         ),
     ]
+
+
+def _balanced_articles(config):
+    articles = []
+    index = 0
+    for section in config.sections:
+        for subsection in section.subsections:
+            keyword = next(iter(subsection.keywords), subsection.title)
+            for item_index in range(4):
+                index += 1
+                articles.append(
+                    Article(
+                        id=f"balanced-{index}",
+                        title=f"{section.title} {subsection.title} {keyword} story {item_index}",
+                        url=f"https://example.com/balanced/{index}",
+                        source_id=f"{section.id}-source",
+                        source_name=f"{section.title} Source",
+                        default_section=section.id,
+                        summary=f"Update about {keyword} for {subsection.title}.",
+                        published_at=datetime(2026, 5, 29, item_index % 24, 0, tzinfo=timezone.utc),
+                        weight=1.0,
+                        keywords=(keyword,),
+                    )
+                )
+    return articles
 
 
 def _fetch_result(issue, articles):

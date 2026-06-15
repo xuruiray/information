@@ -8,11 +8,21 @@ def test_load_default_config():
 
     assert config.profile_id == "ai-tech"
     assert config.site["title"] == "信息日报"
-    assert [section.id for section in config.sections] == ["ai-tech", "world", "finance"]
+    assert [section.id for section in config.sections] == [
+        "ai-tech",
+        "developer",
+        "science-tech",
+        "startup-product",
+        "world",
+        "china",
+        "finance",
+        "opinion",
+    ]
     assert all(len(section.subsections) == 3 for section in config.sections)
     assert any(source.type == "x" for source in config.sources)
     assert any(source.id == "openai-news" for source in config.sources)
     assert any(source.id == "bbc-world" for source in config.sources)
+    assert any(source.id == "chinanews-china" for source in config.sources)
     assert any(source.id == "bloomberg-markets" for source in config.sources)
     openai = next(source for source in config.sources if source.id == "openai-news")
     assert openai.category == "ai-tech"

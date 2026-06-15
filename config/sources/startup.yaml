@@ -4,12 +4,14 @@ sources:
     type: "atom"
     enabled: true
     url: "https://www.producthunt.com/feed"
-    default_section: "ai-tech"
+    default_section: "startup-product"
     weight: 0.85
+    keywords: ["product", "product hunt", "launch", "startup", "growth"]
   - id: "techcrunch-startups"
     name: "TechCrunch Startups"
     type: "rss"
     enabled: true
     url: "https://techcrunch.com/category/startups/feed/"
-    default_section: "ai-tech"
+    default_section: "startup-product"
     weight: 0.8
+    keywords: ["startup", "funding", "venture", "founder", "acquisition"]

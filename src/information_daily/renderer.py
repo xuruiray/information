@@ -25,14 +25,18 @@ LABELS = {
         "back_overview": "返回总览",
         "for_reading": "仅供阅读",
         "headline": "今日重点",
+        "front_page": "头版",
+        "front_lead": "今日头条",
+        "front_briefing": "编纂摘要",
+        "traceability": "追溯入口",
         "language_zh": "中文",
         "language_en": "English",
-        "latest_editions": "本期三版",
+        "latest_editions": "本期版面",
         "raw_candidates": "原始候选",
         "source_status": "数据源状态",
         "overview": "总览",
         "overview_rail": "各版速览",
-        "overview_footer": "总览 · 三个独立页面",
+        "overview_footer": "总览 · 独立版面",
         "section_pages": "分类页面",
         "subsections": "个细分",
         "read_more": "阅读全文",
@@ -47,6 +51,10 @@ LABELS = {
         "back_overview": "Back to overview",
         "for_reading": "For reading only",
         "headline": "Lead item",
+        "front_page": "Front Page",
+        "front_lead": "Lead Story",
+        "front_briefing": "Editor Briefing",
+        "traceability": "Traceability",
         "language_zh": "中文",
         "language_en": "English",
         "latest_editions": "Daily Editions",
@@ -349,6 +357,7 @@ def _issue_context(
         "current_href": index_href,
         "paper_href_prefix": asset_prefix,
         "section_links": _section_links(localized_issue, section_href_prefix),
+        "lead_articles": _lead_articles(localized_issue),
         "alternate_href": alternate_href,
         "raw_href": raw_href,
         "sources_href": sources_href,
@@ -394,6 +403,28 @@ def _section_links(issue: Issue, href_prefix: str, active_section_id: str | None
         }
         for section in issue.sections
     ]
+
+
+def _lead_articles(issue: Issue, limit: int = 4) -> list[CompiledArticle]:
+    articles: list[CompiledArticle] = []
+    seen: set[str] = set()
+
+    def add(article: CompiledArticle | None) -> None:
+        if article is None or len(articles) >= limit:
+            return
+        key = article.url or article.title
+        if key in seen:
+            return
+        seen.add(key)
+        articles.append(article)
+
+    add(issue.headline)
+    for section in issue.sections:
+        for article in section.articles:
+            add(article)
+            if len(articles) >= limit:
+                return articles
+    return articles
 
 
 def _localized_site(config: AppConfig, lang: str) -> dict:

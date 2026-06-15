@@ -4,8 +4,10 @@ profile:
   source_packages:
     - tech
     - papers
+    - science
     - startup
     - world
+    - china
     - finance
     - x
   selection:
@@ -23,13 +25,13 @@ profile:
     default_model: "gpt-4o-mini"
     temperature: 0.2
     max_input_items: 100
-    summary_style: "中英文双语，简洁，适合日报；保留事实，不夸大，不编造。每天必须覆盖 AI 科技、国际事务、财经理财三个大类，并在每个大类下按小版块做细分总结。"
+    summary_style: "中英文双语，简洁，适合日报；保留事实，不夸大，不编造。每天覆盖 AI 与大模型、开发与编程、科技与科学、创业与产品、国际事务、中国观察、财经理财、观点社论等版面，并在每个大类下按小版块做细分总结。"
   sections:
     - id: "ai-tech"
-      title: "AI 科技"
-      title_en: "AI & Technology"
+      title: "AI 与大模型"
+      title_en: "AI & LLMs"
       icon: "01"
-      max_articles: 15
+      max_articles: 12
       keywords:
         - ai
         - artificial intelligence
@@ -40,29 +42,11 @@ profile:
         - google ai
         - hugging face
         - agent
-        - technology
-        - tech
-        - developer
-        - programming
-        - javascript
-        - python
-        - database
-        - frontend
-        - backend
-        - engineering
-        - github
-        - open source
-        - cli
-        - tool
-        - framework
-        - library
-        - release
-        - startup
-        - product
-        - funding
-        - arxiv
-        - paper
-        - research
+        - multimodal
+        - inference
+        - alignment
+        - benchmark
+        - dataset
       subsections:
         - id: "frontier-ai"
           title: "前沿模型"
@@ -78,44 +62,229 @@ profile:
             - google ai
             - hugging face
             - agent
-        - id: "developer-tools"
-          title: "开发与工具"
-          title_en: "Developer Tools"
+            - inference
+        - id: "ai-products"
+          title: "AI 产品与平台"
+          title_en: "AI Products & Platforms"
           max_articles: 5
           keywords:
-            - developer
-            - programming
-            - javascript
-            - python
-            - database
-            - frontend
-            - backend
-            - engineering
-            - github
-            - open source
-            - cli
-            - tool
-            - framework
-            - library
-            - release
-        - id: "research-product"
-          title: "研究与产品"
-          title_en: "Research & Products"
-          max_articles: 5
-          keywords:
-            - startup
+            - chatgpt
+            - copilot
+            - gemini
+            - claude
+            - siri
             - product
-            - funding
+            - platform
+            - launch
+            - enterprise ai
+        - id: "ai-research-governance"
+          title: "研究与治理"
+          title_en: "Research & Governance"
+          max_articles: 5
+          keywords:
             - arxiv
             - paper
             - research
             - benchmark
             - dataset
+            - safety
+            - policy
+            - regulation
+            - privacy
+    - id: "developer"
+      title: "开发与编程"
+      title_en: "Development & Programming"
+      icon: "02"
+      max_articles: 12
+      keywords:
+        - developer
+        - programming
+        - coding
+        - software
+        - javascript
+        - typescript
+        - python
+        - rust
+        - go
+        - java
+        - database
+        - frontend
+        - backend
+        - engineering
+        - github
+        - open source
+        - cli
+        - tool
+        - framework
+        - library
+        - release
+        - linux
+        - kubernetes
+        - infrastructure
+      subsections:
+        - id: "languages-frameworks"
+          title: "语言与框架"
+          title_en: "Languages & Frameworks"
+          max_articles: 4
+          keywords:
+            - javascript
+            - typescript
+            - python
+            - rust
+            - go
+            - java
+            - framework
+            - library
+            - frontend
+            - backend
+        - id: "open-source-tools"
+          title: "开源与工具"
+          title_en: "Open Source & Tools"
+          max_articles: 4
+          keywords:
+            - github
+            - open source
+            - cli
+            - tool
+            - release
+            - package
+            - editor
+            - ide
+        - id: "infra-data"
+          title: "基础设施与数据"
+          title_en: "Infrastructure & Data"
+          max_articles: 4
+          keywords:
+            - database
+            - infrastructure
+            - cloud
+            - linux
+            - kubernetes
+            - server
+            - performance
+            - security
+            - data
+    - id: "science-tech"
+      title: "科技与科学"
+      title_en: "Science & Technology"
+      icon: "03"
+      max_articles: 12
+      keywords:
+        - science
+        - technology
+        - research
+        - chip
+        - semiconductor
+        - hardware
+        - robotics
+        - robot
+        - space
+        - nasa
+        - energy
+        - climate
+        - physics
+        - biology
+        - medicine
+        - health
+        - material
+        - fusion
+      subsections:
+        - id: "chips-hardware"
+          title: "芯片与硬件"
+          title_en: "Chips & Hardware"
+          max_articles: 4
+          keywords:
+            - chip
+            - semiconductor
+            - hardware
+            - device
+            - sensor
+            - compute
+        - id: "space-energy-robotics"
+          title: "航天能源与机器人"
+          title_en: "Space, Energy & Robotics"
+          max_articles: 4
+          keywords:
+            - space
+            - nasa
+            - satellite
+            - energy
+            - fusion
+            - climate
+            - robotics
+            - robot
+        - id: "science-research"
+          title: "科学研究"
+          title_en: "Scientific Research"
+          max_articles: 4
+          keywords:
+            - science
+            - research
+            - physics
+            - biology
+            - medicine
+            - health
+            - material
+            - study
+    - id: "startup-product"
+      title: "创业与产品"
+      title_en: "Startups & Products"
+      icon: "04"
+      max_articles: 10
+      keywords:
+        - startup
+        - founder
+        - product
+        - product hunt
+        - launch
+        - funding
+        - venture
+        - vc
+        - acquisition
+        - growth
+        - saas
+        - marketplace
+        - business model
+      subsections:
+        - id: "new-products"
+          title: "新产品与增长"
+          title_en: "New Products & Growth"
+          max_articles: 4
+          keywords:
+            - product
+            - product hunt
+            - launch
+            - growth
+            - users
+            - adoption
+        - id: "funding-ma"
+          title: "融资与并购"
+          title_en: "Funding & M&A"
+          max_articles: 3
+          keywords:
+            - funding
+            - venture
+            - vc
+            - acquisition
+            - merger
+            - ipo
+        - id: "startup-strategy"
+          title: "商业模式"
+          title_en: "Business Models"
+          max_articles: 3
+          keywords:
+            - founder
+            - startup
+            - strategy
+            - saas
+            - marketplace
+            - pricing
+            - business model
     - id: "world"
       title: "国际事务"
       title_en: "World Affairs"
-      icon: "02"
-      max_articles: 15
+      icon: "05"
+      max_articles: 12
       keywords:
         - world
         - international
@@ -166,11 +335,65 @@ profile:
             - migration
             - health
             - humanitarian
+    - id: "china"
+      title: "中国观察"
+      title_en: "China Watch"
+      icon: "06"
+      max_articles: 12
+      keywords:
+        - china
+        - chinese
+        - 中国
+        - 国内
+        - 时政
+        - 政策
+        - 监管
+        - 产业
+        - 地方
+        - 社会
+        - 法治
+        - 新华
+        - 中新
+      subsections:
+        - id: "china-policy"
+          title: "政策与监管"
+          title_en: "Policy & Regulation"
+          max_articles: 4
+          keywords:
+            - 政策
+            - 监管
+            - 时政
+            - 政府
+            - china policy
+            - regulation
+        - id: "china-industry-local"
+          title: "产业与地方"
+          title_en: "Industry & Local"
+          max_articles: 4
+          keywords:
+            - 产业
+            - 地方
+            - 科技
+            - 能源
+            - 制造
+            - local
+            - industry
+        - id: "china-society-law"
+          title: "社会与法治"
+          title_en: "Society & Law"
+          max_articles: 4
+          keywords:
+            - 社会
+            - 法治
+            - 教育
+            - 健康
+            - legal
+            - society
     - id: "finance"
       title: "财经理财"
       title_en: "Finance & Wealth"
-      icon: "03"
-      max_articles: 15
+      icon: "07"
+      max_articles: 12
       keywords:
         - market
         - markets
@@ -227,3 +450,55 @@ profile:
             - sec
             - regulation
             - business
+    - id: "opinion"
+      title: "观点与社论"
+      title_en: "Opinion & Analysis"
+      icon: "08"
+      max_articles: 10
+      keywords:
+        - opinion
+        - analysis
+        - essay
+        - editorial
+        - column
+        - commentary
+        - discussion
+        - debate
+        - hn
+        - hacker news
+        - blog
+        - strategy
+        - implications
+      subsections:
+        - id: "tech-opinion"
+          title: "技术观点"
+          title_en: "Technology Opinion"
+          max_articles: 4
+          keywords:
+            - technology
+            - ai
+            - software
+            - developer
+            - blog
+            - essay
+        - id: "business-society"
+          title: "商业与社会评论"
+          title_en: "Business & Society"
+          max_articles: 3
+          keywords:
+            - business
+            - economy
+            - society
+            - policy
+            - strategy
+            - analysis
+        - id: "community-discussion"
+          title: "社区讨论"
+          title_en: "Community Discussion"
+          max_articles: 3
+          keywords:
+            - hacker news
+            - hn
+            - discussion
+            - comments
+            - debate

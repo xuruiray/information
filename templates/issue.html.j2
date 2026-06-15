@@ -34,14 +34,60 @@
     </aside>
     {% endif %}
 
-    <section class="briefing-panel issue-briefing" aria-label="{{ issue.briefing_title }}">
-      <div class="lead-label">{{ issue.briefing_title }}</div>
-      <p>{{ issue.briefing_summary }}</p>
-      {% if issue.headline %}
-      <a class="headline-link" href="{{ issue.headline.url }}" target="_blank" rel="noopener">
-        {{ labels.headline }}: {{ issue.headline.title }}
-      </a>
-      {% endif %}
+    <section class="frontgrid dispatch-front" aria-label="{{ labels.front_page }}">
+      <div class="lead">
+        <div class="lead-label">{{ labels.front_lead }}</div>
+        {% if lead_articles %}
+        {% set lead = lead_articles[0] %}
+        <a class="lead-main" href="{{ lead.url }}" target="_blank" rel="noopener">
+          <span class="lt">{{ lead.title }}</span>
+          <p class="standfirst">{{ lead.summary }}</p>
+          <span class="by">{{ lead.source }}</span>
+        </a>
+        {% if lead_articles | length > 1 %}
+        <div class="lead-rest">
+          {% for article in lead_articles[1:] %}
+          <a class="hl" href="{{ article.url }}" target="_blank" rel="noopener">
+            <span class="t">{{ article.title }}</span>
+            <span class="s">{{ article.summary }}</span>
+            <span class="by">{{ article.source }}</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% else %}
+        <div class="briefing-panel">
+          <p>{{ issue.briefing_summary }}</p>
+        </div>
+        {% endif %}
+      </div>
+
+      <aside class="index front-index">
+        <h2>{{ labels.latest_editions }}</h2>
+        <div class="index-kicker">{{ labels.front_briefing }}</div>
+        <p class="index-note">{{ issue.briefing_summary }}</p>
+        <ul>
+          {% for link in section_links %}
+          <li>
+            <a href="{{ link.href }}">
+              <span>{{ link.section.display_title }}</span>
+              <span class="pg">{{ loop.index + 1 }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% if raw_href or sources_href %}
+        <div class="trace-links" aria-label="{{ labels.traceability }}">
+          <span>{{ labels.traceability }}</span>
+          {% if raw_href %}
+          <a href="{{ raw_href }}">{{ labels.raw_candidates }}</a>
+          {% endif %}
+          {% if sources_href %}
+          <a href="{{ sources_href }}">{{ labels.source_status }}</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </aside>
     </section>
 
     <nav class="edition-nav" aria-label="{{ labels.latest_editions }}">

@@ -26,6 +26,9 @@ class CompileError(RuntimeError):
     """Raised when the digest cannot be compiled."""
 
 
+MIN_SUBSECTION_ARTICLES = 3
+
+
 def compile_issue(
     config: AppConfig,
     articles: list[Article] | tuple[Article, ...],
@@ -100,14 +103,16 @@ def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: 
 
     headline = _compiled_article(scored[0][0], scored[0][2]) if scored else None
     sections: list[CompiledSection] = []
-    used_headline_url = headline.url if headline else None
+    used_urls = {_article_key_from_compiled(headline)} if headline else set()
     for section in config.sections:
+        subsection_items = _balanced_subsection_pairs(section, scored, used_urls)
         items = [
-            (article, score)
-            for article, item_section, score in scored
-            if item_section.id == section.id and article.url != used_headline_url
-        ][: section.max_articles]
-        subsections = _compiled_subsections_from_pairs(section, items)
+            pair
+            for subsection in _section_subsections(section)
+            for pair in subsection_items.get(subsection.id, [])
+        ]
+        used_urls.update(_article_key(article) for article, _ in items)
+        subsections = _compiled_subsections_from_grouped(section, subsection_items)
         sections.append(
             CompiledSection(
                 id=section.id,
@@ -207,7 +212,7 @@ def _compile_llm_overview(
                         "requirements": [
                             "只输出 briefing 和 headline 两个字段。",
                             "headline 必须从 candidates_by_section 中选择，url 必须完全一致。",
-                            "briefing.summary 要综合 AI 科技、国际事务、财经理财三类信息。",
+                            "briefing.summary 要综合所有配置版面，突出当天最重要的趋势、风险和阅读优先级。",
                             "中文字段必须是自然简体中文，不要直接复述英文原文。",
                         ],
                         "schema": {
@@ -553,6 +558,14 @@ def _issue_from_llm_data(
                 for item in subsection_results
             )
             subsection_results = list(subsection_results)
+        subsection_results, section_compiled = _ensure_compiled_subsection_minimums(
+            section,
+            subsection_results,
+            section_compiled,
+            used_urls,
+            ranked_by_section.get(section.id, []),
+            articles,
+        )
         sections.append(
             CompiledSection(
                 id=section.id,
@@ -719,6 +732,13 @@ def _compiled_subsections_from_pairs(
     grouped = {subsection.id: [] for subsection in _section_subsections(section)}
     for article, score in items:
         grouped[_best_subsection(section, article).id].append((article, score))
+    return _compiled_subsections_from_grouped(section, grouped)
+
+
+def _compiled_subsections_from_grouped(
+    section: SectionConfig,
+    grouped: dict[str, list[tuple[Article, float]]],
+) -> tuple[CompiledSubsection, ...]:
     return tuple(
         CompiledSubsection(
             id=subsection.id,
@@ -732,6 +752,168 @@ def _compiled_subsections_from_pairs(
         )
         for subsection in _section_subsections(section)
     )
+
+
+def _balanced_subsection_pairs(
+    section: SectionConfig,
+    scored: list[tuple[Article, SectionConfig, float]],
+    used_article_keys: set[str],
+) -> dict[str, list[tuple[Article, float]]]:
+    subsections = _section_subsections(section)
+    grouped: dict[str, list[tuple[Article, float]]] = {subsection.id: [] for subsection in subsections}
+    selected_keys: set[str] = set()
+    section_rows = [
+        (article, _score_article_for_section(section, article))
+        for article, item_section, _ in scored
+        if item_section.id == section.id
+    ]
+    if not section_rows:
+        return grouped
+
+    all_rows = [
+        (article, _score_article_for_section(section, article))
+        for article, _, _ in scored
+    ]
+    section_rows = _sorted_article_rows(section_rows)
+    all_rows = _sorted_article_rows(all_rows)
+
+    def can_add(article: Article, subsection: SubsectionConfig) -> bool:
+        key = _article_key(article)
+        return (
+            key not in used_article_keys
+            and key not in selected_keys
+            and len(grouped[subsection.id]) < subsection.max_articles
+        )
+
+    def add_to(subsection: SubsectionConfig, row: tuple[Article, float]) -> bool:
+        article, score = row
+        if not can_add(article, subsection):
+            return False
+        grouped[subsection.id].append((article, score))
+        selected_keys.add(_article_key(article))
+        return True
+
+    for subsection in subsections:
+        target = _minimum_for_subsection(subsection)
+        for rows, require_match in ((section_rows, True), (all_rows, True), (all_rows, False)):
+            if len(grouped[subsection.id]) >= target:
+                break
+            for row in rows:
+                if len(grouped[subsection.id]) >= target:
+                    break
+                if require_match and _best_subsection(section, row[0]).id != subsection.id:
+                    continue
+                add_to(subsection, row)
+
+    section_target = max(section.max_articles, sum(_minimum_for_subsection(item) for item in subsections))
+    for rows, allow_global in ((section_rows, False), (all_rows, True)):
+        if _grouped_count(grouped) >= section_target:
+            break
+        for row in rows:
+            if _grouped_count(grouped) >= section_target:
+                break
+            article = row[0]
+            if not allow_global and _best_section_id_from_scored(scored, article) != section.id:
+                continue
+            subsection = _best_subsection(section, article)
+            add_to(subsection, row)
+    return grouped
+
+
+def _minimum_for_subsection(subsection: SubsectionConfig) -> int:
+    return min(MIN_SUBSECTION_ARTICLES, subsection.max_articles)
+
+
+def _grouped_count(grouped: dict[str, list[tuple[Article, float]]]) -> int:
+    return sum(len(items) for items in grouped.values())
+
+
+def _sorted_article_rows(rows: list[tuple[Article, float]]) -> list[tuple[Article, float]]:
+    return sorted(
+        rows,
+        key=lambda row: (
+            row[1],
+            row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC")),
+        ),
+        reverse=True,
+    )
+
+
+def _best_section_id_from_scored(
+    scored: list[tuple[Article, SectionConfig, float]],
+    article: Article,
+) -> str:
+    key = _article_key(article)
+    for scored_article, section, _ in scored:
+        if _article_key(scored_article) == key:
+            return section.id
+    return ""
+
+
+def _ensure_compiled_subsection_minimums(
+    section: SectionConfig,
+    subsection_results: list[CompiledSubsection],
+    section_compiled: list[CompiledArticle],
+    used_article_keys: set[str],
+    section_rows: list[tuple[Article, float]],
+    articles: list[Article],
+) -> tuple[list[CompiledSubsection], list[CompiledArticle]]:
+    if not section_rows and not section_compiled:
+        return subsection_results, section_compiled
+
+    by_id = {subsection.id: subsection for subsection in subsection_results}
+    all_rows = _sorted_article_rows([
+        (article, _score_article_for_section(section, article))
+        for article in articles
+    ])
+    section_rows = _sorted_article_rows([
+        (article, _score_article_for_section(section, article))
+        for article, _ in section_rows
+    ])
+
+    def append_to(subsection: SubsectionConfig, row: tuple[Article, float]) -> bool:
+        article, score = row
+        key = _article_key(article)
+        if key in used_article_keys:
+            return False
+        current = by_id[subsection.id]
+        if len(current.articles) >= subsection.max_articles:
+            return False
+        compiled = _compiled_article(article, score)
+        by_id[subsection.id] = CompiledSubsection(
+            id=current.id,
+            title=current.title,
+            title_en=current.title_en,
+            articles=(*current.articles, compiled),
+            briefing_title=current.briefing_title,
+            briefing_summary=current.briefing_summary,
+            briefing_title_en=current.briefing_title_en,
+            briefing_summary_en=current.briefing_summary_en,
+        )
+        section_compiled.append(compiled)
+        used_article_keys.add(key)
+        return True
+
+    for subsection in _section_subsections(section):
+        target = _minimum_for_subsection(subsection)
+        for rows, require_match in ((section_rows, True), (all_rows, True), (all_rows, False)):
+            current = by_id.get(subsection.id)
+            if current is None or len(current.articles) >= target:
+                break
+            for row in rows:
+                current = by_id[subsection.id]
+                if len(current.articles) >= target:
+                    break
+                if require_match and _best_subsection(section, row[0]).id != subsection.id:
+                    continue
+                append_to(subsection, row)
+
+    ordered = []
+    for subsection in _section_subsections(section):
+        item = by_id.get(subsection.id)
+        if item is not None:
+            ordered.append(item)
+    return ordered, section_compiled
 
 
 def _compiled_from_mapping(value: object, allowed_by_url: dict[str, Article]) -> CompiledArticle | None:
@@ -768,18 +950,33 @@ def _compiled_from_mapping_checked(
 
 
 def _best_section(config: AppConfig, article: Article) -> tuple[SectionConfig, float]:
-    text = f"{article.title} {article.summary} {' '.join(article.keywords)}".lower()
     best = config.sections[0]
     best_score = -1.0
     for section in config.sections:
-        score = article.weight
-        if article.default_section == section.id:
-            score += 2.0
-        score += sum(1.0 for keyword in section.keywords if keyword and keyword in text)
+        score = _score_article_for_section(section, article)
         if score > best_score:
             best = section
             best_score = score
     return best, best_score
+
+
+def _score_article_for_section(section: SectionConfig, article: Article) -> float:
+    text = f"{article.title} {article.summary} {' '.join(article.keywords)}".lower()
+    score = article.weight
+    if article.default_section == section.id:
+        score += 2.0
+    score += sum(1.0 for keyword in section.keywords if keyword and keyword in text)
+    return score
+
+
+def _article_key(article: Article) -> str:
+    return article.url or article.id or normalize_space(article.title).lower()
+
+
+def _article_key_from_compiled(article: CompiledArticle | None) -> str:
+    if article is None:
+        return ""
+    return article.url or normalize_space(article.title).lower()
 
 
 def _compiled_article(article: Article, score: float) -> CompiledArticle:
@@ -820,6 +1017,11 @@ def _fallback_article_summary_zh(article: Article) -> str:
             f"这条财经线索来自{source}，主要涉及市场走势、资产定价或宏观预期变化，"
             "可作为观察风险偏好、利率环境和投资节奏的参考。"
         )
+    if topic == "中国观察":
+        return (
+            f"这条中国观察线索来自{source}，关注国内政策、产业变化或社会治理动态，"
+            "适合用来判断本土环境和公共议题的变化。"
+        )
     if topic == "国际事务":
         return (
             f"这条国际线索来自{source}，重点关注地缘安全、政府政策或全球社会动态，"
@@ -835,6 +1037,21 @@ def _fallback_article_summary_zh(article: Article) -> str:
             f"这条研究线索来自{source}，关注论文、基准或实验方法的新进展，"
             "可用于跟踪相关领域的技术演化。"
         )
+    if topic == "科技科学":
+        return (
+            f"这条科技科学线索来自{source}，关注芯片硬件、航天能源、生命科学或基础研究，"
+            "有助于从 AI 之外观察技术和科学进展。"
+        )
+    if topic == "创业产品":
+        return (
+            f"这条创业产品线索来自{source}，聚焦新产品、融资并购或增长策略，"
+            "适合观察早期市场机会和产品化趋势。"
+        )
+    if topic == "观点评论":
+        return (
+            f"这条观点线索来自{source}，更偏分析、讨论或长期判断，"
+            "适合放在事实新闻之后补充理解框架。"
+        )
     return (
         f"这条科技线索来自{source}，关注模型能力、产品落地或产业应用变化，"
         "适合快速把握今日技术方向。"
@@ -843,22 +1060,40 @@ def _fallback_article_summary_zh(article: Article) -> str:
 
 def _fallback_topic_label(article: Article) -> str:
     if article.default_section == "ai-tech":
-        return "AI 科技"
+        return "AI 与大模型"
+    if article.default_section == "developer":
+        return "开发工具"
+    if article.default_section == "science-tech":
+        return "科技科学"
+    if article.default_section == "startup-product":
+        return "创业产品"
     if article.default_section == "world":
         return "国际事务"
+    if article.default_section == "china":
+        return "中国观察"
     if article.default_section == "finance":
         return "财经市场"
+    if article.default_section == "opinion":
+        return "观点评论"
     text = f"{article.default_section} {article.title} {article.summary} {' '.join(article.keywords)}".lower()
     if any(keyword in text for keyword in ("llm", "openai", "anthropic", "model", "agent", "ai")):
-        return "AI 科技"
+        return "AI 与大模型"
     if any(keyword in text for keyword in ("developer", "github", "programming", "python", "javascript", "tool")):
         return "开发工具"
+    if any(keyword in text for keyword in ("science", "space", "nasa", "chip", "hardware", "robotics", "energy")):
+        return "科技科学"
+    if any(keyword in text for keyword in ("startup", "product", "funding", "venture", "founder", "growth")):
+        return "创业产品"
     if any(keyword in text for keyword in ("arxiv", "paper", "research", "benchmark")):
         return "研究进展"
+    if any(keyword in text for keyword in ("china", "中国", "国内", "时政", "政策", "社会", "法治")):
+        return "中国观察"
     if any(keyword in text for keyword in ("war", "geopolitics", "diplomacy", "security", "election", "government")):
         return "国际事务"
     if any(keyword in text for keyword in ("market", "stock", "bond", "fed", "inflation", "economy", "finance")):
         return "财经市场"
+    if any(keyword in text for keyword in ("opinion", "analysis", "essay", "editorial", "discussion", "hacker news")):
+        return "观点评论"
     return "新闻"
 
 
@@ -876,9 +1111,12 @@ def _source_label_zh(source_name: str) -> str:
         "Investing.com": "英为财情",
         "MarketWatch": "市场观察",
         "Meta Engineering": "Meta 工程",
+        "NASA Technology": "NASA 技术",
         "NPR World": "NPR 国际",
         "OpenAI News": "OpenAI 新闻",
         "Product Hunt": "Product Hunt",
+        "ScienceDaily Top Science": "ScienceDaily 科学",
+        "ScienceDaily Top Technology": "ScienceDaily 技术",
         "SEC Press Releases": "美国证交会新闻",
         "Simon Willison": "Simon Willison",
         "TechCrunch AI": "TechCrunch AI",
@@ -889,6 +1127,10 @@ def _source_label_zh(source_name: str) -> str:
         "arXiv cs.AI": "arXiv 人工智能",
         "arXiv cs.CL": "arXiv 计算语言学",
         "arXiv cs.LG": "arXiv 机器学习",
+        "中国新闻网时政": "中国新闻网时政",
+        "中国新闻网社会": "中国新闻网社会",
+        "新华网时政": "新华网时政",
+        "新华网科技": "新华网科技",
     }
     return labels.get(source_name, source_name)
 
@@ -901,8 +1143,15 @@ def _fallback_briefing(scored: list[tuple[Article, SectionConfig, float]]) -> st
         source = _source_label_zh(article.source_name)
         if source not in top_sources:
             top_sources.append(source)
+    top_sections = []
+    for _, section, _ in scored:
+        if section.title not in top_sections:
+            top_sections.append(section.title)
+        if len(top_sections) >= 4:
+            break
     return (
-        "今日本报汇总 AI 科技、国际事务与财经理财三类信息，帮助快速把握技术、外部环境和市场变化。"
+        f"今日本报汇总 {len({section.id for _, section, _ in scored})} 个版面的信息，"
+        f"重点覆盖{'、'.join(top_sections)}等方向，帮助快速把握技术、商业、公共议题和市场变化。"
         f" 本期共整理 {len(scored)} 条候选线索，主要来源包括：{'、'.join(top_sources)}。"
     )
 

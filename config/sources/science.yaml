@@ -1,0 +1,31 @@
+sources:
+  - id: "sciencedaily-science"
+    name: "ScienceDaily Top Science"
+    type: "rss"
+    enabled: true
+    url: "https://www.sciencedaily.com/rss/top/science.xml"
+    default_section: "science-tech"
+    weight: 0.85
+    category: "science-tech"
+    language: "en"
+    keywords: ["science", "research", "biology", "physics", "medicine", "health"]
+  - id: "sciencedaily-technology"
+    name: "ScienceDaily Top Technology"
+    type: "rss"
+    enabled: true
+    url: "https://www.sciencedaily.com/rss/top/technology.xml"
+    default_section: "science-tech"
+    weight: 0.8
+    category: "science-tech"
+    language: "en"
+    keywords: ["technology", "hardware", "robotics", "energy", "materials"]
+  - id: "nasa-technology"
+    name: "NASA Technology"
+    type: "rss"
+    enabled: true
+    url: "https://www.nasa.gov/technology/feed/"
+    default_section: "science-tech"
+    weight: 0.75
+    category: "science-tech"
+    language: "en"
+    keywords: ["nasa", "space", "satellite", "science", "technology"]
