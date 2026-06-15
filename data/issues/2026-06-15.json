@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-15",
+  "title": "信息日报 2026-06-15",
+  "title_en": "Information Daily 2026-06-15",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美伊达成停战协议，全球股市大涨、油价暴跌",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+    "source": "彭博市场",
+    "summary": "美伊宣布结束敌对状态并重开霍尔木兹海峡，投资者对能源供应担忧缓解，全球股市和债券反弹，原油跌至三个月低点。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stocks Rally With Bonds as Iran Deal Spurs Relief: Markets Wrap",
+    "summary_en": "After the US and Iran announced an end to hostilities and reopening of the Strait of Hormuz, global stocks and bonds rallied while oil fell to a three-month low as energy supply fears eased.",
+    "original_title": "Stocks Rally With Bonds as Iran Deal Spurs Relief: Markets Wrap",
+    "published_at": "2026-06-14T22:06:25+00:00",
+    "reason": "该事件同时涉及国际事务和财经理财两个大类，影响全球金融市场，是当日最具冲击力的新闻。",
+    "reason_en": "This event spans both World Affairs and Finance & Wealth categories, impacting global financial markets, making it the most impactful news of the day.",
+    "score": 9.0
+  },
+  "path": "papers/2026-06-15.html",
+  "raw_path": "raw/2026-06-15.html",
+  "raw_count": 166,
+  "source_count": 25,
+  "warnings": [
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap"
+  ]
+}
