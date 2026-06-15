@@ -26,14 +26,6 @@
       <a href="{% if lang == 'zh' %}{{ current_href }}{% else %}{{ alternate_href }}{% endif %}"{% if lang == 'zh' %} aria-current="page"{% endif %}>{{ labels.language_zh }}</a>
     </nav>
 
-    {% if issue.warnings %}
-    <aside class="notice">
-      {% for warning in issue.warnings %}
-      <p>{{ warning }}</p>
-      {% endfor %}
-    </aside>
-    {% endif %}
-
     <section class="frontgrid dispatch-front" aria-label="{{ labels.front_page }}">
       <div class="lead">
         <div class="lead-label">{{ labels.front_lead }}</div>

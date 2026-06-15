@@ -312,6 +312,8 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     config = load_config("ai-tech", root)
     monkeypatch.delenv(config.llm.api_key_env, raising=False)
     issue = compile_issue(config, _articles(), date(2026, 5, 29), allow_fallback=True)
+    hidden_warning = "internal duplicate URL diagnostic should stay out of reader pages"
+    issue = replace(issue, warnings=(hidden_warning, *issue.warnings))
 
     out_dir = tmp_path / "docs"
     render_issue(config, issue, out_dir, fetch_result=_fetch_result(issue, _articles()))
@@ -331,6 +333,8 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     en_dated_ai_page = out_dir / "en" / "papers" / "2026-05-29" / "ai-tech.html"
 
     assert "信息日报" in index
+    assert hidden_warning not in index
+    assert hidden_warning not in en_index
     assert "本期版面" in index
     assert "原始候选" in index
     assert "数据源状态" in index
@@ -350,6 +354,8 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     assert 'target="_blank" rel="noopener"' in index
     assert paper.exists()
     assert en_paper.exists()
+    assert hidden_warning not in paper.read_text(encoding="utf-8")
+    assert hidden_warning not in en_paper.read_text(encoding="utf-8")
     assert dated_ai_page.exists()
     assert en_dated_ai_page.exists()
     assert "往期信息日报" in archive
@@ -357,6 +363,7 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
     assert "OpenAI News" in sources
     assert "原始候选" in raw
     assert set(raw_json) == {"date", "profile_id", "generated_at", "sources", "articles", "warnings"}
+    assert hidden_warning in raw_json["warnings"]
     assert raw_json["articles"][0]["rank"] == 1
 
 
