@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-06-15</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20260615</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>June 15, 2026 · Monday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../sections/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">10 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Development &amp; Programming Briefing">
+      <div class="lead-label">Development &amp; Programming Briefing</div>
+      <p>This edition highlights key developments in languages and frameworks, including an argument that AI won&#39;t replace software engineers, SQLite column provenance mapping, Julia Evans&#39; writing advice, and Vercel&#39;s Blob store limit increase. In open source, Pyodide now allows direct WASM wheel publishing to PyPI, and Luau-Wasm 0.1a0 enables Lua in the browser.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks Briefing">
+          <div class="lead-label">Languages &amp; Frameworks Briefing</div>
+          <p>Discussions on AI vs. software engineers; SQLite query provenance research; Julia Evans&#39; one-person writing advice; Vercel increases Blob store limit to 100 for Hobby users.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noopener">
+            <span class="at">Why AI hasn’t replaced software engineers, and won’t</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Arvind Narayanan and Sayash Kappor argue that evidence rejects the narrative that AI will replace software engineers once capabilities reach a threshold, using software engineering as a profession uniquely suited to AI disruption.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/sqlite-column-provenance" target="_blank" rel="noopener">
+            <span class="at">Mapping SQLite result columns back to their source `table.column`</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison researches mapping SQL query result columns back to source tables and columns to enrich Datasette queries with provenance information for better data visualization.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/15/julia-evans" target="_blank" rel="noopener">
+            <span class="at">Quoting Julia Evans</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Julia Evans advises writers to envision a single specific person, such as &#39;me three years ago&#39; or a good friend, rather than a large audience—a technique embraced by many technical authors.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/increased-blob-store-limit-for-hobby-users" target="_blank" rel="noopener">
+            <span class="at">Increased Blob store limit for Hobby users</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel increases Hobby users&#39; Blob store limit from 5 to 100, offering more flexibility to organize data by project, environment, or region, while storage, operations, and transfer limits still apply.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools Briefing">
+          <div class="lead-label">Open Source &amp; Tools Briefing</div>
+          <p>Pyodide 314.0 enables direct WASM Python wheel publishing to PyPI, simplifying browser-based Python distribution; Luau-Wasm 0.1a0 released, bringing Lua to WebAssembly.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels" target="_blank" rel="noopener">
+            <span class="at">Publishing WASM wheels to PyPI for use with Pyodide</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Pyodide 314.0 announces a major update: developers can now publish Python packages built for Pyodide directly to PyPI and install them at runtime, eliminating the previous need for maintainer builds.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/luau-wasm" target="_blank" rel="noopener">
+            <span class="at">luau-wasm 0.1a0</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Initial release of Luau-Wasm 0.1a0, enabling Luau (a Lua derivative) to run in WebAssembly environments, compatible with Pyodide.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13940" target="_blank" rel="noopener">
+            <span class="at">Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">arXiv:2606.13940v1 Announce Type: new Abstract: Automated International Classification of Diseases (ICD) coding is a core medical-coding task for billing, epidemiology, and clinical decision support. Generative large...</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data Briefing">
+          <div class="lead-label">Infrastructure &amp; Data Briefing</div>
+          <p>There is not enough content to summarize Infrastructure &amp; Data.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+            <span class="at">UK and Japan agree £18bn investment deal</span>
+            <span class="by">BBC 国际</span>
+            <p class="as">Japanese firms will spend billions on UK infrastructure and offshore wind, Downing Street says.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13852" target="_blank" rel="noopener">
+            <span class="at">Hybrid Classical-Quantum Variational Autoencoder for Neural Topic Modeling</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">arXiv:2606.13852v1 Announce Type: new Abstract: Neural topic models enable scalable semantic discovery, but their integration with quantum hardware remains largely unexplored. We present a proof-of-concept hybrid clas...</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13753" target="_blank" rel="noopener">
+            <span class="at">The Weight Norm Sets the Grokking Timescale: A Causal Delay Law</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">arXiv:2606.13753v1 Announce Type: new Abstract: Grokking is the delayed onset of generalization in neural networks, arising long after they fit the training data. Whether the weight norm causes this delay is disputed:...</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../index.html">← Back to overview</a>
+      <a href="../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

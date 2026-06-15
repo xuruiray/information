@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-06-15</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20260615 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年6月15日 星期一</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../en/sections/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">10 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程总结">
+      <div class="lead-label">开发与编程总结</div>
+      <p>本版聚焦语言与框架最新进展，包括AI不会取代软件工程师的深入分析、SQLite列溯源研究、Julia Evans的写作建议以及Vercel Blob存储升级。开源方面，Pyodide支持WASM包直传PyPI，Luau-Wasm 0.1a0发布，为浏览器中运行Lua提供新途径。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架总结">
+          <div class="lead-label">语言与框架总结</div>
+          <p>探讨AI与软件工程的关系：AI无法取代工程师；SQLite查询增强新思路；Julia Evans建议为特定读者写作；Vercel提升Hobby用户Blob存储限制至100个。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noopener">
+            <span class="at">AI为何尚未、也不会取代软件工程师</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Arvind Narayanan与Sayash Kappor撰文指出，有足够证据反驳AI能力达到阈值后就会取代软件工程师的说法。文章以软件工程为例，阐述AI虽提升效率，但无法完全替代人类判断。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/sqlite-column-provenance" target="_blank" rel="noopener">
+            <span class="at">将SQLite结果列映射回源表列</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison探索如何为Datasette中的任意SQL查询添加列溯源信息，通过解析查询将结果列映射回原始表和列，为数据可视化提供更丰富的上下文。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/15/julia-evans" target="_blank" rel="noopener">
+            <span class="at">引用Julia Evans：为一个人写作</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Julia Evans分享写作建议：不要想象庞大读者群，而是锁定一个具体的人——比如三年前的自己或一位好友，只为TA写作。该方法被众多技术作者推崇。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/increased-blob-store-limit-for-hobby-users" target="_blank" rel="noopener">
+            <span class="at">Vercel为Hobby用户提升Blob存储限制</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel将Hobby用户的Blob存储实例上限从5个提升至100个，为项目、环境或区域的数据组织提供更大灵活性，但存储、操作和传输限制依然适用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具总结">
+          <div class="lead-label">开源与工具总结</div>
+          <p>Pyodide 314.0支持将WASM Python包直接发布至PyPI，简化浏览器端Python分发；Luau-Wasm 0.1a0发布，允许Lua代码在WebAssembly环境运行。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels" target="_blank" rel="noopener">
+            <span class="at">将WASM包发布到PyPI供Pyodide使用</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Pyodide 314.0发布重大更新：开发者可直接将为Pyodide编译的Python包上传到PyPI，并在运行时安装。此前需由维护者构建和分发，新流程大幅降低门槛。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Jun/13/luau-wasm" target="_blank" rel="noopener">
+            <span class="at">Luau-Wasm 0.1a0 发布</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Luau-Wasm 0.1a0初始版本发布，允许在WebAssembly环境中运行Luau（Lua的派生语言）。该版本可与Pyodide配合使用，详情参见WASM包发布文章。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13940" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：arXiv 计算语言学关注的关键线索</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">这条科技线索来自arXiv 计算语言学，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据总结">
+          <div class="lead-label">基础设施与数据总结</div>
+          <p>基础设施与数据暂无足够内容生成总结。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+            <span class="at">国际事务：BBC 国际关注的关键线索</span>
+            <span class="by">BBC 国际</span>
+            <p class="as">这条国际线索来自BBC 国际，重点关注地缘安全、政府政策或全球社会动态，有助于判断外部环境和区域风险的变化。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13852" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：arXiv 计算语言学关注的关键线索</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">这条科技线索来自arXiv 计算语言学，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13753" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：arXiv 机器学习关注的关键线索</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">这条科技线索来自arXiv 机器学习，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../index.html">← 返回总览</a>
+      <a href="../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

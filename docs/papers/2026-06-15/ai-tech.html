@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI 科技 · 信息日报 2026-06-15</title>
+<title>01 AI 与大模型 · 信息日报 2026-06-15</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -26,149 +26,154 @@
       <a href="ai-tech.html" aria-current="page">中文</a>
     </nav>
 
-    <nav class="edition-nav" aria-label="本期三版">
+    <nav class="edition-nav" aria-label="本期版面">
       <a href="../../index.html">总览</a>
-      <a href="ai-tech.html" aria-current="page">01 AI 科技</a>
-      <a href="world.html">02 国际事务</a>
-      <a href="finance.html">03 财经理财</a>
+      <a href="ai-tech.html" aria-current="page">01 AI 与大模型</a>
+      <a href="developer.html">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
     </nav>
 
     <header class="pagehead category-head">
-      <h2>01 AI 科技</h2>
+      <h2>01 AI 与大模型</h2>
       <span class="ed">15 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 科技版总结">
-      <div class="lead-label">AI 科技版总结</div>
-      <p>本期AI科技版聚焦前沿模型、开发工具与研究成果三大板块。前沿模型方面，移动端扩散LLM推理、美国政府限制Anthropic模型出口以及多智能体协调框架成为热点；开发工具子版关注后训练将LLM转化为医学编码器、WASM wheels发布至PyPI；研究成果涵盖文化对齐数据漏斗、电商高频定价及超维计算异常检测。整体反映AI在移动端、医疗、电商等领域的纵深应用与安全挑战。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型版总结">
+      <div class="lead-label">AI 与大模型版总结</div>
+      <p>今日前沿模型研究聚焦文化对齐、智能体编排与LLM评判可靠性，多项新方法提升模型事实枚举能力。研究治理方面，跨医院罕见病诊断、电商欺骗性界面下的代理安全与伊斯兰继承法推理等议题受到关注。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>前沿模型</h3>
-          <span>5 条</span>
+          <span>7 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型小结">
-          <div class="lead-label">前沿模型小结</div>
-          <p>前沿模型子版精选五项进展：移动端扩散LLM借助NPU实现高效推理；美国政府依据国家安全对Anthropic新模型实施出口管制；Orchestra-o1提出全模态智能体协调；混合开放端三进化框架增强深度研究能力；TwinBI将数字孪生与LLM结合优化商业智能交互。</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2606.13740" target="_blank" rel="noopener">
-            <span class="at">移动端NPU高效支持扩散LLM推理</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">扩散大语言模型(dLLM)通过并行去噪加速生成，适用于移动端延迟敏感场景。研究提出利用移动神经处理单元(NPU)的高吞吐量，实现高效端侧推理，降低计算负担。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access" target="_blank" rel="noopener">
-            <span class="at">美国政府指令暂停Anthropic新模型访问权限</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">美国政府以国家安全为由，指令Anthropic暂停外国国民对其新模型Fable 5和Mythos 5的访问，包括Anthropic内部外籍员工。此举引发对AI出口管制的广泛争议。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13707" target="_blank" rel="noopener">
-            <span class="at">Orchestra-o1：全模态智能体协调框架</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">提出全模态智能体协调框架Orchestra-o1，支持多智能体系统任务分解与协作，克服当前框架局限于狭窄领域的不足。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13710" target="_blank" rel="noopener">
-            <span class="at">混合开放端三进化框架打造更强深度研究者</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">该研究针对深度研究任务，提出开放端三进化框架，使智能体自主检索与整合信息，突破静态参数限制。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13731" target="_blank" rel="noopener">
-            <span class="at">TwinBI：数字孪生与LLM结合增强商业智能交互</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">将数字孪生与LLM助手结合，解决多步分析中仪表盘操作与自然语言查询不一致的问题，保持分析状态连贯。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-        </div>
-      </section>
-      <section class="subsection-block" id="developer-tools">
-        <header class="subsection-head">
-          <h3>开发与工具</h3>
-          <span>5 条</span>
-        </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开发与工具小结">
-          <div class="lead-label">开发与工具小结</div>
-          <p>开发与工具子版涵盖：后训练使LLM胜任ICD医学编码任务；Pyodide 314.0支持WASM wheels直接发布至PyPI；评估LLM城市模拟中人类移动性真实度；分析数据湖环境下QA智能体的关键因素；提出潜在多智能体通信框架用于跨医院罕见病诊断。</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2606.13940" target="_blank" rel="noopener">
-            <span class="at">后训练能否让LLM成为优秀医学编码器？</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">以往认为LLM在ICD编码任务中表现弱，但该研究发现通过后训练，LLM可大幅提升自动编码性能，挑战仅靠推理时提示的局限性。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels" target="_blank" rel="noopener">
-            <span class="at">Pyodide 314.0 支持在PyPI发布WASM wheels</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Pyodide 314.0发布，允许开发者将面向Pyodide的Python包直接编译为WASM wheels并发布至PyPI，运行时自动安装，简化WebAssembly生态。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13835" target="_blank" rel="noopener">
-            <span class="at">LLM城市模拟中人类移动性的真实度评估</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">提出验证框架评估LLM生成智能体在城市模拟中产生的移动模式是否真实，发现虽然看起来很合理，但未必反映真实人类行为。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13904" target="_blank" rel="noopener">
-            <span class="at">SANA：数据湖问答智能体的关键因素</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究分析数据湖上探索式问答智能体的性能瓶颈，发现搜索、规划、数据分析及行动策略各自的影响，提出改进方向。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13945" target="_blank" rel="noopener">
-            <span class="at">MedLatentDx：潜在多智能体通信实现跨医院罕见病诊断</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">利用潜在空间多智能体通信，使不同医院能够在不共享敏感数据的情况下协作诊断罕见病，缓解病例稀疏问题。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-        </div>
-      </section>
-      <section class="subsection-block" id="research-product">
-        <header class="subsection-head">
-          <h3>研究与产品</h3>
-          <span>5 条</span>
-        </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与产品小结">
-          <div class="lead-label">研究与产品小结</div>
-          <p>研究与产品子版关注：文化对齐中的数据漏斗问题，强调训练数据中文化信息缺失是关键；电商场景下的高频定价算法工具；基于用户画像的对话系统规划框架；伊斯兰继承推理共享任务概览；超维计算混合异常检测模型。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型版总结">
+          <div class="lead-label">前沿模型版总结</div>
+          <p>多项前沿模型研究发布：文化数据漏斗理论揭示对齐阶段不足，全模态智能体编排框架Orchestra-o1提出新范式，LLM评判可靠性受质疑，单神经元编辑可修复重复循环，工作智能体基准两年间性能翻倍。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://arxiv.org/abs/2606.13808" target="_blank" rel="noopener">
-            <span class="at">文化漏斗：数据中缺失的文化无法对齐</span>
+            <span class="at">文化漏斗：不在数据中的无法对齐</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究指出现有文化对齐方法依赖推理时干预，但模型本身缺乏足够文化知识。提出多维标签框架分析预训练、微调、对齐、推理各阶段的数据文化漏斗。</p>
+            <p class="as">论文提出现代LLM管线存在文化数据漏斗问题，指出现有文化对齐方法忽略预训练、微调等阶段的数据缺陷，主张在整个训练流程中嵌入文化标签框架。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13741" target="_blank" rel="noopener">
-            <span class="at">大规模电商高频定价算法工具</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">提出一种先预测后优化的定价工具，专门针对时尚电商促销活动，处理需求波动、快速定价决策与库存平衡等挑战。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2606.13683" target="_blank" rel="noopener">
-            <span class="at">UP-NRPA：基于用户画像的对话系统规划框架</span>
+          <a class="art" href="https://arxiv.org/abs/2606.13707" target="_blank" rel="noopener">
+            <span class="at">Orchestra-o1：全模态智能体编排框架</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">提出一种结合用户画像的嵌套展开策略自适应框架，使对话系统动态适应不同用户特征，提升目标导向对话的规划效果。</p>
+            <p class="as">提出Orchestra-o1，一种全模态智能体编排框架，支持多模态任务分解与协作，超越现有单一模态编排限制。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13685" target="_blank" rel="noopener">
+            <span class="at">掷硬币的裁判？LLM评判的可靠性与偏差</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究LLM-as-a-Judge的逐次可靠性，发现GPT-4o-mini和GPT-4.1-mini在29个任务中重复评估结果差异显著，质疑当前排行榜的可信度。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13705" target="_blank" rel="noopener">
+            <span class="at">编辑一个神经元能否修复LLM的重复循环？</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">研究发现仅编辑Gemma 4模型中的一个神经元即可修复长序列枚举时的重复循环问题，但无法根治深层“厄运循环”。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13715" target="_blank" rel="noopener">
+            <span class="at">工作智能体两年回顾：WorkBench再探</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">对比2024年GPT-4与2026年Claude Opus 4.8在WorkBench上的表现，任务完成率从43%提升至89%，有害行为从26%降至更低。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13731" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：arXiv 人工智能关注的关键线索</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">这条科技线索来自arXiv 人工智能，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/introducing-openai-partner-network" target="_blank" rel="noopener">
+            <span class="at">AI 与大模型：OpenAI 新闻关注的关键线索</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">这条科技线索来自OpenAI 新闻，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI 产品与平台</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台版总结">
+          <div class="lead-label">AI 产品与平台版总结</div>
+          <p>今日无重大AI产品发布。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://www.producthunt.com/products/kickbacks-ai" target="_blank" rel="noopener">
+            <span class="at">创业产品：Product Hunt关注的关键线索</span>
+            <span class="by">Product Hunt</span>
+            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://www.producthunt.com/products/agentbrush" target="_blank" rel="noopener">
+            <span class="at">创业产品：Product Hunt关注的关键线索</span>
+            <span class="by">Product Hunt</span>
+            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://www.producthunt.com/products/fonda" target="_blank" rel="noopener">
+            <span class="at">创业产品：Product Hunt关注的关键线索</span>
+            <span class="by">Product Hunt</span>
+            <p class="as">这条创业产品线索来自Product Hunt，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>研究与治理</h3>
+          <span>5 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理版总结">
+          <div class="lead-label">研究与治理版总结</div>
+          <p>研究方面涉及跨医院罕见病诊断多智能体系统、电商环境下的网络代理安全基准、伊斯兰继承法推理评测，以及超维计算在异常检测中的应用。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2606.13945" target="_blank" rel="noopener">
+            <span class="at">MedLatentDx：用于跨医院罕见病诊断的潜在多智能体通信</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">提出跨医院罕见病诊断的潜在多智能体通信框架，在保护隐私的前提下整合分散病例证据，提升诊断准确率。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13686" target="_blank" rel="noopener">
+            <span class="at">电商欺骗性界面下网络代理安全基准</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">引入WebDecept框架，在电商领域测试网络代理面对欺骗性界面时的安全表现，发现代理易受误导。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13756" target="_blank" rel="noopener">
-            <span class="at">QIAS 2026：伊斯兰继承推理共享任务概览</span>
+            <span class="at">QIAS 2026：伊斯兰继承推理共享任务概述</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">介绍QIAS 2026共享任务，评估大语言模型在伊斯兰继承法领域的复杂推理能力，涉及法律解释与多步计算。</p>
+            <p class="as">评估LLM在伊斯兰继承法领域复杂推理能力的共享任务，揭示模型在宗教法律推理上的不足。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2606.13754" target="_blank" rel="noopener">
             <span class="at">D2H-AD：基于超维计算的混合异常检测模型</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">针对传统异常检测依赖大量标签数据的问题，提出一种结合超维计算的混合模型，在医疗、网络安全等领域实现高效检测。</p>
+            <p class="as">提出混合超维计算模型，无需大量标注数据即可实现高效异常检测，适用于医疗、网络安全等领域。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2606.13682" target="_blank" rel="noopener">
+            <span class="at">基于深度强化学习的Transformer方法求解开放车间调度问题</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">提出DRL-Transformer混合方法解决开放车间调度问题，在多个基准集上超越传统元启发式算法。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
