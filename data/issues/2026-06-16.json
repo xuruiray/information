@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-16",
+  "title": "信息日报 2026-06-16",
+  "title_en": "Information Daily 2026-06-16",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "“订书钉”状颗粒材料可快速变强或变弱，有望用于可回收建筑",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260615033849.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "科学家发现，订书钉形状的颗粒能缠结形成既强且韧的材料。不同于传统材料，这些颗粒可通过振动锁定成坚固结构或快速解开。这一特性有望用于可回收建筑、可重构结构等。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Staple-shaped particles can become strong or fall apart in seconds, pointing to recyclable buildings",
+    "summary_en": "Scientists have found that staple-shaped particles can tangle together to create a material that is both strong and flexible. Unlike conventional materials, these particles can be locked into a sturdy structure or rapidly unraveled using vibrations, with potential applications in recyclable buildings and reconfigurable structures.",
+    "original_title": "This strange material can become strong or fall apart in seconds",
+    "published_at": "2026-06-15T07:54:43-04:00",
+    "reason": "该发现代表材料科学重大突破，评分最高（10.85），且具有广泛的应用前景和新闻价值。",
+    "reason_en": "This discovery represents a major material science breakthrough with the highest score (10.85) and broad application potential and news value.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-16.html",
+  "raw_path": "raw/2026-06-16.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260615033849.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
+    "LLM subsection world/geopolitics ignored item: unknown URL: https://www.bbc.com/news/articles/cj4gnqw8j52o",
+    "LLM subsection world/government-policy ignored item: unknown URL: https://www.aljazeera.com/news/2026/6/16/south-sudans-jonglei-who-burned-homes-and-silenced-hospitals",
+    "LLM subsection world/government-policy ignored item: unknown URL: https://www.aljazeera.com/video/newsfeed/2026/6/16/ukraine-starts-negotiations-to-join-eu",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/environment/2026/jun/16/half-of-worlds-children-exposed-to-at-least-three-climate-hazards-unicef-says",
+    "LLM subsection world/global-society ignored item: unknown URL: https://www.aljazeera.com/sports/2026/6/16/iran-draw-2-2-with-new-zealand-in-politically-charged-world-cup-match",
+    "LLM subsection world/global-society ignored item: unknown URL: https://www.aljazeera.com/sports/2026/6/16/who-is-vozinha-cape-verdes-viral-goalkeeper-at-the-world-cup",
+    "LLM subsection world/global-society ignored item: unknown URL: https://www.aljazeera.com/sports/2026/6/16/saudi-arabia-draw-1-1-against-uruguay-in-world-cup-opening",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM output missed subsection opinion/tech-opinion; filled with ranked candidates.",
+    "LLM output missed subsection opinion/business-society; filled with ranked candidates.",
+    "Source huggingface-blog returned HTTP 429"
+  ]
+}
