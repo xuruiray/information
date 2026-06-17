@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-17",
+  "title": "信息日报 2026-06-17",
+  "title_en": "Information Daily 2026-06-17",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "研究人员：你的大脑从未为如此多的坏消息而设计",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "人类进化出关注危险的本能，但如今被全球无尽坏消息淹没。研究者建议不是停止关注新闻，而是建立更健康的信息摄入习惯。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "Your brain was never designed for this much bad news",
+    "summary_en": "Humans evolved to pay close attention to danger, but today that instinct is overwhelmed by an endless supply of bad news worldwide. Researchers say the answer isn't to stop following current events—it's to build healthier habits around how, when, and where we get our news.",
+    "original_title": "Your brain was never designed for this much bad news",
+    "published_at": "2026-06-16T03:32:55-04:00",
+    "reason": "该报道以神经科学视角切入当代信息困境，兼具科学价值与社会共鸣，且ScienceDaily为权威科学媒体，适合作为今日头条引发读者思考。",
+    "reason_en": "This story offers a neuroscientific perspective on modern information overload, combining scientific validity with social relevance. As a feature from a reputable science outlet, it serves as a thought-provoking lead for the day.",
+    "score": 10.8
+  },
+  "path": "papers/2026-06-17.html",
+  "raw_path": "raw/2026-06-17.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-17/china-s-regulator-to-support-launch-of-active-etf-products",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-17/pboc-announces-tool-to-boost-yuan-usage-by-foreign-central-banks",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-17/ecb-officials-say-peace-in-iran-isn-t-enough-to-fix-energy-shock",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-17/bok-warns-ai-driven-bonus-windfalls-may-stoke-broader-inflation",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless"
+  ]
+}
