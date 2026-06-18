@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-18",
+  "title": "信息日报 2026-06-18",
+  "title_en": "Information Daily 2026-06-18",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GLM-5.2：全球最强纯文本开源大模型发布",
+    "url": "https://simonwillison.net/2026/Jun/17/glm-52",
+    "source": "Simon Willison",
+    "summary": "中国AI实验室Z.ai于6月16日发布GLM-5.2，参数规模753B，采用混合专家架构（MoE），激活参数40B，模型权重1.51TB，以MIT许可完全开源。该模型仅支持文本输入，在多项基准测试中表现优异，被认为是当前最强大的纯文本开源大模型。",
+    "source_en": "Simon Willison",
+    "title_en": "GLM-5.2: Most powerful text-only open weights LLM released",
+    "summary_en": "Chinese AI lab Z.ai released GLM-5.2 on June 16, a 753B-parameter Mixture-of-Experts model with 40B active parameters and 1.51TB weights, under MIT license. Text-only input, it is considered the most powerful open weights LLM for text tasks.",
+    "original_title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+    "published_at": "2026-06-17T23:58:39+00:00",
+    "reason": "GLM-5.2的发布标志着开源大模型领域的重大突破，其规模与性能均达到新高度，对全球AI研究与开发具有深远影响。",
+    "reason_en": "GLM-5.2's release marks a breakthrough in open-source LLMs, with unprecedented scale and performance, significantly impacting global AI research and development.",
+    "score": 11.1
+  },
+  "path": "papers/2026-06-18.html",
+  "raw_path": "raw/2026-06-18.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jun/17/glm-52",
+    "LLM output missed subsection developer/infra-data; filled with ranked candidates.",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-18/weride-to-accelerate-european-expansion-video",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-18/europe-tries-to-take-on-china-without-launching-a-new-trade-war",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-18/india-in-talks-with-world-bank-adb-for-2-5-billion-infrastructure-funding",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct"
+  ]
+}
