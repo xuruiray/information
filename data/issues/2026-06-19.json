@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-19",
+  "title": "信息日报 2026-06-19",
+  "title_en": "Information Daily 2026-06-19",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "黑洞风可能正在剥夺巨大星系的未来恒星",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "天文学家利用NASA和JAXA支持的XRISM观测星系NGC 4151，发现超大质量黑洞能释放强大风暴，吹散形成恒星所需的气体，这可能解释为何宇宙中一些最大星系的恒星数量远少于预期。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Black hole winds may be robbing giant galaxies of their future stars",
+    "summary_en": "Using XRISM observations of galaxy NGC 4151, astronomers found strong evidence that supermassive black holes unleash powerful winds that blow away the raw material needed for star formation, potentially explaining why some of the universe's largest galaxies have far fewer stars than expected.",
+    "original_title": "Black hole winds may be robbing giant galaxies of their future stars",
+    "published_at": "2026-06-19T00:26:43-04:00",
+    "reason": "这一发现解决了长期存在的天体物理学谜题，具有重大科学意义，且观测证据明确，是当天最具影响力的科学突破。",
+    "reason_en": "This discovery solves a long-standing astrophysical puzzle with significant scientific implications and clear observational evidence, making it the most impactful scientific breakthrough of the day.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-19.html",
+  "raw_path": "raw/2026-06-19.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://tester.army",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/us-news/2026/jun/18/cdc-emergency-ebola-funding",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-19/indian-software-stocks-tumble-after-accenture-warns-on-growth",
+    "LLM subsection finance/wealth-regulation ignored item: unknown URL: https://www.bloomberg.com/news/articles/2026-06-18/former-obama-diplomat-us-iran-deal-favors-tehran-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth"
+  ]
+}
