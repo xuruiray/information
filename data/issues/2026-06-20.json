@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-20",
+  "title": "信息日报 2026-06-20",
+  "title_en": "Information Daily 2026-06-20",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "黑洞强风或正掠夺巨型星系的恒星未来",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "天文学家利用XRISM卫星对NGC 4151星系观测发现，超大质量黑洞能释放强大风暴，吹散星系中的恒星形成原料，或可解释宇宙中一些最大星系恒星数量远少于预期之谜。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Black hole winds may be robbing giant galaxies of their future stars",
+    "summary_en": "Using XRISM observations of galaxy NGC 4151, astronomers found strong evidence that supermassive black holes unleash powerful winds that blow away the raw material needed for star formation, potentially explaining why some of the universe's largest galaxies have far fewer stars than expected.",
+    "original_title": "Black hole winds may be robbing giant galaxies of their future stars",
+    "published_at": "2026-06-19T00:26:43-04:00",
+    "reason": "该发现直接回应长期宇宙学谜题，且观察手段新颖，具备高科学价值与公众关注度。",
+    "reason_en": "This finding directly addresses a long-standing cosmic mystery, uses innovative observation techniques, and carries high scientific significance and public interest.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-20.html",
+  "raw_path": "raw/2026-06-20.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM output missed subsection developer/infra-data; filled with ranked candidates.",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260619020510.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/midjourney",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/just-f-ing-send-it",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/blazly-backlinker",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film"
+  ]
+}
