@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-21",
+  "title": "信息日报 2026-06-21",
+  "title_en": "Information Daily 2026-06-21",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "黑洞风可能正夺走巨型星系的未来恒星",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "天文学家利用XRISM观测NGC 4151星系，发现超大质量黑洞能释放强风，吹走恒星形成所需的原料，从而解释为何宇宙中一些最大星系的恒星数量远低于预期。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Black hole winds may be robbing giant galaxies of their future stars",
+    "summary_en": "Using XRISM observations of galaxy NGC 4151, astronomers found strong evidence that supermassive black holes unleash powerful winds that blow away raw material needed for star formation, potentially solving the mystery of why giant galaxies have fewer stars than expected.",
+    "original_title": "Black hole winds may be robbing giant galaxies of their future stars",
+    "published_at": "2026-06-19T00:26:43-04:00",
+    "reason": "该发现解决了长期存在的宇宙谜题，研究影响深远，是今日最具突破性的科学新闻。",
+    "reason_en": "This discovery addresses a long-standing cosmic mystery with far-reaching implications, making it the most groundbreaking science story of the day.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-21.html",
+  "raw_path": "raw/2026-06-21.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260619020510.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260618041508.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/gitsync-for-macos",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/basedash",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/pixlie",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-21/a-stock-trader-s-guide-to-navigating-a-rare-super-el-nino",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/social-security-is-looking-at-a-500-a-month-cut-could-a-new-bipartisan-commission-make-a-difference-5e9d358a?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-20/iran-sanctions-losing-efficacy-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://startupwiki.tech/",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works"
+  ]
+}
