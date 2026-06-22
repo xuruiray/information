@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-22",
+  "title": "信息日报 2026-06-22",
+  "title_en": "Information Daily 2026-06-22",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "科学家发现神经元需断裂DNA才能构建大脑",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "新生神经元在发育大脑中迁移时，需挤压通过极窄空间，这一物理过程会造成最严重的DNA双链断裂。然而，幼年大脑进化出惊人的修复能力，几乎无差错地修复损伤。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Scientists discover neurons must break their DNA to build the brain",
+    "summary_en": "As newborn neurons migrate through the developing brain, they must squeeze through incredibly tight spaces, causing double-strand DNA breaks. Yet the young brain repairs this damage almost error-free, revealing a fundamental mechanism of brain development.",
+    "original_title": "Scientists discover neurons must break their DNA to build the brain",
+    "published_at": "2026-06-21T02:30:35-04:00",
+    "reason": "这一发现颠覆了神经科学的基础认知，解释了大脑发育中的核心机制，具有重大科学价值和广泛影响力，是今天最具突破性的新闻。",
+    "reason_en": "This discovery overturns fundamental understanding of neuroscience, explaining a core mechanism of brain development, with profound scientific significance and broad impact, making it the most groundbreaking story today.",
+    "score": 9.85
+  },
+  "path": "papers/2026-06-22.html",
+  "raw_path": "raw/2026-06-22.html",
+  "raw_count": 166,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260621060305.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260621110957.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/notchkin",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/cloudback",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/agent-37-38",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-22/alhasan-iran-has-held-the-gulf-states-hormuz-hostage-video",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.theguardian.com/news/2026/jun/19/global-framework-reparations-justice-adopted-at-landmark-conference-in-accra-ghana",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-21/bond-traders-burned-by-fed-s-pivot-look-to-prices-gauge-oil",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-22/chinese-ai-stocks-rally-on-demand-optimism-and-policy-support",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-22/s-korea-s-early-exports-jump-again-as-ai-boom-fuels-chip-demand",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/we-own-our-home-outright-i-am-67-and-earn-100-000-do-i-take-my-30-000-social-security-now-or-wait-bbe1e123?mod=mw_rss_topstories",
+    "Source hn-frontpage returned HTTP 502"
+  ]
+}
