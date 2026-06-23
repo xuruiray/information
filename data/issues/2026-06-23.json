@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-23",
+  "title": "信息日报 2026-06-23",
+  "title_en": "Information Daily 2026-06-23",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 启动“Patch the Planet”计划，助力开源社区修复漏洞",
+    "url": "https://openai.com/index/patch-the-planet",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI 推出“Patch the Planet”计划，作为 Daybreak 项目的一部分，利用 AI 和专家审核帮助开源维护者发现、验证并修复漏洞。此举旨在应对开源软件日益严峻的安全挑战。",
+    "source_en": "OpenAI News",
+    "title_en": "OpenAI launches 'Patch the Planet' initiative to help find and patch open-source bugs",
+    "summary_en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review, addressing growing security challenges in open-source software.",
+    "original_title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "published_at": "2026-06-22T10:00:00+00:00",
+    "reason": "该计划标志着 AI 安全从模型层延伸至开源生态，具有广泛影响；结合三星部署 ChatGPT 等新闻，凸显 AI 企业级应用与安全并进趋势。",
+    "reason_en": "This initiative marks a significant extension of AI security into the open-source ecosystem, with broad implications; combined with Samsung's ChatGPT deployment, it highlights the dual trend of enterprise AI adoption and security.",
+    "score": 7.2
+  },
+  "path": "papers/2026-06-23.html",
+  "raw_path": "raw/2026-06-23.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/patch-the-planet",
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion",
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260621060305.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/md-html-reader",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/algofly-ai",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://oak.space/oak/oak",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes"
+  ]
+}
