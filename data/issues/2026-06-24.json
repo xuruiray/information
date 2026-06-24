@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-24",
+  "title": "信息日报 2026-06-24",
+  "title_en": "Information Daily 2026-06-24",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "NASA冷原子实验室在国际空间站创造最奇特物质形态",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260622091507.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "升级后的NASA冷原子实验室将国际空间站变成量子研究前沿，创造超低温物质，行为令人惊奇。实验有望揭示宇宙新发现，并为未来地球与太空强大技术铺路。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "NASA’s Cold Atom Lab is creating one of the weirdest forms of matter in space",
+    "summary_en": "NASA’s upgraded Cold Atom Lab is turning the International Space Station into a frontier for quantum research, creating ultracold matter that behaves in astonishing ways. The experiments could unlock new discoveries about the universe while paving the way for powerful future technologies in space and on Earth.",
+    "original_title": "NASA’s Cold Atom Lab is creating one of the weirdest forms of matter in space",
+    "published_at": "2026-06-23T00:45:34-04:00",
+    "reason": "该科学突破具有极高新闻价值和广泛吸引力，展示了太空量子研究的前沿进展，且评分最高，适合作为今日头条。",
+    "reason_en": "This scientific breakthrough has high news value and broad appeal, showcasing cutting-edge quantum research in space, and has the highest score among all candidates, making it the lead story.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-24.html",
+  "raw_path": "raw/2026-06-24.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260622091507.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/hotkeyclash",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/steam-machine",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/sipcode",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-24/korean-stocks-rebound-after-10-rout-as-focus-back-on-earnings"
+  ]
+}
