@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-25",
+  "title": "信息日报 2026-06-25",
+  "title_en": "Information Daily 2026-06-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 与博通联合发布 LLM 推理优化芯片",
+    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI 与博通推出名为 Jalapeño 的定制 AI 芯片，专为大语言模型推理设计，旨在提升性能、效率与规模化能力。",
+    "source_en": "OpenAI News",
+    "title_en": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "summary_en": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+    "original_title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "published_at": "2026-06-24T06:00:00+00:00",
+    "reason": "这是当天最重大的 AI 硬件新闻，直接影响大模型推理成本与部署，对行业具有深远影响。",
+    "reason_en": "This is the most significant AI hardware news of the day, directly impacting LLM inference costs and deployment, with far-reaching industry implications.",
+    "score": 9.2
+  },
+  "path": "papers/2026-06-25.html",
+  "raw_path": "raw/2026-06-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/swimio",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.theguardian.com/world/2026/jun/24/colombia-presidential-election-abelardo-de-la-espriella",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-25/japan-s-20-year-bond-sale-sees-weakest-demand-in-over-a-year",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-24/bank-of-canada-rejects-recession-label-for-economy-s-weakness",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-25/boj-sees-ai-export-boom-cushioning-economy-from-oil-price-shock",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://blogs.nvidia.com/blog/liquid-cooling-ai-factories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.interceptfund.com/p/ending-respiratory-infections",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious"
+  ]
+}
