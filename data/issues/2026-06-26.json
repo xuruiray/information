@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-26",
+  "title": "信息日报 2026-06-26",
+  "title_en": "Information Daily 2026-06-26",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美国、古巴、伊朗等多国联手救援委内瑞拉地震灾情",
+    "url": "https://www.theguardian.com/global-development/2026/jun/25/us-cuba-iran-global-rescue-effort-venezuela-earthquakes",
+    "source": "卫报国际",
+    "summary": "委内瑞拉北部海岸遭受几乎同时发生的两次地震袭击，至少235人死亡，数千人恐遇难。美国、古巴、伊朗等多国均派救援队参与搜救。此次援助体现了罕见的地缘政治合作，也凸显了人道主义危机下的全球团结。",
+    "source_en": "The Guardian World",
+    "title_en": "US, Cuba and Iran join global rescue effort after Venezuela earthquakes",
+    "summary_en": "Two almost simultaneous earthquakes struck Venezuela's northern coast, killing at least 235 people with thousands more feared dead. The US, Cuba, Iran, and other nations have sent rescue teams for search and recovery. The aid effort represents rare geopolitical cooperation and highlights global solidarity amid a humanitarian crisis.",
+    "original_title": "US, Cuba and Iran join global rescue effort after Venezuela earthquakes",
+    "published_at": "2026-06-25T15:55:02+00:00",
+    "reason": "委内瑞拉双震灾造成重大伤亡，多国突破政治分歧联手救援，是当日最重大的国际事件，同时折射出能源通道安全等深层问题，影响全球关注。",
+    "reason_en": "The twin earthquakes in Venezuela caused massive casualties and triggered a multinational rescue effort that bridged political divides, making it the day's most significant international event with implications for energy corridor security and global attention.",
+    "score": 4.9
+  },
+  "path": "papers/2026-06-26.html",
+  "raw_path": "raw/2026-06-26.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://vercel.com/blog/ai-sdk-7",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://vercel.com/changelog/ai-sdk-7",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/global-development/2026/jun/25/us-cuba-iran-global-rescue-effort-venezuela-earthquakes",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-25/bank-of-canada-urged-to-use-fewer-core-gauges-focus-on-headline-inflation",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-26/lingyi-itech-rises-in-hong-kong-debut-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/inkeep/open-knowledge",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://expression.fire.org/p/the-papers-please-era-of-the-internet"
+  ]
+}
