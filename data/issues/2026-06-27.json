@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-27",
+  "title": "信息日报 2026-06-27",
+  "title_en": "Information Daily 2026-06-27",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI预览GPT-5.6 Sol：新一代模型亮相",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI预览GPT-5.6 Sol，一款在编程、科学和网络安全方面能力更强的新型模型，并配备了其最先进的安全栈。",
+    "source_en": "OpenAI News",
+    "title_en": "Previewing GPT-5.6 Sol: a next-generation model",
+    "summary_en": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+    "original_title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "published_at": "2026-06-26T10:00:00+00:00",
+    "reason": "OpenAI发布下一代模型，标志着AI能力新高度，同时伴随政府监管新动向，影响深远。",
+    "reason_en": "OpenAI's release of a next-generation model marks a new height in AI capability, accompanied by emerging government oversight, making it the day's most impactful story.",
+    "score": 7.2
+  },
+  "path": "papers/2026-06-27.html",
+  "raw_path": "raw/2026-06-27.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/previewing-gpt-5-6-sol",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/basedash",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/cewsco",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories",
+    "LLM subsection finance/markets-assets ignored item: unknown URL: https://www.marketwatch.com/story/healthcare-stocks-have-been-a-haven-for-investors-ditching-tech-81c544d0?mod=mw_rss_topstories",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-26/beyond-chips-imf-sees-ai-wealth-boom-adding-to-inflation-risks",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-26/wall-street-week-north-american-trade-showdown-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/tech-stocks-just-had-one-of-their-worst-weeks-in-a-year-heres-how-ai-momentum-went-off-the-rails-d4596bae?mod=mw_rss_topstories",
+    "Source sciencedaily-technology returned invalid XML",
+    "Source xinhuanet-politics timed out"
+  ]
+}
