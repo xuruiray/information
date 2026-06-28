@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-28",
+  "title": "信息日报 2026-06-28",
+  "title_en": "Information Daily 2026-06-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 预览 GPT-5.6 Sol：下一代模型到来",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI 预览 GPT-5.6 Sol，这是其下一代模型，在编程、科学和网络安全方面能力更强，并配备最先进的安全堆栈。但白宫要求放缓发布，仅限部分合作伙伴使用。",
+    "source_en": "OpenAI News",
+    "title_en": "Previewing GPT-5.6 Sol: a next-generation model",
+    "summary_en": "OpenAI previews GPT-5.6 Sol, a next-gen model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack. The White House requested limited rollout, restricting initial access to select partners.",
+    "original_title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "published_at": "2026-06-26T10:00:00+00:00",
+    "reason": "OpenAI 新模型发布是科技界最重磅消息，且涉及政府干预 AI 安全治理，地缘政治影响深远，是今日最具新闻价值的头条。",
+    "reason_en": "OpenAI's new model launch is the biggest tech news, involving government intervention in AI safety governance with far-reaching geopolitical implications, making it the most newsworthy lead today.",
+    "score": 8.5
+  },
+  "path": "papers/2026-06-28.html",
+  "raw_path": "raw/2026-06-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/previewing-gpt-5-6-sol",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jun/26/dean-w-ball",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260626124659.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/supra-player",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/folio-ai",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.theguardian.com/world/2026/jun/28/new-caledonia-polls-open-in-first-local-vote-in-the-french-territory-since-2019",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://jayacunzo.com/blog/your-move-chief",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis"
+  ]
+}
