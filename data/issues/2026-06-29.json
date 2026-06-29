@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-29",
+  "title": "信息日报 2026-06-29",
+  "title_en": "Information Daily 2026-06-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "夏威夷将海洋塑料与渔网铺入公路，环保与工程双赢",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "夏威夷研究人员将废旧渔网和回收塑料混入沥青铺路，早期测试显示其释放的塑料颗粒并未超过标准路面，轮胎磨损反而覆盖了再生材料的信号。若后续验证耐用性，该技术有望帮助解决海洋塑料污染和垃圾处理难题。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Hawaii is turning ocean plastic and fishing nets into roads",
+    "summary_en": "Hawaii researchers are giving old fishing nets and recycled plastic a second life by mixing them into asphalt roads. Early tests found these roads didn't release more plastic particles than standard pavement, with tire wear overwhelming any plastic signal from the recycled material. If future studies confirm the roads are durable, the technology could help tackle ocean plastic pollution and waste management.",
+    "original_title": "Hawaii is turning ocean plastic and fishing nets into roads",
+    "published_at": "2026-06-28T02:53:54-04:00",
+    "reason": "该项目融合环保与基础设施创新，具有较高的社会价值和新闻吸引力，且评分居各版块之首。",
+    "reason_en": "This project combines environmental sustainability with infrastructure innovation, offering high social value and news appeal, and has the highest score across all sections.",
+    "score": 10.85
+  },
+  "path": "papers/2026-06-29.html",
+  "raw_path": "raw/2026-06-29.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.npr.org/2026/06/27/g-s1-129705/uzbekistan-world-cup",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-28/sovereign-funds-pivot-further-to-private-assets-in-risky-markets",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-28/russia-holds-off-on-diesel-export-ban-to-reassess-monday-tass",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://antoine.fi/mri-analysis-using-claude-code-opus"
+  ]
+}
