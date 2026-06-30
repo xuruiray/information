@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-30",
+  "title": "信息日报 2026-06-30",
+  "title_en": "Information Daily 2026-06-30",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Ornith-1.0 发布：自扩展开源模型，专为智能编码打造",
+    "url": "https://simonwillison.net/2026/Jun/29/ornith",
+    "source": "Simon Willison",
+    "summary": "DeepReinforce 发布 Ornith-1.0，首个自扩展开源模型系列，基于 Gemma 4 和 Qwen 3.5，提供 9B 到 397B 多种规模，在智能编码任务上达到开源最佳性能。",
+    "source_en": "Simon Willison",
+    "title_en": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+    "summary_en": "DeepReinforce releases Ornith-1.0, the first self-scaffolding open-source model series built on Gemma 4 and Qwen 3.5, ranging from 9B to 397B parameters, achieving state-of-the-art performance among open-source models for agentic coding tasks.",
+    "original_title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+    "published_at": "2026-06-29T16:17:59+00:00",
+    "reason": "该模型在开发者社区引发热议，代表了开源 AI 编码工具的重大进步，且评分最高（11.1），对 AI 和开发版块均有深远影响。",
+    "reason_en": "This model has generated significant buzz in the developer community, represents a major advancement in open-source AI coding tools, and has the highest score (11.1), with implications for both AI and development sections.",
+    "score": 11.1
+  },
+  "path": "papers/2026-06-30.html",
+  "raw_path": "raw/2026-06-30.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jun/29/ornith",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260626124703.htm",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-06-29/japan-stocks-set-to-climb-as-yen-hits-40-year-low-markets-wrap",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-06-30/miniso-us-ceo-on-business-growth-strategy-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://quesma.com/blog/qwen-36-is-awesome"
+  ]
+}
