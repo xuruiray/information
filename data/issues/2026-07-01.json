@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-01",
+  "title": "信息日报 2026-07-01",
+  "title_en": "Information Daily 2026-07-01",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Vercel Ship 2026 大会回顾",
+    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+    "source": "Vercel 博客",
+    "summary": "Vercel 在 Ship 2026 大会上发布面向代理的下一代基础设施，宣布支持任意 Dockerfile 部署，并展示了如何用 Fluid Compute 自动扩展容器化应用。数千名开发者齐聚伦敦、柏林、纽约参与。",
+    "source_en": "Vercel Blog",
+    "title_en": "Vercel Ship 2026 recap",
+    "summary_en": "At Vercel Ship 2026, the company unveiled agentic infrastructure, support for any Dockerfile, and autoscaling containerized apps with Fluid Compute. Thousands of developers gathered in London, Berlin, and New York.",
+    "original_title": "Vercel Ship 2026 recap",
+    "published_at": "2026-06-30T16:00:00+00:00",
+    "reason": "Vercel Ship 2026 标志着 Web 基础设施从静态站点迈向代理原生时代，Dockerfile 支持大幅降低部署门槛，对开发者生态影响深远。",
+    "reason_en": "Vercel Ship 2026 signals a shift toward agent-native infrastructure, with Dockerfile support lowering deployment barriers, profoundly impacting the developer ecosystem.",
+    "score": 20.9
+  },
+  "path": "papers/2026-07-01.html",
+  "raw_path": "raw/2026-07-01.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/blog/vercel-ship-2026-recap",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c621g086ek4o?at_medium=RSS&at_campaign=rss",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-01/the-asia-trade-7-01-2026-video",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-01/foreign-buying-of-indian-bonds-hits-record-after-tax-break",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/trump-discloses-expanding-financial-empire-including-apple-stock-celebration-coins-and-crypto-8786ef64?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication?_fb_noscript=1",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://twitter.com/AnthropicAI/status/2072106151890809341",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
