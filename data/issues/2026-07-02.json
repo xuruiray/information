@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-02",
+  "title": "信息日报 2026-07-02",
+  "title_en": "Information Daily 2026-07-02",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Bending Spoons 逆 SaaS 寒潮上市首日飙升 40%",
+    "url": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading",
+    "source": "TechCrunch 创业",
+    "summary": "Bending Spoons 通过收购并改造 AOL、Eventbrite、Evernote 等老牌科技品牌实现快速增长，其上市首日股价大涨 40%，显示出市场对其“收购+翻新”模式的认可，也为低迷的 SaaS 行业注入一剂强心针。",
+    "source_en": "TechCrunch Startups",
+    "title_en": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+    "summary_en": "Bending Spoons, which has grown rapidly by acquiring and revamping legacy tech brands like AOL, Eventbrite, Evernote, and Meetup, surged 40% on its first day of trading, signaling market confidence in its 'acquire-and-refresh' strategy and offering a bright spot in the sluggish SaaS landscape.",
+    "original_title": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+    "published_at": "2026-07-01T22:47:04+00:00",
+    "reason": "该事件融合了创业、融资、市场情绪等多重要素，且为当日最具冲击力的商业新闻，反映了科技行业逆境中的突围模式。",
+    "reason_en": "This event combines startup dynamics, funding, and market sentiment, representing the most impactful business story of the day and highlighting a resilient growth model in the tech downturn.",
+    "score": 8.8
+  },
+  "path": "papers/2026-07-02.html",
+  "raw_path": "raw/2026-07-02.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/podcast/humble-robotics-ceo-says-the-tech-finally-caught-up-to-the-vision-for-autonomous-vehicles",
+    "LLM subsection world/global-society ignored item: unknown URL: https://www.theguardian.com/world/2026/jul/01/sudan-rsf-rapid-support-forces-crimes-against-humanity-el-fasher-ethnic-cleansing",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-01/asian-stocks-to-decline-as-traders-weigh-ai-warsh-markets-wrap",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-02/headline-s-zhu-on-asia-tech-opportunities-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/coreweave-nebius-shares-tumble-as-meta-stands-to-become-a-fresh-threat-in-the-cloud-a47c3616?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.workerowned.info/",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
