@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-03",
+  "title": "信息日报 2026-07-03",
+  "title_en": "Information Daily 2026-07-03",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "llm-coding-agent 0.1a0 发布：LLM 库向智能体框架演进",
+    "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent",
+    "source": "Simon Willison",
+    "summary": "Simon Willison 发布 llm-coding-agent 0.1a0，基于其 LLM 库的智能体框架实验。该项目旨在探索简单编码智能体的构建，使用 Claude Code for web 等工具，引发对代码协作中认知债务的讨论。",
+    "source_en": "Simon Willison",
+    "title_en": "llm-coding-agent 0.1a0 Released: LLM Library Evolves into Agent Framework",
+    "summary_en": "Simon Willison released llm-coding-agent 0.1a0, an experiment built on his LLM library's evolution into an agent framework. The project aims to explore simple coding agents, using tools like Claude Code for web, and sparks discussion on cognitive debt in code collaboration.",
+    "original_title": "llm-coding-agent 0.1a0",
+    "published_at": "2026-07-02T19:33:12+00:00",
+    "reason": "该新闻在众多候选者中得分最高（14.1），涉及开发者生态中 LLM 智能体框架的里程碑式进展，对编程效率和团队协作有深远影响。",
+    "reason_en": "This item scored the highest (14.1) among all candidates, marking a milestone in LLM agent frameworks within the developer ecosystem, with profound implications for coding efficiency and team collaboration.",
+    "score": 14.1
+  },
+  "path": "papers/2026-07-03.html",
+  "raw_path": "raw/2026-07-03.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/2/llm-coding-agent",
+    "LLM subsection developer/open-source-tools ignored item: unknown URL: https://github.blog/security/application-security/how-github-used-secret-scanner-to-reach-inbox-zero",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/jul/03/narendra-modi-awards-honours-overseas-trips",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-03/amp-says-bonds-no-longer-a-hedge-cuts-from-some-pension-funds",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-03/vietnam-s-quarterly-growth-surges-june-trade-beats-estimates"
+  ]
+}
