@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-04",
+  "title": "信息日报 2026-07-04",
+  "title_en": "Information Daily 2026-07-04",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic与三星洽谈定制AI芯片，挑战OpenAI与博通联盟",
+    "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
+    "source": "TechCrunch AI",
+    "summary": "据消息，Anthropic正与三星讨论开发定制AI芯片，此举距OpenAI宣布与博通合作仅一周。若达成协议，将加剧AI芯片领域的竞争。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Anthropic is discussing a new custom chip with Samsung",
+    "summary_en": "Anthropic is reportedly in discussions with Samsung to develop a custom AI chip, coming about a week after OpenAI announced its own custom AI chip partnership with Broadcom. If finalized, the deal would intensify competition in the AI chip market.",
+    "original_title": "Anthropic is discussing a new custom chip with Samsung",
+    "published_at": "2026-07-02T18:31:09+00:00",
+    "reason": "这是AI芯片军备竞赛的最新动态，直接关系到未来大模型基础设施的成本与性能，对产业格局有重大影响。",
+    "reason_en": "This is the latest move in the AI chip arms race, directly impacting the cost and performance of future LLM infrastructure, and has significant implications for the industry landscape.",
+    "score": 5.95
+  },
+  "path": "papers/2026-07-04.html",
+  "raw_path": "raw/2026-07-04.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625060214.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/glaze-4",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/jul/03/narendra-modi-awards-honours-overseas-trips",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.wafer.ai/blog/glm52-amd"
+  ]
+}
