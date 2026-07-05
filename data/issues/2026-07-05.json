@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-05",
+  "title": "信息日报 2026-07-05",
+  "title_en": "Information Daily 2026-07-05",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "科学家实现量子时间回溯突破，或重塑计算与能源未来",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "研究人员利用量子控制技术使系统表现时间倒流，通过精确管理量子测量可重塑时间箭头并从测量过程获取能量。该突破有望推动量子计算机、量子电池等先进技术发展。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "Scientists make quantum time flow backward in stunning physics breakthrough",
+    "summary_en": "Researchers have created quantum control techniques that make a system appear to run backward in time, reshaping time's arrow and harvesting energy from measurement. The breakthrough could lead to more powerful quantum computers, quantum batteries, and other advanced technologies.",
+    "original_title": "Scientists make quantum time flow backward in stunning physics breakthrough",
+    "published_at": "2026-07-03T05:34:54-04:00",
+    "reason": "该发现代表了基础物理学的重大突破，具有广泛的潜在应用，评分在所有候选新闻中最高（10.8），且具备极高的新闻价值和吸引力。",
+    "reason_en": "This discovery represents a major breakthrough in fundamental physics with broad potential applications, holds the highest score (10.8) among all candidate stories, and offers exceptional news value and appeal.",
+    "score": 10.8
+  },
+  "path": "papers/2026-07-05.html",
+  "raw_path": "raw/2026-07-05.html",
+  "raw_count": 175,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/checklistfox",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/jul/02/venezuelan-man-pulled-alive-from-collapsed-basement-eight-days-after-earthquakes",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-04/germany-s-second-chance-for-growth-rebound-starts-now",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-04/trump-ramps-up-war-on-regulations-with-702-cuts-in-pipeline",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-04/brazil-s-durigan-says-credit-lines-won-t-affect-monetary-policy",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-04/coney-island-boardwalk-set-for-1-billion-upgrade-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/older-workers-are-fighting-ageism-by-starting-their-own-businesses-and-theyre-outperforming-younger-entrepreneurs-5fc701fc?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main"
+  ]
+}
