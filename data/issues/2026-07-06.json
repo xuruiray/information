@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-06",
+  "title": "信息日报 2026-07-06",
+  "title_en": "Information Daily 2026-07-06",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "sqlite-utils 4.0rc2 发布：大部分代码由 Claude Fable 编写，成本仅 149.25 美元",
+    "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
+    "source": "Simon Willison",
+    "summary": "开发者 Simon Willison 借助 Anthropic 的 Claude Fable 模型完成了 sqlite-utils 4.0rc2 的大部分代码，总成本约 149.25 美元。这是 AI 辅助编程实用化的又一例证，展示了高级语言模型在复杂工具开发中的潜力。",
+    "source_en": "Simon Willison",
+    "title_en": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+    "summary_en": "Developer Simon Willison used Anthropic's Claude Fable model to write most of the sqlite-utils 4.0rc2 release, costing about $149.25. This demonstrates the practical potential of AI-assisted programming for complex tool development.",
+    "original_title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+    "published_at": "2026-07-05T01:00:48+00:00",
+    "reason": "该新闻以具体案例展示了 AI 辅助编程的成本效益和实用性，得分最高（14.1），且关联 AI、开源、开发等多个版面。",
+    "reason_en": "This story concretely demonstrates the cost-effectiveness and practicality of AI-assisted programming, has the highest score (14.1), and intersects AI, open source, and development sections.",
+    "score": 14.1
+  },
+  "path": "papers/2026-07-06.html",
+  "raw_path": "raw/2026-07-06.html",
+  "raw_count": 173,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/4/better-models-worse-tools",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260702230859.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260704232634.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/pennen",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://homegames.io"
+  ]
+}
