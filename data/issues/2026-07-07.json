@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-07",
+  "title": "信息日报 2026-07-07",
+  "title_en": "Information Daily 2026-07-07",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "腾讯发布Hy3开源模型：295B参数MoE架构，Apache 2.0许可",
+    "url": "https://simonwillison.net/2026/Jul/6/hy3",
+    "source": "Simon Willison",
+    "summary": "腾讯Hy团队发布Hy3，一个295B参数的混合专家（MoE）模型，活跃参数21B，MTP层3.8B。基于预览版反馈，团队扩大后训练数据量，模型现以Apache 2.0许可开源，适用于50+产品场景。",
+    "source_en": "Simon Willison",
+    "title_en": "tencent/Hy3: 295B MoE Model Released Under Apache 2.0",
+    "summary_en": "Tencent's Hy team releases Hy3, a 295B-parameter Mixture-of-Experts model with 21B active parameters and 3.8B MTP layer parameters. After incorporating feedback from 50+ products and scaling up post-training data, the model is now open-sourced under Apache 2.0 license, suitable for diverse applications.",
+    "original_title": "tencent/Hy3",
+    "published_at": "2026-07-06T23:57:35+00:00",
+    "reason": "这是当日发布的最大规模开源AI模型之一，Apache 2.0许可对开发者友好，得分在所有候选新闻中最高（9.1），代表AI领域的重大进展。",
+    "reason_en": "This is one of the largest open-source AI models released on the day, with a developer-friendly Apache 2.0 license and the highest score (9.1) among all candidate news, representing a major advance in AI.",
+    "score": 9.1
+  },
+  "path": "papers/2026-07-07.html",
+  "raw_path": "raw/2026-07-07.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/6/hy3",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/meta",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/stanley-studio",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-07/samsung-results-trigger-stock-rotation-to-less-loved-sectors",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://ternlight-demo.vercel.app/",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/MaximeRivest/Riddle",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://stevekrouse.com/learn-to-code"
+  ]
+}
