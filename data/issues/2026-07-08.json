@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-08",
+  "title": "信息日报 2026-07-08",
+  "title_en": "Information Daily 2026-07-08",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美国对伊朗发动打击 霍尔木兹海峡油轮遇袭后",
+    "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "美国对伊朗发动军事打击，旨在为遇袭油轮施加“沉重代价”。伊朗警告将采取“果断措施”回应。袭击发生在霍尔木兹海峡局势紧张之际，全球能源市场剧烈波动。",
+    "source_en": "BBC World",
+    "title_en": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+    "summary_en": "The US launched military strikes on Iran, intended to impose 'heavy costs' for tanker attacks. Iran warned it would 'take decisive measures' in response. The strikes come amid heightened tensions in the Strait of Hormuz, causing oil price spikes and market turmoil.",
+    "original_title": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+    "published_at": "2026-07-08T02:19:53+00:00",
+    "reason": "此事件主导当日全球议程，牵动能源市场、地缘政治和金融市场，影响范围极广，是所有版面读者都应关注的重大突发新闻。",
+    "reason_en": "This event dominates the day's global agenda, affecting energy markets, geopolitics, and financial markets. It is a major breaking news story that all readers across sections should follow.",
+    "score": 4.0
+  },
+  "path": "papers/2026-07-08.html",
+  "raw_path": "raw/2026-07-08.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-07/brazil-treasury-has-patience-and-cash-to-ease-local-bond-stress",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-07/japan-government-may-tweak-monetary-policy-phrase-in-annual-plan",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/ai-related-debt-sells-off-sharply-as-amazon-borrows-another-25-billion-46928353?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://davit.app"
+  ]
+}
