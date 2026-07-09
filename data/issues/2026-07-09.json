@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-09",
+  "title": "信息日报 2026-07-09",
+  "title_en": "Information Daily 2026-07-09",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "哈佛科学家将硅芯片变为 DNA 写入机",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "哈佛大学研究团队利用电力和水基酶，在硅芯片上同时合成数十条 DNA 序列，为传统 DNA 制造提供更清洁的替代方案。该突破有望催生便携式 DNA 写入设备乃至大规模 DNA 数据存储，但规模化仍需新的化学方法。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Harvard scientists turn a silicon chip into a DNA writing machine",
+    "summary_en": "Harvard scientists have created a silicon chip that can write dozens of DNA sequences simultaneously using electricity and water-based enzymes, offering a cleaner alternative to conventional DNA manufacturing. The breakthrough could eventually support portable DNA-writing devices and massive DNA data storage, though new chemistry is needed to scale.",
+    "original_title": "Harvard scientists turn a silicon chip into a DNA writing machine",
+    "published_at": "2026-07-08T22:48:06-04:00",
+    "reason": "该成果融合材料科学、生物工程和微电子，代表交叉领域重大突破，具有广泛科学意义和潜在产业影响，适合作为今日头条。",
+    "reason_en": "This breakthrough combines materials science, bioengineering, and microelectronics, representing a major interdisciplinary advance with broad scientific significance and potential industrial impact, making it the lead story.",
+    "score": 10.85
+  },
+  "path": "papers/2026-07-09.html",
+  "raw_path": "raw/2026-07-09.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-08/asia-growth-improves-but-adb-warns-of-persistent-headwinds",
+    "LLM output missed subsection world/government-policy; filled with ranked candidates.",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-08/venezuela-accelerates-effort-to-shrink-black-market-currency-gap",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
