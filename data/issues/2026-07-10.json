@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-10",
+  "title": "信息日报 2026-07-10",
+  "title_en": "Information Daily 2026-07-10",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GPT-5.6 系列发布：Luna、Terra、Sol 三款模型亮相",
+    "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6",
+    "source": "Simon Willison",
+    "summary": "OpenAI 正式发布 GPT-5.6 系列旗舰模型，分为 Luna、Terra、Sol 三个规格，定价分别为每百万输入/输出 token 1/6、2.5/15、5/30 美元。该模型现已通过 Microsoft 365 Copilot 等渠道可用，标志着 AI 能力再次跃升。",
+    "source_en": "Simon Willison",
+    "title_en": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "summary_en": "OpenAI released its new flagship GPT-5.6 models in three sizes: Luna, Terra, and Sol, with prices ranging from $1/$6 to $5/$30 per million tokens. The models are now available in Microsoft 365 Copilot, signaling another leap in AI capabilities.",
+    "original_title": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "published_at": "2026-07-09T19:46:38+00:00",
+    "reason": "GPT-5.6 是 OpenAI 最新旗舰模型，覆盖从轻量到强力的全规格，定价具有竞争力，且立即集成到 Microsoft 365 中，对 AI 开发者和企业用户影响巨大。",
+    "reason_en": "GPT-5.6 is OpenAI's latest flagship family offering tiered capabilities at competitive prices, with immediate integration into Microsoft 365, making it the most impactful news for AI developers and enterprises today.",
+    "score": 13.1
+  },
+  "path": "papers/2026-07-10.html",
+  "raw_path": "raw/2026-07-10.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/9/gpt-5-6",
+    "LLM output missed subsection developer/infra-data; filled with ranked candidates.",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.aljazeera.com/news/2026/7/9/venezuela-earthquakes-toll-rises-to-3889-as-risk-of-disease-grows?traffic_source=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/graphics/2026-indonesia-russia-oil-asia-hub",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-09/china-gets-chance-at-fiscal-rethink-after-debt-cleanup-milestone",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://davidoks.blog/p/why-american-ambulance-rides-are"
+  ]
+}
