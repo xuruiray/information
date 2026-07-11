@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-11",
+  "title": "信息日报 2026-07-11",
+  "title_en": "Information Daily 2026-07-11",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "固态电池最大难题或已解决：锂枝晶开裂陶瓷隔膜的谜团被破解",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "研究人员破解了软锂枝晶如何导致固态电池内部硬陶瓷隔膜开裂并引发短路的谜团。这一突破可帮助工程师构建更安全、续航更长的电池，用于智能手机、电动汽车等领域。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "The biggest problem with solid-state batteries may finally be solved",
+    "summary_en": "Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits. The breakthrough could help engineers build safer, longer-lasting batteries for smartphones, electric vehicles, and other electronics.",
+    "original_title": "The biggest problem with solid-state batteries may finally be solved",
+    "published_at": "2026-07-10T08:29:27-04:00",
+    "reason": "该成果具有颠覆性潜力，直接关系到能源存储和电动汽车产业，且被ScienceDaily评为今日技术头条，评分高达9.8。",
+    "reason_en": "This breakthrough has transformative potential for energy storage and electric vehicles, and it is the top technology story today on ScienceDaily with a score of 9.8.",
+    "score": 9.8
+  },
+  "path": "papers/2026-07-11.html",
+  "raw_path": "raw/2026-07-11.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/repstandard",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-10/gensler-big-deals-a-sign-of-high-valuation-market-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-10/brazil-inflation-surprise-bolsters-case-for-more-rate-cuts",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-10/the-close-7-10-2026-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-10/nuclear-energy-services-firm-holtec-joins-sector-s-ipo-rush"
+  ]
+}
