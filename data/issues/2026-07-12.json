@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-12",
+  "title": "信息日报 2026-07-12",
+  "title_en": "Information Daily 2026-07-12",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GPT-5.6系列发布：Luna、Terra、Sol三大模型细节公开",
+    "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6",
+    "source": "Simon Willison",
+    "summary": "OpenAI最新旗舰模型GPT-5.6系列正式上线，分为Luna（低成本）、Terra（均衡）和Sol（最强）三种规格，每百万token价格依次为1/6美元、2.5/15美元、5/30美元。相比Claude Opus系列，价格更具竞争力，同时在网络安全等多方面有改进。",
+    "source_en": "Simon Willison",
+    "title_en": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "summary_en": "OpenAI's latest flagship model family GPT-5.6 is now generally available in three sizes: Luna, Terra, and Sol. Pricing per 1M input/output tokens: $1/$6, $2.50/$15, $5/$30 respectively. The models promise improvements across cybersecurity and other areas, positioning competitively against Claude Opus.",
+    "original_title": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "published_at": "2026-07-09T19:46:38+00:00",
+    "reason": "该文章提供了GPT-5.6系列最详细的定价与规格对比，是当日AI领域最受关注的技术发布，直接影响开发者选型和企业采购决策。",
+    "reason_en": "This article provides the most detailed pricing and specification comparison for the GPT-5.6 family, the most anticipated AI release of the day, directly impacting developer choices and enterprise purchasing decisions.",
+    "score": 13.1
+  },
+  "path": "papers/2026-07-12.html",
+  "raw_path": "raw/2026-07-12.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/9/gpt-5-6",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/basedash",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/soundpipe",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/notion",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
+    "LLM subsection world/government-policy ignored item: unknown URL: https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.iroh.computer/blog/mesh-llm"
+  ]
+}
