@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-13",
+  "title": "信息日报 2026-07-13",
+  "title_en": "Information Daily 2026-07-13",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "伊朗战争实时：德黑兰攻击巴林、科威特、约旦，此前美国轰炸",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "伊朗官方媒体报道，在美军再次轰炸伊朗城市后，伊朗袭击了巴林、科威特和约旦，霍尔木兹海峡紧张局势加剧，全球市场应声下跌。",
+    "source_en": "Al Jazeera",
+    "title_en": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
+    "summary_en": "Iranian state media report explosions in port cities of Bandar Abbas, Sirik and Jask, as well as Qeshm Island, after US bombings, leading to attacks on Bahrain, Kuwait and Jordan.",
+    "original_title": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
+    "published_at": "2026-07-13T00:00:00+00:00",
+    "reason": "伊朗攻击多国导致中东战争升级，直接冲击全球金融市场和能源供应，是最重要的国际新闻。",
+    "reason_en": "Iran's attacks on multiple countries escalate the Middle East war, directly impacting global financial markets and energy supply, making it the most important international news.",
+    "score": 3.85
+  },
+  "path": "papers/2026-07-13.html",
+  "raw_path": "raw/2026-07-13.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/soundpipe",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies?traffic_source=rss",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=48886741"
+  ]
+}
