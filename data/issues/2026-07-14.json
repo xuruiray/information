@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-14",
+  "title": "信息日报 2026-07-14",
+  "title_en": "Information Daily 2026-07-14",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "DOOMQL：用 SQLite 驱动的 Doom 风格游戏，创意突破引发热议",
+    "url": "https://simonwillison.net/2026/Jul/13/doomql",
+    "source": "Simon Willison",
+    "summary": "Peter Gostev 利用 GPT-5.6 Sol 构建了 DOOMQL，一款将 SQLite 作为游戏引擎的 Doom 风格游戏。该项目展示了极其创新的编程思路：SQL 负责运动、碰撞、敌人、战斗、进度乃至每个 RGB 像素，挑战了传统游戏开发范式。",
+    "source_en": "Simon Willison",
+    "title_en": "DOOMQL: A Doom-like Game Powered by SQLite Breaks Creative Boundaries",
+    "summary_en": "Peter Gostev built DOOMQL using GPT-5.6 Sol, a Doom-like game where SQLite serves as the game engine. SQL handles movement, collision, enemies, combat, progression, and every RGB pixel, demonstrating an innovative approach to game development.",
+    "original_title": "DOOMQL",
+    "published_at": "2026-07-13T22:34:41+00:00",
+    "reason": "该项目在开发者社区中极具话题性，展示了 AI 辅助编程与数据库技术的创造性结合，评分最高，体现了当日开发与编程版面的核心亮点。",
+    "reason_en": "This project generates significant buzz in the developer community, showcasing a creative fusion of AI-assisted coding and database technology. With the highest score, it captures the essence of the development and programming section.",
+    "score": 13.1
+  },
+  "path": "papers/2026-07-14.html",
+  "raw_path": "raw/2026-07-14.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/13/doomql",
+    "LLM subsection science-tech/chips-hardware ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-14/china-s-exports-imports-soar-faster-than-forecast-amid-ai-rush",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/tailmux",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-14/south-korea-turns-more-bullish-on-economy-as-chip-boom-rolls-on",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-14/china-s-growth-seen-weakening-to-bottom-of-official-target-range",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-13/warsh-s-balance-sheet-panel-runs-into-market-reality-check",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-13/uk-industry-tells-pm-to-move-energy-levies-to-general-taxation",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://lalitm.com/post/git-history",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.whois.com/whois/t.me",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.sfgate.com/politics/article/meta-social-media-teenagers-22337724.php"
+  ]
+}
