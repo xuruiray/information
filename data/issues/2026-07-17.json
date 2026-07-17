@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-17",
+  "title": "信息日报 2026-07-17",
+  "title_en": "Information Daily 2026-07-17",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "月之暗面发布Kimi K3：2.8万亿参数开源模型，称“开源3T级”",
+    "url": "https://simonwillison.net/2026/Jul/16/kimi-k3",
+    "source": "Simon Willison",
+    "summary": "中国AI实验室月之暗面今日宣布Kimi K3，称其为“目前最强模型”，拥有2.8万亿参数。模型已通过官网和API提供，承诺7月27日前开源权重。月之暗面将其称为首个“开源3T级模型”，引发AI社区高度关注。",
+    "source_en": "Simon Willison",
+    "title_en": "Kimi K3, and what we can still learn from the pelican benchmark",
+    "summary_en": "Chinese AI lab Moonshot AI announced Kimi K3, describing it as their 'most capable model to date, with 2.8 trillion parameters.' It's currently available via their website and API, with an open weight release promised by July 27, 2026. Moonshot calls it the first 'open 3T-class model,' sparking intense discussion in the AI community.",
+    "original_title": "Kimi K3, and what we can still learn from the pelican benchmark",
+    "published_at": "2026-07-16T20:19:30+00:00",
+    "reason": "Kimi K3的发布标志着开源大模型进入3万亿参数时代，其规模和开源承诺将重塑AI竞争格局，引发业界广泛讨论。头条从开发者版块中选出，得分最高，且覆盖AI与大模型核心版面。",
+    "reason_en": "Kimi K3's launch marks the era of open-source models with 3 trillion parameters, potentially reshaping the AI landscape. It was the highest-scored item across all candidates, drawing massive attention on Hacker News and covering the core AI & LLMs section.",
+    "score": 11.1
+  },
+  "path": "papers/2026-07-17.html",
+  "raw_path": "raw/2026-07-17.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/16/kimi-k3",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-17/china-chip-stock-pullback-drives-investor-fear-to-four-year-high",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-17/thai-stocks-go-from-worst-to-best-as-funds-eye-further-gains",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-16/jefferson-says-policy-well-positioned-can-reconsider-if-needed",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-16/us-homebuilder-sentiment-slips-again-to-match-year-s-low",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.kimi.com/blog/kimi-k3"
+  ]
+}
