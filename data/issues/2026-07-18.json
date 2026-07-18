@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-18",
+  "title": "信息日报 2026-07-18",
+  "title_en": "Information Daily 2026-07-18",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "新型“活塑料”6天内自我降解不产生微塑料",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "研究人员利用工程改造的细菌制造出一种可自我降解的“活塑料”。材料在激活后6天内完全分解，不留下微塑料，为一次性塑料废物问题提供了潜在的解决方案。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "New 'living plastic' self-destructs in just 6 days without leaving microplastics",
+    "summary_en": "Researchers have created a self-destructing living plastic using engineered bacteria that degrades completely in six days without microplastics, offering a potential solution for single-use plastic waste.",
+    "original_title": "New “living plastic” self-destructs in just 6 days without leaving microplastics",
+    "published_at": "2026-07-16T23:09:42-04:00",
+    "reason": "这是一项重大的环保科技突破，有望彻底改变塑料污染问题，具有全球影响力。",
+    "reason_en": "This is a major environmental tech breakthrough that could revolutionize plastic pollution, with global impact.",
+    "score": 9.8
+  },
+  "path": "papers/2026-07-18.html",
+  "raw_path": "raw/2026-07-18.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/kimi-ai-assistant",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-17/ai-upheaval-crushes-retail-traders-crowding-into-leveraged-funds",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-17/em-stocks-headed-for-weekly-loss-on-tech-selloff-rising-crude",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/chip-stocks-enter-bear-market-territory-a-bofa-analyst-says-not-to-panic-4d34df17?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/how-your-winning-stock-index-fund-can-turn-on-a-dime-e2e4b44e?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/18-tech-stocks-that-have-fallen-at-least-30-during-july-4c373d5e?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=48949551",
+    "Source sciencedaily-science returned invalid XML"
+  ]
+}
