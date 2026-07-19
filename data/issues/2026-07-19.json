@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-19",
+  "title": "信息日报 2026-07-19",
+  "title_en": "Information Daily 2026-07-19",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "韦伯望远镜捕捉到超大质量黑洞“进食”罕见细节",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "JWST拍摄到NGC 4696星系中心黑洞吸积气体的罕见高清图像，一根巨大纤维状结构将物质送入800光年宽的旋转盘，气体速度高达每秒600公里。研究提示黑洞可能通过喷流加热气体再回收自身燃料。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "NASA’s James Webb catches a supermassive black hole feeding",
+    "summary_en": "JWST has captured unusually detailed images of gas feeding the supermassive black hole at the center of NGC 4696. A vast filament appears to funnel material into an 800-light-year-wide spinning disk, where gas races around at up to 600 kilometers per second. The findings suggest black holes may recycle their own fuel.",
+    "original_title": "NASA’s James Webb catches a supermassive black hole feeding",
+    "published_at": "2026-07-17T23:09:35-04:00",
+    "reason": "这是当天最重要的科学突破，韦伯望远镜的观测以前所未有的细节揭示了黑洞吸积机制，具有重大天文学意义，且话题热度高，适合作为头条。",
+    "reason_en": "This is the most significant scientific breakthrough of the day, revealing black hole accretion mechanisms in unprecedented detail. It has major astronomical implications and high topical interest, making it the lead story.",
+    "score": 10.85
+  },
+  "path": "papers/2026-07-19.html",
+  "raw_path": "raw/2026-07-19.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/ai-research-governance ignored duplicate URL: https://arxiv.org/abs/2607.14149",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260716023601.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/kimi-ai-assistant",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-18/charting-the-global-economy-us-cpi-cools-china-growth-slows",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-18/icici-bank-first-quarter-profit-beats-estimates-as-loans-surge",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-18/hungary-crackdown-on-20-billion-ev-sector-puts-china-on-notice",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent"
+  ]
+}
