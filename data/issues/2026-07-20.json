@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-20",
+  "title": "信息日报 2026-07-20",
+  "title_en": "Information Daily 2026-07-20",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Claude Code 改用 Rust 重写的 Bun，性能提升且用户无感知",
+    "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+    "source": "Simon Willison",
+    "summary": "Anthropic 的 Claude Code 已在 v2.1.181 版本中切换到 Rust 实现的 Bun，Linux 下启动速度提升 10%，用户几乎未察觉变化，体现了“无聊就是好”的工程哲学。此举将影响所有 Claude Code 用户，并可能加速 AI 编程工具底层运行时生态的整合。",
+    "source_en": "Simon Willison",
+    "title_en": "Claude Code uses Bun written in Rust now",
+    "summary_en": "Anthropic's Claude Code v2.1.181 now uses the Rust port of Bun, yielding 10% faster startup on Linux with no noticeable disruption to users, embodying the 'boring is good' philosophy. This shift impacts all Claude Code users and may accelerate consolidation of runtime environments for AI coding tools.",
+    "original_title": "Claude Code uses Bun written in Rust now",
+    "published_at": "2026-07-19T03:54:09+00:00",
+    "reason": "该新闻是今天开发社区最重磅的变化，直接关联 AI 编程工具的效率与生态，且来自权威博客，具有广泛关注度和深远影响。",
+    "reason_en": "This is the most significant developer tool update today, directly impacting the efficiency and ecosystem of AI coding assistants, with broad attention and far-reaching implications.",
+    "score": 12.1
+  },
+  "path": "papers/2026-07-20.html",
+  "raw_path": "raw/2026-07-20.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/detourmap",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/basert",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=48968606",
+    "LLM subsection opinion/community-discussion ignored item: unknown URL: https://news.ycombinator.com/item?id=48967355",
+    "LLM subsection opinion/community-discussion ignored item: unknown URL: https://news.ycombinator.com/item?id=48966984"
+  ]
+}
