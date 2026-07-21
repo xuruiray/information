@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-21",
+  "title": "信息日报 2026-07-21",
+  "title_en": "Information Daily 2026-07-21",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "普通笔记本电脑解决曾被认为需要量子计算机的问题",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260719040000.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "研究人员使用张量网络压缩数百个纠缠量子比特产生的波函数，使得部分经典计算可在笔记本电脑上运行。结果与理论预测和量子模拟器一致，证明经典计算在某些领域仍具竞争力。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "An ordinary laptop solved a problem thought to require a quantum computer",
+    "summary_en": "Researchers used tensor networks to compress the wave function of hundreds of entangled qubits, enabling classical calculations on a laptop. Results matched theory and quantum simulations, showing classical computing remains competitive in certain areas.",
+    "original_title": "An ordinary laptop solved a problem thought to require a quantum computer",
+    "published_at": "2026-07-20T03:40:09-04:00",
+    "reason": "该发现颠覆了量子计算独占性认知，展示了经典计算的新潜力，兼具科学突破性与大众吸引力，适合作为头条。",
+    "reason_en": "This breakthrough challenges the exclusivity of quantum computing, demonstrating new classical potential. It combines scientific significance with broad appeal, making it an ideal lead.",
+    "score": 10.85
+  },
+  "path": "papers/2026-07-21.html",
+  "raw_path": "raw/2026-07-21.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260719040000.htm",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c5ywxy41vg6o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-21/china-broadens-market-rescue-with-record-inflows-into-tech-etf",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-21/global-stocks-lift-australian-pension-funds-to-9-5-annual-gain",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-21/korean-stock-traders-unwind-leveraged-bets-to-lowest-since-april",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-21/china-vows-to-achieve-annual-growth-target-after-economy-weakens",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-20/south-africa-wins-1-5-billion-world-bank-infrastructure-loan",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
