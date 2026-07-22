@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-22",
+  "title": "信息日报 2026-07-22",
+  "title_en": "Information Daily 2026-07-22",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "与Claude Code团队Cat和Thariq的炉边谈话",
+    "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
+    "source": "Simon Willison",
+    "summary": "Simon Willison与Anthropic Claude Code团队Cat Wu和Thariq Shihipar的炉边谈话，深入探讨了Claude Code、Claude Tag、Fable、编码代理安全、评估、工具设计以及Anthropic内部如何使用这些工具。",
+    "source_en": "Simon Willison",
+    "title_en": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "summary_en": "Simon Willison hosts a fireside chat with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team, covering Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic uses these tools internally.",
+    "original_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "published_at": "2026-07-21T12:54:02+00:00",
+    "reason": "评分最高（16.1），反映了AI编码助手领域的最新实践与安全见解，对开发者社区具有极高参考价值。",
+    "reason_en": "Highest score (16.1) reflecting the latest practices and security insights in AI coding assistants, highly valuable for the developer community.",
+    "score": 16.1
+  },
+  "path": "papers/2026-07-22.html",
+  "raw_path": "raw/2026-07-22.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/infra-data ignored duplicate URL: https://simonwillison.net/2026/Jul/21/cat-and-thariq",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.investing.com/news/stock-market-news/nvidia-supplier-wistron-launches-700-million-texas-factory-for-ai-system-production-4804610",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-22/indonesia-seen-hiking-rate-in-close-call-putting-rupiah-ahead-of-slowing-growth",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-22/sri-lanka-keeps-policy-rate-unchanged-as-iran-war-risks-resume",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://fireworks.ai/blog/kimik3-fable",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample"
+  ]
+}
