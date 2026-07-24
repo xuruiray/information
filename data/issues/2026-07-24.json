@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-24",
+  "title": "信息日报 2026-07-24",
+  "title_en": "Information Daily 2026-07-24",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美股下跌，科技股抛售蔓延，油价逼近100美元：市场综述",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+    "source": "彭博市场",
+    "summary": "由于对人工智能巨额投资回报的怀疑与油价飙升重新点燃通胀担忧，美股和债券周四下跌。科技板块领跌，市场避险情绪浓厚。布伦特原油突破100美元，为5月以来首次。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stocks Fall as Tech Selloff Extends, Oil Near $100: Markets Wrap",
+    "summary_en": "Stocks and bonds fell as doubts over returns from billions of dollars spent on artificial intelligence coincided with a surge in oil prices that rekindled inflation concerns. Tech shares led declines, with Brent crude topping $100 for the first time since May.",
+    "original_title": "Stocks Fall as Tech Selloff Extends, Oil Near $100: Markets Wrap",
+    "published_at": "2026-07-23T22:06:16+00:00",
+    "reason": "该报道同时涵盖了AI投资情绪转折、地缘政治风险（油价）和市场波动三大核心主题，对全球投资者具有广泛参考价值，是今日最需要优先阅读的头条新闻。",
+    "reason_en": "This story captures three critical themes: shifting sentiment on AI investment, geopolitical risk through oil prices, and market volatility, making it the most important read for global investors today.",
+    "score": 10.0
+  },
+  "path": "papers/2026-07-24.html",
+  "raw_path": "raw/2026-07-24.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/the-august-stock-market-slump-is-a-myth-so-why-does-wall-street-keep-repeating-it-bc47db44?mod=mw_rss_topstories",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-24/korean-stocks-sink-as-chipmakers-drop-on-middle-east-china-ipo",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-24/pboc-adds-most-liquidity-to-economy-in-five-months-to-aid-growth",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
