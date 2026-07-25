@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-25",
+  "title": "信息日报 2026-07-25",
+  "title_en": "Information Daily 2026-07-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 发布 Claude Opus 5，登顶多项 AI 评测排行榜",
+    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+    "source": "Simon Willison",
+    "summary": "Anthropic 发布全新旗舰模型 Claude Opus 5，官方称其在智能水平上接近 Claude Fable 5，但价格仅为其一半。该模型在 Artificial Analysis 智能排行榜上跃居第一，并在长周期智能编程、多文件重构等任务上表现优异，同时是至今最抗提示注入的模型之一。",
+    "source_en": "Simon Willison",
+    "title_en": "Introducing Claude Opus 5",
+    "summary_en": "Anthropic released its new flagship model Claude Opus 5, described as approaching the frontier intelligence of Claude Fable 5 at half the price. It quickly claimed the #1 spot on the Artificial Analysis Intelligence Leaderboard, excelling in long-horizon agentic coding and multi-file refactors, and is among the most prompt-injection-resistant models to date.",
+    "original_title": "Introducing Claude Opus 5",
+    "published_at": "2026-07-24T23:48:50+00:00",
+    "reason": "Claude Opus 5 发布是当日最具影响力的 AI 新闻，在开发者社区引起广泛关注，且直接关联 AI 大模型竞争格局。",
+    "reason_en": "The launch of Claude Opus 5 is the most impactful AI news of the day, generating widespread developer interest and directly affecting the competitive landscape of large language models.",
+    "score": 10.1
+  },
+  "path": "papers/2026-07-25.html",
+  "raw_path": "raw/2026-07-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/buzz-3",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-24/us-business-activity-picks-up-on-world-cup-july-4-spending"
+  ]
+}
