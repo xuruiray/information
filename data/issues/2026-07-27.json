@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-27",
+  "title": "信息日报 2026-07-27",
+  "title_en": "Information Daily 2026-07-27",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 发布 Claude Opus 5：接近前沿性能，价格减半",
+    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+    "source": "Simon Willison",
+    "summary": "Anthropic 新模型 Claude Opus 5 发布，被描述为“深思熟虑且主动”，接近 Claude Fable 5 的前沿智能，但价格仅为后者一半。早期评价积极，尤其抗提示注入能力显著提升。",
+    "source_en": "Simon Willison",
+    "title_en": "Introducing Claude Opus 5",
+    "summary_en": "Anthropic's new model Claude Opus 5 is described as 'thoughtful and proactive', close to the frontier intelligence of Claude Fable 5 at half the price. Early buzz is positive, with notable improvements in prompt injection resistance.",
+    "original_title": "Introducing Claude Opus 5",
+    "published_at": "2026-07-24T23:48:50+00:00",
+    "reason": "该新闻在所有候选新闻中评分最高（10.1），且 Claude Opus 5 发布是 AI 领域重大事件，对开发者生态和行业格局有直接影响，适合作为头条。",
+    "reason_en": "Highest score (10.1) among all candidates. Claude Opus 5 launch is a major AI event with direct impact on developer ecosystem and industry landscape, making it the lead item.",
+    "score": 10.1
+  },
+  "path": "papers/2026-07-27.html",
+  "raw_path": "raw/2026-07-27.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/purebox-ai",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-27/warjiyo-s-departure-raises-scrutiny-on-bi-policy-analysts-say",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/gmrandazzo/CheapSecurity"
+  ]
+}
