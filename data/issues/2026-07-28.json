@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-28",
+  "title": "信息日报 2026-07-28",
+  "title_en": "Information Daily 2026-07-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Moonshot AI 开源 2.8 万亿参数模型 Kimi K3，推动开源大模型边界",
+    "url": "https://simonwillison.net/2026/Jul/27/kimi-k3",
+    "source": "Simon Willison",
+    "summary": "Moonshot AI 于 7 月 27 日开源了其 2.8 万亿参数模型 Kimi K3，权重文件达 1.56TB。该模型采用修改版 MIT 许可，要求超大规模使用进行署名。此举标志着开源大模型在规模和能力上的重大突破，广泛被视为对闭源模型的强有力挑战。",
+    "source_en": "Simon Willison",
+    "title_en": "Moonshot AI Open-Sources 2.8 Trillion Parameter Kimi K3, Pushing Open-Source LLM Boundaries",
+    "summary_en": "Moonshot AI open-sourced its 2.8 trillion parameter Kimi K3 model on July 27, with weights totaling 1.56TB under a modified MIT license requiring attribution for large-scale use. This move significantly pushes the boundary of open-source LLMs in scale and capability, widely seen as a strong challenge to proprietary models.",
+    "original_title": "moonshotai/Kimi-K3",
+    "published_at": "2026-07-27T23:39:04+00:00",
+    "reason": "该事件是今日最具影响力的技术新闻，Kimi K3 作为开源模型参数规模空前，直接冲击 AI 产业格局，引发开发者社区广泛关注与讨论。",
+    "reason_en": "This is the most impactful tech story of the day. Kimi K3's unprecedented scale as an open-source model directly challenges the AI industry landscape, generating widespread developer interest and discussion.",
+    "score": 11.1
+  },
+  "path": "papers/2026-07-28.html",
+  "raw_path": "raw/2026-07-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Jul/27/kimi-k3",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/comms-ai-agents-inside-imessage",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-27/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-28/korean-stocks-sink-as-chipmakers-plung-on-deepening-ai-fatigue",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit"
+  ]
+}
