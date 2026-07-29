@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-29",
+  "title": "信息日报 2026-07-29",
+  "title_en": "Information Daily 2026-07-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "超越Shapley：基于影响力的数据审计管线用于大模型对齐与评估",
+    "url": "https://arxiv.org/abs/2607.22766",
+    "source": "arXiv 机器学习",
+    "summary": "该研究提出一种基于影响力计算的数据审计方法，用于检测大模型偏好与指令微调数据中的隐藏矛盾、安全风险和标注错误，可提升模型对齐的安全性和可靠性。",
+    "source_en": "arXiv cs.LG",
+    "title_en": "Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation",
+    "summary_en": "Proposes an influence-based data auditing pipeline to detect hidden contradictions, safety risks, and annotation errors in LLM preference and instruction-tuning data, improving alignment safety and reliability.",
+    "original_title": "Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation",
+    "published_at": "2026-07-28T00:00:00-04:00",
+    "reason": "该工作为AI数据质量与模型对齐这一核心瓶颈提供了创新解决方案，实用性高且影响广泛，适合作为今日头条。",
+    "reason_en": "This work offers an innovative solution to the core bottleneck of data quality and model alignment, with high practical impact and broad relevance, making it the lead story.",
+    "score": 10.9
+  },
+  "path": "papers/2026-07-29.html",
+  "raw_path": "raw/2026-07-29.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://arxiv.org/abs/2607.22766",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260727214616.htm",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/jul/28/wildfires-europe-north-america-effects",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-07-29/hynix-s-future-earnings-to-pick-up-clsa-s-rana-says-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-28/burnham-faces-24-billion-squeeze-from-uk-inflation-niesr-says",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/bloom-energy-sees-sales-top-1-billion-as-ai-proves-a-validation-moment-for-fuel-cell-technology-5cb69476?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://mac-classic.com/news/half-life-ported-to-mac-os-9"
+  ]
+}
