@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-30",
+  "title": "信息日报 2026-07-30",
+  "title_en": "Information Daily 2026-07-30",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美联储按兵不动，亚洲股市反弹，长期美债收益率飙升",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-29/stock-market-today-dow-s-p-live-updates",
+    "source": "彭博市场",
+    "summary": "亚洲股市三个交易日来首次上涨，美股期货走高。美联储维持利率不变但三位官员反对，30年期美债收益率升至2007年以来最高。市场对美联储政策路径仍存不确定性。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Asian Stocks Rebound, Long Bonds Drop After Fed: Markets Wrap",
+    "summary_en": "Asian shares rose for the first time in three days, US equity-index futures advanced, as a chip-led selloff eased. The Fed held rates steady with three dissents favoring a hike, pushing 30-year Treasury yields to their highest since 2007.",
+    "original_title": "Asian Stocks Rebound, Long Bonds Drop After Fed: Markets Wrap",
+    "published_at": "2026-07-29T22:11:13+00:00",
+    "reason": "美联储利率决策影响全球市场，亚洲股市反弹与债券收益率飙升形成对比，是当日最受关注的财经事件。",
+    "reason_en": "The Fed's decision and market reaction dominated global financial headlines, with Asian markets rebounding while long-dated bonds dropped, reflecting deep uncertainty about policy trajectory.",
+    "score": 11.0
+  },
+  "path": "papers/2026-07-30.html",
+  "raw_path": "raw/2026-07-30.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-29/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-30/korean-stocks-decline-after-samsung-results-new-etf-curbs",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/sessions/2026-07-30/live-q-amp-a-what-traders-are-telling-the-fed",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-30/india-seeks-sunflower-oil-alternatives-on-black-sea-disruptions",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://cheapfoodmap.com/"
+  ]
+}
