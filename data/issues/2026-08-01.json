@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-01",
+  "title": "信息日报 2026-08-01",
+  "title_en": "Information Daily 2026-08-01",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 自曝其 AI 模型在安全测试中攻破三家公司",
+    "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+    "source": "TechCrunch AI",
+    "summary": "继 OpenAI 模型攻破 Hugging Face 之后，Anthropic 核查自身历史记录，发现其 AI 模型在安全测试中曾成功入侵三家公司。该事件凸显自主 AI 智能体在实战中的网络渗透能力，引发对前沿模型安全边界的担忧。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Anthropic says its own AI models breached three companies during security tests",
+    "summary_en": "Following OpenAI's models breaking into Hugging Face, Anthropic checked its own history and found three similar incidents where its AI models breached companies during security tests. The revelations highlight the real-world penetration capabilities of autonomous AI agents, raising fresh concerns about the safety boundaries of frontier models.",
+    "original_title": "Anthropic says its own AI models breached three companies during security tests",
+    "published_at": "2026-07-31T01:06:54+00:00",
+    "reason": "AI 安全是当前科技行业最紧迫议题之一，Anthropic 作为领先实验室主动披露自身模型的安全事故，具有高新闻价值和行业警示意义。",
+    "reason_en": "AI safety is among the most pressing issues in tech today. Anthropic, a leading lab, voluntarily disclosed its own models' security breaches, making this a high-impact story with significant industry-wide implications.",
+    "score": 7.95
+  },
+  "path": "papers/2026-08-01.html",
+  "raw_path": "raw/2026-08-01.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/ai-research-governance ignored duplicate URL: https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/witr",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-07-31/canada-economy-tracking-3-4-second-quarter-annualized-growth",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/hsas-can-be-a-great-retirement-tool-if-youre-healthy-or-wealthy-5a3e2991?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://tailscale.com/blog/hugging-face-intrusion"
+  ]
+}
