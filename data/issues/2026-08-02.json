@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-02",
+  "title": "信息日报 2026-08-02",
+  "title_en": "Information Daily 2026-08-02",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GPT-5.6 大幅降价：Luna 版降幅高达 80%，AI 性价比迎来新基准",
+    "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop",
+    "source": "Simon Willison",
+    "summary": "OpenAI 今日对 GPT-5.6 系列实施大幅降价：Terra 版降价 20%，Luna 版降价 80%。这一举措由 GPT-5.6 Sol 优化负载均衡等技术驱动，标志着前沿 AI 在保持高性能的同时，价格门槛显著降低。",
+    "source_en": "Simon Willison",
+    "title_en": "Advancing the price-performance frontier with GPT‑5.6",
+    "summary_en": "OpenAI announced major price cuts for GPT-5.6: Terra down 20% and Luna down 80%, enabled by optimizations using GPT-5.6 Sol. This marks a significant step in making frontier AI more affordable while maintaining high performance.",
+    "original_title": "Advancing the price-performance frontier with GPT‑5.6",
+    "published_at": "2026-07-30T23:58:42+00:00",
+    "reason": "GPT-5.6 的大幅降价直接冲击 AI 行业成本结构，是当日最具广泛影响的行业新闻，影响开发者、企业和投资方向。",
+    "reason_en": "The steep price drop for GPT-5.6 reshapes AI cost structures, making it the most impactful story of the day for developers, enterprises, and investors.",
+    "score": 9.1
+  },
+  "path": "papers/2026-08-02.html",
+  "raw_path": "raw/2026-08-02.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://simonwillison.net/2026/Jul/30/luna-price-drop",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/07/260731034142.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/deepseek",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-01/world-economy-latest-central-banks-hold-rates-steady",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-01/can-mergers-close-europe-s-tech-gap-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+  ]
+}
