@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-05",
+  "title": "信息日报 2026-08-05",
+  "title_en": "Information Daily 2026-08-05",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenClaw 与 Ollama 联合研究：迈向完全自主可扩展的 Agentic AI 系统",
+    "url": "https://arxiv.org/abs/2607.28629",
+    "source": "arXiv 人工智能",
+    "summary": "该研究系统分析了 Agentic AI 从反应式大模型向持久化、可行动系统转变中的架构缺口，提出将推理、编排与执行层分离，并整合 OpenClaw 与 Ollama 以构建完全自主、可扩展的智能体系统。论文为自主智能体的工程化提供了分层设计参考。",
+    "source_en": "arXiv cs.AI",
+    "title_en": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+    "summary_en": "This paper systematically analyzes architectural gaps in the transition from reactive LLMs to persistent, action-capable systems, proposing separation of inference, orchestration, and execution layers, and integrating OpenClaw with Ollama to build fully autonomous, scalable agent systems. It offers a layered design reference for engineering autonomous agents.",
+    "original_title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+    "published_at": "2026-08-04T00:00:00-04:00",
+    "reason": "该论文是当日最高分 AI 研究，直接回应 Agentic AI 从原型走向工程化的核心痛点，对开发者社区和产业落地方向具有标杆意义。",
+    "reason_en": "As the top-scoring AI research of the day, it directly addresses key pain points in moving agentic AI from prototype to engineering, offering a benchmark for developers and industry adoption.",
+    "score": 9.9
+  },
+  "path": "papers/2026-08-05.html",
+  "raw_path": "raw/2026-08-05.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://arxiv.org/abs/2607.28629",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://queue.acm.org/detail.cfm?id=3807963",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://toneyalexander.github.io/inclusive-color-space"
+  ]
+}
