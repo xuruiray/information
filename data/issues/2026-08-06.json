@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-06",
+  "title": "信息日报 2026-08-06",
+  "title_en": "Information Daily 2026-08-06",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中国观察：中国新闻网社会关注的关键线索",
+    "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672842.shtml",
+    "source": "中国新闻网社会",
+    "summary": "这条中国观察线索来自中国新闻网社会，关注国内政策、产业变化或社会治理动态，适合用来判断本土环境和公共议题的变化。",
+    "source_en": "中国新闻网社会",
+    "title_en": "公共交通更适老，老年人出行更从容",
+    "summary_en": "公共交通更适老，老年人出行更从容(深阅读·关注适老化改造)",
+    "original_title": "公共交通更适老，老年人出行更从容",
+    "published_at": "2026-08-06T11:33:36+08:00",
+    "reason": "",
+    "reason_en": "",
+    "score": 0
+  },
+  "path": "papers/2026-08-06.html",
+  "raw_path": "raw/2026-08-06.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM headline ignored: missing URL",
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/changelog/project-avatars",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://vercel.com/changelog/new-setup-page-after-domain-checkout",
+    "LLM subsection developer/infra-data ignored duplicate URL: https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/hansel-2",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/aug/05/wednesday-briefing-how-misinformation-and-a-hardened-immigration-policy-turned-ceuta-into-europes-latest-flashpoint",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-06/why-the-rbi-is-emerging-as-an-asian-rate-outlier-in-five-charts",
+    "LLM subsection china/china-society-law ignored duplicate URL: https://www.chinanews.com.cn/sh/2026/08-06/10672842.shtml",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-06/japan-s-kishida-on-growth-strategy-and-yen-intervention-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-06/ai-driven-chip-boom-lifts-korean-current-account-to-fresh-record",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.primeintellect.ai/blog/prime-agent",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://randsinrepose.com/archives/blade-runner-title-cards",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://runarcn.no/android-to-linux"
+  ]
+}
