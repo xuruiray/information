@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-07",
+  "title": "信息日报 2026-08-07",
+  "title_en": "Information Daily 2026-08-07",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "骨质疏松药物新研究：或可阻断脊柱损伤",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260806051943.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "一项新研究发现，遗传变化可能引发连锁反应，导致脊柱天然减震器硬化和退化。斑马鱼模型实验显示，胶原相关基因缺陷会引发矿物质堆积和脊柱融合，类似人类椎间盘疾病。研究人员使用一种已上市的骨质疏松药物并靶向脂肪代谢，成功减轻了损伤。该发现为椎间盘退行性疾病提供了潜在治疗新路径。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Osteoporosis Drug Blocks Spinal Damage in New Study",
+    "summary_en": "A new study reveals that genetic changes may trigger a chain reaction causing the spine's natural shock absorbers to harden and deteriorate. Zebrafish with a faulty collagen-related gene developed mineral buildup and spinal fusion similar to human disc disease. Researchers reduced the damage using an existing osteoporosis drug and by targeting fat metabolism, offering a potential new treatment avenue for degenerative disc disease.",
+    "original_title": "A drug already used for osteoporosis blocked spinal damage in a new study",
+    "published_at": "2026-08-06T05:50:21-04:00",
+    "reason": "该研究将已上市药物用于新适应症，具备快速转化潜力，对常见脊柱健康问题有广泛影响；且在各版面候选中评分最高。",
+    "reason_en": "This study repurposes an existing drug for a new indication, offering rapid translation potential and broad impact on common spinal health issues; it also has the highest score among all section candidates.",
+    "score": 9.85
+  },
+  "path": "papers/2026-08-07.html",
+  "raw_path": "raw/2026-08-07.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260806051943.htm",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+  ]
+}
