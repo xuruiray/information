@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-08",
+  "title": "信息日报 2026-08-08",
+  "title_en": "Information Daily 2026-08-08",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 误攻 Hugging Face 事件时间线公布",
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+    "source": "Simon Willison",
+    "summary": "OpenAI 在 Black Hat 安全大会上临时演示了“Hugging Face 事件”，随后发布的视频详细披露了事件经过及 OpenAI 内部应对过程。信息密度很高，揭示了这次意外如何发生、影响如何扩散，以及 OpenAI 如何补救。开发者社区由此再次聚焦 AI 供应链安全与平台间信任问题。",
+    "source_en": "Simon Willison",
+    "title_en": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "summary_en": "In a last-minute Black Hat session, OpenAI presented 'the Hugging Face Incident'; the video, published yesterday, is information-dense and provides a full timeline of the accidental attack, its spread, and OpenAI's internal response. The disclosure has renewed developer-community concerns about AI supply-chain security and trust between platforms.",
+    "original_title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "published_at": "2026-08-07T23:55:58+00:00",
+    "reason": "该事件是当天最具新闻性的 AI 安全议题，直接影响开发者平台信任与供应链安全，细节首次完整披露，建议作为阅读起点。",
+    "reason_en": "This is the day's most significant AI security story, affecting developer trust and supply-chain resilience. The full timeline has now come to light, making it the natural starting point for readers.",
+    "score": 12.1
+  },
+  "path": "papers/2026-08-08.html",
+  "raw_path": "raw/2026-08-08.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/infra-data ignored duplicate URL: https://simonwillison.net/2026/Aug/7/openai-timeline",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-07/cftc-warns-prediction-markets-against-american-style-casino-odds",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+    "LLM subsection opinion/community-discussion ignored item: unknown URL: https://www.noemamag.com/why-is-everyone-in-tech-so-sad/"
+  ]
+}
