@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-09",
+  "title": "信息日报 2026-08-09",
+  "title_en": "Information Daily 2026-08-09",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Claude Code 将 Auto 模式设为 Pro、Max 和 Team 计划默认",
+    "url": "https://simonwillison.net/2026/Aug/8/auto-mode",
+    "source": "Simon Willison",
+    "summary": "Anthropic 宣布自 8 月 14 日起，Claude Code 在 Pro、Max 和 Team 计划中默认启用 Auto 模式。该模式允许 AI 自主执行多步骤任务，减少人工审批，显示 Anthropic 对 AI 代理编码能力的高度信心。这一变化将显著提升开发者效率，并推动 AI 编程自动化进入主流。",
+    "source_en": "Simon Willison",
+    "title_en": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "summary_en": "Anthropic will make Auto mode the default for new sessions in Claude Code for Pro, Max, and Team plans starting August 14. The mode lets the AI autonomously complete multi-step tasks with reduced human approval, signaling strong confidence in its AI coding agent. The change is set to boost developer productivity and mainstream autonomous AI programming.",
+    "original_title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "published_at": "2026-08-08T22:36:03+00:00",
+    "reason": "该消息涉及主流 AI 编程工具的重大默认设置变更，影响广泛开发者，且为今日开发者社区聚焦点，评分最高。",
+    "reason_en": "This news represents a major default-setting change in a mainstream AI coding tool, affecting a wide range of developers and drawing significant attention in the developer community, with the highest score.",
+    "score": 11.1
+  },
+  "path": "papers/2026-08-09.html",
+  "raw_path": "raw/2026-08-09.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Aug/8/auto-mode",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/basedash",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-09/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-08/world-economy-latest-us-employment-declines-unexpectedly",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.fastmail.com/blog/fastmail-offers-eu-data-region",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral"
+  ]
+}
