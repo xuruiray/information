@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-10",
+  "title": "信息日报 2026-08-10",
+  "title_en": "Information Daily 2026-08-10",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI因安全担忧放缓Astra模型开发",
+    "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+    "source": "TechCrunch AI",
+    "summary": "OpenAI表示，其尚未发布的Astra模型已触及“关键网络安全阈值”，能够自主识别并攻击防护严密的真实系统。出于安全考虑，OpenAI已放缓该模型的开发，并强调在确保安全之前不会部署。这凸显了前沿AI能力与安全监管之间的紧张关系。",
+    "source_en": "TechCrunch AI",
+    "title_en": "OpenAI says it slowed Astra model development over security concerns",
+    "summary_en": "OpenAI said its in-development Astra model had reached a \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems. The company has slowed development to address safety concerns and stated it will not deploy the model until it is deemed safe. This underscores the growing tension between frontier AI capability and security safeguards.",
+    "original_title": "OpenAI says it slowed Astra model development over security concerns",
+    "published_at": "2026-08-07T22:48:24+00:00",
+    "reason": "AI安全是当前最重要的科技议题，OpenAI作为行业领导者首次公开承认其模型达到可自主发起网络攻击的危险阈值，并主动放缓开发，这一事件具有里程碑意义，可能重塑全球AI监管和行业安全标准。",
+    "reason_en": "AI safety is the most critical tech issue today. OpenAI, as an industry leader, publicly acknowledged for the first time that its model reached a dangerous threshold for autonomous cyberattacks and proactively slowed development, a landmark event that could reshape global AI regulation and industry safety standards.",
+    "score": 5.95
+  },
+  "path": "papers/2026-08-10.html",
+  "raw_path": "raw/2026-08-10.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260808235013.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/argos-2",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/soup-cli",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-10/australian-scandium-miner-soars-after-400-million-us-investment",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=49233423"
+  ]
+}
