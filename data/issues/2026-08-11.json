@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-11",
+  "title": "信息日报 2026-08-11",
+  "title_en": "Information Daily 2026-08-11",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Meta 重返开源模型赛道，发布 30B 参数 Muse Glimmer",
+    "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
+    "source": "Simon Willison",
+    "summary": "Meta 重返开源权重模型赛道，推出全新 30B 参数模型 Muse Glimmer，采用 Apache 2.0 许可。该模型针对端到端智能体任务做了优化，据称在本地模型所需的任务完成上表现优异。与之前复杂的 Llama 许可相比，新许可更宽松，预计将推动开源社区和私有部署的广泛应用。",
+    "source_en": "Simon Willison",
+    "title_en": "Introducing Muse Glimmer",
+    "summary_en": "Meta is back in the open-weights game with Muse Glimmer, a brand new 30B model released under a clean Apache 2.0 license. The model is optimized for end-to-end agentic task completion and achieves a strong success rate in local use. The permissive license is a step up from Meta’s earlier Llama licenses and is expected to accelerate adoption in open-source and on-premises deployments.",
+    "original_title": "Introducing Muse Glimmer",
+    "published_at": "2026-08-10T23:56:03+00:00",
+    "reason": "Meta 以宽松许可发布 30B 开源模型，标志着开源AI生态的重要回归，直接影响本地部署和智能体开发方向，影响面覆盖开发者、创业公司与研究者。",
+    "reason_en": "Meta’s return to open weights with a permissively licensed 30B model reshapes the open-source AI landscape and directly affects local deployment and agent development, making it the most consequential story of the day.",
+    "score": 10.1
+  },
+  "path": "papers/2026-08-11.html",
+  "raw_path": "raw/2026-08-11.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/prime-intellect",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-10/japan-s-growth-minister-says-investment-plan-will-boost-yen",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-10/gold-touches-4-400-as-traders-turn-focus-to-us-inflation-data",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-10/colombia-inflation-unexpectedly-slows-easing-pressure-on-rates",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-10/sec-alleges-fund-adviser-misled-investors-in-pre-ipo-schemes",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-10/trump-touts-3b-in-mineral-project-to-counter-china-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.effort.news/uk-lobby",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.massaschadeconsument.nl/collectieve-acties/playstation"
+  ]
+}
