@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-12",
+  "title": "信息日报 2026-08-12",
+  "title_en": "Information Daily 2026-08-12",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中国商飞C919开启首次国际商业航班，挑战波音空客格局",
+    "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight",
+    "source": "卫报国际",
+    "summary": "中国商飞C919客机定于12日执飞北京至乌兰巴托航线，成为中国国产客机首个国际商业航班。分析人士认为，尽管此举具有象征意义，但要挑战波音和空客的长期主导地位，仍需数代人的努力。",
+    "source_en": "The Guardian World",
+    "title_en": "Passenger jet billed as China’s answer to Boeing and Airbus prepares to make first international flight",
+    "summary_en": "The Comac C919 will make its first international flight on Wednesday, flying from Beijing to Ulaanbaatar, Mongolia. Experts say it could take generations for China to challenge the dominance of Boeing and Airbus in the global aviation industry.",
+    "original_title": "Passenger jet billed as China’s answer to Boeing and Airbus prepares to make first international flight",
+    "published_at": "2026-08-12T02:02:04+00:00",
+    "reason": "C919首次走出国门执飞国际航线，是中国高端制造与商用航空史上具有里程碑意义的新闻，牵动产业、外交与市场多重议题，也是国际媒体普遍关注的中国观察焦点。",
+    "reason_en": "The C919's first international flight marks a milestone for China's high-end manufacturing and commercial aviation, carrying implications for industry, diplomacy, and global markets. It is a top China-focused story widely covered by international media.",
+    "score": 9.0
+  },
+  "path": "papers/2026-08-12.html",
+  "raw_path": "raw/2026-08-12.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-11/french-economy-set-to-maintain-momentum-central-bank-says",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-11/south-african-unemployment-rate-jumps-to-four-year-high-of-33-6",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://ngrok.com/blog/compression-is-prediction",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx"
+  ]
+}
