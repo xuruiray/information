@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-13",
+  "title": "信息日报 2026-08-13",
+  "title_en": "Information Daily 2026-08-13",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "韩国芯片股10天涨23% 重返技术性牛市",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-13/korean-stocks-rise-22-in-ten-days-as-chip-rally-regains-steam",
+    "source": "彭博市场",
+    "summary": "全球AI交易回暖推动韩国股市强劲反弹，10天内上涨23%，接近技术性牛市，与上月历史性暴跌形成鲜明对比。芯片股领涨，反映市场对人工智能基础设施需求的持续乐观。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Korean Stocks Rise 23% in 10 Days as Chip Rally Regains Steam",
+    "summary_en": "A revival in the global AI trade pushed South Korean stocks toward a technical bull market, marking a dramatic turnaround from last month's historic rout. Chip shares led the gains, reflecting sustained optimism about AI infrastructure demand.",
+    "original_title": "Korean Stocks Rise 23% in 10 Days as Chip Rally Regains Steam",
+    "published_at": "2026-08-13T00:07:27+00:00",
+    "reason": "芯片股大涨是全球AI投资情绪回归的直接信号，对科技行业和金融市场具有广泛影响，作为今日头条能体现市场、AI和财经版面的核心趋势。",
+    "reason_en": "The sharp rally in chip stocks is a clear signal of renewed global AI investment sentiment, with broad implications for tech and financial markets, making it the natural lead.",
+    "score": 6.0
+  },
+  "path": "papers/2026-08-13.html",
+  "raw_path": "raw/2026-08-13.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.npr.org/2026/08/12/g-s1-138315/colombia-earthquake-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-13/korean-stocks-rise-22-in-ten-days-as-chip-rally-regains-steam",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-12/singapore-s-capitaland-sees-profit-recovery-due-to-fee-increases",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://tailscale.com/blog/sqlite-wal-reset-bug"
+  ]
+}
