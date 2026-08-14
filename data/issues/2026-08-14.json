@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-14",
+  "title": "信息日报 2026-08-14",
+  "title_en": "Information Daily 2026-08-14",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中宣部等部门联合部署开展《中华人民共和国生态环境法典》学习宣传工作",
+    "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677451.shtml",
+    "source": "中国新闻网时政",
+    "summary": "中宣部联合19家部门和单位部署《中华人民共和国生态环境法典》学习宣传工作，要求利用8月15日全国生态日及法典正式施行的契机，广泛开展社会宣传和主题活动，提升干部群众生态文明法治素养，践行“绿水青山就是金山银山”理念，投身人与自然和谐共生的现代化建设。",
+    "source_en": "中国新闻网时政",
+    "title_en": "China launches nationwide campaign to study Ecological Environment Code",
+    "summary_en": "The Publicity Department of the CPC Central Committee, together with 19 other agencies, has launched a campaign to study and promote the new Ecological Environment Code of the People's Republic of China. Local authorities are urged to use Aug. 15, National Ecology Day and the code's effective date, to organize public outreach and themed events, enhance ecological civilization legal awareness, and practice the philosophy that 'lucid waters and lush mountains are invaluable assets.' The campaign aims to foster broad participation in building a modernization where humanity and nature coexist harmoniously.",
+    "original_title": "中宣部等部门联合部署开展《中华人民共和国生态环境法典》学习宣传工作",
+    "published_at": "2026-08-14T10:10:54+08:00",
+    "reason": "生态环境法典明日正式施行，是生态文明法治建设的里程碑事件。中宣部等19部门联合部署学习宣传，体现国家高度重视，兼具政策性与民生关注度，适合作为今日头条。",
+    "reason_en": "The Ecological Environment Code takes effect tomorrow, marking a milestone in China's ecological civilization legal framework. The joint campaign by 19 agencies underscores its national significance, combining policy importance and public relevance, making it the natural lead today.",
+    "score": 9.9
+  },
+  "path": "papers/2026-08-14.html",
+  "raw_path": "raw/2026-08-14.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/08-14/10677451.shtml",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-13/goldman-s-kaplan-backs-kick-the-can-fed-caution-on-rate-hikes",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://gruhn.me/blog/2026-08-13",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck"
+  ]
+}
