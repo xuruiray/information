@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-16",
+  "title": "信息日报 2026-08-16",
+  "title_en": "Information Daily 2026-08-16",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "韦伯望远镜发现海王星内卫星或为古老灾变残骸",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "詹姆斯·韦伯太空望远镜发现，海王星内卫星可能源自一颗被摧毁的古老冰卫星。研究人员在拉里萨、加拉蒂亚和海王星环上探测到黏土矿物，这类矿物通常需要液态水才能形成，但卫星表面并无明显水冰。这表明物质可能来自更大冰卫星的内部深处，为海王星系统曾发生宇宙灾难提供新线索。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+    "summary_en": "NASA's James Webb Space Telescope has uncovered surprising clues that Neptune's strange inner moons may be the wreckage of an ancient cosmic catastrophe. Researchers detected clay-like minerals on Larissa, Galatea, and Neptune's rings that form in the presence of liquid water, yet the moons themselves show no obvious water ice. The material likely came from deep inside much larger icy moons that were shattered long ago, reshaping our understanding of the Neptunian system.",
+    "original_title": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+    "published_at": "2026-08-14T00:35:05-04:00",
+    "reason": "作为当日最重要的科学突破，JWST 的发现直接改写了对海王星系统演化的认知，且在所有候选新闻中评分最高，最适合作为头条。",
+    "reason_en": "As the most significant scientific breakthrough of the day, the JWST discovery directly revises our understanding of Neptune's system evolution, and it has the highest relevance score among all candidates, making it the clear lead item.",
+    "score": 9.85
+  },
+  "path": "papers/2026-08-16.html",
+  "raw_path": "raw/2026-08-16.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/z-ai",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-15/world-economy-latest-us-cpi-softens-uk-economy-expands",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://sankalp.bearblog.dev/autoresearch",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
+  ]
+}
