@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-18",
+  "title": "信息日报 2026-08-18",
+  "title_en": "Information Daily 2026-08-18",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "科学家将DNA转化为内存设备 能耗降低百倍",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260816044853.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "研究人员将合成DNA与半导体结合，创造出一种超低功耗内存设备，可在同一位置存储和处理信息。这种生物混合技术有望显著提升AI系统和下一代计算机的能效，为未来计算设备开辟新的可能。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "Scientists turn DNA into a memory device that uses 100x less power",
+    "summary_en": "Researchers combined synthetic DNA with a semiconductor to create an ultra-low-power memory device capable of storing and processing information in the same place. This bio-hybrid technology, described as a potential game-changer, could eventually help make AI systems and next-generation computers far more energy efficient, addressing a key bottleneck in computing performance and sustainability.",
+    "original_title": "Scientists turn DNA into a memory device that uses 100x less power",
+    "published_at": "2026-08-17T04:06:45-04:00",
+    "reason": "该成果将生物分子与半导体结合，有望大幅降低AI计算的能耗，是当天的重大科技突破，且综合评分最高。",
+    "reason_en": "This breakthrough merges biological molecules with semiconductors, potentially slashing AI computing energy consumption. It is the top-scoring science story with broad implications for future computing.",
+    "score": 10.8
+  },
+  "path": "papers/2026-08-18.html",
+  "raw_path": "raw/2026-08-18.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
+    "LLM subsection science-tech/chips-hardware ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260816044853.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/hansel-by-seedling",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-18/m-g-backs-korean-bonds-sees-too-many-rate-hikes-priced-in",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-17/canada-inflation-ticks-up-to-3-amid-higher-gas-prices"
+  ]
+}
