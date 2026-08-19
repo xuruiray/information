@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-19",
+  "title": "信息日报 2026-08-19",
+  "title_en": "Information Daily 2026-08-19",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Mojo🔥 现已开源",
+    "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source",
+    "source": "Simon Willison",
+    "summary": "Mojo编程语言正式开源，采用Apache 2.0许可证发布编译器与工具链。Mojo旨在结合Python的易用性与C的性能，适用于AI开发。自2023年承诺开源以来，历经多次延期，如今在1.0版本后兑现诺言。",
+    "source_en": "Simon Willison",
+    "title_en": "Mojo🔥 is now open source",
+    "summary_en": "The Mojo programming language has been open-sourced under the Apache 2.0 license, releasing its compiler and toolchain. Designed to combine Python's usability with C-like performance for AI development, Mojo has delivered on its long-promised open-source release following its 1.0 launch.",
+    "original_title": "Mojo🔥 is now open source",
+    "published_at": "2026-08-18T21:39:20+00:00",
+    "reason": "这是当天对开发者社区影响最大的事件，标志着新型AI编程语言的里程碑式开源。",
+    "reason_en": "This is the most impactful event for the developer community today, marking the milestone open-sourcing of a new AI-focused programming language.",
+    "score": 11.1
+  },
+  "path": "papers/2026-08-19.html",
+  "raw_path": "raw/2026-08-19.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-19/korea-bears-brunt-as-higher-bond-yields-weigh-on-chip-stocks"
+  ]
+}
