@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-20",
+  "title": "信息日报 2026-08-20",
+  "title_en": "Information Daily 2026-08-20",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenRouter 并入 Stripe，AI 模型调用平台迎整合",
+    "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+    "source": "Hacker News",
+    "summary": "OpenRouter 是一个统一访问多家 AI 模型的 API 平台，官方宣布并入支付基础设施公司 Stripe。此前有报道称 Stripe 拟以超过 70 亿美元收购 OpenRouter。此次整合预计将改变 AI 模型的分发与计费方式，也让开发者工具与支付能力更紧密地结合。HN 社区对此讨论热烈。",
+    "source_en": "Hacker News",
+    "title_en": "OpenRouter is joining Stripe",
+    "summary_en": "OpenRouter, a platform providing unified API access to various AI models, announced it is joining Stripe. Reports had indicated Stripe would acquire OpenRouter for over $7 billion. The integration is expected to transform AI model distribution and billing, tying developer tools more closely with payment infrastructure. The Hacker News community responded with extensive discussion. This move reflects the growing commercialization of AI infrastructure and consolidates the AI model gateway market under a major fintech player.",
+    "original_title": "OpenRouter is joining Stripe",
+    "published_at": "2026-08-19T17:32:38+00:00",
+    "reason": "OpenRouter 是开发者调用各类 AI 模型的入口，被 Stripe 收购标志着 AI 基础设施商业化进入整合期，直接关系到全球开发者生态和 AI 应用成本，因此作为今日头条。",
+    "reason_en": "OpenRouter is a key gateway for developers accessing multiple AI models. Its acquisition by Stripe marks a consolidation phase in AI infrastructure commercialization, directly affecting the global developer ecosystem and AI application costs, making it the lead story.",
+    "score": 8.5
+  },
+  "path": "papers/2026-08-20.html",
+  "raw_path": "raw/2026-08-20.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/claude-watermark",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/fairphone",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-19/alibaba-tops-chinese-tech-stocks-this-quarter-on-ai-resurgence",
+    "LLM subsection finance/macro-policy ignored item: unknown URL: https://www.bloomberg.com/news/articles/2026-08-19/south-africa-inflation-surprise-builds-case-for-holding-rates",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-20/india-bars-jpmorgan-unit-over-alleged-stock-market-manipulation",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe"
+  ]
+}
