@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-22",
+  "title": "信息日报 2026-08-22",
+  "title_en": "Information Daily 2026-08-22",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "AI 会计初创公司 Rillet 48 小时融资 1 亿美元，晋级独角兽",
+    "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours",
+    "source": "TechCrunch 创业",
+    "summary": "Rillet 首席执行官 Nicolas Kopp 在董事会上分享增长数据后，引发 Iconiq、红杉等投资机构的抢投热潮，公司在 48 小时内获得 1 亿美元融资并成为独角兽。这次融资并非主动寻求，而是增长数字带来的自然反应。",
+    "source_en": "TechCrunch Startups",
+    "title_en": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
+    "summary_en": "Rillet's CEO presented growth metrics at a board meeting, triggering intense interest from investors including Iconiq and Sequoia, leading to a $100M round and unicorn status within 48 hours—without the company actively seeking funding. The round was driven purely by the strength of Rillet's performance numbers, underscoring the market's appetite for AI-native financial tools.",
+    "original_title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
+    "published_at": "2026-08-21T22:10:01+00:00",
+    "reason": "AI 在会计等垂直行业的落地获得资本高度认可，48 小时成为独角兽，是当日科技商业领域最具代表性的事件，反映了 AI 创业与投资的最新热度。",
+    "reason_en": "The rapid $100M raise highlights how AI is transforming vertical industries, with strong investor appetite, making it the day's most representative tech-business story.",
+    "score": 8.8
+  },
+  "path": "papers/2026-08-22.html",
+  "raw_path": "raw/2026-08-22.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/shogunai",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/google-antigravity",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m",
+    "LLM output missed subsection china/china-policy; filled with ranked candidates.",
+    "LLM output missed subsection china/china-industry-local; filled with ranked candidates.",
+    "LLM output missed subsection china/china-society-law; filled with ranked candidates.",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-21/moderna-merck-cancer-vax-gives-hope-video"
+  ]
+}
