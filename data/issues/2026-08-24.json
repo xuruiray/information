@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-24",
+  "title": "信息日报 2026-08-24",
+  "title_en": "Information Daily 2026-08-24",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Ora 在 Vercel 上为各大主流 AI 代理做基准测试",
+    "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "source": "Vercel 博客",
+    "summary": "Vercel博客详解其AI代理平台Ora如何在真实网站上对主流AI代理进行同台测试。Ora的16人工程团队每天提交数百次代码，在活体网站上派出代理执行注册、集成、付费等任务。结果表明，目前99%的网站不适合代理操作。文章同时展示了前端、后端和代理运行时统一在一体化平台上的实践。",
+    "source_en": "Vercel Blog",
+    "title_en": "How Ora benchmarks every major AI agent on Vercel",
+    "summary_en": "Vercel's blog explains how Ora benchmarks every major AI agent on live websites, instructing agents to sign up for products, integrate, and pay. With a 16-person engineering team producing hundreds of commits a day, Ora runs agents side-by-side on real sites and often sees them fail. By Ora's estimate, 99% of the web isn't agent-ready. The piece also highlights the benefits of having front-end, back-end, and agent runtime on one platform. This real-world testing offers practical insight into AI agent reliability.",
+    "original_title": "How Ora benchmarks every major AI agent on Vercel",
+    "published_at": "2026-08-21T21:00:00+00:00",
+    "reason": "作为头条，因为它反映了当前AI代理从演示走向真实场景的关键评测，对开发者和AI行业具有直接参考价值；同时Vercel作为基础设施提供商的视角，揭示了代理落地的真实瓶颈。",
+    "reason_en": "As the lead, this story captures the shift of AI agents from demos to real-world evaluation, offering direct insights for developers and the AI industry. Vercel's infrastructure perspective also exposes the real bottleneck: most of the web isn't ready for agents.",
+    "score": 11.9
+  },
+  "path": "papers/2026-08-24.html",
+  "raw_path": "raw/2026-08-24.html",
+  "raw_count": 169,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/openlogi",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/ftse-s-reshuffle-may-give-vietnamese-stocks-a-3-billion-boost",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/shein-s-purchase-of-everlane-faces-us-national-security-review-mt6k4xb6",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/india-s-10-billion-equity-rush-puts-august-on-track-for-record",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/hedge-funds-ramp-up-dollar-shorts-ahead-of-bessent-s-fiscal-plan",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://malisper.me/jit-compiling-code-in-5-us",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://martypc.net/"
+  ]
+}
