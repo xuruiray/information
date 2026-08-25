@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-25",
+  "title": "信息日报 2026-08-25",
+  "title_en": "Information Daily 2026-08-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中国拟修法建立自动驾驶汽车道路交通安全制度",
+    "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683619.shtml",
+    "source": "中国新闻网时政",
+    "summary": "道路交通安全法修订草案25日提请十四届全国人大常委会第二十四次会议审议。草案拟建立自动驾驶汽车道路交通安全制度，对‘盲驾’、‘暴走团’等行为明确治理措施，并将电动自行车在非机动车道上的最高时速从15公里调整为20公里。草案还要求电动自行车驾乘人员佩戴安全头盔。",
+    "source_en": "中国新闻网时政",
+    "title_en": "China Moves to Establish Road Safety Rules for Self-Driving Cars",
+    "summary_en": "The draft amendment to China's Road Traffic Safety Law was submitted on Aug. 25 to the 24th session of the 14th NPC Standing Committee. It proposes a legal framework for autonomous driving road safety, measures against distracted driving and unauthorized road-use group activities, and raises the e-bike speed limit in non-motorized lanes from 15 to 20 km/h. It also mandates helmets for e-bike riders and passengers.",
+    "original_title": "中国拟修法建立自动驾驶汽车道路交通安全制度",
+    "published_at": "2026-08-25T09:52:11+08:00",
+    "reason": "该立法首次在国家层面系统规范自动驾驶汽车，直接影响未来智能交通与AI技术落地，同时回应民众出行安全关切，是当天最具政策影响力的新闻。",
+    "reason_en": "This is the first national-level legislative attempt to regulate autonomous vehicles, directly affecting future smart mobility and AI deployment while addressing public safety concerns, making it the day's most policy-significant story.",
+    "score": 8.9
+  },
+  "path": "papers/2026-08-25.html",
+  "raw_path": "raw/2026-08-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/google-antigravity",
+    "LLM output missed subsection startup-product/startup-strategy; filled with ranked candidates.",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss",
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/08-25/10683619.shtml",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-24/copy-trading-offers-alternative-to-traditional-investing-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-24/bond-investor-ed-al-hussainy-on-bessent-s-treasury-twist-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-24/china-puts-brave-face-on-weak-growth-in-rare-defense-of-economy",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://developer.apple.com/news?id=1ptvdtcm"
+  ]
+}
