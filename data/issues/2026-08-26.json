@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-26",
+  "title": "信息日报 2026-08-26",
+  "title_en": "Information Daily 2026-08-26",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 自研推理芯片 Jalapeño 首发成绩：速度与效率领先行业",
+    "url": "https://openai.com/index/jalapeno-first-results",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI 发布自研推理芯片 Jalapeño 的首批测试结果，称其在 AI 推理任务上实现了更高的吞吐量、更低的延迟和更好的能效，为大规模部署现代模型提供了更快、更省电的算力选择。",
+    "source_en": "OpenAI News",
+    "title_en": "OpenAI's Jalapeño chip shows industry-leading speed and efficiency in AI inference",
+    "summary_en": "OpenAI unveiled the first benchmark results for its custom inference chip, Jalapeño, showing higher throughput, lower latency, and improved power efficiency for modern AI models — offering a faster, more energy-efficient compute option for large-scale deployment.",
+    "original_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "published_at": "2026-08-25T07:00:00+00:00",
+    "reason": "这是 OpenAI 首款自研推理芯片的公开业绩，直接关系到 AI 算力成本与规模化落地，是当天 AI 基础设施层面最具产业影响力和前瞻性的新闻。",
+    "reason_en": "This is the first public performance data for OpenAI's custom inference silicon, directly impacting AI compute costs and scalability — the most influential and forward-looking infrastructure story of the day.",
+    "score": 8.2
+  },
+  "path": "papers/2026-08-26.html",
+  "raw_path": "raw/2026-08-26.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/jalapeno-first-results",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-26/bank-of-thailand-seen-extending-rate-pause-after-slump-in-second-quarter-growth",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-25/bok-to-weigh-back-to-back-hike-as-growth-inflation-remain-firm",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-25/imf-chief-urges-governments-to-tackle-rising-fiscal-risks",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-25/fusion-firm-gets-major-monetary-boost-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/jeffhajewski/latticedb",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/ThinkOffApp/CarWatch"
+  ]
+}
