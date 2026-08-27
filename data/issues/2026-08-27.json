@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-27",
+  "title": "信息日报 2026-08-27",
+  "title_en": "Information Daily 2026-08-27",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "英伟达同意以130亿美元收购Hugging Face",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "source": "Hacker News",
+    "summary": "英伟达同意以130亿美元收购AI模型托管平台Hugging Face，交易将这家开源AI社区旗舰企业纳入英伟达生态。此举可能重塑AI模型的分发与协作方式，并加剧行业整合，影响开发者和初创企业。",
+    "source_en": "Hacker News",
+    "title_en": "Nvidia agrees to acquire Hugging Face for $13B",
+    "summary_en": "Nvidia has agreed to acquire Hugging Face, the leading platform for hosting and sharing AI models, for $13 billion. The acquisition would bring a cornerstone of the open-source AI ecosystem under Nvidia's control, with far-reaching implications for model distribution, developer workflows, and competitive dynamics in the AI industry. The deal is expected to face regulatory scrutiny.",
+    "original_title": "Nvidia agrees to acquire Hugging Face for $13B",
+    "published_at": "2026-08-27T01:12:55+00:00",
+    "reason": "英伟达收购Hugging Face是当天AI领域最大新闻，交易金额达130亿美元，直接关系到开源AI生态、开发者社区和行业竞争，对科技投资走向有重要指引，故列为头条。",
+    "reason_en": "Nvidia's acquisition of Hugging Face is the biggest AI story today. The $13B deal directly touches the open-source ecosystem, developer community, and competitive landscape, making it the lead item for its outsized impact on tech investment and strategy.",
+    "score": 9.5
+  },
+  "path": "papers/2026-08-27.html",
+  "raw_path": "raw/2026-08-27.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/z-ai",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/hflow",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-27/billionaire-agarwal-s-vedanta-plans-third-rupee-bond-this-year",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-27/bok-delivers-back-to-back-rate-hike-to-curb-inflation-risks",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-27/bok-s-back-to-back-hike-preemptive-ubp-s-nip-says-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8"
+  ]
+}
