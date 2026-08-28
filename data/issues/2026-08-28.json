@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-28",
+  "title": "信息日报 2026-08-28",
+  "title_en": "Information Daily 2026-08-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美股与美债在杰克逊霍尔会议前窄幅波动",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+    "source": "彭博市场",
+    "summary": "美股与美债在杰克逊霍尔全球央行年会前窄幅震荡，投资者正等待美联储主席凯文·沃什的讲话，以判断其经济展望和抗通胀策略。市场普遍预期沃什的表态将影响短期利率路径，交易员保持谨慎，同时欧洲股市有望连续第五个月上涨，黄金持稳。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "US Stocks, Bonds Drift With Focus on Jackson Hole: Markets Wrap",
+    "summary_en": "US stocks and Treasuries drifted ahead of Federal Reserve Chair Kevin Warsh's address at the Jackson Hole symposium, with traders seeking clarity on his economic outlook and inflation strategy. The speech is expected to signal the near-term path for interest rates. Meanwhile, European stocks were set for a fifth consecutive monthly gain and gold remained steady near $4,600 an ounce, as markets globally awaited the policy cues.",
+    "original_title": "US Stocks, Bonds Drift With Focus on Jackson Hole: Markets Wrap",
+    "published_at": "2026-08-27T22:08:04+00:00",
+    "reason": "杰克逊霍尔央行年会是一年一度的全球央行政策风向标，美联储主席沃什的讲话可能直接影响全球利率预期和资产定价。美股美债在会议前的窄幅波动正是市场高度关注这一事件的表现，将其作为头条可以引领读者把握当天宏观市场的核心矛盾。",
+    "reason_en": "The Jackson Hole symposium is a key global policy event, and Fed Chair Warsh's speech could directly influence rate expectations and asset pricing worldwide. The drifts in US stocks and bonds ahead of his address highlight the market's focus, making this the lead story to frame the day's macro risks.",
+    "score": 12.0
+  },
+  "path": "papers/2026-08-28.html",
+  "raw_path": "raw/2026-08-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/revalvo",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-28/ubs-joins-rush-to-tap-lower-rates-in-china-s-onshore-bond-market",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-28/french-economy-just-dodges-recession-after-growth-revised-down"
+  ]
+}
