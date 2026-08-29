@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-29",
+  "title": "信息日报 2026-08-29",
+  "title_en": "Information Daily 2026-08-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "如今，一个关于bug的传闻就足以让人找到安全漏洞",
+    "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+    "source": "Simon Willison",
+    "summary": "剑桥大学计算机科学教授兼OCaml核心维护者Anil Madhavapeddy报告称，OCaml项目的安全补丁在讨论后几分钟内就出现被利用的迹象。这说明即使只是关于漏洞的传闻，也可能被攻击者迅速利用来发现并攻击系统，安全威胁的响应速度正变得前所未有的重要。",
+    "source_en": "Simon Willison",
+    "title_en": "Just a rumour of a bug is enough to find a security exploit these days",
+    "summary_en": "Anil Madhavapeddy, professor of computer science at Cambridge and core maintainer of OCaml, reports that security issues in OCaml projects are seeing attempted exploits within minutes of patches being shared for discussion. This alarming trend highlights that even mere rumors of a bug are enough to trigger attacks, underscoring the need for faster security responses and the growing threats faced by open-source maintainers.",
+    "original_title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "published_at": "2026-08-28T22:12:02+00:00",
+    "reason": "该事件揭示了当前软件供应链面临的新现实：安全漏洞从传闻到被利用的时间窗口急剧缩短。这一发现对开发者、运维团队和开源社区具有直接警示意义，是本日最具新闻价值和技术影响的话题。",
+    "reason_en": "This story reveals a new reality in the software supply chain: the window between a rumored vulnerability and active exploitation is shrinking dramatically. It is a direct warning to developers, operators, and the open-source community, making it the most newsworthy and impactful technical topic today.",
+    "score": 12.1
+  },
+  "path": "papers/2026-08-29.html",
+  "raw_path": "raw/2026-08-29.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/god-s-eye-view",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/hunyuan-a13b",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/cohere-2",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/meet-generation-renter-young-americans-who-no-longer-expect-ever-to-own-a-home-3cff63a9?mod=mw_rss_topstories",
+    "LLM subsection finance/macro-policy ignored item: unknown URL: https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trusts-his-words-5103dad5?mod=mw_rss_topstories",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-29/a-ceo-s-sudden-exit-spotlights-troubles-at-german-regional-banks",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-29/trump-teleprompter-pays-170-000-to-end-insider-trading-probe"
+  ]
+}
