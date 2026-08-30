@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-30",
+  "title": "信息日报 2026-08-30",
+  "title_en": "Information Daily 2026-08-30",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI、Anthropic、谷歌等百余家公司呼吁共同防御恶意AI",
+    "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
+    "source": "TechCrunch AI",
+    "summary": "世界上一些最大的科技公司和人工智能初创公司联合起来，谴责当前网络安全状况，并宣传一种他们声称可以抵御新一代网络威胁的新解决方案。",
+    "source_en": "TechCrunch AI",
+    "title_en": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    "summary_en": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and advertise a new solution that they say can ward off a new generation of cyber threats.",
+    "original_title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    "published_at": "2026-08-27T17:43:24+00:00",
+    "reason": "AI安全成为当天最受关注的议题，多家科技巨头联合发声，反映出产业对AI失控风险的高度警惕，是理解未来监管与投资动向的关键新闻。",
+    "reason_en": "AI safety emerged as the day's top issue, with major tech companies joining forces, highlighting the industry's high alert over rogue AI risks and serving as a key signal for future regulation and investment.",
+    "score": 5.95
+  },
+  "path": "papers/2026-08-30.html",
+  "raw_path": "raw/2026-08-30.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/08/260828082341.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/cohere-2",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/god-s-eye-view",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-30/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-30/south-korea-s-lee-nominates-new-finance-defense-ministers",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity"
+  ]
+}
