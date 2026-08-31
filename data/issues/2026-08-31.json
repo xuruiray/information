@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-31",
+  "title": "信息日报 2026-08-31",
+  "title_en": "Information Daily 2026-08-31",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "深入理解 ChatGPT Work：OpenAI 新一代智能工作产品的全景拆解",
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+    "source": "Simon Willison",
+    "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work 后持续迭代。它实际上是两个产品：一个运行在云端，可通过 chatgpt.com 访问；另一个是本地版。该产品功能强大但极度令人困惑。作者梳理了其架构、使用场景与当前能力边界，帮助开发者理解如何在实际工作中运用。",
+    "source_en": "Simon Willison",
+    "title_en": "Understanding ChatGPT Work",
+    "summary_en": "OpenAI announced ChatGPT Work on July 9 and has iterated rapidly. It is actually two products: a cloud version accessed via chatgpt.com and a local one. Powerful yet confusing, this explainer unpacks the architecture, use cases, and current capabilities to help developers leverage it in real work.",
+    "original_title": "Understanding ChatGPT Work",
+    "published_at": "2026-08-30T23:59:47+00:00",
+    "reason": "最高评分，且深度解析了 OpenAI 的重要新发布，对开发者与 AI 从业者具有直接参考价值，代表当日 AI 产品动态的核心。",
+    "reason_en": "Highest-scored item; an in-depth analysis of a major OpenAI launch, directly valuable to developers and AI practitioners, and central to the day's AI product news.",
+    "score": 14.1
+  },
+  "path": "papers/2026-08-31.html",
+  "raw_path": "raw/2026-08-31.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-08-31/chinese-chipmaker-longsys-seeks-800-million-in-hk-listing",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-08-31/inflation-control-good-for-us-growth-l-g-strategist-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://komoroske.com/slime-mold"
+  ]
+}
