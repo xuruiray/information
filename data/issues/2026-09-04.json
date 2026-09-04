@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-04",
+  "title": "信息日报 2026-09-04",
+  "title_en": "Information Daily 2026-09-04",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GPT-6 Astra 发布：OpenAI 下一代模型开始面向有限组织推出",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+    "source": "Simon Willison",
+    "summary": "OpenAI 今日发布 GPT-6 Astra，首先向有限组织推出，并将在未来数日逐步向所有 ChatGPT Plus、Pro、Business 与 Enterprise 用户开放，同时接入 OpenAI API 和 AWS。该模型 API 定价与 Claude 保持一致。评论者指出这是向更广泛可用性过渡的起点，但尚未提供个人实测体验。",
+    "source_en": "Simon Willison",
+    "title_en": "GPT-6 Astra: OpenAI's next-generation model starts rolling out to limited organizations",
+    "summary_en": "OpenAI has unveiled GPT-6 Astra, rolling out today to a limited set of organizations and, over coming days, to all ChatGPT Plus, Pro, Business, and Enterprise users as well as through the OpenAI API and AWS. The model is priced at the same rate as Claude on the API. Simon Willison notes he has not tried it yet, framing the launch as the beginning of a broader availability rollout.",
+    "original_title": "GPT‑6 Astra",
+    "published_at": "2026-09-03T20:18:41+00:00",
+    "reason": "GPT-6 Astra 是 OpenAI 下一代旗舰模型的首次公开部署，直接牵动 AI 模型竞争、开发工具链、API 定价和产业预期，是今日科技新闻中最具全局影响的事件。",
+    "reason_en": "GPT-6 Astra marks the first public deployment of OpenAI's next flagship model, with immediate implications for model competition, developer toolchains, API pricing, and industry expectations, making it the day's most systemically significant technology story.",
+    "score": 11.1
+  },
+  "path": "papers/2026-09-04.html",
+  "raw_path": "raw/2026-09-04.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Sep/3/gpt6-astra",
+    "LLM subsection developer/infra-data ignored duplicate URL: https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-03/latest-oil-market-news-and-analysis-for-sept-4",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-04/pnj-taps-chairwoman-s-family-for-loan-after-diamond-scandal",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://arcprize.org/blog/astra",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://armature.tech/blog/which-tools-coding-agents-install"
+  ]
+}
