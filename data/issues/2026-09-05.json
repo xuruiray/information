@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "title": "信息日报 2026-09-05",
+  "title_en": "Information Daily 2026-09-05",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GPT-6 Astra：OpenAI发布新一代智能模型",
+    "url": "https://openai.com/index/gpt-6-astra",
+    "source": "OpenAI 新闻",
+    "summary": "OpenAI推出新一代旗舰模型GPT-6 Astra，号称最智能且与人类价值观更对齐的模型，在计算机使用、编码、网络安全和科学领域均有突破。目前向有限组织开放，未来数日将面向ChatGPT Plus、Pro、Business和企业用户及API和AWS提供。",
+    "source_en": "OpenAI News",
+    "title_en": "GPT-6 Astra: A new generation of intelligence",
+    "summary_en": "OpenAI introduced GPT-6 Astra, its most intelligent and aligned model to date, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science. It is now rolling out to a limited set of organizations and will become available to ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS.",
+    "original_title": "GPT-6 Astra: A new generation of intelligence",
+    "published_at": "2026-09-03T11:00:00+00:00",
+    "reason": "作为OpenAI新一代旗舰模型的正式发布，这是当日AI领域最核心的技术与产业事件，后续多家平台快速集成，深刻影响开发者生态与前沿研究。",
+    "reason_en": "As the official launch of OpenAI's next-generation flagship model, this is the most significant technology and industry event today, with rapid integrations across platforms and deep implications for developer ecosystems and frontier research.",
+    "score": 7.2
+  },
+  "path": "papers/2026-09-05.html",
+  "raw_path": "raw/2026-09-05.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://openai.com/index/gpt-6-astra",
+    "LLM subsection ai-tech/ai-research-governance ignored duplicate URL: https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead"
+  ]
+}
