@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-10",
+  "title": "信息日报 2026-09-10",
+  "title_en": "Information Daily 2026-09-10",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "最高人民法院发布2026年反垄断典型案例",
+    "url": "https://www.chinanews.com.cn/gn/2026/09-10/10693797.shtml",
+    "source": "中国新闻网时政",
+    "summary": "最高人民法院9月10日发布6件反垄断典型案例，旨在发挥典型案例在明晰市场竞争规则、推动公平竞争法治环境中的示范作用。发布正值2026年中国公平竞争政策宣传周。案例涉及市场竞争行为认定与法律适用，为执法和司法提供参考。",
+    "source_en": "中国新闻网时政",
+    "title_en": "China's Supreme People's Court Releases 2026 Typical Antitrust Cases",
+    "summary_en": "China's Supreme People's Court on September 10 released six typical antitrust cases aimed at clarifying market competition rules and promoting a fair-competition legal environment. The release coincided with China's 2026 Fair Competition Policy Promotion Week. The cases are meant to guide courts and regulators in applying antitrust law and addressing market conduct. They underscore the judiciary's role in supporting fair competition as part of the country's broader push to strengthen competition policy enforcement.",
+    "original_title": "最高人民法院发布2026年人民法院反垄断典型案例",
+    "published_at": "2026-09-10T10:54:39+08:00",
+    "reason": "作为当日评分最高（10.9）的报道，且涉及中国反垄断司法与公平竞争政策，对市场规则和企业合规具有直接指导意义，适合作为日报头条。",
+    "reason_en": "It is the highest-scoring item of the day (10.9) and addresses antitrust enforcement and fair competition policy in China, offering direct guidance for market rules and corporate compliance, making it a strong lead for the daily briefing.",
+    "score": 10.9
+  },
+  "path": "papers/2026-09-10.html",
+  "raw_path": "raw/2026-09-10.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/ckgwj4kl5lno?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.bbc.co.uk/news/articles/cy0zqk2w92lo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/09-10/10693797.shtml",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-10/ecb-to-hike-interest-rates-again-as-iran-war-fans-inflation",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-10/rbi-sees-common-technology-providers-as-financial-stability-risk",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.gamespot.com/articles/blizzard-workers-win-historic-union-contract-that-could-set-a-new-standard-for-game-developers"
+  ]
+}
