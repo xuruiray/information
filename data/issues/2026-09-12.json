@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-12",
+  "title": "信息日报 2026-09-12",
+  "title_en": "Information Daily 2026-09-12",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "别忽视 wrapture：Python 猴子补丁新工具受关注",
+    "url": "https://simonwillison.net/2026/Sep/11/wrapture",
+    "source": "Simon Willison",
+    "summary": "Graham Dumpleton 发布的新猴子补丁包 wrapture 正成为 Python 开发者不可或缺的工具。作者指出，自 8 月 31 日首发以来，相关教程几乎每日更新，但社区讨论仍偏少。该工具可帮助开发者更安全、便捷地替换和包装函数与类，适合关注运行时可扩展性与维护性的团队。",
+    "source_en": "Simon Willison",
+    "title_en": "Don't sleep on wrapture",
+    "summary_en": "Graham Dumpleton’s new monkey-patching package wrapture is shaping up as an indispensable tool for Python developers. Simon Willison notes that despite near-daily tutorials since its August 31 release, the project has received little buzz. It offers safer, more convenient ways to wrap and replace functions and classes, making it relevant for teams focused on runtime extensibility and maintainability.",
+    "original_title": "Don't sleep on wrapture",
+    "published_at": "2026-09-11T13:51:32+00:00",
+    "reason": "该条候选综合评分最高，反映开发者社区对实用开源工具的高度关注；同时它连接当天开发、AI 基础设施与 Python 生态多条线索，适合作为日报头条。",
+    "reason_en": "It is the highest-scoring candidate, reflecting strong developer interest in practical open-source tooling and linking several threads across development, AI infrastructure and the Python ecosystem.",
+    "score": 12.1
+  },
+  "path": "papers/2026-09-12.html",
+  "raw_path": "raw/2026-09-12.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Sep/11/wrapture",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-11/wall-street-week-eu-s-solar-problem-defense-tech-boom-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-10/carney-calls-us-trade-bans-modest-signals-canada-won-t-retaliate",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories"
+  ]
+}
