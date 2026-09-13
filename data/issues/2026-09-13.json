@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-13",
+  "title": "信息日报 2026-09-13",
+  "title_en": "Information Daily 2026-09-13",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "习近平在新德里获红毯礼遇，中印关系显露缓和",
+    "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
+    "source": "卫报国际",
+    "summary": "中国国家主席习近平抵达新德里出席金砖国家峰会，受到红毯欢迎。报道称，中印这对地区竞争对手在公开场合展示关系缓和，同时在动荡的美国因素之下暗自争夺地区领导权。此行被视为2020年致命边境冲突之后两国关系继续解冻的一步。",
+    "source_en": "The Guardian World",
+    "title_en": "Xi Jinping gets red carpet at Brics summit amid thaw in India-China relations",
+    "summary_en": "Chinese President Xi Jinping received a red-carpet welcome in New Delhi for a summit of Brics developing nations, as regional rivals Beijing and Delhi made a public display of thawing relations while quietly competing to lead at a time of shaky US leadership. The arrival is seen as a step towards reconciliation after the deadly 2020 military clash between the two countries.",
+    "original_title": "Xi Jinping gets red carpet at Brics summit amid thaw in India-China relations",
+    "published_at": "2026-09-12T12:39:12+00:00",
+    "reason": "金砖新德里峰会与习近平—莫迪会晤是当日最具全局影响的事件：它牵动中印关系走向、新兴经济体在关税与制裁问题上的联合立场，并与财经理财版面的能源通胀、美国—中国竞争议题直接呼应，值得作为头条优先阅读。",
+    "reason_en": "The Brics summit in New Delhi and the Xi–Modi meeting were the day's most consequential story: they shape India–China relations and the emerging-power front on tariffs and sanctions, and connect directly to the finance desk's coverage of energy-driven inflation and US–China rivalry.",
+    "score": 3.9
+  },
+  "path": "papers/2026-09-13.html",
+  "raw_path": "raw/2026-09-13.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/09/260912220022.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/09/260911214305.htm",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb?traffic_source=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-12/bloomberg-this-weekend-09-12-2026-video",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me"
+  ]
+}
