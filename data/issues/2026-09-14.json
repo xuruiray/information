@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-14",
+  "title": "信息日报 2026-09-14",
+  "title_en": "Information Daily 2026-09-14",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "AI 放缓担忧拖累股市下挫，油价走高",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
+    "source": "彭博市场",
+    "summary": "多家主要人工智能公司呼吁放缓技术开发节奏，引发市场对这一今年涨势核心板块的担忧，美股与股指期货回落，油价上涨。同时，中东局势紧张推升避险需求，新兴市场股市走低，全球利率前景的不确定性进一步施压风险资产。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stocks Drop on AI Slowdown Concerns, Oil Advances: Markets Wrap",
+    "summary_en": "Stocks and US equity futures retreated after major artificial intelligence companies called for a slowdown in the technology's development, raising doubts about the sector that has powered this year's rally. Oil advanced. The pullback comes as Middle East tensions push investors toward safer assets, emerging-market stocks decline, and uncertainty over the global rate outlook adds further pressure on risk assets ahead of the Fed's next decision.",
+    "original_title": "Stocks Drop on AI Slowdown Concerns, Oil Advances: Markets Wrap",
+    "published_at": "2026-09-13T22:06:01+00:00",
+    "reason": "AI 治理呼声首次直接冲击市场叙事，是今日覆盖 AI、财经与国际事务三条主线的交汇点，最具全局指示意义。",
+    "reason_en": "It is the clearest intersection of the day's three main threads — AI governance, markets and geopolitics — with AI-safety calls directly reshaping the market narrative.",
+    "score": 8.0
+  },
+  "path": "papers/2026-09-14.html",
+  "raw_path": "raw/2026-09-14.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Sep/11/hugging-face-security",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/resurf-2",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-14/james-danly-us-expanding-lng-exports-to-lower-prices-video",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich"
+  ]
+}
