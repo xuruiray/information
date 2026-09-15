@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-15",
+  "title": "信息日报 2026-09-15",
+  "title_en": "Information Daily 2026-09-15",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美债10年期收益率升破5%，油价续涨：市场综述",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
+    "source": "彭博市场",
+    "summary": "美国10年期国债收益率升破5%，油价延续涨势，能源成本上行推升通胀担忧，并强化了市场对美联储加息的押注。亚洲债券跟随美债走低，印度国债因央行售债计划与全球抛售进一步承压。与此同时，AI板块反弹在一定程度上抵消了油价、利率和债市带来的压力，亚洲股市表现趋稳。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Treasury 10-Year Yield Rises Past 5%, Oil Advances: Markets Wrap",
+    "summary_en": "Treasury yields climbed past 5% as rising energy costs stoked inflation concerns and strengthened bets on a Federal Reserve rate hike. Asian bonds followed Treasuries lower, with Indian debt hit especially hard by the central bank's plan to sell sovereign notes into an already pressured market. A rebound in AI-related shares helped offset pressure from oil, rates and the bond market, leaving Asian equities broadly steady.",
+    "original_title": "Treasury 10-Year Yield Rises Past 5%, Oil Advances: Markets Wrap",
+    "published_at": "2026-09-14T22:19:06+00:00",
+    "reason": "该条同时覆盖全球利率、能源价格与股市情绪三条主线，是当日影响面最广的市场信号，在候选财经条目中分值最高，适合作为整份日报的头条。",
+    "reason_en": "It ties together three of the day's main threads — global rates, energy prices and equity sentiment — making it the widest-reaching market signal of the day, and it carries the highest score among finance candidates, making it the natural lead for the daily briefing.",
+    "score": 10.0
+  },
+  "path": "papers/2026-09-15.html",
+  "raw_path": "raw/2026-09-15.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/slashy-3",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-15/bourses-and-brokers-may-win-from-india-s-proposed-auction-revamp",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-15/south-korea-finance-chief-nominee-says-economy-at-turning-point",
+    "Source hn-frontpage failed: timed out"
+  ]
+}
