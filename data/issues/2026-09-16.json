@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-16",
+  "title": "信息日报 2026-09-16",
+  "title_en": "Information Daily 2026-09-16",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美联储决议前亚洲股市上涨，油价回落",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
+    "source": "彭博市场",
+    "summary": "亚洲股市上涨，债券小幅走高，投资者等待美联储利率决议，市场预计这将是自2023年以来的首次加息；原油涨势暂时停歇。交易员正把注意力从单次会议结果转向未来12至18个月的利率路径以及央行的通胀判断。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Asian Stocks Rise Before Fed Decision, Oil Slips: Markets Wrap",
+    "summary_en": "Asian shares rose and bonds posted modest gains as investors awaited the Federal Reserve's interest-rate decision, with markets expecting the first hike since 2023. Oil's rally paused. Traders are increasingly focused less on the single meeting outcome than on the coming 12- to 18-month rate trajectory and the central bank's long-run inflation assessment.",
+    "original_title": "Asian Stocks Rise Before Fed Decision, Oil Slips: Markets Wrap",
+    "published_at": "2026-09-15T22:11:24+00:00",
+    "reason": "美联储利率决议是当天最具系统性影响的事件：它同时牵动全球股市、债市、美元与大宗商品，并与伊朗战争推高的油价相互叠加。选择该条作为头条，是因为加息预期、亚洲市场表现与油价走势共同构成当日跨版面最强的宏观主线。",
+    "reason_en": "The Fed decision is the day's most systemic event, moving global equities, bonds, the dollar and commodities at once, and interacting with oil prices lifted by the Iran war. It leads the briefing because the hike expectation, Asian market moves and oil's pause form the strongest cross-section macro thread of the day.",
+    "score": 11.0
+  },
+  "path": "papers/2026-09-16.html",
+  "raw_path": "raw/2026-09-16.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-16/pboc-chief-unfazed-by-credit-slump-as-era-of-surging-loans-ends",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://codyho.dev/blog/gpu-driver",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://withcapsule.app/"
+  ]
+}
