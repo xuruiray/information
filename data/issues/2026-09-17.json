@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-17",
+  "title": "信息日报 2026-09-17",
+  "title_en": "Information Daily 2026-09-17",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美联储加息未能安抚市场，道指暴跌600点，股债料持续剧烈波动",
+    "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
+    "source": "市场观察",
+    "summary": "美联储实施2023年以来首次加息，主席沃什强调压低通胀的决心，但未能稳定市场，道琼斯指数下跌600点，股票与债券市场均剧烈波动。报道指出，投资者应预期股市和债市继续大幅震荡。加息同时加大香港地产股压力，并令亚洲货币与日元面临更大考验，日本央行周五政策会议备受关注。",
+    "source_en": "MarketWatch",
+    "title_en": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+    "summary_en": "The Federal Reserve raised rates for the first time since 2023, with Chair Kevin Warsh signaling resolve to fight inflation. The move failed to calm markets: the Dow fell 600 points and both stocks and bonds swung sharply, with the article warning of more volatility ahead. The hike also pressured Hong Kong property stocks and Asian currencies, with the yen in focus before the Bank of Japan's Friday policy meeting.",
+    "original_title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+    "published_at": "2026-09-16T21:40:00+00:00",
+    "reason": "美联储加息是当天影响面最广的宏观事件，直接左右全球股债汇市与后续央行决策，阅读优先级最高。",
+    "reason_en": "The Fed's first hike since 2023 is the day's most broadly felt macro event, driving global stocks, bonds and currencies and setting up the Bank of Japan's next decision.",
+    "score": 11.9
+  },
+  "path": "papers/2026-09-17.html",
+  "raw_path": "raw/2026-09-17.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories"
+  ]
+}
