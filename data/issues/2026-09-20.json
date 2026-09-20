@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "title": "信息日报 2026-09-20",
+  "title_en": "Information Daily 2026-09-20",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美联储重启加息并暗示年内再加息",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-19/world-economy-latest-fed-boosts-interest-rates-signals-another-2026-hike",
+    "source": "彭博经济",
+    "summary": "美联储自 2023 年 7 月以来首次加息，并预计年底前再加息一次，以遏制通胀。此举标志着货币政策进一步收紧，可能影响全球市场、汇率与资产价格，是本周最重要的宏观事件之一。",
+    "source_en": "Bloomberg Economics",
+    "title_en": "World Economy Latest: Fed Boosts Interest Rates, Signals Another 2026 Hike",
+    "summary_en": "The Federal Reserve raised interest rates for the first time since July 2023 and signaled another hike before the end of the year, aiming to contain inflation. The move marks a further tightening of monetary policy and is likely to influence global markets, currency moves and asset prices.",
+    "original_title": "World Economy Latest: Fed Boosts Interest Rates, Signals Another 2026 Hike",
+    "published_at": "2026-09-19T09:00:00+00:00",
+    "reason": "美联储重启加息并暗示年内再加息，是当天最具全局影响力的宏观政策转向，直接影响全球市场、汇率和理财决策，适合作为头条。",
+    "reason_en": "The Fed’s first rate hike since 2023 and its signal of another increase is the day’s most globally consequential macro policy shift, directly affecting markets, currencies and personal-finance decisions, making it a strong lead.",
+    "score": 6.95
+  },
+  "path": "papers/2026-09-20.html",
+  "raw_path": "raw/2026-09-20.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-19/world-economy-latest-fed-boosts-interest-rates-signals-another-2026-hike",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-19/trump-xi-showdown-us-china-summit-casts-shadow-over-world-economy",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an"
+  ]
+}
