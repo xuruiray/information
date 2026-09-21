@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-21",
+  "title": "信息日报 2026-09-21",
+  "title_en": "Information Daily 2026-09-21",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中美经贸磋商在纽约举行 双方就人工智能问题举行对话",
+    "url": "https://www.chinanews.com.cn/gn/2026/09-21/10700653.shtml",
+    "source": "中国新闻网时政",
+    "summary": "9月20日，中国国务院副总理何立峰与美国财政部长贝森特、贸易代表格里尔在纽约举行中美经贸磋商。双方围绕落实历次磋商共识、促进双边贸易投资等议题进行交流，并专门就人工智能相关问题举行对话。磋商被描述为坦诚、深入且富有建设性。",
+    "source_en": "中国新闻网时政",
+    "title_en": "China, US Hold Trade Talks in New York, With Dialogue on AI",
+    "summary_en": "On September 20, Chinese Vice Premier He Lifeng met US Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer in New York for China-US trade talks. The two sides discussed implementing previous consensus and boosting bilateral trade and investment, and held a dedicated dialogue on artificial intelligence. The talks were described as candid, in-depth and constructive.",
+    "original_title": "中美经贸磋商在美国纽约举行",
+    "published_at": "2026-09-21T12:18:54+08:00",
+    "reason": "作为头条，因为中美经贸磋商直接牵动全球市场与双边关系，且此次专门就人工智能问题举行对话，横跨中国观察、国际事务与财经版面，是当日最具综合影响力的新闻。",
+    "reason_en": "It is the lead item because the US-China trade talks directly affect global markets and bilateral relations, and the dedicated dialogue on AI spans China Watch, World Affairs and Finance, making it the day's most consequential story.",
+    "score": 8.9
+  },
+  "path": "papers/2026-09-21.html",
+  "raw_path": "raw/2026-09-21.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/epismo",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-21/taiwan-forms-first-global-entity-to-tackle-disasters-as-china-squeezes-its-space",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.npr.org/2026/09/19/nx-s1-5961263/life-in-kabul-5-years-after-the-talibans-return",
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/09-21/10700653.shtml",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-20/qatar-reshapes-its-wealth-fund-strategy-with-new-local-platform",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-21/blackrock-s-vavrek-ai-hardware-to-drive-em-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-21/s-korea-s-early-exports-maintain-strong-momentum-on-chip-boom",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://github.com/kyle-pena-nlp/jevchat",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://radius.to/"
+  ]
+}
