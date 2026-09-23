@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-23",
+  "title": "信息日报 2026-09-23",
+  "title_en": "Information Daily 2026-09-23",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Claude Opus 5.5、GPT-6 Sol 与 GPT-6 Luna 发布，新一轮价格战开启",
+    "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+    "source": "Simon Willison",
+    "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后推出 GPT-6 Sol 与 GPT-6 Luna，并下调价格，形成新一轮价格战。开发者工具 llm-anthropic 0.29、llm 0.36 等迅速适配。分析称，新模型能力与成本平衡仍需实测，但竞争已显著压低推理价格。",
+    "source_en": "Simon Willison",
+    "title_en": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "summary_en": "Anthropic released Claude Opus 5.5, and OpenAI followed with GPT-6 Sol and GPT-6 Luna, cutting prices to roughly half of comparable prior models. Developer tooling, including llm-anthropic 0.29 and llm 0.36, quickly added support. The releases mark a new price war in frontier AI, though independent evaluations are still needed to judge capability and cost trade-offs.",
+    "original_title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "published_at": "2026-09-22T23:46:41+00:00",
+    "reason": "该文同时覆盖当天两大模型发布和定价变化，是 AI 与开发版面的交汇点，且直接触发新一轮价格战，读者关注度最高。",
+    "reason_en": "It captures the day’s two major model launches and pricing shift, sits at the intersection of AI and developer news, and signals a new price war likely to affect costs across the industry.",
+    "score": 12.1
+  },
+  "path": "papers/2026-09-23.html",
+  "raw_path": "raw/2026-09-23.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-23/jun-bei-liu-oil-is-key-market-risk-as-xi-and-trump-meet-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-23/palm-oil-drops-to-seven-week-low-on-worries-over-ample-reserves",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-09-23/paul-chan-hk-sees-need-to-enrich-yuan-products-video",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
