@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "title": "信息日报 2026-09-24",
+  "title_en": "Information Daily 2026-09-24",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "特朗普罕见亲迎习近平到访，美中延长贸易休战",
+    "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+    "source": "卫报国际",
+    "summary": "习近平9月23日开始对美国进行国事访问，特朗普罕见到机场迎接。美国财长宣布将“釜山协议”再延长两个月，继续暂停贸易战。双方将在峰会讨论AI、贸易、台湾与气候等议题，此访被视为中美关系的历史性时刻。",
+    "source_en": "The Guardian World",
+    "title_en": "Trump greets Xi Jinping on arrival in rare move as US-China trade truce extended",
+    "summary_en": "Xi Jinping began a state visit to the United States on September 23, with Donald Trump making the unusual move of greeting him on the tarmac at Joint Base Andrews. The US Treasury secretary announced a two-month extension of the \"Busan agreement\" that suspended trade-war hostilities, as the two leaders prepared to discuss AI, trade, Taiwan and climate. The visit, Xi's first to the US in three years and the second leaders' meeting in six months, is being framed as a historic, milestone moment for US-China relations.",
+    "original_title": "Trump greets Xi Jinping on arrival in rare move as US-China trade truce extended",
+    "published_at": "2026-09-23T23:30:50+00:00",
+    "reason": "中美元首半年内互访并延长贸易休战，是当天最具全球影响的事件：既牵动市场与供应链，也决定AI、台湾等议题的走向。",
+    "reason_en": "A second Xi-Trump summit within six months, combined with a trade-truce extension, is the day's most globally consequential story, shaping markets, supply chains and the agenda on AI and Taiwan.",
+    "score": 9.5
+  },
+  "path": "papers/2026-09-24.html",
+  "raw_path": "raw/2026-09-24.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan",
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised"
+  ]
+}
