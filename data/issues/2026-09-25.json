@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-25",
+  "title": "信息日报 2026-09-25",
+  "title_en": "Information Daily 2026-09-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴",
+    "url": "https://www.chinanews.com.cn/gn/2026/09-25/10703632.shtml",
+    "source": "中国新闻网时政",
+    "summary": "当地时间9月24日晚，美国总统特朗普和夫人梅拉尼娅在白宫为中国国家主席习近平和夫人彭丽媛举行欢迎国宴。此前习近平与特朗普举行会谈，中美互动成为全球关注焦点。",
+    "source_en": "中国新闻网时政",
+    "title_en": "Xi Jinping and Peng Liyuan Attend Welcome State Dinner Hosted by President Trump and First Lady",
+    "summary_en": "On the evening of September 24 local time, US President Donald Trump and First Lady Melania Trump hosted a welcome state dinner at the White House for Chinese President Xi Jinping and his wife Peng Liyuan. Earlier in the day, Xi and Trump held talks at the White House, drawing global attention as the world's two largest economies seek to manage their relationship.",
+    "original_title": "习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴",
+    "published_at": "2026-09-25T12:40:30+08:00",
+    "reason": "中美两国元首在白宫举行会谈并出席国宴，是当天最具全球影响力的外交事件，牵动贸易、地缘政治与市场情绪，因此作为头条。",
+    "reason_en": "The White House talks and state dinner between the Chinese and US presidents are the day's most globally significant diplomatic event, with implications for trade, geopolitics and market sentiment, making it the lead story.",
+    "score": 8.9
+  },
+  "path": "papers/2026-09-25.html",
+  "raw_path": "raw/2026-09-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/09-25/10703632.shtml",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-24/indonesia-economic-destry-damayanti--finance-minister-suahasil-nazara-unity-past-policy-rift",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/heres-how-to-position-your-portfolio-for-the-next-ai-wave-according-to-morgan-stanley-ac8f8a4a?mod=mw_rss_topstories",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-25/us-greenland-security-deal-opens-door-to-american-investment",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-25/japan-has-exited-phase-of-reflationary-policy-kiuchi-says",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-24/india-s-sebi-lets-portfolio-managers-invest-in-overseas-stocks",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://koi.rest",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
