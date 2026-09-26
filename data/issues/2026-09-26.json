@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-26",
+  "title": "信息日报 2026-09-26",
+  "title_en": "Information Daily 2026-09-26",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Meta 个人 AI 代理 Muse 抢走 OpenAI 与 Anthropic 风头",
+    "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic",
+    "source": "TechCrunch AI",
+    "summary": "在 OpenAI 和 Anthropic 相继发布新模型——Anthropic 推出 Opus 5.5，OpenAI 在 90 分钟后更新 GPT-6——之际，Meta 的个人 AI 代理 Muse 却成为焦点。这款产品凭借易用性和技术突破迅速走红，被视为首个面向消费者的代理式 AI 系统，引发行业格局变化。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+    "summary_en": "As OpenAI and Anthropic traded model releases—Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 updates just 90 minutes later—Meta’s personal AI agent Muse stole the spotlight. The product is gaining attention for its technical breakthrough and consumer-friendly packaging, seen as the first consumer-accessible agentic AI system, signaling a shift in the competitive landscape.",
+    "original_title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+    "published_at": "2026-09-25T18:22:47+00:00",
+    "reason": "Meta Muse 的崛起标志着消费级 AI 代理竞争进入新阶段，对 OpenAI 和 Anthropic 构成直接挑战，是当天 AI 领域最具影响力的事件。",
+    "reason_en": "Meta Muse’s rise marks a new phase in consumer AI agent competition, posing a direct challenge to OpenAI and Anthropic, making it the most impactful AI story of the day.",
+    "score": 7.95
+  },
+  "path": "papers/2026-09-26.html",
+  "raw_path": "raw/2026-09-26.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection ai-tech/frontier-ai ignored duplicate URL: https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/socialgpt",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/dev-tv",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://swarmtraces.org/",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide"
+  ]
+}
