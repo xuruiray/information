@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-28",
+  "title": "信息日报 2026-09-28",
+  "title_en": "Information Daily 2026-09-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "2026 年大模型进展（截至目前）",
+    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+    "source": "Simon Willison",
+    "summary": "Simon Willison 在 WeAreDevelopers 北美大会闭幕演讲中，按时间线梳理 2026 年 LLM 领域的关键趋势。文章附有演讲视频、注释幻灯片与笔记，适合快速回看今年模型、智能体与开发工具的重要变化。",
+    "source_en": "Simon Willison",
+    "title_en": "2026 in LLMs (so far)",
+    "summary_en": "Simon Willison's closing keynote at WeAreDevelopers World Congress North America ties together the key LLM trends of the past year in a chronological exploration of 2026. The post includes the video, annotated slides and notes, making it a useful recap of model, agent and developer-tool shifts so far. It is a structured review from a widely read developer commentator rather than a breaking-news report.",
+    "original_title": "2026 in LLMs (so far)",
+    "published_at": "2026-09-27T23:54:15+00:00",
+    "reason": "该文在候选列表中评分最高（17.1），且以开发者视角系统回顾 2026 年 LLM 进展，能作为当天 AI 与开发版面的阅读入口。",
+    "reason_en": "It has the highest candidate score (17.1) and offers a structured developer-perspective recap of 2026 LLM progress, making it a strong entry point for today's AI and development coverage.",
+    "score": 17.1
+  },
+  "path": "papers/2026-09-28.html",
+  "raw_path": "raw/2026-09-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-28/pimco-sees-value-in-australian-bonds-as-rate-hikes-overpriced",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-28/south-korea-s-three-year-yield-rises-to-highest-level-since-2022",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-28/chinese-stocks-hit-one-year-low-as-chip-optical-firms-slide",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm"
+  ]
+}
