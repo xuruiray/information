@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-29",
+  "title": "信息日报 2026-09-29",
+  "title_en": "Information Daily 2026-09-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 发布 Claude Sonnet 5.5：更快、多数任务更便宜",
+    "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5",
+    "source": "Simon Willison",
+    "summary": "Anthropic 发布 Claude Sonnet 5.5。官方称其运行速度快 30% 以上，多数工作场景成本最多降低 30%，定价与 Sonnet 5 持平，但在各项基准上表现更好。该模型已上线 Vercel AI Gateway；Simon Willison 指出它与 Opus 5.5 存在相同的“max”思考强度缺陷。",
+    "source_en": "Simon Willison",
+    "title_en": "Anthropic releases Claude Sonnet 5.5, faster and up to 30% cheaper",
+    "summary_en": "Anthropic released Claude Sonnet 5.5, which the company says runs more than 30% faster and costs up to 30% less for most work, priced the same as Sonnet 5 while appearing to beat it on every benchmark. The model is already available on Vercel's AI Gateway and drew heavy discussion on Hacker News. Simon Willison notes it suffers from the same \"max\" thinking-effort bug as Opus 5.5.",
+    "original_title": "Claude Sonnet 5.5",
+    "published_at": "2026-09-28T22:07:38+00:00",
+    "reason": "这是当天讨论度最高的产品发布：一次速度与成本同时改善的主力模型更新，直接影响开发者与企业部署选择，并被多家技术媒体与社区同步跟进。",
+    "reason_en": "The day's most-discussed product launch: a flagship model update that improves both speed and cost, directly shaping developer and enterprise deployment choices, and picked up across multiple technical outlets and communities.",
+    "score": 10.1
+  },
+  "path": "papers/2026-09-29.html",
+  "raw_path": "raw/2026-09-29.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-29/australia-raises-key-rate-to-15-year-high-to-restrain-inflation",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://www.thisamericanlife.org/897/transcript",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://destroy.spritefusion.com/"
+  ]
+}
