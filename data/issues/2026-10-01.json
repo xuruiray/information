@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-01",
+  "title": "信息日报 2026-10-01",
+  "title_en": "Information Daily 2026-10-01",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Gemini 4 Argon 登上 Google 官方博客，成为 Hacker News 当日最热帖",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+    "source": "Hacker News",
+    "summary": "Hacker News 上指向 Google 官方博客的链接“Gemini 4 Argon”成为当日最热帖，获得约 1215 分和 785 条评论。社区同时提到一篇围绕该模型智能、性能与价格的分析帖。该条目本身未提供更多官方细节，但热度显示外界对新一代 Gemini 模型的关注度极高。",
+    "source_en": "Hacker News",
+    "title_en": "Gemini 4 Argon Lands on Google's Blog, Tops Hacker News",
+    "summary_en": "A link to Google's official blog titled \"Gemini 4 Argon\" became the day's top item on Hacker News, drawing roughly 1,215 points and 785 comments. A companion thread points to a separate analysis of the model's intelligence, performance and pricing. The item itself carries few official details, but the reaction signals intense interest in the next Gemini release.",
+    "original_title": "Gemini 4 Argon",
+    "published_at": "2026-09-30T20:04:37+00:00",
+    "reason": "模型发布类消息通常影响面最广；该条目在 Hacker News 以约 1215 分、785 条评论居首，讨论集中于新模型的智能、性能与价格，兼具行业影响力与读者关注度，适合作为当日头条。",
+    "reason_en": "Model launches typically carry the broadest impact; this item topped Hacker News with about 1,215 points and 785 comments, with discussion centered on intelligence, performance and pricing, making it both high-impact and high-interest as the lead item.",
+    "score": 6.9
+  },
+  "path": "papers/2026-10-01.html",
+  "raw_path": "raw/2026-10-01.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-01/china-eyes-more-targeted-fiscal-support-after-growth-slowdown",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon"
+  ]
+}
