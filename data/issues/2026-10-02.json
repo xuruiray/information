@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-02",
+  "title": "信息日报 2026-10-02",
+  "title_en": "Information Daily 2026-10-02",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中方代表28国呼吁国际社会遏止单边强制措施",
+    "url": "https://www.chinanews.com.cn/gn/2026/10-02/10706982.shtml",
+    "source": "中国新闻网时政",
+    "summary": "中国常驻联合国代表傅聪在联大第三委员会代表28个观点相近国家就单边强制措施作共同发言，呼吁国际社会坚决遏止这一非法行径。",
+    "source_en": "中国新闻网时政",
+    "title_en": "Chinese Representative, on Behalf of 28 Countries, Calls on International Community to Stop Unilateral Coercive Measures",
+    "summary_en": "China's Permanent Representative to the UN Fu Cong, on behalf of 28 like-minded countries, delivered a joint statement at the Third Committee of the UN General Assembly on unilateral coercive measures, calling on the international community to firmly stop such illegal acts.",
+    "original_title": "中方代表28国呼吁国际社会遏止单边强制措施",
+    "published_at": "2026-10-02T06:53:10+08:00",
+    "reason": "这是当天得分最高的候选新闻，涉及28国在联合国共同发声，反映国际社会对单边强制措施的共同关切，具有重要国际影响。",
+    "reason_en": "This is the highest-scored candidate of the day, involving 28 countries jointly speaking at the UN, reflecting international concerns over unilateral coercive measures and carrying significant global impact.",
+    "score": 9.9
+  },
+  "path": "papers/2026-10-02.html",
+  "raw_path": "raw/2026-10-02.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection china/china-policy ignored duplicate URL: https://www.chinanews.com.cn/gn/2026/10-02/10706982.shtml",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-01/asian-stocks-to-fall-on-oil-rally-bonds-in-focus-markets-wrap",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-02/franklin-templeton-s-mann-on-etf-business-in-asia-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-02/treasuries-rebound-raises-stakes-for-job-data-as-rate-hikes-loom",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.frogandtoad.ai/",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://lwn.net/Articles/1097401"
+  ]
+}
