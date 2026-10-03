@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-03",
+  "title": "信息日报 2026-10-03",
+  "title_en": "Information Daily 2026-10-03",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "白宫签署行政令，正式将 AI 更名为“超级智能”",
+    "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house",
+    "source": "TechCrunch AI",
+    "summary": "白宫本周召集扎克伯格、贝索斯、马斯克及 Anthropic 的达里奥·阿莫代伊等科技公司 CEO，签署 AI 安全承诺，特朗普称其“具有道德约束力”。同时，特朗普签署行政令，正式将 AI 更名为“超级智能”。此举被视为美国 AI 政策与话语体系的重大转向。",
+    "source_en": "TechCrunch AI",
+    "title_en": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+    "summary_en": "The White House gathered nearly every major tech CEO—Zuckerberg, Bezos, Musk, and Anthropic's Dario Amodei—to sign an AI safety pledge that President Trump called 'morally binding.' Trump also signed an executive order officially rebranding AI as 'super intelligence,' marking a major shift in U.S. AI policy and rhetoric.",
+    "original_title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+    "published_at": "2026-10-02T17:48:16+00:00",
+    "reason": "这是当天最具政策影响力的新闻，白宫对 AI 的重新定义和安全承诺将影响整个行业的监管与投资方向。",
+    "reason_en": "This is the day's most policy-significant story, as the White House's redefinition of AI and safety pledge will shape regulation and investment across the industry.",
+    "score": 5.95
+  },
+  "path": "papers/2026-10-03.html",
+  "raw_path": "raw/2026-10-03.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/cloudflare-clef",
+    "LLM subsection startup-product/startup-strategy ignored duplicate URL: https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/oct/03/bangkok-thailand-floods-breaking-point-stagnant-lakes",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-02/the-close-10-2-2026-video",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://yuka.dev/blog-2026-10-02-linux-m4.html"
+  ]
+}
