@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-04",
+  "title": "信息日报 2026-10-04",
+  "title_en": "Information Daily 2026-10-04",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "白宫召集科技巨头签署 AI 安全承诺，并正式将 AI 改称“超级智能”",
+    "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it",
+    "source": "TechCrunch AI",
+    "summary": "TechCrunch 本周回顾：白宫几乎把所有主要科技公司 CEO 聚到一处——包括扎克伯格、贝索斯、马斯克与 Anthropic 的达里奥·阿莫代伊——签署 AI 安全承诺，总统特朗普称其“具有道德约束力”；同时签署行政令，正式把 AI 改称“超级智能”。与此同时，Meta 与 OpenAI 正推出更亲民的产品，但真正为 AI 付费的消费者比例仍然很低。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+    "summary_en": "In its weekly roundup, TechCrunch reports that the White House brought nearly every major tech CEO — Zuckerberg, Bezos, Musk and Anthropic's Dario Amodei among them — into one room to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intelligence.” Meanwhile, Meta and OpenAI are rolling out friendlier consumer products, even as only about 2% of consumers are actually paying for AI.",
+    "original_title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+    "published_at": "2026-10-02T17:56:00+00:00",
+    "reason": "该条同时覆盖 AI 治理、产业格局与消费者采用三条主线，并涉及白宫行政令与主要科技公司的公开承诺，是当日影响面最广、跨版面联动最强的新闻。",
+    "reason_en": "It spans AI governance, industry dynamics and consumer adoption at once, and involves a White House executive order plus public pledges from major tech companies — the broadest impact and most cross-cutting story of the day.",
+    "score": 5.95
+  },
+  "path": "papers/2026-10-04.html",
+  "raw_path": "raw/2026-10-04.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/sapien-4",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/bevel-software",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-03/fed-ecb-minutes-to-show-inflation-fears-as-hike-bets-fade",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-03/world-economy-latest-us-employers-dial-back-hiring-wage-growth-slows",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://ftl-os.org/",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance",
+    "LLM subsection opinion/business-society ignored duplicate URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=49949438"
+  ]
+}
