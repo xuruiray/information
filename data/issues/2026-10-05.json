@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-05",
+  "title": "信息日报 2026-10-05",
+  "title_en": "Information Daily 2026-10-05",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "科学家利用“真空”让超导体更强",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+    "source": "ScienceDaily 技术",
+    "summary": "研究人员证明，看似空无一物的真空中量子涨落可增强超导性，使一种超薄材料的超导转变温度提升最高5.4%。该发现意味着或可通过工程化真空环境，在不直接接触或外部驱动的情况下调控量子材料。",
+    "source_en": "ScienceDaily Top Technology",
+    "title_en": "Scientists just made a superconductor stronger using “empty space”",
+    "summary_en": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%. The discovery opens the possibility of using specially engineered vacuum environments to control quantum materials without direct contact or external driving.",
+    "original_title": "Scientists just made a superconductor stronger using “empty space”",
+    "published_at": "2026-10-03T08:03:23-04:00",
+    "reason": "该研究综合评分最高，展示量子材料调控的新路径，可能影响超导与量子器件未来方向。",
+    "reason_en": "Top-scored item; it demonstrates a new route to control quantum materials and could influence future superconductivity and quantum device research.",
+    "score": 10.8
+  },
+  "path": "papers/2026-10-05.html",
+  "raw_path": "raw/2026-10-05.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/space-energy-robotics ignored duplicate URL: https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/capybara-court",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_medium=RSS&at_campaign=rss",
+    "LLM subsection world/government-policy ignored duplicate URL: https://www.aljazeera.com/economy/2026/10/5/singapore-turns-matchmaker-amid-rock-bottom-birthrate?traffic_source=rss",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.investing.com/news/stock-market-news/okx-joint-venture-files-with-sec-to-launch-tokenized-trading-platform-4931004",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/Niko1221/Strata",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://github.com/omlahore/RemoveMacAI"
+  ]
+}
