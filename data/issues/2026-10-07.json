@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-07",
+  "title": "信息日报 2026-10-07",
+  "title_en": "Information Daily 2026-10-07",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "用 Parseable 与 Datasette 分析 OpenTelemetry 追踪数据",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+    "source": "Simon Willison",
+    "summary": "Simon Willison 介绍如何把可观测性平台 Parseable 与 Datasette 结合，用于查看 OpenTelemetry 追踪数据。Parseable 提供 AGPL 开源 Rust 实现、企业版和云托管选项；Datasette 1.0a41 新增 OpenTelemetry 支持，可用于本地分析。",
+    "source_en": "Simon Willison",
+    "title_en": "Using Parseable with Datasette for OpenTelemetry traces",
+    "summary_en": "Simon Willison shares a TIL on combining Parseable, a new observability platform, with Datasette for OpenTelemetry traces. Parseable offers an AGPL-licensed Rust implementation in a single binary, plus enterprise and hosted options. Since Datasette 1.0a41 added OpenTelemetry support, this setup lets developers inspect and query trace data locally. The post is a practical guide for engineers evaluating lightweight observability and data exploration tools.",
+    "original_title": "Using Parseable with Datasette for OpenTelemetry traces",
+    "published_at": "2026-10-06T19:07:31+00:00",
+    "reason": "该条为开发者版块最高分条目，提供可立即上手的开源可观测性组合，并把 Datasette 新加入的 OpenTelemetry 能力用于实际工作流。",
+    "reason_en": "This is the highest-scoring developer item, offering an immediately actionable open-source observability stack and showing how Datasette’s newly added OpenTelemetry support works in practice.",
+    "score": 12.1
+  },
+  "path": "papers/2026-10-07.html",
+  "raw_path": "raw/2026-10-07.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/open-source-tools ignored duplicate URL: https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-06/bessent-s-bend-the-debt-curve-hope-seen-as-more-market-jawboning",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://strandsagents.com/blog/introducing-strands-decider",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://news.ycombinator.com/item?id=49982498"
+  ]
+}
