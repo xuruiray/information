@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "title": "信息日报 2026-10-08",
+  "title_en": "Information Daily 2026-10-08",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "NASA 韦布望远镜发现火星大小天体猛烈碰撞迹象",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "NASA 詹姆斯·韦布空间望远镜在 21 个年轻恒星周围的“极端碎片盘”中找到尘埃证据，显示火星大小的天体曾发生剧烈碰撞。研究人员表示，这些碰撞的规模与强度可为理解太阳系早期演化提供线索，包括可能形成月球的巨大撞击。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "NASA's Webb finds signs of Mars-sized worlds smashing together",
+    "summary_en": "NASA's James Webb Space Telescope has observed 21 rare \"extreme debris disks\" around young stars, finding dust that reveals the scale and violence of planetary collisions. Researchers say these smash-ups may resemble the giant impact thought to have created Earth's Moon, offering clues to how our own solar system formed and evolved.",
+    "original_title": "NASA’s Webb finds signs of Mars-sized worlds smashing together",
+    "published_at": "2026-10-07T09:09:15-04:00",
+    "reason": "该研究由韦布望远镜带来，是当日科学类候选中评分最高的一条，直接关联行星形成与月球起源等公众关心的根本问题，兼具新闻价值与可读性，适合作为日报头条。",
+    "reason_en": "This is the day's top-scoring science item: fresh Webb observations of colliding Mars-sized worlds speak directly to planetary formation and the Moon's origin, combining strong news value with broad reader interest.",
+    "score": 10.85
+  },
+  "path": "papers/2026-10-08.html",
+  "raw_path": "raw/2026-10-08.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-08/tikehau-private-markets-entering-a-more-selective-phase-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-08/ai-squeezes-tech-grads-at-india-s-banking-hubs-video",
+    "LLM subsection finance/wealth-regulation ignored duplicate URL: https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
+    "LLM subsection opinion/tech-opinion ignored duplicate URL: https://mathstodon.xyz/@tao/117395269325940185"
+  ]
+}
