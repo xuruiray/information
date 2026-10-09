@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "title": "信息日报 2026-10-09",
+  "title_en": "Information Daily 2026-10-09",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "与 Meta 分道后，中国 Manus 首轮融资超 5 亿美元",
+    "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta",
+    "source": "TechCrunch 创业",
+    "summary": "TechCrunch 报道，中国 AI 公司 Manus 完成与 Meta 拆分后的首轮融资，规模超过 5 亿美元，由博裕资本与 IDG 资本领投，现有股东腾讯、HSG（原红杉中国）、真格基金等亦参与其中。",
+    "source_en": "TechCrunch Startups",
+    "title_en": "China's Manus raises over $500M in first funding round since split with Meta",
+    "summary_en": "TechCrunch reports that Manus, a Chinese AI company, has raised more than $500 million in its first funding round since separating from Meta. Boyu Capital and IDG Capital led the round, while existing shareholders Tencent, HSG — formerly known as Sequoia China — and ZhenFund, among others, also participated. The round marks a significant vote of confidence in the company after the split and highlights continued investor interest in Chinese AI ventures.",
+    "original_title": "China’s Manus raises over $500M in first funding round since split with Meta",
+    "published_at": "2026-10-08T13:20:32+00:00",
+    "reason": "该交易同时涉及 AI、创业融资与中国市场三条主线，是当日最具指标意义的商业新闻。",
+    "reason_en": "It combines AI, startup funding and China exposure in a single story, making it the most consequential business development of the day.",
+    "score": 7.8
+  },
+  "path": "papers/2026-10-09.html",
+  "raw_path": "raw/2026-10-09.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-08/stock-market-today-dow-s-p-live-updates",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-09/philippines-to-adopt-international-bond-pricing-to-woo-investors",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-09/uk-to-launch-us-style-monthly-inflation-gauge-early-next-year",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-09/japan-s-takaichi-says-growth-push-will-help-support-trust-in-yen"
+  ]
+}
