@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "title": "信息日报 2026-10-10",
+  "title_en": "Information Daily 2026-10-10",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Deno 加入 Cloudflare",
+    "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+    "source": "Simon Willison",
+    "summary": "Cloudflare 宣布收购 Deno。Deno 团队此前发布了 celld，这是 Cloudflare Workers 中 Durable Objects 模式的开源实现。收购后，Cloudflare 计划基于 celld 让 workerd 自托管成为构建和运行 Workers 应用的一等支持方式。",
+    "source_en": "Simon Willison",
+    "title_en": "Deno is joining Cloudflare",
+    "summary_en": "Cloudflare is acquiring Deno outright. The Deno team had released celld, an open-source implementation of the Durable Objects pattern from Cloudflare Workers. With the acquisition, Cloudflare aims to build on celld to make workerd self-hosting a first-class supported way to build and run applications using the Workers platform.",
+    "original_title": "Deno is joining Cloudflare",
+    "published_at": "2026-10-09T22:48:37+00:00",
+    "reason": "这是开发者生态的重大整合，Cloudflare 收购 Deno 可能重塑 JavaScript/TypeScript 运行时与边缘计算格局，社区关注度极高。",
+    "reason_en": "This is a major consolidation in the developer ecosystem. Cloudflare's acquisition of Deno could reshape the JavaScript/TypeScript runtime and edge computing landscape, and it has drawn intense community attention.",
+    "score": 12.1
+  },
+  "path": "papers/2026-10-10.html",
+  "raw_path": "raw/2026-10-10.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection developer/languages-frameworks ignored duplicate URL: https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/request-eagle",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/porch-6",
+    "LLM subsection startup-product/new-products ignored duplicate URL: https://www.producthunt.com/products/thravik",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.bloomberg.com/news/videos/2026-10-09/wall-street-week-baby-bonds-canadian-coal-fight-video",
+    "LLM subsection finance/markets-assets ignored duplicate URL: https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+    "LLM subsection finance/macro-policy ignored duplicate URL: https://www.bloomberg.com/news/articles/2026-10-09/treasuries-slide-on-inflation-worry-as-energy-costs-stay-high",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://deno.com/blog/cloudflare",
+    "LLM subsection opinion/community-discussion ignored duplicate URL: https://oxide.computer/blog/our-445m-series-d"
+  ]
+}
