@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-10</title>
+<title>02 开发与编程 · 信息日报 2026-10-11</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261010 期</span>
+        <span>第 20261011 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月10日 星期六</span></div>
+      <div class="dateline"><span>2026年10月11日 星期日</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -45,55 +45,49 @@
 
     <section class="briefing-panel category-briefing" aria-label="开发与编程总结">
       <div class="lead-label">开发与编程总结</div>
-      <p>本期开发与编程版聚焦运行时、代理工具链与开发者生态。最大变动是 Cloudflare 收购 Deno 团队，双方计划基于开源的 celld 让 workerd 自托管成为一等支持方式；Vercel 侧则介绍了 Rillet 借助 AI 代理把交付速度提升至三倍，并支持代理通过 CLI 购买域名、接入微软 Decision-1 决策模型。工具方面，令牌计数工具 ttok 发布 1.0；开发者生态话题则围绕用语音写代码、黑客松入门与漏洞赏金方法论展开。</p>
+      <p>本期开发与编程版聚焦工程效率与生态变动：Rillet 借助 Vercel 上的 AI 代理将交付速度提升三倍，Cloudflare 宣布收购 Deno；同时收录密码学家对公钥加密前景的谨慎判断，以及语音驱动开发、令牌计数工具 ttok、《矮人要塞》采用版本控制和黑客松学习价值等开源与工具话题。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="languages-frameworks">
         <header class="subsection-head">
           <h3>语言与框架</h3>
-          <span>6 条</span>
+          <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="语言与框架总结">
-          <div class="lead-label">语言与框架总结</div>
-          <p>语言与框架小版关注运行时与平台能力变化：Cloudflare 收购 Deno 团队，计划推进 workerd 自托管；Vercel 披露 Rillet 用 AI 代理实现三倍交付速度，并让代理可用 CLI 购买域名、接入微软 Decision-1 决策模型。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架小版总结">
+          <div class="lead-label">语言与框架小版总结</div>
+          <p>语言与框架小版关注运行时与代码生态变化：Cloudflare 收购 Deno，计划围绕 celld 推进 workerd 自托管；Rillet 展示 AI 代理如何把交付速度提升三倍；另有密码学家对公钥加密长期假设的提醒，以及关于编程核心能力在于解决问题与控制复杂度的观点。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel" target="_blank" rel="noopener">
-            <span class="at">Rillet 借助 Vercel 上的 AI 代理，交付速度提升至三倍</span>
+            <span class="at">Rillet 借助 Vercel 上的 AI 代理将交付速度提升三倍</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 博客介绍，Rillet 部署 eve 代理后，三个月内交付频率提升至三倍；两人团队在头四个月关闭 800 多个 Linear 工单，部分客户需求可在两小时内上线，并通过企业级用户管理、SSO 与目录同步控制构建者权限。</p>
+            <p class="as">Rillet 在 Vercel 上部署 eve 代理，三个月内交付速度提升至三倍；两人团队在前四个月关闭 800 多个 Linear 工单，客户请求的改动最快两小时上线；通过企业托管用户、SSO 与目录同步为构建者提供访问，并借助 AI Gateway 使用模型。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli" target="_blank" rel="noopener">
-            <span class="at">Vercel CLI 新增能力：代理可代为购买域名</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 更新 CLI，代理可先用域名搜索发现候选，再检查可用性与注册商价格，最后发起购买；官方强调购买决策仍由用户掌握，非交互模式下购买命令会返回相应结果。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">微软 Decision-1 模型上线 Vercel AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 宣布微软 Decision-1 已接入 AI Gateway。该模型针对文本的定型问题返回概率、选项与分数，可用于工单分类、工作流下一步选择，或按评分标准评估 AI 输出，支持是/否判断与多类别选择。</p>
+          <a class="art" href="https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare" target="_blank" rel="noopener">
+            <span class="at">Deno 加入 Cloudflare</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Deno 团队今年 8 月发布 celld，这是 Cloudflare Workers 中 Durable Objects 模式的开源实现。Cloudflare 现宣布收购 Deno，目标是基于 celld 让 workerd 自托管成为受支持的一等开发方式。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/9/matthew-green" target="_blank" rel="noopener">
-            <span class="at">开发工具：Simon Willison关注的关键线索</span>
+            <span class="at">马修·格林谈公钥加密面临的不确定性</span>
             <span class="by">Simon Willison</span>
-            <p class="as">这条开发线索来自Simon Willison，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware" target="_blank" rel="noopener">
-            <span class="at">开发工具：Vercel 博客关注的关键线索</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">这条开发线索来自Vercel 博客，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
+            <p class="as">密码学家 Matthew Green 表示，他估计有 1% 的概率我们生活在 Minicrypt 世界，另有 15% 概率会实质性地对现有公钥加密算法失去信心；他指出 AI 带来意外与人类应对速度之间存在落差。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/8/carson-gross" target="_blank" rel="noopener">
-            <span class="at">开发工具：Simon Willison关注的关键线索</span>
+            <span class="at">卡森·格罗斯：编程的根本是解决问题与控制复杂度</span>
             <span class="by">Simon Willison</span>
-            <p class="as">这条开发线索来自Simon Willison，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
+            <p class="as">Carson Gross 认为，计算机编程本质上关乎两件事：用计算机解决问题，以及在解决问题时学会控制复杂度。他难以想象未来掌握这两项能力会变得不再重要。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli" target="_blank" rel="noopener">
+            <span class="at">开发工具：Vercel 博客关注的关键线索</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">这条开发线索来自Vercel 博客，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -101,39 +95,45 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>6 条</span>
+          <span>7 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具总结">
-          <div class="lead-label">开源与工具总结</div>
-          <p>开源与工具小版聚焦日常开发工具与实践：令牌计数工具 ttok 发布 1.0 并更换默认分词器；有开发者用语音为博客新增 Newsletters 页面；GitHub 则讨论了黑客松作为构建入门途径的价值，以及漏洞赏金研究员挑选目标功能的方法。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具小版总结">
+          <div class="lead-label">开源与工具小版总结</div>
+          <p>开源与工具小版聚焦开发者的日常工具与学习方式：用语音配合编码代理为博客开发新功能、令牌计数工具 ttok 发布 0.4 版并新增模型列表命令、《矮人要塞》项目开始使用版本控制，以及黑客松为何仍是学习构建的好起点。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://simonwillison.net/2026/Oct/9/built-using-my-voice" target="_blank" rel="noopener">
-            <span class="at">开发者用语音为博客新增 Newsletters 页面</span>
+            <span class="at">用语音为博客开发新功能</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 为博客上线 Newsletters 页面，汇总其免费周报与仅赞助者可见的月度更新。该功能几乎全部通过语音完成：他在做饭时借助 ChatGPT 桌面端的 Codex 语音模式与电脑对话并生成代码。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/9/ttok" target="_blank" rel="noopener">
-            <span class="at">令牌计数工具 ttok 发布 1.0</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">ttok 是基于 OpenAI 开源 tiktoken 的令牌计数命令行工具。作者在发布 0.4 后将默认分词器从 GPT-4 改为更新的 GPT-5/GPT-6 系列，并借此发布 1.0，可通过 uvx ttok 直接统计文本令牌数。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build" target="_blank" rel="noopener">
-            <span class="at">GitHub：构建门槛下降，黑客松仍是学习构建的好去处</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">GitHub 博客文章指出，构建软件的门槛已经大幅降低，如今任何人都可以开始构建；文章认为黑客松仍是入门学习构建的合适场所，并鼓励更多人参与其中。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate" target="_blank" rel="noopener">
-            <span class="at">GitHub 漏洞赏金研究员谈如何挑选目标功能</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">在网络安全意识月期间，GitHub 漏洞赏金团队介绍了研究员 @vaib25vicky 的方法论、技术手段与其在 GitHub 上做安全测试的经历，重点讲述他如何挑选要研究的功能。</p>
+            <p class="as">Simon Willison 发布了博客的 Newsletters 页面，汇总其免费周报与仅限赞助者的月度更新。他几乎全程使用语音完成开发，在做饭时对着笔记本口述，通过 ChatGPT 桌面应用的 Codex 语音模式生成代码。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/8/ttok" target="_blank" rel="noopener">
+            <span class="at">ttok 0.4 发布：新增模型列表命令</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">ttok 是基于 OpenAI 开源 tiktoken 库的令牌计数命令行工具。0.4 版修复了 Click 告警、更新了 CI，并新增 --list-models 命令。它可通过 uvx 直接运行，例如 cat file.txt | uvx ttok。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/11/dwarf-fortress" target="_blank" rel="noopener">
+            <span class="at">《矮人要塞》开始使用版本控制</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison 提到，他过去听说《矮人要塞》不使用版本控制，这在如此复杂的代码库上令人难以想象。如今这一时代似乎已经结束，项目开始采用版本控制。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build" target="_blank" rel="noopener">
+            <span class="at">Hack the World：为什么黑客松仍是学习构建的最佳场所</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub 博客指出，构建软件的门槛已经大幅降低，如今任何人都可以动手做东西，而黑客松依然是开始学习构建的好起点。文章讨论其在技能培养与协作中的作用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/10/python-actions" target="_blank" rel="noopener">
+            <span class="at">开发工具：Simon Willison关注的关键线索</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">这条开发线索来自Simon Willison，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/9/ttok" target="_blank" rel="noopener">
             <span class="at">开发工具：Simon Willison关注的关键线索</span>
             <span class="by">Simon Willison</span>
             <p class="as">这条开发线索来自Simon Willison，围绕工程实践、开源工具或开发者生态展开，适合关注工具链效率和技术采用趋势。</p>
@@ -152,28 +152,28 @@
           <h3>基础设施与数据</h3>
           <span>3 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据总结">
-          <div class="lead-label">基础设施与数据总结</div>
-          <p>本期基础设施与数据小版没有独立入选文章，相关内容已并入其他小版。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据小版总结">
+          <div class="lead-label">基础设施与数据小版总结</div>
+          <p>本期基础设施与数据小版暂无入选文章。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://www.bloomberg.com/news/videos/2026-10-09/wall-street-week-baby-bonds-canadian-coal-fight-video" target="_blank" rel="noopener">
-            <span class="at">财经市场：彭博市场关注的关键线索</span>
-            <span class="by">彭博市场</span>
-            <p class="as">这条财经线索来自彭博市场，主要涉及市场走势、资产定价或宏观预期变化，可作为观察风险偏好、利率环境和投资节奏的参考。</p>
+          <a class="art" href="https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack" target="_blank" rel="noopener">
+            <span class="at">国际事务：NPR 国际关注的关键线索</span>
+            <span class="by">NPR 国际</span>
+            <p class="as">这条国际线索来自NPR 国际，重点关注地缘安全、政府政策或全球社会动态，有助于判断外部环境和区域风险的变化。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://deno.com/blog/cloudflare" target="_blank" rel="noopener">
-            <span class="at">观点评论：Hacker News关注的关键线索</span>
-            <span class="by">Hacker News</span>
-            <p class="as">这条观点线索来自Hacker News，更偏分析、讨论或长期判断，适合放在事实新闻之后补充理解框架。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026" target="_blank" rel="noopener">
+          <a class="art" href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model" target="_blank" rel="noopener">
             <span class="at">创业产品：TechCrunch 创业关注的关键线索</span>
             <span class="by">TechCrunch 创业</span>
             <p class="as">这条创业产品线索来自TechCrunch 创业，聚焦新产品、融资并购或增长策略，适合观察早期市场机会和产品化趋势。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security" target="_blank" rel="noopener">
+            <span class="at">财经市场：彭博市场关注的关键线索</span>
+            <span class="by">彭博市场</span>
+            <p class="as">这条财经线索来自彭博市场，主要涉及市场走势、资产定价或宏观预期变化，可作为观察风险偏好、利率环境和投资节奏的参考。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
