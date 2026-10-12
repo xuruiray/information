@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import urllib.error
 import urllib.request
 from dataclasses import asdict, replace
@@ -274,7 +275,9 @@ def _compile_llm_section(config, section, ranked, issue_date, api_key) -> dict:
             "科技公司涉及的战争、外交、选举新闻不能仅因公司名归入开发或 AI；论文不因出现 model 就自动属于前沿模型。",
             "标题和摘要必须描述具体事件、方法、结果或变化；不写某来源关注的关键线索、适合关注技术方向等通用文案。",
             "中文 title 和 summary 必须完整；无法可靠翻译或材料不足则跳过。保留不确定性，不增加材料中没有的事实。",
-            "每篇提供 topic_evidence：从原始 title 或 summary 中逐字摘取含该小版 keywords 的主题短语，不使用来源标签；没有直接主题证据时跳过。",
+            "每篇提供 topic_evidence：逐字摘取原文含本小版主题关键词的短语，尽量少于120字符；arXiv、博客名、来源标签不是主题证据。",
+            "中文摘要40-80字，英文摘要20-45词，不重复整段原文。只输出 schema 中的字段，保证 JSON 完整闭合。",
+            "若材料只有标题、票数、评论数，只报告这些已知信息，不补写作者论证或未提供的正文结论。",
         ],
         "schema": {
             "id": section.id,
@@ -285,10 +288,10 @@ def _compile_llm_section(config, section, ranked, issue_date, api_key) -> dict:
                         {
                             "url": "candidate URL",
                             "title": "具体中文标题",
-                            "summary": "50-110字具体中文摘要",
+                            "summary": "40-80字具体中文摘要",
                             "title_en": "English title",
-                            "summary_en": "English summary",
-                            "topic_evidence": "verbatim topic evidence from candidate title or summary",
+                            "summary_en": "20-45 word English summary",
+                            "topic_evidence": "one short verbatim topic phrase from the original title or summary",
                             "reason": "具体入选理由",
                             "reason_en": "selection rationale",
                             "score": 0,
@@ -299,8 +302,12 @@ def _compile_llm_section(config, section, ranked, issue_date, api_key) -> dict:
         },
         "candidates": candidates,
     }
-    data = _request_editor(config, request, api_key)
-    return _coerce_llm_section_data(section, data)
+    return _request_editor(
+        config,
+        request,
+        api_key,
+        validate=lambda data: _coerce_llm_section_data(section, data),
+    )
 
 
 def _compiled_payload(article: CompiledArticle) -> dict:
@@ -324,15 +331,35 @@ def _briefing_schema() -> dict:
     }
 
 
-def _request_editor(config, request, api_key) -> dict:
-    payload = _llm_payload(
-        config,
-        [
-            {"role": "system", "content": _llm_system_prompt()},
-            {"role": "user", "content": json.dumps(request, ensure_ascii=False)},
-        ],
-    )
-    return _extract_json(_post_chat_completion(config, payload, api_key))
+def _request_editor(config, request, api_key, validate=None):
+    attempt_request = dict(request)
+    for attempt in range(2):
+        print(
+            f"editor: {request['task']} attempt={attempt + 1}",
+            file=sys.stderr,
+            flush=True,
+        )
+        payload = _llm_payload(
+            config,
+            [
+                {"role": "system", "content": _llm_system_prompt()},
+                {
+                    "role": "user",
+                    "content": json.dumps(attempt_request, ensure_ascii=False),
+                },
+            ],
+        )
+        try:
+            data = _extract_json(_post_chat_completion(config, payload, api_key))
+            return validate(data) if validate else data
+        except CompileError as exc:
+            if attempt:
+                raise CompileError(f"{request['task']}: {exc}") from exc
+            print(f"editor retry: {exc}", file=sys.stderr, flush=True)
+            attempt_request["repair"] = (
+                str(exc) + "；重新返回完整合法JSON并严格遵守schema和摘要长度。"
+            )
+    raise CompileError("Editor did not return a validated response")
 
 
 def _validated_briefing(value, urls: set[str], scope: str) -> dict:
@@ -402,15 +429,12 @@ def _compile_llm_briefings(
             ],
         },
     }
-    for attempt in range(2):
-        data = _request_editor(config, request, api_key)
-        try:
-            return _apply_final_briefings(section, data)
-        except CompileError as exc:
-            if attempt:
-                raise
-            request["repair"] = str(exc)
-    raise CompileError("Could not generate final briefings")
+    return _request_editor(
+        config,
+        request,
+        api_key,
+        validate=lambda data: _apply_final_briefings(section, data),
+    )
 
 
 def _apply_final_briefings(section: CompiledSection, data: dict) -> CompiledSection:
@@ -474,20 +498,16 @@ def _compile_llm_overview(config, sections, issue_date, api_key) -> dict:
         },
     }
     urls = {a.url for section in sections for a in section.articles}
-    for attempt in range(2):
-        data = _request_editor(config, request, api_key)
-        try:
-            _validated_briefing(data.get("briefing"), urls, "overview")
-            if data.get("headline_url") not in urls:
-                raise CompileError(
-                    "Overview headline must reference a final published article"
-                )
-            return data
-        except CompileError as exc:
-            if attempt:
-                raise
-            request["repair"] = str(exc)
-    raise CompileError("Could not generate final overview")
+
+    def validate(data):
+        _validated_briefing(data.get("briefing"), urls, "overview")
+        if data.get("headline_url") not in urls:
+            raise CompileError(
+                "Overview headline must reference a final published article"
+            )
+        return data
+
+    return _request_editor(config, request, api_key, validate=validate)
 
 
 def _llm_payload(config: AppConfig, messages: list[dict]) -> dict:
@@ -497,9 +517,7 @@ def _llm_payload(config: AppConfig, messages: list[dict]) -> dict:
         "response_format": {"type": "json_object"},
         "messages": messages,
     }
-    max_tokens = os.environ.get("OPENAI_MAX_TOKENS")
-    if max_tokens:
-        payload["max_tokens"] = int(max_tokens)
+    payload["max_tokens"] = int(os.environ.get("OPENAI_MAX_TOKENS") or 6000)
     return payload
 
 
@@ -544,7 +562,19 @@ def _post_chat_completion(config: AppConfig, payload: dict, api_key: str) -> str
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
         raise CompileError(f"LLM request failed: {exc}") from exc
     try:
-        return response_data["choices"][0]["message"]["content"]
+        choice = response_data["choices"][0]
+        content = choice["message"]["content"]
+        if not isinstance(content, str):
+            raise CompileError("LLM response content must be text")
+        finish = choice.get("finish_reason")
+        print(
+            f"llm response: finish={finish} chars={len(content)}",
+            file=sys.stderr,
+            flush=True,
+        )
+        if finish == "length":
+            raise CompileError("LLM output was truncated (finish_reason=length)")
+        return content
     except (KeyError, IndexError, TypeError) as exc:
         raise CompileError(
             "LLM response did not include choices[0].message.content"
@@ -564,7 +594,9 @@ def _extract_json(raw: str) -> dict:
     try:
         data = json.loads(text[start : end + 1])
     except json.JSONDecodeError as exc:
-        raise CompileError("LLM response JSON could not be parsed") from exc
+        raise CompileError(
+            f"LLM response JSON could not be parsed at character {exc.pos} of {len(text)}"
+        ) from exc
     if not isinstance(data, dict):
         raise CompileError("LLM response JSON must be an object")
     return data

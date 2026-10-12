@@ -515,3 +515,60 @@ def _copy_project_bits(tmp_path: Path) -> Path:
     copytree(Path.cwd() / "config", root / "config")
     copytree(Path.cwd() / "templates", root / "templates")
     return root
+
+
+def test_malformed_selection_is_retried_before_final_summaries(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    selected = {
+        "ai-tech": [{"id": "frontier-ai", "articles": [_edited(_articles()[0])]}]
+    }
+    calls = []
+    valid_editor = _fake_editor(calls, selected)
+    attempts = []
+
+    def flaky_editor(config, payload, api_key):
+        request = json.loads(payload["messages"][1]["content"])
+        attempts.append(request)
+        if len(attempts) == 1:
+            return '{"id":"ai-tech","subsections":['
+        return valid_editor(config, payload, api_key)
+
+    monkeypatch.setattr(
+        "information_daily.compiler._post_chat_completion", flaky_editor
+    )
+    issue = compile_issue(config, _articles(), date(2026, 5, 29))
+    assert len(issue.sections[0].articles) == 1
+    assert "repair" in attempts[1]
+    assert attempts[0]["candidates"] == attempts[1]["candidates"]
+    assert "final_sections" in attempts[-1]
+
+
+def test_truncated_model_response_cannot_publish_partial_valid_json(monkeypatch):
+    import io
+    from information_daily.compiler import _request_editor
+
+    config = load_config("ai-tech", Path.cwd())
+    calls = []
+
+    def truncated_response(request, **kwargs):
+        calls.append(request)
+        return io.BytesIO(
+            json.dumps(
+                {
+                    "choices": [
+                        {
+                            "finish_reason": "length",
+                            "message": {"content": '{"id":"ai-tech","subsections":[]}'},
+                        }
+                    ]
+                }
+            ).encode()
+        )
+
+    monkeypatch.setattr(
+        "information_daily.compiler.urllib.request.urlopen", truncated_response
+    )
+    with pytest.raises(CompileError, match="finish_reason=length"):
+        _request_editor(config, {"task": "Test incomplete model response"}, "test-key")
+    assert len(calls) == 2

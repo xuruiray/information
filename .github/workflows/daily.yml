@@ -46,12 +46,17 @@ jobs:
         run: |
           GENERATE_ARGS=(--profile "$PROFILE" --out docs)
           if [ "$PREVIEW" = "true" ]; then
+            mkdir -p preview
+            cp -R docs preview/site
             GENERATE_ARGS=(--profile "$PROFILE" --out preview/site --issue-json preview/site/edition.json)
           fi
           if [ -n "$EDITION_DATE" ]; then
             GENERATE_ARGS+=(--date "$EDITION_DATE")
           fi
           python -m information_daily generate "${GENERATE_ARGS[@]}"
+          if [ "$PREVIEW" = "true" ]; then
+            python -c 'import json, shutil; from pathlib import Path; date = json.loads(Path("preview/site/edition.json").read_text())["date"]; shutil.copyfile(f"data/raw/{date}.json", "preview/site/raw-snapshot.json")'
+          fi
         env:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
           PREVIEW: ${{ github.event.inputs.preview || 'false' }}
