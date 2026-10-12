@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "title": "信息日报 2026-10-12",
+  "title_en": "Information Daily 2026-10-12",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "科学家可能找到聚变能源捷径",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+    "source": "ScienceDaily 科学",
+    "summary": "普林斯顿等离子体物理实验室提出一种更高效的聚变路径：先加热等离子体，再提高其密度，与传统方法相反。计算表明，未来反应堆有望以更少能量实现自持聚变，同时避免使点火更难的隐藏问题。",
+    "source_en": "ScienceDaily Top Science",
+    "title_en": "Scientists may have found a shortcut to fusion energy",
+    "summary_en": "Princeton Plasma Physics Laboratory may have found a dramatically more efficient route to fusion energy by reversing the traditional approach: heating plasma first, then increasing its density. Their calculations suggest future reactors could reach self-sustaining fusion with far less energy while avoiding hidden problems that make ignition harder. The team says this counterintuitive sequence could help future reactors achieve ignition more easily.",
+    "original_title": "Scientists may have found a shortcut to fusion energy",
+    "published_at": "2026-10-10T14:57:27-04:00",
+    "reason": "该发现若成立，可能大幅降低聚变能实现难度，是今日评分最高的科学突破，具有长期能源影响。",
+    "reason_en": "If validated, this could significantly lower the barrier to fusion energy. It is today's highest-scored science breakthrough with long-term energy implications.",
+    "score": 10.85
+  },
+  "path": "papers/2026-10-12.html",
+  "raw_path": "raw/2026-10-12.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+    "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
+    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor"
+  ]
+}

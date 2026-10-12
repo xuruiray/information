@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI &amp; LLMs · Information Daily 2026-10-12</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261012</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 12, 2026 · Monday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="ai-tech.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-12/ai-tech.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html" aria-current="page">01 AI &amp; LLMs</a>
+      <a href="developer.html">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI &amp; LLMs</h2>
+      <span class="ed">13 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs Briefing">
+      <div class="lead-label">AI &amp; LLMs Briefing</div>
+      <p>This edition covers frontier models, AI products and platforms, and research and governance. On frontier models, new work introduces CLEAT for value-guided clarification in interactive agents, SpireBench for long-horizon strategic play, EvoBelief for falsifiable world models, and benchmarks for geopolitical QA and geospatial data requirements. On products and platforms, Anthropic has disabled live internet access for internal evaluations. Research and governance highlights include unsupervised multimodal reward modeling, verified evolving formal policy for agent guardrails, and a position paper on structural misalignments in explainable AI faithfulness metrics. The selection emphasizes rigorous evaluation, safety, and reliability of large-model systems.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>Frontier Models</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models">
+          <div class="lead-label">Frontier Models</div>
+          <p>The Frontier Models subsection focuses on agentic alignment, long-horizon strategic reasoning, and self-evolution. CLEAT studies value-guided clarification for interactive agents; SpireBench evaluates long-horizon strategic play using Slay the Spire; EvoBelief evolves agents&#39; beliefs about environment dynamics. Two additional benchmarks target grounded question answering over geopolitical intelligence reports and elicitation of geospatial data requirements. Together they expand evaluation of reasoning, planning, and knowledge grounding in large models.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.12655" target="_blank" rel="noopener">
+            <span class="at">CLEAT: Learning Value-Guided Clarification for Interactive Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper studies interactive intent alignment through clarification, where agents must act under goals and constraints users may leave unstated. It examines when clarification is useful and how an agent can turn answers into improved actions, framing clarification as value-guided learning for interactive agents.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12596" target="_blank" rel="noopener">
+            <span class="at">SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Most agentic benchmarks are short and episodic, leaving long-horizon strategic reasoning under-studied. SpireBench has models play the full game Slay the Spire, aiming to dissect performance into stored knowledge, reasoning, and luck over extended tasks.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12789" target="_blank" rel="noopener">
+            <span class="at">EvoBelief: Falsifiable World Models for Self-Improving LLM Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Self-evolving agents often improve acting through experience, reflection, or skills, yet can fail when their beliefs about environment dynamics are incomplete or outdated. EvoBelief studies evolving those beliefs as a complementary axis of self-evolution and emphasizes falsifiability.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12617" target="_blank" rel="noopener">
+            <span class="at">GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">Geopolitical and strategic intelligence reports hold expert knowledge but are heterogeneous and analytically complex, posing challenges for retrieval-augmented question answering. The paper introduces a benchmark for grounded question answering over such reports, evaluating retrieval and generation capabilities.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12669" target="_blank" rel="noopener">
+            <span class="at">GeoFitBench-LLM: A Benchmark for Assessing Large Language Models&#39; Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">Large language models are becoming central to GeoAI systems, yet evaluation rarely considers elicitation of geospatial data requirements. The paper argues that retrieval-oriented geo-analytic tasks cannot be reliably supported without first identifying necessary datasets and constraints, and introduces a benchmark for this capability.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI Products &amp; Platforms</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products &amp; Platforms">
+          <div class="lead-label">AI Products &amp; Platforms</div>
+          <p>This subsection covers a platform-level safety action. Anthropic said it has turned off live internet access for all its internal evaluations until further notice, after acknowledging it cannot reliably control its AI agents, in order to limit risks from agent interaction with external environments.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead" target="_blank" rel="noopener">
+            <span class="at">Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Anthropic said it has turned off live internet access for all of its internal evaluations until further notice. The company acknowledged it cannot reliably control its AI agents, and the move aims to limit risks from evaluation agents interacting with the live web.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success" target="_blank" rel="noopener">
+            <span class="at">Will the HomeView be Apple’s first smart home success?</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss" target="_blank" rel="noopener">
+            <span class="at">North Korea fires multiple ballistic missiles towards the sea</span>
+            <span class="by">半岛电视台</span>
+            <p class="as">Latest missile launch appears to be a show of force since South Korea&#39;s hypersonic missile test-fire, Seoul says.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>Research &amp; Governance</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Governance">
+          <div class="lead-label">Research &amp; Governance</div>
+          <p>The Research &amp; Governance subsection covers multimodal reward modeling, agent guardrails, and explainability. Work on unsupervised multimodal reward modeling seeks to avoid human preference labels. VEPA offers verified, evolving formal policy guardrails for long-running agents. A position paper argues that explainable AI faithfulness metrics suffer from structural misalignments.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.12707" target="_blank" rel="noopener">
+            <span class="at">Unsupervised Multimodal Reward Modeling</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">Vision-language reward models are typically trained on annotated preference pairs, which are expensive and can disagree. The paper builds a reward model with no human preference labels: a linear head on an intermediate layer of a frozen Qwen3-VL backbone, trained to score a web caption above a corresponding passage.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12527" target="_blank" rel="noopener">
+            <span class="at">Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">Distribution operators need visibility of behind-the-meter photovoltaic generation, yet most residential customers are observed only through net smart meters. Deep-learning-based PV disaggregation can restore this visibility, but its operational value depends on deployment conditions such as whether the model serves known or new customers.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12659" target="_blank" rel="noopener">
+            <span class="at">MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems, but corpus size alone does not determine whether a dataset provides a useful learning signal. The paper experimentally characterizes dataset effects and guides synthesis of effective RLVR data to escape the zero-advantage trap.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12813" target="_blank" rel="noopener">
+            <span class="at">VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">LLM agents increasingly operate over sensitive resources such as private documents and mutable system states, creating safety risks. Runtime guardrails should make inspectable, reproducible, and deterministic allow-or-refuse decisions before irreversible actions. VEPA proposes verified evolving formal policy to achieve this goal.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12493" target="_blank" rel="noopener">
+            <span class="at">Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Explainable AI tools have often been presented as ways to increase trust by making models more understandable, but evidence accumulated over the past decade points to an overall failure of this objective. The position paper discusses structural misalignments in explainable AI faithfulness metrics for feature importance.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
