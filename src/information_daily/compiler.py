@@ -262,6 +262,9 @@ def _apply_final_overview(issue: Issue, overview: dict) -> Issue:
     briefing = _validated_briefing(
         overview.get("briefing"), set(selected_by_url), "overview"
     )
+    _validate_overview_section_count(
+        briefing, sum(bool(s.articles) for s in issue.sections)
+    )
     return replace(
         issue,
         headline=selected_by_url[headline_url],
@@ -527,6 +530,7 @@ def _compile_llm_overview(config, sections, issue_date, api_key) -> dict:
             "只总结最终发布文章，突出具体变化和阅读重点；不得提及未入选候选，也不重新改写文章。",
             "headline_url 必须来自 final_sections 中的文章，covered_urls 列出全部最终文章 URL。",
             "中文总结约160-260字，英文简洁；区分已发生事实、研究主张和预测，保留不确定性。",
+            "若声明覆盖的版面数量，必须与 final_sections 数量一致；只突出部分版面时写重点，不得把其他已入选版面说成不存在。",
         ],
         "schema": {
             "briefing": _briefing_schema(),
@@ -536,7 +540,10 @@ def _compile_llm_overview(config, sections, issue_date, api_key) -> dict:
     urls = {a.url for section in sections for a in section.articles}
 
     def validate(data):
-        _validated_briefing(data.get("briefing"), urls, "overview")
+        briefing = _validated_briefing(data.get("briefing"), urls, "overview")
+        _validate_overview_section_count(
+            briefing, sum(bool(s.articles) for s in sections)
+        )
         if data.get("headline_url") not in urls:
             raise CompileError(
                 "Overview headline must reference a final published article"
@@ -544,6 +551,28 @@ def _compile_llm_overview(config, sections, issue_date, api_key) -> dict:
         return data
 
     return _request_editor(config, request, api_key, validate=validate)
+
+
+def _validate_overview_section_count(briefing, actual_count):
+    numerals = {word: i for i, word in enumerate("零一二三四五六七八九十")}
+    numerals["两"] = 2
+    english = {
+        word: i
+        for i, word in enumerate(
+            "zero one two three four five six seven eight nine ten".split()
+        )
+    }
+    matches = re.findall(
+        r"([零一二两三四五六七八九十\d]+)(?:大|个)?(?:板块|版面)", briefing["summary"]
+    )
+    matches_en = re.findall(
+        r"\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:major\s+)?(?:sections|boards)\b",
+        briefing["summary_en"].casefold(),
+    )
+    for word in [*matches, *matches_en]:
+        count = int(word) if word.isdigit() else numerals.get(word, english.get(word))
+        if count is not None and count != actual_count:
+            raise CompileError("Overview section count differs from final sections")
 
 
 def _llm_payload(config: AppConfig, messages: list[dict]) -> dict:

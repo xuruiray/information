@@ -502,6 +502,49 @@ def test_punctuation_around_quotes_is_allowed_without_allowing_rewritten_words()
     assert _verbatim_evidence_warning(original, "...")
 
 
+@pytest.mark.parametrize(
+    "zh,en",
+    [
+        ("本期覆盖七大板块。", "Eight major sections."),
+        ("本期覆盖八大板块。", "Seven major sections."),
+    ],
+)
+def test_overview_rejects_incorrect_section_counts_even_with_matching_urls(zh, en):
+    from information_daily.compiler import _validate_overview_section_count
+
+    with pytest.raises(CompileError, match="section count"):
+        _validate_overview_section_count({"summary": zh, "summary_en": en}, 8)
+    _validate_overview_section_count(
+        {"summary": "本期覆盖八大板块。", "summary_en": "Eight major sections."}, 8
+    )
+
+
+def test_incorrect_overview_count_is_retried_before_publication(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    selected = {
+        "ai-tech": [{"id": "frontier-ai", "articles": [_edited(_articles()[0])]}]
+    }
+    calls = []
+    attempts = []
+
+    def mutate(request, response):
+        if "final_sections" in request:
+            attempts.append(request)
+            response["briefing"]["summary"] = (
+                "本期覆盖两大板块。" if len(attempts) == 1 else "本期覆盖一大板块。"
+            )
+
+    monkeypatch.setattr(
+        "information_daily.compiler._post_chat_completion",
+        _fake_editor(calls, selected, mutate),
+    )
+    issue = compile_issue(config, _articles(), date(2026, 5, 29))
+    assert len(attempts) == 2
+    assert "section count" in attempts[1]["repair"]
+    assert issue.briefing_summary == "本期覆盖一大板块。"
+
+
 def test_short_keyword_and_source_tags_do_not_establish_topic():
     config = load_config("ai-tech", Path.cwd())
     article = replace(
