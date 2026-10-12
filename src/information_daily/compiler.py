@@ -517,7 +517,18 @@ def _llm_payload(config: AppConfig, messages: list[dict]) -> dict:
         "response_format": {"type": "json_object"},
         "messages": messages,
     }
-    payload["max_tokens"] = int(os.environ.get("OPENAI_MAX_TOKENS") or 6000)
+    model = payload["model"].casefold().split("/")[-1]
+    openai_reasoning = model.startswith(("gpt-5", "gpt-6", "o1", "o3", "o4"))
+    gemini_reasoning = model.startswith(("gemini-2.5", "gemini-3"))
+    max_tokens = os.environ.get("OPENAI_MAX_TOKENS")
+    if openai_reasoning or gemini_reasoning:
+        payload["reasoning_effort"] = os.environ.get("OPENAI_REASONING_EFFORT") or "low"
+        budget_field = "max_completion_tokens" if openai_reasoning else "max_tokens"
+        payload[budget_field] = int(max_tokens or 16000)
+        if openai_reasoning:
+            payload.pop("temperature")
+    elif max_tokens:
+        payload["max_tokens"] = int(max_tokens)
     return payload
 
 
@@ -567,8 +578,17 @@ def _post_chat_completion(config: AppConfig, payload: dict, api_key: str) -> str
         if not isinstance(content, str):
             raise CompileError("LLM response content must be text")
         finish = choice.get("finish_reason")
+        usage = response_data.get("usage") or {}
+        details = usage.get("completion_tokens_details") or {}
+        model = str(response_data.get("model") or "").casefold()
+        family = next(
+            (name for name in ("gemini", "gpt", "o1", "o3", "o4") if name in model),
+            "other",
+        )
         print(
-            f"llm response: finish={finish} chars={len(content)}",
+            f"llm response: family={family} finish={finish} chars={len(content)} "
+            f"completion_tokens={usage.get('completion_tokens', 'unavailable')} "
+            f"reasoning_tokens={details.get('reasoning_tokens', 'unavailable')}",
             file=sys.stderr,
             flush=True,
         )

@@ -44,6 +44,8 @@ python -m information_daily generate --profile ai-tech --out docs
 - 总结阶段接收最终文章；返回的 URL 集合必须一致。校验失败只重试一次，仍失败则停止生成，保留已有页面。URL 校验不能替代对事实和语义的人工审阅。
 - 有文章的大版会增加一次总结请求，空栏目不请求总结。默认八版最多增加八次请求，实际费用取决于入选篇数与模型。
 - `--allow-fallback` 本地预览保留原始标题和摘要，不再用通用中文套话冒充翻译。
+- 已识别的推理模型使用 `low` 推理强度，并为推理与正文共同预留 16000 token。可通过 `OPENAI_REASONING_EFFORT`、`OPENAI_MAX_TOKENS` 覆盖；其他模型保留原有默认。参数依据：[OpenAI 推理指南](https://developers.openai.com/api/docs/guides/reasoning)、[Gemini 兼容接口](https://ai.google.dev/gemini-api/docs/openai)。
+- API 返回截断、非法 JSON 或总结校验失败时，同一阶段最多尝试两次，失败时不渲染新页面。
 
 ### 离线编纂审阅版
 

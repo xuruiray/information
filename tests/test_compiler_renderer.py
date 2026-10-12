@@ -572,3 +572,44 @@ def test_truncated_model_response_cannot_publish_partial_valid_json(monkeypatch)
     with pytest.raises(CompileError, match="finish_reason=length"):
         _request_editor(config, {"task": "Test incomplete model response"}, "test-key")
     assert len(calls) == 2
+
+
+@pytest.mark.parametrize(
+    "model,budget_key",
+    [
+        ("gpt-5.5", "max_completion_tokens"),
+        ("openai/gpt-6-sol", "max_completion_tokens"),
+        ("gemini-2.5-pro", "max_tokens"),
+    ],
+)
+def test_reasoning_model_budget_accounts_for_thinking(monkeypatch, model, budget_key):
+    from information_daily.compiler import _llm_payload
+
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.model_env, model)
+    monkeypatch.delenv("OPENAI_MAX_TOKENS", raising=False)
+    monkeypatch.delenv("OPENAI_REASONING_EFFORT", raising=False)
+    payload = _llm_payload(config, [])
+    assert payload["reasoning_effort"] == "low"
+    assert payload[budget_key] == 16000
+    if budget_key == "max_completion_tokens":
+        assert "max_tokens" not in payload
+        assert "temperature" not in payload
+    monkeypatch.setenv("OPENAI_MAX_TOKENS", "22000")
+    monkeypatch.setenv("OPENAI_REASONING_EFFORT", "medium")
+    overridden = _llm_payload(config, [])
+    assert overridden[budget_key] == 22000
+    assert overridden["reasoning_effort"] == "medium"
+
+
+def test_nonreasoning_models_keep_original_provider_defaults(monkeypatch):
+    from information_daily.compiler import _llm_payload
+
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.model_env, "gpt-4o-mini")
+    monkeypatch.delenv("OPENAI_MAX_TOKENS", raising=False)
+    payload = _llm_payload(config, [])
+    assert "reasoning_effort" not in payload
+    assert "max_tokens" not in payload
+    assert "max_completion_tokens" not in payload
+    assert payload["temperature"] == config.llm.temperature
