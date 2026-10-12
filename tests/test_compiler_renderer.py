@@ -561,7 +561,9 @@ def test_render_issue_writes_pages(tmp_path, monkeypatch):
         "sources",
         "articles",
         "warnings",
+        "fetch_warnings",
     }
+    assert raw_json["fetch_warnings"] == []
     assert hidden_warning in raw_json["warnings"]
     assert raw_json["articles"][0]["rank"] == 1
 
