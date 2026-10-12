@@ -32,7 +32,9 @@ python -m information_daily generate --profile ai-tech --out docs
 
 ## 自动发布
 
-`.github/workflows/daily.yml` 会在北京时间每天 08:00 运行，也支持手动触发并填写 profile。
+`.github/workflows/daily.yml` 配置为北京时间每天 08:17 自动运行（GitHub 调度可能延迟），也支持手动触发并填写 profile。正常自动运行会抓取新素材并使用主分支上的编纂规则；不会复用预览快照或历史选稿。生成成功后提交 `docs` 和 `data`，由现有 GitHub Pages 流程发布。
+
+正式运行保存 `data/editions/YYYY-MM-DD.json` 的完整最终文章，以及 `data/editorial/YYYY-MM-DD.json` 的选稿与校验记录。Pull Request 和主分支推送会通过 `Validate Newspaper` 执行测试和配置检查。
 
 ## 内容质量
 

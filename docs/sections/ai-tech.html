@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>01 AI 与大模型</h2>
-      <span class="ed">13 条 / 3 个细分</span>
+      <span class="ed">10 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型总结">
-      <div class="lead-label">AI 与大模型总结</div>
-      <p>本期AI与大模型版聚焦前沿模型、AI产品与平台、研究与治理。前沿模型方面，提出面向交互式智能体的价值引导澄清框架CLEAT、长周期战略评测SpireBench、可证伪世界模型EvoBelief以及地缘政治与地理空间数据需求基准。产品与平台方面，Anthropic暂停内部评估的实时互联网访问。研究与治理方面，无监督多模态奖励建模、智能体护栏形式化策略与可解释AI指标结构错位受到关注。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：从可证伪世界模型到智能体护栏">
+      <div class="lead-label">AI 与大模型：从可证伪世界模型到智能体护栏</div>
+      <p>本期 AI 与大模型版收录前沿模型与研究治理两类进展。前沿模型方面，五篇论文分别提出 EvoBelief 可证伪世界模型、弹性潜在递归语言模型、Kairos 字节级多模态基础模型、推测解码并行草稿的上下文校正，以及 CLEAT 价值引导澄清。研究与治理方面，微软 CEO 萨提亚·纳德拉发帖称应退后一步评估 AI 的信任架构，并主张 AI 模型需要紧急刹车；VEPA 为终身 LLM 智能体提供可验证的演化形式化策略护栏；GeopoliticalQA 评估面向情报报告的有依据问答；无监督多模态奖励建模在冻结 Qwen3-VL 主干中间层加线性头；立场论文分析可解释 AI 特征重要性忠实性指标的结构性错位。</p>
     </section>
 
     <div class="subsection-stack">
@@ -54,40 +54,40 @@
           <h3>前沿模型</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型">
-          <div class="lead-label">前沿模型</div>
-          <p>前沿模型小版关注智能体的交互对齐、长周期战略推理与自我进化。CLEAT研究价值引导的澄清机制；SpireBench用《杀戮尖塔》评测长程策略；EvoBelief让智能体演化对环境动态的信念；此外还有地缘政治情报报告问答与地理空间数据需求两项新基准。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：可证伪世界模型与弹性递归架构">
+          <div class="lead-label">前沿模型：可证伪世界模型与弹性递归架构</div>
+          <p>本期前沿模型收录五篇论文。EvoBelief 让自我进化的 LLM 智能体不仅改进行为，还演化对环境动态的可证伪世界模型；弹性潜在递归语言模型通过重复共享层块，让单个检查点可改变循环次数来权衡推理算力与准确率；Kairos 探索字节级多模态基础模型，结合双向门控 DeltaNet 线性注意力、滑动窗口注意力、块级注意力残差聚合与稀疏专家混合；推测解码研究并行草稿的上下文校正，以提高目标模型验证扩散草稿并行生成多令牌的效率；CLEAT 将交互式意图对齐视为澄清问题，研究 LLM 智能体如何通过价值引导澄清对齐未明说目标与约束。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.12655" target="_blank" rel="noopener">
-            <span class="at">CLEAT：面向交互式智能体的价值引导澄清学习</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出将交互式意图对齐建模为澄清问题：智能体在用户未明说的目标与约束下，需要判断何时提问以及如何利用回答。研究关注澄清在何种条件下真正有用，并探索价值引导的澄清策略。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.12596" target="_blank" rel="noopener">
-            <span class="at">SpireBench：用《杀戮尖塔》评测智能体长周期战略博弈</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">现有智能体基准多为短程、片段式任务，长周期战略推理研究不足。SpireBench让模型游玩完整《杀戮尖塔》，以可分解的方式考察存储知识、推理与运气在长任务表现中的作用。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://arxiv.org/abs/2610.12789" target="_blank" rel="noopener">
-            <span class="at">EvoBelief：面向自我改进LLM智能体的可证伪世界模型</span>
+            <span class="at">EvoBelief：面向自我改进 LLM 智能体的可证伪世界模型</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">自我演化智能体通常从经验、反思或技能中改进行动，但若对环境动态的信念不完整或过时，仍会失败。EvoBelief研究自我演化的另一维度：演化智能体对环境动态的信念，并强调信念的可证伪性。</p>
+            <p class="as">论文提出 EvoBelief，让自我进化的 LLM 智能体不仅改进行为，还演化对环境动态的可证伪世界模型，以弥补信念不完整或过时导致的失败。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.12617" target="_blank" rel="noopener">
-            <span class="at">GeopoliticalQA：面向情报报告检索与生成的基准</span>
+          <a class="art" href="https://arxiv.org/abs/2610.12582" target="_blank" rel="noopener">
+            <span class="at">一个模型循环所有：语言模型的弹性潜在递归</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">地缘政治与战略情报报告蕴含专家知识，但其异质性与分析复杂性给检索增强问答带来挑战。论文提出一个面向有据可依问答的基准，用于评测模型在情报报告上的检索与生成能力。</p>
+            <p class="as">论文提出弹性潜在递归语言模型，通过重复共享层块，让单个检查点可改变循环次数来权衡推理算力与准确率，并缓解单次循环的性能损失。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.12669" target="_blank" rel="noopener">
-            <span class="at">GeoFitBench-LLM：评估大模型获取地理空间数据需求的能力</span>
+          <a class="art" href="https://arxiv.org/abs/2610.12495" target="_blank" rel="noopener">
+            <span class="at">Kairos：面向所有模态的字节级基础模型</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">论文提出 Kairos，结合双向门控 DeltaNet 线性注意力、滑动窗口注意力、块级注意力残差聚合与稀疏专家混合，探索字节级多模态基础模型。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12570" target="_blank" rel="noopener">
+            <span class="at">推测解码中并行草稿的上下文校正</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">大模型正成为GeoAI系统的核心，但评测很少关注地理空间数据需求的获取。论文指出，检索导向的地理分析任务若不能先确定所需数据集与约束，就难以可靠支持，并提出相应基准。</p>
+            <p class="as">论文研究推测解码加速，针对基于扩散的草稿模型并行生成多令牌，提出上下文校正方法，以提高目标模型验证并行草稿的效率。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12655" target="_blank" rel="noopener">
+            <span class="at">CLEAT：为交互式智能体学习价值引导的澄清</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文将交互式意图对齐视为澄清问题，研究 LLM 智能体如何通过价值引导的澄清，将行动与用户未明说的目标和约束对齐。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -95,73 +95,49 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI 产品与平台</h3>
-          <span>3 条</span>
+          <span>0 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台">
-          <div class="lead-label">AI 产品与平台</div>
-          <p>本小版关注AI平台在安全与可控性上的产品动作。Anthropic表示，在无法可靠控制其AI智能体的情况下，已关闭所有内部评估的实时互联网访问，直至另行通知，以限制智能体与外部环境的交互风险。</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead" target="_blank" rel="noopener">
-            <span class="at">Anthropic无法可靠控制AI智能体，暂停内部评估的实时互联网访问</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Anthropic表示，在无法可靠控制其AI智能体的情况下，已关闭所有内部评估的实时互联网访问，直至另行通知。此举旨在限制评估中的智能体与实时网络交互带来的风险。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success" target="_blank" rel="noopener">
-            <span class="at">AI 与大模型：TechCrunch AI关注的关键线索</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">这条科技线索来自TechCrunch AI，关注模型能力、产品落地或产业应用变化，适合快速把握今日技术方向。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss" target="_blank" rel="noopener">
-            <span class="at">国际事务：半岛电视台关注的关键线索</span>
-            <span class="by">半岛电视台</span>
-            <p class="as">这条国际线索来自半岛电视台，重点关注地缘安全、政府政策或全球社会动态，有助于判断外部环境和区域风险的变化。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-        </div>
+        <p class="empty">本小版今日暂无入选文章。</p>
       </section>
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>研究与治理</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理">
-          <div class="lead-label">研究与治理</div>
-          <p>研究与治理小版涵盖多模态奖励建模、智能体护栏与可解释性。无监督多模态奖励建模尝试摆脱人工偏好标注；VEPA为长期运行的智能体提供可验证、可演进的形式化策略护栏；另有立场论文指出可解释AI的忠实性指标存在结构性错位。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：紧急刹车、智能体护栏与评测基准">
+          <div class="lead-label">研究与治理：紧急刹车、智能体护栏与评测基准</div>
+          <p>本期研究与治理收录五项内容。微软 CEO 萨提亚·纳德拉在周六发帖表示，现在应退后一步评估 AI 的信任架构，TechCrunch 报道其主张 AI 模型需要紧急刹车机制；VEPA 为 LLM 智能体在敏感资源操作中提供运行时护栏，在潜在不可逆行动前做出可检查、可复现且确定性的允许或拒绝决策；GeopoliticalQA 是面向地缘政治与战略情报报告的有依据问答基准；无监督多模态奖励建模在冻结的 Qwen3-VL 主干中间层加线性头，训练其给网页描述打高于其他文本的分数；立场论文指出可解释 AI 工具提升信任的目标整体失败，并分析特征重要性忠实性指标的结构性错位。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.12707" target="_blank" rel="noopener">
-            <span class="at">无监督多模态奖励建模</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">视觉语言奖励模型通常依赖人工标注的偏好对，成本高且可能不一致。论文提出无需人类偏好标签的奖励模型：在冻结的Qwen3-VL骨干中间层加线性头，训练其给网页标题打分高于相应段落。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.12527" target="_blank" rel="noopener">
-            <span class="at">从净智能电表看表后光伏：部署机制与运营洞察</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">配电网运营商需要掌握表后光伏发电情况，但多数居民用户仅通过净智能电表被观测。基于深度学习的光伏分解可恢复这一可见性，但其运营价值取决于模型服务的是已知客户还是新客户等部署条件。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.12659" target="_blank" rel="noopener">
-            <span class="at">MagicBeanStalk：用递归数据合成跳出RLVR零优势陷阱</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">以数据为中心的RLVR扩展多聚焦于收集或生成可验证训练题，但语料规模本身不决定数据集是否为目标策略提供有用学习信号。论文通过实验刻画数据集效应，并指导有效RLVR数据的合成，以避开零优势陷阱。</p>
+          <a class="art" href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake" target="_blank" rel="noopener">
+            <span class="at">微软萨提亚·纳德拉称 AI 模型需要“紧急刹车”</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">微软 CEO 萨提亚·纳德拉在周六发帖表示，现在应“退后一步，评估 AI 的信任架构”。TechCrunch 报道其主张 AI 模型需要紧急刹车机制。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2610.12813" target="_blank" rel="noopener">
-            <span class="at">VEPA：面向长期LLM智能体的可验证演进形式化策略护栏</span>
+            <span class="at">VEPA：为终身 LLM 智能体护栏提供可验证的演化形式化策略</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">LLM智能体日益操作敏感资源，如私人文档和可变系统状态，带来安全风险。运行时护栏应在不可逆操作前给出可检查、可复现且确定性的允许或拒绝决定。VEPA提出可验证、可演进的形式化策略来实现这一目标。</p>
+            <p class="as">论文提出 VEPA，为 LLM 智能体在敏感资源操作中提供运行时护栏，在潜在不可逆行动前做出可检查、可复现且确定性的允许或拒绝决策。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12617" target="_blank" rel="noopener">
+            <span class="at">GeopoliticalQA：面向情报报告的检索与生成基准</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出 GeopoliticalQA，用于评估面向地缘政治与战略情报报告的有依据问答，应对情报报告异构性和分析复杂性带来的检索增强问答挑战。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.12707" target="_blank" rel="noopener">
+            <span class="at">无监督多模态奖励建模</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出无需人类偏好标签的多模态奖励模型，在冻结的 Qwen3-VL 主干中间层加线性头，训练其给网页描述打高于其他文本的分数。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2610.12493" target="_blank" rel="noopener">
-            <span class="at">无锚点的忠实性：可解释AI特征重要性忠实度指标结构错位立场论文</span>
+            <span class="at">无锚点的忠实性：关于可解释 AI 特征重要性忠实性指标结构性错位的立场论文</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">可解释AI工具常被寄望于通过让模型更可理解来提升信任，但过去十年的证据显示该目标整体未达成。论文以立场论文形式，讨论可解释AI在特征重要性上的忠实度指标存在结构性错位。</p>
+            <p class="as">该立场论文指出，可解释 AI 工具常被宣传为通过让算法更易理解来提升信任，但过去十年证据表明这一目标整体失败，并分析特征重要性忠实性指标的结构性错位。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

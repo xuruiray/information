@@ -31,6 +31,7 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: Asia/Shanghai
 
 jobs:
   generate:
@@ -52,7 +53,10 @@ jobs:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
       - name: Generate newspaper
         run: |
-          GENERATE_ARGS=(--profile "$PROFILE" --out docs)
+          if [ -z "$EDITION_DATE" ]; then
+            EDITION_DATE="$(date +%F)"
+          fi
+          GENERATE_ARGS=(--profile "$PROFILE" --out docs --issue-json "data/editions/$EDITION_DATE.json" --editorial-audit "data/editorial/$EDITION_DATE.json")
           if [ "$PREVIEW" = "true" ]; then
             mkdir -p preview
             cp -R docs preview/site
