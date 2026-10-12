@@ -77,6 +77,11 @@ def main(argv: list[str] | None = None) -> int:
         help="Save raw editor selections and every validation decision, including on failure.",
     )
     generate.add_argument(
+        "--editorial-selection",
+        type=Path,
+        help="Reuse saved API article selections; requires a matching source snapshot. Topic review and summaries still call the API.",
+    )
+    generate.add_argument(
         "--skip-raw-pages",
         action="store_true",
         help="Write the raw JSON snapshot but skip raw/source browsing pages.",
@@ -108,6 +113,17 @@ def main(argv: list[str] | None = None) -> int:
                 )
             )
             audit = {} if args.editorial_audit else None
+            selection = None
+            if args.editorial_selection:
+                if not args.source_snapshot:
+                    raise ValueError(
+                        "Saved editorial selections require a source snapshot"
+                    )
+                selection = json.loads(
+                    args.editorial_selection.read_text(encoding="utf-8")
+                )
+                if selection.get("date") != issue_date.isoformat():
+                    raise ValueError("Saved editorial selection date differs")
             try:
                 issue = compile_issue(
                     config,
@@ -115,6 +131,7 @@ def main(argv: list[str] | None = None) -> int:
                     issue_date=issue_date,
                     allow_fallback=args.allow_fallback,
                     editorial_audit=audit,
+                    editorial_selection=selection,
                 )
             finally:
                 if args.editorial_audit:

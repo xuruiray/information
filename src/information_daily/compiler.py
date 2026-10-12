@@ -35,13 +35,16 @@ def compile_issue(
     issue_date: date,
     allow_fallback: bool = False,
     editorial_audit: dict | None = None,
+    editorial_selection: dict | None = None,
 ) -> Issue:
     prepared = _prepare_articles(config, articles, issue_date)
     warnings: list[str] = []
 
     if config.llm.enabled:
         try:
-            issue = _compile_with_llm(config, prepared, issue_date, editorial_audit)
+            issue = _compile_with_llm(
+                config, prepared, issue_date, editorial_audit, editorial_selection
+            )
             return issue
         except ConfigError:
             if not allow_fallback:
@@ -193,6 +196,7 @@ def _compile_with_llm(
     articles: list[Article],
     issue_date: date,
     editorial_audit: dict | None = None,
+    editorial_selection: dict | None = None,
 ) -> Issue:
     api_key = os.environ.get(config.llm.api_key_env)
     if not api_key:
@@ -204,17 +208,36 @@ def _compile_with_llm(
     section_data = []
     for section in config.sections:
         # Selection has no minimum; the editor may reject every candidate.
-        section_data.append(
-            _compile_llm_section(config, section, ranked, issue_date, api_key)
-        )
+        if editorial_selection is None:
+            section_data.append(
+                _compile_llm_section(config, section, ranked, issue_date, api_key)
+            )
+        else:
+            section_data.append(
+                _coerce_llm_section_data(
+                    section,
+                    next(
+                        (
+                            s
+                            for s in editorial_selection.get("sections", [])
+                            if s.get("id") == section.id
+                        ),
+                        {},
+                    ),
+                )
+            )
         if editorial_audit is not None:
             editorial_audit["sections"].append(section_data[-1])
+    topic_approvals = _review_unmatched_topics(
+        config, section_data, articles, issue_date, api_key, editorial_audit
+    )
     issue = _issue_from_llm_data(
         config,
         {"sections": section_data},
         articles,
         issue_date,
         decisions=editorial_audit["decisions"] if editorial_audit is not None else None,
+        topic_approvals=topic_approvals,
     )
     sections = tuple(
         _compile_llm_briefings(config, section, issue_date, api_key)
@@ -635,7 +658,9 @@ def _extract_json(raw: str) -> dict:
     return data
 
 
-def _issue_from_llm_data(config, data, articles, issue_date, decisions=None) -> Issue:
+def _issue_from_llm_data(
+    config, data, articles, issue_date, decisions=None, topic_approvals=frozenset()
+) -> Issue:
     ranked = _ranked_candidates_by_section(config, articles)
     raw_sections = {
         item["id"]: item
@@ -686,6 +711,11 @@ def _issue_from_llm_data(config, data, articles, issue_date, decisions=None) -> 
                         str(raw_item.get("topic_evidence") or "")
                     )
                     warning = _topic_evidence_warning(sub, original, evidence)
+                    if (
+                        warning == "topic evidence does not match subsection"
+                        and (section.id, sub.id, item.url) in topic_approvals
+                    ):
+                        warning = ""
                     if not warning and item.url in used_urls:
                         warning = "duplicate URL"
                     if not warning and at_limit:
@@ -711,6 +741,10 @@ def _issue_from_llm_data(config, data, articles, issue_date, decisions=None) -> 
                             "topic_evidence": evidence,
                             "status": "rejected" if warning else "accepted",
                             "reason": warning,
+                            "semantic_topic_approved": (section.id, sub.id, item.url)
+                            in topic_approvals
+                            if item
+                            else False,
                             "quote_keyword_match": _topic_matches(
                                 sub.keywords, evidence
                             ),
@@ -1048,24 +1082,162 @@ def _evidence_text(text: str) -> str:
 
 
 def _topic_evidence_warning(sub, original, evidence) -> str:
-    quote = _evidence_text(evidence)
-    if not quote or not any(
-        quote in _evidence_text(text) for text in (original.title, original.summary)
-    ):
-        return "missing verbatim topic evidence"
-    if quote in {
-        "arxiv",
-        "blog",
-        "hn",
-        "hacker news",
-        "comments",
-        "article url",
-        "comments url",
-    }:
-        return "metadata-only topic evidence"
+    warning = _verbatim_evidence_warning(original, evidence)
+    if warning:
+        return warning
     if not _topic_matches(sub.keywords, original.title + " " + original.summary):
         return "topic evidence does not match subsection"
     return ""
+
+
+def _verbatim_evidence_warning(original, evidence) -> str:
+    quote = _evidence_text(evidence)
+    if not quote or not _evidence_words(quote):
+        return "missing verbatim topic evidence"
+    if not any(
+        quote in _evidence_text(text) for text in (original.title, original.summary)
+    ) and not any(
+        _evidence_words(quote) in _evidence_words(text)
+        for text in (original.title, original.summary)
+    ):
+        return "missing verbatim topic evidence"
+    if (
+        quote
+        in {
+            "arxiv",
+            "blog",
+            "hn",
+            "hacker news",
+            "comments",
+            "article url",
+            "comments url",
+        }
+        or re.fullmatch(r"arxiv(?::?\s*[\d.v]+)?(?:\s+announce type:.*)?", quote)
+        or quote.startswith(("article url:", "comments url:"))
+    ):
+        return "metadata-only topic evidence"
+    return ""
+
+
+def _evidence_words(text):
+    # Preserve word order and boundaries when punctuation differs around quotes.
+    return normalize_space(re.sub(r"[^\w]+", " ", _evidence_text(text)))
+
+
+def _review_unmatched_topics(
+    config, section_data, articles, issue_date, api_key, audit
+):
+    ranked = _ranked_candidates_by_section(config, articles)
+    candidates = []
+    for section in config.sections:
+        limit = min(
+            max(1, config.llm.max_input_items), max(1, section.max_articles * 2)
+        )
+        allowed = {a.url: a for a, _ in ranked[section.id][:limit]}
+        selected = next(s for s in section_data if s["id"] == section.id)
+        for sub in _section_subsections(section):
+            for raw_sub in selected.get("subsections", []):
+                if raw_sub.get("id") != sub.id:
+                    continue
+                for raw in raw_sub.get("articles", []):
+                    item, warning = _compiled_from_mapping_checked(raw, allowed)
+                    if warning:
+                        continue
+                    original = allowed[item.url]
+                    evidence = normalize_space(str(raw.get("topic_evidence") or ""))
+                    if (
+                        _topic_evidence_warning(sub, original, evidence)
+                        != "topic evidence does not match subsection"
+                    ):
+                        continue
+                    key = f"{section.id}/{sub.id}/{item.url}"
+                    if any(c["id"] == key for c in candidates):
+                        continue
+                    candidates.append(
+                        {
+                            "id": key,
+                            "section": section.title,
+                            "subsection": sub.title,
+                            "url": item.url,
+                            "original_title": original.title,
+                            "original_summary": original.summary,
+                            "topic_evidence": evidence,
+                        }
+                    )
+    if not candidates:
+        return frozenset()
+    request = {
+        "task": "复核词表未命中的栏目归属；仅按原文主事件判断。",
+        "date": issue_date.isoformat(),
+        "topic_review_candidates": candidates,
+        "requirements": [
+            "词表可能漏掉同义表达。逐条独立判断原文主事件是否直接属于给定的大版和小版，不因为未命中关键词拒绝，也不因为来源、人物或公司名称强行放行。",
+            "只有原标题和摘要明确支持具体事件且小版确实合适时 approved=true；主题错误、材料不足或只是来源标签时 approved=false。不要为了增加篇数放行。",
+            "政策栏目需要具体政府行动、制度、监管、标准或政策讨论；民调、人物介绍和宣传活动不能仅因涉及政治或公司放入政策/新产品栏目。",
+            "原文属于其他小版时拒绝并在 reason 指出，不能跨栏目补位。新产品栏目需要材料明确描述具体产品或增长，不要求原文必须出现 product/launch 等字面词。",
+            "evidence 逐字摘录输入原文中支持判断的短语；reason 说明主事件与指定小版的具体关系，不能泛写相关、值得关注。每个输入 id 必须返回一次。",
+        ],
+        "schema": {
+            "decisions": [
+                {
+                    "id": "unchanged input id",
+                    "approved": True,
+                    "evidence": "verbatim source phrase",
+                    "reason": "具体判断依据",
+                }
+            ]
+        },
+    }
+    decisions = _request_editor(
+        config,
+        request,
+        api_key,
+        validate=lambda data: _validated_topic_review(data, candidates),
+    )
+    by_id = {c["id"]: c for c in candidates}
+    approvals = frozenset(
+        tuple(d["id"].split("/", 2)) for d in decisions if d["approved"]
+    )
+    if audit is not None:
+        audit["topic_review"] = [{**by_id[d["id"]], **d} for d in decisions]
+        audit["topic_approvals"] = [list(p) for p in sorted(approvals)]
+    return approvals
+
+
+def _validated_topic_review(data, candidates):
+    decisions = data.get("decisions")
+    expected = {c["id"]: c for c in candidates}
+    if not isinstance(decisions, list) or any(
+        not isinstance(d, dict) for d in decisions
+    ):
+        raise CompileError("Missing topic review decisions")
+    ids = [d.get("id") for d in decisions]
+    if (
+        any(not isinstance(k, str) for k in ids)
+        or len(set(ids)) != len(ids)
+        or set(ids) != set(expected)
+    ):
+        raise CompileError("Topic review candidate set differs")
+    for d in decisions:
+        c = expected[d["id"]]
+        if not isinstance(d.get("approved"), bool) or not normalize_space(
+            str(d.get("reason") or "")
+        ):
+            raise CompileError("Incomplete topic review decision")
+        original = Article(
+            id="",
+            title=c["original_title"],
+            summary=c["original_summary"],
+            url=c["url"],
+            source_id="",
+            source_name="",
+            default_section="",
+        )
+        if d["approved"] and _verbatim_evidence_warning(
+            original, str(d.get("evidence") or "")
+        ):
+            raise CompileError("Topic review approval lacks verbatim source evidence")
+    return decisions
 
 
 def _fallback_article_title_zh(article: Article) -> str:

@@ -398,6 +398,110 @@ def test_editorial_audit_preserves_rejected_url_and_raw_selection(monkeypatch):
     assert rejected["url"] in issue.warnings[0]
 
 
+@pytest.mark.parametrize("approved", [True, False])
+def test_keyword_misses_receive_grounded_review_before_final_summaries(
+    monkeypatch, approved
+):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    candidate = replace(
+        _articles()[0],
+        id="nadella",
+        url="https://example.com/nadella",
+        title="Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+        summary="Microsoft's CEO wrote that it’s time to assess the trust architecture of AI.",
+    )
+    saved = {"sections": [{"id": s.id, "subsections": []} for s in config.sections]}
+    saved["sections"][0]["subsections"] = [
+        {"id": "frontier-ai", "articles": [_edited(_articles()[0])]},
+        {
+            "id": "ai-research-governance",
+            "articles": [
+                _edited(
+                    candidate,
+                    title="纳德拉呼吁AI模型设置紧急制动",
+                    topic_evidence="AI models need an ‘emergency brake’",
+                )
+            ],
+        },
+    ]
+    calls = []
+    summarize = _fake_editor(calls, {})
+
+    def post(config, payload, key):
+        request = json.loads(payload["messages"][1]["content"])
+        if "topic_review_candidates" not in request:
+            return summarize(config, payload, key)
+        calls.append(request)
+        review = request["topic_review_candidates"][0]
+        assert review["original_title"] == candidate.title
+        return json.dumps(
+            {
+                "decisions": [
+                    {
+                        "id": review["id"],
+                        "approved": approved,
+                        "evidence": "AI models need an ‘emergency brake’",
+                        "reason": "AI紧急制动涉及模型安全与治理。",
+                    }
+                ]
+            }
+        )
+
+    monkeypatch.setattr("information_daily.compiler._post_chat_completion", post)
+    audit = {}
+    issue = compile_issue(
+        config,
+        [_articles()[0], candidate],
+        date(2026, 5, 29),
+        editorial_selection=saved,
+        editorial_audit=audit,
+    )
+    published = {a.url for s in issue.sections for a in s.articles}
+    assert (candidate.url in published) == approved
+    assert len(calls) == 3  # one review, final section summary, final overview
+    assert audit["topic_review"][0]["approved"] == approved
+    assert len(calls[-1]["final_sections"][0]["articles"]) == (2 if approved else 1)
+
+
+@pytest.mark.parametrize("change", ["invented_evidence", "unknown_id"])
+def test_topic_review_cannot_approve_untraceable_source_evidence(change):
+    from information_daily.compiler import _validated_topic_review
+
+    candidate = {
+        "id": "ai-tech/ai-research-governance/url",
+        "url": "https://example.com",
+        "original_title": "AI models need an emergency brake",
+        "original_summary": "",
+    }
+    decision = {
+        "id": candidate["id"],
+        "approved": True,
+        "evidence": candidate["original_title"],
+        "reason": "AI安全治理",
+    }
+    if change == "invented_evidence":
+        decision["evidence"] = "The company released new safety legislation"
+    else:
+        decision["id"] = "another input"
+    with pytest.raises(CompileError):
+        _validated_topic_review({"decisions": [decision]}, [candidate])
+
+
+def test_punctuation_around_quotes_is_allowed_without_allowing_rewritten_words():
+    from information_daily.compiler import _verbatim_evidence_warning
+
+    original = replace(
+        _articles()[0],
+        summary="Oil swung after an “energy ceasefire,” while strikes continued.",
+    )
+    assert not _verbatim_evidence_warning(
+        original, "Oil swung after an “energy ceasefire”"
+    )
+    assert _verbatim_evidence_warning(original, "Oil fell after an “energy ceasefire”")
+    assert _verbatim_evidence_warning(original, "...")
+
+
 def test_short_keyword_and_source_tags_do_not_establish_topic():
     config = load_config("ai-tech", Path.cwd())
     article = replace(

@@ -1,0 +1,858 @@
+{
+  "date": "2026-10-12",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.12789",
+              "title": "EvoBelief：面向自我改进 LLM 智能体的可证伪世界模型",
+              "summary": "论文提出 EvoBelief，让自我进化的 LLM 智能体不仅改进行为，还演化对环境动态的可证伪世界模型，以弥补信念不完整或过时导致的失败。",
+              "title_en": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+              "summary_en": "The paper introduces EvoBelief, which evolves falsifiable world models for self-improving LLM agents to address incomplete or outdated beliefs about environment dynamics.",
+              "topic_evidence": "Falsifiable World Models for Self-Improving LLM Agents",
+              "reason": "该论文聚焦 LLM 智能体的自我进化与环境信念建模，属于前沿智能体研究。",
+              "reason_en": "This paper focuses on self-evolution and environment belief modeling for LLM agents, a frontier agent research topic.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12582",
+              "title": "一个模型循环所有：语言模型的弹性潜在递归",
+              "summary": "论文提出弹性潜在递归语言模型，通过重复共享层块，让单个检查点可改变循环次数来权衡推理算力与准确率，并缓解单次循环的性能损失。",
+              "title_en": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+              "summary_en": "The paper proposes an elastic latent recurrent language model that reuses a shared block of layers, letting one checkpoint trade inference compute for accuracy by changing loop count.",
+              "topic_evidence": "A latent recurrent language model applies a shared block of layers repeatedly",
+              "reason": "该论文提出可弹性调整循环次数的语言模型架构，属于前沿模型效率研究。",
+              "reason_en": "This paper introduces an elastic recurrence architecture for language models, relevant to frontier model efficiency.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12495",
+              "title": "Kairos：面向所有模态的字节级基础模型",
+              "summary": "论文提出 Kairos，结合双向门控 DeltaNet 线性注意力、滑动窗口注意力、块级注意力残差聚合与稀疏专家混合，探索字节级多模态基础模型。",
+              "title_en": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
+              "summary_en": "The paper introduces Kairos, a byte-level foundation model architecture combining bidirectional gated-DeltaNet linear attention, sliding-window attention, block-wise attention-residual aggregation, and sparse mixture-of-experts.",
+              "topic_evidence": "Kairos combines bidirectional gated-DeltaNet linear attention and sliding-window attention",
+              "reason": "该论文提出面向多模态的字节级基础模型架构，属于前沿模型设计。",
+              "reason_en": "This paper proposes a byte-level foundation model architecture for multiple modalities, a frontier model design.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12570",
+              "title": "推测解码中并行草稿的上下文校正",
+              "summary": "论文研究推测解码加速，针对基于扩散的草稿模型并行生成多令牌，提出上下文校正方法，以提高目标模型验证并行草稿的效率。",
+              "title_en": "Contextual Correction of Parallel Drafts for Speculative Decoding",
+              "summary_en": "The paper studies speculative decoding acceleration and proposes contextual correction of parallel drafts from diffusion-based drafters to improve verification efficiency.",
+              "topic_evidence": "Speculative decoding accelerates large language model inference",
+              "reason": "该论文提出推测解码中并行草稿的校正方法，属于推理加速的前沿方向。",
+              "reason_en": "This paper proposes a correction method for parallel drafts in speculative decoding, a frontier inference acceleration direction.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12655",
+              "title": "CLEAT：为交互式智能体学习价值引导的澄清",
+              "summary": "论文将交互式意图对齐视为澄清问题，研究 LLM 智能体如何通过价值引导的澄清，将行动与用户未明说的目标和约束对齐。",
+              "title_en": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+              "summary_en": "The paper frames interactive intent alignment as clarification and studies how LLM agents use value-guided clarification to align actions with unstated user goals and constraints.",
+              "topic_evidence": "interactive intent alignment through clarification",
+              "reason": "该论文研究 LLM 智能体的交互式澄清与意图对齐，属于前沿智能体研究。",
+              "reason_en": "This paper studies interactive clarification and intent alignment for LLM agents, a frontier agent research topic.",
+              "score": 7.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": []
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake",
+              "title": "微软萨提亚·纳德拉称 AI 模型需要“紧急刹车”",
+              "summary": "微软 CEO 萨提亚·纳德拉在周六发帖表示，现在应“退后一步，评估 AI 的信任架构”。TechCrunch 报道其主张 AI 模型需要紧急刹车机制。",
+              "title_en": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+              "summary_en": "Microsoft CEO Satya Nadella wrote in a Saturday post that it is time to \"step back and assess the trust architecture\" of AI, and says models need an emergency brake.",
+              "topic_evidence": "AI models need an ‘emergency brake’",
+              "reason": "该新闻涉及 AI 安全与信任治理，由微软 CEO 公开呼吁，属于研究与治理范畴。",
+              "reason_en": "This news covers AI safety and trust governance, with Microsoft's CEO publicly calling for action, fitting research and governance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12813",
+              "title": "VEPA：为终身 LLM 智能体护栏提供可验证的演化形式化策略",
+              "summary": "论文提出 VEPA，为 LLM 智能体在敏感资源操作中提供运行时护栏，在潜在不可逆行动前做出可检查、可复现且确定性的允许或拒绝决策。",
+              "title_en": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+              "summary_en": "The paper introduces VEPA, a runtime guardrail for LLM agents operating on sensitive resources, making inspectable, reproducible, and deterministic allow-or-refuse decisions before potentially irreversible actions.",
+              "topic_evidence": "Runtime guardrails should therefore make inspectable, reproducible, and deterministic allow or refuse decisions",
+              "reason": "该论文提出 LLM 智能体的运行时护栏机制，属于 AI 安全与治理研究。",
+              "reason_en": "This paper proposes a runtime guardrail mechanism for LLM agents, relevant to AI safety and governance research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12617",
+              "title": "GeopoliticalQA：面向情报报告的检索与生成基准",
+              "summary": "论文提出 GeopoliticalQA，用于评估面向地缘政治与战略情报报告的有依据问答，应对情报报告异构性和分析复杂性带来的检索增强问答挑战。",
+              "title_en": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
+              "summary_en": "The paper introduces GeopoliticalQA, a benchmark for grounded question answering over heterogeneous geopolitical and strategic intelligence reports, addressing challenges for retrieval-augmented question answering.",
+              "topic_evidence": "We introduce a benchmark for grounded question an",
+              "reason": "该论文提出面向情报报告的检索增强问答基准，属于 AI 评估与治理研究。",
+              "reason_en": "This paper introduces a benchmark for retrieval-augmented QA over intelligence reports, fitting AI evaluation and governance research.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12707",
+              "title": "无监督多模态奖励建模",
+              "summary": "论文提出无需人类偏好标签的多模态奖励模型，在冻结的 Qwen3-VL 主干中间层加线性头，训练其给网页描述打高于其他文本的分数。",
+              "title_en": "Unsupervised Multimodal Reward Modeling",
+              "summary_en": "The paper builds a multimodal reward model without human preference labels, using a linear head on an intermediate layer of a frozen Qwen3-VL backbone to score web captions above other text.",
+              "topic_evidence": "We build one with no human preference label",
+              "reason": "该论文研究无监督多模态奖励建模，属于 AI 评估与对齐研究。",
+              "reason_en": "This paper studies unsupervised multimodal reward modeling, relevant to AI evaluation and alignment research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.12493",
+              "title": "无锚点的忠实性：关于可解释 AI 特征重要性忠实性指标结构性错位的立场论文",
+              "summary": "该立场论文指出，可解释 AI 工具常被宣传为通过让算法更易理解来提升信任，但过去十年证据表明这一目标整体失败，并分析特征重要性忠实性指标的结构性错位。",
+              "title_en": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+              "summary_en": "This position paper argues that explainable AI tools have largely failed to increase trust, and analyzes structural misalignments in faithfulness metrics for feature importance.",
+              "topic_evidence": "evidence accumulated over the last decade points to an overall failure of this objective",
+              "reason": "该立场论文讨论可解释 AI 忠实性指标的结构性问题，属于 AI 研究与治理范畴。",
+              "reason_en": "This position paper discusses structural issues in explainable AI faithfulness metrics, fitting AI research and governance.",
+              "score": 5.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/10/python-actions",
+              "title": "Python 3.15.0 加入 actions/python-versions",
+              "summary": "GitHub Actions 的 actions/python-versions 仓库已新增稳定版 Python 3.15.0，开发者现在可以在工作流中把 \"3.15\" 写入测试矩阵。",
+              "title_en": "Python 3.15.0 added to actions/python-versions",
+              "summary_en": "The actions/python-versions repository now includes stable Python 3.15.0, letting developers add \"3.15\" to GitHub Actions test matrices and workflows.",
+              "topic_evidence": "Python 3.15.0 added to actions/python-versions",
+              "reason": "GitHub Actions 官方版本清单新增稳定版 Python 3.15.0，直接影响 CI 工作流的语言版本选择，属于开源工具与版本发布。",
+              "reason_en": "A stable Python 3.15.0 release in the official GitHub Actions version manifest directly affects CI workflow language selection, fitting open-source tooling and releases.",
+              "score": 6.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+              "title": "《矮人要塞》现已使用版本控制",
+              "summary": "长期以不使用版本控制闻名的《矮人要塞》现已纳入版本控制。文章引用开发者 Tarn 的说法确认这一变化，此前不少人认为其复杂代码库最需要版本控制。",
+              "title_en": "Dwarf Fortress uses version control now",
+              "summary_en": "Dwarf Fortress, long known for shipping without version control, now uses it; the post quotes Tarn confirming the change for a codebase many thought needed it most.",
+              "topic_evidence": "Dwarf Fortress uses version control now",
+              "reason": "报道《矮人要塞》项目引入版本控制这一开发流程变化，主题为版本控制实践，符合开源与工具小版。",
+              "reason_en": "Reports a version-control adoption change in the Dwarf Fortress project, a version-control practice topic that fits the open-source and tools subsection.",
+              "score": 4.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261008102707.htm",
+              "title": "NASA发现地球上一大片类似月球的岩石",
+              "summary": "国际空间站宇航员在马达加斯加拍摄到一片由斜长岩构成的岩层，外观类似月球明亮高地。该岩层至少形成于6亿年前，留有古老大陆碰撞的痕迹。",
+              "title_en": "NASA spots a giant patch of Moon-like rock on Earth",
+              "summary_en": "An astronaut aboard the International Space Station photographed a formation in Madagascar made of anorthosite, a rock common on the Moon. It dates back at least 600 million years and shows scars of ancient continental collisions.",
+              "topic_evidence": "NASA spots a giant patch of Moon-like rock on Earth",
+              "reason": "涉及NASA/国际空间站拍摄马达加斯加斜长岩地貌，符合航天观测与行星地质交叉主题。",
+              "reason_en": "NASA/ISS observation of anorthosite terrain in Madagascar fits space observation and planetary geology.",
+              "score": 4.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261011211550.htm",
+              "title": "科学家发现香草醛隐藏的愈合潜力",
+              "summary": "科学家发现赋予香草独特风味的化合物香草醛具有抗感染、减轻炎症和促进伤口愈合的特性。这种廉价易得的成分未来或可用于先进伤口治疗和再生医学。",
+              "title_en": "Scientists discover vanilla’s hidden healing potential",
+              "summary_en": "Scientists found that vanillin, the compound behind vanilla flavor, can fight infections, reduce inflammation and promote wound healing. The inexpensive ingredient could aid advanced wound treatments and regenerative medicine.",
+              "topic_evidence": "Scientists have discovered that vanillin, the compound that gives vanilla its distinctive flavor",
+              "reason": "报告香草醛在抗感染、抗炎和促愈合方面的潜在医学用途，属生物医学与再生医学研究。",
+              "reason_en": "Study on vanillin’s anti-infection, anti-inflammatory and wound-healing properties fits biomedical research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261009025602.htm",
+              "title": "科学家发现可能解释生命为何存在的惊人线索",
+              "summary": "科学家发现宇宙基本物理常数可能精细平衡，从而允许生命存在。常数微小变化会让液体过稠或过稀，妨碍关键生物过程；这些条件早在生命出现前数十亿年就已存在。",
+              "title_en": "Scientists make stunning discovery that could help explain why life exists",
+              "summary_en": "Scientists say the universe’s fundamental constants may be finely balanced to allow life. Even tiny changes could make liquids too thick or thin for key biological processes, and such life-friendly conditions existed billions of years earlier.",
+              "topic_evidence": "the universe's fundamental physical constants may be finely balanced to make life possible",
+              "reason": "研究宇宙基本常数与生命条件的关系，属物理与生命起源交叉研究。",
+              "reason_en": "Study on fundamental constants and conditions for life fits physics and origins-of-life research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261008102713.htm",
+              "title": "新注射让脂肪细胞自我毁灭",
+              "summary": "科学家开发出一种实验性注射，可摧毁脂肪细胞并显著减少危险的腹部脂肪，为治疗肥胖提供新路径。早期研究还提示，它可能帮助防止停用Ozempic和Wegovy等减肥药后的体重反弹。",
+              "title_en": "New injection makes fat cells self-destruct",
+              "summary_en": "Scientists developed an experimental injection that destroys fat cells and sharply reduces dangerous belly fat, potentially offering a new obesity treatment. Early research suggests it might also prevent weight regain after stopping drugs like Ozempic and Wegovy.",
+              "topic_evidence": "New injection makes fat cells self-destruct",
+              "reason": "实验性注射减脂并可能防体重反弹，属肥胖治疗与代谢研究。",
+              "reason_en": "Experimental injection targeting fat cells and weight regain fits obesity treatment research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
+              "title": "科学家建造核时钟，可能使原子钟过时",
+              "summary": "维也纳科学家研制出世界首台自稳定核时钟，以钍原子核而非原子中的电子计时，对外界干扰更不敏感，未来计时精度可能超越最精确的原子钟。",
+              "title_en": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+              "summary_en": "Scientists in Vienna built the world’s first self-stabilizing nuclear clock, using thorium nuclei rather than electrons. The technology is less sensitive to disturbances and could eventually surpass even the most precise atomic clocks.",
+              "topic_evidence": "world’s first self-stabilizing nuclear clock",
+              "reason": "自稳定核时钟突破，属精密测量与量子科学研究。",
+              "reason_en": "Self-stabilizing nuclear clock breakthrough fits precision measurement research.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+              "title": "Kudos 3.0 上线：用 AI 找出并追回被遗漏的钱",
+              "summary": "Product Hunt 上线智能钱包 Kudos 3.0，其简介称产品用 AI 找出用户遗漏的资金并帮其追回，页面标注有讨论。",
+              "title_en": "Kudos 3.0",
+              "summary_en": "Kudos 3.0, an AI smart wallet launched on Product Hunt, says it finds money users are missing and gets it back, according to its listing.",
+              "topic_evidence": "The AI that finds money you're missing and gets it back",
+              "reason": "Product Hunt 上的新产品发布，主打 AI 找回遗漏资金，属新产品与增长。",
+              "reason_en": "A new Product Hunt launch of an AI wallet that claims to recover missing money, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/context-dev",
+              "title": "Context.dev 发布 Scrape Anything：一次 API 调用抓取任意网站",
+              "summary": "Context.dev 在 Product Hunt 发布 Scrape Anything，称只需一次 API 调用即可把任意网站转为干净的可用数据，页面标注有讨论。",
+              "title_en": "Scrape Anything by Context.dev",
+              "summary_en": "Context.dev launched Scrape Anything on Product Hunt, saying it turns any website into clean data with a single API call, per its listing.",
+              "topic_evidence": "Turn any website into clean data with one API call",
+              "reason": "新产品发布，描述具体功能与调用方式，属新产品与增长。",
+              "reason_en": "A new product launch describing a concrete API capability, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/11/dawn-myers-is-making-it-easier-to-style-detangle-and-care-for-curly-hair",
+              "title": "Dawn Myers 让卷发的造型、梳理与护理更简单",
+              "summary": "TechCrunch 报道称 Dawn Myers 在让卷发的造型、梳理与护理更容易，其公司 Richualist 入选 TechCrunch Battlefield 200 名单。",
+              "title_en": "Dawn Myers is making it easier to style, detangle, and care for curly hair",
+              "summary_en": "TechCrunch reports Dawn Myers is making styling, detangling and caring for curly hair easier, and her company Richualist is a Battlefield 200 pick.",
+              "topic_evidence": "making it easier to style, detangle, and care for curly hair",
+              "reason": "创业公司围绕卷发护理产品的报道，并涉及 Battlefield 200 入选，属新产品与增长。",
+              "reason_en": "A startup story about a curly-hair care product and a Battlefield 200 selection, fitting new products and growth.",
+              "score": 2.8
+            }
+          ],
+          "title": "新产品与增长"
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know",
+              "title": "创业者指南：TechCrunch Disrupt 2026 要点一览",
+              "summary": "TechCrunch 公布 Disrupt 2026 的议程与演讲阵容，整体围绕一个问题展开：如何在 AI 时代打造一家能长期存续的公司。",
+              "title_en": "The founder's guide to TechCrunch Disrupt 2026: Everything you need to know",
+              "summary_en": "TechCrunch outlines the Disrupt 2026 agenda and speaker lineup, organized around one question: how founders build an enduring company in the AI era.",
+              "topic_evidence": "How do you build an enduring company in the AI era?",
+              "reason": "聚焦 AI 时代创业公司的长期经营议题，属商业模式栏目。",
+              "reason_en": "Focuses on building durable startups in the AI era, fitting the business model subsection.",
+              "score": 3.8
+            }
+          ],
+          "title": "商业模式"
+        },
+        {
+          "id": "funding-ma",
+          "articles": [],
+          "title": "融资与并购"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+              "title": "胡塞武装两天内第二次袭击利雅得机场，致1死11伤",
+              "summary": "沙特首都利雅得机场连续两天遭胡塞武装袭击，最新一次造成1人死亡、11人受伤；沙特称周末遭伊朗支持也门组织多次攻击。",
+              "title_en": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+              "summary_en": "A second Houthi strike on Riyadh airport in two days killed one person and injured 11, after multiple weekend attacks by the Iran-backed Yemeni group, Saudi authorities say.",
+              "topic_evidence": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+              "reason": "报道沙特首都机场遭胡塞武装连续袭击，属中东安全与地缘冲突。",
+              "reason_en": "Reports consecutive Houthi attacks on Saudi capital's airport, a major Middle East security and geopolitical event.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+              "title": "泽连斯基支持特朗普“能源停火”提议，称俄仍袭击电厂",
+              "summary": "乌克兰总统泽连斯基表示，若莫斯科同意，他将支持特朗普提出的“能源停火”；但他指出俄罗斯仍在攻击乌克兰发电厂。",
+              "title_en": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+              "summary_en": "Ukraine's Zelensky says he will support Trump's proposed 'energy ceasefire' if Moscow does, while noting Russia continues to strike Ukrainian power plants.",
+              "topic_evidence": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+              "reason": "涉及俄乌战争停火外交与能源设施攻击，属地缘安全。",
+              "reason_en": "Covers Ukraine war ceasefire diplomacy and attacks on energy infrastructure, a key geopolitical security issue.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
+              "title": "埃及-苏丹边境金矿营地遭袭，数十名淘金者死亡",
+              "summary": "人权组织称，埃及与苏丹边境一处手工采矿营地周六遭空袭，造成数十名淘金者死亡；埃及和苏丹均未回应。",
+              "title_en": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+              "summary_en": "A rights group says strikes on an artisanal mining camp on the Egypt-Sudan border killed dozens of gold prospectors; neither Egypt nor Sudan has commented.",
+              "topic_evidence": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+              "reason": "边境空袭造成大量平民死亡，涉及北非冲突与地区安全。",
+              "reason_en": "Cross-border strikes killing many civilians, covering North African conflict and regional security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+              "title": "波兰拘留涉嫌策划暗杀总理图斯克的男子",
+              "summary": "波兰警方称收到有关总理图斯克及其国防部长可能遭袭的可靠情报，已拘留一名涉嫌策划暗杀图斯克的男子。",
+              "title_en": "Poland detains man suspected of planning assassination of PM Tusk",
+              "summary_en": "Polish police detained a man suspected of planning to assassinate PM Donald Tusk after receiving credible information about possible attacks on Tusk and his defence minister.",
+              "topic_evidence": "Poland detains man suspected of planning assassination of PM Tusk",
+              "reason": "涉及欧洲国家领导人暗杀图谋，属政治安全与地缘风险。",
+              "reason_en": "Involves an assassination plot against a European head of government, a political security and geopolitical risk.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+              "title": "欧盟与中国达成协议，限制混合动力电动车进口",
+              "summary": "欧盟确认将中国混合动力电动车年进口量限制在35万辆，利用世贸组织规则迅速设置配额，预计使中国市场份额减半至3%。",
+              "title_en": "EU deal with China limits imports of hybrid electric vehicles",
+              "summary_en": "The EU confirmed it will cap Chinese hybrid electric vehicle imports at 350,000 a year under WTO rules, a quota expected to halve China's market share to 3%.",
+              "topic_evidence": "EU deal with China limits imports of hybrid electric vehicles",
+              "reason": "欧盟对华贸易限制措施，涉及中欧经贸与产业地缘竞争。",
+              "reason_en": "EU trade restriction on Chinese hybrids, covering EU-China economic and industrial geopolitical competition.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign?traffic_source=rss",
+              "title": "印度反对派计划在新德里抗议，要求选举委员会主席辞职",
+              "summary": "印度反对派计划在新德里举行抗议集会，要求选举委员会主席辞职；当局在集会前部署了数千名安全人员。",
+              "title_en": "India opposition plans New Delhi protest to demand election chief resign",
+              "summary_en": "India's opposition plans a protest rally in New Delhi demanding the election commission chief's resignation, with thousands of security personnel deployed ahead of the event.",
+              "topic_evidence": "India opposition plans New Delhi protest to demand election chief resign",
+              "reason": "涉及印度选举机构争议与反对派抗议，属政府与选举政策。",
+              "reason_en": "Concerns India's election body controversy and opposition protest, a government and election policy issue.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+              "title": "特朗普因计划从俄罗斯进口柴油面临日益强烈反对",
+              "summary": "美国共和党和民主党议员均批评该协议；协议在美国中期选举前数周宣布，特朗普政府因此面临反弹。",
+              "title_en": "Trump faces growing backlash over plans to import diesel from Russia",
+              "summary_en": "Republican and Democratic lawmakers have criticised the plan to import diesel from Russia, announced weeks before the US midterm elections, creating growing backlash for Trump.",
+              "topic_evidence": "Trump faces growing backlash over plans to import diesel from Russia",
+              "reason": "美国对俄能源进口政策引发两党批评，涉及政府决策与选举政治。",
+              "reason_en": "US policy on Russian energy imports draws bipartisan criticism, involving government decisions and election politics.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.npr.org/2026/10/10/nx-s1-5995118/protests-against-voter-roll-revisions-rock-capital-of-worlds-largest-democracy",
+              "title": "印度选民名册修订引发抗议，首都部分地区封锁",
+              "summary": "印度对选民名册进行大幅修订引发抗议，首都新德里部分地区封锁，警方展开大规模镇压。",
+              "title_en": "Protests against voter roll revisions rock capital of world's largest democracy",
+              "summary_en": "Protests over sweeping revisions to India's voter rolls rocked New Delhi, with parts of the capital under lockdown and police launching a massive crackdown.",
+              "topic_evidence": "Protests against voter roll revisions rock capital of world's largest democracy",
+              "reason": "印度选民名册修订争议与抗议，属选举治理与政府政策。",
+              "reason_en": "Controversy and protests over India's voter roll revisions, covering election governance and government policy.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency",
+              "title": "巴拿马两次强震后宣布紧急状态，余震逾百次",
+              "summary": "巴拿马在两次强震后宣布进入紧急状态；首次7.7级和6.6级地震导致建筑倒塌、人员疏散，随后记录到100多次余震。",
+              "title_en": "Panama declares state of emergency as quake aftershocks rattle communities",
+              "summary_en": "Panama declared a state of emergency after two powerful earthquakes toppled buildings and prompted evacuations, with more than 100 aftershocks recorded, some as high as magnitude 5.8.",
+              "topic_evidence": "Panama declares state of emergency as quake aftershocks rattle communities",
+              "reason": "重大自然灾害及紧急状态，涉及全球社会与人道响应。",
+              "reason_en": "Major natural disaster and emergency declaration, covering global society and humanitarian response.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
+              "title": "吉布提附近船只倾覆致139人死亡，包括儿童",
+              "summary": "联合国称，一艘载有305人的船只从吉布提前往也门，周四晚在奥博克港附近倾覆，造成139人死亡，其中包括儿童。",
+              "title_en": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+              "summary_en": "A boat carrying 305 people from Djibouti to Yemen capsized near the port town of Obock on Thursday night, killing 139 including children, the UN says.",
+              "topic_evidence": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+              "reason": "严重移民船难造成大量死亡，涉及人道与全球社会议题。",
+              "reason_en": "Deadly migrant boat disaster causing many deaths, a humanitarian and global society issue.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
+              "title": "飓风“伊萨亚斯”北移，佛罗里达和阿拉巴马数千人断电",
+              "summary": "飓风“伊萨亚斯”残余向北移动，佛罗里达和阿拉巴马近39.6万用户断电；风暴已造成至少4人死亡并引发山洪预警。",
+              "title_en": "Thousands without power in Florida and Alabama as Isaias moves north",
+              "summary_en": "Nearly 396,000 customers in Florida and Alabama were without power as the remnants of Hurricane Isaias moved north, with at least four deaths linked to the storm and flash flood warnings.",
+              "topic_evidence": "Thousands without power in Florida and Alabama as Isaias moves north",
+              "reason": "飓风造成大范围断电和死亡，属自然灾害与全球社会。",
+              "reason_en": "Hurricane causing widespread power outages and deaths, a natural disaster and global society topic.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&at_campaign=rss",
+              "title": "BBC调查：肯尼亚前总理葬礼上被警察杀害的悼念者远离冲突",
+              "summary": "BBC非洲之眼分析前总理奥廷加国葬的1500段视频和图片后发现，被肯尼亚警察杀害的悼念者当时远离冲突区域。",
+              "title_en": "Mourners killed by Kenya police at ex-PM's national farewell not part of violence, BBC finds",
+              "summary_en": "After analysing 1,500 videos and images of Raila Odinga's memorial, BBC Africa Eye finds that mourners killed by Kenyan police were far from the scuffles.",
+              "topic_evidence": "Mourners killed by Kenya police at ex-PM's national farewell not part of violence, BBC finds",
+              "reason": "涉及肯尼亚警方在国葬中致人死亡及调查，属全球社会与人权。",
+              "reason_en": "Concerns Kenyan police killings at a state funeral and an investigation, a global society and human rights issue.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712189.shtml",
+              "title": "国家铁路局发布《铁路科技创新“十五五”规划》",
+              "summary": "国家铁路局发布《铁路科技创新“十五五”规划》，明确“十五五”时期铁路科技创新的目标、重点任务和保障措施，并首次将铁路科技创新规划纳入国家科技管理体系。",
+              "title_en": "National Railway Administration issues 15th Five-Year Plan for railway sci-tech innovation",
+              "summary_en": "China's National Railway Administration released the 15th Five-Year Plan for railway sci-tech innovation, outlining goals, key tasks and measures, and for the first time incorporating railway sci-tech planning into the national sci-tech management system.",
+              "topic_evidence": "铁路科技创新规划首次纳入国家科技管理体系",
+              "reason": "这是国家铁路局发布的正式规划，明确了“十五五”时期铁路科技创新的目标、任务和保障措施，并首次纳入国家科技管理体系，属于重大政策发布。",
+              "reason_en": "This is an official plan released by the National Railway Administration, specifying goals, tasks and safeguards for railway sci-tech innovation during the 15th Five-Year Plan period, and is incorporated into the national sci-tech management system for the first time, marking a major policy release.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712133.shtml",
+              "title": "教育部：“十四五”期间全国职业教育经费增长23.3%",
+              "summary": "教育部新闻发布会介绍2026年世界职业技术教育发展大会及职业教育国际合作情况，并披露“十四五”期间全国职业教育经费增长23.3%。",
+              "title_en": "Ministry of Education: National vocational education funding increased 23.3% during 14th Five-Year Plan",
+              "summary_en": "At a press conference, the Ministry of Education briefed on the 2026 World Vocational and Technical Education Development Conference and international cooperation, disclosing that national vocational education funding grew 23.3% during the 14th Five-Year Plan period.",
+              "topic_evidence": "全国职业教育经费增长23.3%",
+              "reason": "教育部发布会公布了“十四五”期间职业教育经费增长23.3%的具体数据，并介绍世界职业技术教育发展大会筹备情况，属于教育政策信息。",
+              "reason_en": "The Ministry of Education press conference released specific data showing a 23.3% increase in vocational education funding during the 14th Five-Year Plan and briefed on preparations for the World Vocational and Technical Education Development Conference, constituting education policy information.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712134.shtml",
+              "title": "2026年世界职业技术教育发展大会将发布《北京协议》",
+              "summary": "2026年世界职业技术教育发展大会将于10月15日至17日在天津举行，会上将发布职业教育领域首个国际标准《北京协议》。",
+              "title_en": "2026 World Vocational and Technical Education Development Conference to release Beijing Agreement",
+              "summary_en": "The 2026 World Vocational and Technical Education Development Conference will be held in Tianjin from October 15 to 17, where the Beijing Agreement, the first international standard in vocational education, will be released.",
+              "topic_evidence": "会上将发布职业教育领域第一个国际标准《北京协议》",
+              "reason": "该报道披露了2026年世界职业技术教育发展大会的举办时间和地点，以及将发布职业教育领域首个国际标准《北京协议》，属于教育领域国际标准制定的具体进展。",
+              "reason_en": "The report discloses the time and venue of the 2026 World Vocational and Technical Education Development Conference and the release of the Beijing Agreement, the first international standard in vocational education, marking specific progress in international standard setting in education.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712127.shtml",
+              "title": "台湾民调：逾七成受访者认为政治对立、社会分歧是最大危机",
+              "summary": "台湾民间智库“民主文教基金会”民调显示，逾七成受访者认为台湾最大危机来自岛内政治对立与社会分歧，过半民众支持主动与大陆对话谈判。",
+              "title_en": "Taiwan poll: Over 70% of respondents see political confrontation, social division as biggest crisis",
+              "summary_en": "A poll by Taiwan's Democracy and Culture Foundation found over 70% of respondents see political confrontation and social division as Taiwan's biggest crisis, while more than half support proactive dialogue with mainland China.",
+              "topic_evidence": "逾七成受访台湾民众认为台湾的最大危机来自岛内政治对立、社会分歧",
+              "reason": "该民调反映了台湾民众对岛内政治对立和社会分歧的担忧，以及支持与大陆对话的民意，是观察两岸关系的重要参考。",
+              "reason_en": "The poll reflects Taiwanese people's concerns over political confrontation and social division on the island, and public support for dialogue with the mainland, serving as an important reference for observing cross-strait relations.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712121.shtml",
+              "title": "江西启动“新长征再出发”网络主题宣传活动",
+              "summary": "10月9日，“开局之年看中国·新长征再出发”网络主题宣传活动在江西启动，展现红色精神如何赋能当代产业创新与文旅发展，检阅高质量发展成果。",
+              "title_en": "Jiangxi launches 'New Long March' online theme campaign",
+              "summary_en": "On October 9, Jiangxi launched the 'New Long March' online theme campaign, showcasing how red heritage empowers contemporary industrial innovation and cultural tourism, and reviewing high-quality development achievements.",
+              "topic_evidence": "诠释跨越时空的井冈山精神、苏区精神、长征精神如何赋能当代产业创新与文旅发展",
+              "reason": "该活动在江西启动，聚焦红色传承与产业创新、文旅发展的结合，属于地方产业与文旅发展动态。",
+              "reason_en": "The campaign launched in Jiangxi focuses on combining red heritage with industrial innovation and cultural tourism development, representing local industry and cultural tourism development.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712130.shtml",
+              "title": "三峡枢纽新通道“试验场”：土方废水循环增效",
+              "summary": "三峡枢纽新通道“试验场”通过土方和废水循环利用，实现降本增效，体现工程建设中的环保与资源循环实践。",
+              "title_en": "Three Gorges hub new channel 'test site': soil and wastewater recycling improves efficiency",
+              "summary_en": "The 'test site' for the Three Gorges hub's new channel uses soil and wastewater recycling to improve efficiency, demonstrating environmental protection and resource recycling in engineering construction.",
+              "topic_evidence": "三峡枢纽新通道“试验场”：土方废水循环增效",
+              "reason": "该报道具体描述了三峡枢纽新通道试验场通过土方和废水循环实现增效，属于重大工程中的环保技术应用。",
+              "reason_en": "The report specifically describes how the Three Gorges hub new channel test site improves efficiency through soil and wastewater recycling, representing environmental technology application in a major project.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712124.shtml",
+              "title": "2026世界市长对话·洛阳落幕，探讨遗产保护与产业转型",
+              "summary": "2026世界市长对话·洛阳活动落幕，围绕遗产保护、产业转型、城市更新等议题进行三场情景对话和一场主对话，探讨城市如何兼顾历史与当下发展。",
+              "title_en": "2026 World Mayor Dialogue in Luoyang concludes, discussing heritage protection and industrial transformation",
+              "summary_en": "The 2026 World Mayor Dialogue in Luoyang concluded, featuring three scenario dialogues and one main dialogue on heritage protection, industrial transformation, and urban renewal, exploring how cities can balance history with contemporary development.",
+              "topic_evidence": "议题从遗产保护到产业转型，从城市更新到协调发展",
+              "reason": "该活动以城市文明互鉴为主题，具体讨论了遗产保护、产业转型和城市更新等地方发展议题，属于地方产业与城市发展动态。",
+              "reason_en": "The event themed on mutual learning of urban civilizations specifically discussed heritage protection, industrial transformation and urban renewal, representing local industry and urban development.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712162.shtml",
+              "title": "山东举办全省年轻一代民营经济人士理想信念教育活动",
+              "summary": "10月10日至12日，“奋进‘十五五’ 民企勇担当”山东全省年轻一代民营经济人士理想信念教育活动在滨州邹平举办。",
+              "title_en": "Shandong holds ideals and beliefs education event for young private entrepreneurs",
+              "summary_en": "From October 10 to 12, Shandong held an ideals and beliefs education event in Zouping, Binzhou, for the province's young generation of private entrepreneurs, themed 'Striving for the 15th Five-Year Plan, Private Enterprises Take Responsibility.'",
+              "topic_evidence": "山东全省年轻一代民营经济人士理想信念教育活动在滨州邹平举办",
+              "reason": "该活动面向年轻一代民营经济人士，在山东滨州举办，属于地方民营经济相关动态。",
+              "reason_en": "The event targeting the young generation of private entrepreneurs was held in Binzhou, Shandong, representing local private economy-related activity.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712145.shtml",
+              "title": "广西医科大学原党委副书记、校长赵劲民被开除党籍",
+              "summary": "广西壮族自治区纪委监委对广西医科大学原党委副书记、校长赵劲民严重违纪违法问题立案审查调查，并开除其党籍。",
+              "title_en": "Former Guangxi Medical University president Zhao Jinmin expelled from CPC",
+              "summary_en": "The Guangxi Zhuang Autonomous Region discipline inspection commission investigated former Guangxi Medical University president Zhao Jinmin for serious disciplinary and legal violations and expelled him from the Communist Party of China.",
+              "topic_evidence": "广西医科大学原党委副书记、校长赵劲民严重违纪违法问题进行了立案审查调查",
+              "reason": "该报道涉及广西医科大学原校长因严重违纪违法被开除党籍，属于反腐和纪律审查的具体案例。",
+              "reason_en": "The report covers the expulsion of a former university president for serious disciplinary and legal violations, representing a specific case of anti-corruption and disciplinary review.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712138.shtml",
+              "title": "江西省政协原副主席胡幼桃受贿案一审被判十三年",
+              "summary": "江西省政协原党组成员、副主席胡幼桃受贿案一审宣判，法院判处其有期徒刑十三年。",
+              "title_en": "Former Jiangxi CPPCC vice chairman Hu Youtao sentenced to 13 years for bribery",
+              "summary_en": "Hu Youtao, former vice chairman of the Jiangxi Provincial CPPCC, was sentenced to 13 years in prison in the first-instance trial of his bribery case.",
+              "topic_evidence": "江西省政协原副主席胡幼桃受贿案一审被判十三年",
+              "reason": "该报道披露了江西省政协原副主席胡幼桃受贿案一审被判十三年，属于反腐败案件的具体判决结果。",
+              "reason_en": "The report discloses that Hu Youtao, former vice chairman of the Jiangxi Provincial CPPCC, was sentenced to 13 years in the first-instance trial of his bribery case, representing a specific anti-corruption verdict.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712123.shtml",
+              "title": "重庆公布食品行业禁业人员第三批名单，255人终身禁业",
+              "summary": "重庆市市场监督管理局公布食品行业禁业人员第三批名单共273人，其中255人终身禁业、18人五年禁业。",
+              "title_en": "Chongqing releases third batch of food industry banned personnel list, 255 banned for life",
+              "summary_en": "The Chongqing Market Supervision Administration released the third batch of banned personnel in the food industry, totaling 273 people, including 255 banned for life and 18 banned for five years.",
+              "topic_evidence": "集中公布重庆市食品行业禁业人员第三批名单共273人，其中255人终身禁业、18人五年禁业",
+              "reason": "该报道涉及重庆市市场监督管理局公布食品行业禁业人员名单，属于食品安全监管的具体举措。",
+              "reason_en": "The report covers the Chongqing Market Supervision Administration's release of a banned personnel list in the food industry, representing a specific food safety regulatory measure.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-12/10712069.shtml",
+              "title": "大连公安公布5起典型案例，一利用“著作版权”敲诈高校教师涉恶团伙被抓获",
+              "summary": "大连市公安局公布5起典型案例，今年以来打掉各类犯罪团伙34个，破获刑事案件177起，其中一利用“著作版权”敲诈高校教师的新型涉恶团伙被抓获。",
+              "title_en": "Dalian police announce 5 typical cases, including a gang extorting university teachers using 'copyright'",
+              "summary_en": "Dalian police announced five typical cases, noting 34 criminal gangs dismantled and 177 criminal cases solved this year, including a new type of gang that extorted university teachers by exploiting 'copyright.'",
+              "topic_evidence": "一利用“著作版权”敲诈高校教师新型涉恶团伙被抓获",
+              "reason": "该报道涉及大连警方公布典型案例，包括利用“著作版权”敲诈高校教师的新型涉恶团伙，属于社会治安和犯罪打击的具体案例。",
+              "reason_en": "The report covers Dalian police announcing typical cases, including a new type of gang that extorted university teachers by exploiting 'copyright,' representing specific cases of social security and crime crackdown.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/the-bond-market-is-doing-the-feds-job-and-that-could-be-good-news-for-stocks-says-morgan-stanley-strategist-ec57b81a?mod=mw_rss_topstories",
+              "title": "摩根士丹利策略师：债市正在替美联储做事，这对股市可能是好消息",
+              "summary": "摩根士丹利策略师指出，美元走强、债市收益率上升和汽油价格高企已收紧美国金融条件，凯文·沃什可能无需加息。",
+              "title_en": "The bond market is doing the Fed’s job, and that could be good news for stocks, says Morgan Stanley strategist",
+              "summary_en": "Morgan Stanley strategist says a stronger dollar, higher bond yields and elevated gas prices have tightened U.S. financial conditions, possibly enough that Kevin Warsh may not need to hike rates.",
+              "topic_evidence": "the bond market is doing the Fed’s job",
+              "reason": "该文分析债市走势及其对股市和美联储政策的影响，属于市场与资产。",
+              "reason_en": "Analyzes bond market moves and their impact on stocks and Fed policy, fitting markets and assets.",
+              "score": 7.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+              "title": "高盛策略师因盈利提振上调全球股票评级",
+              "summary": "高盛策略师因企业盈利强劲而短期转为看多全球股票，尽管市场已接近历史高位，认为盈利是主要提振。",
+              "title_en": "Goldman Strategists Upgrade Global Stocks on Earnings Boost",
+              "summary_en": "Goldman Sachs strategists turn positive on global stocks short term, citing strong earnings as a boost for markets trading near record highs.",
+              "topic_evidence": "Goldman Sachs Group Inc. strategists are turning positive on global stocks for the short term",
+              "reason": "高盛上调全球股票评级，涉及市场与资产配置。",
+              "reason_en": "Goldman upgrades global stocks, relevant to markets and assets.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
+              "title": "美股持平，盈利希望抵消油价波动：市场综述",
+              "summary": "标普500指数开盘料接近历史高位，交易员在繁忙财报周的强劲业绩预期与中东紧张局势升级风险之间权衡。",
+              "title_en": "US Stocks Flat as Earnings Hopes Offset Oil Swings: Markets Wrap",
+              "summary_en": "S&P 500 set to open near record high as traders weigh solid earnings expectations in a busy week against risks from escalating Middle East tensions.",
+              "topic_evidence": "US Stocks Flat as Earnings Hopes Offset Oil Swings",
+              "reason": "市场综述覆盖美股、油价及地缘风险，属于市场与资产。",
+              "reason_en": "Market wrap covering US stocks, oil and geopolitical risks, fitting markets and assets.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-equity-fund-flows-draw-more-cash-as-investors-buy-the-dip",
+              "title": "印度股票基金资金流入增加，投资者逢低买入",
+              "summary": "尽管9月股市大跌，印度股票共同基金资金流入仍连续第二个月上升，表明国内投资者将市场下跌视为买入机会。",
+              "title_en": "India Equity Fund Flows Draw More Cash as Investors Buy the Dip",
+              "summary_en": "Flows into Indian equity mutual funds rose for a second month despite September stock declines, suggesting domestic investors saw the drop as a buying opportunity.",
+              "topic_evidence": "Flows into Indian equity mutual funds rose for a second month",
+              "reason": "报道印度股票基金资金流向，属于市场与资产。",
+              "reason_en": "Covers Indian equity fund flows, fitting markets and assets.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-11/latest-oil-market-news-and-analysis-for-oct-12",
+              "title": "10月12日石油市场最新新闻与分析",
+              "summary": "特朗普称基辅与莫斯科同意“能源停火”后油价波动，同时中东沙特遭遇伊朗战争以来最致命袭击。",
+              "title_en": "Latest Oil Market News and Analysis for Oct. 12",
+              "summary_en": "Oil swung after Trump said Kyiv and Moscow agreed to an 'energy ceasefire,' while Saudi Arabia suffered its deadliest strikes since the Iran war began.",
+              "topic_evidence": "Oil swung after US President Donald Trump said Kyiv and Moscow had agreed to an “energy ceasefire”",
+              "reason": "石油市场波动及地缘事件影响油价，属于市场与资产。",
+              "reason_en": "Oil market swings and geopolitical events affecting prices, fitting markets and assets.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-11/a-higher-rate-world-is-in-store-as-central-banks-approach-2027",
+              "title": "央行迈向2027年，更高利率世界将至",
+              "summary": "全球央行可能以更紧缩的货币政策进入2027年，以抑制通胀，这意味着利率将维持在较高水平。",
+              "title_en": "A Higher-Rate World Is in Store as Central Banks Approach 2027",
+              "summary_en": "Global central banks are likely to enter 2027 with even tighter monetary policy settings to keep inflation in check.",
+              "topic_evidence": "Global central banks are likely to head into 2027 with even tighter monetary-policy settings",
+              "reason": "预测全球央行货币政策走向，属于宏观与政策。",
+              "reason_en": "Forecasts global central bank policy direction, fitting macro and policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/features/2026-10-11/france-bond-crisis-revives-ghost-of-europe-s-sovereign-debt-crisis",
+              "title": "法国债券危机唤醒欧洲主权债务危机幽灵",
+              "summary": "由于政府无法使财政稳健，从现在到4月大选期间的事态可能搅动整个欧元区，引发主权债务担忧。",
+              "title_en": "France Bond Crisis Revives Ghost of Europe's Sovereign Debt Crisis",
+              "summary_en": "With the French government unable to fix its finances, developments before April's election could unsettle the entire euro zone.",
+              "topic_evidence": "France Bond Crisis Revives Ghost of Europe's Sovereign Debt Crisis",
+              "reason": "法国债券危机及欧元区主权债务风险，属于宏观与政策。",
+              "reason_en": "France bond crisis and euro zone sovereign debt risks, fitting macro and policy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/inr-usd-india-draws-line-in-sand-for-rupee-at-97-as-rbi-steps-up-defense",
+              "title": "印度卢比兑美元防线设在97，央行加大防御力度",
+              "summary": "印度十多年来最激进的货币防御行动表明，央行准备不惜一切代价阻止卢比跌破1美元兑97卢比。",
+              "title_en": "INR/USD: India Draws Line in Sand for Rupee at 97 as RBI Steps Up Defense",
+              "summary_en": "India's most aggressive currency defense in over a decade signals the central bank is ready to do whatever it takes to keep the rupee from weakening past 97 per dollar.",
+              "topic_evidence": "India Draws Line in Sand for Rupee at 97 as RBI Steps Up Defense",
+              "reason": "印度央行干预汇市以捍卫卢比，属于宏观与政策。",
+              "reason_en": "RBI intervenes to defend rupee, fitting macro and policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/gold-edges-up-as-traders-weigh-russia-ukraine-energy-ceasefire",
+              "title": "黄金小幅下跌，交易员关注油价与美联储利率前景",
+              "summary": "金价从一周高位小幅回落，交易员评估油价波动，并等待经济数据提供美联储利率路径线索。",
+              "title_en": "Gold Edges Down as Traders Monitor Oil Prices, Fed Rate Outlook",
+              "summary_en": "Gold edged down from a one-week high as traders assessed oil price swings and awaited economic data for clues on the Fed's interest-rate path.",
+              "topic_evidence": "Gold edged down from the highest in a week",
+              "reason": "金价与美联储利率前景，属于宏观与政策。",
+              "reason_en": "Gold and Fed rate outlook, fitting macro and policy.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+              "title": "“我觉得自己像个失败者”：我的股票组合剧烈波动，该担心了吗？",
+              "summary": "一位投资者询问其ETF和股票组合频繁大涨大跌是否值得担忧，并猜测是成熟投资者在获利了结。",
+              "title_en": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+              "summary_en": "A personal finance column addresses a reader's wildly swinging stock portfolio, with the reader presuming sophisticated investors are taking profits and asking whether to worry.",
+              "topic_evidence": "My stock portfolio is swinging wildly. Is it finally time to worry?",
+              "reason": "个人理财投资波动咨询，属于理财与监管。",
+              "reason_en": "Personal finance investment volatility query, fitting wealth and regulation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/features/2026-10-11/senegal-puts-focus-on-global-bid-to-help-poor-countries-tackle-debt",
+              "title": "塞内加尔聚焦全球帮助穷国解决债务的努力",
+              "summary": "各国财长齐聚曼谷，共同框架（Common Framework）成为焦点，旨在帮助贫穷国家应对债务问题。",
+              "title_en": "Senegal Puts Focus on Global Bid to Help Poor Countries Tackle Debt",
+              "summary_en": "Finance chiefs gather in Bangkok with the Common Framework in focus, aiming to help poor countries tackle their debt problems.",
+              "topic_evidence": "The Common Framework is in focus as finance chiefs gather in Bangkok",
+              "reason": "全球债务减免框架讨论，属于理财与监管。",
+              "reason_en": "Global debt relief framework discussion, fitting wealth and regulation.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-12/indonesian-stocks-plunge-sending-benchmark-to-three-month-low",
+              "title": "印尼股市因监管罚款猜测大跌",
+              "summary": "印尼股市下滑，基准指数跌至三个月低点，市场猜测该国部分大型上市公司可能面临监管罚款，打击了投资者情绪。",
+              "title_en": "Indonesia Stocks Tumble on Speculation Over Regulatory Fines",
+              "summary_en": "Indonesian stocks slid and the benchmark hit a three-month low amid speculation that some of the country's largest listed companies could face regulatory fines.",
+              "topic_evidence": "speculation that some of the country’s largest-listed companies could face regulatory fines",
+              "reason": "监管罚款猜测影响印尼股市，属于理财与监管。",
+              "reason_en": "Speculation over regulatory fines hits Indonesian stocks, fitting wealth and regulation.",
+              "score": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative",
+              "title": "Linux 手机能否成为 Android/iOS 双头垄断的可行替代？",
+              "summary": "这篇博文探讨 Linux 手机能否挑战 Android 和 iOS 的双头垄断地位。文章在 Hacker News 上引发 152 分、166 条评论的讨论。",
+              "title_en": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+              "summary_en": "This blog post examines whether Linux phones can become a viable alternative to the Android/iOS duopoly. It sparked a Hacker News discussion with 152 points and 166 comments.",
+              "topic_evidence": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+              "reason": "文章直接讨论 Linux 手机作为移动操作系统替代方案的可行性，属于技术观点。",
+              "reason_en": "The article directly discusses the viability of Linux phones as an alternative mobile OS, fitting tech opinion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+              "title": "指纹识别是新的 Cookie",
+              "summary": "文章指出浏览器指纹识别正在取代 Cookie 成为新的用户追踪手段。该文在 Hacker News 上获得 388 分和 187 条评论。",
+              "title_en": "Fingerprints are the new cookies",
+              "summary_en": "The article argues that browser fingerprinting is replacing cookies as a new tracking method. It received 388 points and 187 comments on Hacker News.",
+              "topic_evidence": "Fingerprints are the new cookies",
+              "reason": "文章论述浏览器指纹识别对隐私的威胁，属于技术观点。",
+              "reason_en": "The article discusses browser fingerprinting as a privacy threat, fitting tech opinion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+              "title": "通行密钥是个陷阱",
+              "summary": "文章认为通行密钥（Passkeys）是陷阱，不建议使用，并引发 Hacker News 上 642 分、378 条评论的热议。",
+              "title_en": "Passkeys are a trap",
+              "summary_en": "The article argues that passkeys are a trap and should not be used, sparking 642 points and 378 comments on Hacker News.",
+              "topic_evidence": "Passkeys are a trap",
+              "reason": "文章对通行密钥技术提出批评，属于技术观点。",
+              "reason_en": "The article criticizes passkey technology, fitting tech opinion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://twitter.com/karpathy/status/2109361546505966046",
+              "title": "对 LLM 能力的共同理解差距正在扩大",
+              "summary": "Karpathy 发推文指出，人们对大语言模型能力的共同理解差距正在扩大，该推文在 Hacker News 上引发 469 分、684 条评论的讨论。",
+              "title_en": "The gap in shared understanding of LLM capability is widening",
+              "summary_en": "Karpathy tweets that the gap in shared understanding of LLM capability is widening, sparking 469 points and 684 comments on Hacker News.",
+              "topic_evidence": "The gap in shared understanding of LLM capability is widening",
+              "reason": "推文讨论 LLM 能力认知分歧，属于 AI 技术观点。",
+              "reason_en": "The tweet discusses divergent understanding of LLM capabilities, fitting AI tech opinion.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://cendyne.dev/posts/2026-10-11-fable-took-my-jorb.html",
+              "title": "《Fable 抢走了我的工作》",
+              "summary": "Hacker News 上讨论博客文章《Fable 抢走了我的工作》，获得 126 分和 141 条评论。",
+              "title_en": "Fable Took My Job",
+              "summary_en": "A Hacker News discussion thread about the blog post 'Fable Took My Job' has drawn 126 points and 141 comments.",
+              "topic_evidence": "Fable Took My Job",
+              "reason": "该 HN 讨论帖评论数较高，标题涉及工作被工具取代，适合社区讨论。",
+              "reason_en": "This HN thread has high comment count, with a title about a tool taking a job, fitting community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://cartographers-nk.wonyoung.so/",
+              "title": "朝鲜的制图师们（2019）",
+              "summary": "Hacker News 上关于“朝鲜的制图师们”项目的讨论，获得 264 分和 49 条评论。",
+              "title_en": "Cartographers of North Korea (2019)",
+              "summary_en": "A Hacker News discussion thread about the 'Cartographers of North Korea' project has drawn 264 points and 49 comments.",
+              "topic_evidence": "Cartographers of North Korea (2019)",
+              "reason": "该 HN 帖子引发关于朝鲜地图制作项目的社区讨论。",
+              "reason_en": "This HN post sparked community discussion about a North Korea mapping project.",
+              "score": 2.9
+            },
+            {
+              "url": "https://theonion.com/archivehunt",
+              "title": "那么，你想出售你的《洋葱报》印刷版吗？",
+              "summary": "Hacker News 上关于《洋葱报》征集印刷版存档的讨论，获得 327 分和 48 条评论。",
+              "title_en": "So, you’d like to sell your print issues of The Onion?",
+              "summary_en": "A Hacker News discussion thread about The Onion seeking print issues for its archive has drawn 327 points and 48 comments.",
+              "topic_evidence": "So, you’d like to sell your print issues of The Onion?",
+              "reason": "该 HN 帖子讨论《洋葱报》的印刷版存档征集，属于社区讨论。",
+              "reason_en": "This HN post discusses The Onion's call for print issues, fitting community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

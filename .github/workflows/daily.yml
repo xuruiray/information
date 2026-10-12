@@ -21,6 +21,10 @@ on:
         description: "Optional committed RSS snapshot path (preview only)"
         required: false
         default: ""
+      editorial_selection:
+        description: "Optional saved API article selection path (preview only)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -61,6 +65,13 @@ jobs:
             fi
             GENERATE_ARGS+=(--source-snapshot "$SOURCE_SNAPSHOT")
           fi
+          if [ -n "$EDITORIAL_SELECTION" ]; then
+            if [ "$PREVIEW" != "true" ]; then
+              echo 'Saved selections are only allowed in preview runs'
+              exit 1
+            fi
+            GENERATE_ARGS+=(--editorial-selection "$EDITORIAL_SELECTION")
+          fi
           if [ -n "$EDITION_DATE" ]; then
             GENERATE_ARGS+=(--date "$EDITION_DATE")
           fi
@@ -73,6 +84,7 @@ jobs:
           PREVIEW: ${{ github.event.inputs.preview || 'false' }}
           EDITION_DATE: ${{ github.event.inputs.edition_date }}
           SOURCE_SNAPSHOT: ${{ github.event.inputs.source_snapshot }}
+          EDITORIAL_SELECTION: ${{ github.event.inputs.editorial_selection }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
