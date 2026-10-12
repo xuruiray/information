@@ -231,6 +231,7 @@ profile:
           title_en: "Scientific Research"
           max_articles: 4
           keywords:
+            - researchers
             - scientists
             - quantum
             - nuclear clock
@@ -419,6 +420,12 @@ profile:
           title_en: "Society & Law"
           max_articles: 4
           keywords:
+            - 违纪
+            - 违法
+            - 受贿
+            - 判刑
+            - 救援
+            - 消防
             - 警方
             - 公安
             - 犯罪
@@ -518,6 +525,11 @@ profile:
           title_en: "Technology Opinion"
           max_articles: 4
           keywords:
+            - llm
+            - passkeys
+            - cookies
+            - linux
+            - programming
             - technology
             - ai
             - software

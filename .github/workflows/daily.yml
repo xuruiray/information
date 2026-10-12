@@ -17,6 +17,10 @@ on:
         description: "Optional edition date (YYYY-MM-DD)"
         required: false
         default: ""
+      source_snapshot:
+        description: "Optional committed RSS snapshot path (preview only)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -48,7 +52,14 @@ jobs:
           if [ "$PREVIEW" = "true" ]; then
             mkdir -p preview
             cp -R docs preview/site
-            GENERATE_ARGS=(--profile "$PROFILE" --out preview/site --issue-json preview/site/edition.json)
+            GENERATE_ARGS=(--profile "$PROFILE" --out preview/site --issue-json preview/site/edition.json --editorial-audit preview/site/editorial-audit.json)
+          fi
+          if [ -n "$SOURCE_SNAPSHOT" ]; then
+            if [ "$PREVIEW" != "true" ]; then
+              echo 'Saved source snapshots are only allowed in preview runs'
+              exit 1
+            fi
+            GENERATE_ARGS+=(--source-snapshot "$SOURCE_SNAPSHOT")
           fi
           if [ -n "$EDITION_DATE" ]; then
             GENERATE_ARGS+=(--date "$EDITION_DATE")
@@ -61,6 +72,7 @@ jobs:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
           PREVIEW: ${{ github.event.inputs.preview || 'false' }}
           EDITION_DATE: ${{ github.event.inputs.edition_date }}
+          SOURCE_SNAPSHOT: ${{ github.event.inputs.source_snapshot }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
@@ -71,7 +83,7 @@ jobs:
           commit_message: "chore: publish daily newspaper"
           file_pattern: "docs data"
       - name: Upload preview
-        if: ${{ github.event.inputs.preview == 'true' }}
+        if: ${{ always() && github.event.inputs.preview == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: newspaper-preview-${{ github.run_id }}

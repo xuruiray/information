@@ -17,6 +17,7 @@ from information_daily.config import ConfigError, load_config
 from information_daily.models import Article
 from information_daily.renderer import render_issue
 from information_daily.sources import FetchResult, SourceFetchStatus
+from information_daily.cli import _load_source_snapshot
 
 
 def test_missing_llm_key_fails_without_fallback(monkeypatch):
@@ -278,6 +279,112 @@ def test_section_candidate_whitelist_blocks_cross_section_news():
     )
     assert not any(s.articles for s in issue.sections)
     assert any("unknown URL" in w for w in issue.warnings)
+
+
+@pytest.mark.parametrize(
+    "title,section_id,subsection_id,evidence",
+    [
+        (
+            "Scientists discover vanilla’s hidden healing potential",
+            "science-tech",
+            "science-research",
+            "vanillin, the compound that gives vanilla its distinctive flavor",
+        ),
+        (
+            "国家铁路局发布《铁路科技创新“十五五”规划》",
+            "china",
+            "china-policy",
+            "铁路科技创新“十五五”规划",
+        ),
+        (
+            "江西省政协原副主席胡幼桃受贿案一审被判十三年",
+            "china",
+            "china-society-law",
+            "胡幼桃受贿案一审",
+        ),
+        (
+            "The gap in shared understanding of LLM capability is widening",
+            "opinion",
+            "tech-opinion",
+            "LLM capability",
+        ),
+        (
+            "Passkeys are a trap",
+            "opinion",
+            "community-discussion",
+            "Passkeys are a trap",
+        ),
+    ],
+)
+def test_saved_rss_events_are_not_rejected_for_a_keyword_free_quote(
+    title, section_id, subsection_id, evidence
+):
+    config = load_config("ai-tech", Path.cwd())
+    fetch = _load_source_snapshot(
+        Path("tests/fixtures/editorial-audit-2026-10-12.json"),
+        "ai-tech",
+        date(2026, 10, 12),
+    )
+    candidate = next(a for a in fetch.articles if a.title == title)
+    decisions = []
+    issue = _issue_from_llm_data(
+        config,
+        {
+            "sections": [
+                {
+                    "id": section_id,
+                    "subsections": [
+                        {
+                            "id": subsection_id,
+                            "articles": [
+                                _edited(
+                                    candidate,
+                                    title="原文事件的中文审阅标题",
+                                    summary="根据保存的原始素材检验主题证据规则。",
+                                    topic_evidence=evidence,
+                                )
+                            ],
+                        }
+                    ],
+                }
+            ]
+        },
+        [candidate],
+        date(2026, 10, 12),
+        decisions=decisions,
+    )
+    assert [a.url for s in issue.sections for a in s.articles] == [candidate.url]
+    assert decisions[0]["status"] == "accepted"
+    assert decisions[0]["original_title"] == title
+    assert decisions[0]["source_keyword_matches"]
+
+
+def test_quote_normalization_allows_typography_but_not_paraphrases():
+    from information_daily.compiler import _topic_evidence_warning
+
+    config = load_config("ai-tech", Path.cwd())
+    sub = config.sections[0].subsections[0]
+    candidate = replace(_articles()[0], title="An AI model’s new result", summary="")
+    assert not _topic_evidence_warning(sub, candidate, "AI model's new result")
+    assert _topic_evidence_warning(sub, candidate, "AI model delivers a new result")
+
+
+def test_editorial_audit_preserves_rejected_url_and_raw_selection(monkeypatch):
+    config = load_config("ai-tech", Path.cwd())
+    monkeypatch.setenv(config.llm.api_key_env, "test-key")
+    good = _edited(_articles()[0])
+    bad = _edited(_articles()[2], topic_evidence="invented phrase")
+    selected = {"ai-tech": [{"id": "frontier-ai", "articles": [good, bad]}]}
+    monkeypatch.setattr(
+        "information_daily.compiler._post_chat_completion", _fake_editor([], selected)
+    )
+    audit = {}
+    issue = compile_issue(config, _articles(), date(2026, 5, 29), editorial_audit=audit)
+    assert audit["sections"][0]["subsections"][0]["articles"][1] == bad
+    rejected = next(d for d in audit["decisions"] if d["status"] == "rejected")
+    assert rejected["url"] == bad["url"]
+    assert rejected["reason"] == "missing verbatim topic evidence"
+    assert rejected["url"] in issue.warnings[0]
 
 
 def test_short_keyword_and_source_tags_do_not_establish_topic():

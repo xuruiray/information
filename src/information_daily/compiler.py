@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 from dataclasses import asdict, replace
@@ -33,13 +34,14 @@ def compile_issue(
     articles: list[Article] | tuple[Article, ...],
     issue_date: date,
     allow_fallback: bool = False,
+    editorial_audit: dict | None = None,
 ) -> Issue:
     prepared = _prepare_articles(config, articles, issue_date)
     warnings: list[str] = []
 
     if config.llm.enabled:
         try:
-            issue = _compile_with_llm(config, prepared, issue_date)
+            issue = _compile_with_llm(config, prepared, issue_date, editorial_audit)
             return issue
         except ConfigError:
             if not allow_fallback:
@@ -187,21 +189,32 @@ def _compile_with_rules(
 
 
 def _compile_with_llm(
-    config: AppConfig, articles: list[Article], issue_date: date
+    config: AppConfig,
+    articles: list[Article],
+    issue_date: date,
+    editorial_audit: dict | None = None,
 ) -> Issue:
     api_key = os.environ.get(config.llm.api_key_env)
     if not api_key:
         raise ConfigError(f"Missing required LLM secret: {config.llm.api_key_env}")
 
     ranked = _ranked_candidates_by_section(config, articles)
+    if editorial_audit is not None:
+        editorial_audit.update(date=issue_date.isoformat(), sections=[], decisions=[])
     section_data = []
     for section in config.sections:
         # Selection has no minimum; the editor may reject every candidate.
         section_data.append(
             _compile_llm_section(config, section, ranked, issue_date, api_key)
         )
+        if editorial_audit is not None:
+            editorial_audit["sections"].append(section_data[-1])
     issue = _issue_from_llm_data(
-        config, {"sections": section_data}, articles, issue_date
+        config,
+        {"sections": section_data},
+        articles,
+        issue_date,
+        decisions=editorial_audit["decisions"] if editorial_audit is not None else None,
     )
     sections = tuple(
         _compile_llm_briefings(config, section, issue_date, api_key)
@@ -275,7 +288,7 @@ def _compile_llm_section(config, section, ranked, issue_date, api_key) -> dict:
             "科技公司涉及的战争、外交、选举新闻不能仅因公司名归入开发或 AI；论文不因出现 model 就自动属于前沿模型。",
             "标题和摘要必须描述具体事件、方法、结果或变化；不写某来源关注的关键线索、适合关注技术方向等通用文案。",
             "中文 title 和 summary 必须完整；无法可靠翻译或材料不足则跳过。保留不确定性，不增加材料中没有的事实。",
-            "每篇提供 topic_evidence：逐字摘取原文含本小版主题关键词的短语，尽量少于120字符；arXiv、博客名、来源标签不是主题证据。",
+            "每篇提供 topic_evidence：逐字摘取原文标题或摘要中描述具体事件的短语，尽量少于120字符。栏目归属结合完整标题和摘要判断，摘录不必机械包含词表关键词；arXiv、博客名、来源标签不是主题证据。社区讨论可摘录原标题，只报告提供的标题和讨论指标，不编造观点论证。",
             "中文摘要40-80字，英文摘要20-45词，不重复整段原文。只输出 schema 中的字段，保证 JSON 完整闭合。",
             "若材料只有标题、票数、评论数，只报告这些已知信息，不补写作者论证或未提供的正文结论。",
         ],
@@ -622,7 +635,7 @@ def _extract_json(raw: str) -> dict:
     return data
 
 
-def _issue_from_llm_data(config, data, articles, issue_date) -> Issue:
+def _issue_from_llm_data(config, data, articles, issue_date, decisions=None) -> Issue:
     ranked = _ranked_candidates_by_section(config, articles)
     raw_sections = {
         item["id"]: item
@@ -660,32 +673,56 @@ def _issue_from_llm_data(config, data, articles, issue_date) -> Issue:
         for sub in _section_subsections(section):
             compiled = []
             for raw_item in by_id.get(sub.id, []):
-                if (
+                at_limit = (
                     len(compiled) >= sub.max_articles
                     or len(section_articles) + len(compiled) >= section.max_articles
-                ):
-                    break
+                )
                 item, warning = _compiled_from_mapping_checked(raw_item, allowed)
+                original = None
+                evidence = ""
                 if item is not None:
                     original = allowed[item.url]
                     evidence = normalize_space(
                         str(raw_item.get("topic_evidence") or "")
                     )
-                    if not evidence or not any(
-                        evidence.casefold() in text.casefold()
-                        for text in (original.title, original.summary)
-                    ):
-                        warning = "missing verbatim topic evidence"
-                    elif not _topic_matches(sub.keywords, evidence):
-                        warning = "topic evidence does not match subsection"
-                    elif item.url in used_urls:
+                    warning = _topic_evidence_warning(sub, original, evidence)
+                    if not warning and item.url in used_urls:
                         warning = "duplicate URL"
+                    if not warning and at_limit:
+                        warning = "article limit reached"
                     if not warning:
                         compiled.append(item)
                         used_urls.add(item.url)
                 if warning:
                     warnings.append(
                         f"Editorial item ignored in {section.id}/{sub.id}: {warning}"
+                        f" [{raw_item.get('url', '') if isinstance(raw_item, dict) else ''}]"
+                    )
+                if decisions is not None:
+                    decisions.append(
+                        {
+                            "section": section.id,
+                            "subsection": sub.id,
+                            "url": raw_item.get("url", "")
+                            if isinstance(raw_item, dict)
+                            else "",
+                            "original_title": original.title if original else "",
+                            "original_summary": original.summary if original else "",
+                            "topic_evidence": evidence,
+                            "status": "rejected" if warning else "accepted",
+                            "reason": warning,
+                            "quote_keyword_match": _topic_matches(
+                                sub.keywords, evidence
+                            ),
+                            "source_keyword_matches": [
+                                k
+                                for k in sub.keywords
+                                if original
+                                and _keyword_matches(
+                                    k, original.title + " " + original.summary
+                                )
+                            ],
+                        }
                     )
             compiled_subsections.append(
                 CompiledSubsection(
@@ -999,6 +1036,36 @@ def _keyword_matches(keyword: str, text: str) -> bool:
 
 def _topic_matches(keywords, text) -> bool:
     return not keywords or any(_keyword_matches(keyword, text) for keyword in keywords)
+
+
+def _evidence_text(text: str) -> str:
+    # Normalize presentation only; do not allow paraphrases or fuzzy matches.
+    return (
+        normalize_space(unicodedata.normalize("NFKC", text))
+        .translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'}))
+        .casefold()
+    )
+
+
+def _topic_evidence_warning(sub, original, evidence) -> str:
+    quote = _evidence_text(evidence)
+    if not quote or not any(
+        quote in _evidence_text(text) for text in (original.title, original.summary)
+    ):
+        return "missing verbatim topic evidence"
+    if quote in {
+        "arxiv",
+        "blog",
+        "hn",
+        "hacker news",
+        "comments",
+        "article url",
+        "comments url",
+    }:
+        return "metadata-only topic evidence"
+    if not _topic_matches(sub.keywords, original.title + " " + original.summary):
+        return "topic evidence does not match subsection"
+    return ""
 
 
 def _fallback_article_title_zh(article: Article) -> str:
