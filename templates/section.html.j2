@@ -50,12 +50,12 @@
           <h3>{{ subsection.title }}</h3>
           <span>{{ subsection.articles | length }} {{ labels.articles }}</span>
         </header>
+        {% if subsection.articles %}
         <section class="briefing-panel subsection-briefing" aria-label="{{ subsection.briefing_title }}">
           <div class="lead-label">{{ subsection.briefing_title }}</div>
           <p>{{ subsection.briefing_summary }}</p>
         </section>
 
-        {% if subsection.articles %}
         <div class="columns subsection-columns">
           {% for article in subsection.articles %}
           <a class="art" href="{{ article.url }}" target="_blank" rel="noopener">

@@ -9,12 +9,29 @@ on:
         description: "Profile to generate"
         required: true
         default: "ai-tech"
+      preview:
+        description: "Generate a downloadable preview without committing pages"
+        type: boolean
+        default: false
+      edition_date:
+        description: "Optional edition date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      source_snapshot:
+        description: "Optional committed RSS snapshot path (preview only)"
+        required: false
+        default: ""
+      editorial_selection:
+        description: "Optional saved API article selection path (preview only)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  TZ: Asia/Shanghai
 
 jobs:
   generate:
@@ -35,14 +52,56 @@ jobs:
         env:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
       - name: Generate newspaper
-        run: python -m information_daily generate --profile "${PROFILE}" --out docs
+        run: |
+          if [ -z "$EDITION_DATE" ]; then
+            EDITION_DATE="$(date +%F)"
+          fi
+          GENERATE_ARGS=(--profile "$PROFILE" --out docs --issue-json "data/editions/$EDITION_DATE.json" --editorial-audit "data/editorial/$EDITION_DATE.json")
+          if [ "$PREVIEW" = "true" ]; then
+            mkdir -p preview
+            cp -R docs preview/site
+            GENERATE_ARGS=(--profile "$PROFILE" --out preview/site --issue-json preview/site/edition.json --editorial-audit preview/site/editorial-audit.json)
+          fi
+          if [ -n "$SOURCE_SNAPSHOT" ]; then
+            if [ "$PREVIEW" != "true" ]; then
+              echo 'Saved source snapshots are only allowed in preview runs'
+              exit 1
+            fi
+            GENERATE_ARGS+=(--source-snapshot "$SOURCE_SNAPSHOT")
+          fi
+          if [ -n "$EDITORIAL_SELECTION" ]; then
+            if [ "$PREVIEW" != "true" ]; then
+              echo 'Saved selections are only allowed in preview runs'
+              exit 1
+            fi
+            GENERATE_ARGS+=(--editorial-selection "$EDITORIAL_SELECTION")
+          fi
+          if [ -n "$EDITION_DATE" ]; then
+            GENERATE_ARGS+=(--date "$EDITION_DATE")
+          fi
+          python -m information_daily generate "${GENERATE_ARGS[@]}"
+          if [ "$PREVIEW" = "true" ]; then
+            python -c 'import json, shutil; from pathlib import Path; date = json.loads(Path("preview/site/edition.json").read_text())["date"]; shutil.copyfile(f"data/raw/{date}.json", "preview/site/raw-snapshot.json")'
+          fi
         env:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
+          PREVIEW: ${{ github.event.inputs.preview || 'false' }}
+          EDITION_DATE: ${{ github.event.inputs.edition_date }}
+          SOURCE_SNAPSHOT: ${{ github.event.inputs.source_snapshot }}
+          EDITORIAL_SELECTION: ${{ github.event.inputs.editorial_selection }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
       - name: Commit generated pages
+        if: ${{ github.event.inputs.preview != 'true' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: publish daily newspaper"
           file_pattern: "docs data"
+      - name: Upload preview
+        if: ${{ always() && github.event.inputs.preview == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: newspaper-preview-${{ github.run_id }}
+          path: preview/site
+          if-no-files-found: error

@@ -40,7 +40,7 @@ LABELS = {
         "section_pages": "分类页面",
         "subsections": "个细分",
         "read_more": "阅读全文",
-        "empty_subsection": "本小版暂无入选文章。你可以在 profile 中调整关键词、数据源或栏目权重。",
+        "empty_subsection": "本小版今日暂无入选文章。",
         "empty_archive": "暂无归档。",
     },
     "en": {
@@ -66,7 +66,7 @@ LABELS = {
         "section_pages": "Edition pages",
         "subsections": "subsections",
         "read_more": "Read more",
-        "empty_subsection": "No selected articles in this subsection. Adjust keywords, sources, or weights in the profile.",
+        "empty_subsection": "No articles selected in this subsection today.",
         "empty_archive": "No archived issues yet.",
     },
 }
@@ -515,6 +515,7 @@ def build_raw_snapshot(config: AppConfig, issue: Issue, fetch_result: FetchResul
             for rank, article in enumerate(fetch_result.articles, start=1)
         ],
         "warnings": list(issue.warnings),
+        "fetch_warnings": list(fetch_result.warnings),
     }
 
 

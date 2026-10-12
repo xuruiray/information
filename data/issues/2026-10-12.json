@@ -4,27 +4,25 @@
   "title_en": "Information Daily 2026-10-12",
   "profile_id": "ai-tech",
   "headline": {
-    "title": "科学家可能找到聚变能源捷径",
-    "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
-    "source": "ScienceDaily 科学",
-    "summary": "普林斯顿等离子体物理实验室提出一种更高效的聚变路径：先加热等离子体，再提高其密度，与传统方法相反。计算表明，未来反应堆有望以更少能量实现自持聚变，同时避免使点火更难的隐藏问题。",
-    "source_en": "ScienceDaily Top Science",
-    "title_en": "Scientists may have found a shortcut to fusion energy",
-    "summary_en": "Princeton Plasma Physics Laboratory may have found a dramatically more efficient route to fusion energy by reversing the traditional approach: heating plasma first, then increasing its density. Their calculations suggest future reactors could reach self-sustaining fusion with far less energy while avoiding hidden problems that make ignition harder. The team says this counterintuitive sequence could help future reactors achieve ignition more easily.",
-    "original_title": "Scientists may have found a shortcut to fusion energy",
-    "published_at": "2026-10-10T14:57:27-04:00",
-    "reason": "该发现若成立，可能大幅降低聚变能实现难度，是今日评分最高的科学突破，具有长期能源影响。",
-    "reason_en": "If validated, this could significantly lower the barrier to fusion energy. It is today's highest-scored science breakthrough with long-term energy implications.",
-    "score": 10.85
+    "title": "胡塞武装两天内第二次袭击利雅得机场，致1死11伤",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "沙特首都利雅得机场连续两天遭胡塞武装袭击，最新一次造成1人死亡、11人受伤；沙特称周末遭伊朗支持也门组织多次攻击。",
+    "source_en": "BBC World",
+    "title_en": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "summary_en": "A second Houthi strike on Riyadh airport in two days killed one person and injured 11, after multiple weekend attacks by the Iran-backed Yemeni group, Saudi authorities say.",
+    "original_title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+    "published_at": "2026-10-11T22:45:58+00:00",
+    "reason": "报道沙特首都机场遭胡塞武装连续袭击，属中东安全与地缘冲突。",
+    "reason_en": "Reports consecutive Houthi attacks on Saudi capital's airport, a major Middle East security and geopolitical event.",
+    "score": 3.0
   },
   "path": "papers/2026-10-12.html",
   "raw_path": "raw/2026-10-12.html",
   "raw_count": 180,
   "source_count": 32,
   "warnings": [
-    "LLM subsection science-tech/science-research ignored duplicate URL: https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
-    "LLM subsection startup-product/funding-ma ignored duplicate URL: https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
-    "LLM subsection world/geopolitics ignored duplicate URL: https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
-    "LLM subsection world/global-society ignored duplicate URL: https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor"
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-12/10712127.shtml]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-12/10712162.shtml]"
   ]
 }
