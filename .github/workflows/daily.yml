@@ -9,6 +9,14 @@ on:
         description: "Profile to generate"
         required: true
         default: "ai-tech"
+      preview:
+        description: "Generate a downloadable preview without committing pages"
+        type: boolean
+        default: false
+      edition_date:
+        description: "Optional edition date (YYYY-MM-DD)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -35,14 +43,32 @@ jobs:
         env:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
       - name: Generate newspaper
-        run: python -m information_daily generate --profile "${PROFILE}" --out docs
+        run: |
+          GENERATE_ARGS=(--profile "$PROFILE" --out docs)
+          if [ "$PREVIEW" = "true" ]; then
+            GENERATE_ARGS=(--profile "$PROFILE" --out preview/site --issue-json preview/site/edition.json)
+          fi
+          if [ -n "$EDITION_DATE" ]; then
+            GENERATE_ARGS+=(--date "$EDITION_DATE")
+          fi
+          python -m information_daily generate "${GENERATE_ARGS[@]}"
         env:
           PROFILE: ${{ github.event.inputs.profile || 'ai-tech' }}
+          PREVIEW: ${{ github.event.inputs.preview || 'false' }}
+          EDITION_DATE: ${{ github.event.inputs.edition_date }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
       - name: Commit generated pages
+        if: ${{ github.event.inputs.preview != 'true' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: publish daily newspaper"
           file_pattern: "docs data"
+      - name: Upload preview
+        if: ${{ github.event.inputs.preview == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: newspaper-preview-${{ github.run_id }}
+          path: preview/site
+          if-no-files-found: error

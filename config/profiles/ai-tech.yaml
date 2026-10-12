@@ -82,6 +82,12 @@ profile:
           title_en: "Research & Governance"
           max_articles: 5
           keywords:
+            - evaluation
+            - evaluations
+            - evals
+            - guardrails
+            - reward
+            - explainable
             - arxiv
             - paper
             - research
@@ -142,6 +148,9 @@ profile:
           title_en: "Open Source & Tools"
           max_articles: 4
           keywords:
+            - version control
+            - git
+            - actions
             - github
             - open source
             - cli
@@ -205,6 +214,10 @@ profile:
           title_en: "Space, Energy & Robotics"
           max_articles: 4
           keywords:
+            - star
+            - stars
+            - astronomers
+            - photovoltaic
             - space
             - nasa
             - satellite
@@ -218,6 +231,9 @@ profile:
           title_en: "Scientific Research"
           max_articles: 4
           keywords:
+            - scientists
+            - quantum
+            - nuclear clock
             - science
             - research
             - physics
@@ -251,6 +267,9 @@ profile:
           title_en: "New Products & Growth"
           max_articles: 4
           keywords:
+            - app
+            - writing
+            - keyboard
             - product
             - product hunt
             - launch
@@ -305,6 +324,12 @@ profile:
           title_en: "Geopolitics & Security"
           max_articles: 5
           keywords:
+            - attack
+            - attacks
+            - troops
+            - fighters
+            - ceasefire
+            - assassination
             - diplomacy
             - geopolitics
             - war
@@ -317,6 +342,9 @@ profile:
           title_en: "Government & Policy"
           max_articles: 5
           keywords:
+            - lawmakers
+            - elections
+            - prime minister
             - election
             - government
             - policy
@@ -328,6 +356,9 @@ profile:
           title_en: "Global Society"
           max_articles: 5
           keywords:
+            - earthquakes
+            - quakes
+            - emergency
             - world
             - international
             - society
@@ -360,6 +391,11 @@ profile:
           title_en: "Policy & Regulation"
           max_articles: 4
           keywords:
+            - 国务院
+            - 商务部
+            - 外交部
+            - 措施
+            - 意见
             - 政策
             - 监管
             - 时政
@@ -383,6 +419,13 @@ profile:
           title_en: "Society & Law"
           max_articles: 4
           keywords:
+            - 警方
+            - 公安
+            - 犯罪
+            - 食品安全
+            - 刑事
+            - 生态
+            - 保护
             - 社会
             - 法治
             - 教育

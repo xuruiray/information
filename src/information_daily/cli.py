@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import argparse
+import json
 from datetime import date
 from pathlib import Path
 
-from .compiler import compile_issue
+from .compiler import compile_issue, issue_to_dict
 from .config import ConfigError, load_config, validate_config
 from .renderer import render_issue
 from .sources import fetch_all
@@ -14,7 +15,9 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="information-daily")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    validate = subparsers.add_parser("validate-config", help="Validate site/profile/source config")
+    validate = subparsers.add_parser(
+        "validate-config", help="Validate site/profile/source config"
+    )
     validate.add_argument("--profile", default="ai-tech")
     validate.add_argument("--root", default=".")
 
@@ -25,6 +28,9 @@ def main(argv: list[str] | None = None) -> int:
     generate.add_argument("--root", default=".")
     generate.add_argument("--source-timeout", type=int, default=12)
     generate.add_argument("--fetch-workers", type=int, default=8)
+    generate.add_argument(
+        "--issue-json", type=Path, help="Save the full compiled edition for review."
+    )
     generate.add_argument(
         "--skip-raw-pages",
         action="store_true",
@@ -47,7 +53,9 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "generate":
             config = load_config(profile=args.profile, root=Path(args.root))
             issue_date = date.fromisoformat(args.date)
-            fetch = fetch_all(config, timeout=args.source_timeout, workers=args.fetch_workers)
+            fetch = fetch_all(
+                config, timeout=args.source_timeout, workers=args.fetch_workers
+            )
             issue = compile_issue(
                 config,
                 fetch.articles,
@@ -70,6 +78,18 @@ def main(argv: list[str] | None = None) -> int:
                 fetch_result=fetch,
                 render_raw_pages=not args.skip_raw_pages,
             )
+            if args.issue_json:
+                args.issue_json.parent.mkdir(parents=True, exist_ok=True)
+                args.issue_json.write_text(
+                    json.dumps(
+                        issue_to_dict(issue),
+                        ensure_ascii=False,
+                        indent=2,
+                        default=lambda value: value.isoformat(),
+                    )
+                    + "\n",
+                    encoding="utf-8",
+                )
             print(f"generated: {Path(args.out).resolve() / 'index.html'}")
             return 0
     except (ConfigError, ValueError) as exc:

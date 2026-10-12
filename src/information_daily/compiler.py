@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import urllib.error
 import urllib.request
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 
@@ -26,9 +27,6 @@ class CompileError(RuntimeError):
     """Raised when the digest cannot be compiled."""
 
 
-MIN_SUBSECTION_ARTICLES = 3
-
-
 def compile_issue(
     config: AppConfig,
     articles: list[Article] | tuple[Article, ...],
@@ -45,15 +43,23 @@ def compile_issue(
         except ConfigError:
             if not allow_fallback:
                 raise
-            warnings.append("LLM credentials are missing; generated with rule-based fallback.")
+            warnings.append(
+                "LLM credentials are missing; generated with rule-based fallback."
+            )
         except CompileError:
             if not allow_fallback:
                 raise
-            warnings.append("LLM compilation failed; generated with rule-based fallback.")
+            warnings.append(
+                "LLM compilation failed; generated with rule-based fallback."
+            )
 
     issue = _compile_with_rules(config, prepared, issue_date)
     return Issue(
-        **{field: getattr(issue, field) for field in issue.__dataclass_fields__ if field != "warnings"},
+        **{
+            field: getattr(issue, field)
+            for field in issue.__dataclass_fields__
+            if field != "warnings"
+        },
         warnings=tuple([*issue.warnings, *warnings]),
     )
 
@@ -67,13 +73,19 @@ def _prepare_articles(
     cutoff = None
     lookback_hours = config.selection.get("lookback_hours")
     if lookback_hours:
-        issue_end = datetime.combine(issue_date + timedelta(days=1), time.min, tzinfo=timezone)
+        issue_end = datetime.combine(
+            issue_date + timedelta(days=1), time.min, tzinfo=timezone
+        )
         cutoff = issue_end - timedelta(hours=float(lookback_hours))
 
     seen: set[str] = set()
     deduped: list[Article] = []
     for article in articles:
-        if cutoff and article.published_at and article.published_at.astimezone(timezone) < cutoff:
+        if (
+            cutoff
+            and article.published_at
+            and article.published_at.astimezone(timezone) < cutoff
+        ):
             continue
         title_key = normalize_space(article.title).lower()
         key = article.url or title_key
@@ -93,17 +105,24 @@ def _prepare_articles(
     )[: int(config.selection.get("max_raw_items") or 120)]
 
 
-def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: date) -> Issue:
+def _compile_with_rules(
+    config: AppConfig, articles: list[Article], issue_date: date
+) -> Issue:
     scored: list[tuple[Article, SectionConfig, float]] = []
     for article in articles:
         section, score = _best_section(config, article)
         if score >= float(config.selection.get("min_score") or 0):
             scored.append((article, section, score))
-    scored.sort(key=lambda row: (row[2], row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC"))), reverse=True)
+    scored.sort(
+        key=lambda row: (
+            row[2],
+            row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC")),
+        ),
+        reverse=True,
+    )
 
-    headline = _compiled_article(scored[0][0], scored[0][2]) if scored else None
     sections: list[CompiledSection] = []
-    used_urls = {_article_key_from_compiled(headline)} if headline else set()
+    used_urls = set()
     for section in config.sections:
         subsection_items = _balanced_subsection_pairs(section, scored, used_urls)
         items = [
@@ -119,11 +138,17 @@ def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: 
                 title=section.title,
                 title_en=section.title_en,
                 icon=section.icon,
-                articles=tuple(_compiled_article(article, score) for article, score in items),
+                articles=tuple(
+                    _compiled_article(article, score) for article, score in items
+                ),
                 briefing_title=f"{section.title}总结",
-                briefing_summary=_fallback_section_briefing(section, items),
+                briefing_summary=_article_brief(
+                    [_compiled_article(a, score) for a, score in items]
+                ),
                 briefing_title_en=f"{section.title_en} Briefing",
-                briefing_summary_en=_fallback_section_briefing_en(section, items),
+                briefing_summary_en=_article_brief(
+                    [_compiled_article(a, score) for a, score in items], lang="en"
+                ),
                 subsections=subsections,
             )
         )
@@ -133,15 +158,25 @@ def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: 
         site_title=str(config.site["title"]),
         site_title_en=str(config.site.get("title_en") or "Information Daily"),
         site_subtitle=str(config.site.get("subtitle") or ""),
-        site_subtitle_en=str(config.site.get("subtitle_en") or config.site.get("subtitle") or ""),
+        site_subtitle_en=str(
+            config.site.get("subtitle_en") or config.site.get("subtitle") or ""
+        ),
         edition_label=str(config.site.get("edition_label") or ""),
-        edition_label_en=str(config.site.get("edition_label_en") or config.site.get("edition_label") or ""),
+        edition_label_en=str(
+            config.site.get("edition_label_en")
+            or config.site.get("edition_label")
+            or ""
+        ),
         profile_id=config.profile_id,
         briefing_title="AI 总结",
-        briefing_summary=_fallback_briefing(scored),
+        briefing_summary=_article_brief(
+            [a for section in sections for a in section.articles]
+        ),
         briefing_title_en="AI Briefing",
-        briefing_summary_en=_fallback_briefing_en(scored),
-        headline=headline,
+        briefing_summary_en=_article_brief(
+            [a for section in sections for a in section.articles], lang="en"
+        ),
+        headline=next((a for section in sections for a in section.articles), None),
         sections=tuple(sections),
         source_count=len([source for source in config.sources if source.enabled]),
         raw_count=len(articles),
@@ -150,210 +185,309 @@ def _compile_with_rules(config: AppConfig, articles: list[Article], issue_date: 
     )
 
 
-def _compile_with_llm(config: AppConfig, articles: list[Article], issue_date: date) -> Issue:
+def _compile_with_llm(
+    config: AppConfig, articles: list[Article], issue_date: date
+) -> Issue:
     api_key = os.environ.get(config.llm.api_key_env)
     if not api_key:
         raise ConfigError(f"Missing required LLM secret: {config.llm.api_key_env}")
 
-    ranked_by_section = _ranked_candidates_by_section(config, articles)
-    ranked_by_subsection = _ranked_candidates_by_subsection(config, articles)
-    overview = _compile_llm_overview(config, ranked_by_section, issue_date, api_key)
-    section_data = [
-        _compile_llm_section(config, section, ranked_by_section, ranked_by_subsection, issue_date, api_key)
-        for section in config.sections
-    ]
+    ranked = _ranked_candidates_by_section(config, articles)
+    section_data = []
+    for section in config.sections:
+        # Selection has no minimum; the editor may reject every candidate.
+        section_data.append(
+            _compile_llm_section(config, section, ranked, issue_date, api_key)
+        )
+    issue = _issue_from_llm_data(
+        config, {"sections": section_data}, articles, issue_date
+    )
+    sections = tuple(
+        _compile_llm_briefings(config, section, issue_date, api_key)
+        for section in issue.sections
+    )
+    issue = replace(issue, sections=sections)
+    if not any(section.articles for section in sections):
+        raise CompileError(
+            "No publishable articles remained after editorial validation"
+        )
+    overview = _compile_llm_overview(config, sections, issue_date, api_key)
+    return _apply_final_overview(issue, overview)
 
-    return _issue_from_llm_data(
-        config,
-        {
-            "briefing": overview.get("briefing") or {},
-            "headline": overview.get("headline") or {},
-            "sections": section_data,
-        },
-        articles,
-        issue_date,
+
+def _apply_final_overview(issue: Issue, overview: dict) -> Issue:
+    selected_by_url = {
+        item.url: item for section in issue.sections for item in section.articles
+    }
+    headline_url = str(overview.get("headline_url") or "")
+    if headline_url not in selected_by_url:
+        raise CompileError("Overview headline must reference a final published article")
+    briefing = _validated_briefing(
+        overview.get("briefing"), set(selected_by_url), "overview"
+    )
+    return replace(
+        issue,
+        headline=selected_by_url[headline_url],
+        briefing_title=briefing["title"],
+        briefing_summary=briefing["summary"],
+        briefing_title_en=briefing["title_en"],
+        briefing_summary_en=briefing["summary_en"],
     )
 
 
-def _compile_llm_overview(
-    config: AppConfig,
-    ranked_by_section: dict[str, list[tuple[Article, float]]],
-    issue_date: date,
-    api_key: str,
-) -> dict:
-    llm_candidates_by_section = _llm_candidates_by_section(config, ranked_by_section)
-    candidates_by_section = {}
-    for section in config.sections:
-        section_candidates = llm_candidates_by_section.get(section.id, [])
-        candidates_by_section[section.id] = [
-            _article_candidate_payload(article, score, section)
-            for article, score in section_candidates[: min(8, max(section.max_articles, 1))]
-        ]
+def _compile_llm_section(config, section, ranked, issue_date, api_key) -> dict:
+    limit = min(max(1, config.llm.max_input_items), max(1, section.max_articles * 2))
+    candidates = [
+        _article_candidate_payload(article, score, section)
+        for article, score in ranked.get(section.id, [])[:limit]
+    ]
+    if not candidates:
+        return {"id": section.id, "subsections": []}
+    request = {
+        "task": f"选择并编写 {section.title} 的文章；不要生成总结。",
+        "date": issue_date.isoformat(),
+        "style": config.llm.summary_style,
+        "section": {
+            "id": section.id,
+            "title": section.title,
+            "max_articles": section.max_articles,
+            "keywords": section.keywords,
+            "subsections": [
+                {
+                    "id": sub.id,
+                    "title": sub.title,
+                    "keywords": sub.keywords,
+                    "max_articles": sub.max_articles,
+                }
+                for sub in _section_subsections(section)
+            ],
+        },
+        "other_sections": [
+            {"id": item.id, "title": item.title}
+            for item in config.sections
+            if item.id != section.id
+        ],
+        "requirements": [
+            "只选择主题直接符合本大版和所在小版的文章。根据标题和摘要的实际事件判断；来源名称和 suggested_subsection 只是提示，不能作为归属依据。",
+            "没有最低篇数要求；max_articles 只是上限。没有相关且有信息量的文章时返回空列表，不要从其他主题补齐。",
+            "一条新闻只放入一个小版。文章 URL 必须来自 candidates，不能改写。",
+            "科技公司涉及的战争、外交、选举新闻不能仅因公司名归入开发或 AI；论文不因出现 model 就自动属于前沿模型。",
+            "标题和摘要必须描述具体事件、方法、结果或变化；不写某来源关注的关键线索、适合关注技术方向等通用文案。",
+            "中文 title 和 summary 必须完整；无法可靠翻译或材料不足则跳过。保留不确定性，不增加材料中没有的事实。",
+            "每篇提供 topic_evidence：从原始 title 或 summary 中逐字摘取含该小版 keywords 的主题短语，不使用来源标签；没有直接主题证据时跳过。",
+        ],
+        "schema": {
+            "id": section.id,
+            "subsections": [
+                {
+                    "id": "subsection id",
+                    "articles": [
+                        {
+                            "url": "candidate URL",
+                            "title": "具体中文标题",
+                            "summary": "50-110字具体中文摘要",
+                            "title_en": "English title",
+                            "summary_en": "English summary",
+                            "topic_evidence": "verbatim topic evidence from candidate title or summary",
+                            "reason": "具体入选理由",
+                            "reason_en": "selection rationale",
+                            "score": 0,
+                        }
+                    ],
+                }
+            ],
+        },
+        "candidates": candidates,
+    }
+    data = _request_editor(config, request, api_key)
+    return _coerce_llm_section_data(section, data)
 
+
+def _compiled_payload(article: CompiledArticle) -> dict:
+    return {
+        "url": article.url,
+        "title": article.title,
+        "summary": article.summary,
+        "title_en": article.title_en,
+        "summary_en": article.summary_en,
+        "source": article.source,
+    }
+
+
+def _briefing_schema() -> dict:
+    return {
+        "title": "中文总结标题",
+        "summary": "基于最终文章的简洁中文总结",
+        "title_en": "English briefing title",
+        "summary_en": "Briefing based on final articles",
+        "covered_urls": ["every URL in the input article set, unchanged"],
+    }
+
+
+def _request_editor(config, request, api_key) -> dict:
     payload = _llm_payload(
         config,
         [
             {"role": "system", "content": _llm_system_prompt()},
-            {
-                "role": "user",
-                "content": json.dumps(
-                    {
-                        "task": "生成整份日报的总览和头条。",
-                        "date": issue_date.isoformat(),
-                        "style": config.llm.summary_style,
-                        "sections": [
-                            {
-                                "id": section.id,
-                                "title": section.title,
-                                "title_en": section.title_en,
-                            }
-                            for section in config.sections
-                        ],
-                        "requirements": [
-                            "只输出 briefing 和 headline 两个字段。",
-                            "headline 必须从 candidates_by_section 中选择，url 必须完全一致。",
-                            "briefing.summary 要综合所有配置版面，突出当天最重要的趋势、风险和阅读优先级。",
-                            "中文字段必须是自然简体中文，不要直接复述英文原文。",
-                        ],
-                        "schema": {
-                            "briefing": {
-                                "title": "例如：AI 总结",
-                                "summary": "160-260字简体中文，概括今天最重要的趋势、变化和阅读重点",
-                                "title_en": "example: AI Briefing",
-                                "summary_en": "120-220 words in English, covering the most important trends and reading priorities",
-                            },
-                            "headline": {
-                                "title": "简体中文新闻标题",
-                                "title_en": "English news title",
-                                "url": "string",
-                                "source_zh": "中文来源名",
-                                "source_en": "English source name",
-                                "summary": "70-140字中文摘要",
-                                "summary_en": "60-120 word English summary",
-                                "reason": "为什么作为头条",
-                                "reason_en": "why this is the lead item",
-                                "score": "number",
-                            },
-                        },
-                        "candidates_by_section": candidates_by_section,
-                    },
-                    ensure_ascii=False,
-                ),
-            },
+            {"role": "user", "content": json.dumps(request, ensure_ascii=False)},
         ],
     )
     return _extract_json(_post_chat_completion(config, payload, api_key))
 
 
-def _compile_llm_section(
-    config: AppConfig,
-    section: SectionConfig,
-    ranked_by_section: dict[str, list[tuple[Article, float]]],
-    ranked_by_subsection: dict[str, dict[str, list[tuple[Article, float]]]],
-    issue_date: date,
-    api_key: str,
-) -> dict:
-    targets_by_section = {
-        section.id: min(section.max_articles, len(ranked_by_section.get(section.id, [])))
-    }
-    targets_by_subsection = {
-        subsection.id: min(
-            subsection.max_articles,
-            len(ranked_by_subsection.get(section.id, {}).get(subsection.id, [])),
+def _validated_briefing(value, urls: set[str], scope: str) -> dict:
+    if not isinstance(value, dict):
+        raise CompileError(f"Missing final briefing: {scope}")
+    covered = value.get("covered_urls")
+    if (
+        not isinstance(covered, list)
+        or any(not isinstance(url, str) for url in covered)
+        or set(covered) != urls
+    ):
+        raise CompileError(
+            f"Final briefing article set differs from published articles: {scope}"
         )
-        for subsection in _section_subsections(section)
+    fields = {
+        key: normalize_space(str(value.get(key) or ""))
+        for key in ("title", "summary", "title_en", "summary_en")
     }
-    section_candidates = ranked_by_section.get(section.id, [])
-    section_candidate_limit = min(
-        max(1, int(config.llm.max_input_items or 60)),
-        max(section.max_articles * 2, section.max_articles),
-    )
-    candidates = [
-        _article_candidate_payload(article, score, section)
-        for article, score in section_candidates[:section_candidate_limit]
-    ]
+    if any(not text for text in fields.values()) or not _has_chinese(fields["summary"]):
+        raise CompileError(f"Incomplete bilingual final briefing: {scope}")
+    if _generic_copy(fields["summary"]) or any(
+        phrase in fields["summary"]
+        for phrase in (
+            "暂无文章",
+            "暂无入选",
+            "无文章入选",
+            "没有文章入选",
+            "暂无新闻",
+            "暂无符合",
+            "无候选文章",
+            "没有入选",
+            "暂无足够",
+        )
+    ):
+        raise CompileError(f"Final briefing contradicts nonempty articles: {scope}")
+    return fields
 
-    payload = _llm_payload(
-        config,
-        [
-            {"role": "system", "content": _llm_system_prompt()},
+
+def _compile_llm_briefings(
+    config, section: CompiledSection, issue_date, api_key
+) -> CompiledSection:
+    if not section.articles:
+        return section
+    nonempty = [sub for sub in section.subsections if sub.articles]
+    request = {
+        "task": f"根据最终文章生成 {section.title} 及小版总结。",
+        "date": issue_date.isoformat(),
+        "section": {"id": section.id, "title": section.title},
+        "final_subsections": [
             {
-                "role": "user",
-                "content": json.dumps(
-                    {
-                        "task": f"生成 {section.title} 大版的分版总结、小版块总结和文章列表。",
-                        "date": issue_date.isoformat(),
-                        "style": config.llm.summary_style,
-                        "section": {
-                            "id": section.id,
-                            "title": section.title,
-                            "title_en": section.title_en,
-                            "icon": section.icon,
-                            "max_articles": section.max_articles,
-                            "target_articles": targets_by_section[section.id],
-                            "subsections": [
-                                {
-                                    "id": subsection.id,
-                                    "title": subsection.title,
-                                    "title_en": subsection.title_en,
-                                    "max_articles": subsection.max_articles,
-                                    "target_articles": targets_by_subsection[subsection.id],
-                                }
-                                for subsection in _section_subsections(section)
-                            ],
-                        },
-                        "requirements": [
-                            "顶层必须是一个 section 对象，id 必须等于输入 section.id。",
-                            "subsections 必须覆盖输入 section.subsections 的所有 id。",
-                            "每个 subsections[j].articles 的数量必须尽量等于该小版 target_articles；候选不足时可以少于 target_articles。",
-                            "所有文章只能从 candidates 中选择，url 必须完全一致。",
-                            "小版块优先使用 candidate.suggested_subsection 匹配的文章；候选不足时可从同一大版其他候选补齐。",
-                            "中文标题、摘要和入选理由必须是正式读者可读的新闻文案，不要出现 prompt、规则预览、LLM、生产环境等内部说明。",
-                        ],
-                        "schema": {
-                            "id": section.id,
-                            "briefing": {
-                                "title": f"例如：{section.title}总结",
-                                "summary": "100-180字简体中文，概括本版新闻重点",
-                                "title_en": f"example: {section.title_en} Briefing",
-                                "summary_en": "80-140 word English summary of this edition",
-                            },
-                            "subsections": [
-                                {
-                                    "id": "subsection id",
-                                    "briefing": {
-                                        "title": "例如：小版总结",
-                                        "summary": "60-120字简体中文，概括该小版块重点",
-                                        "title_en": "example: Subsection Briefing",
-                                        "summary_en": "50-100 word English summary of this subsection",
-                                    },
-                                    "articles": [
-                                        {
-                                            "title": "简体中文新闻标题",
-                                            "title_en": "English news title",
-                                            "url": "string",
-                                            "source_zh": "中文来源名",
-                                            "source_en": "English source name",
-                                            "summary": "50-110字中文摘要",
-                                            "summary_en": "45-90 word English summary",
-                                            "reason": "入选理由",
-                                            "reason_en": "selection rationale",
-                                            "score": "number",
-                                        }
-                                    ],
-                                }
-                            ],
-                        },
-                        "candidates": candidates,
-                    },
-                    ensure_ascii=False,
-                ),
-            },
+                "id": sub.id,
+                "title": sub.title,
+                "articles": [_compiled_payload(a) for a in sub.articles],
+            }
+            for sub in nonempty
         ],
+        "requirements": [
+            "文章筛选、去重和栏目归属已经完成；只总结输入中的最终文章，不新增、删减、重新选题或移动文章。",
+            "总结描述具体事件和变化，不泛谈行业方向。保留报道、预测、论文提出等事实限定。",
+            "每个 covered_urls 必须列出对应总结的全部输入文章 URL；大版列出全部小版文章 URL。",
+            "输入只有非空小版，不要写暂无文章或无重大更新，不得提及未入选报道。",
+        ],
+        "schema": {
+            "briefing": _briefing_schema(),
+            "subsections": [
+                {"id": "input subsection id", "briefing": _briefing_schema()}
+            ],
+        },
+    }
+    for attempt in range(2):
+        data = _request_editor(config, request, api_key)
+        try:
+            return _apply_final_briefings(section, data)
+        except CompileError as exc:
+            if attempt:
+                raise
+            request["repair"] = str(exc)
+    raise CompileError("Could not generate final briefings")
+
+
+def _apply_final_briefings(section: CompiledSection, data: dict) -> CompiledSection:
+    nonempty = [sub for sub in section.subsections if sub.articles]
+    briefing = _validated_briefing(
+        data.get("briefing"), {a.url for a in section.articles}, section.id
     )
-    raw = _post_chat_completion(config, payload, api_key)
-    data = _extract_json(raw)
-    return _coerce_llm_section_data(section, data)
+    raw_subs = data.get("subsections")
+    if not isinstance(raw_subs, list) or any(
+        not isinstance(sub, dict) for sub in raw_subs
+    ):
+        raise CompileError(f"Missing final subsection briefings: {section.id}")
+    by_id = {sub.get("id"): sub for sub in raw_subs if isinstance(sub.get("id"), str)}
+    if len(by_id) != len(raw_subs) or set(by_id) != {sub.id for sub in nonempty}:
+        raise CompileError(f"Final briefing subsection set differs: {section.id}")
+    subs = []
+    for sub in section.subsections:
+        if not sub.articles:
+            subs.append(sub)
+            continue
+        fields = _validated_briefing(
+            by_id[sub.id].get("briefing"),
+            {a.url for a in sub.articles},
+            f"{section.id}/{sub.id}",
+        )
+        subs.append(_with_briefing(sub, fields))
+    return _with_briefing(replace(section, subsections=tuple(subs)), briefing)
+
+
+def _with_briefing(item, fields):
+    return replace(
+        item,
+        briefing_title=fields["title"],
+        briefing_summary=fields["summary"],
+        briefing_title_en=fields["title_en"],
+        briefing_summary_en=fields["summary_en"],
+    )
+
+
+def _compile_llm_overview(config, sections, issue_date, api_key) -> dict:
+    request = {
+        "task": "根据最终发布文章生成整份日报的总览，并选择头条 URL。",
+        "date": issue_date.isoformat(),
+        "final_sections": [
+            {
+                "id": section.id,
+                "title": section.title,
+                "articles": [_compiled_payload(a) for a in section.articles],
+            }
+            for section in sections
+            if section.articles
+        ],
+        "requirements": [
+            "只总结最终发布文章，突出具体变化和阅读重点；不得提及未入选候选，也不重新改写文章。",
+            "headline_url 必须来自 final_sections 中的文章，covered_urls 列出全部最终文章 URL。",
+            "中文总结约160-260字，英文简洁；区分已发生事实、研究主张和预测，保留不确定性。",
+        ],
+        "schema": {
+            "briefing": _briefing_schema(),
+            "headline_url": "URL of one final article",
+        },
+    }
+    urls = {a.url for section in sections for a in section.articles}
+    for attempt in range(2):
+        data = _request_editor(config, request, api_key)
+        try:
+            _validated_briefing(data.get("briefing"), urls, "overview")
+            if data.get("headline_url") not in urls:
+                raise CompileError(
+                    "Overview headline must reference a final published article"
+                )
+            return data
+        except CompileError as exc:
+            if attempt:
+                raise
+            request["repair"] = str(exc)
+    raise CompileError("Could not generate final overview")
 
 
 def _llm_payload(config: AppConfig, messages: list[dict]) -> dict:
@@ -388,12 +522,13 @@ def _coerce_llm_section_data(section: SectionConfig, data: dict) -> dict:
     for raw_section in data.get("sections") or []:
         if isinstance(raw_section, dict) and raw_section.get("id") == section.id:
             return raw_section
-    data["id"] = section.id
-    return data
+    raise CompileError(f"Selection response does not match section: {section.id}")
 
 
 def _post_chat_completion(config: AppConfig, payload: dict, api_key: str) -> str:
-    base_url = os.environ.get(config.llm.base_url_env, config.llm.default_base_url).rstrip("/")
+    base_url = os.environ.get(
+        config.llm.base_url_env, config.llm.default_base_url
+    ).rstrip("/")
     request = urllib.request.Request(
         f"{base_url}/chat/completions",
         data=json.dumps(payload).encode("utf-8"),
@@ -411,7 +546,9 @@ def _post_chat_completion(config: AppConfig, payload: dict, api_key: str) -> str
     try:
         return response_data["choices"][0]["message"]["content"]
     except (KeyError, IndexError, TypeError) as exc:
-        raise CompileError("LLM response did not include choices[0].message.content") from exc
+        raise CompileError(
+            "LLM response did not include choices[0].message.content"
+        ) from exc
 
 
 def _extract_json(raw: str) -> dict:
@@ -433,177 +570,128 @@ def _extract_json(raw: str) -> dict:
     return data
 
 
-def _issue_from_llm_data(
-    config: AppConfig,
-    data: dict,
-    articles: list[Article],
-    issue_date: date,
-) -> Issue:
-    allowed_by_url = {article.url: article for article in articles if article.url}
-    ranked_by_section = _ranked_candidates_by_section(config, articles)
-    ranked_by_subsection = _ranked_candidates_by_subsection(config, articles)
-    warnings: list[str] = []
-    headline, warning = _compiled_from_mapping_checked(data.get("headline"), allowed_by_url)
-    if warning and data.get("headline") is not None:
-        warnings.append(f"LLM headline ignored: {warning}")
-    if headline is None and articles:
-        headline = _compiled_article(articles[0], 0)
-    briefing = data.get("briefing") if isinstance(data.get("briefing"), dict) else {}
-
-    llm_sections_by_id = {}
-    for item in data.get("sections") or []:
-        if isinstance(item, dict) and isinstance(item.get("id"), str):
-            llm_sections_by_id[item["id"]] = item
-
-    sections: list[CompiledSection] = []
-    used_urls = {headline.url} if headline else set()
+def _issue_from_llm_data(config, data, articles, issue_date) -> Issue:
+    ranked = _ranked_candidates_by_section(config, articles)
+    raw_sections = {
+        item["id"]: item
+        for item in data.get("sections", [])
+        if isinstance(item, dict) and isinstance(item.get("id"), str)
+    }
+    sections = []
+    warnings = []
+    used_urls = set()
     for section in config.sections:
-        raw_section = llm_sections_by_id.get(section.id) or {}
-        if not raw_section:
-            warnings.append(f"LLM output missed section {section.id}; filled with ranked candidates.")
-        raw_briefing = raw_section.get("briefing") if isinstance(raw_section.get("briefing"), dict) else {}
-        raw_subsections_by_id = {
-            item["id"]: item
-            for item in raw_section.get("subsections") or []
-            if isinstance(item, dict) and isinstance(item.get("id"), str)
-        }
-        subsection_results: list[CompiledSubsection] = []
-        section_compiled: list[CompiledArticle] = []
-        for subsection in _section_subsections(section):
-            raw_subsection = raw_subsections_by_id.get(subsection.id) or {}
-            if not raw_subsection:
-                warnings.append(
-                    f"LLM output missed subsection {section.id}/{subsection.id}; filled with ranked candidates."
-                )
-            raw_items = raw_subsection.get("articles") or []
-            if not isinstance(raw_items, list):
-                warnings.append(
-                    f"LLM subsection {section.id}/{subsection.id} articles was not a list; filled with ranked candidates."
-                )
-                raw_items = []
-            raw_subsection_briefing = (
-                raw_subsection.get("briefing") if isinstance(raw_subsection.get("briefing"), dict) else {}
+        limit = min(
+            max(1, config.llm.max_input_items), max(1, section.max_articles * 2)
+        )
+        allowed = {a.url: a for a, _ in ranked[section.id][:limit]}
+        raw_subsections = raw_sections.get(section.id, {}).get("subsections", [])
+        if not isinstance(raw_subsections, list):
+            raw_subsections = []
+        by_id = {}
+        known_ids = {sub.id for sub in _section_subsections(section)}
+        for raw_sub in raw_subsections:
+            if (
+                not isinstance(raw_sub, dict)
+                or not isinstance(raw_sub.get("id"), str)
+                or raw_sub["id"] not in known_ids
+            ):
+                warnings.append(f"Unknown subsection ignored in {section.id}")
+                continue
+            by_id.setdefault(raw_sub["id"], []).extend(
+                raw_sub.get("articles", [])
+                if isinstance(raw_sub.get("articles"), list)
+                else []
             )
-            compiled: list[CompiledArticle] = []
-            for raw_item in raw_items:
-                item, warning = _compiled_from_mapping_checked(raw_item, allowed_by_url)
+        compiled_subsections = []
+        section_articles = []
+        for sub in _section_subsections(section):
+            compiled = []
+            for raw_item in by_id.get(sub.id, []):
+                if (
+                    len(compiled) >= sub.max_articles
+                    or len(section_articles) + len(compiled) >= section.max_articles
+                ):
+                    break
+                item, warning = _compiled_from_mapping_checked(raw_item, allowed)
+                if item is not None:
+                    original = allowed[item.url]
+                    evidence = normalize_space(
+                        str(raw_item.get("topic_evidence") or "")
+                    )
+                    if not evidence or not any(
+                        evidence.casefold() in text.casefold()
+                        for text in (original.title, original.summary)
+                    ):
+                        warning = "missing verbatim topic evidence"
+                    elif not _topic_matches(sub.keywords, evidence):
+                        warning = "topic evidence does not match subsection"
+                    elif item.url in used_urls:
+                        warning = "duplicate URL"
+                    if not warning:
+                        compiled.append(item)
+                        used_urls.add(item.url)
                 if warning:
                     warnings.append(
-                        f"LLM subsection {section.id}/{subsection.id} ignored item: {warning}"
+                        f"Editorial item ignored in {section.id}/{sub.id}: {warning}"
                     )
-                    continue
-                if item is None:
-                    continue
-                if item.url in used_urls:
-                    warnings.append(
-                        f"LLM subsection {section.id}/{subsection.id} ignored duplicate URL: {item.url}"
-                    )
-                    continue
-                compiled.append(item)
-                used_urls.add(item.url)
-                if len(compiled) >= subsection.max_articles:
-                    break
-            for article, score in ranked_by_subsection.get(section.id, {}).get(subsection.id, []):
-                if len(compiled) >= subsection.max_articles or len(section_compiled) + len(compiled) >= section.max_articles:
-                    break
-                if article.url in used_urls:
-                    continue
-                compiled.append(_compiled_article(article, score))
-                used_urls.add(article.url)
-            subsection_results.append(
+            compiled_subsections.append(
                 CompiledSubsection(
-                    id=subsection.id,
-                    title=subsection.title,
-                    title_en=subsection.title_en,
+                    id=sub.id,
+                    title=sub.title,
+                    title_en=sub.title_en,
                     articles=tuple(compiled),
-                    briefing_title=normalize_space(
-                        str(raw_subsection_briefing.get("title") or f"{subsection.title}总结")
-                    ),
-                    briefing_summary=normalize_space(
-                        str(raw_subsection_briefing.get("summary") or _fallback_subsection_briefing(subsection, []))
-                    ),
-                    briefing_title_en=normalize_space(
-                        str(raw_subsection_briefing.get("title_en") or f"{subsection.title_en} Briefing")
-                    ),
-                    briefing_summary_en=normalize_space(
-                        str(
-                            raw_subsection_briefing.get("summary_en")
-                            or _fallback_subsection_briefing_en(subsection, [])
-                        )
-                    ),
+                    briefing_title=f"{sub.title}总结",
+                    briefing_title_en=f"{sub.title_en} Briefing",
+                    briefing_summary=_article_brief(compiled),
+                    briefing_summary_en=_article_brief(compiled, lang="en"),
                 )
             )
-            section_compiled.extend(compiled)
-
-        for article, score in ranked_by_section.get(section.id, []):
-            if len(section_compiled) >= section.max_articles:
-                break
-            if article.url in used_urls:
-                continue
-            compiled = _compiled_article(article, score)
-            section_compiled.append(compiled)
-            used_urls.add(article.url)
-            subsection_id = _best_subsection(section, article).id
-            subsection_results = tuple(
-                CompiledSubsection(
-                    id=item.id,
-                    title=item.title,
-                    title_en=item.title_en,
-                    articles=(*item.articles, compiled) if item.id == subsection_id else item.articles,
-                    briefing_title=item.briefing_title,
-                    briefing_summary=item.briefing_summary,
-                    briefing_title_en=item.briefing_title_en,
-                    briefing_summary_en=item.briefing_summary_en,
-                )
-                for item in subsection_results
-            )
-            subsection_results = list(subsection_results)
-        subsection_results, section_compiled = _ensure_compiled_subsection_minimums(
-            section,
-            subsection_results,
-            section_compiled,
-            used_urls,
-            ranked_by_section.get(section.id, []),
-            articles,
-        )
+            section_articles.extend(compiled)
         sections.append(
             CompiledSection(
                 id=section.id,
                 title=section.title,
                 title_en=section.title_en,
                 icon=section.icon,
-                articles=tuple(section_compiled),
-                briefing_title=normalize_space(str(raw_briefing.get("title") or f"{section.title}总结")),
-                briefing_summary=normalize_space(
-                    str(raw_briefing.get("summary") or _fallback_section_briefing(section, []))
-                ),
-                briefing_title_en=normalize_space(str(raw_briefing.get("title_en") or f"{section.title_en} Briefing")),
-                briefing_summary_en=normalize_space(
-                    str(raw_briefing.get("summary_en") or _fallback_section_briefing_en(section, []))
-                ),
-                subsections=tuple(subsection_results),
+                articles=tuple(section_articles),
+                subsections=tuple(compiled_subsections),
+                briefing_title=f"{section.title}总结",
+                briefing_title_en=f"{section.title_en} Briefing",
+                briefing_summary=_article_brief(section_articles),
+                briefing_summary_en=_article_brief(section_articles, lang="en"),
             )
         )
-
     return Issue(
         date=issue_date,
         site_title=str(config.site["title"]),
         site_title_en=str(config.site.get("title_en") or "Information Daily"),
         site_subtitle=str(config.site.get("subtitle") or ""),
-        site_subtitle_en=str(config.site.get("subtitle_en") or config.site.get("subtitle") or ""),
+        site_subtitle_en=str(
+            config.site.get("subtitle_en") or config.site.get("subtitle") or ""
+        ),
         edition_label=str(config.site.get("edition_label") or ""),
-        edition_label_en=str(config.site.get("edition_label_en") or config.site.get("edition_label") or ""),
+        edition_label_en=str(config.site.get("edition_label_en") or ""),
         profile_id=config.profile_id,
-        briefing_title=normalize_space(str(briefing.get("title") or "AI 总结")),
-        briefing_summary=normalize_space(str(briefing.get("summary") or _fallback_briefing([]))),
-        briefing_title_en=normalize_space(str(briefing.get("title_en") or "AI Briefing")),
-        briefing_summary_en=normalize_space(str(briefing.get("summary_en") or _fallback_briefing_en([]))),
-        headline=headline,
+        briefing_title="今日总结",
+        briefing_summary="",
+        briefing_title_en="Daily Briefing",
+        briefing_summary_en="",
+        headline=None,
         sections=tuple(sections),
-        source_count=len([source for source in config.sources if source.enabled]),
+        source_count=sum(source.enabled for source in config.sources),
         raw_count=len(articles),
         warnings=tuple(warnings),
         generated_at=_now(config),
+    )
+
+
+def _article_brief(articles, lang="zh") -> str:
+    if not articles:
+        return "今日暂无入选文章。" if lang == "zh" else "No articles selected today."
+    titles = [a.title if lang == "zh" else a.title_en for a in articles]
+    return ("；" if lang == "zh" else "; ").join(titles) + (
+        "。" if lang == "zh" else "."
     )
 
 
@@ -626,62 +714,9 @@ def _ranked_candidates_by_section(
     return by_section
 
 
-def _ranked_candidates_by_subsection(
-    config: AppConfig,
-    articles: list[Article],
-) -> dict[str, dict[str, list[tuple[Article, float]]]]:
-    by_subsection = {
-        section.id: {subsection.id: [] for subsection in _section_subsections(section)}
-        for section in config.sections
-    }
-    for article in articles:
-        section, section_score = _best_section(config, article)
-        subsection = _best_subsection(section, article)
-        by_subsection[section.id][subsection.id].append((article, section_score))
-    for section_items in by_subsection.values():
-        for items in section_items.values():
-            items.sort(
-                key=lambda row: (
-                    row[1],
-                    row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC")),
-                ),
-                reverse=True,
-            )
-    return by_subsection
-
-
-def _llm_candidates_by_section(
-    config: AppConfig,
-    ranked_by_section: dict[str, list[tuple[Article, float]]],
-) -> dict[str, list[tuple[Article, float]]]:
-    total_limit = max(1, int(config.llm.max_input_items or 60))
-    pools = {
-        section.id: ranked_by_section.get(section.id, [])[
-            : min(8, max(section.max_articles, 1))
-        ]
-        for section in config.sections
-    }
-    selected = {section.id: [] for section in config.sections}
-    remaining = total_limit
-    index = 0
-    while remaining > 0:
-        progressed = False
-        for section in config.sections:
-            pool = pools.get(section.id, [])
-            if index >= len(pool):
-                continue
-            selected[section.id].append(pool[index])
-            remaining -= 1
-            progressed = True
-            if remaining <= 0:
-                break
-        if not progressed:
-            break
-        index += 1
-    return selected
-
-
-def _article_candidate_payload(article: Article, score: float, section: SectionConfig) -> dict:
+def _article_candidate_payload(
+    article: Article, score: float, section: SectionConfig
+) -> dict:
     subsection = _best_subsection(section, article)
     return {
         "id": article.id,
@@ -691,7 +726,9 @@ def _article_candidate_payload(article: Article, score: float, section: SectionC
         "source_zh": _source_label_zh(article.source_name),
         "source_en": article.source_name,
         "summary": article.summary[:360],
-        "published_at": article.published_at.isoformat() if article.published_at else None,
+        "published_at": article.published_at.isoformat()
+        if article.published_at
+        else None,
         "suggested_subsection": subsection.id,
         "suggested_subsection_title": subsection.title,
         "score": round(score, 2),
@@ -714,25 +751,17 @@ def _section_subsections(section: SectionConfig) -> tuple[SubsectionConfig, ...]
 
 def _best_subsection(section: SectionConfig, article: Article) -> SubsectionConfig:
     subsections = _section_subsections(section)
-    text = f"{article.title} {article.summary} {' '.join(article.keywords)}".lower()
+    text = f"{article.title} {article.summary}".lower()
     best = subsections[0]
     best_score = -1
     for subsection in subsections:
-        score = sum(1 for keyword in subsection.keywords if keyword and keyword in text)
+        score = sum(
+            1 for keyword in subsection.keywords if _keyword_matches(keyword, text)
+        )
         if score > best_score:
             best = subsection
             best_score = score
     return best
-
-
-def _compiled_subsections_from_pairs(
-    section: SectionConfig,
-    items: list[tuple[Article, float]],
-) -> tuple[CompiledSubsection, ...]:
-    grouped = {subsection.id: [] for subsection in _section_subsections(section)}
-    for article, score in items:
-        grouped[_best_subsection(section, article).id].append((article, score))
-    return _compiled_subsections_from_grouped(section, grouped)
 
 
 def _compiled_subsections_from_grouped(
@@ -744,181 +773,40 @@ def _compiled_subsections_from_grouped(
             id=subsection.id,
             title=subsection.title,
             title_en=subsection.title_en,
-            articles=tuple(_compiled_article(article, score) for article, score in grouped[subsection.id]),
+            articles=tuple(
+                _compiled_article(article, score)
+                for article, score in grouped[subsection.id]
+            ),
             briefing_title=f"{subsection.title}总结",
-            briefing_summary=_fallback_subsection_briefing(subsection, grouped[subsection.id]),
+            briefing_summary=_article_brief(
+                [_compiled_article(a, score) for a, score in grouped[subsection.id]]
+            ),
             briefing_title_en=f"{subsection.title_en} Briefing",
-            briefing_summary_en=_fallback_subsection_briefing_en(subsection, grouped[subsection.id]),
+            briefing_summary_en=_article_brief(
+                [_compiled_article(a, score) for a, score in grouped[subsection.id]],
+                lang="en",
+            ),
         )
         for subsection in _section_subsections(section)
     )
 
 
-def _balanced_subsection_pairs(
-    section: SectionConfig,
-    scored: list[tuple[Article, SectionConfig, float]],
-    used_article_keys: set[str],
-) -> dict[str, list[tuple[Article, float]]]:
-    subsections = _section_subsections(section)
-    grouped: dict[str, list[tuple[Article, float]]] = {subsection.id: [] for subsection in subsections}
-    selected_keys: set[str] = set()
-    section_rows = [
-        (article, _score_article_for_section(section, article))
-        for article, item_section, _ in scored
-        if item_section.id == section.id
-    ]
-    if not section_rows:
-        return grouped
-
-    all_rows = [
-        (article, _score_article_for_section(section, article))
-        for article, _, _ in scored
-    ]
-    section_rows = _sorted_article_rows(section_rows)
-    all_rows = _sorted_article_rows(all_rows)
-
-    def can_add(article: Article, subsection: SubsectionConfig) -> bool:
-        key = _article_key(article)
-        return (
-            key not in used_article_keys
-            and key not in selected_keys
-            and len(grouped[subsection.id]) < subsection.max_articles
-        )
-
-    def add_to(subsection: SubsectionConfig, row: tuple[Article, float]) -> bool:
-        article, score = row
-        if not can_add(article, subsection):
-            return False
-        grouped[subsection.id].append((article, score))
-        selected_keys.add(_article_key(article))
-        return True
-
-    for subsection in subsections:
-        target = _minimum_for_subsection(subsection)
-        for rows, require_match in ((section_rows, True), (all_rows, True), (all_rows, False)):
-            if len(grouped[subsection.id]) >= target:
-                break
-            for row in rows:
-                if len(grouped[subsection.id]) >= target:
-                    break
-                if require_match and _best_subsection(section, row[0]).id != subsection.id:
-                    continue
-                add_to(subsection, row)
-
-    section_target = max(section.max_articles, sum(_minimum_for_subsection(item) for item in subsections))
-    for rows, allow_global in ((section_rows, False), (all_rows, True)):
-        if _grouped_count(grouped) >= section_target:
+def _balanced_subsection_pairs(section, scored, used_article_keys):
+    grouped = {sub.id: [] for sub in _section_subsections(section)}
+    selected = set(used_article_keys)
+    for article, item_section, score in scored:
+        if item_section.id != section.id or _article_key(article) in selected:
+            continue
+        sub = _best_subsection(section, article)
+        if not _topic_matches(sub.keywords, f"{article.title} {article.summary}"):
+            continue
+        if sum(len(items) for items in grouped.values()) >= section.max_articles:
             break
-        for row in rows:
-            if _grouped_count(grouped) >= section_target:
-                break
-            article = row[0]
-            if not allow_global and _best_section_id_from_scored(scored, article) != section.id:
-                continue
-            subsection = _best_subsection(section, article)
-            add_to(subsection, row)
+        if len(grouped[sub.id]) >= sub.max_articles:
+            continue
+        grouped[sub.id].append((article, score))
+        selected.add(_article_key(article))
     return grouped
-
-
-def _minimum_for_subsection(subsection: SubsectionConfig) -> int:
-    return min(MIN_SUBSECTION_ARTICLES, subsection.max_articles)
-
-
-def _grouped_count(grouped: dict[str, list[tuple[Article, float]]]) -> int:
-    return sum(len(items) for items in grouped.values())
-
-
-def _sorted_article_rows(rows: list[tuple[Article, float]]) -> list[tuple[Article, float]]:
-    return sorted(
-        rows,
-        key=lambda row: (
-            row[1],
-            row[0].published_at or datetime.min.replace(tzinfo=ZoneInfo("UTC")),
-        ),
-        reverse=True,
-    )
-
-
-def _best_section_id_from_scored(
-    scored: list[tuple[Article, SectionConfig, float]],
-    article: Article,
-) -> str:
-    key = _article_key(article)
-    for scored_article, section, _ in scored:
-        if _article_key(scored_article) == key:
-            return section.id
-    return ""
-
-
-def _ensure_compiled_subsection_minimums(
-    section: SectionConfig,
-    subsection_results: list[CompiledSubsection],
-    section_compiled: list[CompiledArticle],
-    used_article_keys: set[str],
-    section_rows: list[tuple[Article, float]],
-    articles: list[Article],
-) -> tuple[list[CompiledSubsection], list[CompiledArticle]]:
-    if not section_rows and not section_compiled:
-        return subsection_results, section_compiled
-
-    by_id = {subsection.id: subsection for subsection in subsection_results}
-    all_rows = _sorted_article_rows([
-        (article, _score_article_for_section(section, article))
-        for article in articles
-    ])
-    section_rows = _sorted_article_rows([
-        (article, _score_article_for_section(section, article))
-        for article, _ in section_rows
-    ])
-
-    def append_to(subsection: SubsectionConfig, row: tuple[Article, float]) -> bool:
-        article, score = row
-        key = _article_key(article)
-        if key in used_article_keys:
-            return False
-        current = by_id[subsection.id]
-        if len(current.articles) >= subsection.max_articles:
-            return False
-        compiled = _compiled_article(article, score)
-        by_id[subsection.id] = CompiledSubsection(
-            id=current.id,
-            title=current.title,
-            title_en=current.title_en,
-            articles=(*current.articles, compiled),
-            briefing_title=current.briefing_title,
-            briefing_summary=current.briefing_summary,
-            briefing_title_en=current.briefing_title_en,
-            briefing_summary_en=current.briefing_summary_en,
-        )
-        section_compiled.append(compiled)
-        used_article_keys.add(key)
-        return True
-
-    for subsection in _section_subsections(section):
-        target = _minimum_for_subsection(subsection)
-        for rows, require_match in ((section_rows, True), (all_rows, True), (all_rows, False)):
-            current = by_id.get(subsection.id)
-            if current is None or len(current.articles) >= target:
-                break
-            for row in rows:
-                current = by_id[subsection.id]
-                if len(current.articles) >= target:
-                    break
-                if require_match and _best_subsection(section, row[0]).id != subsection.id:
-                    continue
-                append_to(subsection, row)
-
-    ordered = []
-    for subsection in _section_subsections(section):
-        item = by_id.get(subsection.id)
-        if item is not None:
-            ordered.append(item)
-    return ordered, section_compiled
-
-
-def _compiled_from_mapping(value: object, allowed_by_url: dict[str, Article]) -> CompiledArticle | None:
-    item, _ = _compiled_from_mapping_checked(value, allowed_by_url)
-    return item
 
 
 def _compiled_from_mapping_checked(
@@ -933,18 +821,34 @@ def _compiled_from_mapping_checked(
     source_article = allowed_by_url.get(url)
     if source_article is None:
         return None, f"unknown URL: {url}"
+    title = normalize_space(str(value.get("title") or ""))
+    summary = normalize_space(str(value.get("summary") or ""))
+    if not title or not summary or not _has_chinese(title) or not _has_chinese(summary):
+        return None, "missing concrete Chinese title or summary"
+    if _generic_copy(title) or _generic_copy(summary):
+        return None, "generic template copy"
     return CompiledArticle(
-        title=normalize_space(str(value.get("title") or _fallback_article_title_zh(source_article))),
+        title=title,
         url=url,
         source=_source_label_zh(source_article.source_name),
-        summary=normalize_space(str(value.get("summary") or _fallback_article_summary_zh(source_article))),
+        summary=summary,
         source_en=source_article.source_name,
         title_en=normalize_space(str(value.get("title_en") or source_article.title)),
-        summary_en=normalize_space(str(value.get("summary_en") or source_article.summary or source_article.title)),
+        summary_en=normalize_space(
+            str(
+                value.get("summary_en")
+                or source_article.summary
+                or source_article.title
+            )
+        ),
         original_title=source_article.title,
-        published_at=source_article.published_at.isoformat() if source_article.published_at else None,
+        published_at=source_article.published_at.isoformat()
+        if source_article.published_at
+        else None,
         reason=normalize_space(str(value.get("reason") or "")),
-        reason_en=normalize_space(str(value.get("reason_en") or value.get("reason") or "")),
+        reason_en=normalize_space(
+            str(value.get("reason_en") or value.get("reason") or "")
+        ),
         score=_float_value(value.get("score")),
     ), ""
 
@@ -961,22 +865,16 @@ def _best_section(config: AppConfig, article: Article) -> tuple[SectionConfig, f
 
 
 def _score_article_for_section(section: SectionConfig, article: Article) -> float:
-    text = f"{article.title} {article.summary} {' '.join(article.keywords)}".lower()
+    text = f"{article.title} {article.summary}".lower()
     score = article.weight
     if article.default_section == section.id:
         score += 2.0
-    score += sum(1.0 for keyword in section.keywords if keyword and keyword in text)
+    score += sum(1.0 for keyword in section.keywords if _keyword_matches(keyword, text))
     return score
 
 
 def _article_key(article: Article) -> str:
     return article.url or article.id or normalize_space(article.title).lower()
-
-
-def _article_key_from_compiled(article: CompiledArticle | None) -> str:
-    if article is None:
-        return ""
-    return article.url or normalize_space(article.title).lower()
 
 
 def _compiled_article(article: Article, score: float) -> CompiledArticle:
@@ -1004,97 +902,60 @@ def _float_value(value: object) -> float:
         return 0.0
 
 
-def _fallback_article_title_zh(article: Article) -> str:
-    topic = _fallback_topic_label(article)
-    return f"{topic}：{_source_label_zh(article.source_name)}关注的关键线索"
+def _has_chinese(text: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", text))
 
 
-def _fallback_article_summary_zh(article: Article) -> str:
-    topic = _fallback_topic_label(article)
-    source = _source_label_zh(article.source_name)
-    if topic == "财经市场":
-        return (
-            f"这条财经线索来自{source}，主要涉及市场走势、资产定价或宏观预期变化，"
-            "可作为观察风险偏好、利率环境和投资节奏的参考。"
+def _generic_copy(text: str) -> bool:
+    return any(
+        phrase in text
+        for phrase in (
+            "关注的关键线索",
+            "这条科技线索来自",
+            "这条财经线索来自",
+            "这条国际线索来自",
+            "这条开发线索来自",
+            "这条研究线索来自",
+            "这条科技科学线索来自",
+            "这条创业产品线索来自",
+            "这条观点线索来自",
+            "这条中国观察线索来自",
+            "适合快速把握今日技术方向",
         )
-    if topic == "中国观察":
-        return (
-            f"这条中国观察线索来自{source}，关注国内政策、产业变化或社会治理动态，"
-            "适合用来判断本土环境和公共议题的变化。"
-        )
-    if topic == "国际事务":
-        return (
-            f"这条国际线索来自{source}，重点关注地缘安全、政府政策或全球社会动态，"
-            "有助于判断外部环境和区域风险的变化。"
-        )
-    if topic == "开发工具":
-        return (
-            f"这条开发线索来自{source}，围绕工程实践、开源工具或开发者生态展开，"
-            "适合关注工具链效率和技术采用趋势。"
-        )
-    if topic == "研究进展":
-        return (
-            f"这条研究线索来自{source}，关注论文、基准或实验方法的新进展，"
-            "可用于跟踪相关领域的技术演化。"
-        )
-    if topic == "科技科学":
-        return (
-            f"这条科技科学线索来自{source}，关注芯片硬件、航天能源、生命科学或基础研究，"
-            "有助于从 AI 之外观察技术和科学进展。"
-        )
-    if topic == "创业产品":
-        return (
-            f"这条创业产品线索来自{source}，聚焦新产品、融资并购或增长策略，"
-            "适合观察早期市场机会和产品化趋势。"
-        )
-    if topic == "观点评论":
-        return (
-            f"这条观点线索来自{source}，更偏分析、讨论或长期判断，"
-            "适合放在事实新闻之后补充理解框架。"
-        )
-    return (
-        f"这条科技线索来自{source}，关注模型能力、产品落地或产业应用变化，"
-        "适合快速把握今日技术方向。"
     )
 
 
-def _fallback_topic_label(article: Article) -> str:
-    if article.default_section == "ai-tech":
-        return "AI 与大模型"
-    if article.default_section == "developer":
-        return "开发工具"
-    if article.default_section == "science-tech":
-        return "科技科学"
-    if article.default_section == "startup-product":
-        return "创业产品"
-    if article.default_section == "world":
-        return "国际事务"
-    if article.default_section == "china":
-        return "中国观察"
-    if article.default_section == "finance":
-        return "财经市场"
-    if article.default_section == "opinion":
-        return "观点评论"
-    text = f"{article.default_section} {article.title} {article.summary} {' '.join(article.keywords)}".lower()
-    if any(keyword in text for keyword in ("llm", "openai", "anthropic", "model", "agent", "ai")):
-        return "AI 与大模型"
-    if any(keyword in text for keyword in ("developer", "github", "programming", "python", "javascript", "tool")):
-        return "开发工具"
-    if any(keyword in text for keyword in ("science", "space", "nasa", "chip", "hardware", "robotics", "energy")):
-        return "科技科学"
-    if any(keyword in text for keyword in ("startup", "product", "funding", "venture", "founder", "growth")):
-        return "创业产品"
-    if any(keyword in text for keyword in ("arxiv", "paper", "research", "benchmark")):
-        return "研究进展"
-    if any(keyword in text for keyword in ("china", "中国", "国内", "时政", "政策", "社会", "法治")):
-        return "中国观察"
-    if any(keyword in text for keyword in ("war", "geopolitics", "diplomacy", "security", "election", "government")):
-        return "国际事务"
-    if any(keyword in text for keyword in ("market", "stock", "bond", "fed", "inflation", "economy", "finance")):
-        return "财经市场"
-    if any(keyword in text for keyword in ("opinion", "analysis", "essay", "editorial", "discussion", "hacker news")):
-        return "观点评论"
-    return "新闻"
+def _keyword_matches(keyword: str, text: str) -> bool:
+    if not keyword or keyword.casefold() in {"arxiv", "blog", "hn", "hacker news"}:
+        return False
+    if _has_chinese(keyword):
+        return keyword.casefold() in text.casefold()
+    return bool(
+        re.search(
+            r"(?<![a-z0-9_])"
+            + re.escape(keyword.casefold())
+            + (
+                r"(?:s)?"
+                if keyword.isascii() and keyword.isalpha() and len(keyword) >= 4
+                else ""
+            )
+            + r"(?![a-z0-9_])",
+            text.casefold(),
+        )
+    )
+
+
+def _topic_matches(keywords, text) -> bool:
+    return not keywords or any(_keyword_matches(keyword, text) for keyword in keywords)
+
+
+def _fallback_article_title_zh(article: Article) -> str:
+    # A rule-only preview preserves the original text instead of fabricating a translation.
+    return article.title
+
+
+def _fallback_article_summary_zh(article: Article) -> str:
+    return article.summary or article.title
 
 
 def _source_label_zh(source_name: str) -> str:
@@ -1133,96 +994,6 @@ def _source_label_zh(source_name: str) -> str:
         "新华网科技": "新华网科技",
     }
     return labels.get(source_name, source_name)
-
-
-def _fallback_briefing(scored: list[tuple[Article, SectionConfig, float]]) -> str:
-    if not scored:
-        return "今日暂未获取到足够新闻。请检查数据源、关键词或 LLM 配置后重新生成。"
-    top_sources = []
-    for article, _, _ in scored[:5]:
-        source = _source_label_zh(article.source_name)
-        if source not in top_sources:
-            top_sources.append(source)
-    top_sections = []
-    for _, section, _ in scored:
-        if section.title not in top_sections:
-            top_sections.append(section.title)
-        if len(top_sections) >= 4:
-            break
-    return (
-        f"今日本报汇总 {len({section.id for _, section, _ in scored})} 个版面的信息，"
-        f"重点覆盖{'、'.join(top_sections)}等方向，帮助快速把握技术、商业、公共议题和市场变化。"
-        f" 本期共整理 {len(scored)} 条候选线索，主要来源包括：{'、'.join(top_sources)}。"
-    )
-
-
-def _fallback_briefing_en(scored: list[tuple[Article, SectionConfig, float]]) -> str:
-    if not scored:
-        return "Not enough news items were collected today. Check sources, keywords, or LLM settings and generate again."
-    top_sources = []
-    for article, _, _ in scored[:5]:
-        if article.source_name not in top_sources:
-            top_sources.append(article.source_name)
-    return (
-        "This is a local rule-based preview without formal LLM editing. "
-        "In production, the LLM will summarize the main themes, translate where needed, "
-        "and prepare both Chinese and English editions. "
-        f"This preview read {len(scored)} candidate items from sources including: {', '.join(top_sources)}."
-    )
-
-
-def _fallback_section_briefing(
-    section: SectionConfig,
-    items: list[tuple[Article, float]],
-) -> str:
-    if not items:
-        return f"{section.title}暂无足够内容生成总结。请检查该类别的数据源、关键词或 LLM 输出。"
-    sources = _source_list_zh(article for article, _ in items[:5])
-    return (
-        f"本版聚焦 {section.title}，汇集 {len(items)} 条相关线索，主要来源包括：{sources}。"
-        "阅读时可优先关注事件之间的共振关系，以及它们对后续趋势的影响。"
-    )
-
-
-def _fallback_section_briefing_en(
-    section: SectionConfig,
-    items: list[tuple[Article, float]],
-) -> str:
-    if not items:
-        return f"There is not enough content to summarize {section.title_en}. Check sources, keywords, or LLM output."
-    titles = "; ".join(article.title for article, _ in items[:4])
-    return (
-        f"This edition focuses on {section.title_en}. The local rule-based preview has not been formally edited by the LLM. "
-        f"Key items include: {titles}."
-    )
-
-
-def _fallback_subsection_briefing(
-    subsection: SubsectionConfig,
-    items: list[tuple[Article, float]],
-) -> str:
-    if not items:
-        return f"{subsection.title}暂无足够内容生成总结。"
-    sources = _source_list_zh(article for article, _ in items[:4])
-    return f"{subsection.title}聚焦本组最相关的新闻线索，共 {len(items)} 条，主要来源包括：{sources}。"
-
-
-def _source_list_zh(articles) -> str:
-    sources = []
-    for article in articles:
-        if article.source_name not in sources:
-            sources.append(_source_label_zh(article.source_name))
-    return "、".join(sources) if sources else "暂无"
-
-
-def _fallback_subsection_briefing_en(
-    subsection: SubsectionConfig,
-    items: list[tuple[Article, float]],
-) -> str:
-    if not items:
-        return f"There is not enough content to summarize {subsection.title_en}."
-    titles = "; ".join(article.title for article, _ in items[:3])
-    return f"{subsection.title_en} focuses on the most relevant items in this group. Key items include: {titles}."
 
 
 def _now(config: AppConfig) -> datetime:
