@@ -515,6 +515,7 @@ def build_raw_snapshot(config: AppConfig, issue: Issue, fetch_result: FetchResul
             for rank, article in enumerate(fetch_result.articles, start=1)
         ],
         "warnings": list(issue.warnings),
+        "fetch_warnings": list(fetch_result.warnings),
     }
 
 

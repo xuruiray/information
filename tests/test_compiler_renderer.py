@@ -369,6 +369,17 @@ def test_quote_normalization_allows_typography_but_not_paraphrases():
     assert _topic_evidence_warning(sub, candidate, "AI model delivers a new result")
 
 
+def test_replaying_legacy_sources_does_not_inherit_previous_editor_rejections():
+    fetch = _load_source_snapshot(
+        Path("tests/fixtures/editorial-audit-2026-10-12.json"),
+        "ai-tech",
+        date(2026, 10, 12),
+    )
+    assert not fetch.warnings
+    assert len(fetch.articles) == 371
+    assert len(fetch.sources) == 33
+
+
 def test_editorial_audit_preserves_rejected_url_and_raw_selection(monkeypatch):
     config = load_config("ai-tech", Path.cwd())
     monkeypatch.setenv(config.llm.api_key_env, "test-key")

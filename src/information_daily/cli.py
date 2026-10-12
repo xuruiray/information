@@ -30,7 +30,18 @@ def _load_source_snapshot(path: Path, profile: str, issue_date: date) -> FetchRe
             )
             for row in snapshot["articles"]
         ),
-        warnings=tuple(snapshot.get("warnings", [])),
+        # Legacy snapshots mix fetch errors with the previous edition's editor
+        # warnings. Replaying sources must not carry old rejection counts forward.
+        warnings=tuple(
+            snapshot.get(
+                "fetch_warnings",
+                [
+                    row["error"]
+                    for row in snapshot["sources"]
+                    if row.get("status") == "error" and row.get("error")
+                ],
+            )
+        ),
         sources=tuple(SourceFetchStatus(**row) for row in snapshot["sources"]),
     )
 
