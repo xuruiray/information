@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-13</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261013</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 13, 2026 · Tuesday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-13/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">9 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Python 3.15 ships, tooling and AI infrastructure updates">
+      <div class="lead-label">Developer &amp; Programming: Python 3.15 ships, tooling and AI infrastructure updates</div>
+      <p>This edition covers languages and frameworks, open-source tools, and infrastructure: Python 3.15 is released; Simon Willison ships web-edit and updates datasette-ports; Codex CLI is reported to install a persistent background daemon by default; GitHub explains how to teach Copilot about your codebase; Agent37 launches low-cost agent sandboxes; and Meta unveils OCP open networking innovations, deploys Media over QUIC for Instagram Live ingest, and uses idle inference capacity to improve ads recommendations.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks: Python 3.15 released">
+          <div class="lead-label">Languages &amp; Frameworks: Python 3.15 released</div>
+          <p>Python 3.15 has been released with a What&#39;s New guide curated by release manager Hugo van Kemenade. The author says goodbye to Python 3.10 and starts adopting Python 3.11 features in open source projects.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/python-3-15" target="_blank" rel="noopener">
+            <span class="at">Python 3.15 released: goodbye 3.10, hello 3.11 features</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Python 3.15 has been released with a What&#39;s New guide curated by release manager Hugo van Kemenade. The author says goodbye to Python 3.10 and starts adopting Python 3.11 features in open source projects.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: web-edit, datasette-ports, Codex CLI, and a Copilot guide">
+          <div class="lead-label">Open Source &amp; Tools: web-edit, datasette-ports, Codex CLI, and a Copilot guide</div>
+          <p>Simon Willison released web-edit 0.1a0, a Python web app for viewing and editing files in a folder through a browser UI, and datasette-ports 0.4, which lists local Datasette instances and shows PIDs. An issue reports that Codex CLI installs a persistent, self-updating background daemon by default, while a GitHub Blog guide explains how to teach Copilot about your codebase using custom instructions, custom agents, and MCP servers.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/web-edit" target="_blank" rel="noopener">
+            <span class="at">web-edit 0.1a0 released: a Python web app for viewing and editing files in a folder</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison released web-edit 0.1a0, a Python web app providing a browser UI for viewing and editing files in a folder, built to edit credential files without passing them through an LLM.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/datasette-ports" target="_blank" rel="noopener">
+            <span class="at">datasette-ports 0.4 released: lists all Datasette instances and shows PIDs</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-ports 0.4, a plugin that detects and lists all Datasette instances on the current machine, now works with the latest version and displays the detected PID, making it easier to attach Python 3.15&#39;s profiler.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener">
+            <span class="at">Codex CLI installs a persistent, self-updating background daemon by default</span>
+            <span class="by">Hacker News</span>
+            <p class="as">An issue in OpenAI&#39;s Codex repository (#48195) reports that Codex CLI installs a persistent, self-updating background daemon by default. The Hacker News thread has 534 points and 271 comments.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase" target="_blank" rel="noopener">
+            <span class="at">GitHub Copilot app for beginners: how to teach Copilot about your codebase</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">A GitHub Blog guide explains how to add custom instructions and skills to a repository, use custom agents, and connect MCP servers such as Playwright so Copilot better understands your codebase.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: Agent37 sandboxes and Meta&#39;s AI networking, MoQ, and inference capacity work">
+          <div class="lead-label">Infrastructure &amp; Data: Agent37 sandboxes and Meta&#39;s AI networking, MoQ, and inference capacity work</div>
+          <p>Agent37 (YC F26) launched low-cost sandboxes for running AI agents, claiming under 10% of the cost of most sandbox providers, with customers spending an average of $0.37 per sandbox per month. Meta announced open networking innovations for AI at OCP Summit 2026, including IcePack, IceCube, FPF, and MetaRoCE; deployed Media over QUIC at scale for Instagram Live ingest; and improved ads recommendations by using idle inference capacity.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://news.ycombinator.com/item?id=50059096" target="_blank" rel="noopener">
+            <span class="at">Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents</span>
+            <span class="by">Hacker News</span>
+            <p class="as">Agent37 launched low-cost sandboxes for running AI agents, claiming under 10% of the cost of most sandbox providers, with customers spending an average of $0.37 per sandbox per month.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks" target="_blank" rel="noopener">
+            <span class="at">OCP Summit 2026: Powering AI with open innovations in scale-up, scale-out, and scale-across networks</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">At the 2026 OCP Global Summit, Meta shared open networking infrastructure including IcePack, its first liquid-cooled network rack, the 102.4T IceCube switch platform, a Flattened Planar Fabric, and MetaRoCE.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest" target="_blank" rel="noopener">
+            <span class="at">Shipping Media over QUIC at Meta scale for Instagram Live ingest</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale, and shared how it shipped MoQ for Instagram Live ingest to simplify its live streaming protocol stack.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations" target="_blank" rel="noopener">
+            <span class="at">Turning opportunistic AI inference capacity into better ads recommendations</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta describes a system that improves ads recommendations by using idle inference capacity in its fleet, with two elasticity levers that expand recommendation work across opportunistic capacity without compromising baseline performance.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

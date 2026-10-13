@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "title": "信息日报 2026-10-13",
+  "title_en": "Information Daily 2026-10-13",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Meta 发布首个前沿模型 Muse Wonder",
+    "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+    "source": "TechCrunch AI",
+    "summary": "Meta 发布首款前沿模型 Muse Wonder。相比主打低延迟的轻量模型 Muse Spark，Wonder 系列规模更大，据称基准测试得分更高，在编程等复杂任务上表现更好。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Meta Releases Its First Frontier Model, Muse Wonder",
+    "summary_en": "Meta released Muse Wonder, its first frontier model. Larger and said to be more capable than the lightweight Muse Spark, it claims higher benchmark scores and better results on complex tasks such as coding.",
+    "original_title": "Meta releases its first frontier model, Muse Wonder",
+    "published_at": "2026-10-12T17:56:56+00:00",
+    "reason": "直接报道 Meta 首个前沿模型发布及其相对轻量模型的能力定位。",
+    "reason_en": "Direct report of Meta's first frontier model release and its positioning versus a lightweight model.",
+    "score": 4.95
+  },
+  "path": "papers/2026-10-13.html",
+  "raw_path": "raw/2026-10-13.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in startup-product/new-products: topic evidence does not match subsection [https://techcrunch.com/2026/10/11/dawn-myers-is-making-it-easier-to-style-detangle-and-care-for-curly-hair]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.theguardian.com/business/2026/oct/11/volkswagen-boss-backs-eu-plan-to-boost-domestic-european-industry]",
+    "Editorial item ignored in opinion/community-discussion: missing concrete Chinese title or summary [https://research.meta.ai/blog/muse-wonder]"
+  ]
+}
