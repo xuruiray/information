@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-13</title>
+<title>02 开发与编程 · 信息日报 2026-10-14</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261013 期</span>
+        <span>第 20261014 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月13日 星期二</span></div>
+      <div class="dateline"><span>2026年10月14日 星期三</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,27 +43,33 @@
       <span class="ed">9 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="开发与编程：Python 3.15 发布，工具链与 AI 基础设施更新">
-      <div class="lead-label">开发与编程：Python 3.15 发布，工具链与 AI 基础设施更新</div>
-      <p>本期汇总语言与框架、开源工具和基础设施进展：Python 3.15 正式发布；Simon Willison 发布 web-edit，并更新 datasette-ports；Codex CLI 被指默认安装常驻后台守护进程，GitHub 介绍如何让 Copilot 了解代码库；Agent37 推出低成本代理沙箱；Meta 公布 OCP 开放网络创新、在 Instagram 直播采集部署 Media over QUIC，并利用空闲推理算力改进广告推荐。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：Python 3.15、源代码控制与 AI 基础设施">
+      <div class="lead-label">开发与编程：Python 3.15、源代码控制与 AI 基础设施</div>
+      <p>涵盖 Python 3.15 发布及剖析工具实践、Anthropic 自建 Git 替代方案、GitHub 秘密检测模型、Vercel 检出加速、web-edit 性能优化，以及 Meta 在 OCP 峰会上的开放网络、Instagram 直播 MoQ 部署和空闲 AI 推理容量用于广告推荐。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="languages-frameworks">
         <header class="subsection-head">
           <h3>语言与框架</h3>
-          <span>1 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：Python 3.15 发布">
-          <div class="lead-label">语言与框架：Python 3.15 发布</div>
-          <p>Python 3.15 正式发布，《What&#39;s new》指南由发布经理 Hugo van Kemenade 整理。作者表示将告别 Python 3.10，并开始在开源项目中采用 3.11 的语言特性。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Python 3.15 发布，剖析 web-edit 应用">
+          <div class="lead-label">Python 3.15 发布，剖析 web-edit 应用</div>
+          <p>Python 3.15 发布，发布经理 Hugo van Kemenade 整理新特性指南，作者告别 Python 3.10 并开始采用 3.11 特性；随后使用 Python 3.15 新分析器，通过 Codex 中的 GPT-6 Astra Extra High 对 web-edit 应用进行性能剖析，生成火焰图和源码热力图。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://simonwillison.net/2026/Oct/12/python-3-15" target="_blank" rel="noopener">
-            <span class="at">Python 3.15 发布：告别 3.10，可开始使用 3.11 特性</span>
+            <span class="at">Python 3.15 发布，告别 3.10 迎接 3.11</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Python 3.15 正式发布，《What&#39;s new》指南由发布经理 Hugo van Kemenade 整理。作者表示将告别 Python 3.10，并开始在开源项目中采用 3.11 的语言特性。</p>
+            <p class="as">Python 3.15 发布，发布经理 Hugo van Kemenade 整理了新特性指南。作者将告别 Python 3.10，开始采用 3.11 的特性。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling" target="_blank" rel="noopener">
+            <span class="at">用 Python 3.15 剖析 web-edit：火焰图与源码热力图</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">作者使用 Python 3.15 的新分析器，通过 Codex 中的 GPT-6 Astra Extra High 对 web-edit 应用进行性能剖析，生成火焰图和源码热力图演示。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -73,34 +79,34 @@
           <h3>开源与工具</h3>
           <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：web-edit、datasette-ports、Codex CLI 与 Copilot 指南">
-          <div class="lead-label">开源与工具：web-edit、datasette-ports、Codex CLI 与 Copilot 指南</div>
-          <p>Simon Willison 发布 web-edit 0.1a0，一个通过网页界面查看和编辑文件夹内文件的 Python Web 应用；datasette-ports 0.4 可列出本机 Datasette 实例并显示 PID。另有 issue 指出 Codex CLI 默认安装常驻自更新的后台守护进程，GitHub 博客介绍用自定义指令、自定义代理与 MCP 服务器让 Copilot 了解代码库。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="源代码控制与工具更新：Anthropic、GitHub、Vercel、web-edit">
+          <div class="lead-label">源代码控制与工具更新：Anthropic、GitHub、Vercel、web-edit</div>
+          <p>Anthropic 因代码变更速率剧增（5 月日均约 2,500 次合并，9 月超 30,000 次）自建 Git 替代方案；GitHub 推出上下文感知秘密分类器，加权接受率提高 11.5%，扫描执行时间中位数减少 86%；Vercel 提升仓库检出与 Git LFS 下载速度，多 vCPU 构建机器上准备时间平均下降 20%，LFS 项目下降 54%；web-edit 0.1a1 发布，包含 Claude Opus 5.5 基于 GPT-6 Astra 生成的 Python 3.15 剖析报告编写的性能优化。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/12/web-edit" target="_blank" rel="noopener">
-            <span class="at">web-edit 0.1a0 发布：用网页界面查看和编辑文件夹内文件</span>
+          <a class="art" href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic" target="_blank" rel="noopener">
+            <span class="at">Anthropic 重新设计源代码控制，自建 Git 替代方案</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 发布 web-edit 0.1a0，这是一个通过网页界面查看并编辑文件夹内文件的 Python Web 应用，源于作者在手机上用 Codex Remote 编辑凭据文件、避免凭据流经大模型的需求。</p>
+            <p class="as">Anthropic 撰文解释为何及如何自建 Git 替代方案，原因是过去六个月代码变更速率剧增：2026 年 5 月日均合并约 2,500 次代码变更，到 9 月已超过 30,000 次。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/12/datasette-ports" target="_blank" rel="noopener">
-            <span class="at">datasette-ports 0.4 发布：列出本机 Datasette 实例并显示 PID</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">datasette-ports 0.4 发布，该插件可检测并列出当前机器上的所有 Datasette 实例，现兼容最新版本并新增显示检测到的 PID，便于接入 Python 3.15 分析器。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener">
-            <span class="at">Codex CLI 被指默认安装常驻自更新的后台守护进程</span>
-            <span class="by">Hacker News</span>
-            <p class="as">在 OpenAI Codex 仓库的 issue #48195 中，用户指出 Codex CLI 默认会安装一个持久、可自更新的后台守护进程。该话题在 Hacker News 获得 534 分、271 条评论。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase" target="_blank" rel="noopener">
-            <span class="at">GitHub Copilot 入门：用自定义指令、自定义代理与 MCP 服务器让 Copilot 了解代码库</span>
+          <a class="art" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise" target="_blank" rel="noopener">
+            <span class="at">GitHub 的秘密检测模型：更少噪音，发现更多秘密</span>
             <span class="by">GitHub 博客</span>
-            <p class="as">GitHub 博客介绍如何在仓库中添加自定义指令与技能、使用自定义代理，并连接 Playwright 等 MCP 服务器，从而让 Copilot 更好地理解代码库。</p>
+            <p class="as">GitHub 推出上下文感知的秘密分类器，提升检测质量，加权接受率提高 11.5%，扫描执行时间中位数减少 86%。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster" target="_blank" rel="noopener">
+            <span class="at">Vercel 仓库检出与 Git LFS 下载速度提升</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 提升仓库检出与 Git LFS 下载速度，减少构建前准备文件的时间。在多 vCPU 构建机器上，项目文件准备平均时间下降 20%，启用 LFS 的项目下降 54%。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/13/web-edit" target="_blank" rel="noopener">
+            <span class="at">web-edit 0.1a1 发布，包含 AI 编写的性能优化</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">web-edit 0.1a1 发布，包含由 Claude Opus 5.5 编写的性能优化，作者将 GPT-6 Astra 生成的 Python 3.15 剖析报告提供给 Claude 后完成优化。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -108,36 +114,30 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>基础设施与数据</h3>
-          <span>4 条</span>
+          <span>3 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Agent37 沙箱与 Meta 的 AI 网络、MoQ 和推理算力实践">
-          <div class="lead-label">基础设施与数据：Agent37 沙箱与 Meta 的 AI 网络、MoQ 和推理算力实践</div>
-          <p>Agent37（YC F26）推出低成本 AI 代理运行沙箱，称成本低于多数沙箱供应商的 10%，客户每沙箱平均每月花费 0.37 美元。Meta 在 OCP 峰会 2026 发布面向 AI 的开放网络创新，涵盖 IcePack、IceCube、FPF 与 MetaRoCE；并在 Instagram 直播采集规模化部署 Media over QUIC，同时利用机群空闲推理算力改进广告推荐。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Meta 开放网络、MoQ 直播与空闲推理容量">
+          <div class="lead-label">Meta 开放网络、MoQ 直播与空闲推理容量</div>
+          <p>OCP 全球峰会 2026 上，Meta 展示 IcePack 液冷网络机架、IceCube 102.4T 交换机、扁平化平面结构 FPF 及 MetaRoCE 等下一代开放网络基础设施；Meta 开始在 Instagram 直播推流中部署 Media over QUIC（MoQ）；Meta 还构建系统利用空闲 AI 推理容量提升广告推荐，通过两个弹性杠杆扩展工作负载而不损害基线性能。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://news.ycombinator.com/item?id=50059096" target="_blank" rel="noopener">
-            <span class="at">Launch HN：Agent37（YC F26）推出低成本 AI 代理运行沙箱</span>
-            <span class="by">Hacker News</span>
-            <p class="as">Agent37 发布面向 AI 代理运行的低成本沙箱，称成本低于多数沙箱供应商的 10%，客户每沙箱平均每月花费 0.37 美元。该团队最初做 OpenClaw 封装类产品。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks" target="_blank" rel="noopener">
-            <span class="at">OCP 峰会 2026：Meta 发布面向 AI 的开放网络创新，涵盖 Scale-Up、Scale-Out 与 Scale-Across</span>
+            <span class="at">OCP 峰会 2026：Meta 分享开放网络创新，支撑 AI 扩展</span>
             <span class="by">Meta 工程</span>
-            <p class="as">在 2026 年 OCP 全球峰会上，Meta 公布新一代开放网络基础设施：首款液冷网络机架 IcePack、102.4T 交换机平台 IceCube、多平面后端扩展架构 FPF，以及 MetaRoCE。</p>
+            <p class="as">在 2026 年 OCP 全球峰会上，Meta 展示下一代开放网络基础设施，包括液冷网络机架 IcePack、102.4T 交换机 IceCube、扁平化平面结构 FPF 及 MetaRoCE。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest" target="_blank" rel="noopener">
-            <span class="at">Meta 在 Instagram 直播采集环节规模化部署 Media over QUIC</span>
+            <span class="at">Meta 在 Instagram 直播推流中部署 Media over QUIC</span>
             <span class="by">Meta 工程</span>
-            <p class="as">Meta 已开始部署 Media over QUIC（MoQ）这一面向大规模实时视频流的开放协议，并分享了在 Instagram 直播采集环节落地 MoQ 的经验及后续规划，以简化直播协议栈。</p>
+            <p class="as">Meta 开始部署 Media over QUIC（MoQ）协议，用于大规模实时视频流。该协议旨在简化直播协议栈并提升体验，Meta 分享了 Instagram 直播推流的落地经验。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations" target="_blank" rel="noopener">
-            <span class="at">Meta 利用机群空闲推理算力改进广告推荐</span>
+            <span class="at">Meta 利用空闲 AI 推理容量提升广告推荐</span>
             <span class="by">Meta 工程</span>
-            <p class="as">Meta 构建了一套系统，利用机群中空闲的推理算力改进广告推荐，并通过两个弹性调节机制，在不损害基线性能的前提下把推荐工作扩展到机会性算力上。</p>
+            <p class="as">Meta 构建了一套系统，利用集群中的空闲推理容量来增强广告推荐。系统包含两个弹性杠杆，使广告推荐工作负载能扩展到机会性容量上，同时不损害基线性能。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

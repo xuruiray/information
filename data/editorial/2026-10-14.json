@@ -1,0 +1,2463 @@
+{
+  "date": "2026-10-14",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+              "title": "llm-gemini 0.35 发布，支持 Gemini 4 Argon 模型",
+              "summary": "llm-gemini 0.35 发布，新增对 Gemini 4 Argon 模型的支持。该模型通过 Gemini API 和每月 100 美元的订阅计划提供。作者测试了低、中、高三个推理级别，认为其表现出色。",
+              "title_en": "llm-gemini 0.35 adds support for Gemini 4 Argon",
+              "summary_en": "llm-gemini 0.35 is released with support for the new Gemini 4 Argon model, available via the Gemini API and $100/month subscription. The author tested low, medium, and high reasoning levels and found them excellent.",
+              "topic_evidence": "I added support to llm-gemini for the new Gemini 4 Argon model",
+              "reason": "报道 llm-gemini 插件更新，新增对 Gemini 4 Argon 模型的支持，属于前沿模型发布。",
+              "reason_en": "Reports llm-gemini plugin update adding support for the new Gemini 4 Argon model, relevant to frontier models.",
+              "score": 7.1
+            },
+            {
+              "url": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+              "title": "Gemini 4 Argon 现已上线 AI Gateway",
+              "summary": "Google 的 Gemini 4 Argon 模型现已在 AI Gateway 上线。它专为编码、代理任务和复杂推理设计，具备 100 万 token 上下文窗口，支持文本、图像、PDF 和视频输入，并支持工具调用。",
+              "title_en": "Gemini 4 Argon now available on AI Gateway",
+              "summary_en": "Google's Gemini 4 Argon model is now available on AI Gateway. It is built for coding, agentic work, and complex reasoning, with a 1M token context window, multimodal input (text, image, PDF, video), and tool calling.",
+              "topic_evidence": "Gemini 4 Argon now available on AI Gateway",
+              "reason": "报道 Google 新模型 Gemini 4 Argon 上线 AI Gateway，包含模型能力与上下文窗口等具体信息，属于前沿模型发布。",
+              "reason_en": "Reports the availability of Google's new Gemini 4 Argon model on AI Gateway, with specific capabilities and context window details, relevant to frontier models.",
+              "score": 5.9
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai",
+              "title": "llm-meta-ai 0.2 更新，支持 Meta 新模型 Muse Wonder",
+              "summary": "Meta 发布新模型 Muse Wonder（及 Muse Wonder Full），称其为最强大模型。Artificial Analysis 评分显示 Muse Wonder (Max) 与 GPT-6.1 Sol 相当。作者更新了 llm-meta-ai 插件以支持该模型。",
+              "title_en": "llm-meta-ai 0.2 updated for Meta's new Muse Wonder models",
+              "summary_en": "Meta releases Muse Wonder (and Muse Wonder Full), its new most capable models. Artificial Analysis rates Muse Wonder (Max) equivalent to GPT-6.1 Sol. The llm-meta-ai plugin is updated to support the new model.",
+              "topic_evidence": "Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\"",
+              "reason": "报道 Meta 发布新模型 Muse Wonder，并给出与 GPT-6.1 Sol 的对比评分，属于前沿模型发布。",
+              "reason_en": "Reports Meta's release of Muse Wonder models with comparison scores to GPT-6.1 Sol, relevant to frontier models.",
+              "score": 4.1
+            },
+            {
+              "url": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
+              "title": "Drama 3 现已上线 AI Gateway",
+              "summary": "Fish Audio 的文本转语音模型 Drama 3 现已在 AI Gateway 上线，30 天内享 80% 折扣。该模型处于预览阶段，允许通过脚本中的自然语言指令指导语音表演，适用于配音、角色对话和音频叙事。",
+              "title_en": "Drama 3 now available on AI Gateway",
+              "summary_en": "Fish Audio's text-to-speech model Drama 3 is now available on AI Gateway with 80% off for 30 days. In preview, it allows directing voice performances with natural-language instructions for voiceovers, dialogue, and audio storytelling.",
+              "topic_evidence": "Drama 3 from Fish Audio is now available on AI Gateway",
+              "reason": "报道文本转语音模型 Drama 3 上线 AI Gateway，属于前沿模型发布。",
+              "reason_en": "Reports the text-to-speech model Drama 3 now available on AI Gateway, relevant to frontier models.",
+              "score": 3.9
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai",
+              "title": "Meta 的生成式广告模型 GEM：扩展前沿广告 AI 的中央模型与计算引擎",
+              "summary": "Meta 工程博客介绍生成式广告模型 GEM，称其为业界最大的推荐系统基础模型。GEM 建立了受 LLM 启发的广告推荐范式，带来性能提升，并计划进一步扩展计算和智能迁移。",
+              "title_en": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+              "summary_en": "Meta Engineering introduces GEM, the industry's largest recommendation system foundation model. GEM established Meta's first LLM-inspired paradigm for ads recommendation, driving performance gains, with plans to scale compute and intelligence transfer.",
+              "topic_evidence": "GEM, the industry’s largest recommendation system (RecSys) foundation model",
+              "reason": "报道 Meta 扩展其生成式广告模型 GEM，属于前沿 AI 模型在推荐系统领域的应用与扩展。",
+              "reason_en": "Reports Meta scaling its Generative Ads Model GEM, a frontier AI model for recommendation systems.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+              "title": "Higgsfield 将 AI 视频从 1 分钟延长至 10 分钟以上",
+              "summary": "Higgsfield 利用 GPT-6 Astra 为创作者生成更长视频，使用 GPT-Image-2.5 提供精确视觉，并通过 GPT-Live 探索语音电影制作。视频长度从 1 分钟提升至 10 分钟以上。",
+              "title_en": "Higgsfield takes AI video from 1 minute to over 10",
+              "summary_en": "Higgsfield uses GPT-6 Astra to create longer videos, GPT-Image-2.5 for precise visuals, and GPT-Live for voice filmmaking, extending AI video from 1 minute to over 10 minutes.",
+              "topic_evidence": "Higgsfield brings creators longer videos with GPT-6 Astra",
+              "reason": "报道 AI 视频生成产品 Higgsfield 利用新模型将视频时长从 1 分钟提升至 10 分钟以上，属于 AI 产品与平台。",
+              "reason_en": "Reports AI video product Higgsfield using new models to extend video from 1 minute to over 10 minutes, relevant to AI products and platforms.",
+              "score": 4.2
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm",
+              "title": "Facebook 推出“你的算法”功能，让用户更多控制算法",
+              "summary": "Meta 宣布推出 AI 驱动的新功能“你的算法”，该功能此前已在 Instagram 上线，现在扩展至 Facebook，让用户对内容推荐算法拥有更多控制权。",
+              "title_en": "Facebook is giving users more control over their algorithm",
+              "summary_en": "Meta launches AI-powered “Your Algorithm” on Facebook, a feature first introduced on Instagram, giving users more control over their content recommendation algorithm.",
+              "topic_evidence": "Meta announced the launch of its new AI-powered feature, “Your Algorithm”",
+              "reason": "报道 Meta 在 Facebook 推出 AI 驱动的算法控制功能，属于 AI 产品与平台。",
+              "reason_en": "Reports Meta launching AI-powered algorithm control feature on Facebook, relevant to AI products and platforms.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+              "title": "Google Play 支持构建私密的、专属于你的 AI 编码应用",
+              "summary": "Google Play 现在允许用户构建和运行由 AI 生成的个人 Android 应用，无需将这些应用发布给 Play Store 上的所有用户，简化了私人应用的创建和使用。",
+              "title_en": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+              "summary_en": "Google Play now allows users to build and run personal Android apps created with AI, without making them available to everyone on the Play Store, simplifying private app creation.",
+              "topic_evidence": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+              "reason": "报道 Google Play 支持构建和运行 AI 生成的私人 Android 应用，属于 AI 产品与平台。",
+              "reason_en": "Reports Google Play supporting private AI-built Android apps, relevant to AI products and platforms.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.producthunt.com/products/the-drive-ai-2",
+              "title": "The Drive AI：处理你文件工作的 AI 代理",
+              "summary": "Product Hunt 上发布 The Drive AI，这是一款 AI 代理，描述为可在用户文件上执行工作的工具，自动处理文件相关任务。",
+              "title_en": "The Drive AI",
+              "summary_en": "The Drive AI launches on Product Hunt as an AI agent that does the work on your files, automating file-related tasks.",
+              "topic_evidence": "The AI agent that does the work on your files",
+              "reason": "报道 Product Hunt 上发布的 AI 代理产品 The Drive AI，可处理文件工作，属于 AI 产品。",
+              "reason_en": "Reports The Drive AI, an AI agent product launched on Product Hunt for file work, relevant to AI products.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/opencode",
+              "title": "OpenCode 2.0：开源 AI 编码代理",
+              "summary": "Product Hunt 上发布 OpenCode 2.0，这是一款开源的 AI 编码代理，描述为可辅助编程任务的开源工具，面向开发者用于编写代码。",
+              "title_en": "OpenCode 2.0",
+              "summary_en": "OpenCode 2.0 launches on Product Hunt as an open source AI coding agent designed to assist developers with programming tasks.",
+              "topic_evidence": "The open source AI coding agent",
+              "reason": "报道开源 AI 编码代理 OpenCode 2.0 发布，属于 AI 产品。",
+              "reason_en": "Reports the launch of open source AI coding agent OpenCode 2.0, relevant to AI products.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+              "title": "Laplace Intelligence 用 AI 红队测试机器人和自动驾驶汽车",
+              "summary": "密歇根大学分拆公司 Laplace Intelligence 利用 AI 代理和交互式模拟，在机器人和自动驾驶汽车部署前进行压力测试。这家盈利的初创公司正在 TechCrunch Disrupt 的 Startup Battlefield 中参赛。",
+              "title_en": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+              "summary_en": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup competes in Startup Battlefield at TechCrunch Disrupt.",
+              "topic_evidence": "uses AI agents and interactive simulation to stress-test robots and self-driving vehicles",
+              "reason": "报道 AI 代理用于机器人和自动驾驶汽车的红队测试（安全评估），属于 AI 研究与治理中的安全评估。",
+              "reason_en": "Reports AI agents used for red-teaming robots and self-driving cars (safety evaluation), relevant to AI research and governance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+              "title": "Pluto Security 融资 4200 万美元，AI 给企业安全团队带来新难题",
+              "summary": "Pluto Security 获得 4200 万美元融资。随着企业员工广泛使用 AI 工具，意外使用方式可能带来新的安全漏洞，这引发了企业安全团队的担忧。",
+              "title_en": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+              "summary_en": "Pluto Security raises $42M. As employees widely adopt AI tools, unexpected usage patterns may create new security holes, raising concerns for enterprise security teams.",
+              "topic_evidence": "AI gives enterprise security teams a new headache",
+              "reason": "报道 AI 工具普及带来企业安全新漏洞的担忧，以及相关安全公司融资，属于 AI 治理中的安全风险议题。",
+              "reason_en": "Reports concerns about new security holes from widespread AI tool adoption and related security company funding, relevant to AI governance and safety risks.",
+              "score": 3.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+              "title": "Python 3.15 发布，告别 3.10 迎接 3.11",
+              "summary": "Python 3.15 发布，发布经理 Hugo van Kemenade 整理了新特性指南。作者将告别 Python 3.10，开始采用 3.11 的特性。",
+              "title_en": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+              "summary_en": "Python 3.15 is released, with a What's New guide curated by release manager Hugo van Kemenade. The author says goodbye to Python 3.10 and begins adopting Python 3.11 features.",
+              "topic_evidence": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide",
+              "reason": "Python 3.15 正式发布，涉及语言新特性及版本支持策略变化，是开发者关注的语言更新。",
+              "reason_en": "Python 3.15 release covers new language features and version support changes, relevant to developers.",
+              "score": 10.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling",
+              "title": "用 Python 3.15 剖析 web-edit：火焰图与源码热力图",
+              "summary": "作者使用 Python 3.15 的新分析器，通过 Codex 中的 GPT-6 Astra Extra High 对 web-edit 应用进行性能剖析，生成火焰图和源码热力图演示。",
+              "title_en": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+              "summary_en": "The author uses Python 3.15's new profiler, having GPT-6 Astra Extra High in Codex run it against the web-edit app to produce flame graph and source heatmap demos.",
+              "topic_evidence": "I put the new Python 3.15 profiler through its paces",
+              "reason": "展示 Python 3.15 新分析器的实际应用，涉及性能剖析工具与 AI 辅助生成火焰图。",
+              "reason_en": "Demonstrates Python 3.15's new profiler in practice, covering performance profiling and AI-assisted flame graph generation.",
+              "score": 4.1
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+              "title": "Anthropic 重新设计源代码控制，自建 Git 替代方案",
+              "summary": "Anthropic 撰文解释为何及如何自建 Git 替代方案，原因是过去六个月代码变更速率剧增：2026 年 5 月日均合并约 2,500 次代码变更，到 9 月已超过 30,000 次。",
+              "title_en": "Redesigning source control at Anthropic",
+              "summary_en": "Anthropic describes why and how it built a custom alternative to Git, driven by a surge in code change rate: from about 2,500 merged changes per day in May 2026 to over 30,000 by September.",
+              "topic_evidence": "they built their own custom alternative to Git",
+              "reason": "Anthropic 因代码变更量激增而自建版本控制方案，涉及开发者工具与工作流创新。",
+              "reason_en": "Anthropic built its own version control solution due to surging code changes, covering developer tooling and workflow innovation.",
+              "score": 7.1
+            },
+            {
+              "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+              "title": "GitHub 的秘密检测模型：更少噪音，发现更多秘密",
+              "summary": "GitHub 推出上下文感知的秘密分类器，提升检测质量，加权接受率提高 11.5%，扫描执行时间中位数减少 86%。",
+              "title_en": "GitHub's model for secret detection: Finding more secrets with less noise",
+              "summary_en": "GitHub introduces a context-aware secret classifier that improves detection quality, raises weighted acceptance by 11.5%, and cuts median scan execution time by 86%.",
+              "topic_evidence": "context-aware secret classifier improves detection quality",
+              "reason": "GitHub 改进秘密检测工具，涉及开发者安全与代码扫描效率。",
+              "reason_en": "GitHub improves secret detection tooling, covering developer security and code scanning efficiency.",
+              "score": 4.0
+            },
+            {
+              "url": "https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster",
+              "title": "Vercel 仓库检出与 Git LFS 下载速度提升",
+              "summary": "Vercel 提升仓库检出与 Git LFS 下载速度，减少构建前准备文件的时间。在多 vCPU 构建机器上，项目文件准备平均时间下降 20%，启用 LFS 的项目下降 54%。",
+              "title_en": "Repository checkout and Git LFS downloads are now faster",
+              "summary_en": "Vercel speeds up repository checkout and Git LFS downloads, reducing project file preparation time before builds. On multi-vCPU build machines, average preparation time fell 20%, and 54% for LFS-enabled projects.",
+              "topic_evidence": "Repository checkout and Git LFS downloads are now faster on Vercel",
+              "reason": "Vercel 优化仓库检出和 Git LFS 下载，提升构建准备效率，属于开发者工具改进。",
+              "reason_en": "Vercel optimizes repository checkout and Git LFS downloads, improving build preparation efficiency, a developer tooling improvement.",
+              "score": 2.9
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/13/web-edit",
+              "title": "web-edit 0.1a1 发布，包含 AI 编写的性能优化",
+              "summary": "web-edit 0.1a1 发布，包含由 Claude Opus 5.5 编写的性能优化，作者将 GPT-6 Astra 生成的 Python 3.15 剖析报告提供给 Claude 后完成优化。",
+              "title_en": "web-edit 0.1a1",
+              "summary_en": "web-edit 0.1a1 is released with performance optimizations written by Claude Opus 5.5, after the author fed it a Python 3.15 profiling report generated by GPT-6 Astra.",
+              "topic_evidence": "Includes performance optimizations written by Claude Opus 5.5",
+              "reason": "发布 web-edit 新版本，展示 AI 辅助性能优化的实际应用，属于开源工具更新。",
+              "reason_en": "Release of web-edit new version, showing practical AI-assisted performance optimization, an open source tool update.",
+              "score": 5.1
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks",
+              "title": "OCP 峰会 2026：Meta 分享开放网络创新，支撑 AI 扩展",
+              "summary": "在 2026 年 OCP 全球峰会上，Meta 展示下一代开放网络基础设施，包括液冷网络机架 IcePack、102.4T 交换机 IceCube、扁平化平面结构 FPF 及 MetaRoCE。",
+              "title_en": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+              "summary_en": "At the 2026 OCP Global Summit, Meta shares next-generation open networking infrastructure, including liquid-cooled network rack IcePack, 102.4T switch IceCube, Flattened Planar Fabric, and MetaRoCE.",
+              "topic_evidence": "Meta is sharing the next generation of open networking infrastructure",
+              "reason": "Meta 在 OCP 峰会发布开放网络基础设施，涉及 AI 集群网络与硬件创新。",
+              "reason_en": "Meta announces open networking infrastructure at OCP Summit, covering AI cluster networking and hardware innovation.",
+              "score": 5.85
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest",
+              "title": "Meta 在 Instagram 直播推流中部署 Media over QUIC",
+              "summary": "Meta 开始部署 Media over QUIC（MoQ）协议，用于大规模实时视频流。该协议旨在简化直播协议栈并提升体验，Meta 分享了 Instagram 直播推流的落地经验。",
+              "title_en": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+              "summary_en": "Meta begins deploying Media over QUIC (MoQ) protocol for large-scale real-time video streaming. It aims to simplify live streaming protocol stack and improve experience, with Meta sharing its Instagram Live ingest implementation.",
+              "topic_evidence": "Meta has begun deploying Media over QUIC (MoQ)",
+              "reason": "Meta 部署 MoQ 协议用于直播推流，涉及大规模视频基础设施与协议优化。",
+              "reason_en": "Meta deploys MoQ protocol for live streaming, covering large-scale video infrastructure and protocol optimization.",
+              "score": 3.85
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations",
+              "title": "Meta 利用空闲 AI 推理容量提升广告推荐",
+              "summary": "Meta 构建了一套系统，利用集群中的空闲推理容量来增强广告推荐。系统包含两个弹性杠杆，使广告推荐工作负载能扩展到机会性容量上，同时不损害基线性能。",
+              "title_en": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+              "summary_en": "Meta built a system that enhances ads recommendations by leveraging idle inference capacity in its fleet. Two elasticity levers allow ads recommendation work to expand across opportunistic capacity without compromising baseline performance.",
+              "topic_evidence": "enhances ads recommendations by leveraging idle inference capacity",
+              "reason": "Meta 设计弹性系统利用空闲推理容量，涉及大规模基础设施与性能优化。",
+              "reason_en": "Meta designs an elastic system to leverage idle inference capacity, covering large-scale infrastructure and performance optimization.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+              "title": "韦布望远镜发现暗物质异常密集的古老星系团",
+              "summary": "NASA 詹姆斯·韦布空间望远镜发现一个古老星系团，其暗物质密度异常高，挑战现有宇宙演化理论；同时揭示散射星光与暗物质之间的意外关联，可能改变天文学家研究早期宇宙的方式。",
+              "title_en": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+              "summary_en": "NASA's James Webb Space Telescope has found an ancient galaxy cluster with unexpectedly dense dark matter, challenging theories of cosmic evolution and revealing a link between scattered starlight and dark matter.",
+              "topic_evidence": "ancient galaxy cluster with an unexpectedly dense concentration of dark matter",
+              "reason": "文章报道韦布望远镜对古老星系团暗物质的新观测，直接涉及航天与天文研究，符合航天能源与机器人小版。",
+              "reason_en": "Reports new JWST observations of an ancient galaxy cluster's dark matter, directly relevant to space and astronomy under Space, Energy & Robotics.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261011211559.htm",
+              "title": "欧洲哨兵-3C卫星传回壮观地球影像并开始监测海冰变化",
+              "summary": "欧洲哨兵-3C卫星发射两周后传回首批地球图像，显示阿尔卑斯山积雪、北极冰冻岛屿和加勒比海碧蓝海水；其初始测量结果有望用于追踪海平面上升、冰盖融化等变化。",
+              "title_en": "Europe's new Sentinel-3C satellite just sent back spectacular images of Earth",
+              "summary_en": "Europe's Sentinel-3C satellite has returned its first Earth images two weeks after launch, showing the Alps, Arctic islands, and Caribbean waters, with initial data promising for tracking sea-level rise and ice loss.",
+              "topic_evidence": "returned breathtaking images of Earth just two weeks after launch",
+              "reason": "报道欧洲哨兵-3C卫星入轨后传回首批地球观测图像及测量进展，属于航天与地球观测。",
+              "reason_en": "Covers Europe's Sentinel-3C satellite returning first Earth images and measurement results, relevant to space and Earth observation.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
+              "title": "物理学家发现光在真空中可自发产生旋拧行为",
+              "summary": "科学家发现光在真空中传播时可自发形成旋转扭曲行为，无需透镜、反射镜或特殊材料；其内部几何结构能自然产生左旋与右旋模式，挑战了关于光传播的长期假设。",
+              "title_en": "Physicists discover “astonishing” property of light that defies expectations",
+              "summary_en": "Physicists have found that light can spontaneously develop spinning and twisting behavior in empty space without special optics, as its internal geometry naturally produces left- and right-handed patterns, challenging prior assumptions.",
+              "topic_evidence": "spinning, twisting behavior as it travels through empty space",
+              "reason": "报道光在真空中自发旋拧的物理发现，属于基础物理研究。",
+              "reason_en": "Reports a physics discovery of light's spontaneous spinning and twisting in vacuum, relevant to basic research.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
+              "title": "科学家为线粒体研发新型涂层以保持其产能能力",
+              "summary": "科学家发明一种新型线粒体涂层，可保持其产生能量的能力，有望为线粒体相关疾病带来新疗法；该技术未来或有助于将健康线粒体移植到受损细胞，但移植效果尚未证实。",
+              "title_en": "Scientists just gave the powerhouses of our cells a high-tech upgrade",
+              "summary_en": "Scientists have developed a new coating for mitochondria that preserves their energy production, potentially enabling new treatments and future transplantation of healthy mitochondria into damaged cells, though effectiveness remains unproven.",
+              "topic_evidence": "created a new coating for mitochondria that preserves their ability to produce energy",
+              "reason": "报道线粒体新型涂层技术及其潜在医学应用，属于生物医学研究。",
+              "reason_en": "Covers a new mitochondrial coating technology and its potential medical applications, relevant to biomedical research.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261008005244.htm",
+              "title": "科学家发现控制化学反应成败的隐藏因素，产率从16%提升至97%",
+              "summary": "研究人员发现一种决定化学反应成败的隐藏因素，并通过控制电极附近的酸度，将目标产物比例从16%提高到97%，为利用氧气和电力制造塑料、药品等化学品提供了新途径。",
+              "title_en": "Scientists discover a hidden factor that can make or break chemical reactions",
+              "summary_en": "Researchers have identified a hidden factor determining chemical reaction success, using it to raise desired product yield from 16% to 97% by controlling acidity near electrodes, offering a new route for electrochemical chemical manufacturing.",
+              "topic_evidence": "boost the proportion of the desired product from 16% to 97%",
+              "reason": "报道化学反应控制新方法及产率大幅提升，属于化学与材料研究。",
+              "reason_en": "Reports a new method for controlling chemical reactions with a large yield improvement, relevant to chemistry and materials research.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261012185011.htm",
+              "title": "科学家绘制首个脑脂质三维图谱，发现539个不同区域",
+              "summary": "科学家通过分析小鼠大脑数百万次测量数据，创建首个详细的脑脂质三维图谱，识别出539个不同的化学区域，揭示了传统脑图谱未能显示的组织模式和边界。",
+              "title_en": "Scientists uncover a hidden map of the brain with 539 distinct regions",
+              "summary_en": "Scientists have created the first detailed 3D map of brain lipids by analyzing millions of measurements from mouse brains, identifying 539 distinct chemical zones and revealing organization patterns missed by traditional brain maps.",
+              "topic_evidence": "identified 539 distinct chemical zones",
+              "reason": "报道首个脑脂质三维图谱及539个化学区域的发现，属于神经科学研究。",
+              "reason_en": "Reports the first detailed 3D map of brain lipids and 539 distinct chemical zones, relevant to neuroscience research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/gotemail",
+              "title": "GotEmail：原生 macOS 邮件应用，支持一键登录码与 AI 讨论",
+              "summary": "Product Hunt 上发布 GotEmail，一款原生 macOS 邮件应用，支持一键登录码和 AI 讨论功能。",
+              "title_en": "GotEmail",
+              "summary_en": "GotEmail has launched on Product Hunt as a native macOS mail app that offers one-click sign-in codes and an AI discussion feature.",
+              "topic_evidence": "Native macOS mail app with one-click sign-in codes and AI Discussion",
+              "reason": "Product Hunt 新品，直接描述新应用功能。",
+              "reason_en": "New Product Hunt listing with concrete app features.",
+              "score": 2.85
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes",
+              "title": "Niobia 帮助电池与芯片制造商在生产线上识别缺陷",
+              "summary": "旧金山创业公司 Niobia 推出产品，帮助电池和芯片制造商在生产线上发现缺陷，减少停机与高昂失误。",
+              "title_en": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
+              "summary_en": "San Francisco startup Niobia helps battery and chip manufacturers identify defects on production lines, aiming to reduce downtime and costly mistakes.",
+              "topic_evidence": "help battery and chip manufacturers identify defects on production lines",
+              "reason": "介绍创业公司面向制造业缺陷检测的新产品/服务。",
+              "reason_en": "Introduces a startup's new product/service for manufacturing defect detection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+              "title": "Honeyjar 推出 AI 工具，改善企业公关与传播",
+              "summary": "Honeyjar 提供 AI 工具，试图改善企业公关和传播流程，针对传统 PR 流程低效的问题。",
+              "title_en": "Honeyjar offers AI tools to improve PR and comms at every company",
+              "summary_en": "Honeyjar offers AI tools aimed at improving public relations and communications at companies, targeting PR processes that are often seen as inefficient.",
+              "topic_evidence": "AI tools to improve PR and comms at every company",
+              "reason": "新 AI 产品，面向企业公关与传播场景。",
+              "reason_en": "New AI product for corporate PR and communications.",
+              "score": 2.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae",
+              "title": "Ultrahuman 将在阿联酋推广生物年龄模型",
+              "summary": "智能戒指厂商 Ultrahuman 与阿布扎比合作，未来两年在阿联酋推广并临床验证其生物年龄模型。",
+              "title_en": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
+              "summary_en": "Smart ring maker Ultrahuman and Abu Dhabi will spend two years rolling out and clinically validating its biological-age model across the UAE.",
+              "topic_evidence": "roll out biological-age model across UAE",
+              "reason": "产品功能/模型推广至新市场，属于增长动作。",
+              "reason_en": "Product feature rollout into a new market, representing growth.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage",
+              "title": "Giraffe Bio 融资 640 万美元，用定制生物分子应对铜短缺",
+              "summary": "随着 AI 数据中心和电动车推高铜需求，Giraffe Bio 完成 640 万美元种子轮，帮助矿企提取更多铜。",
+              "title_en": "Giraffe Bio aims its bespoke biomolecules at the looming copper shortage",
+              "summary_en": "Giraffe Bio raised a $6.4 million seed round to help miners extract more copper as AI data centers and EVs drive demand.",
+              "topic_evidence": "has unearthed a $6.4 million seed round",
+              "reason": "明确的种子轮融资，金额和用途具体。",
+              "reason_en": "Clear seed funding round with specific amount and purpose.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data",
+              "title": "WindBorne 获美国空军近 5000 万美元合同，提供气球数据",
+              "summary": "硅谷创业公司 WindBorne 利用气象气球和 AI 预测天气，赢得美国军方价值近 5000 万美元的合同。",
+              "title_en": "WindBorne wins a hefty US Air Force contract for its balloon data",
+              "summary_en": "Silicon Valley startup WindBorne won a nearly $50 million U.S. military contract for its weather balloon and AI-powered forecasting data.",
+              "topic_evidence": "won a U.S. military contract worth almost $50 million",
+              "reason": "创业公司获得大额商业合同，体现商业模式与增长。",
+              "reason_en": "Startup wins a major commercial contract, showing business model and growth.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt",
+              "title": "Licube 计划成为聚变产业的锂燃料供应商",
+              "summary": "Licube 正在准备成为聚变电厂的关键锂供应商，以满足聚变行业对锂的大量需求。",
+              "title_en": "Licube wants to be the fuel provider to the fusion power industry — see how at TechCrunch Disrupt",
+              "summary_en": "Licube is preparing to become a key lithium supplier for fusion power plants, anticipating large demand for lithium from the fusion industry.",
+              "topic_evidence": "Licube is preparing to be a key supplier",
+              "reason": "创业公司定位与供应链商业模式，具体描述供应商角色。",
+              "reason_en": "Startup positioning and supply-chain business model, with a specific supplier role.",
+              "score": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+              "title": "英国呼吁国际刑警组织拒绝阿根廷针对福克兰群岛石油项目人员的“政治动机”逮捕请求",
+              "summary": "英国呼吁国际刑警组织拒绝阿根廷针对福克兰群岛附近大型石油项目人员的逮捕请求，并称这些“红色通缉令”出于政治动机，随着主权紧张升级，英方要求谨慎处理。",
+              "title_en": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+              "summary_en": "Britain has appealed to Interpol to reject Argentina's requests to arrest individuals linked to a large oil project off the Falkland Islands, as sovereignty tensions rise.",
+              "topic_evidence": "Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the Falkland Islands.",
+              "reason": "该报道涉及英国与阿根廷在福克兰群岛主权争议下的外交与司法冲突，属于地缘政治与安全议题。",
+              "reason_en": "This report covers diplomatic and legal conflict between the UK and Argentina over Falkland Islands sovereignty, fitting geopolitics and security.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+              "title": "俄罗斯以间谍指控逮捕一名日本记者",
+              "summary": "俄罗斯联邦安全局称，一名日本记者在远东萨哈林岛被逮捕，指控其收集俄国防能力信息。俄外交部发言人扎哈罗娃确认此事，这被视为莫斯科与东京紧张关系加剧的最新迹象。",
+              "title_en": "Russia arrests Japanese journalist on allegations of spying",
+              "summary_en": "Russia's FSB has detained a Japanese journalist on Sakhalin Island, accusing him of collecting information on Russia's defence capabilities, amid rising Moscow-Tokyo tensions.",
+              "topic_evidence": "Russia has arrested a Japanese journalist on the far east island of Sakhalin and accused him of spying",
+              "reason": "该事件涉及俄日间谍指控与外交紧张，属于地缘与安全范畴。",
+              "reason_en": "This involves Russia-Japan espionage allegations and diplomatic tensions, fitting geopolitics and security.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+              "title": "特朗普与普京的柴油协议激怒欧洲",
+              "summary": "美国总统特朗普与俄罗斯达成柴油协议，引发欧洲愤怒。乌克兰总统泽连斯基质疑华盛顿的动机，欧洲盟友誓言继续对莫斯科施压。",
+              "title_en": "Trump's diesel deal with Putin angers Europe",
+              "summary_en": "President Trump's diesel deal with Russia has sparked European fury, as Ukraine's Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+              "topic_evidence": "President Trump's diesel deal with Russia sparks European fury",
+              "reason": "该报道涉及美国、俄罗斯与欧洲在能源和乌克兰问题上的地缘政治博弈。",
+              "reason_en": "This report covers geopolitical tensions among the US, Russia, and Europe over energy and Ukraine.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
+              "title": "联合国官员称刚果（金）和平出现“机会之窗”",
+              "summary": "联合国特使表示，尽管安全和人道局势恶化，外交努力仍取得进展，刚果民主共和国和平出现“机会之窗”。",
+              "title_en": "UN official says ‘window of opportunity’ for peace in DR Congo",
+              "summary_en": "A UN envoy says a “window of opportunity” for peace has emerged in the Democratic Republic of Congo, welcoming diplomatic progress despite worsening security and humanitarian conditions.",
+              "topic_evidence": "The envoy lauds the progress in diplomatic efforts despite the worsening security and humanitarian situation.",
+              "reason": "该报道涉及联合国在刚果（金）的和平外交努力，属于地缘政治与安全。",
+              "reason_en": "This covers UN peace diplomacy in DR Congo, fitting geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+              "title": "泽连斯基称俄罗斯袭击基辅关键发电厂",
+              "summary": "乌克兰总统泽连斯基表示，俄罗斯弹道导弹袭击了基辅一座关键发电厂，且“我们的伙伴没有提前预警”。",
+              "title_en": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+              "summary_en": "Ukrainian President Zelensky says Russian ballistic missile strikes hit a key power plant in Kyiv, adding there was “no early warning from our partners.”",
+              "topic_evidence": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+              "reason": "该事件是俄乌战争中对关键基础设施的袭击，属于地缘与安全。",
+              "reason_en": "This is an attack on critical infrastructure in the Russia-Ukraine war, fitting geopolitics and security.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
+              "title": "巴西最高法院丑闻或让博索纳罗家族重新掌权",
+              "summary": "曾帮助定罪雅伊尔·博索纳罗的法官卷入危机，这可能有利于其子弗拉维奥·博索纳罗并损害卢拉。弗拉维奥在9月7日巴西独立日向极右翼支持者发表讲话。",
+              "title_en": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+              "summary_en": "A scandal involving the judge who helped convict Jair Bolsonaro could benefit his son Flávio and damage Lula, as Flávio addressed far-right supporters on Brazil's Independence Day.",
+              "topic_evidence": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula",
+              "reason": "该报道涉及巴西司法危机与选举政治，属于政府与政策。",
+              "reason_en": "This covers Brazil's judicial scandal and electoral politics, fitting government and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+              "title": "美国政府花费数百万美元投放特朗普广告，联邦探员搜查伊尔汗·奥马尔住所",
+              "summary": "美国政府被曝使用数百万纳税人资金投放亲特朗普广告，尽管总统曾称不会这样做。同时，联邦探员搜查了众议员伊尔汗·奥马尔的华盛顿住所。",
+              "title_en": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+              "summary_en": "The US government reportedly spent millions of taxpayer dollars on pro-Trump ads despite the president denying it, while federal agents searched Rep. Ilhan Omar's Washington home.",
+              "topic_evidence": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+              "reason": "该报道涉及美国政府支出与联邦执法行动，属于政府与政策。",
+              "reason_en": "This covers US government spending and federal law enforcement actions, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+              "title": "特朗普因腐败指控解除金伯利·吉尔福伊尔美国驻希腊大使职务",
+              "summary": "特朗普解除金伯利·吉尔福伊尔的美国驻希腊大使职务，此前她面临腐败指控。吉尔福伊尔称这些不当行为指控不实，并称担任大使是“一生的荣誉”。",
+              "title_en": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+              "summary_en": "President Trump removed Kimberly Guilfoyle as US ambassador to Greece following corruption allegations. Guilfoyle denied the allegations of improper conduct and called being ambassador the “honour of a lifetime.”",
+              "topic_evidence": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+              "reason": "该事件涉及美国政府外交人事任免与腐败指控，属于政府与政策。",
+              "reason_en": "This involves a US diplomatic appointment and corruption allegations, fitting government and policy.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+              "title": "飓风“西蒙”和热带风暴“蕾切尔”在墨西哥太平洋沿岸造成五人死亡",
+              "summary": "飓风“西蒙”和热带风暴“蕾切尔”袭击墨西哥太平洋沿岸，造成至少五人死亡，引发洪水，树木和电线杆倒塌，道路受阻，房屋被淹。安全部队动用直升机救援数十人。",
+              "title_en": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+              "summary_en": "Hurricane Simon and Tropical Storm Rachel have killed at least five people on Mexico's Pacific coast, causing flooding, downed trees and power lines, blocked roads, and inundated homes. Security forces rescued dozens by helicopter.",
+              "topic_evidence": "At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast",
+              "reason": "该报道关于自然灾害对墨西哥沿岸的影响，属于全球社会。",
+              "reason_en": "This covers a natural disaster affecting Mexico's coast, fitting global society.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+              "title": "巨浪和洪水袭击加州海滨住宅和木板路",
+              "summary": "加州沿海社区在周末极端天气后展开清理，洪水淹没城市街道，巨浪冲击海滨住宅。长滩木板路被毁，房屋受损，墨西哥下加利福尼亚和拉斯维加斯也受到影响。",
+              "title_en": "Intense waves and floods batter California waterfront homes and boardwalks",
+              "summary_en": "Southern California coastal communities are cleaning up after weekend extreme weather brought flooding and intense waves, damaging homes and destroying a boardwalk in Long Beach, with effects also in Mexico and Las Vegas.",
+              "topic_evidence": "Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes.",
+              "reason": "该报道关于极端天气对加州沿海社区的影响，属于全球社会。",
+              "reason_en": "This covers extreme weather impacts on California coastal communities, fitting global society.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+              "title": "梵蒂冈称教皇确诊肺癌但手术成功",
+              "summary": "梵蒂冈表示，教皇利奥被诊断出肺癌，但已成功接受手术，切除右肺下叶。目前未提供更多细节。",
+              "title_en": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+              "summary_en": "The Vatican says Pope Leo has been diagnosed with lung cancer but had successful surgery to remove a lower lobe of his right lung.",
+              "topic_evidence": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+              "reason": "该报道关于教皇健康状况，属于全球社会关注的人物健康新闻。",
+              "reason_en": "This covers the Pope's health, fitting global society news.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+              "title": "拉丁美洲有组织犯罪“可能在16个欧洲国家活动”",
+              "summary": "卫报为期四个月的调查显示，可卡因贩运激增与拉丁美洲犯罪网络在欧洲的扩张直接相关。欧洲可卡因缴获量十年内增长五倍以上，多个卡特尔已在欧洲扎根。",
+              "title_en": "Latin American organised crime ‘may operate in 16 European countries’",
+              "summary_en": "A four-month Guardian investigation reveals that a surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks, with seizures up more than fivefold in ten years.",
+              "topic_evidence": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root.",
+              "reason": "该报道涉及跨国犯罪网络对欧洲的安全影响，属于全球社会。",
+              "reason_en": "This covers transnational criminal networks affecting Europe, fitting global society.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714234.shtml",
+              "title": "国台办回应欧洲议会涉台报告",
+              "summary": "10月14日，国台办回应欧洲议会涉台报告。该报告鼓噪拒绝中国施压国际组织、限制台湾参与国际交流，并称欧盟以“一个中国政策”为指导框架但未替一个中国原则背书。",
+              "title_en": "TAO responds to European Parliament's Taiwan-related report",
+              "summary_en": "On Oct 14, China's Taiwan Affairs Office responded to a European Parliament report urging rejection of China's pressure on international organizations and limits on Taiwan's exchanges. The report said the EU's \"One China policy\" does not endorse the One China principle.",
+              "topic_evidence": "欧洲议会发布欧中政治关系报告",
+              "reason": "这是国台办对欧洲议会涉台报告的正式回应，涉及中欧关系和台湾参与国际组织，属于中国政策与监管范畴。",
+              "reason_en": "This is the TAO's official response to the European Parliament's Taiwan-related report, covering China-EU relations and Taiwan's international participation, fitting China policy and regulation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714233.shtml",
+              "title": "有美国官员分析称中国大陆2028年前攻台可能性降低，国台办回应",
+              "summary": "10月14日，国台办例行新闻发布会上，有记者问及路透社报道美国官员分析称中国大陆2028年前攻台可能性降低。民进党当局称大陆以武力“并吞”台湾的企图从未改变。",
+              "title_en": "TAO responds to US official's analysis that likelihood of mainland attack on Taiwan before 2028 has decreased",
+              "summary_en": "On Oct 14, the Taiwan Affairs Office responded to a Reuters report citing a US official saying the likelihood of a mainland attack on Taiwan before 2028 has decreased. Taiwan's DPP authorities said the mainland's intent to \"annex\" Taiwan by force has never changed.",
+              "topic_evidence": "有美国官员分析，中国大陆2028年前攻台可能性降低",
+              "reason": "涉及美国官员对台海局势的分析及国台办回应，属于中国政策与监管中的台湾事务。",
+              "reason_en": "It involves a US official's analysis of the Taiwan Strait situation and the TAO's response, falling under Taiwan affairs in China policy and regulation.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714225.shtml",
+              "title": "国台办：依法维护台湾同胞合法权益",
+              "summary": "10月14日，国台办新闻发布会介绍，国台办高度重视协调解决涉台投资纠纷，许多台商受助后来信致谢、赠送锦旗。发言人就近年来大陆在台胞权益保护方面的工作作出说明。",
+              "title_en": "TAO: Protect the lawful rights and interests of Taiwanese compatriots in accordance with law",
+              "summary_en": "On Oct 14, the Taiwan Affairs Office said it attaches great importance to resolving Taiwan-related investment disputes, noting many Taiwanese businessmen sent thank-you letters and banners. The spokesperson explained recent work on protecting Taiwanese compatriots' rights on the mainland.",
+              "topic_evidence": "国台办一直高度重视协调解决涉台投资纠纷",
+              "reason": "国台办介绍依法维护台胞权益和解决涉台投资纠纷的工作，属于政策与监管中的涉台权益保护。",
+              "reason_en": "The TAO outlines its work on protecting Taiwanese compatriots' rights and resolving Taiwan-related investment disputes, fitting policy and regulation on Taiwan-related rights protection.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714302.shtml",
+              "title": "何立峰会见法国总统外事顾问博纳",
+              "summary": "10月13日，中共中央政治局委员、国务院副总理何立峰在人民大会堂会见法国总统外事顾问博纳，双方就中法经贸务实合作和中欧经贸关系交换意见。",
+              "title_en": "He Lifeng meets French President's diplomatic advisor Bonne",
+              "summary_en": "On Oct 13, Chinese Vice Premier He Lifeng met with French President's diplomatic advisor Bonne at the Great Hall of the People, exchanging views on China-France practical economic and trade cooperation and China-EU economic and trade relations.",
+              "topic_evidence": "何立峰13日下午在人民大会堂会见法国总统外事顾问博纳",
+              "reason": "涉及中法、中欧经贸合作的高层会见，属于中国政策与监管中的对外经济事务。",
+              "reason_en": "It concerns a high-level meeting on China-France and China-EU economic and trade cooperation, fitting foreign economic affairs under China policy and regulation.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714265.shtml",
+              "title": "湖南新田“药果套种”探索精品农业 激活乡村土地效益",
+              "summary": "湖南新田县枧头镇星塘村硒泉生态种养专业合作社首次试种30亩生态百香果，采用药材地套种模式，迎来采收季，吸引民众前来采摘。",
+              "title_en": "Hunan Xintian explores premium agriculture with \"herb-fruit intercropping\"",
+              "summary_en": "In Xintian County, Hunan, a cooperative's first trial of 30 mu of ecological passion fruit using a herb-field intercropping model has entered harvest season, attracting visitors for picking.",
+              "topic_evidence": "首次试种的30亩生态百香果迎来采收季",
+              "reason": "报道湖南地方农业创新模式，属于产业与地方中的地方农业与乡村振兴。",
+              "reason_en": "It reports a local agricultural innovation model in Hunan, fitting local agriculture and rural revitalization under industry and local affairs.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714248.shtml",
+              "title": "国台办：十一假期“小三通”客运航线客流持续火热",
+              "summary": "10月14日，国台办新闻发布会介绍，今年“十一”假期，“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮，客流持续火热。",
+              "title_en": "TAO: Mini Three Links passenger flow remains strong during National Day holiday",
+              "summary_en": "On Oct 14, the Taiwan Affairs Office said the \"Mini Three Links\" passenger routes saw a surge of cross-strait visits and tourism during the National Day holiday, with passenger flow remaining strong.",
+              "topic_evidence": "“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮",
+              "reason": "涉及两岸“小三通”客运航线在假期的客流情况，属于产业与地方中的两岸交通与地方交流。",
+              "reason_en": "It covers cross-strait \"Mini Three Links\" passenger flows during the holiday, fitting cross-strait transport and local exchanges under industry and local affairs.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714228.shtml",
+              "title": "未经许可繁育销售新品种百香果种苗，一公司被判付760余万元",
+              "summary": "10月14日，最高人民法院发布植物新品种保护典型案例。其中，一公司未经许可繁育销售新品种百香果种苗，被判支付760余万元。",
+              "title_en": "Company ordered to pay over 7.6 million yuan for unauthorized breeding and sale of new passion fruit seedlings",
+              "summary_en": "On Oct 14, China's Supreme People's Court released typical cases on plant variety protection. A company was ordered to pay over 7.6 million yuan for unauthorized breeding and sale of new passion fruit seedlings.",
+              "topic_evidence": "未经许可繁育销售新品种百香果种苗，一公司被判付760余万元",
+              "reason": "最高人民法院发布的植物新品种保护典型案例，涉及种业知识产权司法保护，属于社会与法治。",
+              "reason_en": "It is a typical case on plant variety protection released by the Supreme People's Court, involving judicial protection of seed industry intellectual property, fitting society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714226.shtml",
+              "title": "“偷取枝条”培育未授权蓝莓苗，法院这样判",
+              "summary": "10月14日，最高人民法院发布植物新品种保护典型案例。一基地“找关系偷取枝条”种植销售未授权蓝莓苗，法院对其适用惩罚性赔偿。",
+              "title_en": "Court applies punitive damages in case of unauthorized blueberry seedlings grown from stolen branches",
+              "summary_en": "On Oct 14, the Supreme People's Court released typical cases on plant variety protection. A planting base that stole branches to grow and sell unauthorized blueberry seedlings was hit with punitive damages.",
+              "topic_evidence": "自称“找关系偷取枝条”种植销售一未授权品种的蓝莓苗",
+              "reason": "最高人民法院发布的植物新品种保护典型案例，涉及惩罚性赔偿，属于社会与法治。",
+              "reason_en": "It is a typical case on plant variety protection released by the Supreme People's Court, involving punitive damages, fitting society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714282.shtml",
+              "title": "湖北九宫山秋季候鸟监测发现多种珍稀鸟类",
+              "summary": "湖北九宫山国家级自然保护区近日在秋季鸟类专项调查中首次记录到国家一级保护动物、极危物种黄胸鹀，并记录到黑色型棕背伯劳及黑鸢、白腹鹞、燕隼等多种珍稀鸟类。",
+              "title_en": "Rare birds discovered in autumn migratory bird survey at Hubei's Jiugong Mountain",
+              "summary_en": "During an autumn bird survey, Hubei's Jiugong Mountain National Nature Reserve recorded the critically endangered yellow-breasted bunting for the first time, along with rare species including the black morph of the brown shrike, black kite, and Eurasian sparrowhawk.",
+              "topic_evidence": "国家一级保护动物、极危物种黄胸鹀首次在保护区内被记录",
+              "reason": "涉及自然保护区鸟类监测和珍稀物种发现，属于社会与法治中的生态保护。",
+              "reason_en": "It concerns bird monitoring and rare species discovery in a nature reserve, fitting ecological protection under society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+              "title": "中国气象局启动重大气象灾害暴雨四级应急响应",
+              "summary": "中国气象局10月14日10时启动重大气象灾害（暴雨）四级应急响应。预计14日至15日，重庆东南部、贵州东北部、湖北南部、湖南北部、江西北部等地部分地区有大到暴雨。",
+              "title_en": "China Meteorological Administration activates Level IV emergency response for rainstorms",
+              "summary_en": "On Oct 14 at 10:00, the China Meteorological Administration activated a Level IV emergency response for major meteorological disasters (rainstorms). Heavy to torrential rain is expected from Oct 14 to 15 in parts of Chongqing, Guizhou, Hubei, Hunan, and Jiangxi.",
+              "topic_evidence": "中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态",
+              "reason": "气象局启动暴雨应急响应，涉及防灾减灾和公共安全，属于社会与法治。",
+              "reason_en": "The meteorological administration activated a rainstorm emergency response, involving disaster prevention and public safety, fitting society and law.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
+              "title": "股市上涨，美元走低，静待美国通胀数据：市场综述",
+              "summary": "在关键美国通胀报告发布前，股市上涨、美元走弱，该报告可能揭示美联储明年能否放缓加息步伐。油价上涨。",
+              "title_en": "Stocks Rise, Dollar Slips in Runup to US Inflation: Markets Wrap",
+              "summary_en": "Stocks gained and the dollar weakened ahead of a key US inflation report that may show if the Fed can be less aggressive on rate hikes next year. Oil advanced.",
+              "topic_evidence": "Stocks gained and the dollar weakened before a key US inflation report",
+              "reason": "直接反映市场在关键通胀数据前的走势，涉及股市、美元和油价，是当日市场综述的核心。",
+              "reason_en": "Directly reflects market movements ahead of key inflation data, covering stocks, dollar, and oil, core to daily market wrap.",
+              "score": 9.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-13/barclays-plans-india-advisory-return-after-a-decade-as-ipos-boom",
+              "title": "巴克莱计划十年后重返印度股票咨询业务",
+              "summary": "巴克莱银行准备在近十年后重启印度股票资本市场业务，以利用该国股票发行激增的机会，印度是全球最活跃的融资市场之一。",
+              "title_en": "Barclays Plans India Equity Advisory Return After a Decade",
+              "summary_en": "Barclays is preparing to restart its equity capital market business in India after nearly a decade, tapping into a surge in share sales in a top global fundraising market.",
+              "topic_evidence": "Barclays Plc is preparing to restart its equity capital market business in India",
+              "reason": "巴克莱重启印度股票咨询业务，反映印度IPO市场活跃，属于市场与资产版块的企业融资动态。",
+              "reason_en": "Barclays restarting India equity advisory highlights active IPO market, relevant to markets and assets.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+              "title": "芯片股遭遇16个月来最差表现，AI疲劳笼罩市场",
+              "summary": "芯片股连续下跌，创16个月来最差走势，因华尔街对AI巨额支出失去耐心，市场关注Anthropic投资者日。",
+              "title_en": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+              "summary_en": "Chip stocks are on their worst stretch in 16 months as Wall Street grows impatient with heavy AI spending, with attention on Anthropic's investor day.",
+              "topic_evidence": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+              "reason": "芯片股显著下跌，反映市场对AI投资的态度转变，是重要的市场走势。",
+              "reason_en": "Significant chip stock decline reflects shifting market sentiment on AI spending, key market move.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-14/what-dimon-solomon-said-in-bank-earnings-calls-video",
+              "title": "戴蒙和所罗门在银行财报电话会上说了什么",
+              "summary": "高盛CEO所罗门表示IPO和资本市场活动保持健康，摩根大通CEO戴蒙称正在收紧部分信贷条件，华尔街大行财报未令投资者满意。",
+              "title_en": "What Dimon, Solomon Said in Bank Earnings Calls",
+              "summary_en": "Goldman CEO Solomon said IPO and capital markets activity remained healthy, while JPMorgan's Dimon said the bank is tightening some credit terms as major banks' earnings disappointed.",
+              "topic_evidence": "Goldman CEO David Solomon said IPO and capital-markets activity remained healthy",
+              "reason": "华尔街大行财报电话会透露信贷和资本市场动向，是市场与资产版块的重要信息。",
+              "reason_en": "Wall Street bank earnings calls reveal credit and capital market trends, important for markets and assets.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787?mod=mw_rss_topstories",
+              "title": "博通CEO对AI是看涨还是看跌？“赌徒”言论引发风波",
+              "summary": "博通CEO在新加坡会议上的言论被引为芯片股周一周二下跌的原因，其“赌徒”评论引发市场波动。",
+              "title_en": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm.",
+              "summary_en": "Broadcom CEO's comments at a Singapore conference were cited as a reason for microchip stocks' declines on Monday and Tuesday, with his 'gamblers' remark causing a stir.",
+              "topic_evidence": "The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps",
+              "reason": "博通CEO言论直接影响芯片股走势，是具体的市场事件。",
+              "reason_en": "Broadcom CEO's comments directly impacted chip stocks, a specific market event.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-14/rupee-s-relentless-slide-draws-importers-into-rbi-currency-fight",
+              "title": "卢比持续下滑，进口商卷入印度央行货币保卫战",
+              "summary": "印度卢比持续贬值，印度央行提振卢比的努力从金融市场扩展至经济领域，进口商成为关注焦点。",
+              "title_en": "Rupee’s Relentless Slide Draws Importers Into RBI Currency Fight",
+              "summary_en": "India's importers are now in the central bank's crosshairs as its efforts to shore up the rupee expand from financial markets to the broader economy.",
+              "topic_evidence": "India’s importers are now in the crosshairs of the central bank, as its latest efforts to shore up the rupee",
+              "reason": "印度央行干预汇市以支撑卢比，涉及货币政策与汇率，属于宏观与政策。",
+              "reason_en": "RBI intervention to support rupee involves monetary policy and exchange rate, fits macro-policy.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices",
+              "title": "美联储柯林斯预计今年可能进一步加息以遏制物价",
+              "summary": "波士顿联储主席柯林斯表示，为帮助抑制通胀，利率可能需要在年底前进一步上升，此番言论影响市场对美联储政策的预期。",
+              "title_en": "Fed’s Collins Sees Higher Rates Likely This Year to Tame Prices",
+              "summary_en": "Boston Fed President Susan Collins said interest rates will likely need to rise more before the end of the year to help rein in inflation.",
+              "topic_evidence": "interest rates will likely need to rise more before the end of the year to help rein in inflation",
+              "reason": "美联储官员对利率路径的表态，直接影响货币政策预期。",
+              "reason_en": "Fed official's rate outlook directly impacts monetary policy expectations.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+              "title": "美联储官员言论降温加息预期，金价企稳",
+              "summary": "美联储官员暗示今年可能还需一次加息，但2027年无需进一步收紧，改善了黄金市场情绪，金价在连续两日下跌后企稳。",
+              "title_en": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets",
+              "summary_en": "Gold steadied after a two-day decline as a Fed official signaled one more rate hike may be needed this year but no further tightening in 2027, improving sentiment.",
+              "topic_evidence": "a Federal Reserve official signaled one more interest-rate hike may be needed this year",
+              "reason": "美联储官员言论影响利率预期和黄金价格，体现货币政策与资产的联动。",
+              "reason_en": "Fed official's remarks affect rate expectations and gold prices, linking monetary policy and assets.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-14/bot-deputy-governor-plans-to-normalize-rates-video",
+              "title": "泰国央行副行长计划推动利率正常化",
+              "summary": "泰国央行副行长皮蒂·迪西亚塔特表示，鉴于经济保持韧性，央行将按自身节奏推动利率正常化。他在IMF-世界银行年会间隙发表讲话。",
+              "title_en": "BOT Deputy Governor Plans to Normalize Rates",
+              "summary_en": "Bank of Thailand Deputy Governor Piti Disyatat said the central bank will normalize rates at its own pace as the economy remains resilient, speaking at the IMF-World Bank meetings.",
+              "topic_evidence": "the central bank will normalize rates at its own pace as the economy remains resilient",
+              "reason": "泰国央行利率正常化计划，属于宏观货币政策动向。",
+              "reason_en": "Bank of Thailand's rate normalization plan is a macro monetary policy development.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-13/argentina-posts-second-straight-month-of-inflation-below-2",
+              "title": "阿根廷通胀连续第二个月低于2%",
+              "summary": "阿根廷9月月度通胀符合预期加速，但仍连续第二个月低于2%的象征性门槛，这是该国抗通胀的重要进展。",
+              "title_en": "Argentina Posts Second Straight Month of Inflation Below 2%",
+              "summary_en": "Argentina's monthly inflation accelerated in line with expectations in September, still marking its second straight month below the symbolic 2% threshold.",
+              "topic_evidence": "Monthly inflation in Argentina accelerated in line with expectations in September, still notching its second straight month below a symbolic threshold",
+              "reason": "阿根廷通胀数据连续低于2%，是重要的宏观经济指标。",
+              "reason_en": "Argentina's inflation below 2% for second month is a key macro indicator.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-lisa-cook-puts-off-white-house-hearing-over-trump-s-allegations",
+              "title": "美联储库克推迟白宫听证会，涉及特朗普指控",
+              "summary": "美联储理事丽莎·库克表示无法出席11月5日的白宫听证会，该听证会是特朗普总统对抵押贷款欺诈指控调查的一部分。",
+              "title_en": "Fed’s Lisa Cook Puts Off White House Hearing Over Trump’s Allegations",
+              "summary_en": "Federal Reserve Governor Lisa Cook says she cannot attend a Nov. 5 White House hearing tied to an investigation into mortgage fraud allegations by President Trump.",
+              "topic_evidence": "she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations",
+              "reason": "涉及美联储官员的监管调查，与金融监管和合规相关。",
+              "reason_en": "Involves regulatory investigation of a Fed official, related to financial regulation and compliance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+              "title": "妻子说我们退休不起，却想花8000美元去意大利旅行。我们有400万美元。我该继续工作吗？",
+              "summary": "一位读者担忧医疗、长期护理、通胀、长期熊市和活到95岁，尽管有400万美元资产，妻子仍想花8000美元去意大利旅行。",
+              "title_en": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+              "summary_en": "A reader worries about healthcare, long-term care, inflation, a long bear market, and living to 95, while his wife wants an $8,000 Italy trip despite having $4 million.",
+              "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95",
+              "reason": "个人理财和退休规划的具体案例，涉及财富管理决策。",
+              "reason_en": "Specific personal finance and retirement planning case involving wealth management decisions.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://www.sammystraus.com/",
+              "title": "我在Hacker News发帖后，网站被AI机器人流量淹没",
+              "summary": "一篇个人博客文章讲述作者在Hacker News发帖后，其网站被大量AI机器人流量淹没的经历。该帖在HN上获得293点、160条评论。",
+              "title_en": "I posted to HN, and then my website was flooded with AI bot traffic",
+              "summary_en": "A personal blog post describes how after posting to Hacker News, the author's website was flooded with AI bot traffic. The HN post received 293 points and 160 comments.",
+              "topic_evidence": "I posted to HN, and then my website was flooded with AI bot traffic",
+              "reason": "该文是第一人称技术评论，具体描述了发帖后遭遇AI机器人流量的现象，属于技术观点。",
+              "reason_en": "First-person tech commentary describing a specific AI bot traffic incident after posting to HN; fits tech opinion.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+              "title": "英国人均发电量较2000年代初峰值下降三分之一",
+              "summary": "Our World in Data的数据洞察显示，英国人均发电量已从2000年代初的峰值下降约三分之一，目前低于1970年代水平。",
+              "title_en": "The United Kingdom generates less electricity per person than in the 1970s",
+              "summary_en": "A data insight from Our World in Data shows that UK electricity generation per person has fallen by a third from its early 2000s peak and is now below 1970s levels.",
+              "topic_evidence": "The United Kingdom generates less electricity per person than in the 1970s",
+              "reason": "该文基于数据分析了英国人均发电量的长期下降趋势，属于商业与社会评论中的分析。",
+              "reason_en": "Analysis of long-term UK electricity generation decline per person; fits business and society commentary.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+              "title": "Hacker News讨论：OpenAI工程师因涉嫌在会议室安装窃听设备被捕",
+              "summary": "Hacker News上关于OpenAI工程师因涉嫌在行政会议室安装窃听设备被捕的讨论，获得482点、418条评论。",
+              "title_en": "OpenAI engineer arrested in bugging of executive conference room",
+              "summary_en": "Hacker News discussion on an OpenAI engineer arrested for allegedly bugging an executive conference room, with 482 points and 418 comments.",
+              "topic_evidence": "OpenAI engineer arrested in bugging of executive conference room",
+              "reason": "该HN帖子围绕OpenAI工程师被捕事件展开讨论，符合社区讨论版块。",
+              "reason_en": "HN thread discussing the arrest of an OpenAI engineer for bugging a conference room; fits community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome",
+              "title": "Hacker News讨论：苹果新‘Switch to Safari’活动主张放弃Chrome",
+              "summary": "Hacker News上关于苹果新‘Switch to Safari’活动的讨论，该活动主张用户放弃Chrome，获得229点、374条评论。",
+              "title_en": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+              "summary_en": "Hacker News discussion on Apple's new 'Switch to Safari' campaign urging users to ditch Chrome, with 229 points and 374 comments.",
+              "topic_evidence": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+              "reason": "该HN帖子引发关于浏览器选择的讨论，符合社区讨论版块。",
+              "reason_en": "HN thread discussing browser choice prompted by Apple's campaign; fits community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.cphiri.dev/presentations/recreational-programming",
+              "title": "Hacker News讨论：‘休闲编程’演示文稿",
+              "summary": "Hacker News上关于‘休闲编程’演示文稿的讨论，该演示文稿主题为休闲编程，获得103点、35条评论。",
+              "title_en": "Recreational Programming",
+              "summary_en": "Hacker News discussion on a presentation titled 'Recreational Programming', with 103 points and 35 comments. The topic is recreational programming.",
+              "topic_evidence": "Recreational Programming",
+              "reason": "该HN帖子围绕‘休闲编程’演示文稿展开讨论，符合社区讨论版块。",
+              "reason_en": "HN thread discussing a presentation on recreational programming; fits community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "original_title": "llm-gemini 0.35",
+      "original_summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta's latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars , here's a Fabergé egg it created for me using Blender, and DeepMind staffer @fofrAI shared a video of a pelican riding a bike, using fourier epicycles . That's a fun new twist! Tags: google , ai , generative-ai , llms , llm , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
+      "topic_evidence": "I added support to llm-gemini for the new Gemini 4 Argon model",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+      "original_title": "Gemini 4 Argon now available on AI Gateway",
+      "original_summary": "Gemini 4 Argon from Google is now available on AI Gateway.Gemini 4 Argon is built for coding, agentic work, and complex reasoning. It has a 1M token context window, accepts text, image, PDF, and video input, and supports tool calling.On coding tasks, Gemini 4 Argon builds features, fixes bugs, and researches unfamiliar codebases, carrying longer tasks through multiple steps. The model also reads dense diagrams, spreadsheets, layout-heavy documents, and video, which suits tasks like a financial analysis spread across several spreadsheet tabs. Beyond code, it handles work in finance, health, and law, and hard problems in math and science. Gemini 4 Argon uses thinking levels (low, medium, and high) instead of thinking budgets.Call Gemini 4 Argon through the AI SDK, the Chat Completions, Responses, and Anthropic Messages APIs, or a coding agent connected to AI Gateway. Set the thinking level with reasoning in the AI SDK or reasoning_effort in Chat Completions, and see reasoning for the other controls.Use google/gemini-4-argon as the model name:To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup:Then select google/gemini-4-argon in the agent. See the coding agents guide for details.Try Gemini 4 Argon in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.You can view all language models available on AI Gateway. Read more",
+      "topic_evidence": "Gemini 4 Argon now available on AI Gateway",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "anthropic",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai",
+      "original_title": "llm-meta-ai 0.2",
+      "original_summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release",
+      "topic_evidence": "Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\"",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
+      "original_title": "Drama 3 now available on AI Gateway",
+      "original_summary": "Drama 3 from Fish Audio is now available on AI Gateway, and 80% off for 30 days (through Nov 12).The text-to-speech model is currently in preview and lets you direct voice performances with natural-language instructions in your script, making it useful for voiceovers, character dialogue, and audio storytelling.Describe the emotion and pacing in square brackets, add sounds and pauses where they belong, or wrap selected words in tags such as and to change their delivery. Directions can be written in a different language from the spoken text. Drama 3 also supports multi-speaker dialogue, with a separate voice for each character.Use fish-audio/drama-3 as the model name to get started:Try Drama 3 in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Read more",
+      "topic_evidence": "Drama 3 from Fish Audio is now available on AI Gateway",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai",
+      "original_title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+      "original_summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building on this foundation, our next goal is to further scale both compute and intelligence transfer with next-generation hardware, and expand this capability across Meta’s entire ads ecosystem. This [...] Read More... The post Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI appeared first on Engineering at Meta .",
+      "topic_evidence": "GEM, the industry’s largest recommendation system (RecSys) foundation model",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "original_title": "Higgsfield takes AI video from 1 minute to over 10",
+      "original_summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "topic_evidence": "Higgsfield brings creators longer videos with GPT-6 Astra",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm",
+      "original_title": "Facebook is giving users more control over their algorithm",
+      "original_summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+      "topic_evidence": "Meta announced the launch of its new AI-powered feature, “Your Algorithm”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "launch"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+      "original_title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "original_summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "topic_evidence": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2",
+      "original_title": "The Drive AI",
+      "original_summary": "The AI agent that does the work on your files Discussion | Link",
+      "topic_evidence": "The AI agent that does the work on your files",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://www.producthunt.com/products/opencode",
+      "original_title": "OpenCode 2.0",
+      "original_summary": "The open source AI coding agent Discussion | Link",
+      "topic_evidence": "The open source AI coding agent",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "original_summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "topic_evidence": "uses AI agents and interactive simulation to stress-test robots and self-driving vehicles",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "original_title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "original_summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "topic_evidence": "AI gives enterprise security teams a new headache",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+      "original_title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "original_summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: Unpacking in Comprehensions by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax from PEP 448 , which landed in Python 3.5 back in 2015. A sampling profiler Python's existing tracing profiler has been renamed from cProfile to profiling.tracing , and has been joined by an exciting new sampling profiler called Tachyon, aka profiling.sampling . Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first. I've previously used tools like py-spy for this. Now this capability is baked into the standard library. If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use sudo on macOS): sudo uv run --python 3.15 python -m profiling.sampling attach 1234 Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this: It can also produce flame graphs like this and heat maps like this , and can even output a format that can be viewed in the Firefox profiler UI. 3.15 isn't much faster than 3.14 Miguel Grinberg investigated How fast is Python 3.15? the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase. Miguel's explorations of 3.14 last year found significant boosts against Python 3.13 across many more categories. Upgrading to Python 3.15 with uv I used the following sequence of commands to get uv to use Python 3.15 on my Mac. First I had to upgrade uv itself to ensure it knew about the new release: uv self update Then I installed the stable 3.15 release: uv python install 3.15 And told uv that I wanted that to be the default for every uv run command, unless the project itself pinned a different version: uv python pin --global 3.15 Now the following reports 3.15 as the version: uv run python --version I already have a bunch of tools installed using uv tool install . I reinstalled them to use Python 3.15 like this: uv tool upgrade datasette --python 3.15 Then I can confirm the version like this: datasette --get /-/versions.json | jq Highlights from Python 3.11 The release of 3.15 means that Python 3.10 (released in 2021) is officially no longer supported . My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11. Here's the What's new in Python 3.11 document. I finally get to rely on tomllib being available! Datasette makes extensive use of asyncio . 3.11 adds TaskGroup and timeout() , and several more new features. datetime.UTC is a new in 3.11 alias for datetime.timezone.utc . Python's SQLite support got some significant upgrades in 3.11, including: setlimit() and getlimit() expose a mechanism for setting SQLite runtime limits from Python. create_window_function() lets us create custom window functions in Python, as a class with step() , value() , inverse() , and finalize() methods. blobopen() provides an efficient mechanism for partial reads and writes of large BLOB binary values stored in a SQLite row. You can now call set_authorizer(None) to remove a SQLite authorizer. Datasette had a workaround for this! Plus a whole bunch of improvements to Python's typing system . I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's my first Datasette PR removing that set_authorizer(None) workaround. I've also updated my click-app , datasette-plugin , python-lib , and llm-plugin cookiecutter templates to test against Python 3.11 through Python 3.15. Tags: open-source , profiling , python , sqlite , uv",
+      "topic_evidence": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "python",
+        "library"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling",
+      "original_title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "original_summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need a Python 3.15 flame graph and heatmap demo of the \"web-edit\" app from PyPI - research first then make me those demos Here's the resulting example flame graph and heatmap . Tags: profiling , python , codex",
+      "topic_evidence": "I put the new Python 3.15 profiler through its paces",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "python"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "original_title": "Redesigning source control at Anthropic",
+      "original_summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for Anthropic's internal use. My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity. \"Antique\" is their new code review system. The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion. They had some pretty extreme requirements: The history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Fetched naively, that would be over 600 PB of git traffic per day. The new system was built by a team of seven people, and the migration from Git was completed in five months. When asked on Hacker News about the lack of offline support, Scion engineer Nick G replied : Since Claude is by far the heaviest user of Scion and is necessarily online, this just wasn't important to do. As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other). This note from the article reflected my own experience with that: Anthropic also makes extensive use of adversarial review, and, while this is incredibly effective in many ways, it can also be myopic, so skilled engineers needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns. Via Hacker News Tags: git , migrations , version-control , ai , generative-ai , llms , anthropic , agentic-engineering",
+      "topic_evidence": "they built their own custom alternative to Git",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "git",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "original_title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "original_summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+      "topic_evidence": "context-aware secret classifier improves detection quality",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster",
+      "original_title": "Repository checkout and Git LFS downloads are now faster",
+      "original_summary": "Repository checkout and Git LFS downloads are now faster on Vercel, reducing the time spent preparing your project's files before a build.During rollout on build machines with more than two vCPUs:The average time to get project files ready fell by 20%.For LFS-enabled projects, the average time to get project files ready fell by 54%, saving approximately 13 seconds per deployment on this step.The 90th-percentile time to get project files ready fell by 22%. This means 90% of deployments finish this step in that time or less.These improvements apply automatically, with no action required. Read the Git deployment documentation to learn more. Read more",
+      "topic_evidence": "Repository checkout and Git LFS downloads are now faster on Vercel",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "git"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit",
+      "original_title": "web-edit 0.1a1",
+      "original_summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
+      "topic_evidence": "Includes performance optimizations written by Claude Opus 5.5",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks",
+      "original_title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+      "original_summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launching [...] Read More... The post OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks appeared first on Engineering at Meta .",
+      "topic_evidence": "Meta is sharing the next generation of open networking infrastructure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest",
+      "original_title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "original_summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...] Read More... The post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta .",
+      "topic_evidence": "Meta has begun deploying Media over QUIC (MoQ)",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations",
+      "original_title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "original_summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives [...] Read More... The post Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations appeared first on Engineering at Meta .",
+      "topic_evidence": "enhances ads recommendations by leveraging idle inference capacity",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "performance"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+      "original_title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+      "original_summary": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, challenging theories about how the universe developed. The discovery also uncovered a surprising connection between scattered starlight and invisible dark matter that could transform how astronomers study the early cosmos.",
+      "topic_evidence": "ancient galaxy cluster with an unexpectedly dense concentration of dark matter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers",
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261011211559.htm",
+      "original_title": "Europe's new Sentinel-3C satellite just sent back spectacular images of Earth",
+      "original_summary": "Europe's Sentinel-3C satellite has returned breathtaking images of Earth just two weeks after launch, revealing the snowy Alps, frozen Arctic islands, and brilliant turquoise Caribbean waters. Its first measurements also show promising results for tracking rising seas, melting ice sheets, and other changes reshaping our planet.",
+      "topic_evidence": "returned breathtaking images of Earth just two weeks after launch",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "satellite"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
+      "original_title": "Physicists discover “astonishing” property of light that defies expectations",
+      "original_summary": "Scientists have uncovered a surprising hidden ability of light that allows it to develop spinning, twisting behavior as it travels through empty space, without special lenses, mirrors, or materials. Researchers discovered that light’s internal geometry can naturally produce left- and right-handed patterns, challenging long-standing assumptions about how light behaves. By carefully arranging a beam’s structure, scientists can control where and how these spinning patterns emerge, unlocking a new way to manipulate light.",
+      "topic_evidence": "spinning, twisting behavior as it travels through empty space",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists",
+        "material"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
+      "original_title": "Scientists just gave the powerhouses of our cells a high-tech upgrade",
+      "original_summary": "Scientists have created a new coating for mitochondria that preserves their ability to produce energy, potentially opening the door to new treatments for diseases involving these tiny cellular powerhouses. The technology could one day help transfer healthy mitochondria into damaged cells, although its effectiveness in transplantation remains unproven.",
+      "topic_evidence": "created a new coating for mitochondria that preserves their ability to produce energy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005244.htm",
+      "original_title": "Scientists discover a hidden factor that can make or break chemical reactions",
+      "original_summary": "Researchers discovered a hidden factor that can determine whether chemical reactions succeed or fail, and then used it to boost the proportion of the desired product from 16% to 97%. By controlling acidity near electrodes, they developed a promising way to manufacture chemicals for plastics, medicines, and other products using oxygen and electricity instead of hazardous added oxidants.",
+      "topic_evidence": "boost the proportion of the desired product from 16% to 97%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists",
+        "medicine"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185011.htm",
+      "original_title": "Scientists uncover a hidden map of the brain with 539 distinct regions",
+      "original_summary": "Scientists have uncovered a hidden layer of organization in the brain by creating the first detailed 3D map of its lipids, the fatty molecules essential for brain structure and communication. By analyzing millions of measurements from mouse brains, researchers identified 539 distinct chemical zones, revealing patterns and boundaries that traditional brain maps have missed. Surprisingly, even white matter, once thought to be relatively uniform, contains a complex patchwork of chemically distinct regions.",
+      "topic_evidence": "identified 539 distinct chemical zones",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/gotemail",
+      "original_title": "GotEmail",
+      "original_summary": "Native macOS mail app with one-click sign-in codes and AI Discussion | Link",
+      "topic_evidence": "Native macOS mail app with one-click sign-in codes and AI Discussion",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "app"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes",
+      "original_title": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
+      "original_summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
+      "topic_evidence": "help battery and chip manufacturers identify defects on production lines",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "original_title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "original_summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+      "topic_evidence": "AI tools to improve PR and comms at every company",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae",
+      "original_title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
+      "original_summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.",
+      "topic_evidence": "roll out biological-age model across UAE",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage",
+      "original_title": "Giraffe Bio aims its bespoke biomolecules at the looming copper shortage",
+      "original_summary": "As AI data centers and EVs drive up demand for copper, Giraffe Bio has unearthed a $6.4 million seed round to help miners extract more of the mineral.",
+      "topic_evidence": "has unearthed a $6.4 million seed round",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data",
+      "original_title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "original_summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "topic_evidence": "won a U.S. military contract worth almost $50 million",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "startup"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt",
+      "original_title": "Licube wants to be the fuel provider to the fusion power industry — see how at TechCrunch Disrupt",
+      "original_summary": "Fusion power plants will need a lot of lithium, and Licube is preparing to be a key supplier.",
+      "topic_evidence": "Licube is preparing to be a key supplier",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests",
+      "original_title": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+      "original_summary": "Exclusive: Caution urged over Javier Milei government’s ‘red notice’ requests for arrest of individuals linked to oil project Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the Falkland Islands. With tensions over the sovereignty of the British overseas territory reaching levels not seen since the war with Argentina in 1982, UK officials have sought urgent assurances from the international organisation. Continue reading...",
+      "topic_evidence": "Britain has appealed to Interpol to reject Argentina’s requests for the arrest of individuals involved in a large oil project off the Falkland Islands.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+      "original_title": "Russia arrests Japanese journalist on allegations of spying",
+      "original_summary": "FSB security agency said reporter was arrested on island of Sakhalin, alleging he was collecting information about Russia’s defences Russia has arrested a Japanese journalist on the far east island of Sakhalin and accused him of spying, in the latest sign of rising tensions between Moscow and Tokyo. Russian foreign ministry spokesperson Maria Zakharova identified the reporter as Yuki Imai, from the Hokkaido Shimbun newspaper, adding that he had been accused of “conducting espionage activities on Russian territory”. Continue reading...",
+      "topic_evidence": "Russia has arrested a Japanese journalist on the far east island of Sakhalin and accused him of spying",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+      "original_title": "Trump's diesel deal with Putin angers Europe",
+      "original_summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+      "topic_evidence": "President Trump's diesel deal with Russia sparks European fury",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "europe"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
+      "original_title": "UN official says ‘window of opportunity’ for peace in DR Congo",
+      "original_summary": "The envoy lauds the progress in diplomatic efforts despite the worsening security and humanitarian situation.",
+      "topic_evidence": "The envoy lauds the progress in diplomatic efforts despite the worsening security and humanitarian situation.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+      "original_summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "topic_evidence": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula",
+      "original_title": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+      "original_summary": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of far-right supporters in São Paulo on 7 September, Brazil’s Independence Day, the senator Flávio Bolsonaro focused less on his opponent in the presidential election , the leftist president Luiz Inácio Lula da Silva, than on someone who is not running at all. “Whoever votes for Lula is voting for Alexandre de Moraes ,” Bolsonaro shouted, referring to the shaven-headed supreme court justice once described as “Voldemort” by Elon Musk. Continue reading...",
+      "topic_evidence": "The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+      "original_title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+      "original_summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+      "topic_evidence": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "original_summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
+      "topic_evidence": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+      "original_title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+      "original_summary": "Security forces use helicopters to rescue dozens of people as the two storms damage infrastructure and cause flash flooding At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast, causing flooding that downed trees and electricity poles, blocked roads and inundated homes. Simon claimed the life of a 71-year-old man who died when a wall collapsed in Chilpancingo in the southern state of Guerrero, governor Evelyn Salgado said at a press conference. Continue reading...",
+      "topic_evidence": "At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+      "original_title": "Intense waves and floods batter California waterfront homes and boardwalks",
+      "original_summary": "Boardwalk destroyed in Long Beach and homes damaged, while Baja California in Mexico and Las Vegas also affected Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes. The remnants of Tropical Storm Rachel hit Mexico ’s Baja California over the weekend as well as southern California and Las Vegas. While meteorologists noted that Rachel weakened into a post-tropical cyclone as it approached California, it still left a trail of destruction. Continue reading...",
+      "topic_evidence": "Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+      "original_summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "topic_evidence": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+      "original_title": "Latin American organised crime ‘may operate in 16 European countries’",
+      "original_summary": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled. Continue reading...",
+      "topic_evidence": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714234.shtml",
+      "original_title": "国台办回应欧洲议会涉台报告",
+      "original_summary": "中新网10月14日电 10月14日，国务院台办举行例行新闻发布会。有记者问：近日，欧洲议会发布欧中政治关系报告，鼓噪拒绝中国施压国际组织，限制台湾参与国际交流，强调欧盟以“一个中国政策”作为对台外交政策的指导框架，且从未替一个中国原则背书。台外事部门对此表示感谢，请问对此有何评论？",
+      "topic_evidence": "欧洲议会发布欧中政治关系报告",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714233.shtml",
+      "original_title": "有美国官员分析称中国大陆2028年前攻台可能性降低，国台办回应",
+      "original_summary": "中新网10月14日电 10月14日，国务院台办举行例行新闻发布会。有记者问：据路透社报道，有美国官员分析，中国大陆2028年前攻台可能性降低。民进党当局对此称，大陆以武力“并吞”台湾的企图从来没有改变，从来不会因为谁“执政”而放弃。请问对此有何评论？",
+      "topic_evidence": "有美国官员分析，中国大陆2028年前攻台可能性降低",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714225.shtml",
+      "original_title": "国务院台办：依法维护台湾同胞的合法权益",
+      "original_summary": "中新网10月14日电 10月14日，国务院台办举行例行新闻发布会。有记者问：据了解，国台办一直高度重视协调解决涉台投资纠纷，许多台商受助后还向国台办来信致谢、赠送锦旗。能否请发言人介绍近年来大陆在台胞权益保护上做了哪些工作？",
+      "topic_evidence": "国台办一直高度重视协调解决涉台投资纠纷",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714302.shtml",
+      "original_title": "何立峰会见法国总统外事顾问博纳",
+      "original_summary": "新华社北京10月14日电 中共中央政治局委员、国务院副总理何立峰13日下午在人民大会堂会见法国总统外事顾问博纳，就中法经贸务实合作和中欧经贸关系交换意见。",
+      "topic_evidence": "何立峰13日下午在人民大会堂会见法国总统外事顾问博纳",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "意见"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714265.shtml",
+      "original_title": "湖南新田“药果套种”探索精品农业 激活乡村土地效益",
+      "original_summary": "中新网永州10月14日电 (蒋军君 周林凤)在湖南新田县枧头镇星塘村，硒泉生态种养专业合作社首次试种的30亩生态百香果迎来采收季。独特的药材地套种模式、清甜多汁的优质果实，吸引民众慕名前来体验采摘乐趣。",
+      "topic_evidence": "首次试种的30亩生态百香果迎来采收季",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714248.shtml",
+      "original_title": "国台办：十一假期“小三通”客运航线客流持续火热",
+      "original_summary": "中新网10月14日电 10月14日，国务院台办举行例行新闻发布会。有记者问：今年“十一”假期，“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮。请介绍有关情况。",
+      "topic_evidence": "“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714228.shtml",
+      "original_title": "未经许可繁育销售新品种百香果种苗，一公司被判付760余万元",
+      "original_summary": "中新网北京10月14日电(记者 高萌)10月12日至18日是2026年全国粮食安全宣传周。14日，最高人民法院发布一批植物新品种保护典型案例，其中涉及百香果等丰富群众餐桌供给的果蔬品种。",
+      "topic_evidence": "未经许可繁育销售新品种百香果种苗，一公司被判付760余万元",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714226.shtml",
+      "original_title": "“偷取枝条”培育未授权蓝莓苗，法院这样判",
+      "original_summary": "中新网北京10月14日电(记者 高萌)在10月16日世界粮食日即将到来之际，14日，最高人民法院发布一批植物新品种保护典型案例。在其中一个案例中，一个种植基地自称“找关系偷取枝条”种植销售一未授权品种的蓝莓苗，法院对其适用了惩罚性赔偿。",
+      "topic_evidence": "自称“找关系偷取枝条”种植销售一未授权品种的蓝莓苗",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714282.shtml",
+      "original_title": "湖北九宫山秋季候鸟监测发现多种珍稀鸟类",
+      "original_summary": "中新网咸宁10月14日电 (张凯 胡传林)正值秋季鸟类迁徙高峰期，湖北九宫山国家级自然保护区科研监测人员近日在秋季鸟类专项调查中发现：国家一级保护动物、极危物种黄胸鹀首次在保护区内被记录，成为九宫山鸟类分布新纪录。调查同时记录到罕见的黑色型棕背伯劳，以及黑鸢、白腹鹞、燕隼、白胸翡翠、蓝鹀、领鸺鹠、白腹蓝鹟等多种珍稀保护鸟类。",
+      "topic_evidence": "国家一级保护动物、极危物种黄胸鹀首次在保护区内被记录",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+      "original_title": "中国气象局启动重大气象灾害暴雨四级应急响应",
+      "original_summary": "中国天气网讯 预计，10月14日至15日，重庆东南部、贵州东北部、湖北南部、湖南北部、江西北部等地部分地区有大到暴雨，其中，湖南北部等地局地有大暴雨。上述部分地区伴有短时强降水，局地有雷暴大风等强对流天气。中央气象台已发布暴雨蓝色预警。经综合研判和应急会商，中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态。",
+      "topic_evidence": "中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks Rise, Dollar Slips in Runup to US Inflation: Markets Wrap",
+      "original_summary": "Stocks gained and the dollar weakened before a key US inflation report that may reveal whether the Federal Reserve can take a less aggressive approach to raising interest rates next year. Oil advanced.",
+      "topic_evidence": "Stocks gained and the dollar weakened before a key US inflation report",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/barclays-plans-india-advisory-return-after-a-decade-as-ipos-boom",
+      "original_title": "Barclays Plans India Equity Advisory Return After a Decade",
+      "original_summary": "Barclays Plc is preparing to restart its equity capital market business in India after nearly a decade, capitalizing on a surge in share sales in one of the world’s busiest markets for fundraising.",
+      "topic_evidence": "Barclays Plc is preparing to restart its equity capital market business in India",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+      "original_title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+      "original_summary": "Anticipation is building for Anthropic’s investor day, as Wall Street grows less patient with heavy AI spending.",
+      "topic_evidence": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-14/what-dimon-solomon-said-in-bank-earnings-calls-video",
+      "original_title": "What Dimon, Solomon Said in Bank Earnings Calls",
+      "original_summary": "Goldman CEO David Solomon said IPO and capital-markets activity remained healthy, while JPMorgan's Jamie Dimon said the bank is tightening some credit terms, as top Wall Street banks reported earnings that failed to impress investors. (Source: Bloomberg)",
+      "topic_evidence": "Goldman CEO David Solomon said IPO and capital-markets activity remained healthy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787?mod=mw_rss_topstories",
+      "original_title": "Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm.",
+      "original_summary": "The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps on both Monday and Tuesday.",
+      "topic_evidence": "The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/rupee-s-relentless-slide-draws-importers-into-rbi-currency-fight",
+      "original_title": "Rupee’s Relentless Slide Draws Importers Into RBI Currency Fight",
+      "original_summary": "India’s importers are now in the crosshairs of the central bank, as its latest efforts to shore up the rupee expand from financial markets to the economy.",
+      "topic_evidence": "India’s importers are now in the crosshairs of the central bank, as its latest efforts to shore up the rupee",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-collins-sees-higher-rates-likely-this-year-to-tame-prices",
+      "original_title": "Fed’s Collins Sees Higher Rates Likely This Year to Tame Prices",
+      "original_summary": "Federal Reserve Bank of Boston President Susan Collins said interest rates will likely need to rise more before the end of the year to help rein in inflation.",
+      "topic_evidence": "interest rates will likely need to rise more before the end of the year to help rein in inflation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "fed",
+        "federal reserve",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+      "original_title": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets",
+      "original_summary": "Gold held a two-day decline after a Federal Reserve official signaled one more interest-rate hike may be needed this year, but further tightening won’t be necessary in 2027, improving sentiment toward the precious metal.",
+      "topic_evidence": "a Federal Reserve official signaled one more interest-rate hike may be needed this year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-14/bot-deputy-governor-plans-to-normalize-rates-video",
+      "original_title": "BOT Deputy Governor Plans to Normalize Rates",
+      "original_summary": "Bank of Thailand Deputy Governor Piti Disyatat says the central bank will normalize rates at its own pace as the economy remains resilient. He spoke on the sidelines of the IMF-World Bank Annual Meetings in Bangkok. (Source: Bloomberg)",
+      "topic_evidence": "the central bank will normalize rates at its own pace as the economy remains resilient",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/argentina-posts-second-straight-month-of-inflation-below-2",
+      "original_title": "Argentina Posts Second Straight Month of Inflation Below 2%",
+      "original_summary": "Monthly inflation in Argentina accelerated in line with expectations in September, still notching its second straight month below a symbolic threshold.",
+      "topic_evidence": "Monthly inflation in Argentina accelerated in line with expectations in September, still notching its second straight month below a symbolic threshold",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-lisa-cook-puts-off-white-house-hearing-over-trump-s-allegations",
+      "original_title": "Fed’s Lisa Cook Puts Off White House Hearing Over Trump’s Allegations",
+      "original_summary": "Federal Reserve Governor Lisa Cook says she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations by President Donald Trump.",
+      "topic_evidence": "she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.sammystraus.com/",
+      "original_title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "original_summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 293 # Comments: 160",
+      "topic_evidence": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+      "original_title": "The United Kingdom generates less electricity per person than in the 1970s",
+      "original_summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 247 # Comments: 335",
+      "topic_evidence": "The United Kingdom generates less electricity per person than in the 1970s",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+      "original_title": "OpenAI engineer arrested in bugging of executive conference room",
+      "original_summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 482 # Comments: 418",
+      "topic_evidence": "OpenAI engineer arrested in bugging of executive conference room",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome",
+      "original_title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "original_summary": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 229 # Comments: 374",
+      "topic_evidence": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.cphiri.dev/presentations/recreational-programming",
+      "original_title": "Recreational Programming",
+      "original_summary": "Article URL: https://www.cphiri.dev/presentations/recreational-programming Comments URL: https://news.ycombinator.com/item?id=50079865 Points: 103 # Comments: 35",
+      "topic_evidence": "Recreational Programming",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://openai.com/index/higgsfield-longer-videos-voice",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "original_title": "Higgsfield takes AI video from 1 minute to over 10",
+      "original_summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "topic_evidence": "Higgsfield brings creators longer videos with GPT-6 Astra",
+      "approved": true,
+      "evidence": "Higgsfield brings creators longer videos with GPT-6 Astra",
+      "reason": "主事件是Higgsfield推出AI视频生成产品升级，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you",
+      "original_title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "original_summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+      "topic_evidence": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "approved": true,
+      "evidence": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "reason": "主事件是Google Play支持构建AI生成的私人应用，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://www.producthunt.com/products/the-drive-ai-2",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2",
+      "original_title": "The Drive AI",
+      "original_summary": "The AI agent that does the work on your files Discussion | Link",
+      "topic_evidence": "The AI agent that does the work on your files",
+      "approved": true,
+      "evidence": "The AI agent that does the work on your files",
+      "reason": "主事件是The Drive AI推出AI文件代理产品，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://www.producthunt.com/products/opencode",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://www.producthunt.com/products/opencode",
+      "original_title": "OpenCode 2.0",
+      "original_summary": "The open source AI coding agent Discussion | Link",
+      "topic_evidence": "The open source AI coding agent",
+      "approved": true,
+      "evidence": "The open source AI coding agent",
+      "reason": "主事件是OpenCode 2.0发布开源AI编码代理，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "original_summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "topic_evidence": "uses AI agents and interactive simulation to stress-test robots and self-driving vehicles",
+      "approved": true,
+      "evidence": "uses AI agents and interactive simulation to stress-test robots and self-driving vehicles",
+      "reason": "主事件是Laplace Intelligence利用AI代理和仿真对机器人及自动驾驶进行红队测试，属于AI研究与治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "original_title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "original_summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "topic_evidence": "AI gives enterprise security teams a new headache",
+      "approved": false,
+      "evidence": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "reason": "主事件是Pluto Security完成4200万美元融资，属于融资新闻，应归入创业与产品/融资与并购，而非AI研究与治理。"
+    },
+    {
+      "id": "developer/infra-data/https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest",
+      "original_title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "original_summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...] Read More... The post Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest appeared first on Engineering at Meta .",
+      "topic_evidence": "Meta has begun deploying Media over QUIC (MoQ)",
+      "approved": true,
+      "evidence": "Meta has begun deploying Media over QUIC (MoQ)",
+      "reason": "主事件是Meta部署MoQ协议以优化Instagram直播传输，属于基础设施与数据。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes",
+      "original_title": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
+      "original_summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
+      "topic_evidence": "help battery and chip manufacturers identify defects on production lines",
+      "approved": true,
+      "evidence": "help battery and chip manufacturers identify defects on production lines",
+      "reason": "主事件是Niobia推出生产线缺陷检测产品，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "original_title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "original_summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+      "topic_evidence": "AI tools to improve PR and comms at every company",
+      "approved": true,
+      "evidence": "AI tools to improve PR and comms at every company",
+      "reason": "主事件是Honeyjar推出AI公关传播工具，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae",
+      "original_title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
+      "original_summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.",
+      "topic_evidence": "roll out biological-age model across UAE",
+      "approved": true,
+      "evidence": "roll out biological-age model across UAE",
+      "reason": "主事件是Ultrahuman在阿联酋推出生物年龄模型，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage",
+      "original_title": "Giraffe Bio aims its bespoke biomolecules at the looming copper shortage",
+      "original_summary": "As AI data centers and EVs drive up demand for copper, Giraffe Bio has unearthed a $6.4 million seed round to help miners extract more of the mineral.",
+      "topic_evidence": "has unearthed a $6.4 million seed round",
+      "approved": true,
+      "evidence": "has unearthed a $6.4 million seed round",
+      "reason": "主事件是Giraffe Bio完成640万美元种子轮融资，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/startup-strategy/https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt",
+      "section": "创业与产品",
+      "subsection": "商业模式",
+      "url": "https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt",
+      "original_title": "Licube wants to be the fuel provider to the fusion power industry — see how at TechCrunch Disrupt",
+      "original_summary": "Fusion power plants will need a lot of lithium, and Licube is preparing to be a key supplier.",
+      "topic_evidence": "Licube is preparing to be a key supplier",
+      "approved": true,
+      "evidence": "Licube is preparing to be a key supplier",
+      "reason": "主事件是Licube制定成为聚变产业燃料供应商的商业模式，属于商业模式。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+      "original_summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "topic_evidence": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+      "approved": true,
+      "evidence": "Russian strikes hit key power plant in Kyiv",
+      "reason": "主事件是俄罗斯袭击基辅关键电厂，属于地缘与安全。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "original_summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
+      "topic_evidence": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "approved": true,
+      "evidence": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "reason": "主事件是特朗普撤换美国驻希腊大使，属于政府与政策。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast",
+      "original_title": "Hurricane Simon and Tropical Storm Rachel kill five people on Mexico’s Pacific coast",
+      "original_summary": "Security forces use helicopters to rescue dozens of people as the two storms damage infrastructure and cause flash flooding At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast, causing flooding that downed trees and electricity poles, blocked roads and inundated homes. Simon claimed the life of a 71-year-old man who died when a wall collapsed in Chilpancingo in the southern state of Guerrero, governor Evelyn Salgado said at a press conference. Continue reading...",
+      "topic_evidence": "At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast",
+      "approved": true,
+      "evidence": "At least five people have died after Hurricane Simon and Tropical Storm Rachel pummelled Mexico’s Pacific coast",
+      "reason": "主事件是飓风与热带风暴袭击墨西哥造成伤亡，属于全球社会。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
+      "original_title": "Intense waves and floods batter California waterfront homes and boardwalks",
+      "original_summary": "Boardwalk destroyed in Long Beach and homes damaged, while Baja California in Mexico and Las Vegas also affected Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes. The remnants of Tropical Storm Rachel hit Mexico ’s Baja California over the weekend as well as southern California and Las Vegas. While meteorologists noted that Rachel weakened into a post-tropical cyclone as it approached California, it still left a trail of destruction. Continue reading...",
+      "topic_evidence": "Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes.",
+      "approved": true,
+      "evidence": "Southern California coastal communities are picking up the pieces after a weekend of extreme weather brought flooding that overtook city streets and intense waves battered beachside homes.",
+      "reason": "主事件是极端天气引发加州洪水与海浪破坏，属于全球社会。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+      "original_summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "topic_evidence": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "approved": true,
+      "evidence": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
+      "reason": "主事件是教皇接受肺癌手术，属于全球社会新闻。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
+      "original_title": "Latin American organised crime ‘may operate in 16 European countries’",
+      "original_summary": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled. Continue reading...",
+      "topic_evidence": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root.",
+      "approved": true,
+      "evidence": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root.",
+      "reason": "主事件是拉美有组织犯罪在欧洲扩张及可卡因贩运增加，属于全球社会议题。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-14/10714265.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714265.shtml",
+      "original_title": "湖南新田“药果套种”探索精品农业 激活乡村土地效益",
+      "original_summary": "中新网永州10月14日电 (蒋军君 周林凤)在湖南新田县枧头镇星塘村，硒泉生态种养专业合作社首次试种的30亩生态百香果迎来采收季。独特的药材地套种模式、清甜多汁的优质果实，吸引民众慕名前来体验采摘乐趣。",
+      "topic_evidence": "首次试种的30亩生态百香果迎来采收季",
+      "approved": true,
+      "evidence": "首次试种的30亩生态百香果迎来采收季",
+      "reason": "主事件是湖南新田县农业套种模式探索，属于产业与地方。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-14/10714248.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714248.shtml",
+      "original_title": "国台办：十一假期“小三通”客运航线客流持续火热",
+      "original_summary": "中新网10月14日电 10月14日，国务院台办举行例行新闻发布会。有记者问：今年“十一”假期，“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮。请介绍有关情况。",
+      "topic_evidence": "“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮",
+      "approved": true,
+      "evidence": "“小三通”客运航线迎来两岸同胞探亲访友和旅游热潮",
+      "reason": "主事件是国台办介绍小三通客运航线客流情况，涉及交通产业与地方交流，属于产业与地方。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+      "original_title": "中国气象局启动重大气象灾害暴雨四级应急响应",
+      "original_summary": "中国天气网讯 预计，10月14日至15日，重庆东南部、贵州东北部、湖北南部、湖南北部、江西北部等地部分地区有大到暴雨，其中，湖南北部等地局地有大暴雨。上述部分地区伴有短时强降水，局地有雷暴大风等强对流天气。中央气象台已发布暴雨蓝色预警。经综合研判和应急会商，中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态。",
+      "topic_evidence": "中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态",
+      "approved": true,
+      "evidence": "中国气象局于10月14日10时进入重大气象灾害(暴雨)四级应急响应状态",
+      "reason": "主事件是中国气象局启动暴雨应急响应，属于社会与法治（应急管理）。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-13/fed-s-lisa-cook-puts-off-white-house-hearing-over-trump-s-allegations",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-lisa-cook-puts-off-white-house-hearing-over-trump-s-allegations",
+      "original_title": "Fed’s Lisa Cook Puts Off White House Hearing Over Trump’s Allegations",
+      "original_summary": "Federal Reserve Governor Lisa Cook says she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations by President Donald Trump.",
+      "topic_evidence": "she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations",
+      "approved": true,
+      "evidence": "she will be unable to attend a Nov. 5 hearing at the White House that’s part of a new investigation into mortgage fraud allegations",
+      "reason": "主事件是美联储理事推迟白宫听证会，涉及金融监管调查，属于理财与监管。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95",
+      "approved": true,
+      "evidence": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "reason": "主事件是个人退休理财咨询，属于理财与监管。"
+    },
+    {
+      "id": "opinion/business-society/https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+      "original_title": "The United Kingdom generates less electricity per person than in the 1970s",
+      "original_summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 247 # Comments: 335",
+      "topic_evidence": "The United Kingdom generates less electricity per person than in the 1970s",
+      "approved": true,
+      "evidence": "The United Kingdom generates less electricity per person than in the 1970s",
+      "reason": "主事件是基于数据的英国人均发电量趋势分析，属于商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/index/higgsfield-longer-videos-voice"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://www.producthunt.com/products/opencode"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://www.producthunt.com/products/the-drive-ai-2"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-14/10714248.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-14/10714265.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-lisa-cook-puts-off-white-house-hearing-over-trump-s-allegations"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes"
+    ],
+    [
+      "startup-product",
+      "startup-strategy",
+      "https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/world/2026/oct/13/mexico-hurricane-simon-tropical-storm-rachel-kill-five-pacific-coast"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

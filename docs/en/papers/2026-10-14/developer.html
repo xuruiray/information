@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-14</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261014</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 14, 2026 · Wednesday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-14/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">9 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Python 3.15, Source Control, and AI Infrastructure">
+      <div class="lead-label">Developer &amp; Programming: Python 3.15, Source Control, and AI Infrastructure</div>
+      <p>Covers the Python 3.15 release and profiling practice, Anthropic&#39;s custom Git alternative, GitHub&#39;s secret detection model, Vercel&#39;s faster checkout, web-edit performance optimizations, and Meta&#39;s open networking at OCP Summit, Media over QUIC for Instagram Live ingest, and using opportunistic AI inference capacity for ads recommendations.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>2 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Python 3.15 Released, Profiling web-edit">
+          <div class="lead-label">Python 3.15 Released, Profiling web-edit</div>
+          <p>Python 3.15 is released with a What&#39;s New guide curated by release manager Hugo van Kemenade, and the author moves from Python 3.10 to 3.11 features; the author then uses Python 3.15&#39;s new profiler, having GPT-6 Astra Extra High in Codex profile the web-edit app to produce flame graphs and source heatmaps.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/python-3-15" target="_blank" rel="noopener">
+            <span class="at">Hello Python 3.15, goodbye 3.10, and now I can use 3.11</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Python 3.15 is released, with a What&#39;s New guide curated by release manager Hugo van Kemenade. The author says goodbye to Python 3.10 and begins adopting Python 3.11 features.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling" target="_blank" rel="noopener">
+            <span class="at">Profiling web-edit with Python 3.15: flame graphs and source heatmaps</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">The author uses Python 3.15&#39;s new profiler, having GPT-6 Astra Extra High in Codex run it against the web-edit app to produce flame graph and source heatmap demos.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Source Control and Tool Updates: Anthropic, GitHub, Vercel, web-edit">
+          <div class="lead-label">Source Control and Tool Updates: Anthropic, GitHub, Vercel, web-edit</div>
+          <p>Anthropic built a custom Git alternative after its code change rate surged (about 2,500 merged changes per day in May to over 30,000 by September); GitHub introduced a context-aware secret classifier raising weighted acceptance by 11.5% and cutting median scan time by 86%; Vercel sped up repository checkout and Git LFS downloads, reducing average preparation time 20% on multi-vCPU build machines and 54% for LFS projects; web-edit 0.1a1 shipped with optimizations written by Claude Opus 5.5 from a GPT-6 Astra-generated Python 3.15 profiling report.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic" target="_blank" rel="noopener">
+            <span class="at">Redesigning source control at Anthropic</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Anthropic describes why and how it built a custom alternative to Git, driven by a surge in code change rate: from about 2,500 merged changes per day in May 2026 to over 30,000 by September.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise" target="_blank" rel="noopener">
+            <span class="at">GitHub&#39;s model for secret detection: Finding more secrets with less noise</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub introduces a context-aware secret classifier that improves detection quality, raises weighted acceptance by 11.5%, and cuts median scan execution time by 86%.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster" target="_blank" rel="noopener">
+            <span class="at">Repository checkout and Git LFS downloads are now faster</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel speeds up repository checkout and Git LFS downloads, reducing project file preparation time before builds. On multi-vCPU build machines, average preparation time fell 20%, and 54% for LFS-enabled projects.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/13/web-edit" target="_blank" rel="noopener">
+            <span class="at">web-edit 0.1a1</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">web-edit 0.1a1 is released with performance optimizations written by Claude Opus 5.5, after the author fed it a Python 3.15 profiling report generated by GPT-6 Astra.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Meta Open Networking, MoQ Live Ingest, and Opportunistic Inference Capacity">
+          <div class="lead-label">Meta Open Networking, MoQ Live Ingest, and Opportunistic Inference Capacity</div>
+          <p>At the 2026 OCP Global Summit, Meta presented next-generation open networking infrastructure including liquid-cooled network rack IcePack, 102.4T switch IceCube, Flattened Planar Fabric, and MetaRoCE; Meta began deploying Media over QUIC (MoQ) for Instagram Live ingest; Meta also built a system using opportunistic AI inference capacity to enhance ads recommendations, expanding workloads via two elasticity levers without compromising baseline performance.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks" target="_blank" rel="noopener">
+            <span class="at">OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">At the 2026 OCP Global Summit, Meta shares next-generation open networking infrastructure, including liquid-cooled network rack IcePack, 102.4T switch IceCube, Flattened Planar Fabric, and MetaRoCE.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest" target="_blank" rel="noopener">
+            <span class="at">Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta begins deploying Media over QUIC (MoQ) protocol for large-scale real-time video streaming. It aims to simplify live streaming protocol stack and improve experience, with Meta sharing its Instagram Live ingest implementation.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations" target="_blank" rel="noopener">
+            <span class="at">Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta built a system that enhances ads recommendations by leveraging idle inference capacity in its fleet. Two elasticity levers allow ads recommendation work to expand across opportunistic capacity without compromising baseline performance.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

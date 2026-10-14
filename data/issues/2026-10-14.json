@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "title": "信息日报 2026-10-14",
+  "title_en": "Information Daily 2026-10-14",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Gemini 4 Argon 现已上线 AI Gateway",
+    "url": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+    "source": "Vercel 博客",
+    "summary": "Google 的 Gemini 4 Argon 模型现已在 AI Gateway 上线。它专为编码、代理任务和复杂推理设计，具备 100 万 token 上下文窗口，支持文本、图像、PDF 和视频输入，并支持工具调用。",
+    "source_en": "Vercel Blog",
+    "title_en": "Gemini 4 Argon now available on AI Gateway",
+    "summary_en": "Google's Gemini 4 Argon model is now available on AI Gateway. It is built for coding, agentic work, and complex reasoning, with a 1M token context window, multimodal input (text, image, PDF, video), and tool calling.",
+    "original_title": "Gemini 4 Argon now available on AI Gateway",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "reason": "报道 Google 新模型 Gemini 4 Argon 上线 AI Gateway，包含模型能力与上下文窗口等具体信息，属于前沿模型发布。",
+    "reason_en": "Reports the availability of Google's new Gemini 4 Argon model on AI Gateway, with specific capabilities and context window details, relevant to frontier models.",
+    "score": 5.9
+  },
+  "path": "papers/2026-10-14.html",
+  "raw_path": "raw/2026-10-14.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-research-governance: topic evidence does not match subsection [https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache]"
+  ]
+}
