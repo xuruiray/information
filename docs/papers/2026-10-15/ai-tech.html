@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI 与大模型 · 信息日报 2026-10-15</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261015 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月15日 星期四</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-15/ai-tech.html">English</a>
+      <a href="ai-tech.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html" aria-current="page">01 AI 与大模型</a>
+      <a href="developer.html">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI 与大模型</h2>
+      <span class="ed">12 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：自我改进智能体、产品化落地与研究治理并进">
+      <div class="lead-label">AI 与大模型：自我改进智能体、产品化落地与研究治理并进</div>
+      <p>本版汇总 AI 与大模型领域的最新论文与产品动态：前沿模型侧，ClawLoop、Harness^2 探索 LLM 智能体通过框架原生训练循环和递归执行框架自我改进，Echo 用误差补偿的 4 比特张量并行通信降低 all-reduce 开销，另有研究检验 LLM 能否调用世界知识进行事件预测；AI 产品与平台侧，Amp 借助 OpenAI 模型把智能体从编码扩展到更广泛任务，Apate 派智能体卧底被骗以收集欺诈情报，Floqer 用智能体替 B2B 收入团队调研销售线索；研究与治理侧，覆盖面向超级智能的 LLM 参照 C 测试、Long-Horizon-Terminal-Bench 2.0、多元对齐的福利感知偏好获取、智能体数据科学中的静默失败，以及开放权重模型在 CTI-REALM 上的无约束评测。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>前沿模型</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：智能体自我改进、通信优化与事件预测">
+          <div class="lead-label">前沿模型：智能体自我改进、通信优化与事件预测</div>
+          <p>前沿模型小版聚焦四项 arXiv 论文。ClawLoop 让基于 LLM 的智能体在沙盒工作区中通过框架原生训练循环自我改进，以更好使用文件系统和 shell 等工具；Harness^2 用递归自我改进自动演化 LLM 智能体的执行框架，并讨论开放世界任务中的两大挑战；Echo 通过误差补偿的 4 比特张量并行通信降低 LLM 训练与推理中的 all-reduce 开销，缓解互连带宽瓶颈；另有论文探讨 LLM 是否真的无法访问预训练世界知识来预测事件，还是现有方法未能有效呈现事件预测任务。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.14118" target="_blank" rel="noopener">
+            <span class="at">ClawLoop：通过执行框架原生训练循环实现自我改进智能体</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出 ClawLoop，让基于 LLM 的智能体在沙盒工作区中通过框架原生训练循环自我改进，以更好使用文件系统和 shell 等工具。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14224" target="_blank" rel="noopener">
+            <span class="at">Harness^2：面向开放世界的递归智能体执行框架</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出 Harness^2，用递归自我改进自动演化 LLM 智能体的执行框架，并讨论开放世界任务中的两大挑战。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14277" target="_blank" rel="noopener">
+            <span class="at">Echo：面向 LLM 训练与推理的误差补偿 4 比特张量并行通信</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出 Echo，通过误差补偿的 4 比特张量并行通信降低 LLM 训练与推理中 all-reduce 开销，缓解互连带宽瓶颈。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.19021" target="_blank" rel="noopener">
+            <span class="at">LLM 能否调用世界知识进行事件预测？</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文探讨 LLM 是否真的无法访问其预训练世界知识来预测事件，还是现有方法未能有效呈现事件预测任务，导致其表现不如专用模型。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI 产品与平台</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：智能体从编码走向反欺诈与销售调研">
+          <div class="lead-label">AI 产品与平台：智能体从编码走向反欺诈与销售调研</div>
+          <p>AI 产品与平台小版收录三项动态。OpenAI 介绍 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录，把 AI 智能体从编码扩展到更广泛任务；Apate.ai 将 AI 智能体派去主动接触诈骗者并“被骗”，以收集欺诈情报，而非像多数公司那样用智能体加快产品交付或工作流；Floqer 让 AI 智能体自动研究销售潜在客户，帮助 B2B 收入团队减少客户调研工作量，解决销售和收入运营中的常见问题。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://openai.com/index/amp-beyond-coding" target="_blank" rel="noopener">
+            <span class="at">Amp 借助 OpenAI 模型让 AI 智能体超越编码</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI 介绍 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录，把 AI 智能体从编码扩展到更广泛任务。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence" target="_blank" rel="noopener">
+            <span class="at">Apate 派 AI 智能体卧底被骗以收集欺诈情报</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Apate.ai 将 AI 智能体派去主动接触诈骗者并“被骗”，以收集欺诈情报，而非像多数公司那样用智能体加快产品交付或工作流。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers" target="_blank" rel="noopener">
+            <span class="at">Floqer 的 AI 智能体替 B2B 收入团队调研销售线索</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Floqer 让 AI 智能体自动研究销售潜在客户，帮助 B2B 收入团队减少客户调研工作量，解决销售和收入运营中的常见问题。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>研究与治理</h3>
+          <span>5 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：超级智能测试、长时程基准与多元对齐">
+          <div class="lead-label">研究与治理：超级智能测试、长时程基准与多元对齐</div>
+          <p>研究与治理小版汇总五项 arXiv 论文。一项研究提出以 LLM 为参照的 C 测试，用于评估可能超越现有系统与测试设计者的机器，避免基准因难度校准而循环或迅速饱和；Long-Horizon-Terminal-Bench 2.0 扩展长时程终端基准，保留原有 46 个任务并自动化构建多样任务，用过程奖励衡量智能体能否持续取得进展；还有论文研究在有限人类反馈下，如何用 AI 模拟器标注偏好比较并考虑不同个体模拟准确度差异，使多元偏好在对齐训练中得到更公平代表；另有论文关注 LLM 数据科学智能体从任务表述到模型开发中的评估问题，指出仅看最终结果会忽略过程中的静默失败；最后一项在 CTI-REALM 基准上比较开放权重模型与昂贵闭源前沿模型，研究组织为安全任务选择可自行运行和审计的语言模型智能体时的权衡。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.14005" target="_blank" rel="noopener">
+            <span class="at">人工性首考：一种面向超级智能的 LLM 参照 C 测试</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出一种以 LLM 为参照的 C 测试，用于评估可能超越现有系统与测试设计者的机器，避免基准因难度校准而循环或迅速饱和。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14146" target="_blank" rel="noopener">
+            <span class="at">Long-Horizon-Terminal-Bench 2.0：自动化多样任务构建并衡量智能体持续进展</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文发布 LHTB 2.0，扩展长时程终端基准，保留原有 46 个任务并自动化构建多样任务，用过程奖励衡量智能体能否持续取得进展。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.19035" target="_blank" rel="noopener">
+            <span class="at">我们该更听谁的？面向多元对齐的福利感知偏好获取</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">论文研究在有限人类反馈下，如何用 AI 模拟器标注偏好比较并考虑不同个体模拟准确度差异，使多元偏好在对齐训练中得到更公平代表。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14115" target="_blank" rel="noopener">
+            <span class="at">智能体数据科学中的静默失败</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文关注 LLM 数据科学智能体在从任务表述到模型开发中的评估问题，指出仅看最终结果会忽略过程中的静默失败。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14180" target="_blank" rel="noopener">
+            <span class="at">开放权重模型在 CTI-REALM 上的无约束评测</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文在 CTI-REALM 基准上比较开放权重模型与昂贵闭源前沿模型，研究组织为安全任务选择可自行运行和审计的语言模型智能体时的权衡。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

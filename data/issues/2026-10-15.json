@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-15",
+  "title": "信息日报 2026-10-15",
+  "title_en": "Information Daily 2026-10-15",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "芯片股溃败加深全球股市抛售，美债因避险需求上涨",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
+    "source": "彭博市场",
+    "summary": "全球股市抛售加剧，华尔街和亚洲芯片股暴跌，进一步逆转今年人工智能交易的火爆涨势。美债因避险需求上涨，美元走弱。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap",
+    "summary_en": "A global equity selloff deepened as chip stocks plunged on Wall Street and in Asia, further unwinding this year’s AI trade rally. Treasuries gained on haven demand, while the dollar weakened.",
+    "original_title": "Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap",
+    "published_at": "2026-10-14T22:04:59+00:00",
+    "reason": "彭博市场综述报道全球芯片股抛售加深，美债上涨，美元走弱，全面反映当日市场变化。",
+    "reason_en": "Bloomberg market wrap covers global chip rout deepening, Treasury rally on haven demand, and dollar weakness.",
+    "score": 7.0
+  },
+  "path": "papers/2026-10-15.html",
+  "raw_path": "raw/2026-10-15.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in startup-product/startup-strategy: topic evidence does not match subsection [https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-15/10714850.shtml]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-15/10714859.shtml]"
+  ]
+}

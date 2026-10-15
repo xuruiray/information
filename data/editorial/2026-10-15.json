@@ -1,0 +1,2209 @@
+{
+  "date": "2026-10-15",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.14118",
+              "title": "ClawLoop：通过执行框架原生训练循环实现自我改进智能体",
+              "summary": "论文提出 ClawLoop，让基于 LLM 的智能体在沙盒工作区中通过框架原生训练循环自我改进，以更好使用文件系统和 shell 等工具。",
+              "title_en": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+              "summary_en": "ClawLoop introduces a harness-native training loop for LLM agents to self-improve in sandbox workspaces while interacting with file systems and shells.",
+              "topic_evidence": "Self-Improving Agents via Harness-Native Training Loop",
+              "reason": "聚焦 LLM 智能体自我改进训练方法，属前沿模型。",
+              "reason_en": "Focuses on self-improving LLM agent training methods, fitting frontier models.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.14224",
+              "title": "Harness^2：面向开放世界的递归智能体执行框架",
+              "summary": "论文提出 Harness^2，用递归自我改进自动演化 LLM 智能体的执行框架，并讨论开放世界任务中的两大挑战。",
+              "title_en": "Harness^2: Recursive Agent Harnessing for an Open World",
+              "summary_en": "Harness^2 proposes recursive self-improvement to automatically evolve execution harnesses for LLM agents, addressing two challenges in open-world settings.",
+              "topic_evidence": "Recursive Agent Harnessing for an Open World",
+              "reason": "研究 LLM 智能体执行框架的递归自我改进，属前沿模型。",
+              "reason_en": "Examines recursive self-improvement of LLM agent harnesses, fitting frontier models.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.14277",
+              "title": "Echo：面向 LLM 训练与推理的误差补偿 4 比特张量并行通信",
+              "summary": "论文提出 Echo，通过误差补偿的 4 比特张量并行通信降低 LLM 训练与推理中 all-reduce 开销，缓解互连带宽瓶颈。",
+              "title_en": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+              "summary_en": "Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs in LLM training and inference, easing interconnect bandwidth bottlenecks.",
+              "topic_evidence": "Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+              "reason": "针对 LLM 训练与推理的通信优化，属前沿模型基础设施。",
+              "reason_en": "Targets LLM training and inference communication optimization, fitting frontier model infrastructure.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.19021",
+              "title": "LLM 能否调用世界知识进行事件预测？",
+              "summary": "论文探讨 LLM 是否真的无法访问其预训练世界知识来预测事件，还是现有方法未能有效呈现事件预测任务，导致其表现不如专用模型。",
+              "title_en": "Can LLMs Access their World Knowledge for Event Prediction?",
+              "summary_en": "The paper asks whether LLMs can access pretrained world knowledge for temporal event prediction, or whether current methods fail to present the task effectively.",
+              "topic_evidence": "Can LLMs Access their World Knowledge for Event Prediction?",
+              "reason": "研究 LLM 世界知识与事件预测能力，属前沿模型。",
+              "reason_en": "Studies LLM world knowledge and event prediction capability, fitting frontier models.",
+              "score": 6.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://openai.com/index/amp-beyond-coding",
+              "title": "Amp 借助 OpenAI 模型让 AI 智能体超越编码",
+              "summary": "OpenAI 介绍 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录，把 AI 智能体从编码扩展到更广泛任务。",
+              "title_en": "Amp puts AI agents to work beyond code with OpenAI models",
+              "summary_en": "OpenAI details how Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding tasks.",
+              "topic_evidence": "Amp puts AI agents to work beyond code with OpenAI models",
+              "reason": "介绍 AI 智能体产品与 OpenAI 模型集成，属 AI 产品与平台。",
+              "reason_en": "Covers an AI agent product using OpenAI models, fitting AI products and platforms.",
+              "score": 7.2
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+              "title": "Apate 派 AI 智能体卧底被骗以收集欺诈情报",
+              "summary": "Apate.ai 将 AI 智能体派去主动接触诈骗者并“被骗”，以收集欺诈情报，而非像多数公司那样用智能体加快产品交付或工作流。",
+              "title_en": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+              "summary_en": "Apate.ai sends AI agents undercover to engage scammers and get scammed, gathering fraud intelligence instead of speeding up products or workflows.",
+              "topic_evidence": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+              "reason": "报道 AI 智能体在反欺诈场景的产品化应用，属 AI 产品与平台。",
+              "reason_en": "Reports a productized AI agent application for anti-fraud intelligence, fitting AI products and platforms.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+              "title": "Floqer 的 AI 智能体替 B2B 收入团队调研销售线索",
+              "summary": "Floqer 让 AI 智能体自动研究销售潜在客户，帮助 B2B 收入团队减少客户调研工作量，解决销售和收入运营中的常见问题。",
+              "title_en": "Floqer’s AI agents research sales prospects so teams don’t have to",
+              "summary_en": "Floqer uses AI agents to research sales prospects automatically, reducing customer research work for B2B revenue teams and addressing a common sales operations problem.",
+              "topic_evidence": "Floqer’s AI agents research sales prospects so teams don’t have to",
+              "reason": "介绍面向 B2B 销售的 AI 智能体产品，属 AI 产品与平台。",
+              "reason_en": "Introduces an AI agent product for B2B sales research, fitting AI products and platforms.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.14005",
+              "title": "人工性首考：一种面向超级智能的 LLM 参照 C 测试",
+              "summary": "论文提出一种以 LLM 为参照的 C 测试，用于评估可能超越现有系统与测试设计者的机器，避免基准因难度校准而循环或迅速饱和。",
+              "title_en": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+              "summary_en": "The paper proposes an LLM-referenced C-test to evaluate machines that may surpass current systems and test designers, avoiding benchmarks that become circular or saturate quickly.",
+              "topic_evidence": "An LLM-Referenced C-test for Supraintelligence",
+              "reason": "直接讨论超级智能评估基准设计，属研究与治理。",
+              "reason_en": "Directly addresses superintelligence evaluation benchmark design, fitting research and governance.",
+              "score": 8.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.14146",
+              "title": "Long-Horizon-Terminal-Bench 2.0：自动化多样任务构建并衡量智能体持续进展",
+              "summary": "论文发布 LHTB 2.0，扩展长时程终端基准，保留原有 46 个任务并自动化构建多样任务，用过程奖励衡量智能体能否持续取得进展。",
+              "title_en": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+              "summary_en": "LHTB 2.0 extends a long-horizon terminal benchmark with automated diverse task construction, using process rewards to measure whether agents sustain progress through workflows.",
+              "topic_evidence": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+              "reason": "提出并扩展智能体长时程评测基准，属研究与治理。",
+              "reason_en": "Presents and extends a long-horizon agent benchmark, fitting research and governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.19035",
+              "title": "我们该更听谁的？面向多元对齐的福利感知偏好获取",
+              "summary": "论文研究在有限人类反馈下，如何用 AI 模拟器标注偏好比较并考虑不同个体模拟准确度差异，使多元偏好在对齐训练中得到更公平代表。",
+              "title_en": "Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment",
+              "summary_en": "The paper studies welfare-aware preference acquisition for pluralistic alignment, using AI simulators while accounting for varying simulation accuracy so diverse preferences are better represented.",
+              "topic_evidence": "Welfare-Aware Preference Acquisition for Pluralistic Alignment",
+              "reason": "讨论多元对齐与偏好获取方法，属 AI 研究与治理。",
+              "reason_en": "Discusses pluralistic alignment and preference acquisition methods, fitting AI research and governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.14115",
+              "title": "智能体数据科学中的静默失败",
+              "summary": "论文关注 LLM 数据科学智能体在从任务表述到模型开发中的评估问题，指出仅看最终结果会忽略过程中的静默失败。",
+              "title_en": "The Silent Failures in Agentic Data Science",
+              "summary_en": "The paper examines evaluation of LLM data science agents from task formulation to model development, arguing that final outcomes alone miss silent failures in the process.",
+              "topic_evidence": "The Silent Failures in Agentic Data Science",
+              "reason": "研究智能体数据科学的评估失败模式，属研究与治理。",
+              "reason_en": "Studies evaluation failure modes in agentic data science, fitting research and governance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.14180",
+              "title": "开放权重模型在 CTI-REALM 上的无约束评测",
+              "summary": "论文在 CTI-REALM 基准上比较开放权重模型与昂贵闭源前沿模型，研究组织为安全任务选择可自行运行和审计的语言模型智能体时的权衡。",
+              "title_en": "Unconstrained CTI-REALM with Open-Weights",
+              "summary_en": "The paper compares open-weight models with expensive closed frontier models on the CTI-REALM benchmark, studying trade-offs for organizations choosing auditable language-model agents for security work.",
+              "topic_evidence": "Unconstrained CTI-REALM with Open-Weights",
+              "reason": "比较开放权重与闭源模型在安全智能体任务上的表现，属研究与治理。",
+              "reason_en": "Compares open-weight and closed models for security agent tasks, fitting research and governance.",
+              "score": 6.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+              "title": "Tree Appreciator：用 Claude 构建 Three.js 树木欣赏游戏",
+              "summary": "Simon Willison 用默认 Claude iPhone 应用提示 Claude Opus 5.5 Max，构建名为 Tree Appreciator 的 Three.js 游戏，展示两棵算法生成的树，玩法是欣赏它们之间的差异。",
+              "title_en": "Tree Appreciator",
+              "summary_en": "Simon Willison prompted Claude Opus 5.5 Max in the default Claude iPhone app to build a Three.js game called Tree Appreciator, which shows two algorithmically generated trees and asks players to appreciate their differences.",
+              "topic_evidence": "Build a three js game called",
+              "reason": "用 Three.js 构建游戏，涉及 JavaScript 前端开发，归入语言与框架小版。",
+              "reason_en": "A Three.js game built via a prompt, involving JavaScript frontend development; fits languages and frameworks.",
+              "score": 6.1
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://petal.live/",
+              "title": "Show HN：Petal，开源 CoScreen/ScreenHero 替代工具终于免费",
+              "summary": "CoScreen 原创团队的四名成员在 Datadog 于 7 月 31 日停服后，推出免费开源配对编程工具 Petal，灵感来自 CoScreen 和 ScreenHero，旨在延续实时协作编程。",
+              "title_en": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+              "summary_en": "Four former CoScreen team members launched Petal, a free open-source pair programming tool, after Datadog sunset the CoScreen service on July 31. The tool is inspired by CoScreen and ScreenHero.",
+              "topic_evidence": "open source pair programming tool",
+              "reason": "开源配对编程工具发布，由已停服 CoScreen 原团队推出，直接对应开源与工具小版。",
+              "reason_en": "An open-source pair programming tool from the original CoScreen team, fitting the open-source tools subsection.",
+              "score": 6.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+              "title": "从 2500 次请求到 24 次：GitHub 重建不带 stargazers 的星标历史",
+              "summary": "GitHub 新仓库星标历史 API 提供趋势数据，但不返回个人身份，也无需无限数据库查询；官方披露将请求量从 2500 次降至 24 次的工程权衡。",
+              "title_en": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+              "summary_en": "GitHub's new repo star history API provides trend data without returning individual identities or requiring unbounded database work; GitHub details the engineering tradeoffs that cut requests from 2,500 to 24.",
+              "topic_evidence": "From 2,500 requests to 24",
+              "reason": "GitHub 工程博客披露星标历史 API 的性能与数据设计权衡，属于基础设施与数据。",
+              "reason_en": "GitHub engineering blog details API performance and data design tradeoffs for star history, fitting infrastructure and data.",
+              "score": 6.0
+            },
+            {
+              "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026",
+              "title": "GitHub 2026 年 9 月可用性报告：两起事件导致服务性能下降",
+              "summary": "GitHub 发布 2026 年 9 月可用性报告，称当月发生两起事件，导致 GitHub 多项服务出现性能下降。",
+              "title_en": "GitHub availability report: September 2026",
+              "summary_en": "GitHub's September 2026 availability report says the company experienced two incidents that resulted in degraded performance across GitHub services during the month.",
+              "topic_evidence": "two incidents that resulted in degraded performance across GitHub services",
+              "reason": "GitHub 可用性报告涉及服务可靠性和基础设施运行，属于基础设施与数据。",
+              "reason_en": "A GitHub availability report on service reliability and infrastructure operations, fitting infrastructure and data.",
+              "score": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon",
+              "title": "NASA研发电池为人类重返月球供电",
+              "summary": "NASA研究人员正开发能在月球南极严寒环境中工作的电池；当地夜间温度可降至极低，普通电池难以承受。该技术旨在为未来月球任务提供电力。",
+              "title_en": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+              "summary_en": "NASA researchers are developing batteries that can work in the brutal cold of the Moon's South Pole, where nighttime temperatures plunge very low, to power future lunar missions.",
+              "topic_evidence": "NASA researchers are working to develop a battery that could function in the brutal cold of the Moon’s South Pole",
+              "reason": "涉及航天任务供电与极端低温电池研发，归属航天能源与机器人。",
+              "reason_en": "Covers battery development for lunar missions in extreme cold, fitting space energy and robotics.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261013015805.htm",
+              "title": "科学家揭示部分运动恢复方法为何适得其反",
+              "summary": "冰浴、按摩、压缩衣和恢复补剂常被宣称能加速肌肉恢复，但研究显示其效果常被夸大，部分方法甚至可能削弱长期训练收益；睡眠充足、饮食良好和给肌肉恢复时间才是更有效也更便宜的做法。",
+              "title_en": "Scientists reveal why some workout recovery tricks can backfire",
+              "summary_en": "Ice baths, massage, compression garments and recovery supplements are often promoted for faster muscle recovery, but research suggests benefits are overstated and some may undermine long-term gains; sleep, nutrition and rest are simpler and cheaper.",
+              "topic_evidence": "some workout recovery tricks can backfire",
+              "reason": "该文报道科学研究对常见运动恢复手段效果的评估，属于健康与医学研究，适合科学研究小版。",
+              "reason_en": "Reports a scientific assessment of common workout recovery methods, fitting health and medicine research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261013015811.htm",
+              "title": "成年后运动更轻松的秘密可能始于童年",
+              "summary": "一项以珍珠鸡为对象的研究发现，成长期间习惯负重活动的鸟成年后承受同样负重时不需额外消耗能量，而未受训练的鸟耗能高出23%。这提示童年运动可能带来终身代谢益处。",
+              "title_en": "The secret to easier exercise as an adult may start in childhood",
+              "summary_en": "A study with guinea fowl found birds accustomed to carrying weights while growing up could carry them as adults without extra energy, while untrained birds burned 23% more, suggesting childhood exercise may have lifelong metabolic benefits.",
+              "topic_evidence": "untrained birds burned 23% more",
+              "reason": "基于动物实验的运动生理研究，揭示童年运动对成年能量消耗的长期影响。",
+              "reason_en": "Animal-study exercise physiology research on long-term effects of childhood activity.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+              "title": "被遗忘的化石揭示一种长巨爪的可怕恐龙",
+              "summary": "一块被遗忘近百年、距今约1.2亿年的化石揭示了一种新恐龙。这种老虎大小的掠食者长有巨爪，是欧洲首次发现的大盗龙类证据，有助于解释该类群如何演化成巨型猎手。",
+              "title_en": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+              "summary_en": "A 120-million-year-old fossil forgotten in a museum for nearly a century reveals a new tiger-sized dinosaur with giant claws, the first evidence of megaraptorans in Europe, helping explain how these dinosaurs became giant hunters.",
+              "topic_evidence": "first evidence of megaraptorans in Europe",
+              "reason": "古生物学新发现，直接属于科学研究。",
+              "reason_en": "A new paleontology discovery, directly fitting scientific research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261013015801.htm",
+              "title": "康奈尔科学家在两只异常长腿的猫中发现罕见人类遗传病",
+              "summary": "两只异常长腿的猫帮助康奈尔大学研究人员首次在家猫中基因确诊马凡综合征。这对猫兄弟携带与该结缔组织疾病相关的两个变异基因拷贝，该病可影响眼睛、心脏和血管。",
+              "title_en": "Cornell scientists identify rare human genetic disorder in two unusually long-legged cats",
+              "summary_en": "Two unusually long-legged cats helped Cornell University researchers uncover the first genetically confirmed cases of Marfan syndrome in domestic felines; the brothers carried two altered copies of a gene linked to the connective tissue disorder.",
+              "topic_evidence": "first genetically confirmed cases of Marfan syndrome in domestic felines",
+              "reason": "遗传学与兽医学研究，揭示猫中的人类相关遗传病。",
+              "reason_en": "Genetics and veterinary research revealing a human-related genetic disorder in cats.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts",
+              "title": "Colossal Biosciences 发布新 AI 平台，助力加速去灭绝进程",
+              "summary": "Colossal Biosciences 宣布推出新 AI 平台，旨在加速其去灭绝研究。同时，Peter Diamandis 成立新基金，投资使用该平台的初创公司。",
+              "title_en": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
+              "summary_en": "Colossal Biosciences announced a new AI platform to accelerate de-extinction efforts, and Peter Diamandis launched a new fund to back startups using it.",
+              "topic_evidence": "Colossal announced a new AI platform to help accelerate its de-extinction efforts",
+              "reason": "报道 Colossal 推出新 AI 平台，属于新产品发布，符合“新产品与增长”小版。",
+              "reason_en": "Reports Colossal's new AI platform launch, fitting the \"New Products & Growth\" subsection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine",
+              "title": "TimeTeller 推出唾液检测试剂盒，聚焦个性化医疗",
+              "summary": "德国初创公司 TimeTeller 开发了一款唾液检测试剂盒，帮助用户了解自身昼夜节律，旨在减少癌症治疗的副作用。",
+              "title_en": "TimeTeller puts our internal clocks at the center of personalized medicine",
+              "summary_en": "German startup TimeTeller has developed a saliva test kit to help people understand their circadian rhythm, aiming to reduce side effects from cancer treatments.",
+              "topic_evidence": "German startup TimeTeller has developed a saliva test kit",
+              "reason": "介绍 TimeTeller 开发的新产品唾液检测试剂盒，属于新产品发布，符合“新产品与增长”小版。",
+              "reason_en": "Introduces TimeTeller's new saliva test kit product, fitting the \"New Products & Growth\" subsection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear",
+              "title": "Hiyd 推出可附着在现有手表上的健康追踪器",
+              "summary": "前苹果工程师开发出 Hiyd 健康追踪器，无需磁铁或粘合剂即可将生物传感器附着在用户已有的手表上。",
+              "title_en": "Hiyd is a health tracker that attaches to the watch you already wear",
+              "summary_en": "Former Apple engineers developed Hiyd, a health tracker that attaches a biometric sensor to your existing watch without magnets or adhesives.",
+              "topic_evidence": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+              "reason": "介绍 Hiyd 这款新产品健康追踪器，属于新产品发布，符合“新产品与增长”小版。",
+              "reason_en": "Introduces the new Hiyd health tracker product, fitting the \"New Products & Growth\" subsection.",
+              "score": 2.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network",
+              "title": "Mosqitter 将灭蚊陷阱升级为 AI 监控网络",
+              "summary": "Mosqitter 将其灭蚊硬件转变为 AI 驱动的监控网络，用于识别蚊虫种类、监测种群数量，并提前预警蚊媒疾病风险。",
+              "title_en": "Mosqitter is turning its mosquito traps into an AI-powered surveillance network",
+              "summary_en": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",
+              "topic_evidence": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network",
+              "reason": "报道 Mosqitter 将现有硬件升级为 AI 监控网络，属于产品功能更新，符合“新产品与增长”小版。",
+              "reason_en": "Reports Mosqitter's upgrade of its hardware into an AI surveillance network, fitting the \"New Products & Growth\" subsection.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals",
+              "title": "Intero Biosystems 希望制药商用人造迷你肠道替代动物测试",
+              "summary": "Intero Biosystems 向制药商出售实验室培育的人体肠道，以替代动物测试，同时扩大生产并扩展类器官技术。",
+              "title_en": "Intero Biosystems wants drugmakers to test on mini human intestines, not animals",
+              "summary_en": "Intero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while scaling production and expanding its organoid technology.",
+              "topic_evidence": "Intero Biosystems is selling lab-grown human intestines to drugmakers",
+              "reason": "介绍 Intero Biosystems 的商业模式：向制药商出售实验室培育肠道，符合“商业模式”小版。",
+              "reason_en": "Describes Intero Biosystems' business model of selling lab-grown intestines to drugmakers, fitting the \"Business Model\" subsection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house",
+              "title": "Prismm 帮助银行将继承资金留在内部",
+              "summary": "通过 Prismm，账户持有人可以提前让指定家庭成员访问其账户和文件，帮助银行留住继承资金。",
+              "title_en": "Prismm helps banks keep inherited money in-house",
+              "summary_en": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time, helping banks keep inherited money in-house.",
+              "topic_evidence": "Prismm helps banks keep inherited money in-house",
+              "reason": "介绍 Prismm 这一面向银行的商业模式工具，帮助银行留住继承资金，符合“商业模式”小版。",
+              "reason_en": "Introduces Prismm, a business model tool for banks to retain inherited assets, fitting the \"Business Model\" subsection.",
+              "score": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+              "title": "马斯克称美国政府可能参与限制乌克兰无人机速度",
+              "summary": "马斯克表示，美国政府可能介入导致乌克兰无人机速度被限制。乌克兰称星链访问已改善，但仍面临速度限制，干扰其战场任务。",
+              "title_en": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+              "summary_en": "Musk says the US government may be behind slowdown of Ukraine drone speeds. Ukraine says Starlink access has improved but speed limits still disrupt battlefield \"missions\".",
+              "topic_evidence": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+              "reason": "涉及乌克兰战争中的星链通信与无人机作战，以及美国可能介入，属于地缘与安全。",
+              "reason_en": "Involves Starlink communications and drone operations in the Ukraine war, with possible US government involvement, fitting geopolitics/security.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
+              "title": "朝鲜试射两枚潜射导弹，官方媒体称展示战争威慑力",
+              "summary": "朝鲜官方媒体KCNA报道，朝鲜试射了两枚潜射弹道导弹，并称此举展示该国在地区的战争威慑能力。",
+              "title_en": "North Korea tests two submarine-launched missiles, state media reports",
+              "summary_en": "North Korea tested two submarine-launched missiles, state media KCNA reported, saying the tests showcase the country's war deterrent capabilities in the region.",
+              "topic_evidence": "North Korea tests two submarine-launched missiles, state media reports",
+              "reason": "朝鲜进行潜射导弹试验，直接涉及地区安全与军事威慑，属于地缘与安全。",
+              "reason_en": "North Korea's submarine-launched missile test directly concerns regional security and military deterrence, fitting geopolitics.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
+              "title": "报告称英国对华政策“缺乏连贯性”且专业人才不足",
+              "summary": "对华鹰派议员组成的国际联盟发布报告，警告英国对华政策“缺乏连贯性”且缺少高级专业人才，可能误判双边关系。",
+              "title_en": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
+              "summary_en": "A report by an international alliance of China-sceptic legislators warns that the UK’s approach to China is “beset by incoherence” and lacks senior expertise, risking misjudgment of bilateral ties.",
+              "topic_evidence": "UK’s ‘incoherent’ approach to China plagued by lack of expertise",
+              "reason": "涉及英国对华外交政策评估与双边关系风险，属于地缘与安全中的外交议题。",
+              "reason_en": "Concerns UK foreign policy toward China and risks of misjudging bilateral relations, fitting geopolitics/diplomacy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-says-saudi-buffers-energy-backup-blunt-economic-blow",
+              "title": "IMF称沙特财政缓冲与能源备用设施减轻经济冲击",
+              "summary": "国际货币基金组织表示，沙特阿拉伯的财政缓冲和备用石油出口设施有助于减轻伊朗战争对中东最大经济体的损害。",
+              "title_en": "IMF Says Saudi Buffers, Energy Backup Blunt Economic Blow",
+              "summary_en": "The IMF says Saudi Arabia’s fiscal buffers and backup oil-export facilities are helping curb damage to the Middle East’s largest economy from the Iran war.",
+              "topic_evidence": "helping curb the damage to the Middle East’s largest economy from the Iran war",
+              "reason": "涉及伊朗战争对中东经济的影响及沙特应对，属于地缘与安全。",
+              "reason_en": "Concerns the Iran war's impact on the Middle East economy and Saudi response, fitting geopolitics/security.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/15/x-suspends-13000-accounts-alleging-foreign-influence-ahead-of-us-midterms?traffic_source=rss",
+              "title": "X平台以外国影响力为由封禁1.3万个账户，美国中期选举前",
+              "summary": "社交平台X表示，在中期选举前封禁了1.3万个账户，称这些网络试图影响美国各派政治辩论。",
+              "title_en": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
+              "summary_en": "Social platform X says it suspended 13,000 accounts, alleging networks targeted US political debate across the spectrum ahead of midterm elections.",
+              "topic_evidence": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
+              "reason": "涉及美国中期选举前的外国影响力行动与平台封禁，属于政府与政策中的选举议题。",
+              "reason_en": "Concerns foreign influence operations and platform suspensions ahead of US midterms, fitting government and elections policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cjn5vxlrgqn4o?at_medium=RSS&at_campaign=rss",
+              "title": "爱尔兰数十万工人罢工，抗议与政府薪酬纠纷",
+              "summary": "爱尔兰共和国数十万工人举行罢工，起因是公共部门工人与爱尔兰政府之间持续的薪酬纠纷。",
+              "title_en": "Hundreds of thousands of workers on strike across Republic of Ireland",
+              "summary_en": "Hundreds of thousands of workers are on strike across the Republic of Ireland amid an ongoing pay dispute between public sector workers and the Irish government.",
+              "topic_evidence": "Hundreds of thousands of workers on strike across Republic of Ireland",
+              "reason": "涉及爱尔兰公共部门与政府的薪酬纠纷和大规模罢工，属于政府与政策。",
+              "reason_en": "Concerns a pay dispute between public sector workers and the Irish government and mass strikes, fitting government-policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+              "title": "阿尔巴尼亚学生抗议者袭击政府建筑",
+              "summary": "在阿尔巴尼亚，数千名学生连续第二天示威，要求改善大学条件和就业前景，期间政府建筑被纵火。",
+              "title_en": "Student protesters attack government buildings in Albania",
+              "summary_en": "Buildings were set alight on the second day of demonstrations by thousands of students in Albania demanding better university conditions and job prospects.",
+              "topic_evidence": "Buildings were set alight on the second day of demonstrations from thousands of students",
+              "reason": "涉及阿尔巴尼亚学生抗议政府并袭击政府建筑，属于政府与政策下的社会抗议与治理。",
+              "reason_en": "Concerns Albanian student protests against the government and attacks on government buildings, fitting government-policy and governance.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+              "title": "巴西将每周工时上限降至40小时，利好卢拉选情",
+              "summary": "巴西国会通过宪法修正案，禁止六天工作制，将每周工时上限降至40小时，可能影响3000万工人，并在决选前为卢拉带来政治胜利。",
+              "title_en": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+              "summary_en": "Brazil’s Congress approved a constitutional amendment to cap the work week at 40 hours, affecting up to 30 million workers and handing a political win to President Lula ahead of a runoff.",
+              "topic_evidence": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+              "reason": "涉及巴西国会通过工时改革及选举政治影响，属于政府与政策。",
+              "reason_en": "Concerns Brazil's Congress passing a work-week reform and its electoral political impact, fitting government-policy.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+              "title": "印尼用干冰灭火，有毒雾霾蔓延至周边地区",
+              "summary": "印尼火灾产生有毒烟雾，引发邻国不满。政府在尝试人工降雨和空中洒水后，测试用飞机播撒干冰的新方法应对雾霾。",
+              "title_en": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+              "summary_en": "As fires in Indonesia emit toxic smoke that has angered regional neighbours, the government is testing dry ice dispersal by plane after trying cloud seeding and water bombing.",
+              "topic_evidence": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+              "reason": "涉及印尼火灾、有毒雾霾跨境影响及政府应对，属于全球社会中的环境与区域问题。",
+              "reason_en": "Concerns Indonesian fires, cross-border toxic haze, and government response, fitting global-society/environment.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+              "title": "几内亚比绍否认批准新生儿争议疫苗试验",
+              "summary": "几内亚比绍卫生部长表示，政府未授权由丹麦主导、小罗伯特·肯尼迪支持的乙型肝炎新生儿试验。",
+              "title_en": "Guinea-Bissau denies it has approved controversial vaccine trial in newborns",
+              "summary_en": "Guinea-Bissau’s health minister says the government did not authorize a Danish-led hepatitis B trial in newborns backed by RFK Jr.",
+              "topic_evidence": "Guinea-Bissau has not approved the controversial hepatitis B study in newborns",
+              "reason": "涉及新生儿疫苗试验的授权争议与公共卫生伦理，属于全球社会中的健康议题。",
+              "reason_en": "Concerns authorization controversy over a newborn vaccine trial and public health ethics, fitting global-society/health.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
+              "title": "萨莉·鲁尼书籍因支持“巴勒斯坦行动”在英国下架",
+              "summary": "爱尔兰作家萨莉·鲁尼因支持“巴勒斯坦行动”，其书籍在英国被下架。她以《正常人》《间奏曲》等小说闻名。",
+              "title_en": "Sally Rooney books withdrawn in UK over Palestine Action support",
+              "summary_en": "Books by Irish writer Sally Rooney have been withdrawn in the UK over her support for Palestine Action. She is known for novels such as Normal People and Intermezzo.",
+              "topic_evidence": "Sally Rooney books withdrawn in UK over Palestine Action support",
+              "reason": "涉及英国因政治立场下架作家书籍，关联巴勒斯坦行动争议，属于全球社会中的社会与政治文化议题。",
+              "reason_en": "Concerns UK books withdrawn over political support for Palestine Action, fitting global-society/society and political culture.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714850.shtml",
+              "title": "中朝新鸭绿江大桥正式开通",
+              "summary": "新华社10月15日发布权威快报，中朝新鸭绿江大桥正式开通。目前快报未披露开通仪式和通行安排的更多细节。",
+              "title_en": "New China-DPRK Yalu River Bridge Officially Opens",
+              "summary_en": "Xinhua released a flash report on October 15 stating that the new China-DPRK Yalu River Bridge has officially opened. No further details on the opening ceremony or traffic arrangements were provided.",
+              "topic_evidence": "中朝新鸭绿江大桥正式开通",
+              "reason": "中朝边境重大基础设施开通，属于中国对外事务与政策层面的事件，适合放入政策与监管版块。",
+              "reason_en": "Opening of a major China-DPRK border infrastructure, relevant to China's foreign affairs and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714872.shtml",
+              "title": "外交部组织驻华使节赴宁夏参访",
+              "summary": "10月11日至14日，外交部组织克罗地亚、新西兰、奥地利等32国驻华大使及高级外交官赴宁夏参访，自治区党委书记李邑飞、主席张雨浦会见使节一行。",
+              "title_en": "Chinese Foreign Ministry Organizes Diplomatic Envoys' Visit to Ningxia",
+              "summary_en": "From October 11 to 14, China's Foreign Ministry organized ambassadors and senior diplomats from 32 countries, including Croatia, New Zealand and Austria, to visit Ningxia. Local leaders Li Yifei and Zhang Yupu met the delegation.",
+              "topic_evidence": "外交部组织驻华使节赴宁夏参访",
+              "reason": "外交部组织多国驻华使节赴宁夏参访，属于中国外交与地方对外交流的具体活动。",
+              "reason_en": "The Foreign Ministry organized a multi-country diplomatic visit to Ningxia, a concrete foreign affairs and local exchange activity.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714859.shtml",
+              "title": "何立峰会见美国桥水投资公司创始人达利欧",
+              "summary": "中共中央政治局委员、中央财办主任何立峰14日在北京会见美国桥水投资公司创始人达利欧。会见具体内容未在通报中披露。",
+              "title_en": "He Lifeng Meets Bridgewater Founder Ray Dalio",
+              "summary_en": "He Lifeng, member of the Political Bureau of the CPC Central Committee and director of the Central Financial and Economic Affairs Commission, met with Bridgewater founder Ray Dalio in Beijing on October 14. No further details were disclosed.",
+              "topic_evidence": "何立峰会见美国桥水投资公司创始人达利欧",
+              "reason": "中央财办主任何立峰会见美国知名投资人对冲基金创始人，属于中国经济外交与对外沟通活动。",
+              "reason_en": "Central financial official He Lifeng met with U.S. hedge fund founder Ray Dalio, an economic diplomacy engagement.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714791.shtml",
+              "title": "西部陆海新通道关键枢纽广西马皇站扩能改造完成",
+              "summary": "10月14日凌晨，广西钦州马皇站、康熙岭站北头4处拢口拨接施工完成，马皇站四阶段站改收官，南防铁路钦防段增建二线工程进入最后冲刺。",
+              "title_en": "Expansion of Guangxi's Mahuang Station, Key Hub on Western Land-Sea Corridor, Completed",
+              "summary_en": "On October 14, track connection work at Mahuang and Kangxiling stations in Qinzhou, Guangxi, was completed. The expansion of Mahuang Station concluded, and the Qinzhou-Fangchenggang railway double-tracking project entered its final stage.",
+              "topic_evidence": "马皇站四阶段站改施工圆满收官",
+              "reason": "西部陆海新通道关键铁路枢纽扩能改造完成，属于地方基础设施与产业发展。",
+              "reason_en": "Completion of a key railway hub expansion on the Western Land-Sea Corridor, relevant to local infrastructure and industry.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714870.shtml",
+              "title": "福建长泰龙津古陂灌溉工程入选世界灌溉工程遗产名录",
+              "summary": "北京时间10月14日晚，国际灌溉排水委员会第77届执行理事会公布2026年世界灌溉工程遗产名录，福建漳州长泰龙津古陂灌溉工程入选，成为闽南地区首个。",
+              "title_en": "Fujian Changtai Longjin Ancient Weir Irrigation Project Added to World Heritage Irrigation Structures List",
+              "summary_en": "On the evening of October 14, Beijing time, the International Commission on Irrigation and Drainage announced the 2026 World Heritage Irrigation Structures list. The Longjin ancient weir in Changtai, Zhangzhou, Fujian, was included, becoming the first in southern Fujian.",
+              "topic_evidence": "福建漳州长泰龙津古陂灌溉工程成功上榜",
+              "reason": "福建地方灌溉工程入选世界遗产，属于地方文化与基础设施成就。",
+              "reason_en": "A local irrigation project in Fujian was listed as world heritage, a local cultural and infrastructure achievement.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714912.shtml",
+              "title": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+              "summary": "北京时间10月14日晚，国际灌排委员会公布2026年世界灌溉工程遗产名录，我国4处工程入选，甘肃讨赖河绿洲灌溉系统成为甘肃首个。",
+              "title_en": "Gansu Taolai River Oasis Irrigation System Added to World Heritage Irrigation Structures List",
+              "summary_en": "On the evening of October 14, Beijing time, the International Commission on Irrigation and Drainage announced the 2026 World Heritage Irrigation Structures list. Four Chinese projects were included, with the Gansu Taolai River Oasis Irrigation System becoming Gansu's first.",
+              "topic_evidence": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+              "reason": "甘肃地方灌溉系统入选世界遗产，属于地方成就。",
+              "reason_en": "A local irrigation system in Gansu was listed as world heritage, a local achievement.",
+              "score": 2.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714842.shtml",
+              "title": "湖南检察机关依法对王凤朝涉嫌受贿案提起公诉",
+              "summary": "成都市原市长王凤朝涉嫌受贿案，由国家监委调查终结移送检察机关。最高检作出逮捕决定，指定长沙检察院审查起诉，长沙市检察院已向长沙中院提起公诉。",
+              "title_en": "Hunan Prosecutors File Public Charges Against Former Chengdu Mayor Wang Fengchao on Bribery Allegations",
+              "summary_en": "The bribery case of former Chengdu mayor Wang Fengchao was transferred to prosecutors after investigation by the National Supervisory Commission. The Supreme People's Procuratorate approved his arrest, and the Changsha procuratorate has filed public charges with the Changsha Intermediate People's Court.",
+              "topic_evidence": "最高人民检察院依法以涉嫌受贿罪对王凤朝作出逮捕决定",
+              "reason": "成都市原市长王凤朝涉嫌受贿被提起公诉，属于反腐败与法治案件。",
+              "reason_en": "Former Chengdu mayor Wang Fengchao was charged with bribery, an anti-corruption and legal case.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714884.shtml",
+              "title": "青海省果洛州政府原党组成员、副州长西热被查",
+              "summary": "青海省果洛州政府原党组成员、副州长西热涉嫌严重违纪违法，主动投案，目前正接受青海省纪委监委纪律审查和监察调查。",
+              "title_en": "Former Deputy Governor of Golog Prefecture in Qinghai Under Investigation",
+              "summary_en": "Xire, former Party member and deputy governor of the Golog Tibetan Autonomous Prefecture government in Qinghai, is under disciplinary and supervisory investigation for suspected serious violations of discipline and law. He turned himself in.",
+              "topic_evidence": "青海省果洛州政府原党组成员、副州长西热涉嫌严重违纪违法，主动投案",
+              "reason": "青海省果洛州原副州长西热涉嫌严重违纪违法主动投案，属于纪检监察与法治新闻。",
+              "reason_en": "Former deputy governor Xire is under investigation after turning himself in, a disciplinary and legal case.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714800.shtml",
+              "title": "铁路部门通报“一男子在高铁座位上排便”：该男子被行拘",
+              "summary": "广铁长沙客运段通报，针对媒体报道“一男子在高铁座位上排便”事件开展调查核实，该男子被行政拘留。",
+              "title_en": "Railway Authorities Report Man Administratively Detained for Defecating in High-Speed Train Seat",
+              "summary_en": "Guangzhou Railway's Changsha passenger transport section announced that it investigated media reports of a man defecating in a high-speed train seat. The man has been administratively detained.",
+              "topic_evidence": "该男子被行拘",
+              "reason": "铁路部门通报并行政拘留涉事男子，属于社会秩序与治安案件。",
+              "reason_en": "Railway authorities reported and administratively detained the man, a public order and law enforcement case.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714913.shtml",
+              "title": "陕西宝鸡太白县一公路发生山体滑坡 当地正全力抢通",
+              "summary": "10月14日下午，陕西宝鸡太白县黄柏塬镇通往核桃坪村的一条乡道发生山体滑坡，岩石和树木冲上路面致交通中断，当地正全力抢通。",
+              "title_en": "Landslide Hits Road in Taibai County, Shaanxi; Local Authorities Rush to Clear It",
+              "summary_en": "On the afternoon of October 14, a landslide occurred on a rural road in Huangbaiyuan Township, Taibai County, Baoji, Shaanxi. Rocks and trees blocked the road, disrupting traffic, and local authorities are working to clear it.",
+              "topic_evidence": "山体岩石和树木植被涌向路面，造成道路交通中断",
+              "reason": "陕西地方公路发生山体滑坡致交通中断，当地正抢通，属于社会应急与救援新闻。",
+              "reason_en": "A landslide in Shaanxi disrupted traffic, with local authorities clearing the road, a social emergency and rescue story.",
+              "score": 2.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
+              "title": "芯片股溃败加深全球股市抛售，美债因避险需求上涨",
+              "summary": "全球股市抛售加剧，华尔街和亚洲芯片股暴跌，进一步逆转今年人工智能交易的火爆涨势。美债因避险需求上涨，美元走弱。",
+              "title_en": "Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap",
+              "summary_en": "A global equity selloff deepened as chip stocks plunged on Wall Street and in Asia, further unwinding this year’s AI trade rally. Treasuries gained on haven demand, while the dollar weakened.",
+              "topic_evidence": "A global equity selloff deepened as chip stocks plunged",
+              "reason": "彭博市场综述报道全球芯片股抛售加深，美债上涨，美元走弱，全面反映当日市场变化。",
+              "reason_en": "Bloomberg market wrap covers global chip rout deepening, Treasury rally on haven demand, and dollar weakness.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+              "title": "CoreWeave的AI债券暴跌，引发更广泛市场警报",
+              "summary": "CoreWeave几个月前发行的债券周三早间跌至面值的81美分，收益率超过15%，引发对更广泛信贷市场压力的担忧。",
+              "title_en": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+              "summary_en": "CoreWeave’s bonds issued a few months ago fell to 81 cents on the dollar earlier Wednesday, yielding more than 15%, raising red flags for broader credit market stress.",
+              "topic_evidence": "CoreWeave’s bonds issued a few months ago fell to 81 cents on the dollar",
+              "reason": "CoreWeave债券价格暴跌至81美分，收益率超15%，指向信贷市场压力，是AI交易风险的具体案例。",
+              "reason_en": "CoreWeave bonds plunged to 81 cents on the dollar with yields above 15%, signaling credit market stress in the AI trade.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+              "title": "通胀担忧冲击热门科技股，AI交易出现分化",
+              "summary": "投资者担心高通胀和借贷成本上升可能破坏AI基础设施建设，此前受追捧的科技股出现分化。",
+              "title_en": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+              "summary_en": "Investors worry that steep inflation and rising borrowing costs could derail the AI buildout, causing previously hyped tech stocks to splinter.",
+              "topic_evidence": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+              "reason": "报道通胀和借贷成本上升对AI交易的影响，科技股走势分化，具体反映市场情绪变化。",
+              "reason_en": "Article explains how inflation and rising borrowing costs are splitting the AI trade and rattling tech stocks.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
+              "title": "小盘股两个月内从历史高点跌10%，为何迅速瓦解",
+              "summary": "小盘股在两个月内从历史高点下跌10%，触及不受欢迎的市场里程碑，文章分析其快速下跌的原因。",
+              "title_en": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
+              "summary_en": "Small-cap stocks have fallen 10% from a record high in just two months, hitting an unwelcome milestone. The article examines why they unraveled so fast.",
+              "topic_evidence": "From a record high to a 10% drop in just two months",
+              "reason": "具体报道小盘股从历史高点快速下跌10%的现象，属于市场与资产版块的小盘股动态。",
+              "reason_en": "Covers small-cap stocks dropping 10% from a record high in two months, a specific market segment move.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/taiwan-dollar-won-slump-as-chip-stock-selloff-hurts-sentiment",
+              "title": "芯片股抛售拖累亚洲货币，新台币和韩元大跌",
+              "summary": "华尔街半导体股隔夜暴跌波及亚洲市场，新台币和韩元在亚洲货币中跌幅居前，削弱了市场对AI供应链的需求。",
+              "title_en": "Taiwan Dollar, Won Slump as Chip Selloff Hurts Asian Currencies",
+              "summary_en": "The Taiwan dollar and South Korean won fell the most among Asian currencies as an overnight slump in Wall Street chip shares spilled into regional markets, dampening AI supply-chain demand.",
+              "topic_evidence": "The Taiwan dollar and South Korean won fell the most among Asian currencies",
+              "reason": "报道芯片股抛售对亚洲货币的具体影响，新台币和韩元领跌，是市场与资产版块的货币动态。",
+              "reason_en": "Reports how chip selloff hit Asian currencies, with Taiwan dollar and won falling the most, a specific FX market move.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-may-not-have-to-do-as-much-if-markets-tighten-dolenc-says",
+              "title": "ECB委员Dolenc：若市场收紧，央行可能无需采取太多行动",
+              "summary": "欧洲央行管理委员会成员Primoz Dolenc表示，金融条件收紧可能限制欧洲央行采取货币政策行动的必要性。",
+              "title_en": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says",
+              "summary_en": "ECB Governing Council member Primoz Dolenc said tightening financial conditions may limit the need for European Central Bank monetary policy action.",
+              "topic_evidence": "A tightening in financial conditions may limit the need for European Central Bank monetary policy action",
+              "reason": "欧洲央行官员就货币政策路径发表具体观点，涉及金融条件与央行行动的关系。",
+              "reason_en": "ECB official comments on how tightening financial conditions may reduce the need for monetary policy action.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open",
+              "title": "新西兰联储首席经济学家：下次利率决定“完全开放”",
+              "summary": "新西兰联储首席经济学家Paul Conway表示，10月底的利率决定“完全开放”，尽管通胀压力正在积聚。",
+              "title_en": "RBNZ Chief Economist Says Next Interest Rate Call ‘Wide Open’",
+              "summary_en": "Reserve Bank of New Zealand chief economist Paul Conway said the late-October interest rate decision is “wide open,” even as inflation pressures build.",
+              "topic_evidence": "New Zealand’s interest rate decision in late October is “wide open,”",
+              "reason": "新西兰联储官员对下次利率决定给出具体不确定信号，属于宏观货币政策观察。",
+              "reason_en": "RBNZ chief economist says next rate decision is wide open, a specific central bank policy signal.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-warns-china-stimulus-lacks-ambition-leaves-yuan-undervalued",
+              "title": "IMF警告中国刺激政策缺乏雄心，人民币被低估",
+              "summary": "国际货币基金组织高级官员表示，因国内经济疲软，人民币实际汇率被低估，而重振需求的政策力度远未达到所需水平。",
+              "title_en": "IMF Warns China Stimulus Lacks Ambition, Leaves Yuan Undervalued",
+              "summary_en": "A senior IMF official said China’s yuan is undervalued in real terms due to a flagging domestic economy, and stimulus measures to revive demand have fallen short.",
+              "topic_evidence": "China’s yuan is undervalued in real terms because of the country’s flagging domestic economy",
+              "reason": "IMF官员对中国经济刺激和人民币汇率的具体评估，涉及宏观政策与汇率。",
+              "reason_en": "IMF official assesses China's stimulus and undervalued yuan, a macro policy and currency issue.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+              "title": "澳大利亚失业率上升，交易员削减加息押注",
+              "summary": "澳大利亚9月失业率上升且就业岗位减少，表明劳动力市场可能松动，交易员因此减少对联储进一步加息的押注。",
+              "title_en": "Australia’s Higher Unemployment Prompts Paring of Rate Bets",
+              "summary_en": "Australia’s higher unemployment and job losses in September suggest a loosening labor market, prompting traders to scale back bets on further Reserve Bank rate hikes.",
+              "topic_evidence": "Australia’s higher unemployment and job losses in September suggest the labor market may be loosening",
+              "reason": "澳大利亚失业数据上升影响市场对央行加息的预期，属于宏观政策与就业数据。",
+              "reason_en": "Australia's rising unemployment data affects rate hike expectations, a macro policy and labor market story.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+              "title": "美国社保金每月平均增加75美元，能否跟上通胀？",
+              "summary": "2027年社保生活成本调整（COLA）为3.6%，旨在帮助超过6800万受益人跟上生活成本，但能否抵消通胀影响仍存疑。",
+              "title_en": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+              "summary_en": "The 3.6% Social Security COLA for 2027 aims to help over 68 million beneficiaries keep pace with the cost of living, but whether it offsets inflation remains uncertain.",
+              "topic_evidence": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+              "reason": "报道2027年社保COLA具体数字及其对受益人的影响，属于个人理财与通胀话题。",
+              "reason_en": "Covers the 3.6% Social Security COLA for 2027 and its impact on beneficiaries, a personal finance and inflation topic.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+              "title": "你可能股票仓位过重：为何60-40组合仍是明智选择",
+              "summary": "文章回顾美国历史数据指出，全股票组合与60-40组合在过去30年滚动回报中不相上下，建议投资者不要过度集中股票。",
+              "title_en": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+              "summary_en": "The article notes that over most of U.S. history, all-stock and 60-40 portfolios have had similar trailing 30-year returns, suggesting investors may be overexposed to equities.",
+              "topic_evidence": "an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns",
+              "reason": "提供60-40投资组合与全股票组合的历史回报比较，属于个人理财建议。",
+              "reason_en": "Offers historical comparison of 60-40 versus all-stock portfolios, a personal finance investing take.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed",
+              "title": "韩国加强对外资银行审查，导致一笔债券发行延迟",
+              "summary": "韩国正考虑限制部分外资银行安排海外债券销售，非正式指导已导致至少一笔此类交易延迟，知情人士称。",
+              "title_en": "Korea’s Foreign Bank Scrutiny Intensifies With Bond Sale Delayed",
+              "summary_en": "South Korea is considering restrictions on certain foreign banks arranging overseas bond sales, and informal guidance has already delayed at least one such deal, sources said.",
+              "topic_evidence": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales",
+              "reason": "报道韩国对外资银行债券承销的监管审查及实际影响，属于金融监管与理财版块。",
+              "reason_en": "Reports Korea's regulatory scrutiny of foreign banks in bond arranging, with a delayed deal, a finance regulation story.",
+              "score": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://sunshowers.io/posts/anthropic-mononoke",
+              "title": "Anthropic 的 Scion 深受 Mononoke 启发",
+              "summary": "技术博客文章认为 Anthropic 的 Scion 系统在设计上深受 Mononoke 影响，在 Hacker News 获得 314 分和 122 条评论。",
+              "title_en": "Anthropic's Scion is heavily inspired by Mononoke",
+              "summary_en": "A tech blog post argues that Anthropic's Scion system is heavily inspired by Mononoke, drawing 314 points and 122 comments on Hacker News.",
+              "topic_evidence": "Anthropic's Scion is heavily inspired by Mononoke",
+              "reason": "这是一篇技术分析/观点博客，讨论 Anthropic 的 Scion 与 Mononoke 的关联，符合技术观点定位。",
+              "reason_en": "This is a technical analysis/opinion blog post discussing the link between Anthropic's Scion and Mononoke, fitting the tech opinion scope.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+              "title": "银行正试图转让其刚承销的 AI 数据中心债务",
+              "summary": "报道称银行正试图转让其刚刚承销的 AI 数据中心债务，引发对 AI 基础设施融资风险的讨论，获得 345 分和 237 条评论。",
+              "title_en": "Banks are now trying to offload the AI data center debt they just underwrote",
+              "summary_en": "A report says banks are trying to offload AI data center debt they recently underwrote, sparking discussion on financing risks, with 345 points and 237 comments on HN.",
+              "topic_evidence": "Banks are now trying to offload the AI data center debt they just underwrote",
+              "reason": "该文分析银行转嫁 AI 数据中心债务的现象，涉及商业与金融风险，属于商业与社会评论。",
+              "reason_en": "This piece analyzes banks offloading AI data center debt, touching on business and financial risk, fitting business and society commentary.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer",
+              "title": "患癌后需要知道的事情",
+              "summary": "一篇个人文章分享患癌后需要知道的事项，在 Hacker News 获得 1007 分和 238 条评论，引发广泛讨论。",
+              "title_en": "Things to know when you get cancer",
+              "summary_en": "A personal essay shares things to know after a cancer diagnosis, drawing 1007 points and 238 comments on Hacker News, sparking wide discussion.",
+              "topic_evidence": "Things to know when you get cancer",
+              "reason": "该文是个人经历文章，在 HN 引发大量讨论，符合社区讨论定位。",
+              "reason_en": "This personal essay generated substantial discussion on HN, fitting community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men",
+              "title": "中年男性自杀率创历史新高",
+              "summary": "报道称中年男性自杀率创历史新高，在 Hacker News 引发 350 分和 443 条评论的热议。",
+              "title_en": "Suicide rates highest ever among middle-aged men",
+              "summary_en": "A report says suicide rates among middle-aged men are the highest ever, sparking 350 points and 443 comments on Hacker News.",
+              "topic_evidence": "Suicide rates highest ever among middle-aged men",
+              "reason": "该新闻触及社会议题，在 HN 上引发大量评论讨论，符合社区讨论定位。",
+              "reason_en": "This news touches on a social issue and generated extensive discussion on HN, fitting community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.14118",
+      "original_title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "original_summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by both agent-free and agent-based task validation; Training, which updates the agent via SFT and/or RL; and Diagnosis and Feedback, which analyzes the agent's rollout behaviors to produce a capability analysis report that will be used as feedback for task synthesis in the next iteration. Using Qwen3.6-27B as the loop model, ClawLoop yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench. The iteratively refined tasks are further transferred to smaller-scale Qwen3.5-4B and 9B models with gains across all benchmarks, validating data quality independently of the loop model.",
+      "topic_evidence": "Self-Improving Agents via Harness-Native Training Loop",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.14224",
+      "original_title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "original_summary": "arXiv:2610.14224v1 Announce Type: new Abstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
+      "topic_evidence": "Recursive Agent Harnessing for an Open World",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.14277",
+      "original_title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+      "original_summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values would cut this cost by nearly 4x, but the all-reduce must add the values it carries, and rounding the sum injects an error at every call. Model quality depends on how these errors accumulate over layers, yet existing methods treat each call on its own. We present Echo, a 4-bit all-reduce for training and inference that controls the accumulated error. Echo moves data in 4 bits and sums in high precision, so each value is quantized at most twice per call for any number of GPUs. The summation reveals each injected error, and Echo feeds it back into later calls, so old errors cancel instead of accumulating. We prove that the accumulated error stays bounded independently of depth. On A100 GPUs, Echo is 2.09x faster than the 16-bit NCCL all-reduce on 1 GB messages. It speeds up the time to first token by up to 1.16x and the training step by up to 1.09x on an idle interconnect, and by up to 1.44x and 1.38x as background traffic grows. It keeps the average accuracy over seven benchmarks within 0.4 points of 16-bit inference on Qwen3-8B. In 10B-token pretraining, its final loss is less than 0.9% above that of 16-bit training. Echo needs no FP8 or FP4 hardware.",
+      "topic_evidence": "Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.19021",
+      "original_title": "Can LLMs Access their World Knowledge for Event Prediction?",
+      "original_summary": "arXiv:2610.19021v1 Announce Type: new Abstract: Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized models. We ask whether this knowledge is truly inaccessible, or whether current methods fail to present event prediction in a form LLMs can use. We argue for the latter and show that LLMs become effective event forecasters when the interface is designed around two choices. The first grounds each event in a natural-language description, and the second separates event semantics from the prediction space to prevent semantic bias from label associations. To test this, we introduce DescribeEvent, a benchmark of ~150K events across seven datasets and six domains with event-level descriptions. We find that capable LLMs substantially benefit from descriptions and symbolic labels, outperforming description-free variants and non-LLM baselines, while weaker models gain little. These results suggest that accessing LLM world knowledge for event prediction is an interface problem, and that event descriptions offer a practical way to elicit the knowledge LLMs already encode.",
+      "topic_evidence": "Can LLMs Access their World Knowledge for Event Prediction?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "llm",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "original_title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "original_summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "topic_evidence": "Amp puts AI agents to work beyond code with OpenAI models",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+      "original_title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "original_summary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+      "topic_evidence": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "product"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+      "original_title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "original_summary": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
+      "topic_evidence": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.14005",
+      "original_title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "original_summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
+      "topic_evidence": "An LLM-Referenced C-test for Supraintelligence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "paper",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.14146",
+      "original_title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "original_summary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
+      "topic_evidence": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "reward",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.19035",
+      "original_title": "Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment",
+      "original_summary": "arXiv:2610.19035v1 Announce Type: new Abstract: Pluralistic alignment needs to accommodate diverse preferences under limited human feedback. Using AI simulators to label preference comparisons reduces annotation costs, but variation in simulation accuracy across individuals can leave some people's preferences poorly represented in training. We study how to allocate human feedback across people to construct training data for pluralistic alignment, and how this allocation affects the trained policy. To make this allocation explicit and controllable, we define a social welfare objective over individual supervision utilities that measure label quality. Each query's marginal welfare gain depends on its expected supervision improvement, the recipient's current utility, and application-designated priority. Welfare-Aware Preference Acquisition (WAPA) uses auxiliary reference models to estimate query gains and individual utilities, then selects queries by estimated marginal welfare gain while updating recipient utilities. We prove exact optimality of the acquisition algorithm for the estimated welfare objective under a fixed query budget and model predictions. Experiments on six Roleplay collections and four OpinionQA regions demonstrate improved supervision and controllable allocation tradeoffs. Policy training on four Roleplay collections improves preference prediction for both seen and unseen individuals. When prioritizing a designated group and poorly represented individuals, acquiring human labels for 20% of comparisons recovers 75-86% of the average predictive utility gap between policies trained entirely on AI-generated labels and entirely on ground-truth labels.",
+      "topic_evidence": "Welfare-Aware Preference Acquisition for Pluralistic Alignment",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.14115",
+      "original_title": "The Silent Failures in Agentic Data Science",
+      "original_summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against expert solutions on Kaggle competitions. We find that the majority of agentic solutions contain at least one failure mode despite the complexity of agentic harness or model capacity. Moreover, we identify a positive correlation between the occurrence of data leakage failures and predictive performance, confirming the necessity to evaluate agents beyond accuracy. Our qualitative analysis shows that DS agents generally lack problem solving creativity and domain knowledge, compared to competition-winning data scientists. We believe that principled failure mode analysis, as presented here, should be integral part of agentic DS evaluations, and that the insights we surface will be key in developing trustworthy agentic DS pipelines.",
+      "topic_evidence": "The Silent Failures in Agentic Data Science",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "paper"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.14180",
+      "original_title": "Unconstrained CTI-REALM with Open-Weights",
+      "original_summary": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can match the strongest closed models at less than a tenth of their cost, provided it is given enough turns. The benchmark's published limit on agent messages is a confound: a task that exhausts the limit scores zero on every checkpoint, including those it had already passed, so results at that limit partly measure which models finish in time. At the published limit the leading open-weight and closed models cannot be distinguished. With the limit relaxed, the models it was truncating recover, and the highest rewards belong to open-weight models. Among the leading models, price is a poor guide to capability: models with similar rewards differ in cost by more than an order of magnitude. Because the benchmark's checkpoint scores largely record what an agent did or mentioned, we also introduce stage-level metrics that score what the agent submits, by executing its detection queries in the telemetry store and judging its outputs against the answer key. Rather than combining them into one more overall reward, we show that different models lead different stages, which suggests routing each stage of the workflow to the model that performs it best rather than choosing a single model by its overall score. We also report how many tokens each model generates, and find that the share of output spent on thinking does not track the reward.",
+      "topic_evidence": "Unconstrained CTI-REALM with Open-Weights",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "reward",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+      "original_title": "Tree Appreciator",
+      "original_summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minutes before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play. Tags: game-design , javascript , ai , generative-ai , llms , claude , vibe-coding , three-js",
+      "topic_evidence": "Build a three js game called",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "javascript"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://petal.live/",
+      "original_title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "original_summary": "Hi HN! I’m Jason Thomas, one of the founders of CoScreen. As some of you may know, Datadog sunset the CoScreen service on July 31st. Four of us from the original CoScreen team have spent the last couple months building a free and open source pair programming tool inspired by those that came before us: It’s called Petal ( https://github.com/kiruna-labs/petal ) Some history first, because when we started CoScreen we had hoped to break the sad and established pattern of this industry. Screenhero was an exceptional tool that a lot of us loved for pairing. Multiple cursors, low latency, you could click your partner’s editor, and just start typing. It felt like magic while we had it. Then Slack bought it in 2015, and shut down the standalone app in December 2017. When Till, Max, and I started CoScreen, we were aware of this history, and wanted to build an even more magical collaboration and screen sharing experience: the entire concept was “throw a window from your laptop up on someone else’s screen, and start collaborating with zero friction.” Datadog acquired us in 2022, and thus began the great adventure of adapting our real-time technology into Datadog products, while also continue developing CoScreen as a standalone tool from the Datadog ecosystem. Datadog invested in the product for years and we’re thankful for that. But CoScreen itself proved, like so many other screen sharing tool acquisitions, to be too tangential from the customer base and core mission. We instead built other communication features in Datadog, the integrations with other video platforms, and also its wildly successful MCP server. We weren't the only ones. Around was bought by Miro and shut down in March 2025. Multi (formerly Remotion) was acqui-hired by OpenAI in 2024 and shut down about a month later. It's nearly always the same story: a small team builds something hard that people love, a platform buys it for the team or the feature, and the standalone product doesn't survive the integration. So we decided firmly to do things differently this time. Petal is completely free and open source and we aren't monetizing it. If we lose interest or get hit by a bus, you can self-host it or fork it, and nobody can sunset it on you. Honestly it's a love letter to everyone in this community that supported us, believed in us, and to liberate collaborative screen sharing from this vicious cycle. We hope through this we can help foster a large and vibrant community around innovating in this product sector. What Petal does: shared windows show up as real windows on your desktop, movable and resizable, not tiles in a grid. Several people can share at once, everyone gets a labeled cursor, and you can click into any shared window to type and scroll. Rooms are persistent, so you click once to join \"eng-sync\" instead of passing links around. It runs on macOS and Windows (Linux is next, this time for real and you can help us!), plus a web app. Media goes over LiveKit. You can use our hosted instance with zero config, or point the app at your own LiveKit server with one docker-compose if you want the traffic to stay on your network or even use an entirely different video backend if you want to. The part that still feels strange to us: CoScreen took almost six years to build. The first version of Petal took under eight weeks, from scratch, with frontier models like Fable and Astra doing a lot of the work. Real-time video and window capture is some of the most unforgiving code we have ever written, so we didn't expect that. We will do a proper writeup on what worked and what didn't, and are happy to answer questions about it here. Till, Darren, Max and I will be in the thread. Comments URL: https://news.ycombinator.com/item?id=50092470 Points: 139 # Comments: 34",
+      "topic_evidence": "open source pair programming tool",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github",
+        "open source",
+        "tool",
+        "editor"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+      "original_title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "original_summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog .",
+      "topic_evidence": "From 2,500 requests to 24",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "database"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026",
+      "original_title": "GitHub availability report: September 2026",
+      "original_summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
+      "topic_evidence": "two incidents that resulted in degraded performance across GitHub services",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "performance"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon",
+      "original_title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+      "original_summary": "If you’ve ever had your car start sluggishly, or not at all, on a particularly frigid winter morning, you know standard batteries do not like extreme cold. That’s why NASA researchers are working to develop a battery that could function in the brutal cold of the Moon’s South Pole, where nighttime temperatures plunge to minus […]",
+      "topic_evidence": "NASA researchers are working to develop a battery that could function in the brutal cold of the Moon’s South Pole",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015805.htm",
+      "original_title": "Scientists reveal why some workout recovery tricks can backfire",
+      "original_summary": "Ice baths, massages, compression garments, and recovery supplements promise faster muscle recovery, but research suggests their benefits are often overstated, and some techniques may even undermine long-term gains. Scientists say the most effective recovery methods are far simpler and cheaper: getting enough sleep, eating well, and giving muscles time to rebuild.",
+      "topic_evidence": "some workout recovery tricks can backfire",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "research"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015811.htm",
+      "original_title": "The secret to easier exercise as an adult may start in childhood",
+      "original_summary": "Exercise during childhood could have a surprising lifelong benefit, potentially making physical activity less exhausting in adulthood. In a study involving guinea fowl, researchers discovered that birds accustomed to carrying weights while growing up could carry those weights as adults without using extra energy, while untrained birds burned 23% more.",
+      "topic_evidence": "untrained birds burned 23% more",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "study"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "original_title": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+      "original_summary": "A 120-million-year-old fossil forgotten in a museum for nearly a century has revealed a terrifying new dinosaur that may have been more dangerous to humans than a T. rex. The tiger-sized predator also provides the first evidence of megaraptorans in Europe, helping explain how these mysterious dinosaurs eventually became gigantic hunters.",
+      "topic_evidence": "first evidence of megaraptorans in Europe",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015801.htm",
+      "original_title": "Cornell scientists identify rare human genetic disorder in two unusually long-legged cats",
+      "original_summary": "Two unusually long-legged cats have helped scientists uncover the first genetically confirmed cases of Marfan syndrome in domestic felines. Researchers at Cornell University discovered that the brothers carried two altered copies of a gene linked to the rare connective tissue disorder, which can affect the eyes, heart, and blood vessels. Surprisingly, the cats survived into adulthood because their genetic mutation still allowed some normal function.",
+      "topic_evidence": "first genetically confirmed cases of Marfan syndrome in domestic felines",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts",
+      "original_title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
+      "original_summary": "Colossal announced a new AI platform to help accelerate its de-extinction efforts and Peter Diamandis has launched a new fund to back startups who use it.",
+      "topic_evidence": "Colossal announced a new AI platform to help accelerate its de-extinction efforts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine",
+      "original_title": "TimeTeller puts our internal clocks at the center of personalized medicine",
+      "original_summary": "German startup TimeTeller has developed a saliva test kit to help anyone understand their circadian rhythm; it aims to reduce side effects from cancer treatments.",
+      "topic_evidence": "German startup TimeTeller has developed a saliva test kit",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear",
+      "original_title": "Hiyd is a health tracker that attaches to the watch you already wear",
+      "original_summary": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+      "topic_evidence": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network",
+      "original_title": "Mosqitter is turning its mosquito traps into an AI-powered surveillance network",
+      "original_summary": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",
+      "topic_evidence": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals",
+      "original_title": "Intero Biosystems wants drugmakers to test on mini human intestines, not animals",
+      "original_summary": "Intero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while the startup looks to scale production and expand its organoid technology.",
+      "topic_evidence": "Intero Biosystems is selling lab-grown human intestines to drugmakers",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "startup"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house",
+      "original_title": "Prismm helps banks keep inherited money in-house",
+      "original_summary": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
+      "topic_evidence": "Prismm helps banks keep inherited money in-house",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "original_summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+      "topic_evidence": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
+      "original_title": "North Korea tests two submarine-launched missiles, state media reports",
+      "original_summary": "The tests showcase North Korea's war deterrent capabilities in the region, KCNA says.",
+      "topic_evidence": "North Korea tests two submarine-launched missiles, state media reports",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
+      "original_title": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
+      "original_summary": "International alliance of China-sceptic legislators warns of risks inherent in misjudging bilateral relationship The UK’s approach to China is “beset by incoherence” and plagued by a lack of senior expertise, according to a report warning of the risks inherent in misjudging the bilateral relationship. An audit by the Inter-Parliamentary Alliance on China (Ipac), an international grouping of China-sceptic legislators, says past engagement with Beijing has often exposed the UK to the risks of interference without delivering the opportunities promised. Continue reading...",
+      "topic_evidence": "UK’s ‘incoherent’ approach to China plagued by lack of expertise",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-says-saudi-buffers-energy-backup-blunt-economic-blow",
+      "original_title": "IMF Says Saudi Buffers, Energy Backup Blunt Economic Blow",
+      "original_summary": "Saudi Arabia’s fiscal buffers and backup oil-export facilities are helping curb the damage to the Middle East’s largest economy from the Iran war, according to the International Monetary Fund.",
+      "topic_evidence": "helping curb the damage to the Middle East’s largest economy from the Iran war",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war",
+        "middle east"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/15/x-suspends-13000-accounts-alleging-foreign-influence-ahead-of-us-midterms?traffic_source=rss",
+      "original_title": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
+      "original_summary": "The social platform says networks targeted US political debate across the spectrum ahead of midterm elections.",
+      "topic_evidence": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cjn5vxlrgqn4o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Hundreds of thousands of workers on strike across Republic of Ireland",
+      "original_summary": "It comes amidst an an ongoing pay dispute between public sector workers and the Irish government.",
+      "topic_evidence": "Hundreds of thousands of workers on strike across Republic of Ireland",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Student protesters attack government buildings in Albania",
+      "original_summary": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
+      "topic_evidence": "Buildings were set alight on the second day of demonstrations from thousands of students",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+      "original_title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+      "original_summary": "Congress approves constitutional amendment that bans six-day workweeks, which could effect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the presidential runoff in under two weeks. In an attempt to overturn the first-round lead secured by his opponent, far-right senator Flávio Bolsonaro, Lula has strongly championed the amendment, which will give some workers an extra day off each week. Continue reading...",
+      "topic_evidence": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+      "original_title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "original_summary": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. Continue reading...",
+      "topic_evidence": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+      "original_title": "Guinea-Bissau denies it has approved controversial vaccine trial in newborns",
+      "original_summary": "Health minister says government ‘did not authorize’ Danish-led hepatitis B trial in babies backed by RFK Jr Guinea-Bissau has not approved the controversial hepatitis B study in newborns that would be funded by the US government and private partners, the African country’s minister of health said on Tuesday. The study, which would not investigate the safety or effectiveness of vaccines but would instead track “nonspecific” health outcomes like overall mortality or neurodevelopmental conditions, has been championed by Robert F Kennedy Jr, secretary of the US Department of Health and Human Services (HHS) and a longtime anti-vaccine activist. Continue reading...",
+      "topic_evidence": "Guinea-Bissau has not approved the controversial hepatitis B study in newborns",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "health"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "original_summary": "The Irish writer is best known for novels such as Normal People, Intermezzo and Conversations With Friends.",
+      "topic_evidence": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714850.shtml",
+      "original_title": "中朝新鸭绿江大桥正式开通",
+      "original_summary": "新华社权威快报｜中朝新鸭绿江大桥正式开通",
+      "topic_evidence": "中朝新鸭绿江大桥正式开通",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714872.shtml",
+      "original_title": "外交部组织驻华使节赴宁夏参访",
+      "original_summary": "中新网银川10月15日电 10月11日至14日，外交部组织驻华使节赴宁夏回族自治区参访。克罗地亚、新西兰、奥地利、突尼斯、乌拉圭、韩国、英国等32国驻华大使及高级外交官参加。自治区党委书记李邑飞、主席张雨浦会见使节一行。",
+      "topic_evidence": "外交部组织驻华使节赴宁夏参访",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "外交部"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714859.shtml",
+      "original_title": "何立峰会见美国桥水投资公司创始人达利欧",
+      "original_summary": "中新社北京10月15日电 中共中央政治局委员、中央财办主任何立峰14日在北京会见美国桥水投资公司创始人达利欧。",
+      "topic_evidence": "何立峰会见美国桥水投资公司创始人达利欧",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714791.shtml",
+      "original_title": "西部陆海新通道关键枢纽广西马皇站扩能改造完成",
+      "original_summary": "中新网广西钦州10月15日电(温易松 罗婕 陈宙)10月14日凌晨，经过230分钟的连续奋战，广西钦州市马皇站、康熙岭站北头4处拢口拨接施工全部完成。这标志着马皇站四阶段站改施工圆满收官，南防铁路钦州至防城港段增建二线工程(以下简称“南防铁路钦防段增建二线”)进入最后冲刺阶段，为西部陆海新通道释放更强运力提供坚实保障。",
+      "topic_evidence": "马皇站四阶段站改施工圆满收官",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714870.shtml",
+      "original_title": "福建长泰龙津古陂灌溉工程入选世界灌溉工程遗产名录",
+      "original_summary": "中新网福建长泰10月15日电 (郑晓梅 林婷婷)北京时间10月14日晚，在法国马赛召开的国际灌溉排水委员会第77届执行理事会上，2026年(第十三批)世界灌溉工程遗产名录公布，福建漳州长泰龙津古陂灌溉工程成功上榜，成为闽南地区首个世界灌溉工程遗产。",
+      "topic_evidence": "福建漳州长泰龙津古陂灌溉工程成功上榜",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714912.shtml",
+      "original_title": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+      "original_summary": "北京时间10月14日晚，国际灌排委员会第77届国际执行理事会会议在法国马赛召开，会上公布2026年第十三批世界灌溉工程遗产名录。我国共有4处工程成功入选，其中“甘肃讨赖河绿洲灌溉系统”成为甘肃省首个世界灌溉工程遗产。",
+      "topic_evidence": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714842.shtml",
+      "original_title": "湖南检察机关依法对王凤朝涉嫌受贿案提起公诉",
+      "original_summary": "中新网10月15日电 据最高人民检察院网站消息，四川省成都市委原副书记、市政府原市长王凤朝涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对王凤朝作出逮捕决定，并指定由湖南省长沙市人民检察院审查起诉。近日，长沙市人民检察院已向长沙市中级人民法院提起公诉。",
+      "topic_evidence": "最高人民检察院依法以涉嫌受贿罪对王凤朝作出逮捕决定",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "受贿"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714884.shtml",
+      "original_title": "青海省果洛州政府原党组成员、副州长西热被查",
+      "original_summary": "中新网10月15日电 据青海省纪委监委消息：青海省果洛州政府原党组成员、副州长西热涉嫌严重违纪违法，主动投案，目前正接受青海省纪委监委纪律审查和监察调查。",
+      "topic_evidence": "青海省果洛州政府原党组成员、副州长西热涉嫌严重违纪违法，主动投案",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714800.shtml",
+      "original_title": "铁路部门通报“一男子在高铁座位上排便”：该男子被行拘",
+      "original_summary": "中新网10月15日电 据广铁长沙客运段官方微博消息，近日，针对媒体报道“一男子在高铁座位上排便”事件，广铁长沙客运段组织开展了调查核实，具体情况为：",
+      "topic_evidence": "该男子被行拘",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714913.shtml",
+      "original_title": "陕西宝鸡太白县一公路发生山体滑坡 当地正全力抢通",
+      "original_summary": "10月14日下午，陕西宝鸡太白县黄柏塬镇通往核桃坪村的一条乡道发生山体滑坡。山体岩石和树木植被涌向路面，造成道路交通中断。",
+      "topic_evidence": "山体岩石和树木植被涌向路面，造成道路交通中断",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap",
+      "original_summary": "A global equity selloff deepened as chip stocks plunged on Wall Street and in Asia, further unwinding this year’s blistering rally in the artificial intelligence trade. Treasuries gained on haven demand, while the dollar weakened.",
+      "topic_evidence": "A global equity selloff deepened as chip stocks plunged",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+      "original_title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+      "original_summary": "CoreWeave’s bonds issued a few months ago fell to 81 cents on the dollar earlier Wednesday, yielding more than 15%.",
+      "topic_evidence": "CoreWeave’s bonds issued a few months ago fell to 81 cents on the dollar",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+      "original_title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "original_summary": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+      "topic_evidence": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
+      "original_title": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
+      "original_summary": "Buckle up: Small-cap stocks just hit a market milestone they’d rather avoid.",
+      "topic_evidence": "From a record high to a 10% drop in just two months",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/taiwan-dollar-won-slump-as-chip-stock-selloff-hurts-sentiment",
+      "original_title": "Taiwan Dollar, Won Slump as Chip Selloff Hurts Asian Currencies",
+      "original_summary": "The Taiwan dollar and South Korean won fell the most among Asian currencies as an overnight slump in Wall Street semiconductor shares spilled into regional markets, dampening demand for artificial intelligence supply-chain plays.",
+      "topic_evidence": "The Taiwan dollar and South Korean won fell the most among Asian currencies",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-may-not-have-to-do-as-much-if-markets-tighten-dolenc-says",
+      "original_title": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says",
+      "original_summary": "A tightening in financial conditions may limit the need for European Central Bank monetary policy action, according to Governing Council member Primoz Dolenc.",
+      "topic_evidence": "A tightening in financial conditions may limit the need for European Central Bank monetary policy action",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/rbnz-chief-economist-says-next-interest-rate-call-wide-open",
+      "original_title": "RBNZ Chief Economist Says Next Interest Rate Call ‘Wide Open’",
+      "original_summary": "New Zealand’s interest rate decision in late October is “wide open,” according to Reserve Bank chief economist Paul Conway, even as inflation pressures build.",
+      "topic_evidence": "New Zealand’s interest rate decision in late October is “wide open,”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-warns-china-stimulus-lacks-ambition-leaves-yuan-undervalued",
+      "original_title": "IMF Warns China Stimulus Lacks Ambition, Leaves Yuan Undervalued",
+      "original_summary": "China’s yuan is undervalued in real terms because of the country’s flagging domestic economy, and steps to revive demand have fallen far short of what’s needed, according to a senior International Monetary Fund official.",
+      "topic_evidence": "China’s yuan is undervalued in real terms because of the country’s flagging domestic economy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/australian-unemployment-rate-was-4-7-in-september-on-job-losses",
+      "original_title": "Australia’s Higher Unemployment Prompts Paring of Rate Bets",
+      "original_summary": "Australia’s higher unemployment and job losses in September suggest the labor market may be loosening, prompting traders to scale back bets on the Reserve Bank raising interest rates further.",
+      "topic_evidence": "Australia’s higher unemployment and job losses in September suggest the labor market may be loosening",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "original_title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+      "original_summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "topic_evidence": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+      "original_title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+      "original_summary": "For most of U.S. history, an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns.",
+      "topic_evidence": "an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed",
+      "original_title": "Korea’s Foreign Bank Scrutiny Intensifies With Bond Sale Delayed",
+      "original_summary": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales, informal guidance has already played a role in delaying at least one such deal, people familiar with the matter said.",
+      "topic_evidence": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke",
+      "original_title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "original_summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 314 # Comments: 122",
+      "topic_evidence": "Anthropic's Scion is heavily inspired by Mononoke",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+      "original_title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "original_summary": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 345 # Comments: 237",
+      "topic_evidence": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer",
+      "original_title": "Things to know when you get cancer",
+      "original_summary": "Article URL: https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/ Comments URL: https://news.ycombinator.com/item?id=50093568 Points: 1007 # Comments: 238",
+      "topic_evidence": "Things to know when you get cancer",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men",
+      "original_title": "Suicide rates highest ever among middle-aged men",
+      "original_summary": "Article URL: https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/ Comments URL: https://news.ycombinator.com/item?id=50093180 Points: 350 # Comments: 443",
+      "topic_evidence": "Suicide rates highest ever among middle-aged men",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+      "original_title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "original_summary": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
+      "topic_evidence": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "approved": true,
+      "evidence": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "reason": "主事件是面向B2B销售/营收团队的AI代理产品，直接属于AI产品与平台。"
+    },
+    {
+      "id": "science-tech/science-research/https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "section": "科技与科学",
+      "subsection": "科学研究",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+      "original_title": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+      "original_summary": "A 120-million-year-old fossil forgotten in a museum for nearly a century has revealed a terrifying new dinosaur that may have been more dangerous to humans than a T. rex. The tiger-sized predator also provides the first evidence of megaraptorans in Europe, helping explain how these mysterious dinosaurs eventually became gigantic hunters.",
+      "topic_evidence": "first evidence of megaraptorans in Europe",
+      "approved": true,
+      "evidence": "first evidence of megaraptorans in Europe",
+      "reason": "主事件为一项古生物学研究发现（欧洲首次发现大盗龙类证据），属于科学研究成果。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts",
+      "original_title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
+      "original_summary": "Colossal announced a new AI platform to help accelerate its de-extinction efforts and Peter Diamandis has launched a new fund to back startups who use it.",
+      "topic_evidence": "Colossal announced a new AI platform to help accelerate its de-extinction efforts",
+      "approved": true,
+      "evidence": "Colossal announced a new AI platform to help accelerate its de-extinction efforts",
+      "reason": "主事件为公司发布新的AI平台，材料明确描述具体新产品，属新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine",
+      "original_title": "TimeTeller puts our internal clocks at the center of personalized medicine",
+      "original_summary": "German startup TimeTeller has developed a saliva test kit to help anyone understand their circadian rhythm; it aims to reduce side effects from cancer treatments.",
+      "topic_evidence": "German startup TimeTeller has developed a saliva test kit",
+      "approved": true,
+      "evidence": "German startup TimeTeller has developed a saliva test kit",
+      "reason": "主事件为初创公司推出唾液检测试剂盒这一具体新产品，属新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear",
+      "original_title": "Hiyd is a health tracker that attaches to the watch you already wear",
+      "original_summary": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+      "topic_evidence": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+      "approved": true,
+      "evidence": "Former Apple engineers figured out how to get a biometric sensor to attach to your watch without any magnets or adhesives.",
+      "reason": "主事件为一款可附着于现有手表的健康追踪硬件产品，属新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network",
+      "original_title": "Mosqitter is turning its mosquito traps into an AI-powered surveillance network",
+      "original_summary": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",
+      "topic_evidence": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network",
+      "approved": true,
+      "evidence": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network",
+      "reason": "主事件为把捕蚊硬件升级为AI监测网络，材料描述了具体产品演进，属新产品与增长。"
+    },
+    {
+      "id": "startup-product/startup-strategy/https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house",
+      "section": "创业与产品",
+      "subsection": "商业模式",
+      "url": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house",
+      "original_title": "Prismm helps banks keep inherited money in-house",
+      "original_summary": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
+      "topic_evidence": "Prismm helps banks keep inherited money in-house",
+      "approved": false,
+      "evidence": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
+      "reason": "材料只描述产品功能（让客户提前授权家属访问账户与文件），没有商业模式或创业策略层面的具体内容，主事件更贴近新产品与增长，不能以商业模式补位。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "original_summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+      "topic_evidence": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "approved": true,
+      "evidence": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "reason": "主事件为乌克兰战场Starlink限速及美国政府可能介入，属战争与安全议题。"
+    },
+    {
+      "id": "world/geopolitics/https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says",
+      "original_title": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
+      "original_summary": "International alliance of China-sceptic legislators warns of risks inherent in misjudging bilateral relationship The UK’s approach to China is “beset by incoherence” and plagued by a lack of senior expertise, according to a report warning of the risks inherent in misjudging the bilateral relationship. An audit by the Inter-Parliamentary Alliance on China (Ipac), an international grouping of China-sceptic legislators, says past engagement with Beijing has often exposed the UK to the risks of interference without delivering the opportunities promised. Continue reading...",
+      "topic_evidence": "UK’s ‘incoherent’ approach to China plagued by lack of expertise",
+      "approved": true,
+      "evidence": "The UK’s approach to China is “beset by incoherence” and plagued by a lack of senior expertise",
+      "reason": "主事件为英国对华政策的评估报告，涉及对华关系与安全风险判断，属地缘与安全。"
+    },
+    {
+      "id": "world/government-policy/https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+      "original_title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+      "original_summary": "Congress approves constitutional amendment that bans six-day workweeks, which could effect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the presidential runoff in under two weeks. In an attempt to overturn the first-round lead secured by his opponent, far-right senator Flávio Bolsonaro, Lula has strongly championed the amendment, which will give some workers an extra day off each week. Continue reading...",
+      "topic_evidence": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+      "approved": true,
+      "evidence": "Congress approves constitutional amendment that bans six-day workweeks",
+      "reason": "主事件为巴西国会通过宪法修正案缩短法定工作周，属具体政府制度与政策行动。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+      "original_title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "original_summary": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. Continue reading...",
+      "topic_evidence": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "approved": true,
+      "evidence": "the government is testing an unusual new approach to tackle the haze: dry ice",
+      "reason": "主事件为印尼林火与跨境有毒雾霾危机及区域社会影响，属全球社会议题。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "original_summary": "The Irish writer is best known for novels such as Normal People, Intermezzo and Conversations With Friends.",
+      "topic_evidence": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "approved": true,
+      "evidence": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "reason": "主事件为因支持被禁组织而引发的书籍下架社会文化争议，属全球社会范畴。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-15/10714850.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714850.shtml",
+      "original_title": "中朝新鸭绿江大桥正式开通",
+      "original_summary": "新华社权威快报｜中朝新鸭绿江大桥正式开通",
+      "topic_evidence": "中朝新鸭绿江大桥正式开通",
+      "approved": false,
+      "evidence": "中朝新鸭绿江大桥正式开通",
+      "reason": "主事件为跨境大桥正式开通的基础设施/外交事件，材料未涉及具体政策、制度、监管或标准讨论，更接近产业与地方或地缘类。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-15/10714859.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714859.shtml",
+      "original_title": "何立峰会见美国桥水投资公司创始人达利欧",
+      "original_summary": "中新社北京10月15日电 中共中央政治局委员、中央财办主任何立峰14日在北京会见美国桥水投资公司创始人达利欧。",
+      "topic_evidence": "何立峰会见美国桥水投资公司创始人达利欧",
+      "approved": false,
+      "evidence": "何立峰14日在北京会见美国桥水投资公司创始人达利欧",
+      "reason": "材料仅为高层官员与外国企业人士的会见交流，未见具体政策、监管、标准或制度内容，人物会面不足以归入政策与监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-15/10714791.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714791.shtml",
+      "original_title": "西部陆海新通道关键枢纽广西马皇站扩能改造完成",
+      "original_summary": "中新网广西钦州10月15日电(温易松 罗婕 陈宙)10月14日凌晨，经过230分钟的连续奋战，广西钦州市马皇站、康熙岭站北头4处拢口拨接施工全部完成。这标志着马皇站四阶段站改施工圆满收官，南防铁路钦州至防城港段增建二线工程(以下简称“南防铁路钦防段增建二线”)进入最后冲刺阶段，为西部陆海新通道释放更强运力提供坚实保障。",
+      "topic_evidence": "马皇站四阶段站改施工圆满收官",
+      "approved": true,
+      "evidence": "马皇站四阶段站改施工圆满收官",
+      "reason": "主事件为西部陆海新通道枢纽车站扩能改造完工，属交通基础设施与地方产业。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-15/10714870.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10714870.shtml",
+      "original_title": "福建长泰龙津古陂灌溉工程入选世界灌溉工程遗产名录",
+      "original_summary": "中新网福建长泰10月15日电 (郑晓梅 林婷婷)北京时间10月14日晚，在法国马赛召开的国际灌溉排水委员会第77届执行理事会上，2026年(第十三批)世界灌溉工程遗产名录公布，福建漳州长泰龙津古陂灌溉工程成功上榜，成为闽南地区首个世界灌溉工程遗产。",
+      "topic_evidence": "福建漳州长泰龙津古陂灌溉工程成功上榜",
+      "approved": true,
+      "evidence": "福建漳州长泰龙津古陂灌溉工程成功上榜",
+      "reason": "主事件为地方灌溉工程入选世界遗产名录，属地方发展类新闻。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-15/10714912.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714912.shtml",
+      "original_title": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+      "original_summary": "北京时间10月14日晚，国际灌排委员会第77届国际执行理事会会议在法国马赛召开，会上公布2026年第十三批世界灌溉工程遗产名录。我国共有4处工程成功入选，其中“甘肃讨赖河绿洲灌溉系统”成为甘肃省首个世界灌溉工程遗产。",
+      "topic_evidence": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+      "approved": true,
+      "evidence": "甘肃讨赖河绿洲灌溉系统入选世界灌溉工程遗产",
+      "reason": "主事件为地方灌溉系统入选世界遗产名录，属地方发展类新闻。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-15/10714800.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714800.shtml",
+      "original_title": "铁路部门通报“一男子在高铁座位上排便”：该男子被行拘",
+      "original_summary": "中新网10月15日电 据广铁长沙客运段官方微博消息，近日，针对媒体报道“一男子在高铁座位上排便”事件，广铁长沙客运段组织开展了调查核实，具体情况为：",
+      "topic_evidence": "该男子被行拘",
+      "approved": true,
+      "evidence": "该男子被行拘",
+      "reason": "主事件为铁路警方对不文明行为的行政拘留处置，属社会与法治。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-15/10714913.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10714913.shtml",
+      "original_title": "陕西宝鸡太白县一公路发生山体滑坡 当地正全力抢通",
+      "original_summary": "10月14日下午，陕西宝鸡太白县黄柏塬镇通往核桃坪村的一条乡道发生山体滑坡。山体岩石和树木植被涌向路面，造成道路交通中断。",
+      "topic_evidence": "山体岩石和树木植被涌向路面，造成道路交通中断",
+      "approved": true,
+      "evidence": "山体岩石和树木植被涌向路面，造成道路交通中断",
+      "reason": "主事件为山体滑坡致道路中断及当地抢通，属突发社会应急事务。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "original_title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+      "original_summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "topic_evidence": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "approved": true,
+      "evidence": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "reason": "主事件为2027年社保生活成本调整（COLA）这一待遇调整与监管政策事项，属理财与监管。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
+      "original_title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+      "original_summary": "For most of U.S. history, an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns.",
+      "topic_evidence": "an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns",
+      "approved": true,
+      "evidence": "an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns",
+      "reason": "主事件为个人资产配置（股债60-40组合）的投资建议，属理财与监管。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed",
+      "original_title": "Korea’s Foreign Bank Scrutiny Intensifies With Bond Sale Delayed",
+      "original_summary": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales, informal guidance has already played a role in delaying at least one such deal, people familiar with the matter said.",
+      "topic_evidence": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales",
+      "approved": true,
+      "evidence": "As Korea mulls restrictions that would limit certain foreign banks from arranging overseas bond sales",
+      "reason": "主事件为韩国酝酿限制外资银行承销海外债券的监管审查，属理财与监管。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://sunshowers.io/posts/anthropic-mononoke",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke",
+      "original_title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "original_summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 314 # Comments: 122",
+      "topic_evidence": "Anthropic's Scion is heavily inspired by Mononoke",
+      "approved": true,
+      "evidence": "Anthropic's Scion is heavily inspired by Mononoke",
+      "reason": "主事件为对Anthropic技术产品的来源与设计的观点评述，属技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+      "original_title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "original_summary": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 345 # Comments: 237",
+      "topic_evidence": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "approved": true,
+      "evidence": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "reason": "主事件为对银行转移AI数据中心债务风险的商业评论，属商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-15/10714870.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-15/10714791.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-15/10714912.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-15/10714800.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-15/10714913.shtml"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-15/korea-s-foreign-bank-scrutiny-intensifies-with-bond-sale-delayed"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://sunshowers.io/posts/anthropic-mononoke"
+    ],
+    [
+      "science-tech",
+      "science-research",
+      "https://www.sciencedaily.com/releases/2026/10/261014015457.htm"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/14/hiyd-is-a-health-tracker-that-attaches-to-the-watch-you-already-wear"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+    ]
+  ]
+}

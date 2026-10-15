@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-14</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-15</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261014</span>
+        <span>Issue 20261015</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 14, 2026 · Wednesday</span></div>
+      <div class="dateline"><span>October 15, 2026 · Thursday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,54 +40,48 @@
 
     <header class="pagehead category-head">
       <h2>01 AI &amp; LLMs</h2>
-      <span class="ed">11 articles / 3 subsections</span>
+      <span class="ed">12 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs: Gemini 4 Argon and Meta Muse Wonder launch, Higgsfield extends AI video">
-      <div class="lead-label">AI &amp; LLMs: Gemini 4 Argon and Meta Muse Wonder launch, Higgsfield extends AI video</div>
-      <p>Google&#39;s Gemini 4 Argon arrives on the Gemini API and Vercel AI Gateway, with llm-gemini 0.35 adding support; Meta releases Muse Wonder and Muse Wonder Full, followed by llm-meta-ai 0.2, while Meta Engineering details its Generative Ads Model GEM. Fish Audio&#39;s text-to-speech model Drama 3 lands on AI Gateway. In products, Higgsfield uses GPT-6 Astra and others to extend AI video from 1 minute to over 10 minutes, Facebook launches “Your Algorithm,” Google Play enables private AI-coded apps, and Product Hunt sees The Drive AI and OpenCode 2.0. Laplace Intelligence red-teams robots and self-driving cars before deployment.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Self-Improving Agents, Product Deployment, and Research Governance">
+      <div class="lead-label">AI and Large Models: Self-Improving Agents, Product Deployment, and Research Governance</div>
+      <p>This edition covers new papers and product moves in AI and large models. On frontier models, ClawLoop and Harness^2 explore self-improvement for LLM agents through a harness-native training loop and recursive execution harnessing, Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs, and another paper asks whether LLMs can access world knowledge for event prediction. On products and platforms, Amp uses OpenAI models to extend agents beyond coding, Apate sends agents undercover to get scammed and gather fraud intelligence, and Floqer uses agents to research sales prospects for B2B revenue teams. On research and governance, items span an LLM-referenced C-test for superintelligence, Long-Horizon-Terminal-Bench 2.0, welfare-aware preference acquisition for pluralistic alignment, silent failures in agentic data science, and unconstrained evaluation of open-weight models on CTI-REALM.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>5 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier models: Gemini 4 Argon and Meta Muse Wonder launch, Meta details GEM ads model">
-          <div class="lead-label">Frontier models: Gemini 4 Argon and Meta Muse Wonder launch, Meta details GEM ads model</div>
-          <p>Google&#39;s Gemini 4 Argon is available via the Gemini API and a $100/month subscription, with a 1M token context window and multimodal input, and is now on Vercel AI Gateway; llm-gemini 0.35 adds support, with the author finding low, medium, and high reasoning levels excellent. Meta releases Muse Wonder and Muse Wonder Full as its most capable models, with Artificial Analysis rating Muse Wonder (Max) equivalent to GPT-6.1 Sol; llm-meta-ai 0.2 adds support. Fish Audio&#39;s text-to-speech model Drama 3 arrives on AI Gateway with 80% off for 30 days. Meta Engineering details GEM, described as the industry&#39;s largest recommendation system foundation model.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Self-Improving Agents, Communication Optimization, and Event Prediction">
+          <div class="lead-label">Frontier Models: Self-Improving Agents, Communication Optimization, and Event Prediction</div>
+          <p>The frontier models subsection covers four arXiv papers. ClawLoop lets LLM-based agents self-improve through a harness-native training loop in sandbox workspaces, improving their use of tools such as file systems and shells. Harness^2 proposes recursive self-improvement to automatically evolve execution harnesses for LLM agents and discusses two challenges in open-world settings. Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs in LLM training and inference and ease interconnect bandwidth bottlenecks. Another paper asks whether LLMs truly cannot access pretrained world knowledge to predict events, or whether current methods fail to present the event prediction task effectively.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/13/llm-gemini" target="_blank" rel="noopener">
-            <span class="at">llm-gemini 0.35 adds support for Gemini 4 Argon</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">llm-gemini 0.35 is released with support for the new Gemini 4 Argon model, available via the Gemini API and $100/month subscription. The author tested low, medium, and high reasoning levels and found them excellent.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.14118" target="_blank" rel="noopener">
+            <span class="at">ClawLoop: Self-Improving Agents via Harness-Native Training Loop</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">ClawLoop introduces a harness-native training loop for LLM agents to self-improve in sandbox workspaces while interacting with file systems and shells.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">Gemini 4 Argon now available on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Google&#39;s Gemini 4 Argon model is now available on AI Gateway. It is built for coding, agentic work, and complex reasoning, with a 1M token context window, multimodal input (text, image, PDF, video), and tool calling.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.14224" target="_blank" rel="noopener">
+            <span class="at">Harness^2: Recursive Agent Harnessing for an Open World</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Harness^2 proposes recursive self-improvement to automatically evolve execution harnesses for LLM agents, addressing two challenges in open-world settings.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/12/llm-meta-ai" target="_blank" rel="noopener">
-            <span class="at">llm-meta-ai 0.2 updated for Meta&#39;s new Muse Wonder models</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Meta releases Muse Wonder (and Muse Wonder Full), its new most capable models. Artificial Analysis rates Muse Wonder (Max) equivalent to GPT-6.1 Sol. The llm-meta-ai plugin is updated to support the new model.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.14277" target="_blank" rel="noopener">
+            <span class="at">Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs in LLM training and inference, easing interconnect bandwidth bottlenecks.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/drama-3-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">Drama 3 now available on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Fish Audio&#39;s text-to-speech model Drama 3 is now available on AI Gateway with 80% off for 30 days. In preview, it allows directing voice performances with natural-language instructions for voiceovers, dialogue, and audio storytelling.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai" target="_blank" rel="noopener">
-            <span class="at">Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI</span>
-            <span class="by">Meta 工程</span>
-            <p class="as">Meta Engineering introduces GEM, the industry&#39;s largest recommendation system foundation model. GEM established Meta&#39;s first LLM-inspired paradigm for ads recommendation, driving performance gains, with plans to scale compute and intelligence transfer.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.19021" target="_blank" rel="noopener">
+            <span class="at">Can LLMs Access their World Knowledge for Event Prediction?</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper asks whether LLMs can access pretrained world knowledge for temporal event prediction, or whether current methods fail to present the task effectively.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -95,42 +89,30 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>5 articles</span>
+          <span>3 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI products &amp; platforms: Higgsfield extends AI video, Facebook and Google Play add user controls">
-          <div class="lead-label">AI products &amp; platforms: Higgsfield extends AI video, Facebook and Google Play add user controls</div>
-          <p>Higgsfield uses GPT-6 Astra, GPT-Image-2.5, and GPT-Live to extend AI video from 1 minute to over 10 minutes. Meta expands its AI-powered “Your Algorithm” feature from Instagram to Facebook, giving users more control over content recommendations. Google Play lets users build and run private, AI-generated personal Android apps without publishing them to all users. Product Hunt sees The Drive AI (an AI agent that works on your files) and OpenCode 2.0 (an open source AI coding agent).</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Agents Move from Coding to Fraud Intelligence and Sales Research">
+          <div class="lead-label">AI Products and Platforms: Agents Move from Coding to Fraud Intelligence and Sales Research</div>
+          <p>The AI products and platforms subsection includes three developments. OpenAI details how Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding tasks. Apate.ai sends AI agents undercover to engage scammers and get scammed, gathering fraud intelligence instead of speeding up products or workflows as most companies do. Floqer uses AI agents to research sales prospects automatically, reducing customer research work for B2B revenue teams and addressing a common sales and revenue operations problem.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://openai.com/index/higgsfield-longer-videos-voice" target="_blank" rel="noopener">
-            <span class="at">Higgsfield takes AI video from 1 minute to over 10</span>
+          <a class="art" href="https://openai.com/index/amp-beyond-coding" target="_blank" rel="noopener">
+            <span class="at">Amp puts AI agents to work beyond code with OpenAI models</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Higgsfield uses GPT-6 Astra to create longer videos, GPT-Image-2.5 for precise visuals, and GPT-Live for voice filmmaking, extending AI video from 1 minute to over 10 minutes.</p>
+            <p class="as">OpenAI details how Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding tasks.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm" target="_blank" rel="noopener">
-            <span class="at">Facebook is giving users more control over their algorithm</span>
+          <a class="art" href="https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence" target="_blank" rel="noopener">
+            <span class="at">Apate sends AI agents undercover to get scammed so they can gather fraud intelligence</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Meta launches AI-powered “Your Algorithm” on Facebook, a feature first introduced on Instagram, giving users more control over their content recommendation algorithm.</p>
+            <p class="as">Apate.ai sends AI agents undercover to engage scammers and get scammed, gathering fraud intelligence instead of speeding up products or workflows.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you" target="_blank" rel="noopener">
-            <span class="at">Google Play now lets anyone build private, vibe-coded apps that run on Android</span>
+          <a class="art" href="https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers" target="_blank" rel="noopener">
+            <span class="at">Floqer’s AI agents research sales prospects so teams don’t have to</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Google Play now allows users to build and run personal Android apps created with AI, without making them available to everyone on the Play Store, simplifying private app creation.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://www.producthunt.com/products/the-drive-ai-2" target="_blank" rel="noopener">
-            <span class="at">The Drive AI</span>
-            <span class="by">Product Hunt</span>
-            <p class="as">The Drive AI launches on Product Hunt as an AI agent that does the work on your files, automating file-related tasks.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://www.producthunt.com/products/opencode" target="_blank" rel="noopener">
-            <span class="at">OpenCode 2.0</span>
-            <span class="by">Product Hunt</span>
-            <p class="as">OpenCode 2.0 launches on Product Hunt as an open source AI coding agent designed to assist developers with programming tasks.</p>
+            <p class="as">Floqer uses AI agents to research sales prospects automatically, reducing customer research work for B2B revenue teams and addressing a common sales operations problem.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -138,18 +120,42 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>Research &amp; Governance</h3>
-          <span>1 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; governance: Laplace Intelligence red-teams robots and self-driving cars">
-          <div class="lead-label">Research &amp; governance: Laplace Intelligence red-teams robots and self-driving cars</div>
-          <p>University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Superintelligence Tests, Long-Horizon Benchmarks, and Pluralistic Alignment">
+          <div class="lead-label">Research and Governance: Superintelligence Tests, Long-Horizon Benchmarks, and Pluralistic Alignment</div>
+          <p>The research and governance subsection summarizes five arXiv papers. One proposes an LLM-referenced C-test to evaluate machines that may surpass current systems and test designers, avoiding benchmarks that become circular or saturate quickly. Long-Horizon-Terminal-Bench 2.0 extends a long-horizon terminal benchmark, retaining 46 original tasks while automating diverse task construction and using process rewards to measure whether agents sustain progress through workflows. Another paper studies welfare-aware preference acquisition for pluralistic alignment under limited human feedback, using AI simulators while accounting for varying simulation accuracy so diverse preferences are better represented in alignment training. A further paper examines evaluation of LLM data science agents from task formulation to model development, arguing that final outcomes alone miss silent failures in the process. The last compares open-weight models with expensive closed frontier models on the CTI-REALM benchmark, studying trade-offs for organizations choosing auditable language-model agents for security work.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world" target="_blank" rel="noopener">
-            <span class="at">Laplace Intelligence red-teams robots and self-driving cars before they hit the real world</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup competes in Startup Battlefield at TechCrunch Disrupt.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.14005" target="_blank" rel="noopener">
+            <span class="at">Artificiality&#39;s First Exam: An LLM-Referenced C-test for Supraintelligence</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper proposes an LLM-referenced C-test to evaluate machines that may surpass current systems and test designers, avoiding benchmarks that become circular or saturate quickly.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14146" target="_blank" rel="noopener">
+            <span class="at">Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">LHTB 2.0 extends a long-horizon terminal benchmark with automated diverse task construction, using process rewards to measure whether agents sustain progress through workflows.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.19035" target="_blank" rel="noopener">
+            <span class="at">Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">The paper studies welfare-aware preference acquisition for pluralistic alignment, using AI simulators while accounting for varying simulation accuracy so diverse preferences are better represented.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14115" target="_blank" rel="noopener">
+            <span class="at">The Silent Failures in Agentic Data Science</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper examines evaluation of LLM data science agents from task formulation to model development, arguing that final outcomes alone miss silent failures in the process.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.14180" target="_blank" rel="noopener">
+            <span class="at">Unconstrained CTI-REALM with Open-Weights</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper compares open-weight models with expensive closed frontier models on the CTI-REALM benchmark, studying trade-offs for organizations choosing auditable language-model agents for security work.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
