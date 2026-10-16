@@ -1,0 +1,2060 @@
+{
+  "date": "2026-10-16",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+              "title": "Meta 推出开放权重模型 Muse Spark Open，可在苹果芯片上本地运行",
+              "summary": "Meta 发布新的开放权重 AI 模型 Muse Spark Open，并与苹果合作，使其可在 Apple silicon 上本地运行，主打在 Mac 设备端直接推理。",
+              "title_en": "Meta launches an open-weight AI model that runs on Macs",
+              "summary_en": "Meta launched Muse Spark Open, a new open-weight AI model built with Apple that runs locally on Apple silicon, letting Mac users run the model on-device.",
+              "topic_evidence": "an open-weight AI model that runs on Macs",
+              "reason": "大型实验室发布新的开放权重模型，并明确本地运行方式，属前沿模型动态。",
+              "reason_en": "A major lab released a new open-weight model with a specific on-device runtime, fitting frontier models.",
+              "score": 8.5
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20780",
+              "title": "ARIA：面向多智能体系统的运行时检查与修正",
+              "summary": "论文提出 ARIA，用于基于大模型的多智能体系统的运行时检查与修正，可在执行过程中学习干预，避免局部错误沿智能体链条传播导致任务失败。",
+              "title_en": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+              "summary_en": "The paper introduces ARIA, a runtime inspection and amendment framework for LLM-based multi-agent systems that intervenes during execution to stop local errors from propagating into task failure.",
+              "topic_evidence": "Diagnosing completed runs or repeatedly re-executing them to search for corrections",
+              "reason": "针对多智能体系统错误传播提出具体运行时干预方法。",
+              "reason_en": "It proposes a concrete runtime intervention for error propagation in multi-agent systems.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20686",
+              "title": "RoLaQ：多头潜在注意力中 2 位 KV 缓存的旋转与范围联合校准",
+              "summary": "研究针对多头潜在注意力（MLA）的 2 位 KV 缓存提出 RoLaQ 联合旋转与范围校准方法，缓解低比特存储对注意力匹配和值读取造成的误差，服务长上下文推理。",
+              "title_en": "RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention",
+              "summary_en": "RoLaQ introduces joint rotation and range calibration for 2-bit KV caches in multi-head latent attention, reducing errors in attention matching and value readout to support long-context inference.",
+              "topic_evidence": "2-Bit KV Caches in Multi-Head Latent Attention",
+              "reason": "提出面向长上下文推理的低比特 KV 缓存具体方法。",
+              "reason_en": "It presents a concrete low-bit KV cache method for long-context inference.",
+              "score": 6.2
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20642",
+              "title": "CoTS：面向大模型潜在推理的竞争性 token 选择",
+              "summary": "论文提出 CoTS，通过竞争性 token 选择判断何时启用潜在推理，仅在需要时替换离散 token，兼顾中间表示的丰富度与推理效率。",
+              "title_en": "CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models",
+              "summary_en": "CoTS introduces competitive token selection to decide when latent reasoning is needed in LLMs, replacing tokens selectively to balance richer intermediate representations with efficiency.",
+              "topic_evidence": "Competitive Token Selection for Latent Reasoning",
+              "reason": "改进大模型潜在推理机制，方法具体。",
+              "reason_en": "It offers a concrete method improving latent reasoning in large language models.",
+              "score": 5.5
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20786",
+              "title": "EvolvingBrain：面向开放世界多模态智能体自演化的自适应技能系统",
+              "summary": "论文提出 EvolvingBrain 自适应技能系统，用于开放世界中多模态智能体的自我演化，弥补监督微调无法主动组织经验、结果型强化学习忽视中间轨迹的问题。",
+              "title_en": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
+              "summary_en": "EvolvingBrain is an adaptive skill system enabling multi-modal agents to self-evolve in open worlds, addressing limits of supervised fine-tuning and outcome-based reinforcement learning.",
+              "topic_evidence": "An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
+              "reason": "提出多模态智能体自我演化的具体系统。",
+              "reason_en": "It presents a concrete system for self-evolution of multi-modal agents.",
+              "score": 5.2
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+              "title": "AI 智能体将进入 Rivian 汽车",
+              "summary": "Rivian 计划在其汽车中引入 AI 智能体，更多实现细节预计将在公司 12 月举行的“AI 与自动驾驶日”活动上公布。",
+              "title_en": "AI agents are coming to Rivian's cars",
+              "summary_en": "Rivian plans to bring AI agents into its vehicles, with more details on how this will work expected at the company's 'AI & Autonomy Day' event in December.",
+              "topic_evidence": "AI agents are coming to Rivian's cars",
+              "reason": "车载 AI 智能体的具体产品落地计划。",
+              "reason_en": "A concrete product plan to bring AI agents into vehicles.",
+              "score": 5.5
+            },
+            {
+              "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+              "title": "Vercel AI 网关生产指数：开放权重模型占 71.5% token、23% 支出",
+              "summary": "Vercel 月度 AI 网关生产指数显示，2026 年 10 月开放权重模型占其路由 token 的 71.5%，但仅占支出的 23%。",
+              "title_en": "Open weight takes 71.5% of tokens and 23% of spend",
+              "summary_en": "Vercel's October 2026 AI Gateway Production Index reports that open-weight models accounted for 71.5% of routed tokens but only 23% of spending.",
+              "topic_evidence": "Open weight takes 71.5% of tokens and 23% of spend",
+              "reason": "来自平台的真实生产使用数据，反映开放权重模型采用与支出结构。",
+              "reason_en": "Platform-level production data showing open-weight model usage and spend structure.",
+              "score": 6.5
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20632",
+              "title": "MeddeX：结合 Gemini Vision 的检索增强 LLaMA-3 医疗报告分析系统",
+              "summary": "论文提出 MeddeX 医疗报告分析器，结合 QLoRA 微调的 LLaMA-3 与 Gemini Vision，以检索增强方式生成有证据支撑的医疗报告分析。",
+              "title_en": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+              "summary_en": "MeddeX combines a QLoRA fine-tuned LLaMA-3 with Gemini Vision in a retrieval-augmented system to produce evidence-backed analysis of complex medical reports.",
+              "topic_evidence": "A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+              "reason": "结合多模型与检索的具体医疗报告分析系统。",
+              "reason_en": "A concrete multi-model retrieval-augmented system for medical report analysis.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+              "title": "Anthropic 向 METR 研究员开放员工级访问权限",
+              "summary": "Anthropic 允许 METR 研究员以员工级权限深入查看其系统，METR 将自行发布对 Anthropic 风险、事件与做法的评估，Anthropic 放弃阻止发布的权利。",
+              "title_en": "Anthropic is letting METR researchers look under the hood with employee-level access",
+              "summary_en": "Anthropic is granting METR researchers employee-level access to inspect its systems; METR will publish its own assessments of Anthropic's risks, incidents and practices, with the right to block publication waived.",
+              "topic_evidence": "the frontier AI model maker has given up the right to block them",
+              "reason": "前沿 AI 实验室引入外部安全评估并放弃审查权的具体治理安排。",
+              "reason_en": "A concrete governance arrangement giving external evaluators access and blocking rights waived.",
+              "score": 8.2
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20667",
+              "title": "基准饱和后如何评估模型能力",
+              "summary": "论文讨论 AI 基准饱和问题：当多个模型接近满分，基准便失去区分力，也难以支撑安全论证与前沿政策，作者提出利用基准条目挖掘更多信息。",
+              "title_en": "Evaluating Model Capabilities After Benchmark Saturation",
+              "summary_en": "The paper examines benchmark saturation, where near-perfect scores erode a benchmark's ability to differentiate models and inform safety cases, and explores extracting more information from items.",
+              "topic_evidence": "Rapid advances in AI capabilities are causing benchmarks to saturate",
+              "reason": "针对评测饱和与模型能力评估提出方法性讨论。",
+              "reason_en": "A methodological discussion of benchmark saturation and model capability evaluation.",
+              "score": 6.0
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20665",
+              "title": "世界不会等待：在实时时钟下评估与训练智能体",
+              "summary": "论文提出 RealtimeBench，包含六类游戏共 180 项任务，在游戏持续运行的情况下评估 LLM 智能体，衡量推理与工具调用耗时对任务成败的影响。",
+              "title_en": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+              "summary_en": "The paper introduces RealtimeBench, with 180 tasks across six game types, to evaluate LLM agents while games keep running, capturing how latency in reasoning and tool calls affects outcomes.",
+              "topic_evidence": "We introduce RealtimeBench, with 180 tasks across six game types",
+              "reason": "提出面向实时环境的新评测基准。",
+              "reason_en": "It introduces a new benchmark for evaluating agents under real-time conditions.",
+              "score": 6.4
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.20679",
+              "title": "反事实邻域风险场：视觉语言模型的可信选择性安全",
+              "summary": "论文提出反事实邻域风险场（CNRF），为视觉语言模型提供有证据支撑的选择性安全框架，说明风险分数的含义以及何时可以信任该分数。",
+              "title_en": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+              "summary_en": "The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework giving vision-language models selective safety by defining what a risk score means and when to trust it.",
+              "topic_evidence": "Evidence-Grounded Selective Safety for Vision-Language Models",
+              "reason": "针对视觉语言模型安全防护提出具体框架。",
+              "reason_en": "A concrete safety framework for vision-language models.",
+              "score": 5.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "json_object",
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering",
+              "title": "Meta 如何用 AI 代理开发新应用 Forum",
+              "summary": "Meta 最新应用 Forum 面向希望深入参与 Facebook 群组讨论的用户。为构建 Forum，Meta 工程师在开发周期中引入 AI 代理，采用全新的工作方式。",
+              "title_en": "How Meta Built Forum With AI-Native Engineering",
+              "summary_en": "Meta's new app Forum lets users engage deeper with Facebook group conversations. To build it, Meta engineers brought an AI agent into the development cycle, adopting a new way of working.",
+              "topic_evidence": "bringing an AI agent into the development cycle",
+              "reason": "Meta 分享用 AI 代理参与开发周期的具体工程实践，对开发者有参考价值。",
+              "reason_en": "Meta shares concrete engineering practices of using an AI agent in the development cycle, valuable for developers.",
+              "score": 4.85
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta",
+              "title": "Sapienz 自动化测试研究获 ISSTA 2026 最具影响力论文奖",
+              "summary": "Ke Mao、Mark Harman 和 Yue Jia 因 2016 年论文《Sapienz: multi-objective automated testing for Android applications》获得 ISSTA 2026 最具影响力论文奖。",
+              "title_en": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+              "summary_en": "Ke Mao, Mark Harman, and Yue Jia received the ISSTA 2026 Most Influential Paper Award for their 2016 research on Sapienz, a multi-objective automated testing tool for Android applications.",
+              "topic_evidence": "Sapienz: multi-objective automated testing for Android applications",
+              "reason": "该奖项认可了自动化测试工具 Sapienz 的十年影响力，属于开发者工具与研究的重要进展。",
+              "reason_en": "The award recognizes the decade-long impact of the Sapienz automated testing tool, an important development in developer tools and research.",
+              "score": 4.85
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+              "title": "Chirp Pong：用麦克风声波在双手机上同步游戏状态的实验",
+              "summary": "Simon Willison 发布实验性双人游戏 Chirp Pong，在两台运行静态 HTML 的手机间，通过麦克风发送啁啾声（chirps）来同步游戏状态，验证了可行性。",
+              "title_en": "Chirp Pong",
+              "summary_en": "Simon Willison released Chirp Pong, an experimental two-player game on two phones running static HTML, where networking uses chirps sent via the microphone to sync game state. The experiment appears feasible.",
+              "topic_evidence": "networking code uses chirps sent via the microphone",
+              "reason": "这是一个利用声波通信实现手机间游戏状态同步的工具实验，展示有趣的网络编程可能性。",
+              "reason_en": "A tool experiment using acoustic communication to sync game state between phones, showing interesting networking possibilities.",
+              "score": 4.1
+            },
+            {
+              "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
+              "title": "GitHub 利用原生功能自动化审查外部协作者访问并归档陈旧仓库",
+              "summary": "GitHub 分享如何利用原生功能自动化审查外部协作者访问权限，并归档陈旧仓库，以改善共享组织中的安全访问和仓库卫生。",
+              "title_en": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+              "summary_en": "GitHub shares how it uses native features to automate reviewing outside collaborator access and archiving stale repositories, improving secure access and repo hygiene in a shared org.",
+              "topic_evidence": "review outside collaborator access and archive stale repositories",
+              "reason": "GitHub 公开了自动化仓库安全与卫生管理的具体做法，对使用 GitHub 的团队有直接参考价值。",
+              "reason_en": "GitHub discloses concrete practices for automating repository security and hygiene, directly useful for teams using GitHub.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+              "title": "Vercel Ship 2026 回顾：发布面向代理的基础设施",
+              "summary": "Vercel 在 Ship 2026 大会上发布面向代理（agents）的基础设施，认为下一代公司将建立在为代理设计的架构上。",
+              "title_en": "Vercel Ship 2026 recap",
+              "summary_en": "At Vercel Ship 2026, Vercel announced agentic infrastructure, saying the next decade's winning companies will build on infrastructure designed for agents from the start.",
+              "topic_evidence": "Agentic infrastructure",
+              "reason": "Vercel 是主流开发平台，Ship 2026 大会宣布面向代理的基础设施，对开发者有直接影响。",
+              "reason_en": "Vercel is a major developer platform, and Ship 2026 announced agentic infrastructure, directly impacting developers.",
+              "score": 21.9
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale",
+              "title": "2026 世界杯：Meta 基础设施流量创纪录，可靠性经受考验",
+              "summary": "每四年一次的世界杯是 Meta 基础设施最大规模的计划性压力测试。2026 年世界杯创下历史流量纪录，检验了其大规模可靠性。",
+              "title_en": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+              "summary_en": "Every four years, the World Cup serves as the largest planned stress test of Meta's infrastructure. The 2026 event set an all-time traffic record, testing reliability at scale.",
+              "topic_evidence": "largest planned stress test of our infrastructure",
+              "reason": "Meta 分享世界杯期间大规模流量下的基础设施可靠性与性能数据，属于典型生产工程案例。",
+              "reason_en": "Meta shares infrastructure reliability and performance data under massive World Cup traffic, a typical production engineering case.",
+              "score": 4.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm",
+              "title": "北极海冰在2026年再次降至令人担忧的低位",
+              "summary": "卫星记录显示，北极海冰冬夏两季持续萎缩，残余冰层变得更薄、更年轻且易融化。尽管夏季损失近期放缓，科学家警告北极可能在2050年前出现近乎无冰的夏季。",
+              "title_en": "Arctic sea ice hits another troubling low in 2026",
+              "summary_en": "Satellite records show Arctic sea ice is shrinking in winter and summer and becoming thinner and younger. Despite slower recent summer losses, scientists warn of a nearly ice-free summer before 2050.",
+              "topic_evidence": "Arctic sea ice is shrinking in both winter and summer",
+              "reason": "基于卫星记录报告2026年北极海冰持续变薄和偏低，属气候与卫星观测研究；按气候/卫星关键词归入航天能源与机器人小版。",
+              "reason_en": "It reports satellite records of thinning and low Arctic sea ice in 2026; climate and satellite observations fit this subsection's keyword scope.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
+              "title": "威胁全球粮食供应的真菌或遇新防线：科学家改造植物免疫受体",
+              "summary": "科学家通过改造一类特殊植物免疫受体，使其能同时识别多种真菌威胁，为水稻、小麦和大麦等作物提供潜在抗病新途径，但距离田间应用仍需验证。",
+              "title_en": "A fungus is threatening the world’s food supply. Scientists just found a new defense",
+              "summary_en": "Researchers engineered a plant immune receptor that recognizes multiple fungal threats, offering a potential way to protect rice, wheat and barley, though field applications remain unproven.",
+              "topic_evidence": "engineering a special type of plant immune receptor",
+              "reason": "该研究通过工程化植物免疫受体应对威胁水稻、小麦和大麦的真菌，属于农业生物技术与植物免疫研究，符合科学研究小版。",
+              "reason_en": "The study engineers plant immune receptors against fungi threatening rice, wheat and barley, fitting agricultural biotechnology and plant immunity research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
+              "title": "麻醉下大脑仍能分析语言，意识研究受挑战",
+              "summary": "贝勒大学研究人员发现，全身麻醉下的人脑仍能分析语言、识别词类并预测故事后续内容。这一结果挑战既有意识理论，提示无意识大脑的能力可能远超此前认识。",
+              "title_en": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
+              "summary_en": "Baylor researchers found that under general anesthesia the human brain can still analyze language, recognize word types and predict story continuations, challenging views of consciousness and unconscious processing.",
+              "topic_evidence": "Even under general anesthesia, the human brain can analyze language",
+              "reason": "研究直接报告麻醉下人脑仍能处理语言和预测词义，属神经科学与意识研究，信息具体。",
+              "reason_en": "It directly reports language processing and prediction under anesthesia, making it a specific neuroscience and consciousness study.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261013015835.htm",
+              "title": "携带额外染色体的微小癌细胞更具侵袭性",
+              "summary": "科学家发现，携带额外染色体的异常小癌细胞比大癌细胞生长更快、更易扩散并抵抗常规治疗，或可解释部分肿瘤为何格外危险，并帮助预测癌症预后。",
+              "title_en": "Scientists discover a surprising danger in smaller cancer cells",
+              "summary_en": "Scientists found unusually small cancer cells with extra chromosomes can grow faster, spread more and resist common treatments, potentially explaining why some tumors are especially dangerous and aiding prognosis.",
+              "topic_evidence": "unusually small cancer cells carrying extra chromosomes can be far more aggressive",
+              "reason": "发现携带额外染色体的微小癌细胞更具侵袭性，涉及癌症生物学与治疗抵抗，属科学研究。",
+              "reason_en": "It finds small cancer cells with extra chromosomes are more aggressive, involving cancer biology and treatment resistance.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261013015814.htm",
+              "title": "罕见研究揭示阿尔茨海默病患者脑内的显著差异",
+              "summary": "一例罕见阿尔茨海默病患者脑检查显示，淀粉样斑块被清除的区域几乎无有害tau蛋白积累，而邻近区域损伤广泛。结果提示去除淀粉样蛋白或具持久保护作用，可能有助于延缓病情。",
+              "title_en": "Rare study reveals a striking divide inside an Alzheimer’s patient’s brain",
+              "summary_en": "A rare Alzheimer’s brain examination found regions cleared of amyloid plaques had little harmful tau buildup, while neighboring areas showed extensive damage, suggesting amyloid removal may offer lasting protection and slow progression.",
+              "topic_evidence": "regions cleared of amyloid plaques had remarkably little of the harmful tau buildup",
+              "reason": "罕见人脑样本显示清除淀粉样斑块区域tau积累较少，直接关系阿尔茨海默病机制与治疗，属医学研究。",
+              "reason_en": "A rare human brain sample links amyloid plaque clearance to less tau buildup, directly relevant to Alzheimer’s disease mechanisms and treatment.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": []
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai",
+              "title": "Ramp 估值达 600 亿美元，加速深入 AI",
+              "summary": "支付与费用管理平台 Ramp 在融资中估值达到 600 亿美元，年化收入突破 20 亿美元，客户数量达 8.5 万家。公司正进一步整合 AI 能力。",
+              "title_en": "Ramp Reaches $60B Valuation as It Pushes Deeper Into AI",
+              "summary_en": "Ramp, a spend management platform, hit a $60 billion valuation amid new funding. Its annualized revenue surpassed $2 billion and customer count reached 85,000 as it expands AI features.",
+              "topic_evidence": "annualized revenue crosses $2B",
+              "reason": "该文报道 Ramp 获得新融资，估值达 600 亿美元，同时年化收入超 20 亿美元、客户达 8.5 万家，属于明确的融资与估值增长事件。",
+              "reason_en": "The article reports Ramp's new funding round, a $60B valuation, over $2B annualized revenue, and 85,000 customers, a clear funding and valuation event.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports?traffic_source=rss",
+              "title": "伊朗战争直播：特朗普称不太可能向伊朗派遣地面部队；沙特击落无人机",
+              "summary": "特朗普总统表示，向伊朗部署地面部队的可能性不大。与此同时，沙特阿拉伯在其东部省击落了一架无人机。",
+              "title_en": "Iran war live: Trump says ground troops unlikely in Iran; Saudi downs drone",
+              "summary_en": "President Trump says sending ground troops to Iran is unlikely, while Saudi Arabia downs a drone in its Eastern Province amid ongoing tensions.",
+              "topic_evidence": "President Trump says deployment of ground troops to Iran unlikely as Saudi Arabia downs drone in its Eastern Province.",
+              "reason": "提供伊朗战争最新动态，涉及美国军事决策与沙特安全事件，属典型地缘安全新闻。",
+              "reason_en": "Provides latest on Iran war, covering US military decision and Saudi security incident, typical geopolitical security news.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+              "title": "胡塞武装导弹袭击也门总统府致五人死亡，部长称",
+              "summary": "也门信息部长称，弹道导弹击中马希格宫时，总理及其他部长均未受伤。袭击造成五人死亡。",
+              "title_en": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+              "summary_en": "Yemen's information minister says five people were killed when Houthi ballistic missiles hit al-Maashiq Palace, though the prime minister and other ministers were unhurt.",
+              "topic_evidence": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+              "reason": "报道胡塞武装对也门总统府的导弹袭击，涉及中东安全局势。",
+              "reason_en": "Reports Houthi missile attack on Yemeni presidential palace, relevant to Middle East security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+              "title": "俄罗斯指责乌克兰袭击炼油厂，此前泽连斯基称将恢复打击",
+              "summary": "乌克兰总统表示，在俄罗斯发动新一轮袭击后，暂停打击能源设施的做法已经结束。俄方指责乌方袭击炼油厂。",
+              "title_en": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+              "summary_en": "Russia accuses Ukraine of attacking an oil refinery after President Zelensky says a pause on striking energy sites is over following new Russian attacks.",
+              "topic_evidence": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+              "reason": "俄乌冲突中能源设施打击升级，直接影响战局与能源安全。",
+              "reason_en": "Escalation of strikes on energy infrastructure in Russia-Ukraine war, impacting battlefield and energy security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+              "title": "罗马尼亚海岸附近油轮遭无人机袭击起火，七名船员失踪",
+              "summary": "罗马尼亚海岸附近一艘油轮遭无人机袭击后起火，七名船员失踪。黑海地区已展开搜救行动。",
+              "title_en": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+              "summary_en": "A tanker is ablaze off Romania's coast after a drone attack, leaving seven crew missing. A search and rescue operation is under way in the Black Sea.",
+              "topic_evidence": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
+              "reason": "黑海地区无人机袭击事件，涉及航运安全与地区冲突外溢。",
+              "reason_en": "Drone attack in Black Sea region, involving shipping security and spillover of regional conflict.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours?traffic_source=rss",
+              "title": "缅甸政变领导人转任总统后重获邻国支持，尽管战争持续",
+              "summary": "东盟领导人正接纳敏昂莱，但批评者警告这会让仍在轰炸平民的军方更加有恃无恐。",
+              "title_en": "Myanmar’s coup leader-turned-president wins back neighbours despite war",
+              "summary_en": "ASEAN leaders are embracing Myanmar's Min Aung Hlaing, but critics warn it emboldens a military that continues to bomb civilians despite ongoing war.",
+              "topic_evidence": "ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians.",
+              "reason": "缅甸局势与东盟外交互动，涉及地区安全与人道危机。",
+              "reason_en": "Myanmar situation and ASEAN diplomatic engagement, involving regional security and humanitarian crisis.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
+              "title": "阿根廷学生校园抗议米莱紧缩政策",
+              "summary": "法官因政府未能资助大学而对其罚款，与此同时，反对米莱削减开支的抗议活动演变为暴力冲突。",
+              "title_en": "Argentine students protest on campus over Milei’s austerity",
+              "summary_en": "A judge fines Argentina's government for failing to fund universities as protests over President Milei's austerity cuts turn violent on campuses.",
+              "topic_evidence": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
+              "reason": "阿根廷国内政策引发的抗议与司法裁决，属政府政策范畴。",
+              "reason_en": "Protests and judicial ruling over Argentina's domestic policy, falling under government policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/16/iraq-parliament-approves-al-zaidis-cabinet-amid-growing-economic-concerns?traffic_source=rss",
+              "title": "伊拉克议会批准扎伊迪内阁，经济担忧加剧",
+              "summary": "伊拉克议会最终确定了关键部长任命，此时距离扎伊迪政府上任已过去五个月，经济担忧持续加剧。",
+              "title_en": "Iraq parliament approves al-Zaidi’s cabinet amid growing economic concerns",
+              "summary_en": "Iraq's parliament has finalised key minister appointments five months after Prime Minister al-Zaidi's government took office, amid growing economic concerns.",
+              "topic_evidence": "Iraq's parliament has finalised key minister appointments five months after al-Zaidi's government took office.",
+              "reason": "伊拉克政府组阁完成，涉及议会与政府政策。",
+              "reason_en": "Iraqi government formation completion, involving parliament and government policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
+              "title": "阿塞拜疆学校头巾禁令引发罕见抗议并与土耳其争执",
+              "summary": "阿塞拜疆学校禁止佩戴头巾的规定引发抗议，一些戴头巾的学生被拒之门外，此事还导致与土耳其的纠纷。",
+              "title_en": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+              "summary_en": "A school headscarf ban in Azerbaijan has sparked rare protests after pupils wearing hijabs were turned away, also causing a diplomatic row with Turkey.",
+              "topic_evidence": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+              "reason": "阿塞拜疆教育政策引发社会抗议与外交摩擦，属政府政策。",
+              "reason_en": "Azerbaijan's education policy triggers social protests and diplomatic friction, under government policy.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
+              "title": "巴基斯坦学校屋顶坍塌，至少33名学生和一名教师死亡",
+              "summary": "巴基斯坦一所学校屋顶坍塌，砸穿三间教室，至少33名学生和一名教师死亡，儿童被埋在废墟下。",
+              "title_en": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+              "summary_en": "At least 33 pupils and a teacher were killed when a school roof collapsed in Pakistan, burying children under debris after crashing through three classrooms, police say.",
+              "topic_evidence": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
+              "reason": "巴基斯坦学校坍塌事故造成重大伤亡，属全球社会突发事件。",
+              "reason_en": "Pakistan school collapse causes heavy casualties, a global society emergency.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+              "title": "塞内加尔数百人被捕，LGBTQ+群体躲藏",
+              "summary": "人权观察报告称，塞内加尔在加重同性恋定罪法律后，至少320人因“违背自然行为”被拘留，大规模逮捕与强制HIV检测等打压升级。",
+              "title_en": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
+              "summary_en": "Human Rights Watch reports at least 320 people detained in Senegal for 'acts against nature' after tougher anti-homosexuality laws, with mass arrests, forced HIV testing and barriers to legal representation.",
+              "topic_evidence": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports",
+              "reason": "塞内加尔针对LGBTQ+群体的逮捕与打压，涉及人权与社会问题。",
+              "reason_en": "Senegal's arrests and crackdown on LGBTQ+ people, involving human rights and social issues.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+              "title": "英吉利海峡隧道法国一侧巴士撞上停靠列车，19人受伤",
+              "summary": "英吉利海峡隧道法国一侧，一辆巴士撞上停靠的列车，造成19人受伤。两人被空运至医院，但官员称无人有生命危险。",
+              "title_en": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+              "summary_en": "A bus hit a stopped train on the French side of the Channel Tunnel, injuring 19 people. Two were airlifted to hospital but officials say no lives are in danger.",
+              "topic_evidence": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+              "reason": "英吉利海峡隧道交通事故，涉及跨国交通与公共安全。",
+              "reason_en": "Channel Tunnel traffic accident, involving cross-border transport and public safety.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml",
+              "title": "国铁集团启动全国铁路列车车次编排改革",
+              "summary": "国铁集团启动全国铁路列车车次编排改革，11月下旬、12月下旬分两批优化车次字头字母和数字号段，新增X字头用于时速350公里以上复兴号动车组。",
+              "title_en": "China Railway Group Launches Nationwide Train Numbering Reform",
+              "summary_en": "China Railway Group has launched a nationwide train numbering reform, optimizing letter prefixes and number ranges in two batches in late November and December, adding an 'X' prefix for Fuxing trains running at 350 km/h or above.",
+              "topic_evidence": "国铁集团启动全国铁路列车车次编排改革工作",
+              "reason": "国铁集团启动全国铁路列车车次编排改革，涉及车次编排、号段优化和新版规定，是铁路运输领域的重要政策调整。",
+              "reason_en": "China Railway Group launches nationwide train numbering reform, optimizing prefixes and number ranges and implementing new regulations, a significant policy adjustment in railway transport.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715538.shtml",
+              "title": "应急管理部：坚决整治安全监管执法“宽松软虚”问题",
+              "summary": "应急管理部在季度例行新闻发布会上表示，针对今年几起重特大事故暴露的问题，推动进一步严格安全监管执法，采取三方面措施坚决整治“宽松软虚”等问题。",
+              "title_en": "Ministry of Emergency Management: Resolutely Rectify Lax and Weak Safety Supervision",
+              "summary_en": "The Ministry of Emergency Management announced measures to strictly enforce safety supervision and law enforcement, addressing problems exposed by several major accidents this year, including lax and weak enforcement.",
+              "topic_evidence": "坚决整治“宽松软虚”等问题",
+              "reason": "应急管理部针对重特大事故暴露的问题，提出严格安全监管执法的三方面措施，是安全生产监管政策的重要动向。",
+              "reason_en": "MEM proposes three measures to strictly enforce safety supervision following major accidents, a key regulatory development in work safety.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715533.shtml",
+              "title": "应急管理部：整治烟花爆竹违法乱象 20项具体措施强化全链条监管",
+              "summary": "应急管理部举行季度例行新闻发布会，就国务院办公厅印发的关于进一步加强烟花爆竹全链条安全监管的意见，介绍20项具体措施，推动解决烟花爆竹领域突出问题。",
+              "title_en": "MEM to Curb Illegal Fireworks: 20 Measures to Strengthen Full-Chain Supervision",
+              "summary_en": "The Ministry of Emergency Management outlined 20 specific measures to strengthen full-chain safety supervision of fireworks, following a State Council General Office opinion, to address prominent problems in the sector.",
+              "topic_evidence": "国务院办公厅印发了关于进一步加强烟花爆竹全链条安全监管的意见",
+              "reason": "国务院办公厅印发烟花爆竹全链条安全监管意见，应急管理部提出20项具体措施，属于重要监管政策。",
+              "reason_en": "The State Council General Office issues opinion on fireworks safety supervision; MEM introduces 20 measures, a significant regulatory policy.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715496.shtml",
+              "title": "经营主体信用监管标准体系研究报告发布 已梳理各级标准1038项",
+              "summary": "中国标准化研究院发布《经营主体信用监管标准体系研究报告(2026蓝皮书)》，系统梳理全国已公开发布的信用领域各级标准1038项，通过分层分类、年度分布开展深度分析研判。",
+              "title_en": "Report on Credit Supervision Standards for Market Entities Released, 1,038 Standards Reviewed",
+              "summary_en": "The China National Institute of Standardization released a report on credit supervision standards for market entities, systematically reviewing 1,038 publicly issued credit-related standards at various levels.",
+              "topic_evidence": "系统梳理全国已公开发布的信用领域各级标准1038项",
+              "reason": "中国标准化研究院发布信用监管标准体系研究报告，梳理1038项标准，是信用监管标准化建设的重要进展。",
+              "reason_en": "CNIS releases report on credit supervision standards, reviewing 1,038 standards, an important development in standardization for credit regulation.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715515.shtml",
+              "title": "活力中国调研行丨钦州港“无人码头”，藏着多少黑科技？",
+              "summary": "报道聚焦钦州港“无人码头”，探讨其中运用的科技手段，展现中国港口在智慧化建设方面的探索。",
+              "title_en": "Vital China Research Tour: How Much Black Tech Is in Qinzhou Port's 'Unmanned Terminal'?",
+              "summary_en": "A report on Qinzhou Port's 'unmanned terminal' explores the technology behind it, highlighting China's advances in smart port construction and logistics innovation.",
+              "topic_evidence": "钦州港“无人码头”，藏着多少黑科技？",
+              "reason": "报道钦州港“无人码头”的科技应用，属于产业与地方版块，体现地方智慧港口建设。",
+              "reason_en": "Report on Qinzhou Port's unmanned terminal technology, fitting industry and local section, showcasing local smart port development.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715473.shtml",
+              "title": "首发、首展、首秀！第九届进博会多项数据创历年新高",
+              "summary": "国务院新闻办公室举行新闻发布会，介绍第九届中国国际进口博览会筹备情况，多项数据创历年新高，突出首发、首展、首秀等特点。",
+              "title_en": "Debuts, First Exhibitions, First Shows! 9th CIIE Sets Multiple Record Highs",
+              "summary_en": "The State Council Information Office briefed on preparations for the 9th China International Import Expo, noting multiple record highs in debut events, first exhibitions, and first shows.",
+              "topic_evidence": "第九届进博会多项数据创历年新高",
+              "reason": "第九届进博会筹备情况发布，多项数据创历年新高，属于产业与地方版块，反映会展经济和对外开放。",
+              "reason_en": "Preparations for the 9th CIIE announced with record highs, fitting industry and local section, reflecting exhibition economy and opening-up.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715539.shtml",
+              "title": "国家林业和草原局原防火督查专员王海忠被查",
+              "summary": "据中央纪委国家监委驻自然资源部纪检监察组、陕西省纪委监委消息，国家林业和草原局原防火督查专员王海忠涉嫌严重违纪违法，正接受纪律审查和监察调查。",
+              "title_en": "Former Fire Prevention Inspector Wang Haizhong Under Investigation",
+              "summary_en": "Wang Haizhong, former fire prevention inspector at the National Forestry and Grassland Administration, is under disciplinary and supervisory investigation for suspected serious violations of discipline and law.",
+              "topic_evidence": "国家林业和草原局原防火督查专员王海忠涉嫌严重违纪违法",
+              "reason": "国家林业和草原局原防火督查专员王海忠涉嫌严重违纪违法被查，属于反腐败和法治新闻。",
+              "reason_en": "Former fire prevention inspector Wang Haizhong under investigation for suspected serious violations, fitting anti-corruption and legal news.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715532.shtml",
+              "title": "最高检发布检察机关依法维护老年人合法权益典型案例",
+              "summary": "最高人民检察院在“敬老月”期间发布一批检察机关依法维护老年人合法权益典型案例，以鲜活案例阐释法律精神，引导各级检察机关综合履职。",
+              "title_en": "Supreme People's Procuratorate Releases Typical Cases on Protecting Elderly Rights",
+              "summary_en": "The Supreme People's Procuratorate released typical cases of procuratorial organs protecting the lawful rights and interests of the elderly during the national 'Respect for the Elderly Month'.",
+              "topic_evidence": "最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例",
+              "reason": "最高检发布老年人权益保护典型案例，属于司法和社会法治领域的重要动态。",
+              "reason_en": "SPP releases typical cases on elderly rights protection, an important judicial and social rule-of-law development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715519.shtml",
+              "title": "广西阳朔县通报部分商户用硫磺熏制桂花：情况属实，对相关商户采取措施",
+              "summary": "阳朔县食品药品安全委员会办公室通报，针对网传部分商户用硫磺熏制桂花问题，联合林业、农业农村、市场监管、公安部门核查，情况属实，已对相关商户采取措施。",
+              "title_en": "Yangshuo County Reports Merchants Using Sulfur to Fumigate Osmanthus, Confirms Case",
+              "summary_en": "Yangshuo County's food and drug safety office confirmed that some merchants used sulfur to fumigate osmanthus and has taken measures against them, following a joint investigation.",
+              "topic_evidence": "针对网传阳朔县有部分商户存在硫磺熏制桂花问题",
+              "reason": "阳朔县通报硫磺熏制桂花问题属实并采取措施，属于食品安全和社会法治新闻。",
+              "reason_en": "Yangshuo County confirms sulfur fumigation of osmanthus and takes measures, fitting food safety and social rule-of-law news.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715463.shtml",
+              "title": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+              "summary": "中新社珲春报道，中俄合作共建“虎豹走廊”，珲春地区守护跨境野生动物家园，体现生态保护领域的跨境合作。",
+              "title_en": "China and Russia Build 'Tiger and Leopard Corridor', Hunchun Protects Cross-Border Habitat",
+              "summary_en": "China and Russia are jointly building a 'tiger and leopard corridor', with Hunchun protecting cross-border wildlife habitat, highlighting ecological conservation cooperation.",
+              "topic_evidence": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+              "reason": "中俄共建虎豹走廊，珲春守护跨境生态，属于生态保护和社会法治领域。",
+              "reason_en": "China-Russia joint tiger and leopard corridor, Hunchun cross-border conservation, fitting ecological protection and social rule-of-law.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
+              "title": "沃什讲话后美联储押注缓和，美股期货与亚股走高",
+              "summary": "美联储主席沃什称人工智能投资对美国经济益处巨大，交易员减少加息押注，美元下跌，美股指数期货与亚洲股市上涨。",
+              "title_en": "Stocks, Futures Rise as Fed Bets Ease After Warsh: Markets Wrap",
+              "summary_en": "US equity-index futures and Asian shares rose after Fed Chair Kevin Warsh said AI investment benefits the US economy; traders pared rate-hike bets and the dollar fell.",
+              "topic_evidence": "Federal Reserve Chair Kevin Warsh said investment in artificial intelligence is a huge benefit to the US economy",
+              "reason": "沃什讲话直接影响市场对美联储政策的预期，带动全球股汇波动，属于市场与资产版块的核心行情。",
+              "reason_en": "Warsh's remarks directly shifted Fed policy expectations and moved global equities and the dollar, core markets coverage.",
+              "score": 10.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
+              "title": "AI股抛售加剧，投资者转向国债与防御性板块",
+              "summary": "人工智能交易持续抛售，投资者从科技股撤出，转向政府债券和防御性股票板块寻求相对安全。",
+              "title_en": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+              "summary_en": "A continued selloff in the AI trade is pushing investors out of tech names and into government bonds and defensive stock sectors.",
+              "topic_evidence": "forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors",
+              "reason": "反映AI股回调下资金流向债券与防御板块的配置变化，属市场与资产动态。",
+              "reason_en": "Shows rotation from AI stocks into bonds and defensives amid the AI selloff.",
+              "score": 6.9
+            },
+            {
+              "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+              "title": "通胀与AI债务担忧加剧，科技股抛售加深",
+              "summary": "因担忧美国通胀上升与未来加息，AI相关股票加速抛售，三星、软银等芯片与科技投资者股价大跌，波及全球市场。",
+              "title_en": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+              "summary_en": "An accelerating selloff in AI-linked shares hit global markets as inflation and rate-hike fears weighed on chip makers and tech investors including Samsung and SoftBank.",
+              "topic_evidence": "An accelerating sell-off of AI-linked shares has hit global markets",
+              "reason": "描述全球科技股因通胀与AI债务担忧下跌的具体行情，属市场与资产。",
+              "reason_en": "Concrete global tech selloff driven by inflation and AI debt fears.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
+              "title": "MSCI启动磋商或下调印尼评级，印尼股市暴跌",
+              "summary": "MSCI称印尼不再符合新兴市场地位，可能被剔除全球指数，引发外资流出担忧，印尼股市创近三十年最大单日跌幅。",
+              "title_en": "Indonesia Faces MSCI Consultation on Potential Emerging Market Downgrade",
+              "summary_en": "Indonesian stocks tumbled the most in nearly three decades after MSCI said the country no longer merits emerging-market status, risking index ejection and capital flight.",
+              "topic_evidence": "MSCI Inc. said the country no longer merits emerging-market status",
+              "reason": "指数资格变动直接影响资金流向，是市场与资产版块的重要事件。",
+              "reason_en": "Index status change with direct capital-flow impact, key markets event.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-s-national-team-signals-return-with-heavy-etf-inflows",
+              "title": "中国国家队借ETF大额流入释放返场信号",
+              "summary": "中国国家队背景资金似乎重新入场，通过大量ETF流入为下跌股市提供支撑，显示北京意图托底。",
+              "title_en": "China’s National Team Signals Return With Heavy ETF Inflows",
+              "summary_en": "China's state-backed funds appear to be stepping back into the stock market through heavy ETF inflows, a sign Beijing seeks to put a floor under falling shares.",
+              "topic_evidence": "China's state-backed funds appear to be stepping back into the stock market",
+              "reason": "国家队资金动向反映政策托底意图，属市场与资产。",
+              "reason_en": "State fund flows signal policy support for equities.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-16/fed-chair-warsh-says-us-is-seeing-an-investment-surge-video",
+              "title": "美联储主席沃什称美国正经历投资激增",
+              "summary": "沃什表示，得益于稳健的宏观政策与强劲的微观基础，美国出现投资激增，是全球经济最重要的积极进展之一。",
+              "title_en": "Fed Chair Warsh Says US Is Seeing an Investment Surge",
+              "summary_en": "Fed Chairman Kevin Warsh said the US is seeing an investment surge thanks to sound macroeconomic policy and strong microeconomic foundations, calling it a key positive global development.",
+              "topic_evidence": "there's a US investment surge thanks in part to sound macroeconomic policy and strong microeconomic foundations",
+              "reason": "美联储主席对宏观经济与投资形势的具体表态，属宏观与政策。",
+              "reason_en": "Fed chair's specific macro and investment assessment.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-16/fed-s-warsh-says-announces-productivity-jobs-task-force-hearing",
+              "title": "美联储沃什宣布生产率与就业工作组将举行听证",
+              "summary": "美联储主席沃什称，其生产率与就业工作组将于下月在旧金山湾区举行实地听证会，聚焦相关议题。",
+              "title_en": "Fed’s Warsh Announces Productivity, Jobs Task Force Hearing",
+              "summary_en": "Federal Reserve Chairman Kevin Warsh said his task force on productivity and jobs will hold a field hearing in the San Francisco Bay Area next month.",
+              "topic_evidence": "his task force on productivity and jobs will hold a field hearing in the San Francisco Bay Area next month",
+              "reason": "涉及美联储就业与生产率政策动向，属宏观与政策。",
+              "reason_en": "Fed policy initiative on productivity and jobs.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-16/boe-chief-says-energy-shock-delays-2-inflation-target-video",
+              "title": "英国央行行长：能源冲击推迟2%通胀目标实现",
+              "summary": "英国央行行长贝利称，中东能源冲击使降息不在考虑范围，央行实际上已收紧金融条件，但未加息，并警告勿推断下次决策。",
+              "title_en": "BOE Chief Says Energy Shock Delays 2% Inflation Target",
+              "summary_en": "Bank of England Governor Andrew Bailey said Middle East energy shocks pushed rate cuts off the table and effectively tightened financial conditions without raising rates.",
+              "topic_evidence": "Middle East energy shocks have pushed rate cuts off the table",
+              "reason": "英国央行行长对通胀与利率路径的具体判断，属宏观与政策。",
+              "reason_en": "BOE chief's specific view on inflation and rate path.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-16/ecb-s-rehn-not-seeing-second-round-inflation-impact-video",
+              "title": "欧洲央行雷恩：未见二轮通胀影响",
+              "summary": "芬兰央行行长、欧洲央行管委雷恩在曼谷IMF-世界银行年会间隙表示，目前未看到欧元区二轮通胀影响，并讨论欧元区前景。",
+              "title_en": "ECB's Rehn: Not Seeing Second-Round Inflation Impact",
+              "summary_en": "Olli Rehn, Finnish central bank governor and ECB Governing Council member, said he is not seeing second-round inflation effects in the eurozone, speaking at the IMF-World Bank meetings in Bangkok.",
+              "topic_evidence": "ECB's Rehn: Not Seeing Second-Round Inflation Impact",
+              "reason": "欧洲央行管委对通胀前景的具体表态，属宏观与政策。",
+              "reason_en": "ECB council member's specific inflation outlook.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-16/boe-s-bailey-sees-little-evidence-of-second-round-inflation",
+              "title": "英国央行贝利：几乎没有二轮通胀证据",
+              "summary": "英国央行行长贝利表示，目前几乎没有证据显示通胀已嵌入英国的价格与工资设定机制，仍需评估传导风险。",
+              "title_en": "BOE’s Bailey Sees Little Evidence of Second-Round Inflation",
+              "summary_en": "Bank of England Governor Andrew Bailey said there is little evidence yet of inflation becoming embedded in UK price and wage-setting.",
+              "topic_evidence": "there is little evidence yet of inflation becoming embedded in UK price and wage-setting",
+              "reason": "英国央行行长对通胀持续性的判断，属宏观与政策。",
+              "reason_en": "BOE governor's assessment of inflation persistence.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
+              "title": "我自托管了什么",
+              "summary": "作者在博客中详细列出自己自托管的服务与工具，并分享选择自托管而非依赖云服务的理由与经验。",
+              "title_en": "What I self-host",
+              "summary_en": "A blog post detailing the services and tools the author self-hosts, and explaining the reasons for choosing self-hosting over cloud services.",
+              "topic_evidence": "What I self-host",
+              "reason": "该文章是技术博客，讨论自托管实践，属于技术观点范畴。",
+              "reason_en": "This is a tech blog discussing self-hosting practices, fitting the tech opinion category.",
+              "score": 2.9
+            },
+            {
+              "url": "https://already-clean.goodfire.com/",
+              "title": "神经网络是干净的",
+              "summary": "这篇博文提出“神经网络是干净的”这一论点，并可能围绕其含义、证据或影响展开讨论。",
+              "title_en": "Neural networks are clean",
+              "summary_en": "This blog post argues that neural networks are clean, likely discussing the implications, evidence, or impact of this claim.",
+              "topic_evidence": "Neural networks are clean",
+              "reason": "该文章是关于神经网络观点的技术博客，属于技术观点。",
+              "reason_en": "This is a tech blog expressing an opinion on neural networks, fitting tech opinion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+              "title": "使用 AI 逆向工程硬件",
+              "summary": "一篇博客文章探讨如何利用人工智能技术来逆向工程硬件，分析其具体方法、工具与潜在影响。",
+              "title_en": "Using AI to reverse engineer hardware",
+              "summary_en": "A blog post exploring how AI can be used to reverse engineer hardware, analyzing methods, tools, and potential implications.",
+              "topic_evidence": "Using AI to reverse engineer hardware",
+              "reason": "该文章讨论 AI 在硬件逆向工程中的应用，属于技术观点。",
+              "reason_en": "Discusses AI application in hardware reverse engineering, fitting tech opinion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+              "title": "有人在种子站上一直捣乱我的 Sonarr 设置",
+              "summary": "作者讲述在种子站上有人不断干扰其 Sonarr 自动下载设置的技术经历，并分享应对与解决过程。",
+              "title_en": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+              "summary_en": "The author recounts a technical experience where someone on torrent sites repeatedly interfered with their Sonarr setup, sharing solutions.",
+              "topic_evidence": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+              "reason": "该文章是技术博客，讲述 Sonarr 设置被干扰的经历，属于技术观点。",
+              "reason_en": "A tech blog recounting an experience with Sonarr setup interference, fitting tech opinion.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say",
+              "title": "Meta 新商业条款允许抓取新闻网站，商业账户将从 10 月 30 日起默认同意",
+              "summary": "法律专家指出，Meta 新商业条款将允许其抓取新闻网站内容，商业账户自 10 月 30 日起默认同意。",
+              "title_en": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+              "summary_en": "Legal experts say Meta's new commercial terms will allow scraping of news sites, with business accounts consenting by default starting Oct. 30.",
+              "topic_evidence": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+              "reason": "该文章涉及 Meta 商业条款对新闻网站抓取的影响，属于商业与社会评论。",
+              "reason_en": "Concerns Meta's commercial terms and their impact on news site scraping, fitting business and society commentary.",
+              "score": 2.9
+            },
+            {
+              "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+              "title": "Withings 新用户需每年支付 99 美元才能使用 Apple Health 同步",
+              "summary": "Withings 将 Apple Health 同步功能置于每年 99 美元的付费墙后，新用户需付费才能使用该功能。",
+              "title_en": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+              "summary_en": "Withings has placed Apple Health syncing behind a $99/year paywall, requiring new users to pay for the feature.",
+              "topic_evidence": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+              "reason": "该文章讨论 Withings 的付费墙政策及其对用户的影响，属于商业与社会评论。",
+              "reason_en": "Discusses Withings' paywall policy and its impact on users, fitting business and society commentary.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://zachlandes.com/trolley-problem",
+              "title": "Jev 遇上电车难题",
+              "summary": "Hacker News 上讨论热烈，该帖标题为“Jev 遇上电车难题”，获得 360 分和 162 条评论。",
+              "title_en": "Jev meets the Trolley Problem",
+              "summary_en": "A Hacker News discussion titled 'Jev meets the Trolley Problem' with 360 points and 162 comments.",
+              "topic_evidence": "Jev meets the Trolley Problem",
+              "reason": "该条目是 Hacker News 上关于“Jev 遇上电车难题”的讨论，评论活跃，属于社区讨论。",
+              "reason_en": "A Hacker News discussion on 'Jev meets the Trolley Problem' with active comments, fitting community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday",
+              "title": "庆祝 Fortran 70 周年",
+              "summary": "Hacker News 上出现关于“庆祝 Fortran 70 周年”的讨论，该帖获得 240 分和 104 条评论。",
+              "title_en": "Celebrating 70 Years of Fortran",
+              "summary_en": "A Hacker News discussion on 'Celebrating 70 Years of Fortran' with 240 points and 104 comments.",
+              "topic_evidence": "Celebrating 70 Years of Fortran",
+              "reason": "该条目是 Hacker News 上关于 Fortran 70 周年的讨论，评论活跃，属于社区讨论。",
+              "reason_en": "A Hacker News community discussion on Fortran's 70th anniversary, fitting community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+      "original_title": "Meta launches an open-weight AI model that runs on Macs",
+      "original_summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "topic_evidence": "an open-weight AI model that runs on Macs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.20780",
+      "original_title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+      "original_summary": "arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a learned policy for intervening while execution is still in progress. We present Agent Runtime Inspection and Amendment (ARIA), a framework for learning when and how to repair ongoing multi-agent executions. Our key intuition is to turn execution-verified repairs into reusable supervision, moving repair search into data construction and training so that a learned model can intervene at runtime without repeatedly testing alternatives. First, we collect over 24{,}000 successful and failed trajectories across four multi-agent frameworks, six benchmarks, and eight host models. From these trajectories, we construct the ARIA dataset, to our knowledge the first large-scale dataset pairing failed multi-agent trajectories with execution-verified repairs. It contains 3{,}953 verified repair pairs, each specifying what went wrong, where to intervene, and how execution should continue. Then, we develop the ARIA framework for MAS-agnostic runtime inspection and amendment, designed to integrate with any MAS that exposes execution trajectories and supports continuation replacement. Using verified repairs as training examples, we teach a compact model to recognize when intervention is needed and how to correct an ongoing run. The aim is to learn repair strategies that apply to related failures in new configurations, rather than merely reproduce individual corrections. Finally, the trained ARIA model demonstrates strong repair performance in both post-hoc and runtime settings, with generalization to unseen frameworks and host models. Our code is available at https://github.com/LabRAI/ARIA.",
+      "topic_evidence": "Diagnosing completed runs or repeatedly re-executing them to search for corrections",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.20686",
+      "original_title": "RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention",
+      "original_summary": "arXiv:2610.20686v1 Announce Type: new Abstract: Multi-head latent attention (MLA) compresses the content of a key-value cache into a shared latent per token, making low-bit storage attractive for long-context inference. At two bits, errors in this representation perturb both attention matching and value readout, with effects that depend on error direction and reconstruction scale. We introduce RoLaQ (Rotation-calibrated Latent Quantization), an offline method for joint rotation and range calibration. RoLaQ refines a shared rotation within subspaces defined by the frozen key and value projections, and jointly learns quantization ranges whose thresholds and reconstruction gains are coupled to control the shared signal's response. Prediction matching and attention-output supervision guide calibration with model weights frozen. Across three MLA models and six benchmarks, RoLaQ achieves the highest average accuracy among the compared 2-bit methods both without and with token protection. On DeepSeek-V2-Lite, an SGLang implementation provides 3.96 times the BF16 KV capacity under the same memory budget and 2.51 times its decode throughput with 256K input tokens.",
+      "topic_evidence": "2-Bit KV Caches in Multi-Head Latent Attention",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.20642",
+      "original_title": "CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models",
+      "original_summary": "arXiv:2610.20642v1 Announce Type: new Abstract: Recent latent reasoning methods move beyond discrete Chain-of-Thought (CoT) by replacing sampled tokens with continuous soft embeddings or hidden states, enabling richer intermediate representations and preserving alternative reasoning paths. However, the need for latent reasoning varies across decoding steps: confident predictions favor discrete commitment, whereas ambiguous steps benefit from preserving multiple plausible alternatives. Existing approaches typically handle this variation through either global soft activation or hard switching based on uncertainty thresholds, treating latent intervention as an all-or-nothing decision rather than continuously adapting its strength. To address this limitation, we propose Competitive Token Selection (CoTS), a training-free framework that reframes latent intervention from binary mode selection into continuous allocation at the token level. CoTS uses the probability competition between the two most likely candidates to dynamically balance discrete commitment and soft exploration at each reasoning step. The second candidate represents the strongest alternative to the model's preferred continuation, so the separation between the two directly reflects the stability of the current discrete choice. When one candidate clearly dominates, CoTS keeps the representation close to the sampled discrete token to preserve a stable reasoning trajectory; as the competition strengthens, it increases the contribution of the soft representation to retain plausible alternatives. This competition-based allocation requires neither manually tuned switching thresholds nor mixing coefficients, and introduces no additional forward passes. Experiments across six reasoning benchmarks demonstrate that CoTS consistently outperforms standard CoT and state-of-the-art training-free latent reasoning methods. Our code is available at https://github.com/OkinoYu/CoTSReasoning.",
+      "topic_evidence": "Competitive Token Selection for Latent Reasoning",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.20786",
+      "original_title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
+      "original_summary": "arXiv:2610.20786v1 Announce Type: new Abstract: Multi-modal agents have made significant progress in interacting with open worlds. However, their ability to self-evolve remains limited. Supervised fine-tuning enables imitation but not active experience organization, while outcome-based reinforcement learning promotes exploration yet underuses intermediate trajectory information. Therefore, we propose EvolvingBrain, which uses an adaptive skill system as the brain for agent self-evolution, consisting of two following components. Stratified Skill Self-Evolution: extracts Procedural Patterns and Problematic Patterns from model-specific trajectories, summarizes experience by generating skills, and evolves through multiple interactions with the open world, ultimately forming a Stratified Skill Architecture consisting of Domain, Plan, and Action/Trap Skills, which provides the agent with a multi-granularity knowledge repository and a novel evolution approach. State-Aware Adaptive Execution: summarizes long-horizon interactions into Structured Abstractive Memory and uses it to guide the State-Aware Skill Fusion Strategy, enabling the agent to utilize knowledge according to its current state. Experiments on VAB-Minecraft and DiscoveryWorld demonstrate that EvolvingBrain improves success rates on open-world tasks and exhibits generalization capabilities. Our code is provided in the supplementary materials and will be publicly released in the camera-ready version.",
+      "topic_evidence": "An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "original_title": "AI agents are coming to Rivian’s cars",
+      "original_summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+      "topic_evidence": "AI agents are coming to Rivian's cars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "original_title": "Open weight takes 71.5% of tokens and 23% of spend",
+      "original_summary": "AI Gateway Production Index — October 2026Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from July, August, and September.October 2026 summary Open-weight models now process more than seven in ten gateway tokens and account for nearly one in four dollars. Their share of spend has more than quadrupled since June.September’s gateway spend was about 13 times December’s, while the average price per token was 47% lower. Almost one in three teams changed their most-used lab in September, an index record.Nearly 70% of September’s gateway spend on Chinese models went through US-based providers, up from less than 10% in December.Jev was the fastest-adopted model in AI Gateway history, reaching 35% of paid teams in its first two weeks, but it accounted for just 0.27% of gateway spend over that same period. Opus 5.5 took more than one in ten gateway dollars in its own first two weeks, the largest spend share of any September model launch.Frontier spend up 900%, spend share down 22%In August, open-weight models processed the majority of AI Gateway token volume for the first time. The money is now following. Open weight’s share of spend has more than quadrupled over the last three months, from one in twenty gateway dollars in June to nearly one in four in September.Open weight's growth is coming from both ends of its price range, and it mirrors the wider gateway. The cheapest models drive token growth, while the expensive models drive spend.Led by Kimi K3, models priced at least four times the open-weight average cost per token accounted for about two-thirds of the increase in open-weight spend.In contrast, DeepSeek-v4.1-Flash alone processed nearly half of all September tokens but took just 2.6% of spend. Its price per token was about a fifth of the open-weight average.Customers are increasing budgets on both sides of the market. Since December, spend on frontier models has grown tenfold; spend on open-weight models has grown more than seventyfold.In September, 68% of teams that put more money into open-weight models did the same for closed-weight models. And more than two in five teams already paying for frontier models spent more on them than in August, the highest share this year.Spending on the frontier is still growing, but spending on alternatives is growing faster. A company can spend more with a frontier lab while relying on it for fewer workloads, so the lab gets more money, but a smaller part of the customer’s business. AI spend increases 13x while the cost per token halvesMarket share is changing hands inside a market that is getting much bigger and cheaper.September's gateway spend was about 13 times December's, an increase of 1,180%, while the average price per token fell 47%. The median paid customer active in both December and September more than doubled its spend.Teams are spending more, but labs have to keep winning their business. In September, nearly one in two teams changed their most-used model. And almost one in three changed their most-used lab, an index record.Even teams with lower token volumes use a wide mix of models. Since December, teams that processed at least 10 million tokens over that period used an average of 15 different models. The average rose to 26 for teams processing at least 100 million tokens, and 42 for those processing at least a billion.The model is becoming a replaceable part of a much larger investment. Companies can continuously improve their AI products and workflows while changing which models power them. They can spend more on AI without becoming more dependent on any one lab.Chinese models are big business for American providersMore than two-thirds of September’s gateway spend on Chinese-origin models went to US-based providers, up from less than a tenth in December. The Chinese lab builds the model; the American provider runs it and sells access.DeepSeek’s models processed 58% of all gateway tokens for 6.6% of spend. More than four in five of those tokens were served by DeepSeek itself, yet two in five dollars spent on its models went through US-based providers.Moonshot AI, the Beijing-based lab behind Kimi, accounted for 3.6% of gateway tokens and 13.2% of spend in September. US-based providers served nine in ten of those tokens.Z.ai, also based in Beijing and the creator of GLM, accounted for 7.2% of all tokens and 4.5% of spend. US-based providers served seven in ten.Customers can use Chinese models through access sold by American providers. For teams that put more money into Chinese models in September, an average of 53% of their spending on those models went through US-based providers and 41% through China-based ones.The same Chinese model can compete with US-based models while generating revenue for US-based providers. September model launch scorecard: Jev, Opus 5.5, and GPT-6Whether a model launch is successful depends on what you measure: how broadly it’s tried, how much usage and spend it receives, or what share of its initial users return. We ranked every model launch in September with at least two weeks of data by these metrics; the tables show the top ten for each. The full scorecard is at the end of the report.Jev is the most-adopted and most-called modelIn its first two weeks, Jev reached more than a third of paid teams, nearly double the reach of Sonnet 5.5 in second place. This is the fastest adoption of any model in AI Gateway history. Jev also received the most requests of any model in September, even though it launched halfway through the month. Of the teams that tried Jev in week one, 55.6% returned in week two, the fifth-highest retention rate.Jev is a decision model. Compared with typical language-model requests, a Jev request is faster, cheaper and uses a fraction of the tokens. So although its adoption was fast and broad, it accounted for just 1% of the month’s tokens and 0.15% of spend. In September, Jev quickly became a popular model for production while remaining a tiny part of the inference bill.Opus 5.5 takes more than one in ten gateway dollarsThe launch that received the most dollars was Opus 5.5, with more than twice the share of any other September launch, followed by GPT-6 Astra and DeepSeek-v4.1-Flash.Opus 5.5 caught on quickly, with almost nine in ten dollars coming from teams already using Opus 5. Existing customers were trying the new release while the wider Opus family was losing market share. Across all versions, Opus accounted for almost a third of gateway dollars in September, down from one in two in August. Anthropic’s overall share fell below half of total gateway spend for the first time, dropping from 63.7% to 43.9%.Luna brought users back; Astra brought spendGPT-6 Luna reached nearly three out of every twenty paid teams in its first two weeks, in third place behind Jev and Sonnet 5.5. But its return rate was the highest of the month; almost two-thirds of the teams that tried it in its first week came back in the second.GPT-6 Astra reached a smaller audience but took more budget. In its first two weeks, it accounted for about one in twenty gateway dollars; Luna accounted for less than one in a hundred. Luna reached almost three times as many teams while Astra captured more than five times the share of spend.OpenAI is attracting more customers with Luna, but capturing far more money with Astra, even though fewer teams use it. Full September scorecardPrevious AI Gateway Production Index reportsMay 2026June 2026July 2026August 2026September 2026About this reportThis report uses anonymized, aggregate traffic routed through Vercel AI Gateway through September 2026.A few notes on measurement:Token volume includes input, output, reasoning, cached-input and cache-creation tokens.Spending is estimated at published list prices; actual bills may differ. Average price per token is estimated spending divided by token volume.Open-weight classifications follow the current AI Gateway model list, a broader definition than in earlier reports.Switching rates compare paid teams with at least 10 million paid tokens in both months. “Most-used” is measured by paid tokens.Provider location means company headquarters.Launch metrics cover external paid teams during each model’s first 14 days. Reach uses paid teams active from the start of the launch month through the data cutoff. Spend share uses total paid gateway spending during the model’s window. Return rate is the share of first-week teams that used it again in week two.Model counts cover December–September, with each version counted separately. Team-size thresholds use total input and output tokens over that period.All figures use the most recent data and protocol available; prior months may be revised as methodology is updated.Read more about our methodology, and explore or download the public data. Read more",
+      "topic_evidence": "Open weight takes 71.5% of tokens and 23% of spend",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "product",
+        "launch"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://arxiv.org/abs/2610.20632",
+      "original_title": "MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+      "original_summary": "arXiv:2610.20632v1 Announce Type: new Abstract: Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents MeddeX, a Medical Report Analyzer that combines a QLoRA fine-tuned LLaMA-3 (8B) model with Retrieval-Augmented Gen eration (RAG) and a multimodal Gemini Vision layer to deliver accurate, concise, and evidence-backed summaries of medical documents. The system handles text-native PDFs, scanned image based PDFs, and direct radiological images through an intelligent hybrid extraction pipeline that includes a novel garbage-text detection mechanism for corrupted and UTF-16-encoded doc uments. Beyond single-report Q&A, MeddeX introduces report scoped retrieval for precise contextual grounding, an automated longitudinal report comparison engine, and a self-healing backfill pipeline that lazily processes legacy documents on demand. A FastAPI backend, Supabase vector store, and Next.js fron tend complete the end-to-end architecture. Evaluation against the base LLaMA3-Med42-8B model demonstrates consistent improvements across ROUGE-1 (+9.2%), ROUGE-2 (+10.0%), ROUGE-L (+11.8%), BLEU (+71.4%), and BERTScore (+0.8%), validating the benefit of domain-specific fine-tuning. MeddeX represents a practical and robust step toward AI-assisted clinical decision support.",
+      "topic_evidence": "A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "gemini"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+      "original_title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "original_summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "topic_evidence": "the frontier AI model maker has given up the right to block them",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "original_title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "original_summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full transcript of how each model solved the task. We investigate whether these transcripts can be used to assess model capabilities even after benchmark scores have saturated. We simulate saturation retrospectively using historical benchmark and model releases, and test whether protocols that access only correctly solved transcripts from saturated benchmarks can predict capabilities measured on held-out, unsaturated items. We evaluate representative contemporary approaches for extracting information from model transcripts: pairwise judging, single-transcript absolute scoring, and predictions from deterministic transcript features or embeddings. We find that saturated transcripts retain capability information beyond benchmark accuracy. Amongst our evaluated protocols, pairwise judging performs best, reducing prediction error by 5.3 times compared to a baseline using only saturated benchmark scores. This capability-relevant information is distributed across transcript sections, but concentrated in specific channels of information such as reasoning and tool-calls. However, the predictive power of protocols does not always generalise across distribution shifts -- for example by underestimating the capabilities of the first reasoning models introduced in early 2025. Saturated benchmarks thus retain capability-predicting signal in their task transcripts, but extending the lifetime of existing benchmarks requires methods designed to extract these signals robustly.",
+      "topic_evidence": "Rapid advances in AI capabilities are causing benchmarks to saturate",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "benchmark",
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "original_title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "original_summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales.",
+      "topic_evidence": "We introduce RealtimeBench, with 180 tasks across six game types",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.20679",
+      "original_title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "original_summary": "arXiv:2610.20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score means or when it should be trusted. We introduce Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective VLM safety. CNRF constructs context-matched benign-harmful counterfactual pairs, uses their representation differences as capability-related risk directions, and estimates neighborhood support separately from risk. This separation prevents unfamiliarity from being conflated with harmfulness and enables selective intervention rather than blanket rejection. A victim-adaptive interface accommodates different safety observations across VLM architectures and routes selected requests for same-victim response review, which either releases acceptable candidates or produces constrained alternatives with reduced harmful capability. Across three VLMs and five multimodal jailbreak families, CNRF achieves 86.06-89.30% macro defense success rate while retaining substantial benign-task utility. Controlled experiments further show that query-matched references and preserved context-direction correspondence materially improve risk ranking in the low-false-positive regime. CNRF thus reframes representation-based VLM safety from learning harmfulness boundaries to constructing applicable evidence for selective risk decisions.",
+      "topic_evidence": "Evidence-Grounded Selective Safety for Vision-Language Models",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "safety"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering",
+      "original_title": "How Meta Built Forum With AI-Native Engineering",
+      "original_summary": "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we [...] Read More... The post How Meta Built Forum With AI-Native Engineering appeared first on Engineering at Meta .",
+      "topic_evidence": "bringing an AI agent into the development cycle",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "go"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta",
+      "original_title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+      "original_summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for Android applications.” The recognition celebrates a decade of impact from work that began at University College London and went [...] Read More... The post Sapienz Receives ISSTA 2026 Impact Paper Award appeared first on Engineering at Meta .",
+      "topic_evidence": "Sapienz: multi-objective automated testing for Android applications",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+      "original_title": "Chirp Pong",
+      "original_summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code",
+      "topic_evidence": "networking code uses chirps sent via the microphone",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
+      "original_title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "original_summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog .",
+      "topic_evidence": "review outside collaborator access and archive stale repositories",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+      "original_title": "Vercel Ship 2026 recap",
+      "original_summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just that at Vercel Ship 2026.Agentic infrastructureGuillermo Rauch (CEO, Vercel) opened Ship SF with a vision for the next era of software and agentic infrastructure: interfaces generated for any task in front of you, agents that reproduce and fix bugs autonomously, and software that takes production context and continuously improves itself.Agentic infrastructure has three parts:Vercel is where coding agents deploy software. When you ask your harness where to deploy, you get Vercel, because Vercel is built for the way agents work. We have over 200 CLI commands that your agent can use to operate our entire platform.Vercel is where you build and deploy your own agents. We give you every tool you need to build and run apps and agents in production, securely, at scale.Vercel itself is automated by agents. Vercel runs your apps in production, handling traffic, traces, observability, and anomalies. That data gives our agents the context they need to investigate autonomously, and then surface pull requests, not just alerts.Vercel exists to put the full force of agentic infrastructure behind you, so that you, your agents, and your software can deploy and run faster than ever. Vercel is for shipping full-stack apps and agentsIn the next keynote, Malte Ubl (CTO, Vercel) showed how frontends, APIs, backend services, containers, MCP servers, and background workers can all run on Vercel, with support for custom runtimes and system dependencies.He then announced that Python is now generally available on Vercel. Run FastAPI, Flask, or Django with standard CPython, PyPI dependencies, uv, and pyproject.toml. With Vercel Services, your frontend and backend deploy together, with previews of the full app.Malte also introduced Vercel Daemons, now in public beta, for continuously running background workers. Deploy your code or container image, set the number of instances, and Vercel keeps them running and replaces them if they fail. Bring Celery, Dramatiq, Temporal workers, or your existing worker processes.Vercel is for shipping agentsTomo Occhino (CPO, Vercel) walked through the Agent Stack and its latest updates. The Agent Stack gives you everything you need to build, run, and scale agents in production. eve, our open-source framework for building agents, now has persistent memory across sessions, extensions for installing tools and skills, and agent creation and deployment from the Vercel dashboard. Vercel Connect is generally available, with more than 1,000 connectors. And MCP Events, now in public beta, lets agents respond to events from MCP servers. Connect handles subscriptions, renewals, and secure delivery.AI Gateway now lets you set budgets for API keys, projects, individuals, and teams. You can also choose US-only inference to keep model processing in the United States, or enable Zero Data Retention so providers don’t retain your prompts or responses. He also introduced Vercel Token Pass, now in early access for Pro teams. Get $80 in GLM 5.3 and Kimi K3 token credit for $30/month, with more models coming soon.Vercel Drives, now generally available for Sandbox, gives agents persistent workspaces. Code, data, and saved memory survive across runs, so you can change runtimes or compute without rebuilding the workspace.Vercel is for shipping in the enterpriseJeanne Grosser (COO, Vercel) focused on what happens when everyone in a company can build. Engineers, marketers, analysts, and sellers need a common place to deploy, with controls over who can ship, who can access an app, which systems agents can use, and how much they can spend. Company building is now agent building.Vercel for Enterprise brings those controls together, with two additions announced:Bring Your Own Cloud on AWS is now generally available. Your application functions run in your own AWS account, within your security and network boundaries.Enterprise-Managed Authorization for Vercel Connect launched in public beta. With supported services and your identity provider configured, agents can act on employees’ behalf without asking each person to authorize every connection separately.Ship 2026 in San FranciscoThe rest of Ship SF brought more than 2,700 developers, founders, and technical leaders to the Palace of Fine Arts for talks, workshops, startup studio sessions, and agent labs.Ship day sessionsAssaf Elovic from Ora showed how his team tests whether websites work for agents by sending real agents to sign up, integrate, and pay, then tracing every step. Ora built that fleet on eve and used Is-Agentic to score a live site.Katelyn Lesse from Anthropic covered the work that starts after an agent is running: keeping it fast and improving its performance across thousands of production sessions with Claude Managed Agents on Vercel.Prashant Ratanchandani from Meta Superintelligence Labs joined Tomo to discuss building products including Muse on Vercel.Matt Lewis from Vercel and Mala Neti from Slack explained how we built v, our internal agent, around Vercel’s own data and working practices. Connect and Passport secure its access, and Slack gives employees a place to use it where their work already happens.Max Peters from Adapta broke down the router behind Brazil’s largest generative AI platform. Built on AI Gateway, it serves 168 models through one integration, selects a model in under 200 milliseconds, and handles more than three million requests a day with automatic failover and per-user budgets.Sarah Sachs from Notion and Malte Ubl discussed how AI is changing the software teams build and the context agents need to do useful work.Olawale Oladehin from AWS walked through production patterns for agents on AWS and Vercel, from self-correcting agents to multi-agent orchestration, and how BYOC lets teams run application functions within their own AWS environment.Philip Miseldine and Sophia Levens from SAP showed how SAP is using v0, eve, and json-render to build generative interfaces, with a focus on consistent design and government requirements.Aaron Brown and Arty Vohmincevs from Mercor explained how hundreds of employees build internal tools without losing control of access or spending. Apps inherit a managed identity layer, while AI Gateway gives the team visibility into model usage and budgets.Yury Izrailevsky from ClickHouse traced the company’s path from an open-source analytics database to a platform spanning observability, AI engineering, and managed Postgres. His focus was how open source earns developer trust and helps infrastructure expand into new workloads.Panel: Fast AIDiogo Almeida, co-founder and CEO of TypeSafe AI, the company behind Jev, and Andrew Feldman, founder and CEO of Cerebras, joined Vercel for a discussion on model reliability, latency, and cost. The panel brought together the model and hardware sides of fast inference, from specialized models to wafer-scale chips.Closing fireside with Tobi LütkeGuillermo sat down with Tobi Lütke, CEO of Shopify, for \"The Third Customer,\" a conversation about building for a world where agents research, compare, and buy products on people’s behalf.Guillermo Rauch: What excites you about agentic commerce?Tobi Lütke: It’s early, but the opportunity goes beyond handling purchases people already make. Think about project-based commerce: planning Halloween decorations for your house, or a 3D-printing project with your kids, then ordering everything to arrive before the weekend. Agents can help people follow through on things they otherwise wouldn’t have had time to do.Guillermo Rauch: Where does that leave traditional storefronts?Tobi Lütke: There’s still room for exceptional shopping experiences. A distinctive, thoughtful storefront can grow, just as a well-executed boutique can. The businesses that will struggle are the ones offering an undifferentiated experience. Quality and originality still matter.Guillermo Rauch: How is AI changing engineering at Shopify?Tobi Lütke: We now think of ourselves as verification engineers, building harnesses and acceptance tests that make changes verifiable. We’re rewriting our storefront renderer from Ruby to Rust, where we can compare the output byte for byte before switching over. We also celebrate simplification and code deletion. At a company hackathon, our internal Slack agent, River, topped the code-deletion leaderboard by a wide margin.Guillermo Rauch: What should developers in this room go build?Tobi Lütke: Explore the catalog APIs. They give you access to products from Shopify merchants, so you can build new commerce experiences without first recruiting both sides of a marketplace. Product discovery, recommendations, and curation are real business opportunities. People will pay for tools that help them find what they need.Ship week San FranciscoFast Forward hackathonThe day before Ship, Vercel and Meta hosted Fast Forward, with support from Shopify and Neon Postgres. Builders worked across three tracks: agents that keep working after you step away, multimodal apps, and immersive VR experiences.Founder dinners, executive conversations, and Partner DayFounders, partners, and enterprise leaders gathered throughout the week for dinners, Partner Day, and conversations on building with AI. The executive program focused on what happens when anyone with an idea can build, and how do you govern what ships.Ship 2026 in London Ship day keynotesTomo introduced the Agent Stack, bringing model access, durable execution, sandboxed compute, and messaging together for production agents.Hedi launched Vercel Connect in public preview, giving agents scoped access to external tools and data without storing long-lived provider credentials in environment variables.Shar demoed eve, our open-source agent framework. Each agent lives in a directory, with instructions in Markdown and tools in TypeScript. Durable execution, approvals, subagents, and evals are already wired in.Jeanne introduced Vercel for Enterprise Apps and Agents, including Vercel Passport in public beta for protecting internal apps with your identity provider, and Bring Your Own Cloud on AWS in private beta.Ship week LondonOur first Ship outside the U.S. ran five days of events leading into the keynote, and an ice cream truck spent the week working its way across the city.Built in London hackathonTwo hundred builders shipped agents on Codex and Vercel in a hackathon with OpenAI. Three projects stood out. Stella hunts down unclaimed grants for London SMBs, Oscar is a co-pilot that sharpens your prompts before you send them to a model, and Phone Jail blocks distractions and roasts you when you reach for your phone anyway.Media, Founder, VC, and CTO dinnersReporters traded story ideas over a media dinner. Twelve founders talked through the future of AI in EMEA at a VC dinner. And a dozen CTOs from teams including Marks & Spencer and Currys went off the record on what it takes to build and scale agents in the enterprise. Day Zero builder nightDay Zero, the day before the keynote, turned into a 400-person builder night. Enterprise teams Mentimeter, Okta, and MongoDB joined Vercel in a packed room alongside partners DeepMind, ElevenLabs, and Cursor.AI Social ClubA 160-deep waitlist formed for Malte's talk A New Stack for a New Era of Software, followed by Guillermo and Deliveroo's Will Shu's chat on building the agentic enterprise.Ship day sessionsAndré Balleyguier from Anthropic showed Claude Managed Agents on Vercel, where Anthropic hosts the agent loop while every command the agent runs executes inside a Vercel Sandbox you own, keeping its filesystem, processes, and network egress in your environment.Tomas Jansson from Currys/Elkjøp showed how his team evolved a Nordic retailer's ecommerce stack from storefronts toward shopping agents in three phases, anchored by a Next.js migration that cut time to first byte by 40%. The end state is one where customer intent replaces navigation.Matan Kushner from Vercel broke down how Vertex, Vercel's support agent, now automates 91% of support tickets and saves 5,000 engineer-hours a month without degrading as its context grows. Jas Sagoo and Sam Bellen from Auth0 made the case that getting an agent into production depends more on identity than on model quality. They demoed four standards-based identity patterns on the Vercel AI SDK, Token Vault, CIBA approvals, agents as first-class principals, and on-behalf-of delegation, so every action is scoped and traces back to a human decision instead of a shared API key.Abhi Sivasailam from Vercel went deep into d0, Vercel's internal data agent built on eve, which runs analyses in a sandbox and now gets 45% of its questions from other agents, rather than people.Romain Huet from OpenAI showed developers how to ship faster by delegating whole tasks to Codex Cloud Agents on Vercel, and made the case that as agents become users of your product, you design for agent experience with scoped API keys, markdown docs, and plugins.Michał Pierzchała from Callstack demoed a QA agent that runs mobile apps on real devices, explores user flows on its own, and posts screenshots, recordings, and logs to pull requests on every PR.Alex Holt from ElevenLabs paired the ElevenLabs Speech Engine with the AI SDK to build a voice agent that can reply in under a second, take interruptions mid-sentence, and switch language mid-conversation.Malavika Balachandran Tadeusz from Vercel showed the mechanics of how software can ship itself, extending the agent loop past development into testing, observability, and experimentation with primitives like Vercel Flags and Skills.Panel: Agents in productionJeanne Grosser, COO of Vercel, moderated a panel on taking agentic workloads from prototype to production with some of the EU's top CTOs and AI leaders from frontier labs. A few highlights: Arthur Viegers (Cursor): Autonomy should track risk, and the better an agent can assess the risk of a change, the more you can let it run on its own. Shopify and Amplitude already auto-review and merge 60-70% of low-risk PRs with no developer time, while a two-line change to authentication still goes to a human.André Balleyguier (Anthropic): To decide what an agent can do on its own, judge each action by how reversible it is and how large its blast radius is, then contain it accordingly, for example inside a self-hosted sandbox. As you grant more autonomy, observability and evals become the things that keep it safe.Ryan den Rooijen (Currys): The predicted death of stores never arrived, and Currys leads its markets by betting on humans. The open question for agentic commerce is which shopping journeys customers want an agent to handle and which they still want a person for.Nicolas Le Pallec (AKQA): AI-native customer experience replaces navigation with intent. Reaching it takes three layers: a way to capture true customer intent, a brand brain that stores brand and product data for AI systems to retrieve, and generative UI that composes pages on the fly instead of serving static ones.Fireside chat with Harry StebbingsThe day ended with a fireside chat between Guillermo and Harry Stebbings from 20VC. Below are excerpts from the lightning round at the end of the discussion. Guillermo Rauch: What are the attributes of a founder you want to back?Harry Stebbings: The profile has changed completely. It used to be a sales-led CEO who could fundraise and grow customers, where personality and sales carried the company. Now I want an engineering- and product-led founder.Guillermo Rauch: Can you teach someone to become a voice for their industry?Harry Stebbings: You can, but it's hard. You have to do it for six months straight. It's a muscle you build, and you have to commit to it every day and every hour.Guillermo Rauch: When anyone can produce content and software, how do you stand out?Harry Stebbings: You come up with a new format, a new intro, a new way to tell the story and shape the work. The content itself has shifted too. We used to do shows about leadership and hiring, and nobody cares about that anymore. What lands now is a founder and AI. Those are the two things.Ship 2026 in Berlin The Berlin event opened at the Old Mint, “Alte Münze”, where coins were once hammered by hand, before machine automation took over. It is also where the JavaScript logo was born, and where Guillermo Rauch (CEO) met Malte Ubl (CTO) for the first time at JSConf EU.Software is moving the same way, from hand to machine, and Vercel is paving the way for building in the agentic era. Over 500 people gathered from across Germany to do just that at Ship 2026 in Berlin.Ship day sessionsSuyog Rao from Vercel announced AI SDK 7. The AI SDK is now downloaded over 16 million times a week. Version 7 turns it into a toolkit for building and running agents that reason, call tools, run across many turns, and work across files and sandboxes, all behind one provider-agnostic interface with no lock-in.Philip Miseldine from SAP showed how the company rebuilt its design system to be composable, so people and agents assemble interfaces from the same parts, with v0 running across its build, deliver, and decide stages.Building with AI SDK 7 brought three speakers on stage. Lars Grammel, the primary engineer behind the update, went deep on the release, with the new harness layer and generation beyond text as the headline additions. Carsten Høyer from AKQA demoed the Starbucks ChatGPT app as a \"generative store\" that composes branded results from Starbucks' own products and visual identity, flipping the funnel so customers pull the brand into their conversation instead of visiting its site. Stephen Batifol from Black Forest Labs showed where the Flux image models fit in an agentic stack: sub-second generation and editing today, heading toward real-time generation and world models.Arthur Viegers from Cursor showed how coding agents move from autocomplete to working across an entire codebase on their own.Panel: CTOs on AI and growthChris Williams (Head of Forward Deployed Engineering, Vercel) moderated a CTO panel on building and scaling as the cost of creation trends toward zero. A few highlights:Sven Rosemann (Flaconi): AI won't fix a broken business model, so the work is still operational excellence. He compares ecommerce to a decathlon, you win by being top-tier across every discipline at once. What's changing is discovery, which is moving into chat, so Flaconi is investing in the data foundation that makes its catalog retrievable by agents, betting that buying and checkout eventually happen there too.Tjaž Silovsek (Astra AI): venture funding is no longer a prerequisite. For many ideas, you ship, find distribution, and iterate instead. Astra reached 10 million users and $25M ARR fully bootstrapped, with a small team kept fast by a stable foundation and agents given a lot of autonomy while kept as safe as possible.DACH Partner AwardVercel presented its first-ever DACH Partner Award to Valtech, for the exceptional impact and delivery, strategic thinking and team enablement it brought to clients. The presentation also thanked the event's sponsors: Auth0, Storyblok, Cursor, SAP, Accenture Song, Blazity, and JVM.Ship 2026 in New YorkShip week New YorkShip NYC was the most in-demand of any stop yet with over 3,000 people registered. Founders, partners, leaders, and builders gathered for five days of hackathons, executive receptions, workshops, and more, with Ship day at the center.Built in NYCThe week opened with Built in NYC, a hackathon co-hosted by Vercel and Anthropic alongside Sentry, Auth0, Resend, and Supabase. More than one hundred people joined us for an afternoon of building and demoing agents on Vercel. VC, CTO, and VIP dinnersJeanne DeWitt Grosser and Nick Bogaty gathered the leaders shaping AI-native development at a VIP reception. Founders traded notes on the future of agents over a VC dinner. At Per Se, Guillermo, Jeanne, Tom, and Malte took CTOs and CIOs for a closed-door conversation on where traditional architectures start to break in the agent era.AI Social ClubAI executives and senior leaders assembled at Moss for a fireside chat led by Tom Occhino with William Anderson (CTO, Bloomberg Media), Jeremy Bunting (VP Engineering, Serhant), and Ali Patterson (Staff Design Program Manager, DoorDash). They discussed what's working, what's not, and where agentic infrastructure is driving meaningful outcomes for enterprises. Ship day sessionsRyan Coyne from SERHANT. walked through S.MPLE, a real estate agent built on Vercel that drove a 144% increase in commission income in its first full year.Brandon Bloom from Brex gave its expense-audit agent a bash-only shell so it manages its own context instead of drowning in tool responses, cutting tool calls and token usage by 75%.Ari Schapiro and Chris Sev from Auth0 demoed how to give an agent scoped, revocable power instead of a master key, with standards-based identity patterns like Token Vault and out-of-band human approval, live on the Vercel AI SDK.Jenny Wang from Alta and Maxwell Osborne from PUBLIC SCHOOL NYC showed how Alta's AI styling app runs on Vercel, generating an avatar a second and 250M+ outfits so far. Together they built a custom version for PUBLIC SCHOOL's New York Fashion Week relaunch.Charlton Roberts from FLORA showed three creative-production workflows running on Vercel Sandboxes. They collapsed 18 bespoke tools into two by letting the agent run and write its own code against the AI SDK.Prasad Wangikar from Stripe broke down how to give agents spending power and capture agent-driven revenue using emerging protocols like MCP, UCP, and x402 for the machine-to-machine economy.Shaown Nandi from AWS discussed how Vercel and AWS work together, with native AWS databases and OpenSearch available in the Marketplace and models through the AI Gateway, proven out by The Weather Company's 350M+ users.Panel: Internal apps and agents in productionJeanne moderated a panel on building and deploying internal agents with technical leaders on who should build, what governance looks like, and how teams can move from experiment to production. A few highlights:Andy Martin (MJH Life Sciences): The way to win the shadow-IT battle is to constrain the stack and stay permissive inside it. His AI Accelerator trains non-engineers, marketers, and early-career staff to build internal apps on a deliberately tight stack of Claude Code, Vercel, and GitHub, with ephemeral preview deployments as the guardrail. As he put it, \"If it becomes the Department of No, you will have people working around you.\"Greg Chan (SERHANT): The cleanest way to structure agents is to mirror a human software team. Product-manager agents write requirements in Linear, engineering agents generate specs, and build-and-QA agents take it from there, so engineers become leads running multiple streams. To keep output safe, SERHANT runs evals for hallucination and compliance, including a custom model for Fair Housing Act rules.Victor Oliveros (ZoomInfo): Embedding v0 inside your own product lets your customers build their own workflows. At ZoomInfo, 40,000+ of them do, turning the voice of the customer into a pull request. Agents analyze recorded calls and open PRs, so the product team decides what ships instead of synthesizing feedback. They pair Vercel's deployment guardrails with ZoomInfo's context-graph permissions, so each agent only touches data its user can see.Fireside chat: Building agentic storefrontsTom sat down with Vanessa Lee (VP of Product, Shopify) to discuss where commerce and software go next. Below are highlights: Tom Occhino: Vercel and Shopify have shipped something new together. What is it?Vanessa Lee: We boiled Hydrogen down to the parts of commerce that are genuinely hard (analytics, optimistic cart UI, variants) and made them work with any framework. So if you're on Next.js on Vercel, Shopify's commerce primitives now drop in, with an integration in the Vercel Marketplace. Read more here.Tom Occhino: You also opened the Catalog API. What does it unlock?Vanessa Lee: There's never been a good open product-search API. We have billions of products and millions of merchants, so we built one, the only widespread shopping API, made for commerce. It lets anyone embed shopping anywhere. Someone in my Toronto running group used v0 to build a site with a leaderboard and the weather, and the Catalog API surfaced products from nearby stores. Commerce stops being a destination and becomes part of what you build.Tom Occhino: Shopify and Vercel both obsess over reducing friction. Why does that matter so much?Vanessa Lee: Early on, Tobi's insight was that tools shape the market. The TAM was never limited by demand, it was limited by how hard the tools were to use. Make building easier and more people build. There's resourcefulness in the general population that's just untapped, and lowering the friction is what releases it.Closing keynote with Ivan ZhaoWe closed out Ship in New York with a conversation between Guillermo Rauch and Ivan Zhao (CEO, Notion). A few highlights:Guillermo Rauch: You've started telling designers to design for the API first and the UI last. Why?Ivan Zhao: Because your next customer isn't only a human, it's a human and an agent, and agents are blind. They don't see your interface, they read your semantics and your API. The most enduring software has always been a data structure anyway, the spreadsheet, or our block, a data structure that happens to have a UI. So design the structure and the meaning first, the interface last. A great tool for developers turns out to be a great tool for agents.Guillermo Rauch: Vercel and Notion are both aggressively model-agnostic, Switzerland in the model wars. Why?Ivan Zhao: The models leapfrog each other every few weeks, so picking a side is a losing game. We route automatically by the intelligence a task needs, frontier models for coding, smaller and faster ones for support and summarization. What excites me most is that as more use cases stop needing frontier intelligence, you can shape smaller models to your product and win back speed and cost. And speed creates discontinuities, a model five times faster can change the kind of interface you'd even design.Guillermo Rauch: When a billion knowledge workers are agents, how does that reshape us?Ivan Zhao: We can't fully see it, and that's the point. First-order effects are easy, the iPhone was an iPod plus a phone plus a browser. The second-order effects are the ones that surprise you, like what social media did to teenagers. We shape our tools, and then our tools shape us. With software that can think, the second-order effects are the ones we won't predict.Guillermo Rauch: Taste or velocity, keep one.Ivan Zhao: Taste. It's the distillation of wisdom from a lot of shots on goal.Ship 2026 in Sydney The Sydney event opened at Machine Hall, a 1930s electrical substation that ran the city's trams and wharves for half a century. Over 200 people gathered there to build for the agentic era at Ship Sydney. Ship week SydneyThe week kicked off with the AI SYD meetup, where developers, AI engineers, and the Sydney technical community joined for an evening of lightning talks and networking. At the AI Social Club, senior leaders gathered at Shell House for a talk from Malte Ubl and a fireside with Suyog Rao and David Hyman (Founder, monō ai) on how agentic infrastructure is driving meaningful outcomes for enterprises.Ship day sessionsBelen Garcia Fava and Vivek Katial from Heidi Health showed how their team ships fast in a regulated space with agents and Vercel, and made the case that trust is engineered, not granted. Robin Yoong from Cursor created an eve agent by voice alone. Three models coded in parallel, and a spoken approval shipped it to Vercel.Nonny Bell (Startup Manager APAC, Vercel) moderated a panel with Matthew Blode (AI Engineer, Linktree), Aarush Issar (GM AI Engineering, Auto & General Australia), and Leonardo Borges (Chief Engineer Gen AI, CommBank) on how their teams are adopting AI agents in production.JJ Lecocq (Sales Director AUNZ, Vercel) led a discussion on how organizations are reshaping people, culture, and structure for AI.Ship what's nextThanks for joining us for Ship 2026 in London, Berlin, New York, Sydney, and San Francisco. We'll see you in May for Ship 2027. Read more",
+      "topic_evidence": "Agentic infrastructure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "database",
+        "infrastructure",
+        "cloud",
+        "server",
+        "performance",
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale",
+      "original_title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+      "original_summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial [...] Read More... The post 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale appeared first on Engineering at Meta .",
+      "topic_evidence": "largest planned stress test of our infrastructure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm",
+      "original_title": "Arctic sea ice hits another troubling low in 2026",
+      "original_summary": "Arctic sea ice is shrinking in both winter and summer, with satellite records revealing that the region's remaining ice is becoming thinner, younger, and more vulnerable to melting. Despite a recent slowdown in summer losses, scientists warn that the Arctic could experience a nearly ice-free summer before 2050.",
+      "topic_evidence": "Arctic sea ice is shrinking in both winter and summer",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "satellite"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
+      "original_title": "A fungus is threatening the world’s food supply. Scientists just found a new defense",
+      "original_summary": "Scientists have discovered a potential new weapon against a devastating fungus that threatens rice, wheat, and barley worldwide. By engineering a special type of plant immune receptor, researchers created defenses capable of recognizing multiple fungal threats at once. The breakthrough could eventually lead to crops with powerful, long-lasting disease resistance, helping protect a global food supply increasingly threatened by spreading infections and climate change.",
+      "topic_evidence": "engineering a special type of plant immune receptor",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
+      "original_title": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
+      "original_summary": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings challenge our understanding of consciousness and suggest that the unconscious brain is far more capable than scientists previously realized.",
+      "topic_evidence": "Even under general anesthesia, the human brain can analyze language",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015835.htm",
+      "original_title": "Scientists discover a surprising danger in smaller cancer cells",
+      "original_summary": "Scientists have discovered that unusually small cancer cells carrying extra chromosomes can be far more aggressive than larger ones, growing faster, spreading more readily, and resisting common treatments. The surprising finding could help explain why some tumors are especially dangerous and provide a new way to predict cancer outcomes.",
+      "topic_evidence": "unusually small cancer cells carrying extra chromosomes can be far more aggressive",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261013015814.htm",
+      "original_title": "Rare study reveals a striking divide inside an Alzheimer’s patient’s brain",
+      "original_summary": "A rare examination of an Alzheimer’s patient’s brain revealed that regions cleared of amyloid plaques had remarkably little of the harmful tau buildup associated with memory loss, while neighboring areas showed extensive damage. The discovery suggests that removing amyloid may have lasting protective effects and could help slow Alzheimer’s progression, especially when treatment begins early.",
+      "topic_evidence": "regions cleared of amyloid plaques had remarkably little of the harmful tau buildup",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "study"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai",
+      "original_title": "Ramp reaches $60B valuation as it pushes deeper into AI",
+      "original_summary": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000.",
+      "topic_evidence": "annualized revenue crosses $2B",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "funding"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports?traffic_source=rss",
+      "original_title": "Iran war live: Trump says ground troops unlikely in Iran; Saudi downs drone",
+      "original_summary": "President Trump says deployment of ground troops to Iran unlikely as Saudi Arabia downs drone in its Eastern Province.",
+      "topic_evidence": "President Trump says deployment of ground troops to Iran unlikely as Saudi Arabia downs drone in its Eastern Province.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "troops",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "original_summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+      "topic_evidence": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+      "original_summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+      "topic_evidence": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+      "original_summary": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
+      "topic_evidence": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours?traffic_source=rss",
+      "original_title": "Myanmar’s coup leader-turned-president wins back neighbours despite war",
+      "original_summary": "ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians.",
+      "topic_evidence": "ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
+      "original_title": "Argentine students protest on campus over Milei’s austerity",
+      "original_summary": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
+      "topic_evidence": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/16/iraq-parliament-approves-al-zaidis-cabinet-amid-growing-economic-concerns?traffic_source=rss",
+      "original_title": "Iraq parliament approves al-Zaidi’s cabinet amid growing economic concerns",
+      "original_summary": "Iraq's parliament has finalised key minister appointments five months after al-Zaidi's government took office.",
+      "topic_evidence": "Iraq's parliament has finalised key minister appointments five months after al-Zaidi's government took office.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "government",
+        "parliament"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
+      "original_title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+      "original_summary": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+      "topic_evidence": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
+      "original_title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "original_summary": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
+      "topic_evidence": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "original_title": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
+      "original_summary": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report . More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, according to HIV Justice Network , an organisation quoted in the Human Rights Watch (HRW) report. Among these, at least 84 were charged with “voluntary HIV transmission”, solely on the basis of their HIV status. Continue reading...",
+      "topic_evidence": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+      "original_summary": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+      "topic_evidence": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml",
+      "original_title": "适应铁路快速发展需要 国铁集团启动全国铁路列车车次编排改革",
+      "original_summary": "中新网10月16日电 记者从中国国家铁路集团有限公司(以下简称“国铁集团”)获悉，近日，为更好地适应铁路运输发展和市场需求，国铁集团启动全国铁路列车车次编排改革工作，将在11月下旬、12月下旬分2批对现行列车车次的字头字母、数字号段编排进行全面优化调整，拓展车次编排可使用的号段资源，同步实施新版《列车车次编排规定》，旅客货主可以通过变更后的列车车次直观了解列车速度、品质、功能等特征，有助于进一步优化铁路客货运输产品供给，构建层次清晰、辨识度高、便民友好的现代化铁路运输产品体系。改革后，新车次列车的开行区段、运行时刻仍按现行运行图执行，后续调图时将按新车次编制列车运行图。目前，规章制度修订、信号软件和信息系统升级、12306和95306系统功能优化等准备工作正在有序推进。",
+      "topic_evidence": "国铁集团启动全国铁路列车车次编排改革工作",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715538.shtml",
+      "original_title": "应急管理部：坚决整治安全监管执法“宽松软虚”问题",
+      "original_summary": "中新网10月16日电 应急管理部16日上午举行季度例行新闻发布会，会上应急管理部安全生产监察专员余德旋表示，针对今年几起重特大事故暴露出的问题，应急管理部推动进一步严格安全监管执法，采取三方面措施坚决整治“宽松软虚”等问题。",
+      "topic_evidence": "坚决整治“宽松软虚”等问题",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "措施",
+        "监管"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715533.shtml",
+      "original_title": "应急管理部：整治烟花爆竹违法乱象 20项具体措施强化全链条监管",
+      "original_summary": "中新网10月16日电 应急管理部16日举行季度例行新闻发布会，有记者问，近期，国务院办公厅印发了关于进一步加强烟花爆竹全链条安全监管的意见。请问有哪些重点举措，将推动解决烟花爆竹领域哪些突出问题？",
+      "topic_evidence": "国务院办公厅印发了关于进一步加强烟花爆竹全链条安全监管的意见",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "国务院",
+        "措施",
+        "意见",
+        "监管"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715496.shtml",
+      "original_title": "经营主体信用监管标准体系研究报告发布 已梳理各级标准1038项",
+      "original_summary": "记者昨天(15日)了解到，中国标准化研究院发布《经营主体信用监管标准体系研究报告(2026蓝皮书)》，系统梳理全国已公开发布的信用领域各级标准1038项，通过分层分类、年度分布开展深度分析研判。",
+      "topic_evidence": "系统梳理全国已公开发布的信用领域各级标准1038项",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "监管"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715515.shtml",
+      "original_title": "活力中国调研行丨钦州港“无人码头”，藏着多少黑科技？",
+      "original_summary": "人民日报客户端广西频道 叶晓楠 张一琪 冯肖慧",
+      "topic_evidence": "钦州港“无人码头”，藏着多少黑科技？",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "科技"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715473.shtml",
+      "original_title": "首发、首展、首秀！第九届进博会多项数据创历年新高",
+      "original_summary": "国务院新闻办公室今日举行新闻发布会，介绍第九届中国国际进口博览会筹备情况，并答记者问。",
+      "topic_evidence": "第九届进博会多项数据创历年新高",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715539.shtml",
+      "original_title": "国家林业和草原局原防火督查专员王海忠被查",
+      "original_summary": "中新网10月16日电 据中央纪委国家监委驻自然资源部纪检监察组、陕西省纪委监委消息：国家林业和草原局原防火督查专员王海忠涉嫌严重违纪违法，目前正接受中央纪委国家监委驻自然资源部纪检监察组纪律审查和陕西省监察委员会监察调查。",
+      "topic_evidence": "国家林业和草原局原防火督查专员王海忠涉嫌严重违纪违法",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715532.shtml",
+      "original_title": "最高检发布检察机关依法维护老年人合法权益典型案例",
+      "original_summary": "中新网10月16日电 据最高人民检察院微信公众号消息，10月16日，在今年全国“敬老月”活动期间，最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例，以鲜活案例阐释法律精神，引导各级检察机关坚持“四大检察”综合履职，以检察力量为老年人安享幸福晚年保驾护航。",
+      "topic_evidence": "最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715519.shtml",
+      "original_title": "广西阳朔县通报部分商户用硫磺熏制桂花：情况属实，对相关商户采取措施",
+      "original_summary": "10月16日电 据阳朔县市场监督管理局微信公众号消息，10月16日，广西桂林阳朔县食品药品安全委员会办公室发布情况通报：针对网传阳朔县有部分商户存在硫磺熏制桂花问题，县食药安办第一时间联合林业、农业农村、市场监管、公安部门赶赴现场核查。经查，反映情况属实。",
+      "topic_evidence": "针对网传阳朔县有部分商户存在硫磺熏制桂花问题",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "公安"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715463.shtml",
+      "original_title": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "original_summary": "中新社吉林珲春10月16日电 题：中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "topic_evidence": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks, Futures Rise as Fed Bets Ease After Warsh: Markets Wrap",
+      "original_summary": "US equity-index futures rose and Asian shares extended gains after Federal Reserve Chair Kevin Warsh said investment in artificial intelligence is a huge benefit to the US economy. Traders pared bets on an interest-rate hike and the dollar fell.",
+      "topic_evidence": "Federal Reserve Chair Kevin Warsh said investment in artificial intelligence is a huge benefit to the US economy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
+      "original_title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+      "original_summary": "A continued selloff in the AI trade is forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors.",
+      "topic_evidence": "forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "original_title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "original_summary": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry Elliott: the global economy is muddling through. But a storm is coming An accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily indebted sector. South Korea’s benchmark Kospi 200 index, which is heavily skewed towards the companies that make memory chips, fell more than 8% overnight to a six-month closing low, triggering circuit breakers that brought trading to a halt at various points. Continue reading...",
+      "topic_evidence": "An accelerating sell-off of AI-linked shares has hit global markets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
+      "original_title": "Indonesia Faces MSCI Consultation on Potential Emerging Market Downgrade",
+      "original_summary": "Indonesian stocks tumbled by the most in nearly three decades after MSCI Inc. said the country no longer merits emerging-market status, risking an ejection from its global indexes and triggering fears of foreign capital flight.",
+      "topic_evidence": "MSCI Inc. said the country no longer merits emerging-market status",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-s-national-team-signals-return-with-heavy-etf-inflows",
+      "original_title": "China’s National Team Signals Return With Heavy ETF Inflows",
+      "original_summary": "China’s state-backed funds appear to be stepping back into the stock market, a sign that Beijing is seeking to put a floor under falling shares.",
+      "topic_evidence": "China's state-backed funds appear to be stepping back into the stock market",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/fed-chair-warsh-says-us-is-seeing-an-investment-surge-video",
+      "original_title": "Fed Chair Warsh Says US Is Seeing an Investment Surge",
+      "original_summary": "Fed Chairman Kevin Warsh says there's a US investment surge thanks in part to sound macroeconomic policy and strong microeconomic foundations, calling it one of the global economy’s most important positive developments. (Source: Bloomberg)",
+      "topic_evidence": "there's a US investment surge thanks in part to sound macroeconomic policy and strong microeconomic foundations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy",
+        "fed"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/fed-s-warsh-says-announces-productivity-jobs-task-force-hearing",
+      "original_title": "Fed’s Warsh Announces Productivity, Jobs Task Force Hearing",
+      "original_summary": "Federal Reserve Chairman Kevin Warsh said his task force on productivity and jobs will hold a field hearing in the San Francisco Bay Area next month.",
+      "topic_evidence": "his task force on productivity and jobs will hold a field hearing in the San Francisco Bay Area next month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/boe-chief-says-energy-shock-delays-2-inflation-target-video",
+      "original_title": "BOE Chief Says Energy Shock Delays 2% Inflation Target",
+      "original_summary": "Bank of England Governor Andrew Bailey says Middle East energy shocks have pushed rate cuts off the table and that the BOE effectively tightened financial conditions without raising rates. He cautioned against inferring the central bank's next decision, noting officials have to assess pass-through risks. (Source: Bloomberg)",
+      "topic_evidence": "Middle East energy shocks have pushed rate cuts off the table",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/ecb-s-rehn-not-seeing-second-round-inflation-impact-video",
+      "original_title": "ECB's Rehn: Not Seeing Second-Round Inflation Impact",
+      "original_summary": "Olli Rehn, Finnish Central Bank Governor and ECB Governing Council member, discusses his outlook for the eurozone. He speaks on the sidelines of the IMF-World Bank Annual Meetings in Bangkok. (Source: Bloomberg)",
+      "topic_evidence": "ECB's Rehn: Not Seeing Second-Round Inflation Impact",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/boe-s-bailey-sees-little-evidence-of-second-round-inflation",
+      "original_title": "BOE’s Bailey Sees Little Evidence of Second-Round Inflation",
+      "original_summary": "Bank of England Governor Andrew Bailey said there is little evidence yet of inflation becoming embedded in UK price and wage-setting.",
+      "topic_evidence": "there is little evidence yet of inflation becoming embedded in UK price and wage-setting",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
+      "original_title": "What I self-host",
+      "original_summary": "Article URL: https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/ Comments URL: https://news.ycombinator.com/item?id=50109715 Points: 345 # Comments: 225",
+      "topic_evidence": "What I self-host",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://already-clean.goodfire.com/",
+      "original_title": "Neural networks are clean",
+      "original_summary": "https://twitter.com/nickcammarata/status/2110757819427574056 Comments URL: https://news.ycombinator.com/item?id=50105647 Points: 564 # Comments: 216",
+      "topic_evidence": "Neural networks are clean",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+      "original_title": "Using AI to reverse engineer hardware",
+      "original_summary": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 145 # Comments: 122",
+      "topic_evidence": "Using AI to reverse engineer hardware",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "original_title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "original_summary": "Article URL: https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup Comments URL: https://news.ycombinator.com/item?id=50108872 Points: 275 # Comments: 128",
+      "topic_evidence": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say",
+      "original_title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+      "original_summary": "Article URL: https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/ Comments URL: https://news.ycombinator.com/item?id=50111852 Points: 110 # Comments: 42",
+      "topic_evidence": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "original_title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "original_summary": "Article URL: https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts Comments URL: https://news.ycombinator.com/item?id=50109375 Points: 204 # Comments: 152",
+      "topic_evidence": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://zachlandes.com/trolley-problem",
+      "original_title": "Jev meets the Trolley Problem",
+      "original_summary": "Article URL: https://zachlandes.com/trolley-problem/ Comments URL: https://news.ycombinator.com/item?id=50106023 Points: 360 # Comments: 162",
+      "topic_evidence": "Jev meets the Trolley Problem",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday",
+      "original_title": "Celebrating 70 Years of Fortran",
+      "original_summary": "Article URL: https://fortran-lang.org/news/2026/09-15-Fortran-birthday/ Comments URL: https://news.ycombinator.com/item?id=50104726 Points: 240 # Comments: 104",
+      "topic_evidence": "Celebrating 70 Years of Fortran",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "original_title": "AI agents are coming to Rivian’s cars",
+      "original_summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+      "topic_evidence": "AI agents are coming to Rivian's cars",
+      "approved": true,
+      "evidence": "AI agents are coming to Rivian’s cars",
+      "reason": "主事件是将 AI 代理引入 Rivian 车辆这一具体平台落地，属 AI 产品与平台方向，原标题已明确指向该产品或功能部署。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+      "original_title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "original_summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "topic_evidence": "the frontier AI model maker has given up the right to block them",
+      "approved": true,
+      "evidence": "the frontier AI model maker has given up the right to block them",
+      "reason": "主事件为 Anthropic 允许 METR 以员工级权限开展独立评估，并放弃阻止其发布评估结论的权利，直接属于 AI 研究与治理议题。"
+    },
+    {
+      "id": "developer/open-source-tools/https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta",
+      "section": "开发与编程",
+      "subsection": "开源与工具",
+      "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta",
+      "original_title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+      "original_summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for Android applications.” The recognition celebrates a decade of impact from work that began at University College London and went [...] Read More... The post Sapienz Receives ISSTA 2026 Impact Paper Award appeared first on Engineering at Meta .",
+      "topic_evidence": "Sapienz: multi-objective automated testing for Android applications",
+      "approved": true,
+      "evidence": "Sapienz: multi-objective automated testing for Android applications",
+      "reason": "主事件围绕开源自动化测试工具 Sapienz（Android 多目标自动化测试）及其获得的长期影响力认可，属开发工具/开源方向，小版合适。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
+      "original_title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+      "original_summary": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+      "topic_evidence": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+      "approved": true,
+      "evidence": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+      "reason": "主事件是政府颁布的校园头巾禁令这一具体政策规定，以及由此引发的抗议和对土耳其外交争端，属政府与政策范畴。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss",
+      "original_title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "original_summary": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
+      "topic_evidence": "Children were buried under the debris after the roof crashed through three classrooms, police say.",
+      "approved": true,
+      "evidence": "Children were buried under the debris after the roof crashed through three classrooms",
+      "reason": "主事件为巴基斯坦校舍屋顶坍塌造成至少 33 名学生和一名教师死亡，属重大社会伤亡事件，归入全球社会合适。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "original_title": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
+      "original_summary": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report . More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, according to HIV Justice Network , an organisation quoted in the Human Rights Watch (HRW) report. Among these, at least 84 were charged with “voluntary HIV transmission”, solely on the basis of their HIV status. Continue reading...",
+      "topic_evidence": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports",
+      "approved": true,
+      "evidence": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports",
+      "reason": "主事件为塞内加尔以“违反自然行为”罪名大规模逮捕 LGBTQ+ 人士并强制 HIV 检测，属社会与人权议题，归入全球社会合适。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+      "original_summary": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+      "topic_evidence": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+      "approved": true,
+      "evidence": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+      "reason": "主事件为英吉利海峡隧道法国一侧公交车撞上停驶列车致 19 人受伤，属国际公共安全类社会突发事件，归入全球社会可接受。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml",
+      "original_title": "适应铁路快速发展需要 国铁集团启动全国铁路列车车次编排改革",
+      "original_summary": "中新网10月16日电 记者从中国国家铁路集团有限公司(以下简称“国铁集团”)获悉，近日，为更好地适应铁路运输发展和市场需求，国铁集团启动全国铁路列车车次编排改革工作，将在11月下旬、12月下旬分2批对现行列车车次的字头字母、数字号段编排进行全面优化调整，拓展车次编排可使用的号段资源，同步实施新版《列车车次编排规定》，旅客货主可以通过变更后的列车车次直观了解列车速度、品质、功能等特征，有助于进一步优化铁路客货运输产品供给，构建层次清晰、辨识度高、便民友好的现代化铁路运输产品体系。改革后，新车次列车的开行区段、运行时刻仍按现行运行图执行，后续调图时将按新车次编制列车运行图。目前，规章制度修订、信号软件和信息系统升级、12306和95306系统功能优化等准备工作正在有序推进。",
+      "topic_evidence": "国铁集团启动全国铁路列车车次编排改革工作",
+      "approved": true,
+      "evidence": "国铁集团启动全国铁路列车车次编排改革工作",
+      "reason": "主事件为国铁集团启动全国列车车次编排改革并实施新版《列车车次编排规定》，属具体行业制度与运营规则调整，归入政策与监管合适。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-16/10715473.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715473.shtml",
+      "original_title": "首发、首展、首秀！第九届进博会多项数据创历年新高",
+      "original_summary": "国务院新闻办公室今日举行新闻发布会，介绍第九届中国国际进口博览会筹备情况，并答记者问。",
+      "topic_evidence": "第九届进博会多项数据创历年新高",
+      "approved": true,
+      "evidence": "第九届进博会多项数据创历年新高",
+      "reason": "主事件为第九届进博会筹备发布，首发、首展、首秀等多项数据创历年新高，属会展经济与产业动态，归入产业与地方合适。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/gn/2026/10-16/10715532.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715532.shtml",
+      "original_title": "最高检发布检察机关依法维护老年人合法权益典型案例",
+      "original_summary": "中新网10月16日电 据最高人民检察院微信公众号消息，10月16日，在今年全国“敬老月”活动期间，最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例，以鲜活案例阐释法律精神，引导各级检察机关坚持“四大检察”综合履职，以检察力量为老年人安享幸福晚年保驾护航。",
+      "topic_evidence": "最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例",
+      "approved": true,
+      "evidence": "最高人民检察院发布一批检察机关依法维护老年人合法权益典型案例",
+      "reason": "主事件为最高检在全国“敬老月”发布维护老年人权益典型案例，属司法办案与法治实践，归入社会与法治合适。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-16/10715463.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715463.shtml",
+      "original_title": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "original_summary": "中新社吉林珲春10月16日电 题：中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "topic_evidence": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "approved": true,
+      "evidence": "中俄共筑“虎豹走廊” 珲春守护跨境家园",
+      "reason": "主事件为中俄在珲春共建虎豹跨境生态廊道、守护跨境栖息地，属地方社区与跨境生态治理类社会议题，归入社会与法治可接受。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
+      "original_title": "What I self-host",
+      "original_summary": "Article URL: https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/ Comments URL: https://news.ycombinator.com/item?id=50109715 Points: 345 # Comments: 225",
+      "topic_evidence": "What I self-host",
+      "approved": false,
+      "evidence": "What I self-host",
+      "reason": "主事件为作者罗列并说明个人自托管的服务，属技术实践分享/清单，并未提出可辨的论点或评论，不构成技术观点栏目的社论或观点文章。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://already-clean.goodfire.com/",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://already-clean.goodfire.com/",
+      "original_title": "Neural networks are clean",
+      "original_summary": "https://twitter.com/nickcammarata/status/2110757819427574056 Comments URL: https://news.ycombinator.com/item?id=50105647 Points: 564 # Comments: 216",
+      "topic_evidence": "Neural networks are clean",
+      "approved": true,
+      "evidence": "Neural networks are clean",
+      "reason": "标题本身即对神经网络性质提出论断式主张，属可归入技术观点的评论/论证文章，小版合适。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "original_title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "original_summary": "Article URL: https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup Comments URL: https://news.ycombinator.com/item?id=50108872 Points: 275 # Comments: 128",
+      "topic_evidence": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "approved": false,
+      "evidence": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "reason": "主事件为作者讲述其 Sonarr 配置被種子站用户干扰的个人经历，属技术轶事叙述而非观点或评论文章，不适合归入技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "original_title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "original_summary": "Article URL: https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts Comments URL: https://news.ycombinator.com/item?id=50109375 Points: 204 # Comments: 152",
+      "topic_evidence": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "approved": true,
+      "evidence": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "reason": "主事件针对 Withings 将 Apple Health 同步设为新账户付费功能的商业决策提出批评，属对企业行为的商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-16/10715473.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-16/10715566.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/gn/2026/10-16/10715532.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-16/10715463.shtml"
+    ],
+    [
+      "developer",
+      "open-source-tools",
+      "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://already-clean.goodfire.com/"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

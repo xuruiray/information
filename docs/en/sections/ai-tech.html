@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-15</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-16</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261015</span>
+        <span>Issue 20261016</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 15, 2026 · Thursday</span></div>
+      <div class="dateline"><span>October 16, 2026 · Friday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,45 +43,51 @@
       <span class="ed">12 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Self-Improving Agents, Product Deployment, and Research Governance">
-      <div class="lead-label">AI and Large Models: Self-Improving Agents, Product Deployment, and Research Governance</div>
-      <p>This edition covers new papers and product moves in AI and large models. On frontier models, ClawLoop and Harness^2 explore self-improvement for LLM agents through a harness-native training loop and recursive execution harnessing, Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs, and another paper asks whether LLMs can access world knowledge for event prediction. On products and platforms, Amp uses OpenAI models to extend agents beyond coding, Apate sends agents undercover to get scammed and gather fraud intelligence, and Floqer uses agents to research sales prospects for B2B revenue teams. On research and governance, items span an LLM-referenced C-test for superintelligence, Long-Horizon-Terminal-Bench 2.0, welfare-aware preference acquisition for pluralistic alignment, silent failures in agentic data science, and unconstrained evaluation of open-weight models on CTI-REALM.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs Daily: Meta&#39;s Open-Weight Model Lands on Macs as Open Weights Dominate Tokens but Not Spend">
+      <div class="lead-label">AI &amp; LLMs Daily: Meta&#39;s Open-Weight Model Lands on Macs as Open Weights Dominate Tokens but Not Spend</div>
+      <p>This briefing covers AI and large-model developments: Meta launched Muse Spark Open, an open-weight model built with Apple to run locally on Apple silicon. On the research side, ARIA performs runtime inspection and amendment for multi-agent systems, RoLaQ introduces joint calibration for 2-bit KV caches in multi-head latent attention, CoTS uses competitive token selection for latent reasoning, and EvolvingBrain enables multi-modal agents to self-evolve in open worlds. In products, Rivian plans to bring AI agents into its cars, while Vercel&#39;s October AI Gateway Production Index shows open-weight models took 71.5% of routed tokens but only 23% of spending; MeddeX combines LLaMA-3 with Gemini Vision for medical report analysis. On governance and evaluation, Anthropic is giving METR researchers employee-level access and waiving the right to block publication of assessments; papers also address evaluating capabilities after benchmark saturation, RealtimeBench for agents under a live clock, and CNRF for selective safety in vision-language models.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>4 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Self-Improving Agents, Communication Optimization, and Event Prediction">
-          <div class="lead-label">Frontier Models: Self-Improving Agents, Communication Optimization, and Event Prediction</div>
-          <p>The frontier models subsection covers four arXiv papers. ClawLoop lets LLM-based agents self-improve through a harness-native training loop in sandbox workspaces, improving their use of tools such as file systems and shells. Harness^2 proposes recursive self-improvement to automatically evolve execution harnesses for LLM agents and discusses two challenges in open-world settings. Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs in LLM training and inference and ease interconnect bandwidth bottlenecks. Another paper asks whether LLMs truly cannot access pretrained world knowledge to predict events, or whether current methods fail to present the event prediction task effectively.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Meta&#39;s Open-Weight Model Runs Locally, Papers Target Multi-Agent and Reasoning Efficiency">
+          <div class="lead-label">Frontier Models: Meta&#39;s Open-Weight Model Runs Locally, Papers Target Multi-Agent and Reasoning Efficiency</div>
+          <p>Meta released Muse Spark Open, an open-weight model built with Apple that runs locally on Apple silicon for on-device inference on Macs. In research, ARIA introduces runtime inspection and amendment for LLM-based multi-agent systems, learning interventions during execution to prevent local errors from propagating along agent chains. RoLaQ applies joint rotation and range calibration to 2-bit KV caches in multi-head latent attention, reducing errors in attention matching and value readout from low-bit storage. CoTS uses competitive token selection to decide when latent reasoning is needed, replacing discrete tokens only when necessary. EvolvingBrain proposes an adaptive skill system for multi-modal agents to self-evolve in open worlds.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.14118" target="_blank" rel="noopener">
-            <span class="at">ClawLoop: Self-Improving Agents via Harness-Native Training Loop</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">ClawLoop introduces a harness-native training loop for LLM agents to self-improve in sandbox workspaces while interacting with file systems and shells.</p>
+          <a class="art" href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs" target="_blank" rel="noopener">
+            <span class="at">Meta launches an open-weight AI model that runs on Macs</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Meta launched Muse Spark Open, a new open-weight AI model built with Apple that runs locally on Apple silicon, letting Mac users run the model on-device.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.14224" target="_blank" rel="noopener">
-            <span class="at">Harness^2: Recursive Agent Harnessing for an Open World</span>
+          <a class="art" href="https://arxiv.org/abs/2610.20780" target="_blank" rel="noopener">
+            <span class="at">ARIA: Runtime Inspection and Amendment for Multi-Agent Systems</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">Harness^2 proposes recursive self-improvement to automatically evolve execution harnesses for LLM agents, addressing two challenges in open-world settings.</p>
+            <p class="as">The paper introduces ARIA, a runtime inspection and amendment framework for LLM-based multi-agent systems that intervenes during execution to stop local errors from propagating into task failure.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.14277" target="_blank" rel="noopener">
-            <span class="at">Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">Echo uses error-compensated 4-bit tensor-parallel communication to cut all-reduce costs in LLM training and inference, easing interconnect bandwidth bottlenecks.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.20686" target="_blank" rel="noopener">
+            <span class="at">RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">RoLaQ introduces joint rotation and range calibration for 2-bit KV caches in multi-head latent attention, reducing errors in attention matching and value readout to support long-context inference.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.19021" target="_blank" rel="noopener">
-            <span class="at">Can LLMs Access their World Knowledge for Event Prediction?</span>
+          <a class="art" href="https://arxiv.org/abs/2610.20642" target="_blank" rel="noopener">
+            <span class="at">CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper asks whether LLMs can access pretrained world knowledge for temporal event prediction, or whether current methods fail to present the task effectively.</p>
+            <p class="as">CoTS introduces competitive token selection to decide when latent reasoning is needed in LLMs, replacing tokens selectively to balance richer intermediate representations with efficiency.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.20786" target="_blank" rel="noopener">
+            <span class="at">EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">EvolvingBrain is an adaptive skill system enabling multi-modal agents to self-evolve in open worlds, addressing limits of supervised fine-tuning and outcome-based reinforcement learning.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -91,28 +97,28 @@
           <h3>AI Products &amp; Platforms</h3>
           <span>3 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Agents Move from Coding to Fraud Intelligence and Sales Research">
-          <div class="lead-label">AI Products and Platforms: Agents Move from Coding to Fraud Intelligence and Sales Research</div>
-          <p>The AI products and platforms subsection includes three developments. OpenAI details how Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding tasks. Apate.ai sends AI agents undercover to engage scammers and get scammed, gathering fraud intelligence instead of speeding up products or workflows as most companies do. Floqer uses AI agents to research sales prospects automatically, reducing customer research work for B2B revenue teams and addressing a common sales and revenue operations problem.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products &amp; Platforms: Rivian to Add AI Agents; Open Weights Take 71.5% of Vercel Routed Tokens">
+          <div class="lead-label">AI Products &amp; Platforms: Rivian to Add AI Agents; Open Weights Take 71.5% of Vercel Routed Tokens</div>
+          <p>Rivian plans to bring AI agents into its vehicles, with more details expected at its December &#39;AI &amp; Autonomy Day&#39; event. Vercel&#39;s monthly AI Gateway Production Index reports that in October 2026 open-weight models accounted for 71.5% of routed tokens but only 23% of spending. MeddeX combines a QLoRA fine-tuned LLaMA-3 with Gemini Vision in a retrieval-augmented system to produce evidence-backed medical report analysis.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://openai.com/index/amp-beyond-coding" target="_blank" rel="noopener">
-            <span class="at">Amp puts AI agents to work beyond code with OpenAI models</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI details how Amp uses GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to extend AI agents beyond coding tasks.</p>
+          <a class="art" href="https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars" target="_blank" rel="noopener">
+            <span class="at">AI agents are coming to Rivian&#39;s cars</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Rivian plans to bring AI agents into its vehicles, with more details on how this will work expected at the company&#39;s &#39;AI &amp; Autonomy Day&#39; event in December.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence" target="_blank" rel="noopener">
-            <span class="at">Apate sends AI agents undercover to get scammed so they can gather fraud intelligence</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Apate.ai sends AI agents undercover to engage scammers and get scammed, gathering fraud intelligence instead of speeding up products or workflows.</p>
+          <a class="art" href="https://vercel.com/blog/ai-gateway-production-index-october-2026" target="_blank" rel="noopener">
+            <span class="at">Open weight takes 71.5% of tokens and 23% of spend</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel&#39;s October 2026 AI Gateway Production Index reports that open-weight models accounted for 71.5% of routed tokens but only 23% of spending.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers" target="_blank" rel="noopener">
-            <span class="at">Floqer’s AI agents research sales prospects so teams don’t have to</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Floqer uses AI agents to research sales prospects automatically, reducing customer research work for B2B revenue teams and addressing a common sales operations problem.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.20632" target="_blank" rel="noopener">
+            <span class="at">MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">MeddeX combines a QLoRA fine-tuned LLaMA-3 with Gemini Vision in a retrieval-augmented system to produce evidence-backed analysis of complex medical reports.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -120,42 +126,36 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>Research &amp; Governance</h3>
-          <span>5 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Superintelligence Tests, Long-Horizon Benchmarks, and Pluralistic Alignment">
-          <div class="lead-label">Research and Governance: Superintelligence Tests, Long-Horizon Benchmarks, and Pluralistic Alignment</div>
-          <p>The research and governance subsection summarizes five arXiv papers. One proposes an LLM-referenced C-test to evaluate machines that may surpass current systems and test designers, avoiding benchmarks that become circular or saturate quickly. Long-Horizon-Terminal-Bench 2.0 extends a long-horizon terminal benchmark, retaining 46 original tasks while automating diverse task construction and using process rewards to measure whether agents sustain progress through workflows. Another paper studies welfare-aware preference acquisition for pluralistic alignment under limited human feedback, using AI simulators while accounting for varying simulation accuracy so diverse preferences are better represented in alignment training. A further paper examines evaluation of LLM data science agents from task formulation to model development, arguing that final outcomes alone miss silent failures in the process. The last compares open-weight models with expensive closed frontier models on the CTI-REALM benchmark, studying trade-offs for organizations choosing auditable language-model agents for security work.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Governance: Anthropic Gives METR Employee-Level Access; Papers Tackle Benchmark Saturation and Live-Clock Agent Evaluation">
+          <div class="lead-label">Research &amp; Governance: Anthropic Gives METR Employee-Level Access; Papers Tackle Benchmark Saturation and Live-Clock Agent Evaluation</div>
+          <p>Anthropic is granting METR researchers employee-level access to inspect its systems; METR will publish its own assessments of Anthropic&#39;s risks, incidents and practices, and Anthropic has waived the right to block publication. In research, one paper examines how to evaluate model capabilities after benchmark saturation, proposing to extract more information from benchmark items. RealtimeBench evaluates LLM agents while games keep running, with 180 tasks across six game types, capturing how latency in reasoning and tool calls affects outcomes. Counterfactual Neighborhood Risk Fields (CNRF) provide an evidence-grounded selective safety framework for vision-language models by defining what a risk score means and when to trust it.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.14005" target="_blank" rel="noopener">
-            <span class="at">Artificiality&#39;s First Exam: An LLM-Referenced C-test for Supraintelligence</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper proposes an LLM-referenced C-test to evaluate machines that may surpass current systems and test designers, avoiding benchmarks that become circular or saturate quickly.</p>
+          <a class="art" href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access" target="_blank" rel="noopener">
+            <span class="at">Anthropic is letting METR researchers look under the hood with employee-level access</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Anthropic is granting METR researchers employee-level access to inspect its systems; METR will publish its own assessments of Anthropic&#39;s risks, incidents and practices, with the right to block publication waived.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.14146" target="_blank" rel="noopener">
-            <span class="at">Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress</span>
+          <a class="art" href="https://arxiv.org/abs/2610.20667" target="_blank" rel="noopener">
+            <span class="at">Evaluating Model Capabilities After Benchmark Saturation</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">LHTB 2.0 extends a long-horizon terminal benchmark with automated diverse task construction, using process rewards to measure whether agents sustain progress through workflows.</p>
+            <p class="as">The paper examines benchmark saturation, where near-perfect scores erode a benchmark&#39;s ability to differentiate models and inform safety cases, and explores extracting more information from items.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.19035" target="_blank" rel="noopener">
-            <span class="at">Who Should We Listen to More? Welfare-Aware Preference Acquisition for Pluralistic Alignment</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">The paper studies welfare-aware preference acquisition for pluralistic alignment, using AI simulators while accounting for varying simulation accuracy so diverse preferences are better represented.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.20665" target="_blank" rel="noopener">
+            <span class="at">The World Won&#39;t Wait: Evaluating and Teaching Agents Under a Live Clock</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces RealtimeBench, with 180 tasks across six game types, to evaluate LLM agents while games keep running, capturing how latency in reasoning and tool calls affects outcomes.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.14115" target="_blank" rel="noopener">
-            <span class="at">The Silent Failures in Agentic Data Science</span>
+          <a class="art" href="https://arxiv.org/abs/2610.20679" target="_blank" rel="noopener">
+            <span class="at">Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper examines evaluation of LLM data science agents from task formulation to model development, arguing that final outcomes alone miss silent failures in the process.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.14180" target="_blank" rel="noopener">
-            <span class="at">Unconstrained CTI-REALM with Open-Weights</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper compares open-weight models with expensive closed frontier models on the CTI-REALM benchmark, studying trade-offs for organizations choosing auditable language-model agents for security work.</p>
+            <p class="as">The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework giving vision-language models selective safety by defining what a risk score means and when to trust it.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

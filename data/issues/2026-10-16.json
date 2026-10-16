@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-16",
+  "title": "信息日报 2026-10-16",
+  "title_en": "Information Daily 2026-10-16",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Meta 推出开放权重模型 Muse Spark Open，可在苹果芯片上本地运行",
+    "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+    "source": "TechCrunch AI",
+    "summary": "Meta 发布新的开放权重 AI 模型 Muse Spark Open，并与苹果合作，使其可在 Apple silicon 上本地运行，主打在 Mac 设备端直接推理。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Meta launches an open-weight AI model that runs on Macs",
+    "summary_en": "Meta launched Muse Spark Open, a new open-weight AI model built with Apple that runs locally on Apple silicon, letting Mac users run the model on-device.",
+    "original_title": "Meta launches an open-weight AI model that runs on Macs",
+    "published_at": "2026-10-15T20:04:53+00:00",
+    "reason": "大型实验室发布新的开放权重模型，并明确本地运行方式，属前沿模型动态。",
+    "reason_en": "A major lab released a new open-weight model with a specific on-device runtime, fitting frontier models.",
+    "score": 8.5
+  },
+  "path": "papers/2026-10-16.html",
+  "raw_path": "raw/2026-10-16.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://viceconsole.fyi/blog/2026/10/10/what-i-self-host]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup]"
+  ]
+}
