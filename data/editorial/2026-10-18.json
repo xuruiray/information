@@ -1,0 +1,2177 @@
+{
+  "date": "2026-10-18",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+              "title": "Elorian 首个 AI 模型 Glimpse 主打图像推理",
+              "summary": "Elorian 推出首个 AI 模型 Glimpse，主打图像推理；按其自评，该模型在科学图表推理和短视频描述上优于 GPT-6 Astra，在其他视觉推理任务上具竞争力。",
+              "title_en": "Elorian’s first AI model wants to reason with images, not just about them",
+              "summary_en": "Elorian introduced Glimpse, its first AI model for visual reasoning. According to Elorian’s evaluations, it outperforms GPT-6 Astra on scientific chart reasoning and short-form video captioning.",
+              "topic_evidence": "Glimpse outperforms even GPT-6 Astra on scientific chart reasoning",
+              "reason": "介绍新模型 Glimpse 的视觉推理定位和自评结果，属于前沿模型发布。",
+              "reason_en": "Introduces a new model, Glimpse, with visual reasoning positioning and self-reported evaluation results, fitting frontier model coverage.",
+              "score": 4.95
+            },
+            {
+              "url": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
+              "title": "Perplexity Decider V1.2 模型上线 AI Gateway",
+              "summary": "Perplexity 的 Decider V1.2 27B 与 Decider Flash V1.2 4B 上线 Vercel AI Gateway，作为多模态决策模型用于内容分类、请求路由和文本/图像评分。",
+              "title_en": "Perplexity's Decider V1.2 models now available on AI Gateway",
+              "summary_en": "Perplexity’s Decider V1.2 27B and Decider Flash V1.2 4B are now on Vercel AI Gateway. The multimodal decision models classify content, route requests, and score text, structured records, and images.",
+              "topic_evidence": "Both are multimodal decision models for classifying content, routing requests, and scoring text",
+              "reason": "具体说明 Decider V1.2 两个模型上线及多模态决策用途，属于前沿模型发布与可用性。",
+              "reason_en": "Details the availability and multimodal decision uses of two Decider V1.2 models, fitting frontier model launches.",
+              "score": 4.9
+            },
+            {
+              "url": "https://huggingface.co/blog/reflection-beam",
+              "title": "Beam：一个可拥有、定制和扩展的 501B 开放模型",
+              "summary": "Hugging Face 博客介绍 Beam，一个 501B 参数的开放模型，标题称其可由用户拥有、定制和扩展。",
+              "title_en": "Welcome Beam: a 501B open model you can own, customize, and scale",
+              "summary_en": "Hugging Face’s blog introduces Beam, a 501B open model that the post says users can own, customize, and scale.",
+              "topic_evidence": "a 501B open model you can own, customize, and scale",
+              "reason": "提供 501B 开放模型的发布信息，属于开放前沿模型动态。",
+              "reason_en": "Provides launch information for a 501B open model, fitting open frontier model news.",
+              "score": 4.0
+            },
+            {
+              "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+              "title": "Granite Switch 4.1：单一端点提供聊天、决策与语音",
+              "summary": "Hugging Face 博客介绍 Granite Switch 4.1，标题称其通过单一端点提供聊天、决策和语音能力。",
+              "title_en": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+              "summary_en": "Granite Switch 4.1 is presented as offering chat, decision, and speech capabilities from a single endpoint, according to the Hugging Face post title.",
+              "topic_evidence": "Chat, Decisions, and Speech from One Endpoint",
+              "reason": "报道 Granite Switch 4.1 通过单一端点整合聊天、决策和语音，属于模型发布。",
+              "reason_en": "Covers Granite Switch 4.1 combining chat, decision, and speech in one endpoint, fitting model launch news.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+              "title": "Replit 将 OpenAI 设为默认模型提供商，取代 Anthropic",
+              "summary": "Replit CEO Masad 表示，OpenAI 将取代 Anthropic 成为平台默认模型提供商，Claude 仍可供平台客户使用。",
+              "title_en": "Replit makes OpenAI its default over Anthropic, CEO says",
+              "summary_en": "Replit CEO Amjad Masad said OpenAI will replace Anthropic as the platform’s default model provider, while Claude will remain available to customers.",
+              "topic_evidence": "OpenAI would replace Anthropic as its default model provider",
+              "reason": "涉及 Replit 平台默认模型提供商的更换，直接影响开发者可用的模型选项，属于 AI 产品与平台动态。",
+              "reason_en": "Covers Replit’s switch of default model provider, a platform-level change affecting available model options for developers.",
+              "score": 5.95
+            },
+            {
+              "url": "https://openai.com/index/itau-generative-ai",
+              "title": "Itaú 如何为全体客户构建生成式 AI",
+              "summary": "巴西银行 Itaú 通过对话界面 ia.i 和治理平台 IARA，将 AI First 战略用于客户与员工服务，所在行业监管严格。",
+              "title_en": "How Itaú is building generative AI for its entire customer base",
+              "summary_en": "Brazil’s Itaú is applying its AI First strategy to customers and employees through the ia.i conversational interface and the IARA governance platform in a highly regulated sector.",
+              "topic_evidence": "ia.i, a conversational interface, and the IARA governance platform",
+              "reason": "描述 Itaú 在受监管行业落地生成式 AI 的具体界面与治理平台，属于企业 AI 产品案例。",
+              "reason_en": "Describes Itaú’s concrete deployment of generative AI via a conversational interface and governance platform, fitting enterprise AI product case coverage.",
+              "score": 4.2
+            },
+            {
+              "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+              "title": "Stack Overflow for Agents 借 ChatGPT 插件使注册量增至三倍",
+              "summary": "两名工程师用 Codex 在数周内上线 Stack Overflow for Agents；其 ChatGPT 插件使注册量增至三倍，并推动智能体创建量最高增长 10 倍。",
+              "title_en": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+              "summary_en": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation, according to OpenAI.",
+              "topic_evidence": "its ChatGPT plugin helped drive up to 10× growth in agent creation",
+              "reason": "报道 Stack Overflow for Agents 的插件集成与增长数据，属于 AI 产品与平台动态。",
+              "reason_en": "Covers Stack Overflow for Agents’ plugin integration and growth figures, fitting AI product and platform news.",
+              "score": 4.2
+            },
+            {
+              "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+              "title": "AI Gateway 日志新增会话亲和视图",
+              "summary": "Vercel AI Gateway 日志新增 Sessions 视图，按会话聚合请求并展示会话亲和路由；每行显示所用编码智能体或应用、成本、模型、提供商及缓存输入比例。",
+              "title_en": "AI Gateway logs now show session affinity",
+              "summary_en": "Vercel AI Gateway logs now include a Sessions view that groups requests by session and shows how session affinity routed each, including the coding agent or app, cost, models, providers, and cached input.",
+              "topic_evidence": "AI Gateway logs now have a Sessions view that groups requests into sessions",
+              "reason": "说明 AI Gateway 日志新增会话视图和会话亲和追踪，属于平台功能更新。",
+              "reason_en": "Details a new Sessions view and session-affinity tracking in AI Gateway logs, fitting platform feature updates.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+              "title": "印度成为最新报告失控 AI 智能体活动的国家",
+              "summary": "印度成为最新报告失控 AI 智能体活动的国家；这些智能体通过应用配置、公开代码库和过度宽松云角色中暴露的凭据与连接设置进入。",
+              "title_en": "India becomes the latest country to report rogue AI agent activity",
+              "summary_en": "India is the latest country to report rogue AI agent activity; the agents entered through exposed credentials and connection settings in app configurations, public code repositories, and overly permissive cloud roles.",
+              "topic_evidence": "rogue AI agent activity",
+              "reason": "报道印度遇到的失控 AI 智能体活动及入侵途径，属于 AI 智能体安全与治理议题。",
+              "reason_en": "Reports rogue AI agent activity in India and the exposure paths involved, fitting AI agent security and governance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+              "title": "Meta 删除引发抓取与 AI 训练担忧的条款表述",
+              "summary": "Meta 删除了引发抓取和 AI 训练担忧的条款表述；发言人称条款更新并不反映其网络抓取方式发生变化。",
+              "title_en": "Meta removes language that raised scraping and AI training concerns",
+              "summary_en": "Meta removed language that raised scraping and AI training concerns, but a spokesperson said the updated terms did not reflect a change in how Meta crawls the web.",
+              "topic_evidence": "Meta removes language that raised scraping and AI training concerns",
+              "reason": "涉及 Meta 服务条款中与网页抓取和 AI 训练相关的表述调整，属于 AI 数据治理。",
+              "reason_en": "Concerns changes to Meta’s terms language around web scraping and AI training, fitting AI data governance.",
+              "score": 3.95
+            },
+            {
+              "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+              "title": "OpenAI 将 GPT-Rosalind 引入学术研究实验室",
+              "summary": "OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 及工具的赞助访问，用于推进生命科学研究。",
+              "title_en": "Bringing GPT-Rosalind to academic research labs",
+              "summary_en": "OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools intended to advance life sciences research.",
+              "topic_evidence": "offering eligible academic labs sponsored access to GPT-Rosalind",
+              "reason": "报道 OpenAI 面向学术实验室的 GPT-Rosalind 赞助访问计划，属于 AI 研究资源与准入。",
+              "reason_en": "Covers OpenAI’s sponsored GPT-Rosalind access plan for academic labs, fitting AI research access.",
+              "score": 3.2
+            },
+            {
+              "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+              "title": "Indic 预训练扩展：2.8 万亿 token 与开放数据生成流水线",
+              "summary": "一篇 Hugging Face 博客介绍 Indic 预训练扩展工作，使用 2.8 万亿 token，并开放数据生成流水线。",
+              "title_en": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+              "summary_en": "A Hugging Face blog post describes scaling Indic pretraining with 2.8 trillion tokens and an open data generation pipeline.",
+              "topic_evidence": "2.8 Trillion Tokens and an Open Data Generation Pipeline",
+              "reason": "介绍 Indic 预训练规模与开放数据生成流水线，属于研究与数据集工作。",
+              "reason_en": "Describes Indic pretraining scale and an open data generation pipeline, fitting research and dataset work.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+              "title": "Vercel 与 Shopify 将 AI 代理视为一等购物者",
+              "summary": "Vercel 发布开源 Next.js 店面模板 Vercel Shop，让代理可直接读取商品信息并使用为代理设计的购物工具，而非依赖为人与搜索引擎构建的页面。",
+              "title_en": "Vercel and Shopify make agents first-class shoppers",
+              "summary_en": "Vercel released Vercel Shop, an open source Next.js storefront template that gives shopping agents directly readable product data and agent-oriented tools instead of pages built for humans and search engines.",
+              "topic_evidence": "Vercel Shop, our open source Next.js storefront template",
+              "reason": "具体介绍开源 Next.js 店面模板及面向代理的购物接口，属于前端框架与开发工具更新。",
+              "reason_en": "Covers an open source Next.js storefront template and agent-oriented shopping interfaces, a concrete frontend framework and developer tool update.",
+              "score": 7.9
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+              "title": "使用 document.currentScript 实现内联渲染",
+              "summary": "Lean Rada 介绍利用 document.currentScript 属性，在页面加载时用脚本自身替换内联 script 元素，例如把当前年份写入页面。",
+              "title_en": "Inline rendering with document.currentScript",
+              "summary_en": "Lean Rada describes a technique using document.currentScript to replace an inline script element when the page loads, for example inserting the current year into the page.",
+              "topic_evidence": "Lean Rada describes a neat trick that takes advantage of the document.currentScript property",
+              "reason": "具体说明 JavaScript 的 document.currentScript 内联渲染技巧，属于语言与前端实践。",
+              "reason_en": "Explains a concrete JavaScript document.currentScript inline rendering trick, relevant to language and frontend practice.",
+              "score": 4.1
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+              "title": "web-edit 0.1a2 发布",
+              "summary": "Simon Willison 发布 web-edit 0.1a2，这是一个用于浏览和编辑文件夹内文件的微型 Web 应用，新增文本与图像数据的复制到剪贴板功能。",
+              "title_en": "web-edit 0.1a2",
+              "summary_en": "Simon Willison released web-edit 0.1a2, a tiny web app for browsing and editing files in a folder, adding copy-to-clipboard support for text and image data.",
+              "topic_evidence": "I added a \"copy to clipboard\" option for both text and image data.",
+              "reason": "具体工具版本发布，并说明新增复制到剪贴板功能，符合开源与工具版块。",
+              "reason_en": "A concrete tool release that adds copy-to-clipboard for text and image data, fitting the open source and tools subsection.",
+              "score": 4.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+              "title": "Chirp Pong：用声波传输游戏状态的手机双人游戏",
+              "summary": "Simon Willison 尝试在两部手机的静态 HTML 页面间用麦克风接收的啁啾声传输网络数据，构建双人竞争式 Pong 游戏，并称实验可运行。",
+              "title_en": "Chirp Pong",
+              "summary_en": "Simon Willison tested a two-player competitive Pong game running as static HTML on two phones, with game state sent over chirps received by the microphone, and reports that it works.",
+              "topic_evidence": "the networking code uses chirps sent via the microphone",
+              "reason": "具体描述静态 HTML 双人游戏实验及声波网络方案，属于开发工具与实验项目。",
+              "reason_en": "Describes a concrete static HTML two-player game experiment using microphone chirps for networking, an open developer experiment.",
+              "score": 4.1
+            },
+            {
+              "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
+              "title": "GitHub 分享如何自动审查外部协作者权限并归档陈旧仓库",
+              "summary": "GitHub 工程博客介绍在共享组织中利用原生 GitHub 功能自动审查外部协作者访问权限，并归档长期不活跃的仓库，以维持仓库卫生与安全。",
+              "title_en": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+              "summary_en": "GitHub Engineering explains how a shared organization used native GitHub features to automate reviews of outside collaborator access and archive stale repositories, maintaining repository hygiene and security.",
+              "topic_evidence": "review outside collaborator access and archive stale repositories",
+              "reason": "具体说明自动化权限审查与仓库归档实践，涉及 GitHub 原生功能和安全。",
+              "reason_en": "Details automated access reviews and repository archiving using native GitHub features, relevant to security and repository hygiene.",
+              "score": 4.0
+            },
+            {
+              "url": "https://github.com/mikroverk/esp32sim",
+              "title": "Esp32sim：在浏览器中运行 ESP32 固件",
+              "summary": "开源项目 esp32sim 是一个可在浏览器中运行的 ESP32 模拟器，演示中无需真实硬件即可执行固件，目标是方便实验、测试和模拟 ESP32 软件。",
+              "title_en": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+              "summary_en": "Esp32sim is an open source ESP32 emulator that runs in the browser, executing firmware without physical hardware in its demo, with the goal of making ESP32 software easier to experiment with and test.",
+              "topic_evidence": "an open-source ESP32 emulator that runs in the browser",
+              "reason": "具体介绍开源 ESP32 浏览器模拟器及其无硬件测试用途，属于开源工具。",
+              "reason_en": "Introduces an open source browser-based ESP32 emulator for hardware-free testing, fitting open source tools.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+              "title": "Vercel 回顾 Ship 2026：转向面向 AI 代理的基础设施",
+              "summary": "Vercel 在伦敦、柏林、纽约、悉尼和旧金山举办 Ship 2026 大会，回顾其从塑造 Web 开发转向为 AI 代理提供基础设施，强调代理优先的设计。",
+              "title_en": "Vercel Ship 2026 recap",
+              "summary_en": "Vercel recap of Ship 2026, held across London, Berlin, New York, Sydney and San Francisco, describing a shift from shaping web development to building infrastructure designed for AI agents from the start.",
+              "topic_evidence": "thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco",
+              "reason": "具体报道 Vercel Ship 2026 多城市大会及其面向代理的基础设施方向，属于开发者平台与基础设施动态。",
+              "reason_en": "Reports the multi-city Vercel Ship 2026 event and its agent-oriented infrastructure direction, relevant to developer platform and infrastructure.",
+              "score": 21.9
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale",
+              "title": "Meta 回顾 2026 世界杯：创纪录流量与大规模可靠性保障",
+              "summary": "Meta 工程博客称 2026 世界杯成为其基础设施最大规模计划性压力测试，并创下历史流量纪录，文章讨论峰值图表与大规模可靠性保障。",
+              "title_en": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+              "summary_en": "Meta Engineering says the 2026 World Cup became the largest planned stress test of its infrastructure and set an all-time traffic record, with the post covering spiky charts and reliability at scale.",
+              "topic_evidence": "the World Cup becomes the largest planned stress test of our infrastructure",
+              "reason": "具体涉及世界杯期间创纪录流量和基础设施可靠性，符合基础设施与数据版块。",
+              "reason_en": "Covers record traffic and infrastructure reliability during the World Cup, fitting the infrastructure and data subsection.",
+              "score": 4.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+              "title": "罗曼太空望远镜成像质量超出预期近30%",
+              "summary": "工程师将反射镜移动约人类头发直径的十六分之一，使南希·格雷斯·罗曼太空望远镜的广域仪器接近完美对准，成像质量超出预期近30%。",
+              "title_en": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+              "summary_en": "Engineers moved a mirror by about one-sixteenth the width of a human hair, bringing the Nancy Grace Roman Space Telescope’s Wide Field Instrument into near-perfect alignment; image quality now exceeds expectations by nearly 30%.",
+              "topic_evidence": "exceeded expectations after engineers made incredibly tiny adjustments",
+              "reason": "报道罗曼太空望远镜通过微调反射镜提升成像质量，属于航天观测设备进展。",
+              "reason_en": "Reports a specific space telescope alignment milestone and measured image-quality gain.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+              "title": "韦布望远镜揭示20光年外行星的有序天气",
+              "summary": "詹姆斯·韦布太空望远镜发现，20光年外一颗湍流行星的大气呈现三种反复出现的状态，温度变化和云层移动驱动其天气，为研究系外行星天气提供新工具。",
+              "title_en": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+              "summary_en": "The James Webb Space Telescope found that a turbulent planet 20 light-years away has three recurring atmospheric states driven by temperature changes and shifting clouds, offering a new way to study exoplanet weather.",
+              "topic_evidence": "three recurring atmospheric states driven by temperature changes and shifting clouds",
+              "reason": "报道韦布望远镜对20光年外行星大气天气的具体观测结果，属于系外行星研究进展。",
+              "reason_en": "Reports specific Webb observations of recurring atmospheric states on an exoplanet 20 light-years away.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
+              "title": "SpaceX向国际空间站运送脑模型和心脏组织",
+              "summary": "SpaceX向国际空间站送去微型脑模型、3D心脏组织及在轨制造人造视网膜的技术，科学家希望借此研究脑疾病、恢复视力和测试未来药物。",
+              "title_en": "SpaceX just delivered some very strange cargo to the International Space Station",
+              "summary_en": "SpaceX delivered tiny brain models, 3D heart tissue and technology for making artificial retinas in space to the International Space Station, aiming to study brain disease, restore sight and test medicines.",
+              "topic_evidence": "tiny brain models, 3D heart tissue, and technology for making artificial retinas in space",
+              "reason": "报道SpaceX向国际空间站运送具体实验载荷，属于航天运输与在轨研究事件。",
+              "reason_en": "Reports a specific SpaceX cargo delivery to the ISS carrying research experiments and technology.",
+              "score": 6.85
+            },
+            {
+              "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+              "title": "5.5万美元人形机器人能装洗碗机吗？记者体验两台家用机器人",
+              "summary": "MarketWatch记者体验Tau Robotics的两台人形家用机器人，它们完成吸尘和擦台面，但背后仍需人类协助；文章讨论高价机器人当前的家务能力。",
+              "title_en": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+              "summary_en": "A MarketWatch reporter tested two Tau Robotics humanoid housekeepers, which vacuumed floors and wiped counters but still relied on human help behind the scenes; the article examines their current household abilities.",
+              "topic_evidence": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters",
+              "reason": "记者实测人形机器人执行吸尘和擦台面等家务，属于机器人能力评估。",
+              "reason_en": "A firsthand test of humanoid robots performing household tasks, with human assistance noted.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+              "title": "科学家揭示深睡如何增肌、燃脂并促进大脑",
+              "summary": "科学家发现睡眠与生长激素之间存在双向关系，大脑在身体恢复与清醒之间取得平衡；这一机制可能解释睡眠不足为何损害代谢和大脑健康。",
+              "title_en": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+              "summary_en": "Scientists found a two-way relationship between sleep and growth hormone, showing how the brain balances physical recovery with wakefulness; the mechanism may explain why poor sleep harms metabolism and brain health.",
+              "topic_evidence": "surprising two-way relationship between sleep and growth hormone",
+              "reason": "报道睡眠与生长激素双向关系的新研究，涉及代谢和脑健康机制。",
+              "reason_en": "Reports a new study on a two-way sleep–growth hormone relationship linked to metabolism and brain health.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+              "title": "保护性脑细胞可能推动认知衰退",
+              "summary": "研究发现，一类曾被认为完全有益的脑细胞功能失调后会过量产生髓鞘，干扰神经纤维，可能与记忆和思维能力的年龄相关下降有关。",
+              "title_en": "Brain cells meant to protect us may be fueling cognitive decline",
+              "summary_en": "Scientists found that brain cells once thought entirely beneficial can produce abnormal amounts of myelin when dysfunctional, disrupting nerve fibers and potentially contributing to age-related declines in memory and thinking.",
+              "topic_evidence": "produce abnormal amounts of myelin",
+              "reason": "报道特定脑细胞过量产生髓鞘并干扰神经纤维的研究，涉及认知衰退机制。",
+              "reason_en": "Reports research linking dysfunctional brain cells and abnormal myelin production to cognitive decline.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+              "title": "仅一个原子高的“量子高速公路”或改变超导体",
+              "summary": "科学家发现，仅一个原子高的台阶可引导超导体中的量子涡旋，使其在一个方向上的移动比另一方向容易1000多倍，或推动超高效超导电子器件。",
+              "title_en": "A quantum highway just one atom high could transform superconductors",
+              "summary_en": "Scientists discovered that atomic steps one atom high can guide quantum vortices through superconductors, moving more than 1,000 times more easily in one direction and potentially enabling ultra-efficient superconducting electronics.",
+              "topic_evidence": "atomic steps just one atom high can guide quantum vortices",
+              "reason": "报道原子级台阶引导量子涡旋的实验现象，涉及超导材料与器件。",
+              "reason_en": "Reports an atomic-scale effect controlling quantum vortices in superconductors, relevant to superconducting devices.",
+              "score": 2.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015073210.htm",
+              "title": "南极海冰出现显著逆转",
+              "summary": "2026年南极海冰冬季最大值创下第三低纪录，延续了此前多年创纪录增长后的显著下降；科学家正在判断这是否意味着南极冰封格局的长期转变。",
+              "title_en": "Antarctica’s sea ice has undergone a stunning reversal",
+              "summary_en": "Antarctic sea ice reached its third-lowest winter maximum in 2026, extending a marked decline after years of record growth; scientists are studying whether this signals a long-term shift.",
+              "topic_evidence": "third-lowest winter maximum in 2026",
+              "reason": "报道2026年南极海冰冬季最大值创第三低，属于气候观测变化。",
+              "reason_en": "Reports a specific Antarctic sea-ice record and the observed reversal in long-term trends.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/draper",
+              "title": "Draper：分步验证、规划并启动业务",
+              "summary": "Draper 在 Product Hunt 发布，定位为面向创业者的分步辅助工具，称可帮助用户验证商业想法、制定计划并启动业务。",
+              "title_en": "Draper",
+              "summary_en": "Draper, launched on Product Hunt, is described as a step-by-step tool for founders to validate a business idea, plan, and launch a business.",
+              "topic_evidence": "Validate, plan, and launch a business, one step at a time.",
+              "reason": "Product Hunt 新品条目，摘要直接描述分步验证、规划和启动业务的功能，符合新产品与增长。",
+              "reason_en": "A Product Hunt launch whose summary directly describes step-by-step business validation, planning, and launch features, fitting new products and growth.",
+              "score": 3.85
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists",
+              "title": "Tressfecta 推出 Plait Pilot，帮助发型师简化编发前分束流程",
+              "summary": "Tressfecta 面向卷曲纹理头发打造产品，首个项目 Plait Pilot 帮助编发师处理编发开始前从发包中分出头发的初始步骤。",
+              "title_en": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+              "summary_en": "Tressfecta builds products for textured hair; its first project, Plait Pilot, helps braiders with the initial step of separating hair from packs before braiding begins.",
+              "topic_evidence": "helps braiders with the initial process of separating hair from packs before braiding begins",
+              "reason": "TechCrunch 创业报道介绍面向纹理头发的首个产品 Plait Pilot 及其在编发前分束环节的用途，直接属于新产品。",
+              "reason_en": "TechCrunch startup report covers Tressfecta's first product, Plait Pilot, and its use in the pre-braiding hair separation step, directly fitting new products.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.producthunt.com/products/salience",
+              "title": "Salience：查看网站每个请求及其响应",
+              "summary": "Salience 在 Product Hunt 上线，定位为网站请求监测产品，让用户查看网站收到的每个请求以及对应的响应情况。",
+              "title_en": "Salience",
+              "summary_en": "Salience, launched on Product Hunt, is positioned as a website request monitoring product that lets users see every request to their site and how it responds.",
+              "topic_evidence": "See every request to your website and how it responds.",
+              "reason": "Product Hunt 新品，摘要说明可查看网站每个请求及响应，属于新上线的产品与增长。",
+              "reason_en": "A Product Hunt launch whose summary describes viewing every website request and response, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/emochi-2",
+              "title": "Emochi：用语音日记结合艺术与科学了解自己",
+              "summary": "Emochi 在 Product Hunt 发布，是一款语音日记产品，宣称结合艺术与科学，帮助用户记录并更好地了解自己。",
+              "title_en": "Emochi",
+              "summary_en": "Emochi, launched on Product Hunt, is a voice journal that aims to help users understand themselves through art and science.",
+              "topic_evidence": "Voice journal to understand yourself through art and science",
+              "reason": "Product Hunt 新品，摘要说明其语音日记定位和艺术与科学结合，直接属于新产品。",
+              "reason_en": "A Product Hunt launch whose summary describes a voice journal combining art and science, directly fitting new products.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+              "title": "特朗普豁免多项对俄制裁，与泽连斯基争执加剧",
+              "summary": "美国政府以“国家安全”为由，暂时放宽国会近期通过的多项对俄限制；此举发生在特朗普与乌克兰总统泽连斯基矛盾升级之际。",
+              "title_en": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+              "summary_en": "The US president temporarily lifts many congressional restrictions on Moscow, citing national security, as his dispute with Ukraine’s Zelensky intensifies.",
+              "topic_evidence": "temporarily ends many restrictions on Moscow",
+              "reason": "直接涉及美俄制裁与乌克兰战争外交，是当日地缘安全的重要动态。",
+              "reason_en": "Directly concerns US–Russia sanctions and Ukraine war diplomacy, a key geopolitical development.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/18/fears-grow-in-drc-as-former-president-joseph-kabila-joins-rebellion?traffic_source=rss",
+              "title": "刚果（金）前总统卡比拉加入叛乱引发担忧",
+              "summary": "刚果（金）前总统卡比拉加入东部叛乱武装，令外界对东部战事走向及和平前景产生新的疑问。",
+              "title_en": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
+              "summary_en": "Kabila’s decision to join the rebellion raises new questions about the war in eastern Congo and the prospects for peace.",
+              "topic_evidence": "former President Joseph Kabila joins rebellion",
+              "reason": "涉及刚果（金）东部冲突与前总统的政治军事角色，属于地缘安全议题。",
+              "reason_en": "Involves the conflict in eastern DRC and a former president’s political-military role, a geopolitical security issue.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
+              "title": "伊朗战事直播：以色列定居者袭击欧盟外交官，无人机瞄准利雅得",
+              "summary": "直播报道显示，三艘油轮起火，蒙面定居者在约旦河西岸袭击欧洲政界人士；同时无人机指向利雅得。",
+              "title_en": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
+              "summary_en": "Live coverage reports fires on three tankers, masked settlers attacking European politicians in the occupied West Bank, and drones targeting Riyadh.",
+              "topic_evidence": "Fires reported on three tankers",
+              "reason": "涵盖霍尔木兹油轮、约旦河西岸袭击和无人机威胁，是中东安全多线动态。",
+              "reason_en": "Covers tanker fires in Hormuz, a West Bank attack and drone threats, reflecting multiple Middle East security developments.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+              "title": "“4000人过自己的日子”：四十年后福克兰群岛再面对敌意阿根廷",
+              "summary": "阿根廷总统在民调下滑之际对群岛石油业施加经济压力，并暗示渔业可能成为下一个目标，福克兰群岛再度面临紧张。",
+              "title_en": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+              "summary_en": "Argentina’s president, facing a polling slump, is pressing economic attacks on the islands’ oil industry and hinting fisheries could be next, renewing tensions over the Falklands.",
+              "topic_evidence": "making economic attacks on the islands’ oil industry",
+              "reason": "反映福克兰群岛主权争端的新一轮经济与外交摩擦。",
+              "reason_en": "Reflects a new round of economic and diplomatic friction in the Falklands sovereignty dispute.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+              "title": "巴西大选决胜投票临近，亚马孙毁林降至有记录以来最低",
+              "summary": "巴西政府数据显示，亚马孙毁林面积降至1988年有记录以来最低；但在总统选举第二轮投票前，这一趋势能否延续仍不确定。",
+              "title_en": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+              "summary_en": "Government data show Amazon deforestation in Brazil has fallen to its lowest level since records began in 1988, but the trend’s durability is uncertain before the presidential run-off.",
+              "topic_evidence": "Deforestation in the Brazilian Amazon has fallen to its lowest level since records began",
+              "reason": "环境治理与巴西选举政治直接交织，体现政策变化。",
+              "reason_en": "Environmental governance is directly intertwined with Brazil’s election politics, showing a clear policy shift.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
+              "title": "巴西总统卢拉改口支持将刑事责任年龄降至16岁",
+              "summary": "卢拉宣布支持对“重罪”将刑事责任年龄从18岁降至16岁，逆转长期政策立场；外界普遍视其为选举压力下的策略调整。",
+              "title_en": "Brazil’s Lula says he now backs lowering age of criminal responsibility to 16",
+              "summary_en": "Lula has reversed his longstanding position and now supports lowering the age of criminal responsibility for “heinous” crimes from 18 to 16, a move widely seen as an electoral gambit.",
+              "topic_evidence": "supports lowering the age of criminal responsibility",
+              "reason": "巴西总统在选前改变刑事政策立场，具有明确的政府政策与选举含义。",
+              "reason_en": "Brazil’s president changes a criminal-policy position before the election, with clear government-policy and electoral implications.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+              "title": "阿尔巴尼亚反政府抗议者与警察发生冲突",
+              "summary": "周六，阿尔巴尼亚首都地拉那的反政府示威者与防暴警察发生暴力冲突，冲突贯穿当天，凸显国内政治紧张。",
+              "title_en": "Anti-government protesters battle with police in Albania",
+              "summary_en": "Violent clashes between anti-government demonstrators and riot police erupted throughout Saturday in Albania’s capital, Tirana, highlighting domestic political tensions.",
+              "topic_evidence": "violent clashes between demonstrators and riot police",
+              "reason": "反映阿尔巴尼亚国内政治对抗与公共秩序事件。",
+              "reason_en": "Reflects domestic political confrontation and public-order disruption in Albania.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+              "title": "抗议升级之际，人群聚集新德里挥舞印度国旗",
+              "summary": "针对选民名单审查的抗议在新德里升级，批评者称审查有政治动机并可能剥夺选民资格；选举委员会与莫迪政府否认指控。",
+              "title_en": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+              "summary_en": "Protests over a voter-list review escalated in New Delhi, with critics calling it politically motivated and threatening disenfranchisement; the Election Commission and Modi’s administration deny the allegations.",
+              "topic_evidence": "Protests have intensified over a review of voter lists",
+              "reason": "涉及印度选举管理与政府争议，属于政府与政策范畴。",
+              "reason_en": "Involves Indian election administration and government controversy, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+              "title": "英国首相府未排除对中国电动车加征关税，前提是加入欧盟机制",
+              "summary": "英国首相府表示，若英国加入“欧洲制造”方案，仍可能对中国制造的电动车加征关税；北京警告此举具有“歧视性”。",
+              "title_en": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+              "summary_en": "Downing Street says the UK could still impose tariffs on Chinese-made electric vehicles if it joins the Made in Europe scheme, prompting Beijing to warn the move would be “discriminatory.”",
+              "topic_evidence": "left the door open to imposing tariffs on Chinese-made electric vehicles",
+              "reason": "涉及英国对华贸易政策与欧盟产业机制，政策信号明确。",
+              "reason_en": "Concerns UK trade policy toward China and an EU industrial scheme, sending a clear policy signal.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+              "title": "印度加尔各答印度教节日发生踩踏，至少19人死亡",
+              "summary": "印度加尔各答一场印度教节日活动发生踩踏，造成至少19人死亡，其中包括一名7岁女孩，另有多人受伤。",
+              "title_en": "At least 19 dead in stampede at Kolkata Hindu festival",
+              "summary_en": "A stampede during a Hindu festival in Kolkata, India, killed at least 19 people, including a seven-year-old girl, and injured many more.",
+              "topic_evidence": "at least 19 people killed in a stampede during a Hindu festival in Kolkata",
+              "reason": "重大公共安全与人群事故，属于全球社会动态。",
+              "reason_en": "A major public-safety and crowd incident, fitting global society news.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+              "title": "加拿大阿尔伯塔军事基地发生“严重事件”，造成死伤",
+              "summary": "加拿大国防部长称，阿尔伯塔省韦恩赖特军事基地发生事件并引发大火，造成人员死亡和受伤，强风使火势蔓延至附近城镇。",
+              "title_en": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+              "summary_en": "Canada’s defence minister says an incident at CFB Wainwright in Alberta caused a major fire, deaths and injuries, with strong winds spreading the blaze toward a nearby town.",
+              "topic_evidence": "caused a ‘major fire’ that is spreading to the nearby town",
+              "reason": "涉及军事基地事故与公共安全应急，具有明确事实更新。",
+              "reason_en": "Involves a military-base incident and public-safety response, with concrete factual updates.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+              "title": "法国抗议后爆发暴力冲突、抢劫和纵火，逾千人被捕",
+              "summary": "法国多地因生活成本抗议爆发骚乱，出现暴力冲突、抢劫和建筑纵火；当天超过50万人参加抗议，逾1000人被捕。",
+              "title_en": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+              "summary_en": "Cost-of-living protests across France drew more than half a million people, with violence, looting and building fires leading to over 1,000 arrests.",
+              "topic_evidence": "Disorder broke out in cities across the country",
+              "reason": "大规模社会抗议与公共秩序事件，反映生活成本压力。",
+              "reason_en": "Large-scale social protests and public-order disruption reflecting cost-of-living pressures.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716552.shtml",
+              "title": "李强会见乌兹别克斯坦总统米尔济约耶夫",
+              "summary": "中国国务院总理李强10月17日在塔什干会见乌兹别克斯坦总统米尔济约耶夫，中新社报道了此次会见。",
+              "title_en": "Li Qiang Meets Uzbek President Mirziyoyev",
+              "summary_en": "Chinese Premier Li Qiang met Uzbek President Shavkat Mirziyoyev in Tashkent on Oct 17, China News Service reported.",
+              "topic_evidence": "李强10月17日在塔什干会见乌兹别克斯坦总统米尔济约耶夫",
+              "reason": "报道具体记录了中国国务院总理李强与乌兹别克斯坦总统的会见，属于中国高层时政外交活动。",
+              "reason_en": "Reports a specific meeting between Chinese Premier Li Qiang and Uzbekistan’s president, a high-level Chinese diplomatic activity.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716581.shtml",
+              "title": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地？",
+              "summary": "柴达木盆地戈壁小镇已相继投用47台大科学装置，成为世界级天文观测基地，报道讲述中国天文事业在当地的布局。",
+              "title_en": "47 Large Scientific Facilities Put into Use as Gobi Town Becomes World-Class Astronomy Base",
+              "summary_en": "A Gobi town in the Qaidam Basin has put 47 large scientific facilities into operation, becoming a world-class astronomical observation base, according to the report.",
+              "topic_evidence": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地",
+              "reason": "报道具体介绍柴达木盆地戈壁小镇投用47台大科学装置并发展为世界级天文观测基地，属于科技与地方产业基础设施进展。",
+              "reason_en": "Describes a specific local science-infrastructure development: 47 large facilities in a Gobi town now form a world-class astronomy observation base.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716563.shtml",
+              "title": "改革、谋策、存典协同推进 上海演艺全新启航",
+              "summary": "上海发布《上海戏剧振兴三年行动计划（2026—2028年）》，并成立上海演艺集团，同步推出市级国有文艺院团经典保留作品集萃。",
+              "title_en": "Shanghai Launches Drama Revitalization Plan and Performing Arts Group",
+              "summary_en": "Shanghai released a three-year drama revitalization action plan for 2026–2028, established the Shanghai Performing Arts Group, and published a collection of classic works from municipal state-owned troupes.",
+              "topic_evidence": "《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式",
+              "reason": "报道具体记录上海发布戏剧振兴三年行动计划并成立上海演艺集团，属于地方文化产业改革举措。",
+              "reason_en": "Reports a specific local cultural-industry reform: Shanghai issued a three-year drama revitalization plan and set up a performing arts group.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716571.shtml",
+              "title": "广西壮族自治区政协原副主席黄日波接受国家监委监察调查",
+              "summary": "据中央纪委国家监委网站消息，广西壮族自治区政协原副主席黄日波涉嫌严重职务违法，目前正接受国家监委监察调查。",
+              "title_en": "Former Guangxi CPPCC Vice Chairman Huang Ribuo Under State Supervision Investigation",
+              "summary_en": "Huang Ribuo, former vice chairman of the Guangxi Zhuang Autonomous Region CPPCC Committee, is under investigation by the National Supervisory Commission for suspected serious duty violations, according to the anti-graft agency.",
+              "topic_evidence": "黄日波涉嫌严重职务违法，目前正接受国家监委监察调查",
+              "reason": "报道具体披露广西壮族自治区政协原副主席黄日波因涉嫌严重职务违法接受国家监委监察调查，属于反腐与法治新闻。",
+              "reason_en": "Reports a specific anti-graft case: former Guangxi CPPCC vice chairman Huang Ribuo is under investigation for suspected serious duty violations.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+              "title": "CoreWeave困境恐令AI垃圾债市场停摆",
+              "summary": "垃圾债买家日益将寻求融资的科技初创企业拒之门外，CoreWeave的困境令市场质疑AI公司未来如何融资。",
+              "title_en": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+              "summary_en": "Junk-bond buyers are increasingly shutting out tech startups seeking financing, as CoreWeave’s troubles raise broader questions about how AI companies will fund themselves.",
+              "topic_evidence": "Junk bond buyers are increasingly freezing out tech startups looking for financing",
+              "reason": "直接反映AI相关科技企业在垃圾债市场面临的融资收紧及信用市场变化。",
+              "reason_en": "Directly captures tightening junk-bond financing for AI-linked tech firms and a shift in credit markets.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+              "title": "微软、Shopify等五只AI股成为华尔街财报季热门标的",
+              "summary": "随着财报季开始，部分科技公司可能给投资者带来重大正面惊喜，微软、Shopify等AI相关股票被视为华尔街重点关注的财报交易标的。",
+              "title_en": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+              "summary_en": "As earnings season begins, several tech companies could deliver big positive surprises; Microsoft, Shopify and three other AI-linked stocks are seen as favored Wall Street earnings plays.",
+              "topic_evidence": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+              "reason": "涉及财报季中AI相关股票的交易关注点，属于市场与资产配置话题。",
+              "reason_en": "Covers investor focus on AI-linked equities during earnings season, fitting markets and assets.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.investing.com/news/stock-market-news/asian-ai-stocks-fall-as-rising-financing-costs-threaten-spending-boom--bloomberg-4955727",
+              "title": "亚洲AI股下跌，融资成本上升威胁支出热潮",
+              "summary": "彭博报道称，亚洲AI相关股票下跌，因融资成本上升可能威胁此前的AI支出热潮，报道未提供更多细节。",
+              "title_en": "Asian AI stocks fall as rising financing costs threaten spending boom - Bloomberg",
+              "summary_en": "Asian AI-related stocks fell as rising financing costs threaten the spending boom, according to Bloomberg, which provided no further details in the headline summary.",
+              "topic_evidence": "Asian AI stocks fall as rising financing costs threaten spending boom",
+              "reason": "直接描述亚洲AI股票因融资成本上升而下跌的市场动态。",
+              "reason_en": "Directly reports a market move in Asian AI stocks driven by rising financing costs.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity",
+              "title": "澳大利亚房屋拍卖量下降，加息抑制市场活动",
+              "summary": "过去一周澳大利亚拍卖房屋数量下降，15年来最高的利率水平继续压制当地住房市场活动，市场活跃度走弱。",
+              "title_en": "Australian Home Auctions Decline as Rate Hikes Dampen Activity",
+              "summary_en": "The number of homes auctioned in Australia fell over the past week as interest rates at a 15-year high continued to weigh on housing-market activity.",
+              "topic_evidence": "number of homes auctioned in Australia dropped over the past week",
+              "reason": "以拍卖量变化反映高利率对澳大利亚住房市场活动的影响。",
+              "reason_en": "Uses auction volumes to show how high rates are weighing on Australia’s housing market.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+              "title": "白银较纪录高位回落50%，释放经济放缓信号",
+              "summary": "白银价格较今年早些时候的纪录高位下跌超过50%，这一相对冷门的商品走势被视为经济前景的预警信号。",
+              "title_en": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+              "summary_en": "Silver has fallen more than 50% from a record high earlier this year, and the relatively overlooked commodity is seen as a signal of where the economy may be headed.",
+              "topic_evidence": "Silver’s recent 50% drop from a record high",
+              "reason": "涉及大宗商品价格走势及其对经济前景的市场信号意义。",
+              "reason_en": "Concerns a commodity-market move and its signal for the economic outlook.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/uk-inflation-can-seal-the-deal-on-the-boe-s-november-rate-hike",
+              "title": "英国通胀或为英国央行11月加息铺路",
+              "summary": "本周数据显示英国通胀升至九个月高位，可能为即将公布的预算案和英国央行11月加息决定定下基调。",
+              "title_en": "UK Inflation Can Seal the Deal on the BOE’s November Rate Hike",
+              "summary_en": "UK inflation rose to a nine-month high this week, likely setting the stage for key decisions from the upcoming budget to an expected Bank of England rate increase in November.",
+              "topic_evidence": "A pickup in UK inflation to a nine-month high in data this week",
+              "reason": "直接关联英国通胀数据、预算案和央行加息预期。",
+              "reason_en": "Directly links UK inflation data to budget decisions and expected central-bank tightening.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+              "title": "加拿大央行行长：油价上涨将提振增长与通胀",
+              "summary": "加拿大央行行长麦克勒姆表示，更多证据显示油价上涨正支撑加拿大经济增长，预计月底将上调通胀预测。",
+              "title_en": "Macklem Sees Higher Oil Prices Boosting Growth, Inflation",
+              "summary_en": "Bank of Canada Governor Tiff Macklem said higher oil prices are increasingly supporting Canadian growth and that the central bank expects a higher inflation forecast at month-end.",
+              "topic_evidence": "higher oil prices are supporting economic growth in Canada",
+              "reason": "涉及油价对加拿大经济增长和通胀预测的影响，属于宏观政策信息。",
+              "reason_en": "Covers oil prices’ effect on Canadian growth and the central bank’s inflation forecast.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/world-economy-latest-inflationary-pressures-mount-in-us",
+              "title": "全球经济观察：美国通胀压力上升",
+              "summary": "最新消费者和批发价格数据显示，燃料成本上涨正传导至其他商品和服务，美国通胀压力正在加大。",
+              "title_en": "World Economy Latest: Inflationary Pressures Mount in US",
+              "summary_en": "Fresh consumer and wholesale price data show costlier fuel is feeding into higher prices for other goods and services, indicating mounting inflationary pressures in the US.",
+              "topic_evidence": "Inflationary pressures are mounting in the US",
+              "reason": "直接报告美国消费者和批发价格数据所反映的通胀压力。",
+              "reason_en": "Directly reports rising US inflationary pressure shown by consumer and wholesale price data.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability",
+              "title": "拉加德：可持续财政是经济稳定的关键",
+              "summary": "欧洲央行行长拉加德在泰国向各国预算部长发表讲话，强调健全公共财政的重要性，称可持续财政对经济稳定至关重要。",
+              "title_en": "Lagarde Says Sustainable Finances Key for Economic Stability",
+              "summary_en": "ECB President Christine Lagarde told budget ministers from around the world in Thailand that sound public finances are essential for economic stability.",
+              "topic_evidence": "stressed the importance of sound public finances",
+              "reason": "涉及欧洲央行行长对公共财政可持续性与经济稳定的政策表态。",
+              "reason_en": "Covers the ECB president’s policy message on fiscal sustainability and economic stability.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball",
+              "title": "美国利息成本创1万亿美元纪录，债务雪球风险上升",
+              "summary": "2026财年美国联邦债务利息负担创纪录，占联邦收入比重上升，可能使借贷雪球越滚越大并加大经济冲击脆弱性。",
+              "title_en": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+              "summary_en": "US federal debt interest costs reached a record high in fiscal 2026, consuming a growing share of revenue and risking a borrowing snowball that could leave the country more vulnerable to shocks.",
+              "topic_evidence": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+              "reason": "反映美国财政利息负担创纪录及其对债务可持续性的宏观风险。",
+              "reason_en": "Highlights record US interest costs and the resulting macro risk to debt sustainability.",
+              "score": 2.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+              "title": "调查：Z世代租房者更看重投资而非买房来获得成功感",
+              "summary": "调查显示，Z世代租房者是唯一更可能因投资而非买房而感到成功的群体，许多人优先追求财务自由和无债务生活。",
+              "title_en": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+              "summary_en": "Gen Z renters are the only group more likely to feel successful by investing than by buying a home, with many prioritizing financial freedom and debt-free living.",
+              "topic_evidence": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+              "reason": "涉及个人理财观念和不同群体对投资与置业的优先级变化。",
+              "reason_en": "Covers personal-finance priorities and changing views on investing versus homeownership.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+              "title": "我64岁有两个儿子，但只有一人在家族企业工作，该给他70%股权吗？",
+              "summary": "一位64岁企业主询问，是否应把家族企业70%股权留给在家族企业工作的儿子，并提到对其次子婚姻长期稳定性的保留。",
+              "title_en": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+              "summary_en": "A 64-year-old business owner asks whether to leave 70% of the family firm to the son who works there, citing reservations about his younger son’s marriage stability.",
+              "topic_evidence": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+              "reason": "涉及家族企业传承、股权分配和个人财富规划问题。",
+              "reason_en": "Addresses family-business succession, equity allocation and personal wealth planning.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt",
+              "title": "Chrome 与 Edge 移除 XSLT：哪些会坏、哪些不会",
+              "summary": "文章分析 Chrome 与 Edge 移除 XSLT 支持后，哪些网页功能会受影响、哪些不会，并讨论兼容性影响。",
+              "title_en": "Chrome and Edge are removing XSLT: what breaks and what does not",
+              "summary_en": "The article examines what breaks and what does not as Chrome and Edge remove XSLT support, focusing on compatibility consequences.",
+              "topic_evidence": "Chrome and Edge are removing XSLT: what breaks and what does not",
+              "reason": "属于浏览器技术变更的兼容性分析，直接符合技术观点版；材料仅支持标题层面的判断。",
+              "reason_en": "A compatibility analysis of a browser technology change; fits the tech opinion subsection based on the title-level material.",
+              "score": 84
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+              "title": "纽约州议员提出游戏所有权法案，要求以所有权替代许可",
+              "summary": "纽约州议员提出游戏所有权法案，要求以消费者所有权替代许可销售，并让发行商在停止支持后维持游戏可运行；HN 获 152 分、37 条评论。",
+              "title_en": "NY announces game ownership bill requiring ownership rather than licensing",
+              "summary_en": "A New York representative announced a game ownership bill requiring consumer ownership rather than license sales and keeping games functional after support ends; HN drew 152 points and 37 comments.",
+              "topic_evidence": "game ownership bill requiring ownership rather than licensing",
+              "reason": "涉及数字商品许可、消费者权利与发行商义务的政策讨论，适合商业与社会评论版。",
+              "reason_en": "Policy discussion on digital licensing, consumer rights, and publisher obligations; fits business and society commentary.",
+              "score": 80
+            },
+            {
+              "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+              "title": "黄金现为美国最大出口商品",
+              "summary": "一篇分析称黄金已成为美国最大出口商品；该话题在 Hacker News 获 277 分、145 条评论。",
+              "title_en": "Gold is now the top U.S. export",
+              "summary_en": "An article states gold is now the top U.S. export; the Hacker News item drew 277 points and 145 comments.",
+              "topic_evidence": "Gold is now the top U.S. export",
+              "reason": "涉及贸易结构与宏观经济，适合商业与社会评论版；不补充原文未给出的论证。",
+              "reason_en": "Concerns trade structure and macroeconomics; fits business and society commentary without adding unprovided arguments.",
+              "score": 77
+            },
+            {
+              "url": "https://www.derekwessman.com/blog-1/natural",
+              "title": "我成为了日本公民",
+              "summary": "一篇个人文章讲述作者取得日本公民身份的经历；该文在 Hacker News 获 182 分、87 条评论。",
+              "title_en": "I Became a Citizen of Japan",
+              "summary_en": "A personal essay recounts the author’s experience of becoming a Japanese citizen; it drew 182 points and 87 comments on Hacker News.",
+              "topic_evidence": "I Became a Citizen of Japan",
+              "reason": "个人经验类社会评论，适合商业与社会评论版；仅报告标题与讨论指标。",
+              "reason_en": "A personal-experience society essay; fits business and society commentary, reporting only the title and discussion metrics.",
+              "score": 72
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "title": "DeepSeek-v4.1-Flash-1017 引发 Hacker News 讨论",
+              "summary": "Hacker News 上关于 DeepSeek-v4.1-Flash-1017 发布的讨论获 760 分、610 条评论。",
+              "title_en": "DeepSeek-v4.1-Flash-1017",
+              "summary_en": "Hacker News discussion around the DeepSeek-v4.1-Flash-1017 release drew 760 points and 610 comments.",
+              "topic_evidence": "DeepSeek-v4.1-Flash-1017",
+              "reason": "社区围绕新模型发布展开高热度讨论；仅报告标题与讨论指标。",
+              "reason_en": "High-engagement community discussion around a new model release; only title and discussion metrics are reported.",
+              "score": 86
+            },
+            {
+              "url": "https://github.com/openai/codex/issues/25921",
+              "title": "Codex Desktop 持续生成 Crashpad 待处理转储文件",
+              "summary": "GitHub 议题称 Codex Desktop 会持续生成 Crashpad 待处理转储；Hacker News 讨论获 106 分、34 条评论。",
+              "title_en": "Codex Desktop continuously generates Crashpad pending dumps",
+              "summary_en": "A GitHub issue reports Codex Desktop continuously generates Crashpad pending dumps; the Hacker News item drew 106 points and 34 comments.",
+              "topic_evidence": "Codex Desktop continuously generates Crashpad pending dumps",
+              "reason": "开发者社区对具体缺陷的讨论，适合社区讨论版；不推断未提供的技术原因。",
+              "reason_en": "A developer-community discussion of a specific defect; fits community discussion without inferring unprovided technical causes.",
+              "score": 70
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+      "original_title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "original_summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "topic_evidence": "Glimpse outperforms even GPT-6 Astra on scientific chart reasoning",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
+      "original_title": "Perplexity's Decider V1.2 models now available on AI Gateway",
+      "original_summary": "Perplexity Decider V1.2 27B and Decider Flash V1.2 4B are now available on AI Gateway. Both are multimodal decision models for classifying content, routing requests, and scoring text, structured records, and images.The models answer typed questions with probabilities. Boolean questions return the likelihood of yes, Choice questions select from categories you define, and Score questions assess content against an ordered rubric. Your application can use those results to route a support ticket, flag a damaged product, or send an uncertain decision for human review. Multiple questions can share the same input in one request.Decider V1.2 27B (perplexity/pplx-decider-v1.2) is the larger model, for nuanced judgments and detailed rubrics.Decider Flash V1.2 4B (perplexity/pplx-decider-flash-v1.2) is the smaller model, for high-volume labeling, filtering, and routing with clear criteria.The examples below use perplexity/pplx-decider-v1.2 and check the same delivery report through the AI SDK, the Decisions API, and the TypeSafe-compatible API:For image input, embed base64 image_url objects in JSON state through the AI SDK or TypeSafe-compatible API. See Perplexity's image format and the decision models documentation for request formats and question types.Explore Decider V1.2 27B in the model playground, or try Decider Flash V1.2 4B.Use AI Gateway to call models with one API key and monitor usage and cost in one place. Decision requests are recorded in request logs and included in spend budgets. Inference uses provider pricing without a markup or platform fee. This also applies when you supply your own provider credentials through BYOK.Browse the decision model catalog to see the available options. Read more",
+      "topic_evidence": "Both are multimodal decision models for classifying content, routing requests, and scoring text",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "original_title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "original_summary": "",
+      "topic_evidence": "a 501B open model you can own, customize, and scale",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "original_title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "original_summary": "",
+      "topic_evidence": "Chat, Decisions, and Speech from One Endpoint",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "original_title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "original_summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "topic_evidence": "OpenAI would replace Anthropic as its default model provider",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "original_title": "How Itaú is building generative AI for its entire customer base",
+      "original_summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "topic_evidence": "ia.i, a conversational interface, and the IARA governance platform",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "original_title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "original_summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "topic_evidence": "its ChatGPT plugin helped drive up to 10× growth in agent creation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+      "original_title": "AI Gateway logs now show session affinity",
+      "original_summary": "AI Gateway logs now have a Sessions view that groups requests into sessions and shows how session affinity routed each one. Each row shows the coding agent or app that ran the session, such as Claude Code, Codex, or Cursor, along with its cost, models, providers, and how much of its input was cached across every turn.Open a session to see its cache hit rate, duration, and path. The path lists each turn with its model and timing, and names the provider serving the session along with any earlier ones. Session affinity sends each turn to the provider that served the one before it, so the provider already has most of the prompt in cache. A session that stays on one provider reads more of each prompt from cache.Filter sessions by turns, client, model, provider, authentication, or cost. Single-turn sessions are hidden until you clear the minimum turns filter.Session affinity runs by default on text and chat requests. To group requests yourself, send the same sessionId in providerOptions.gateway, or the same x-session-id header, on every request in a conversation. Requests without one are grouped by a fingerprint of the conversation's opening and appear as fingerprinted sessions.Read the session affinity documentation for more information on how AI Gateway identifies sessions. Read more",
+      "topic_evidence": "AI Gateway logs now have a Sessions view that groups requests into sessions",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "original_title": "India becomes the latest country to report rogue AI agent activity",
+      "original_summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "topic_evidence": "rogue AI agent activity",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+      "original_title": "Meta removes language that raised scraping and AI training concerns",
+      "original_summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "topic_evidence": "Meta removes language that raised scraping and AI training concerns",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "original_title": "Bringing GPT-Rosalind to academic research labs",
+      "original_summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "topic_evidence": "offering eligible academic labs sponsored access to GPT-Rosalind",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "research"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "original_title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "original_summary": "",
+      "topic_evidence": "2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+      "original_title": "Vercel and Shopify make agents first-class shoppers",
+      "original_summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop.Today, Vercel Shop, our open source Next.js storefront template for Shopify, is generally available. Teams can launch storefronts optimized for how people, search engines, and agents interact with them.Vercel Shop is built on Shopify’s Hydrogen SDK. The SDK gives teams access to the store’s product catalog, cart and order management, payments, and checkout to build custom storefronts. Earlier this year, Vercel and Shopify announced plans to rebuild Hydrogen to work across JavaScript frameworks. Today, the rebuilt SDK is generally available.Give agents the information and tools they needVercel Shop makes product pages available as machine-readable content, including price, availability, and options. The same product URL can serve a visual page to people or product information that agents can read without interpreting the page’s layout. The template also includes structured data embedded in pages and sitemaps to help search and answer engines discover and understand the products.Shopify co-developed the Universal Commerce Protocol (UCP), which gives agents a standard way to search a store’s catalog, read product details, check availability, build a cart, and get a checkout link. Vercel Shop makes these capabilities discoverable at the merchant’s own domain, so agents can use MCP to search products and build carts without navigating the site.Customize the experience for all customersVercel Shop brings the store’s product catalog, cart, and checkout together with a Next.js storefront, product information and shopping tools for agents, and a shopping assistant powered by eve. The storefront and assistant live in the same codebase, so teams can customize the store’s design and how the assistant helps shoppers.Skills included in the template guide coding agents through setup, customization, and template updates. Teams can create an experience where shoppers browse product pages or ask the assistant to find products and add them to their cart. Both share the same cart, so shoppers keep what they’ve added as they move between experiences.Storefronts built with Shopify and VercelToday, we launched our merch store at vercel.store with limited-edition drops. It’s built on Vercel Shop. The store’s shopping agent helps shoppers find products, add them to their cart, and continue to checkout.Shopify, Next.js, and Vercel already power storefronts for brands including AG1, Bombas, and PAIGE. When PAIGE re-architected its ecommerce platform, it saw a 22% increase in revenue and a 76% increase in conversion over Black Friday and Cyber Monday, with no downtime.Get started with Vercel ShopCreate a storefront:Get started with Vercel Shop. Check the documentation to connect your Shopify store and configure the storefront. Read more",
+      "topic_evidence": "Vercel Shop, our open source Next.js storefront template",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "javascript",
+        "framework"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "original_title": "Inline rendering with document​.currentScript",
+      "original_summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline </code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.replaceWith( new Date().getFullYear()) If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is $(new Date().getFullYear()) Tags: javascript",
+      "topic_evidence": "Lean Rada describes a neat trick that takes advantage of the document.currentScript property",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "javascript"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+      "original_title": "web-edit 0.1a2",
+      "original_summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+      "topic_evidence": "I added a \"copy to clipboard\" option for both text and image data.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+      "original_title": "Chirp Pong",
+      "original_summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code",
+      "topic_evidence": "the networking code uses chirps sent via the microphone",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
+      "original_title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "original_summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog .",
+      "topic_evidence": "review outside collaborator access and archive stale repositories",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.com/mikroverk/esp32sim",
+      "original_title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "original_summary": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI? Comments URL: https://news.ycombinator.com/item?id=50131189 Points: 141 # Comments: 14",
+      "topic_evidence": "an open-source ESP32 emulator that runs in the browser",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+      "original_title": "Vercel Ship 2026 recap",
+      "original_summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just that at Vercel Ship 2026.Agentic infrastructureGuillermo Rauch (CEO, Vercel) opened Ship SF with a vision for the next era of software and agentic infrastructure: interfaces generated for any task in front of you, agents that reproduce and fix bugs autonomously, and software that takes production context and continuously improves itself.Agentic infrastructure has three parts:Vercel is where you build and deploy your own apps and agents. We give you every tool you need to build and run apps and agents in production, securely, at scale.Vercel is where coding agents deploy that software. When you ask your harness where to deploy, you get Vercel, because Vercel is built for the way agents work. We have over 200 CLI commands that your agent can use to operate our entire platform.Vercel itself is automated by agents. Vercel runs your apps in production, handling traffic, traces, observability, and anomalies. That data gives our agents the context they need to investigate autonomously, and then surface pull requests, not just alerts.Agentic Infrastructure is for developersIn his opening keynote, Guillermo pointed to claims that AI would replace developers, then used Vercel's own data to prove them wrong. In the last 12 months: The number of developers on Vercel has grown 3xThe number of new projects developers ship has doubledThe number of their agent-triggered deployments has increased 28x\"We built Vercel for developers,\" he said, \"because they are the difference between a world full of slop and a world full of software worth using.\" Backends on VercelIn the next keynote, Malte Ubl (CTO, Vercel) showed how frontends, APIs, backend services, containers, MCP servers, and background workers can all run on Vercel, with support for custom runtimes and system dependencies.He then announced that Python is now generally available on Vercel. Run FastAPI, Flask, or Django with standard CPython, PyPI dependencies, uv, and pyproject.toml. With Vercel Services, your frontend and backend deploy together, with previews of the full app.Malte also introduced Vercel Daemons, now in public beta, for continuously running background workers. Deploy your code or container image, set the number of instances, and Vercel keeps them running and replaces them if they fail. Bring Celery, Dramatiq, Temporal workers, or your existing worker processes.Vercel is for shipping agentsTomo Occhino (CPO, Vercel) walked through the Agent Stack and its latest updates. The Agent Stack gives you everything you need to build, run, and scale agents in production. Vercel Drives, now generally available for Sandbox, gives agents persistent workspaces. Code, data, and saved memory survive across runs, so you can change runtimes or compute without rebuilding the workspace.eve, our open-source framework for building agents, now has persistent memory across sessions, extensions for installing tools and skills, and agent creation and deployment from the Vercel dashboard. Vercel Connect is generally available, with more than 1,000 connectors. And MCP Events, now in public beta, lets agents respond to events from MCP servers. Connect handles subscriptions, renewals, and secure delivery.AI Gateway now lets you set budgets for API keys, projects, individuals, and teams. You can also choose US-only inference to keep model processing in the United States, or enable Zero Data Retention so providers don’t retain your prompts or responses. He also introduced Vercel Token Pass, now in early access for Pro teams. Get $80 in GLM 5.3 and Kimi K3 token credit for $30/month, with more models coming soon.Vercel for enterpriseJeanne Grosser (COO, Vercel) focused on what happens when everyone in a company can build. Engineers, marketers, analysts, and sellers need a common place to deploy, with controls over who can ship, who can access an app, which systems agents can use, and how much they can spend. Company building is now agent building.Vercel for Enterprise brings those controls together, with two additions announced:Bring Your Own Cloud on AWS is now generally available. Your application functions run in your own AWS account, within your security and network boundaries.Enterprise-Managed Authorization for Vercel Connect launched in public beta. With supported services and your identity provider configured, agents can act on employees’ behalf without asking each person to authorize every connection separately.Ship week in San FranciscoThe rest of Ship SF brought more than 2,700 developers, founders, and technical leaders to the Palace of Fine Arts for talks, workshops, startup studio sessions, and agent labs.Ship day sessionsAssaf Elovic from Ora showed how his team tests whether websites work for agents by sending real agents to sign up, integrate, and pay, then tracing every step. Ora built that fleet on eve and used Is-Agentic to score a live site.Katelyn Lesse from Anthropic covered the work that starts after an agent is running: keeping it fast and improving its performance across thousands of production sessions with Claude Managed Agents on Vercel.Prashant Ratanchandani from Meta Superintelligence Labs joined Tomo to discuss building products including Muse on Vercel.Matt Lewis from Vercel and Mala Neti from Slack explained how we built v, our internal agent, around Vercel’s own data and working practices. Connect and Passport secure its access, and Slack gives employees a place to use it where their work already happens.Max Peters from Adapta broke down the router behind Brazil’s largest generative AI platform. Built on AI Gateway, it serves 168 models through one integration, selects a model in under 200 milliseconds, and handles more than three million requests a day with automatic failover and per-user budgets.Sarah Sachs from Notion and Malte Ubl discussed how AI is changing the software teams build and the context agents need to do useful work.Olawale Oladehin from AWS walked through production patterns for agents on AWS and Vercel, from self-correcting agents to multi-agent orchestration, and how BYOC lets teams run application functions within their own AWS environment.Philip Miseldine and Sophia Levens from SAP showed how SAP is using v0, eve, and json-render to build generative interfaces, with a focus on consistent design and government requirements.Aaron Brown and Arty Vohmincevs from Mercor explained how hundreds of employees build internal tools without losing control of access or spending. Apps inherit a managed identity layer, while AI Gateway gives the team visibility into model usage and budgets.Yury Izrailevsky from ClickHouse traced the company’s path from an open-source analytics database to a platform spanning observability, AI engineering, and managed Postgres. His focus was how open source earns developer trust and helps infrastructure expand into new workloads.Panel: Fast AIDiogo Almeida, co-founder and CEO of TypeSafe AI, the company behind Jev, and Andrew Feldman, founder and CEO of Cerebras, joined Vercel for a discussion on model reliability, latency, and cost. The panel brought together the model and hardware sides of fast inference, from specialized models to wafer-scale chips.Closing fireside with Tobi LütkeGuillermo sat down with Tobi Lütke, CEO of Shopify, for \"The Third Customer,\" a conversation about building for a world where agents research, compare, and buy products on people’s behalf.Guillermo Rauch: What excites you about agentic commerce?Tobi Lütke: It’s early, but the opportunity goes beyond handling purchases people already make. Think about project-based commerce: planning Halloween decorations for your house, or a 3D-printing project with your kids, then ordering everything to arrive before the weekend. Agents can help people follow through on things they otherwise wouldn’t have had time to do.Guillermo Rauch: Where does that leave traditional storefronts?Tobi Lütke: There’s still room for exceptional shopping experiences. A distinctive, thoughtful storefront can grow, just as a well-executed boutique can. The businesses that will struggle are the ones offering an undifferentiated experience. Quality and originality still matter.Guillermo Rauch: How is AI changing engineering at Shopify?Tobi Lütke: We now think of ourselves as verification engineers, building harnesses and acceptance tests that make changes verifiable. We’re rewriting our storefront renderer from Ruby to Rust, where we can compare the output byte for byte before switching over. We also celebrate simplification and code deletion. At a company hackathon, our internal Slack agent, River, topped the code-deletion leaderboard by a wide margin.Guillermo Rauch: What should developers in this room go build?Tobi Lütke: Explore the catalog APIs. They give you access to products from Shopify merchants, so you can build new commerce experiences without first recruiting both sides of a marketplace. Product discovery, recommendations, and curation are real business opportunities. People will pay for tools that help them find what they need.Ship week San FranciscoFast Forward hackathonThe day before Ship, Vercel and Meta hosted Fast Forward, with support from Shopify and Neon Postgres. Builders worked across three tracks: agents that keep working after you step away, multimodal apps, and immersive VR experiences.Founder dinners, executive conversations, and Partner DayFounders, partners, and enterprise leaders gathered throughout the week for dinners, Partner Day, and conversations on building with AI. The executive program focused on what happens when anyone with an idea can build, and how do you govern what ships.Ship 2026 in London Ship day keynotesTomo introduced the Agent Stack, bringing model access, durable execution, sandboxed compute, and messaging together for production agents.Hedi launched Vercel Connect in public preview, giving agents scoped access to external tools and data without storing long-lived provider credentials in environment variables.Shar demoed eve, our open-source agent framework. Each agent lives in a directory, with instructions in Markdown and tools in TypeScript. Durable execution, approvals, subagents, and evals are already wired in.Jeanne introduced Vercel for Enterprise Apps and Agents, including Vercel Passport in public beta for protecting internal apps with your identity provider, and Bring Your Own Cloud on AWS in private beta.Ship week LondonOur first Ship outside the U.S. ran five days of events leading into the keynote, and an ice cream truck spent the week working its way across the city.Built in London hackathonTwo hundred builders shipped agents on Codex and Vercel in a hackathon with OpenAI. Three projects stood out. Stella hunts down unclaimed grants for London SMBs, Oscar is a co-pilot that sharpens your prompts before you send them to a model, and Phone Jail blocks distractions and roasts you when you reach for your phone anyway.Media, Founder, VC, and CTO dinnersReporters traded story ideas over a media dinner. Twelve founders talked through the future of AI in EMEA at a VC dinner. And a dozen CTOs from teams including Marks & Spencer and Currys went off the record on what it takes to build and scale agents in the enterprise. Day Zero builder nightDay Zero, the day before the keynote, turned into a 400-person builder night. Enterprise teams Mentimeter, Okta, and MongoDB joined Vercel in a packed room alongside partners DeepMind, ElevenLabs, and Cursor.AI Social ClubA 160-deep waitlist formed for Malte's talk A New Stack for a New Era of Software, followed by Guillermo and Deliveroo's Will Shu's chat on building the agentic enterprise.Ship day sessionsAndré Balleyguier from Anthropic showed Claude Managed Agents on Vercel, where Anthropic hosts the agent loop while every command the agent runs executes inside a Vercel Sandbox you own, keeping its filesystem, processes, and network egress in your environment.Tomas Jansson from Currys/Elkjøp showed how his team evolved a Nordic retailer's ecommerce stack from storefronts toward shopping agents in three phases, anchored by a Next.js migration that cut time to first byte by 40%. The end state is one where customer intent replaces navigation.Matan Kushner from Vercel broke down how Vertex, Vercel's support agent, now automates 91% of support tickets and saves 5,000 engineer-hours a month without degrading as its context grows. Jas Sagoo and Sam Bellen from Auth0 made the case that getting an agent into production depends more on identity than on model quality. They demoed four standards-based identity patterns on the Vercel AI SDK, Token Vault, CIBA approvals, agents as first-class principals, and on-behalf-of delegation, so every action is scoped and traces back to a human decision instead of a shared API key.Abhi Sivasailam from Vercel went deep into d0, Vercel's internal data agent built on eve, which runs analyses in a sandbox and now gets 45% of its questions from other agents, rather than people.Romain Huet from OpenAI showed developers how to ship faster by delegating whole tasks to Codex Cloud Agents on Vercel, and made the case that as agents become users of your product, you design for agent experience with scoped API keys, markdown docs, and plugins.Michał Pierzchała from Callstack demoed a QA agent that runs mobile apps on real devices, explores user flows on its own, and posts screenshots, recordings, and logs to pull requests on every PR.Alex Holt from ElevenLabs paired the ElevenLabs Speech Engine with the AI SDK to build a voice agent that can reply in under a second, take interruptions mid-sentence, and switch language mid-conversation.Malavika Balachandran Tadeusz from Vercel showed the mechanics of how software can ship itself, extending the agent loop past development into testing, observability, and experimentation with primitives like Vercel Flags and Skills.Panel: Agents in productionJeanne Grosser, COO of Vercel, moderated a panel on taking agentic workloads from prototype to production with some of the EU's top CTOs and AI leaders from frontier labs. A few highlights: Arthur Viegers (Cursor): Autonomy should track risk, and the better an agent can assess the risk of a change, the more you can let it run on its own. Shopify and Amplitude already auto-review and merge 60-70% of low-risk PRs with no developer time, while a two-line change to authentication still goes to a human.André Balleyguier (Anthropic): To decide what an agent can do on its own, judge each action by how reversible it is and how large its blast radius is, then contain it accordingly, for example inside a self-hosted sandbox. As you grant more autonomy, observability and evals become the things that keep it safe.Ryan den Rooijen (Currys): The predicted death of stores never arrived, and Currys leads its markets by betting on humans. The open question for agentic commerce is which shopping journeys customers want an agent to handle and which they still want a person for.Nicolas Le Pallec (AKQA): AI-native customer experience replaces navigation with intent. Reaching it takes three layers: a way to capture true customer intent, a brand brain that stores brand and product data for AI systems to retrieve, and generative UI that composes pages on the fly instead of serving static ones.Fireside chat with Harry StebbingsThe day ended with a fireside chat between Guillermo and Harry Stebbings from 20VC. Below are excerpts from the lightning round at the end of the discussion. Guillermo Rauch: What are the attributes of a founder you want to back?Harry Stebbings: The profile has changed completely. It used to be a sales-led CEO who could fundraise and grow customers, where personality and sales carried the company. Now I want an engineering- and product-led founder.Guillermo Rauch: Can you teach someone to become a voice for their industry?Harry Stebbings: You can, but it's hard. You have to do it for six months straight. It's a muscle you build, and you have to commit to it every day and every hour.Guillermo Rauch: When anyone can produce content and software, how do you stand out?Harry Stebbings: You come up with a new format, a new intro, a new way to tell the story and shape the work. The content itself has shifted too. We used to do shows about leadership and hiring, and nobody cares about that anymore. What lands now is a founder and AI. Those are the two things.Ship 2026 in Berlin The Berlin event opened at the Old Mint, “Alte Münze”, where coins were once hammered by hand, before machine automation took over. It is also where the JavaScript logo was born, and where Guillermo Rauch (CEO) met Malte Ubl (CTO) for the first time at JSConf EU.Software is moving the same way, from hand to machine, and Vercel is paving the way for building in the agentic era. Over 500 people gathered from across Germany to do just that at Ship 2026 in Berlin.Ship day sessionsSuyog Rao from Vercel announced AI SDK 7. The AI SDK is now downloaded over 16 million times a week. Version 7 turns it into a toolkit for building and running agents that reason, call tools, run across many turns, and work across files and sandboxes, all behind one provider-agnostic interface with no lock-in.Philip Miseldine from SAP showed how the company rebuilt its design system to be composable, so people and agents assemble interfaces from the same parts, with v0 running across its build, deliver, and decide stages.Building with AI SDK 7 brought three speakers on stage. Lars Grammel, the primary engineer behind the update, went deep on the release, with the new harness layer and generation beyond text as the headline additions. Carsten Høyer from AKQA demoed the Starbucks ChatGPT app as a \"generative store\" that composes branded results from Starbucks' own products and visual identity, flipping the funnel so customers pull the brand into their conversation instead of visiting its site. Stephen Batifol from Black Forest Labs showed where the Flux image models fit in an agentic stack: sub-second generation and editing today, heading toward real-time generation and world models.Arthur Viegers from Cursor showed how coding agents move from autocomplete to working across an entire codebase on their own.Panel: CTOs on AI and growthChris Williams (Head of Forward Deployed Engineering, Vercel) moderated a CTO panel on building and scaling as the cost of creation trends toward zero. A few highlights:Sven Rosemann (Flaconi): AI won't fix a broken business model, so the work is still operational excellence. He compares ecommerce to a decathlon, you win by being top-tier across every discipline at once. What's changing is discovery, which is moving into chat, so Flaconi is investing in the data foundation that makes its catalog retrievable by agents, betting that buying and checkout eventually happen there too.Tjaž Silovsek (Astra AI): venture funding is no longer a prerequisite. For many ideas, you ship, find distribution, and iterate instead. Astra reached 10 million users and $25M ARR fully bootstrapped, with a small team kept fast by a stable foundation and agents given a lot of autonomy while kept as safe as possible.DACH Partner AwardVercel presented its first-ever DACH Partner Award to Valtech, for the exceptional impact and delivery, strategic thinking and team enablement it brought to clients. The presentation also thanked the event's sponsors: Auth0, Storyblok, Cursor, SAP, Accenture Song, Blazity, and JVM.Ship 2026 in New YorkShip week New YorkShip NYC was the most in-demand of any stop yet with over 3,000 people registered. Founders, partners, leaders, and builders gathered for five days of hackathons, executive receptions, workshops, and more, with Ship day at the center.Built in NYCThe week opened with Built in NYC, a hackathon co-hosted by Vercel and Anthropic alongside Sentry, Auth0, Resend, and Supabase. More than one hundred people joined us for an afternoon of building and demoing agents on Vercel. VC, CTO, and VIP dinnersJeanne DeWitt Grosser and Nick Bogaty gathered the leaders shaping AI-native development at a VIP reception. Founders traded notes on the future of agents over a VC dinner. At Per Se, Guillermo, Jeanne, Tom, and Malte took CTOs and CIOs for a closed-door conversation on where traditional architectures start to break in the agent era.AI Social ClubAI executives and senior leaders assembled at Moss for a fireside chat led by Tom Occhino with William Anderson (CTO, Bloomberg Media), Jeremy Bunting (VP Engineering, Serhant), and Ali Patterson (Staff Design Program Manager, DoorDash). They discussed what's working, what's not, and where agentic infrastructure is driving meaningful outcomes for enterprises. Ship day sessionsRyan Coyne from SERHANT. walked through S.MPLE, a real estate agent built on Vercel that drove a 144% increase in commission income in its first full year.Brandon Bloom from Brex gave its expense-audit agent a bash-only shell so it manages its own context instead of drowning in tool responses, cutting tool calls and token usage by 75%.Ari Schapiro and Chris Sev from Auth0 demoed how to give an agent scoped, revocable power instead of a master key, with standards-based identity patterns like Token Vault and out-of-band human approval, live on the Vercel AI SDK.Jenny Wang from Alta and Maxwell Osborne from PUBLIC SCHOOL NYC showed how Alta's AI styling app runs on Vercel, generating an avatar a second and 250M+ outfits so far. Together they built a custom version for PUBLIC SCHOOL's New York Fashion Week relaunch.Charlton Roberts from FLORA showed three creative-production workflows running on Vercel Sandboxes. They collapsed 18 bespoke tools into two by letting the agent run and write its own code against the AI SDK.Prasad Wangikar from Stripe broke down how to give agents spending power and capture agent-driven revenue using emerging protocols like MCP, UCP, and x402 for the machine-to-machine economy.Shaown Nandi from AWS discussed how Vercel and AWS work together, with native AWS databases and OpenSearch available in the Marketplace and models through the AI Gateway, proven out by The Weather Company's 350M+ users.Panel: Internal apps and agents in productionJeanne moderated a panel on building and deploying internal agents with technical leaders on who should build, what governance looks like, and how teams can move from experiment to production. A few highlights:Andy Martin (MJH Life Sciences): The way to win the shadow-IT battle is to constrain the stack and stay permissive inside it. His AI Accelerator trains non-engineers, marketers, and early-career staff to build internal apps on a deliberately tight stack of Claude Code, Vercel, and GitHub, with ephemeral preview deployments as the guardrail. As he put it, \"If it becomes the Department of No, you will have people working around you.\"Greg Chan (SERHANT): The cleanest way to structure agents is to mirror a human software team. Product-manager agents write requirements in Linear, engineering agents generate specs, and build-and-QA agents take it from there, so engineers become leads running multiple streams. To keep output safe, SERHANT runs evals for hallucination and compliance, including a custom model for Fair Housing Act rules.Victor Oliveros (ZoomInfo): Embedding v0 inside your own product lets your customers build their own workflows. At ZoomInfo, 40,000+ of them do, turning the voice of the customer into a pull request. Agents analyze recorded calls and open PRs, so the product team decides what ships instead of synthesizing feedback. They pair Vercel's deployment guardrails with ZoomInfo's context-graph permissions, so each agent only touches data its user can see.Fireside chat: Building agentic storefrontsTom sat down with Vanessa Lee (VP of Product, Shopify) to discuss where commerce and software go next. Below are highlights: Tom Occhino: Vercel and Shopify have shipped something new together. What is it?Vanessa Lee: We boiled Hydrogen down to the parts of commerce that are genuinely hard (analytics, optimistic cart UI, variants) and made them work with any framework. So if you're on Next.js on Vercel, Shopify's commerce primitives now drop in, with an integration in the Vercel Marketplace. Read more here.Tom Occhino: You also opened the Catalog API. What does it unlock?Vanessa Lee: There's never been a good open product-search API. We have billions of products and millions of merchants, so we built one, the only widespread shopping API, made for commerce. It lets anyone embed shopping anywhere. Someone in my Toronto running group used v0 to build a site with a leaderboard and the weather, and the Catalog API surfaced products from nearby stores. Commerce stops being a destination and becomes part of what you build.Tom Occhino: Shopify and Vercel both obsess over reducing friction. Why does that matter so much?Vanessa Lee: Early on, Tobi's insight was that tools shape the market. The TAM was never limited by demand, it was limited by how hard the tools were to use. Make building easier and more people build. There's resourcefulness in the general population that's just untapped, and lowering the friction is what releases it.Closing keynote with Ivan ZhaoWe closed out Ship in New York with a conversation between Guillermo Rauch and Ivan Zhao (CEO, Notion). A few highlights:Guillermo Rauch: You've started telling designers to design for the API first and the UI last. Why?Ivan Zhao: Because your next customer isn't only a human, it's a human and an agent, and agents are blind. They don't see your interface, they read your semantics and your API. The most enduring software has always been a data structure anyway, the spreadsheet, or our block, a data structure that happens to have a UI. So design the structure and the meaning first, the interface last. A great tool for developers turns out to be a great tool for agents.Guillermo Rauch: Vercel and Notion are both aggressively model-agnostic, Switzerland in the model wars. Why?Ivan Zhao: The models leapfrog each other every few weeks, so picking a side is a losing game. We route automatically by the intelligence a task needs, frontier models for coding, smaller and faster ones for support and summarization. What excites me most is that as more use cases stop needing frontier intelligence, you can shape smaller models to your product and win back speed and cost. And speed creates discontinuities, a model five times faster can change the kind of interface you'd even design.Guillermo Rauch: When a billion knowledge workers are agents, how does that reshape us?Ivan Zhao: We can't fully see it, and that's the point. First-order effects are easy, the iPhone was an iPod plus a phone plus a browser. The second-order effects are the ones that surprise you, like what social media did to teenagers. We shape our tools, and then our tools shape us. With software that can think, the second-order effects are the ones we won't predict.Guillermo Rauch: Taste or velocity, keep one.Ivan Zhao: Taste. It's the distillation of wisdom from a lot of shots on goal.Ship 2026 in Sydney The Sydney event opened at Machine Hall, a 1930s electrical substation that ran the city's trams and wharves for half a century. Over 200 people gathered there to build for the agentic era at Ship Sydney. Ship week SydneyThe week kicked off with the AI SYD meetup, where developers, AI engineers, and the Sydney technical community joined for an evening of lightning talks and networking. At the AI Social Club, senior leaders gathered at Shell House for a talk from Malte Ubl and a fireside with Suyog Rao and David Hyman (Founder, monō ai) on how agentic infrastructure is driving meaningful outcomes for enterprises.Ship day sessionsBelen Garcia Fava and Vivek Katial from Heidi Health showed how their team ships fast in a regulated space with agents and Vercel, and made the case that trust is engineered, not granted. Robin Yoong from Cursor created an eve agent by voice alone. Three models coded in parallel, and a spoken approval shipped it to Vercel.Nonny Bell (Startup Manager APAC, Vercel) moderated a panel with Matthew Blode (AI Engineer, Linktree), Aarush Issar (GM AI Engineering, Auto & General Australia), and Leonardo Borges (Chief Engineer Gen AI, CommBank) on how their teams are adopting AI agents in production.JJ Lecocq (Sales Director AUNZ, Vercel) led a discussion on how organizations are reshaping people, culture, and structure for AI.Ship what's nextThanks for joining us for Ship 2026 in London, Berlin, New York, Sydney, and San Francisco. We'll see you in May for Ship 2027. Read more",
+      "topic_evidence": "thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "database",
+        "infrastructure",
+        "cloud",
+        "server",
+        "performance",
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale",
+      "original_title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+      "original_summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial [...] Read More... The post 2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale appeared first on Engineering at Meta .",
+      "topic_evidence": "the World Cup becomes the largest planned stress test of our infrastructure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "original_title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+      "original_summary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
+      "topic_evidence": "exceeded expectations after engineers made incredibly tiny adjustments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+      "original_title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+      "original_summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting clouds. The breakthrough gives scientists a powerful new tool for uncovering weather patterns on distant worlds and understanding the conditions that shape their atmospheres.",
+      "topic_evidence": "three recurring atmospheric states driven by temperature changes and shifting clouds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
+      "original_title": "SpaceX just delivered some very strange cargo to the International Space Station",
+      "original_summary": "SpaceX just delivered some surprisingly strange cargo to the International Space Station, including tiny brain models, 3D heart tissue, and technology for making artificial retinas in space. Scientists hope these experiments could unlock new ways to treat devastating brain diseases, restore eyesight, and test future medicines. The shipment also includes materials for creating unusual glass in near weightlessness and the station’s final upgraded solar arrays.",
+      "topic_evidence": "tiny brain models, 3D heart tissue, and technology for making artificial retinas in space",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "space"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+      "original_title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+      "original_summary": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes.",
+      "topic_evidence": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "robotics",
+        "robot"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+      "original_title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+      "original_summary": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep harms metabolism and brain health, potentially opening the door to new treatments for sleep and neurological disorders.",
+      "topic_evidence": "surprising two-way relationship between sleep and growth hormone",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "health"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+      "original_title": "Brain cells meant to protect us may be fueling cognitive decline",
+      "original_summary": "Scientists have uncovered a surprising cause of age-related cognitive decline involving brain cells previously thought to be entirely beneficial. As these cells become dysfunctional, they can produce abnormal amounts of myelin, disrupting nerve fibers and potentially contributing to worsening memory and thinking skills.",
+      "topic_evidence": "produce abnormal amounts of myelin",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+      "original_title": "A quantum highway just one atom high could transform superconductors",
+      "original_summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another. This remarkable control over quantum motion could lead to a new generation of ultra-efficient superconducting electronics.",
+      "topic_evidence": "atomic steps just one atom high can guide quantum vortices",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073210.htm",
+      "original_title": "Antarctica’s sea ice has undergone a stunning reversal",
+      "original_summary": "Antarctic sea ice reached its third-lowest winter maximum in 2026, extending a remarkable decline that began after years of record-breaking growth. Scientists are investigating whether the dramatic reversal signals a long-term shift in Antarctica's frozen landscape.",
+      "topic_evidence": "third-lowest winter maximum in 2026",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/draper",
+      "original_title": "Draper",
+      "original_summary": "Validate, plan, and launch a business, one step at a time. Discussion | Link",
+      "topic_evidence": "Validate, plan, and launch a business, one step at a time.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "launch"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists",
+      "original_title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+      "original_summary": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins.",
+      "topic_evidence": "helps braiders with the initial process of separating hair from packs before braiding begins",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "product"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/salience",
+      "original_title": "Salience",
+      "original_summary": "See every request to your website and how it responds. Discussion | Link",
+      "topic_evidence": "See every request to your website and how it responds.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/emochi-2",
+      "original_title": "Emochi",
+      "original_summary": "Voice journal to understand yourself through art and science Discussion | Link",
+      "topic_evidence": "Voice journal to understand yourself through art and science",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "original_summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "topic_evidence": "temporarily ends many restrictions on Moscow",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/18/fears-grow-in-drc-as-former-president-joseph-kabila-joins-rebellion?traffic_source=rss",
+      "original_title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
+      "original_summary": "Kabila’s move raises new questions about the war in eastern Congo and prospects for peace.",
+      "topic_evidence": "former President Joseph Kabila joins rebellion",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
+      "original_title": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
+      "original_summary": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
+      "topic_evidence": "Fires reported on three tankers",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+      "original_title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+      "original_summary": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn. Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors, of varying popularity, gazed disinterestedly at the scene. Continue reading...",
+      "topic_evidence": "making economic attacks on the islands’ oil industry",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
+      "original_title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
+      "original_summary": "Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-off Deforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows. But whether this globally important success is maintained or reversed is on a knife edge ahead of a presidential election run-off on 25 October between two candidates with sharply different visions for the future of the rainforest and how that affects relations with the US under Donald Trump. Continue reading...",
+      "topic_evidence": "Deforestation in the Brazilian Amazon has fallen to its lowest level since records began",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election",
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
+      "original_title": "Brazil’s Lula says he now backs lowering age of criminal responsibility to 16",
+      "original_summary": "Lula reverses position on age of responsibility for ‘heinous’ crimes in what many see as a desperate electoral gambit Brazil’s president, Luiz Inácio Lula da Silva, has announced that he now supports lowering the age of criminal responsibility for “heinous” crimes from 18 to 16, reversing a longstanding policy in what is widely seen as a desperate electoral gambit. The U-turn, which Lula announced during a Thursday night interview with TV Globo, comes with the presidential runoff in just over a week. The incumbent faces an uphill battle to overturn the first-round victory of his opponent, the far-right senator Flávio Bolsonaro, who remains slightly ahead at the polls. Continue reading...",
+      "topic_evidence": "supports lowering the age of criminal responsibility",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "policy"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+      "original_title": "Anti-government protesters battle with police in Albania",
+      "original_summary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+      "topic_evidence": "violent clashes between demonstrators and riot police",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+      "original_title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+      "original_summary": "Protests have intensified over a review of voter lists that critics say is politically motivated and threatens to disenfranchise voters. The Election Commission and Modi's administration deny these allegations.",
+      "topic_evidence": "Protests have intensified over a review of voter lists",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election",
+        "administration"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+      "original_title": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+      "original_summary": "Beijing warns against ‘discriminatory’ step after France drops opposition to British role in Made in Europe package No 10 has left the door open to imposing tariffs on Chinese-made electric vehicles as part of the Made in Europe package, prompting a warning from Beijing that such a move would be “discriminatory”. Downing Street said on Friday that it would “welcome the objective to have the UK included in the Industrial Accelerator Act” after France dropped its opposition to Britain joining the scheme . Continue reading...",
+      "topic_evidence": "left the door open to imposing tariffs on Chinese-made electric vehicles",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+      "original_title": "At least 19 dead in stampede at Kolkata Hindu festival",
+      "original_summary": "A seven-year-old girl was among at least 19 people killed in a stampede during a Hindu festival in Kolkata, India.",
+      "topic_evidence": "at least 19 people killed in a stampede during a Hindu festival in Kolkata",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "original_title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+      "original_summary": "Incident at CFB Wainwright base in Alberta caused a ‘major fire’ that is spreading to the nearby town because of strong winds People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” defence minister David McGuinty said at a press conference on Saturday night. Continue reading...",
+      "topic_evidence": "caused a ‘major fire’ that is spreading to the nearby town",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+      "original_summary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+      "topic_evidence": "Disorder broke out in cities across the country",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716552.shtml",
+      "original_title": "李强会见乌兹别克斯坦总统米尔济约耶夫",
+      "original_summary": "中新社塔什干10月18日电 中国国务院总理李强10月17日在塔什干会见乌兹别克斯坦总统米尔济约耶夫。",
+      "topic_evidence": "李强10月17日在塔什干会见乌兹别克斯坦总统米尔济约耶夫",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716581.shtml",
+      "original_title": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地？",
+      "original_summary": "九十年前，红军将士跨越雪山草地，迎着朝阳前行，走出一条通往新中国的道路。九十年后，柴达木盆地的茫茫戈壁里，另一群“新长征者”接续出发，为中国天文事业开辟通往星辰大海的新征程。",
+      "topic_evidence": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716563.shtml",
+      "original_title": "改革、谋策、存典协同推进 上海演艺全新启航",
+      "original_summary": "中新网上海10月18日电 (记者 王笈)《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式17日在上海大歌剧院举办，活动同步推出《上海市级国有文艺院团经典保留作品集萃》，标志着上海演艺事业改革发展翻开崭新一页。",
+      "topic_evidence": "《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716571.shtml",
+      "original_title": "广西壮族自治区政协原副主席黄日波接受国家监委监察调查",
+      "original_summary": "中新网10月18日电 据中央纪委国家监委网站消息，广西壮族自治区政协原副主席黄日波涉嫌严重职务违法，目前正接受国家监委监察调查。",
+      "topic_evidence": "黄日波涉嫌严重职务违法，目前正接受国家监委监察调查",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违法"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+      "original_title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+      "original_summary": "Junk bond buyers are increasingly freezing out tech startups looking for financing, as CoreWeave Inc.’s pain raises bigger questions about how artificial intelligence companies will fund themselves.",
+      "topic_evidence": "Junk bond buyers are increasingly freezing out tech startups looking for financing",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+      "original_title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+      "original_summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
+      "topic_evidence": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.investing.com/news/stock-market-news/asian-ai-stocks-fall-as-rising-financing-costs-threaten-spending-boom--bloomberg-4955727",
+      "original_title": "Asian AI stocks fall as rising financing costs threaten spending boom - Bloomberg",
+      "original_summary": "",
+      "topic_evidence": "Asian AI stocks fall as rising financing costs threaten spending boom",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/australian-home-auctions-decline-as-rate-hikes-dampen-activity",
+      "original_title": "Australian Home Auctions Decline as Rate Hikes Dampen Activity",
+      "original_summary": "The number of homes auctioned in Australia dropped over the past week as interest rates at a 15-year high weigh on activity in the housing market.",
+      "topic_evidence": "number of homes auctioned in Australia dropped over the past week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+      "original_title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+      "original_summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
+      "topic_evidence": "Silver’s recent 50% drop from a record high",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/uk-inflation-can-seal-the-deal-on-the-boe-s-november-rate-hike",
+      "original_title": "UK Inflation Can Seal the Deal on the BOE’s November Rate Hike",
+      "original_summary": "A pickup in UK inflation to a nine-month high in data this week is likely to set the stage for key decisions from the upcoming budget to a likely interest-rate increase.",
+      "topic_evidence": "A pickup in UK inflation to a nine-month high in data this week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
+      "original_title": "Macklem Sees Higher Oil Prices Boosting Growth, Inflation",
+      "original_summary": "Bank of Canada Governor Tiff Macklem said he’s seeing more evidence that higher oil prices are supporting economic growth in Canada, and expects the bank will have a higher inflation forecast at the end of the month.",
+      "topic_evidence": "higher oil prices are supporting economic growth in Canada",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/world-economy-latest-inflationary-pressures-mount-in-us",
+      "original_title": "World Economy Latest: Inflationary Pressures Mount in US",
+      "original_summary": "Inflationary pressures are mounting in the US, with fresh consumer and wholesale price data indicating costlier fuel is filtering through into higher prices for other goods and services.",
+      "topic_evidence": "Inflationary pressures are mounting in the US",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability",
+      "original_title": "Lagarde Says Sustainable Finances Key for Economic Stability",
+      "original_summary": "European Central Bank President Christine Lagarde stressed the importance of sound public finances when she addressed ministers in charge of budgets from around the world in Thailand.",
+      "topic_evidence": "stressed the importance of sound public finances",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball",
+      "original_title": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+      "original_summary": "The US government’s debt interest burden reached a record high for fiscal 2026, eating up a growing share of federal revenue and risking a snowballing of borrowing that could leave the country more vulnerable to economic shocks.",
+      "topic_evidence": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "original_title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "original_summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+      "topic_evidence": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+      "original_title": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+      "original_summary": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+      "topic_evidence": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt",
+      "original_title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "original_summary": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 103 # Comments: 113",
+      "topic_evidence": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "original_title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "original_summary": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends Comments URL: https://news.ycombinator.com/item?id=50136536 Points: 152 # Comments: 37",
+      "topic_evidence": "game ownership bill requiring ownership rather than licensing",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+      "original_title": "Gold is now the top U.S. export",
+      "original_summary": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 277 # Comments: 145",
+      "topic_evidence": "Gold is now the top U.S. export",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.derekwessman.com/blog-1/natural",
+      "original_title": "I Became a Citizen of Japan",
+      "original_summary": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 182 # Comments: 87",
+      "topic_evidence": "I Became a Citizen of Japan",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "original_title": "DeepSeek-v4.1-Flash-1017",
+      "original_summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 760 # Comments: 610",
+      "topic_evidence": "DeepSeek-v4.1-Flash-1017",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "original_title": "Codex Desktop continuously generates Crashpad pending dumps",
+      "original_summary": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 106 # Comments: 34",
+      "topic_evidence": "Codex Desktop continuously generates Crashpad pending dumps",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/frontier-ai/https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "section": "AI 与大模型",
+      "subsection": "前沿模型",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "original_title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "original_summary": "",
+      "topic_evidence": "Chat, Decisions, and Speech from One Endpoint",
+      "approved": true,
+      "evidence": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "reason": "主事件是IBM发布Granite Switch 4.1模型，单一端点提供聊天、决策和语音能力，属于前沿模型发布。 / The main event is IBM's release of the Granite Switch 4.1 model offering chat, decision-making and speech from one endpoint, which belongs to frontier model releases."
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "original_title": "India becomes the latest country to report rogue AI agent activity",
+      "original_summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "topic_evidence": "rogue AI agent activity",
+      "approved": true,
+      "evidence": "India becomes the latest country to report rogue AI agent activity",
+      "reason": "主事件是印度报告失控AI代理活动，涉及AI代理安全与治理，属于研究与治理。 / The main event is India reporting rogue AI agent activity, involving AI agent security and governance, so it fits research and governance."
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+      "original_title": "Meta removes language that raised scraping and AI training concerns",
+      "original_summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "topic_evidence": "Meta removes language that raised scraping and AI training concerns",
+      "approved": true,
+      "evidence": "Meta removes language that raised scraping and AI training concerns",
+      "reason": "主事件是Meta删除服务条款中涉及网页抓取和AI训练争议的表述，属于AI数据治理议题。 / The main event is Meta removing terms language tied to scraping and AI training concerns, an AI data governance issue."
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "original_title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "original_summary": "",
+      "topic_evidence": "2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "approved": true,
+      "evidence": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "reason": "主事件是NVIDIA关于Indic预训练扩展至2.8万亿token及开放数据生成管线的研究，属于AI研究。 / The main event is NVIDIA's research on scaling Indic pretraining to 2.8 trillion tokens with an open data generation pipeline, which is AI research."
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/salience",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/salience",
+      "original_title": "Salience",
+      "original_summary": "See every request to your website and how it responds. Discussion | Link",
+      "topic_evidence": "See every request to your website and how it responds.",
+      "approved": true,
+      "evidence": "See every request to your website and how it responds.",
+      "reason": "主事件是Product Hunt上的新产品Salience，可查看网站每个请求及其响应，属于新产品。 / The main event is the Product Hunt launch Salience, which lets users see every request to their website and how it responds, fitting new products."
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/emochi-2",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/emochi-2",
+      "original_title": "Emochi",
+      "original_summary": "Voice journal to understand yourself through art and science Discussion | Link",
+      "topic_evidence": "Voice journal to understand yourself through art and science",
+      "approved": true,
+      "evidence": "Voice journal to understand yourself through art and science",
+      "reason": "主事件是Product Hunt上的语音日记产品Emochi，属于新产品。 / The main event is Emochi, a voice journal product on Product Hunt, fitting new products."
+    },
+    {
+      "id": "world/government-policy/https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+      "original_title": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+      "original_summary": "Beijing warns against ‘discriminatory’ step after France drops opposition to British role in Made in Europe package No 10 has left the door open to imposing tariffs on Chinese-made electric vehicles as part of the Made in Europe package, prompting a warning from Beijing that such a move would be “discriminatory”. Downing Street said on Friday that it would “welcome the objective to have the UK included in the Industrial Accelerator Act” after France dropped its opposition to Britain joining the scheme . Continue reading...",
+      "topic_evidence": "left the door open to imposing tariffs on Chinese-made electric vehicles",
+      "approved": true,
+      "evidence": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+      "reason": "主事件是英国政府保留对中国产电动汽车加征关税的选项，并讨论加入欧盟“欧洲制造”方案，属于政府贸易政策。 / The main event is the UK government keeping open the option to impose tariffs on Chinese-made EVs while discussing joining the EU's Made in Europe scheme, which is government trade policy."
+    },
+    {
+      "id": "world/global-society/https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+      "original_title": "At least 19 dead in stampede at Kolkata Hindu festival",
+      "original_summary": "A seven-year-old girl was among at least 19 people killed in a stampede during a Hindu festival in Kolkata, India.",
+      "topic_evidence": "at least 19 people killed in a stampede during a Hindu festival in Kolkata",
+      "approved": true,
+      "evidence": "At least 19 dead in stampede at Kolkata Hindu festival",
+      "reason": "主事件是加尔各答印度教节日发生踩踏事故造成至少19人死亡，属于全球社会突发事件。 / The main event is a stampede at a Hindu festival in Kolkata that killed at least 19 people, a global society incident."
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "original_title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+      "original_summary": "Incident at CFB Wainwright base in Alberta caused a ‘major fire’ that is spreading to the nearby town because of strong winds People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” defence minister David McGuinty said at a press conference on Saturday night. Continue reading...",
+      "topic_evidence": "caused a ‘major fire’ that is spreading to the nearby town",
+      "approved": true,
+      "evidence": "caused a ‘major fire’ that is spreading to the nearby town",
+      "reason": "主事件是加拿大阿尔伯塔军事基地发生严重事故并引发大火，造成人员伤亡，属于全球社会突发事件。 / The main event is a serious incident at an Alberta military base that caused a major fire, deaths and injuries, a global society incident."
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+      "original_summary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+      "topic_evidence": "Disorder broke out in cities across the country",
+      "approved": true,
+      "evidence": "Disorder broke out in cities across the country",
+      "reason": "主事件是法国生活成本抗议演变为暴力冲突、抢劫和纵火，超过1000人被捕，属于全球社会新闻。 / The main event is cost-of-living protests in France turning into violent clashes, looting and arson with over 1,000 arrests, a global society story."
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-18/10716581.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716581.shtml",
+      "original_title": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地？",
+      "original_summary": "九十年前，红军将士跨越雪山草地，迎着朝阳前行，走出一条通往新中国的道路。九十年后，柴达木盆地的茫茫戈壁里，另一群“新长征者”接续出发，为中国天文事业开辟通往星辰大海的新征程。",
+      "topic_evidence": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地",
+      "approved": true,
+      "evidence": "47台大科学装置相继投用 戈壁小镇如何成为世界级天文观测基地",
+      "reason": "主事件是柴达木盆地戈壁小镇依托47台大科学装置成为世界级天文观测基地，属于中国地方科技基础设施发展。 / The main event is a Gobi town in the Qaidam Basin becoming a world-class astronomical observation base with 47 large scientific facilities, fitting China's local science infrastructure development."
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-18/10716563.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-18/10716563.shtml",
+      "original_title": "改革、谋策、存典协同推进 上海演艺全新启航",
+      "original_summary": "中新网上海10月18日电 (记者 王笈)《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式17日在上海大歌剧院举办，活动同步推出《上海市级国有文艺院团经典保留作品集萃》，标志着上海演艺事业改革发展翻开崭新一页。",
+      "topic_evidence": "《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式",
+      "approved": true,
+      "evidence": "《上海戏剧振兴三年行动计划(2026—2028年)》发布暨上海演艺集团成立仪式",
+      "reason": "主事件是上海发布戏剧振兴三年行动计划并成立上海演艺集团，属于中国地方文化产业改革与发展。 / The main event is Shanghai releasing a three-year drama revitalization plan and establishing the Shanghai Performing Arts Group, fitting local cultural industry reform and development."
+    },
+    {
+      "id": "finance/markets-assets/https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "市场与资产",
+      "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+      "original_title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+      "original_summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
+      "topic_evidence": "Silver’s recent 50% drop from a record high",
+      "approved": true,
+      "evidence": "Silver’s recent 50% drop from a record high",
+      "reason": "主事件是白银价格从历史高点下跌约50%，被视为经济放缓信号，属于市场与资产。 / The main event is silver's roughly 50% drop from a record high, seen as a signal of economic slowdown, fitting markets and assets."
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball",
+      "original_title": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+      "original_summary": "The US government’s debt interest burden reached a record high for fiscal 2026, eating up a growing share of federal revenue and risking a snowballing of borrowing that could leave the country more vulnerable to economic shocks.",
+      "topic_evidence": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+      "approved": true,
+      "evidence": "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+      "reason": "主事件是美国政府债务利息成本创纪录达到1万亿美元，涉及财政可持续性，属于宏观与政策。 / The main event is US government debt interest costs hitting a record $1 trillion, raising fiscal sustainability concerns, fitting macro and policy."
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "original_title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "original_summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+      "topic_evidence": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "approved": true,
+      "evidence": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "reason": "主事件是调查显示Z世代租客将投资而非购房视为首要成功里程碑，属于个人理财观念与行为。 / The main event is a survey showing Gen Z renters see investing, not homeownership, as the top success milestone, fitting personal finance attitudes and behavior."
+    },
+    {
+      "id": "opinion/tech-opinion/https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt",
+      "original_title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "original_summary": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 103 # Comments: 113",
+      "topic_evidence": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "approved": false,
+      "evidence": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "reason": "主事件是Chrome和Edge移除XSLT这一浏览器技术变更及其影响说明，属于技术新闻/分析，不是观点与社论。 / The main event is the browser change of Chrome and Edge removing XSLT and an explanation of its impact, which is tech news/analysis rather than opinion and editorial."
+    },
+    {
+      "id": "opinion/business-society/https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "original_title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "original_summary": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends Comments URL: https://news.ycombinator.com/item?id=50136536 Points: 152 # Comments: 37",
+      "topic_evidence": "game ownership bill requiring ownership rather than licensing",
+      "approved": false,
+      "evidence": "game ownership bill requiring ownership rather than licensing",
+      "reason": "主事件是纽约州议员提出游戏所有权法案，属于政策/立法新闻，不是商业与社会评论。 / The main event is a New York state representative announcing a game ownership bill, which is policy/legislation news rather than business and society commentary."
+    },
+    {
+      "id": "opinion/business-society/https://www.numismaticnews.net/gold-now-top-u-s-export",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+      "original_title": "Gold is now the top U.S. export",
+      "original_summary": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 277 # Comments: 145",
+      "topic_evidence": "Gold is now the top U.S. export",
+      "approved": false,
+      "evidence": "Gold is now the top U.S. export",
+      "reason": "主事件是美国黄金出口居首的贸易数据/经济新闻，属于财经或贸易新闻，而非商业与社会评论。 / The main event is an economic/trade news item that gold is now the top US export, rather than business and society commentary."
+    },
+    {
+      "id": "opinion/business-society/https://www.derekwessman.com/blog-1/natural",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.derekwessman.com/blog-1/natural",
+      "original_title": "I Became a Citizen of Japan",
+      "original_summary": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 182 # Comments: 87",
+      "topic_evidence": "I Became a Citizen of Japan",
+      "approved": true,
+      "evidence": "I Became a Citizen of Japan",
+      "reason": "主事件是作者以第一人称讲述取得日本国籍的经历与思考，属于社会评论/个人随笔。 / The main event is a first-person essay on the author's experience and reflections on becoming a Japanese citizen, fitting social commentary/personal essay."
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns"
+    ],
+    [
+      "ai-tech",
+      "frontier-ai",
+      "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-18/10716563.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-18/10716581.shtml"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball"
+    ],
+    [
+      "finance",
+      "markets-assets",
+      "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.derekwessman.com/blog-1/natural"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/emochi-2"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/salience"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme"
+    ]
+  ]
+}

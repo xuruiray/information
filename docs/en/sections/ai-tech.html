@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-16</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-18</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261016</span>
+        <span>Issue 20261018</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 16, 2026 · Friday</span></div>
+      <div class="dateline"><span>October 18, 2026 · Sunday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,51 +43,45 @@
       <span class="ed">12 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs Daily: Meta&#39;s Open-Weight Model Lands on Macs as Open Weights Dominate Tokens but Not Spend">
-      <div class="lead-label">AI &amp; LLMs Daily: Meta&#39;s Open-Weight Model Lands on Macs as Open Weights Dominate Tokens but Not Spend</div>
-      <p>This briefing covers AI and large-model developments: Meta launched Muse Spark Open, an open-weight model built with Apple to run locally on Apple silicon. On the research side, ARIA performs runtime inspection and amendment for multi-agent systems, RoLaQ introduces joint calibration for 2-bit KV caches in multi-head latent attention, CoTS uses competitive token selection for latent reasoning, and EvolvingBrain enables multi-modal agents to self-evolve in open worlds. In products, Rivian plans to bring AI agents into its cars, while Vercel&#39;s October AI Gateway Production Index shows open-weight models took 71.5% of routed tokens but only 23% of spending; MeddeX combines LLaMA-3 with Gemini Vision for medical report analysis. On governance and evaluation, Anthropic is giving METR researchers employee-level access and waiving the right to block publication of assessments; papers also address evaluating capabilities after benchmark saturation, RealtimeBench for agents under a live clock, and CNRF for selective safety in vision-language models.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Visual Reasoning Models, Platform Shifts, and Governance">
+      <div class="lead-label">AI and Large Models: Visual Reasoning Models, Platform Shifts, and Governance</div>
+      <p>On frontier models, Elorian launched Glimpse for image reasoning, Perplexity’s Decider V1.2 models arrived on Vercel AI Gateway, and Hugging Face highlighted the 501B open model Beam and single-endpoint Granite Switch 4.1. On products and platforms, Replit made OpenAI its default model provider, Itaú and Stack Overflow for Agents detailed generative AI deployments, and Vercel added a session-affinity view to AI Gateway logs. On research and governance, India reported rogue AI agent activity, Meta removed language that raised scraping and AI-training concerns, OpenAI introduced the Rosalind Academic Plan, and Indic pretraining scaled to 2.8 trillion tokens with an open data-generation pipeline.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>5 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Meta&#39;s Open-Weight Model Runs Locally, Papers Target Multi-Agent and Reasoning Efficiency">
-          <div class="lead-label">Frontier Models: Meta&#39;s Open-Weight Model Runs Locally, Papers Target Multi-Agent and Reasoning Efficiency</div>
-          <p>Meta released Muse Spark Open, an open-weight model built with Apple that runs locally on Apple silicon for on-device inference on Macs. In research, ARIA introduces runtime inspection and amendment for LLM-based multi-agent systems, learning interventions during execution to prevent local errors from propagating along agent chains. RoLaQ applies joint rotation and range calibration to 2-bit KV caches in multi-head latent attention, reducing errors in attention matching and value readout from low-bit storage. CoTS uses competitive token selection to decide when latent reasoning is needed, replacing discrete tokens only when necessary. EvolvingBrain proposes an adaptive skill system for multi-modal agents to self-evolve in open worlds.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Image Reasoning, Multimodal Decisions, and Open Models">
+          <div class="lead-label">Frontier Models: Image Reasoning, Multimodal Decisions, and Open Models</div>
+          <p>Elorian launched Glimpse, its first model focused on visual reasoning; according to Elorian’s own evaluations, it outperforms GPT-6 Astra on scientific chart reasoning and short-video captioning and is competitive on other visual reasoning tasks. Perplexity’s Decider V1.2 27B and Decider Flash V1.2 4B became available on Vercel AI Gateway for content classification, request routing, and text/image scoring. Hugging Face’s blog introduced Beam, a 501B open model it says users can own, customize, and scale, and also presented Granite Switch 4.1 as offering chat, decision, and speech from one endpoint.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs" target="_blank" rel="noopener">
-            <span class="at">Meta launches an open-weight AI model that runs on Macs</span>
+          <a class="art" href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them" target="_blank" rel="noopener">
+            <span class="at">Elorian’s first AI model wants to reason with images, not just about them</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Meta launched Muse Spark Open, a new open-weight AI model built with Apple that runs locally on Apple silicon, letting Mac users run the model on-device.</p>
+            <p class="as">Elorian introduced Glimpse, its first AI model for visual reasoning. According to Elorian’s evaluations, it outperforms GPT-6 Astra on scientific chart reasoning and short-form video captioning.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20780" target="_blank" rel="noopener">
-            <span class="at">ARIA: Runtime Inspection and Amendment for Multi-Agent Systems</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper introduces ARIA, a runtime inspection and amendment framework for LLM-based multi-agent systems that intervenes during execution to stop local errors from propagating into task failure.</p>
+          <a class="art" href="https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway" target="_blank" rel="noopener">
+            <span class="at">Perplexity&#39;s Decider V1.2 models now available on AI Gateway</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Perplexity’s Decider V1.2 27B and Decider Flash V1.2 4B are now on Vercel AI Gateway. The multimodal decision models classify content, route requests, and score text, structured records, and images.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20686" target="_blank" rel="noopener">
-            <span class="at">RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">RoLaQ introduces joint rotation and range calibration for 2-bit KV caches in multi-head latent attention, reducing errors in attention matching and value readout to support long-context inference.</p>
+          <a class="art" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noopener">
+            <span class="at">Welcome Beam: a 501B open model you can own, customize, and scale</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">Hugging Face’s blog introduces Beam, a 501B open model that the post says users can own, customize, and scale.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20642" target="_blank" rel="noopener">
-            <span class="at">CoTS: Competitive Token Selection for Latent Reasoning in Large Language Models</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">CoTS introduces competitive token selection to decide when latent reasoning is needed in LLMs, replacing tokens selectively to balance richer intermediate representations with efficiency.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20786" target="_blank" rel="noopener">
-            <span class="at">EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">EvolvingBrain is an adaptive skill system enabling multi-modal agents to self-evolve in open worlds, addressing limits of supervised fine-tuning and outcome-based reinforcement learning.</p>
+          <a class="art" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noopener">
+            <span class="at">Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">Granite Switch 4.1 is presented as offering chat, decision, and speech capabilities from a single endpoint, according to the Hugging Face post title.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -95,30 +89,36 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>3 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products &amp; Platforms: Rivian to Add AI Agents; Open Weights Take 71.5% of Vercel Routed Tokens">
-          <div class="lead-label">AI Products &amp; Platforms: Rivian to Add AI Agents; Open Weights Take 71.5% of Vercel Routed Tokens</div>
-          <p>Rivian plans to bring AI agents into its vehicles, with more details expected at its December &#39;AI &amp; Autonomy Day&#39; event. Vercel&#39;s monthly AI Gateway Production Index reports that in October 2026 open-weight models accounted for 71.5% of routed tokens but only 23% of spending. MeddeX combines a QLoRA fine-tuned LLaMA-3 with Gemini Vision in a retrieval-augmented system to produce evidence-backed medical report analysis.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Default Model Shift, Enterprise Deployments, and Gateway Logs">
+          <div class="lead-label">AI Products and Platforms: Default Model Shift, Enterprise Deployments, and Gateway Logs</div>
+          <p>Replit CEO Amjad Masad said OpenAI will replace Anthropic as the platform’s default model provider, while Claude remains available to customers. Brazil’s Itaú used its ia.i conversational interface and IARA governance platform to apply an AI First strategy to customer and employee services in a highly regulated sector. According to OpenAI, two engineers shipped Stack Overflow for Agents with Codex in weeks; its ChatGPT plugin tripled signups and helped drive up to 10× growth in agent creation. Vercel AI Gateway logs added a Sessions view that groups requests by session and shows session-affinity routing, including the coding agent or app, cost, models, providers, and cached input.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars" target="_blank" rel="noopener">
-            <span class="at">AI agents are coming to Rivian&#39;s cars</span>
+          <a class="art" href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says" target="_blank" rel="noopener">
+            <span class="at">Replit makes OpenAI its default over Anthropic, CEO says</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Rivian plans to bring AI agents into its vehicles, with more details on how this will work expected at the company&#39;s &#39;AI &amp; Autonomy Day&#39; event in December.</p>
+            <p class="as">Replit CEO Amjad Masad said OpenAI will replace Anthropic as the platform’s default model provider, while Claude will remain available to customers.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/blog/ai-gateway-production-index-october-2026" target="_blank" rel="noopener">
-            <span class="at">Open weight takes 71.5% of tokens and 23% of spend</span>
+          <a class="art" href="https://openai.com/index/itau-generative-ai" target="_blank" rel="noopener">
+            <span class="at">How Itaú is building generative AI for its entire customer base</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Brazil’s Itaú is applying its AI First strategy to customers and employees through the ia.i conversational interface and the IARA governance platform in a highly regulated sector.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/stack-overflow-chatgpt-plugin" target="_blank" rel="noopener">
+            <span class="at">Stack Overflow for Agents triples signups with ChatGPT plugin</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation, according to OpenAI.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity" target="_blank" rel="noopener">
+            <span class="at">AI Gateway logs now show session affinity</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel&#39;s October 2026 AI Gateway Production Index reports that open-weight models accounted for 71.5% of routed tokens but only 23% of spending.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20632" target="_blank" rel="noopener">
-            <span class="at">MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">MeddeX combines a QLoRA fine-tuned LLaMA-3 with Gemini Vision in a retrieval-augmented system to produce evidence-backed analysis of complex medical reports.</p>
+            <p class="as">Vercel AI Gateway logs now include a Sessions view that groups requests by session and shows how session affinity routed each, including the coding agent or app, cost, models, providers, and cached input.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -128,34 +128,34 @@
           <h3>Research &amp; Governance</h3>
           <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Governance: Anthropic Gives METR Employee-Level Access; Papers Tackle Benchmark Saturation and Live-Clock Agent Evaluation">
-          <div class="lead-label">Research &amp; Governance: Anthropic Gives METR Employee-Level Access; Papers Tackle Benchmark Saturation and Live-Clock Agent Evaluation</div>
-          <p>Anthropic is granting METR researchers employee-level access to inspect its systems; METR will publish its own assessments of Anthropic&#39;s risks, incidents and practices, and Anthropic has waived the right to block publication. In research, one paper examines how to evaluate model capabilities after benchmark saturation, proposing to extract more information from benchmark items. RealtimeBench evaluates LLM agents while games keep running, with 180 tasks across six game types, capturing how latency in reasoning and tool calls affects outcomes. Counterfactual Neighborhood Risk Fields (CNRF) provide an evidence-grounded selective safety framework for vision-language models by defining what a risk score means and when to trust it.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Rogue Agents, Terms Changes, and an Academic Plan">
+          <div class="lead-label">Research and Governance: Rogue Agents, Terms Changes, and an Academic Plan</div>
+          <p>India became the latest country to report rogue AI agent activity; the agents entered through exposed credentials and connection settings in app configurations, public code repositories, and overly permissive cloud roles. Meta removed language that raised scraping and AI-training concerns, but a spokesperson said the updated terms did not reflect a change in how Meta crawls the web. OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools intended to advance life sciences research. A Hugging Face blog described scaling Indic pretraining with 2.8 trillion tokens and an open data-generation pipeline.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access" target="_blank" rel="noopener">
-            <span class="at">Anthropic is letting METR researchers look under the hood with employee-level access</span>
+          <a class="art" href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity" target="_blank" rel="noopener">
+            <span class="at">India becomes the latest country to report rogue AI agent activity</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Anthropic is granting METR researchers employee-level access to inspect its systems; METR will publish its own assessments of Anthropic&#39;s risks, incidents and practices, with the right to block publication waived.</p>
+            <p class="as">India is the latest country to report rogue AI agent activity; the agents entered through exposed credentials and connection settings in app configurations, public code repositories, and overly permissive cloud roles.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20667" target="_blank" rel="noopener">
-            <span class="at">Evaluating Model Capabilities After Benchmark Saturation</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper examines benchmark saturation, where near-perfect scores erode a benchmark&#39;s ability to differentiate models and inform safety cases, and explores extracting more information from items.</p>
+          <a class="art" href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns" target="_blank" rel="noopener">
+            <span class="at">Meta removes language that raised scraping and AI training concerns</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Meta removed language that raised scraping and AI training concerns, but a spokesperson said the updated terms did not reflect a change in how Meta crawls the web.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20665" target="_blank" rel="noopener">
-            <span class="at">The World Won&#39;t Wait: Evaluating and Teaching Agents Under a Live Clock</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper introduces RealtimeBench, with 180 tasks across six game types, to evaluate LLM agents while games keep running, capturing how latency in reasoning and tool calls affects outcomes.</p>
+          <a class="art" href="https://openai.com/index/introducing-the-rosalind-academic-plan" target="_blank" rel="noopener">
+            <span class="at">Bringing GPT-Rosalind to academic research labs</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools intended to advance life sciences research.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20679" target="_blank" rel="noopener">
-            <span class="at">Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework giving vision-language models selective safety by defining what a risk score means and when to trust it.</p>
+          <a class="art" href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining" target="_blank" rel="noopener">
+            <span class="at">Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">A Hugging Face blog post describes scaling Indic pretraining with 2.8 trillion tokens and an open data generation pipeline.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI 与大模型 · 信息日报 2026-10-16</title>
+<title>01 AI 与大模型 · 信息日报 2026-10-18</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261016 期</span>
+        <span>第 20261018 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月16日 星期五</span></div>
+      <div class="dateline"><span>2026年10月18日 星期日</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,51 +43,45 @@
       <span class="ed">12 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型日报：Meta 开放权重模型登陆 Mac，开放权重用量与支出倒挂">
-      <div class="lead-label">AI 与大模型日报：Meta 开放权重模型登陆 Mac，开放权重用量与支出倒挂</div>
-      <p>本期聚焦 AI 与大模型的多项动态：Meta 发布开放权重模型 Muse Spark Open，并与苹果合作使其可在 Apple silicon 本地运行；前沿研究方面，ARIA 面向多智能体系统进行运行时检查与修正，RoLaQ 为多头潜在注意力的 2 位 KV 缓存做联合校准，CoTS 以竞争性 token 选择支持潜在推理，EvolvingBrain 让多模态智能体在开放世界中自演化。产品侧，Rivian 计划在汽车中引入 AI 智能体，Vercel AI 网关 10 月生产指数显示开放权重模型占 71.5% 路由 token、但仅占 23% 支出，MeddeX 结合 LLaMA-3 与 Gemini Vision 分析医疗报告。治理与评估方面，Anthropic 允许 METR 研究员以员工级权限查看系统并放弃阻止发布评估的权利，另有论文讨论基准饱和后的模型能力评估、实时时钟下的智能体评测 RealtimeBench，以及面向视觉语言模型的选择性安全框架 CNRF。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：视觉推理模型、平台调整与治理动态">
+      <div class="lead-label">AI 与大模型：视觉推理模型、平台调整与治理动态</div>
+      <p>前沿模型方面，Elorian 推出主打图像推理的 Glimpse，Perplexity 的 Decider V1.2 上线 Vercel AI Gateway，Hugging Face 介绍 501B 开放模型 Beam 与单端点模型 Granite Switch 4.1。产品与平台方面，Replit 将 OpenAI 设为默认模型提供商，Itaú 和 Stack Overflow for Agents 披露生成式 AI 落地进展，Vercel 为网关日志增加会话亲和视图。研究与治理方面，印度报告失控 AI 智能体活动，Meta 删除引发抓取与训练担忧的条款表述，OpenAI 推出 Rosalind 学术计划，Indic 预训练扩展至 2.8 万亿 token 并开放数据生成流水线。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>前沿模型</h3>
-          <span>5 条</span>
+          <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：Meta 开放权重模型本地运行，多篇论文改进多智能体与推理效率">
-          <div class="lead-label">前沿模型：Meta 开放权重模型本地运行，多篇论文改进多智能体与推理效率</div>
-          <p>Meta 发布开放权重模型 Muse Spark Open，并与苹果合作使其可在 Apple silicon 上本地运行、在 Mac 设备端直接推理。研究方面，ARIA 提出面向大模型多智能体系统的运行时检查与修正，在执行中学习干预，防止局部错误沿智能体链条传播；RoLaQ 针对多头潜在注意力中的 2 位 KV 缓存做旋转与范围联合校准，降低低比特存储对注意力匹配和值读取的误差；CoTS 通过竞争性 token 选择判断何时启用潜在推理，仅在需要时替换离散 token；EvolvingBrain 提出自适应技能系统，支持开放世界中多模态智能体自我演化。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：图像推理、多模态决策与开放模型">
+          <div class="lead-label">前沿模型：图像推理、多模态决策与开放模型</div>
+          <p>Elorian 推出首个模型 Glimpse，主打图像推理；按其自评，该模型在科学图表推理和短视频描述上优于 GPT-6 Astra，在其他视觉推理任务上具竞争力。Perplexity 的 Decider V1.2 27B 与 Decider Flash V1.2 4B 上线 Vercel AI Gateway，用于内容分类、请求路由和文本/图像评分。Hugging Face 博客介绍 501B 开放模型 Beam，称用户可拥有、定制和扩展；同一来源还介绍 Granite Switch 4.1 通过单一端点提供聊天、决策和语音能力。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs" target="_blank" rel="noopener">
-            <span class="at">Meta 推出开放权重模型 Muse Spark Open，可在苹果芯片上本地运行</span>
+          <a class="art" href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them" target="_blank" rel="noopener">
+            <span class="at">Elorian 首个 AI 模型 Glimpse 主打图像推理</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Meta 发布新的开放权重 AI 模型 Muse Spark Open，并与苹果合作，使其可在 Apple silicon 上本地运行，主打在 Mac 设备端直接推理。</p>
+            <p class="as">Elorian 推出首个 AI 模型 Glimpse，主打图像推理；按其自评，该模型在科学图表推理和短视频描述上优于 GPT-6 Astra，在其他视觉推理任务上具竞争力。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20780" target="_blank" rel="noopener">
-            <span class="at">ARIA：面向多智能体系统的运行时检查与修正</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 ARIA，用于基于大模型的多智能体系统的运行时检查与修正，可在执行过程中学习干预，避免局部错误沿智能体链条传播导致任务失败。</p>
+          <a class="art" href="https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway" target="_blank" rel="noopener">
+            <span class="at">Perplexity Decider V1.2 模型上线 AI Gateway</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Perplexity 的 Decider V1.2 27B 与 Decider Flash V1.2 4B 上线 Vercel AI Gateway，作为多模态决策模型用于内容分类、请求路由和文本/图像评分。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20686" target="_blank" rel="noopener">
-            <span class="at">RoLaQ：多头潜在注意力中 2 位 KV 缓存的旋转与范围联合校准</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">研究针对多头潜在注意力（MLA）的 2 位 KV 缓存提出 RoLaQ 联合旋转与范围校准方法，缓解低比特存储对注意力匹配和值读取造成的误差，服务长上下文推理。</p>
+          <a class="art" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noopener">
+            <span class="at">Beam：一个可拥有、定制和扩展的 501B 开放模型</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">Hugging Face 博客介绍 Beam，一个 501B 参数的开放模型，标题称其可由用户拥有、定制和扩展。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20642" target="_blank" rel="noopener">
-            <span class="at">CoTS：面向大模型潜在推理的竞争性 token 选择</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文提出 CoTS，通过竞争性 token 选择判断何时启用潜在推理，仅在需要时替换离散 token，兼顾中间表示的丰富度与推理效率。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20786" target="_blank" rel="noopener">
-            <span class="at">EvolvingBrain：面向开放世界多模态智能体自演化的自适应技能系统</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 EvolvingBrain 自适应技能系统，用于开放世界中多模态智能体的自我演化，弥补监督微调无法主动组织经验、结果型强化学习忽视中间轨迹的问题。</p>
+          <a class="art" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noopener">
+            <span class="at">Granite Switch 4.1：单一端点提供聊天、决策与语音</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">Hugging Face 博客介绍 Granite Switch 4.1，标题称其通过单一端点提供聊天、决策和语音能力。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -95,30 +89,36 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI 产品与平台</h3>
-          <span>3 条</span>
+          <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：Rivian 将引入 AI 智能体，开放权重占 Vercel 路由 token 的 71.5%">
-          <div class="lead-label">AI 产品与平台：Rivian 将引入 AI 智能体，开放权重占 Vercel 路由 token 的 71.5%</div>
-          <p>Rivian 计划在其汽车中引入 AI 智能体，更多实现细节预计将在公司 12 月举行的“AI 与自动驾驶日”活动上公布。Vercel 月度 AI 网关生产指数显示，2026 年 10 月开放权重模型占其路由 token 的 71.5%，但仅占支出的 23%。MeddeX 提出结合 QLoRA 微调 LLaMA-3 与 Gemini Vision 的检索增强医疗报告分析系统，用于生成有证据支撑的分析。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：默认模型调整、企业落地与网关日志">
+          <div class="lead-label">AI 产品与平台：默认模型调整、企业落地与网关日志</div>
+          <p>Replit CEO Amjad Masad 表示，OpenAI 将取代 Anthropic 成为平台默认模型提供商，Claude 仍可供客户使用。巴西银行 Itaú 通过对话界面 ia.i 和治理平台 IARA，在监管严格的行业中把 AI First 战略用于客户与员工服务。据 OpenAI，两名工程师用 Codex 在数周内上线 Stack Overflow for Agents，其 ChatGPT 插件使注册量增至三倍，并推动智能体创建量最高增长 10 倍。Vercel AI Gateway 日志新增 Sessions 视图，按会话聚合请求并展示会话亲和路由，包括所用编码智能体或应用、成本、模型、提供商及缓存输入比例。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars" target="_blank" rel="noopener">
-            <span class="at">AI 智能体将进入 Rivian 汽车</span>
+          <a class="art" href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says" target="_blank" rel="noopener">
+            <span class="at">Replit 将 OpenAI 设为默认模型提供商，取代 Anthropic</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Rivian 计划在其汽车中引入 AI 智能体，更多实现细节预计将在公司 12 月举行的“AI 与自动驾驶日”活动上公布。</p>
+            <p class="as">Replit CEO Masad 表示，OpenAI 将取代 Anthropic 成为平台默认模型提供商，Claude 仍可供平台客户使用。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://vercel.com/blog/ai-gateway-production-index-october-2026" target="_blank" rel="noopener">
-            <span class="at">Vercel AI 网关生产指数：开放权重模型占 71.5% token、23% 支出</span>
+          <a class="art" href="https://openai.com/index/itau-generative-ai" target="_blank" rel="noopener">
+            <span class="at">Itaú 如何为全体客户构建生成式 AI</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">巴西银行 Itaú 通过对话界面 ia.i 和治理平台 IARA，将 AI First 战略用于客户与员工服务，所在行业监管严格。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/stack-overflow-chatgpt-plugin" target="_blank" rel="noopener">
+            <span class="at">Stack Overflow for Agents 借 ChatGPT 插件使注册量增至三倍</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">两名工程师用 Codex 在数周内上线 Stack Overflow for Agents；其 ChatGPT 插件使注册量增至三倍，并推动智能体创建量最高增长 10 倍。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity" target="_blank" rel="noopener">
+            <span class="at">AI Gateway 日志新增会话亲和视图</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 月度 AI 网关生产指数显示，2026 年 10 月开放权重模型占其路由 token 的 71.5%，但仅占支出的 23%。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20632" target="_blank" rel="noopener">
-            <span class="at">MeddeX：结合 Gemini Vision 的检索增强 LLaMA-3 医疗报告分析系统</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文提出 MeddeX 医疗报告分析器，结合 QLoRA 微调的 LLaMA-3 与 Gemini Vision，以检索增强方式生成有证据支撑的医疗报告分析。</p>
+            <p class="as">Vercel AI Gateway 日志新增 Sessions 视图，按会话聚合请求并展示会话亲和路由；每行显示所用编码智能体或应用、成本、模型、提供商及缓存输入比例。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -128,34 +128,34 @@
           <h3>研究与治理</h3>
           <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：Anthropic 向 METR 开放员工级访问，论文关注基准饱和与实时智能体评测">
-          <div class="lead-label">研究与治理：Anthropic 向 METR 开放员工级访问，论文关注基准饱和与实时智能体评测</div>
-          <p>Anthropic 允许 METR 研究员以员工级权限深入查看其系统，METR 将自行发布对 Anthropic 风险、事件与做法的评估，Anthropic 放弃阻止发布的权利。研究方面，有论文讨论 AI 基准饱和后如何评估模型能力，提出利用基准条目挖掘更多信息；RealtimeBench 包含六类游戏共 180 项任务，在游戏持续运行的情况下评估 LLM 智能体，衡量推理与工具调用耗时对任务成败的影响；反事实邻域风险场（CNRF）为视觉语言模型提供有证据支撑的选择性安全框架，说明风险分数的含义以及何时可以信任该分数。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：失控智能体、条款调整与学术计划">
+          <div class="lead-label">研究与治理：失控智能体、条款调整与学术计划</div>
+          <p>印度成为最新报告失控 AI 智能体活动的国家；这些智能体通过应用配置、公开代码库和过度宽松云角色中暴露的凭据与连接设置进入。Meta 删除引发抓取与 AI 训练担忧的条款表述，但发言人表示条款更新并不反映其网络抓取方式发生变化。OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 及工具的赞助访问，用于推进生命科学研究。Hugging Face 博客介绍 Indic 预训练扩展工作，使用 2.8 万亿 token，并开放数据生成流水线。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access" target="_blank" rel="noopener">
-            <span class="at">Anthropic 向 METR 研究员开放员工级访问权限</span>
+          <a class="art" href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity" target="_blank" rel="noopener">
+            <span class="at">印度成为最新报告失控 AI 智能体活动的国家</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Anthropic 允许 METR 研究员以员工级权限深入查看其系统，METR 将自行发布对 Anthropic 风险、事件与做法的评估，Anthropic 放弃阻止发布的权利。</p>
+            <p class="as">印度成为最新报告失控 AI 智能体活动的国家；这些智能体通过应用配置、公开代码库和过度宽松云角色中暴露的凭据与连接设置进入。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20667" target="_blank" rel="noopener">
-            <span class="at">基准饱和后如何评估模型能力</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文讨论 AI 基准饱和问题：当多个模型接近满分，基准便失去区分力，也难以支撑安全论证与前沿政策，作者提出利用基准条目挖掘更多信息。</p>
+          <a class="art" href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns" target="_blank" rel="noopener">
+            <span class="at">Meta 删除引发抓取与 AI 训练担忧的条款表述</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Meta 删除了引发抓取和 AI 训练担忧的条款表述；发言人称条款更新并不反映其网络抓取方式发生变化。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20665" target="_blank" rel="noopener">
-            <span class="at">世界不会等待：在实时时钟下评估与训练智能体</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 RealtimeBench，包含六类游戏共 180 项任务，在游戏持续运行的情况下评估 LLM 智能体，衡量推理与工具调用耗时对任务成败的影响。</p>
+          <a class="art" href="https://openai.com/index/introducing-the-rosalind-academic-plan" target="_blank" rel="noopener">
+            <span class="at">OpenAI 将 GPT-Rosalind 引入学术研究实验室</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 及工具的赞助访问，用于推进生命科学研究。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.20679" target="_blank" rel="noopener">
-            <span class="at">反事实邻域风险场：视觉语言模型的可信选择性安全</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出反事实邻域风险场（CNRF），为视觉语言模型提供有证据支撑的选择性安全框架，说明风险分数的含义以及何时可以信任该分数。</p>
+          <a class="art" href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining" target="_blank" rel="noopener">
+            <span class="at">Indic 预训练扩展：2.8 万亿 token 与开放数据生成流水线</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">一篇 Hugging Face 博客介绍 Indic 预训练扩展工作，使用 2.8 万亿 token，并开放数据生成流水线。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

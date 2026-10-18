@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "title": "信息日报 2026-10-18",
+  "title_en": "Information Daily 2026-10-18",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "特朗普豁免多项对俄制裁，与泽连斯基争执加剧",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "美国政府以“国家安全”为由，暂时放宽国会近期通过的多项对俄限制；此举发生在特朗普与乌克兰总统泽连斯基矛盾升级之际。",
+    "source_en": "BBC World",
+    "title_en": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "summary_en": "The US president temporarily lifts many congressional restrictions on Moscow, citing national security, as his dispute with Ukraine’s Zelensky intensifies.",
+    "original_title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "published_at": "2026-10-18T01:10:25+00:00",
+    "reason": "直接涉及美俄制裁与乌克兰战争外交，是当日地缘安全的重要动态。",
+    "reason_en": "Directly concerns US–Russia sanctions and Ukraine war diplomacy, a key geopolitical development.",
+    "score": 4.0
+  },
+  "path": "papers/2026-10-18.html",
+  "raw_path": "raw/2026-10-18.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt]",
+    "Editorial item ignored in opinion/business-society: topic evidence does not match subsection [https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends]",
+    "Editorial item ignored in opinion/business-society: topic evidence does not match subsection [https://www.numismaticnews.net/gold-now-top-u-s-export]"
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-16</title>
+<title>02 开发与编程 · 信息日报 2026-10-18</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261016 期</span>
+        <span>第 20261018 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月16日 星期五</span></div>
+      <div class="dateline"><span>2026年10月18日 星期日</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,30 +40,36 @@
 
     <header class="pagehead category-head">
       <h2>02 开发与编程</h2>
-      <span class="ed">6 条 / 3 个细分</span>
+      <span class="ed">8 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="开发与编程：Meta 以 AI 代理构建 Forum、Sapienz 获 ISSTA 2026 最具影响力论文奖">
-      <div class="lead-label">开发与编程：Meta 以 AI 代理构建 Forum、Sapienz 获 ISSTA 2026 最具影响力论文奖</div>
-      <p>本期开发与编程聚焦语言框架与基础设施动向。Meta 在构建新应用 Forum 时把 AI 代理引入开发周期，并分享了 2026 世界杯创纪录流量下的基础设施可靠性实践；Sapienz 自动化测试研究因 2016 年论文获得 ISSTA 2026 最具影响力论文奖。工具与开源方面，Simon Willison 发布通过麦克风啁啾声同步两台手机游戏状态的 Chirp Pong 实验，GitHub 则介绍用原生功能自动化审查外部协作者访问并归档陈旧仓库。Vercel 在 Ship 2026 上发布面向代理的基础设施。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：代理优先的购物工具与基础设施更新">
+      <div class="lead-label">开发与编程：代理优先的购物工具与基础设施更新</div>
+      <p>本期开发与编程涵盖 Vercel 与 Shopify 的代理购物店面模板、使用 document.currentScript 进行内联渲染的技巧、web-edit 0.1a2 与 Chirp Pong 实验、GitHub 自动化审查外部协作者权限并归档陈旧仓库、可在浏览器运行的 ESP32 模拟器，以及 Vercel Ship 2026 和 Meta 对 2026 世界杯流量的基础设施回顾。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="languages-frameworks">
         <header class="subsection-head">
           <h3>语言与框架</h3>
-          <span>1 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：Meta 用 AI 代理构建 Forum">
-          <div class="lead-label">语言与框架：Meta 用 AI 代理构建 Forum</div>
-          <p>Meta 为希望更深入参与 Facebook 群组讨论的用户推出新应用 Forum，并在开发周期中引入 AI 代理，采用全新工作方式完成构建。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：代理购物店面与内联脚本渲染">
+          <div class="lead-label">语言与框架：代理购物店面与内联脚本渲染</div>
+          <p>Vercel 发布开源的 Next.js 店面模板 Vercel Shop，让购物代理可直接读取商品信息并使用面向代理设计的购物工具，而不是依赖为人和搜索引擎构建的页面。Lean Rada 介绍利用 document.currentScript 属性，在页面加载时用脚本自身替换内联 script 元素，例如把当前年份写入页面。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering" target="_blank" rel="noopener">
-            <span class="at">Meta 如何用 AI 代理开发新应用 Forum</span>
-            <span class="by">Meta 工程</span>
-            <p class="as">Meta 最新应用 Forum 面向希望深入参与 Facebook 群组讨论的用户。为构建 Forum，Meta 工程师在开发周期中引入 AI 代理，采用全新的工作方式。</p>
+          <a class="art" href="https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers" target="_blank" rel="noopener">
+            <span class="at">Vercel 与 Shopify 将 AI 代理视为一等购物者</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 发布开源 Next.js 店面模板 Vercel Shop，让代理可直接读取商品信息并使用为代理设计的购物工具，而非依赖为人与搜索引擎构建的页面。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/17/document-currentscript" target="_blank" rel="noopener">
+            <span class="at">使用 document.currentScript 实现内联渲染</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Lean Rada 介绍利用 document.currentScript 属性，在页面加载时用脚本自身替换内联 script 元素，例如把当前年份写入页面。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -71,30 +77,36 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>3 条</span>
+          <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Sapienz 获 ISSTA 2026 最具影响力论文奖，Chirp Pong 与 GitHub 仓库治理">
-          <div class="lead-label">开源与工具：Sapienz 获 ISSTA 2026 最具影响力论文奖，Chirp Pong 与 GitHub 仓库治理</div>
-          <p>Ke Mao、Mark Harman 和 Yue Jia 凭借 2016 年关于 Android 多目标自动化测试工具 Sapienz 的论文获得 ISSTA 2026 最具影响力论文奖。Simon Willison 发布实验性双人游戏 Chirp Pong，在两台运行静态 HTML 的手机间通过麦克风发送啁啾声同步游戏状态，验证可行。GitHub 介绍如何利用原生功能自动化审查外部协作者访问权限并归档陈旧仓库，改善共享组织中的安全访问与仓库卫生。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：文件编辑、声波游戏与浏览器模拟器">
+          <div class="lead-label">开源与工具：文件编辑、声波游戏与浏览器模拟器</div>
+          <p>Simon Willison 发布 web-edit 0.1a2，这个微型 Web 应用用于浏览和编辑文件夹内文件，新增文本与图像数据的复制到剪贴板功能。他还尝试在两部手机的静态 HTML 页面间用麦克风接收的啁啾声传输游戏状态，构建双人竞争式 Pong 游戏并称实验可运行。GitHub 工程博客介绍在共享组织中利用原生 GitHub 功能自动审查外部协作者访问权限并归档长期不活跃仓库；开源项目 esp32sim 则提供可在浏览器中运行、无需真实硬件即可执行固件的 ESP32 模拟器。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta" target="_blank" rel="noopener">
-            <span class="at">Sapienz 自动化测试研究获 ISSTA 2026 最具影响力论文奖</span>
-            <span class="by">Meta 工程</span>
-            <p class="as">Ke Mao、Mark Harman 和 Yue Jia 因 2016 年论文《Sapienz: multi-objective automated testing for Android applications》获得 ISSTA 2026 最具影响力论文奖。</p>
+          <a class="art" href="https://simonwillison.net/2026/Oct/17/web-edit" target="_blank" rel="noopener">
+            <span class="at">web-edit 0.1a2 发布</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison 发布 web-edit 0.1a2，这是一个用于浏览和编辑文件夹内文件的微型 Web 应用，新增文本与图像数据的复制到剪贴板功能。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/15/chirp-pong" target="_blank" rel="noopener">
-            <span class="at">Chirp Pong：用麦克风声波在双手机上同步游戏状态的实验</span>
+            <span class="at">Chirp Pong：用声波传输游戏状态的手机双人游戏</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 发布实验性双人游戏 Chirp Pong，在两台运行静态 HTML 的手机间，通过麦克风发送啁啾声（chirps）来同步游戏状态，验证了可行性。</p>
+            <p class="as">Simon Willison 尝试在两部手机的静态 HTML 页面间用麦克风接收的啁啾声传输网络数据，构建双人竞争式 Pong 游戏，并称实验可运行。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org" target="_blank" rel="noopener">
-            <span class="at">GitHub 利用原生功能自动化审查外部协作者访问并归档陈旧仓库</span>
+            <span class="at">GitHub 分享如何自动审查外部协作者权限并归档陈旧仓库</span>
             <span class="by">GitHub 博客</span>
-            <p class="as">GitHub 分享如何利用原生功能自动化审查外部协作者访问权限，并归档陈旧仓库，以改善共享组织中的安全访问和仓库卫生。</p>
+            <p class="as">GitHub 工程博客介绍在共享组织中利用原生 GitHub 功能自动审查外部协作者访问权限，并归档长期不活跃的仓库，以维持仓库卫生与安全。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://github.com/mikroverk/esp32sim" target="_blank" rel="noopener">
+            <span class="at">Esp32sim：在浏览器中运行 ESP32 固件</span>
+            <span class="by">Hacker News</span>
+            <p class="as">开源项目 esp32sim 是一个可在浏览器中运行的 ESP32 模拟器，演示中无需真实硬件即可执行固件，目标是方便实验、测试和模拟 ESP32 软件。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -104,22 +116,22 @@
           <h3>基础设施与数据</h3>
           <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Vercel 发布面向代理的基础设施，Meta 世界杯流量创纪录">
-          <div class="lead-label">基础设施与数据：Vercel 发布面向代理的基础设施，Meta 世界杯流量创纪录</div>
-          <p>Vercel 在 Ship 2026 大会上发布面向代理的基础设施，认为下一代公司将建立在为代理设计的架构上。Meta 则把每四年一次的世界杯视为其基础设施最大规模的计划性压力测试，2026 年世界杯创下历史流量纪录，检验了其大规模可靠性。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：代理优先平台与世界杯流量压力测试">
+          <div class="lead-label">基础设施与数据：代理优先平台与世界杯流量压力测试</div>
+          <p>Vercel 回顾在伦敦、柏林、纽约、悉尼和旧金山举办的 Ship 2026 大会，描述其从塑造 Web 开发转向为 AI 代理提供基础设施，并强调代理优先的设计。Meta 工程博客称 2026 世界杯成为其基础设施最大规模计划性压力测试，并创下历史流量纪录，文章讨论峰值图表与大规模可靠性保障。</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://vercel.com/blog/vercel-ship-2026-recap" target="_blank" rel="noopener">
-            <span class="at">Vercel Ship 2026 回顾：发布面向代理的基础设施</span>
+            <span class="at">Vercel 回顾 Ship 2026：转向面向 AI 代理的基础设施</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 在 Ship 2026 大会上发布面向代理（agents）的基础设施，认为下一代公司将建立在为代理设计的架构上。</p>
+            <p class="as">Vercel 在伦敦、柏林、纽约、悉尼和旧金山举办 Ship 2026 大会，回顾其从塑造 Web 开发转向为 AI 代理提供基础设施，强调代理优先的设计。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale" target="_blank" rel="noopener">
-            <span class="at">2026 世界杯：Meta 基础设施流量创纪录，可靠性经受考验</span>
+            <span class="at">Meta 回顾 2026 世界杯：创纪录流量与大规模可靠性保障</span>
             <span class="by">Meta 工程</span>
-            <p class="as">每四年一次的世界杯是 Meta 基础设施最大规模的计划性压力测试。2026 年世界杯创下历史流量纪录，检验了其大规模可靠性。</p>
+            <p class="as">Meta 工程博客称 2026 世界杯成为其基础设施最大规模计划性压力测试，并创下历史流量纪录，文章讨论峰值图表与大规模可靠性保障。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
