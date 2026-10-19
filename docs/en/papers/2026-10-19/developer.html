@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-19</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261019</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 19, 2026 · Monday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-19/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">4 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Inline Rendering Trick and LLM Plugin Updates">
+      <div class="lead-label">Developer &amp; Programming: Inline Rendering Trick and LLM Plugin Updates</div>
+      <p>This briefing covers Lean Rada&#39;s inline rendering trick using document.currentScript, plus three tool updates: llm-tools-datasette 0.1.1 fixes breakage for plugins that used httpx without directly depending on it after LLM 0.33 moved to httpx2; llm-echo 0.5 updates simulated token accounting for tool calls and system prompts; and web-edit 0.1a2 adds copy-to-clipboard support for text and image data.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks: Inline Rendering with document.currentScript">
+          <div class="lead-label">Languages &amp; Frameworks: Inline Rendering with document.currentScript</div>
+          <p>Lean Rada describes an inline rendering trick using document.currentScript, where a script replaces itself on page load, such as inserting the current year.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/17/document-currentscript" target="_blank" rel="noopener">
+            <span class="at">Inline rendering with document.currentScript</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Lean Rada describes an inline rendering trick using document.currentScript, where a small script replaces itself on page load, such as inserting the current year.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: LLM Plugins and web-edit Updates">
+          <div class="lead-label">Open Source &amp; Tools: LLM Plugins and web-edit Updates</div>
+          <p>llm-tools-datasette 0.1.1 fixes breakage for plugins that used httpx without directly depending on it after LLM 0.33 moved to httpx2; llm-echo 0.5 updates simulated token usage counts to account for tool calls and system prompts; web-edit 0.1a2 adds copy-to-clipboard support for text and image data.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette" target="_blank" rel="noopener">
+            <span class="at">llm-tools-datasette 0.1.1 released with httpx2 compatibility fix</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">llm-tools-datasette 0.1.1 fixes breakage caused when LLM 0.33 moved to httpx2, affecting plugins that used httpx without depending on it directly.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-echo" target="_blank" rel="noopener">
+            <span class="at">llm-echo 0.5 released with updated simulated token accounting</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">llm-echo 0.5, a debug plugin that echoes prompts without a real LLM, updates simulated token usage counts to account for tool calls and system prompts.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/17/web-edit" target="_blank" rel="noopener">
+            <span class="at">web-edit 0.1a2 released with copy-to-clipboard support</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">web-edit 0.1a2 adds copy-to-clipboard support for text and image data; the small web app is used to browse and edit files in a folder, including across machines.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

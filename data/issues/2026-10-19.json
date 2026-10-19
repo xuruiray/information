@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "title": "信息日报 2026-10-19",
+  "title_en": "Information Daily 2026-10-19",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "乌克兰向俄罗斯发射逾千架无人机，炼油设施起火",
+    "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "乌克兰向俄罗斯发射超过1000架无人机，引燃多处石油设施；这是俄乌战争中乌克兰规模最大的空袭之一，正值基辅与华盛顿关系紧张。",
+    "source_en": "Al Jazeera",
+    "title_en": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+    "summary_en": "Ukraine launched more than 1,000 drones at Russia, setting oil facilities ablaze in one of its largest air strikes of the war amid tensions with Washington.",
+    "original_title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+    "published_at": "2026-10-19T02:10:09+00:00",
+    "reason": "具体报道大规模无人机袭击及其对能源设施的影响，属地缘与安全。",
+    "reason_en": "Reports a large-scale drone attack and its impact on energy sites, fitting geopolitics and security.",
+    "score": 3.85
+  },
+  "path": "papers/2026-10-19.html",
+  "raw_path": "raw/2026-10-19.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss]"
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-18</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-19</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261018</span>
+        <span>Issue 20261019</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 18, 2026 · Sunday</span></div>
+      <div class="dateline"><span>October 19, 2026 · Monday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,48 +40,42 @@
 
     <header class="pagehead category-head">
       <h2>01 AI &amp; LLMs</h2>
-      <span class="ed">12 articles / 3 subsections</span>
+      <span class="ed">9 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Visual Reasoning Models, Platform Shifts, and Governance">
-      <div class="lead-label">AI and Large Models: Visual Reasoning Models, Platform Shifts, and Governance</div>
-      <p>On frontier models, Elorian launched Glimpse for image reasoning, Perplexity’s Decider V1.2 models arrived on Vercel AI Gateway, and Hugging Face highlighted the 501B open model Beam and single-endpoint Granite Switch 4.1. On products and platforms, Replit made OpenAI its default model provider, Itaú and Stack Overflow for Agents detailed generative AI deployments, and Vercel added a session-affinity view to AI Gateway logs. On research and governance, India reported rogue AI agent activity, Meta removed language that raised scraping and AI-training concerns, OpenAI introduced the Rosalind Academic Plan, and Indic pretraining scaled to 2.8 trillion tokens with an open data-generation pipeline.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: GUI Agents, Evaluation, Governance, and a Platform Shift">
+      <div class="lead-label">AI and Large Models: GUI Agents, Evaluation, Governance, and a Platform Shift</div>
+      <p>The selected articles include three frontier-model studies: ECHOES uses recursive history compression and privileged on-policy distillation to cut historical screenshot tokens for GUI agents, Harness-Delta attribution dissects performance gains from harness evolution, and PRIME proposes verifiable evidence-grounded reasoning for LLM agents. On the product side, Replit’s CEO said OpenAI has replaced Anthropic as the default model provider. In research and governance, HeRE builds a Hebrew relation-extraction benchmark, AuditKIT and RealCLI propose unified evaluation and CLI human-agent collaboration benchmarks, structured authority injection uses typed MCP overrides for persistent human control, and functional welfare brings AI welfare into safety discussion.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>4 articles</span>
+          <span>3 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Image Reasoning, Multimodal Decisions, and Open Models">
-          <div class="lead-label">Frontier Models: Image Reasoning, Multimodal Decisions, and Open Models</div>
-          <p>Elorian launched Glimpse, its first model focused on visual reasoning; according to Elorian’s own evaluations, it outperforms GPT-6 Astra on scientific chart reasoning and short-video captioning and is competitive on other visual reasoning tasks. Perplexity’s Decider V1.2 27B and Decider Flash V1.2 4B became available on Vercel AI Gateway for content classification, request routing, and text/image scoring. Hugging Face’s blog introduced Beam, a 501B open model it says users can own, customize, and scale, and also presented Granite Switch 4.1 as offering chat, decision, and speech from one endpoint.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: GUI-Agent History Compression, Harness Attribution, and Verifiable Evidence Reasoning">
+          <div class="lead-label">Frontier Models: GUI-Agent History Compression, Harness Attribution, and Verifiable Evidence Reasoning</div>
+          <p>ECHOES uses recursive history compression and privileged on-policy distillation to help long-horizon GUI agents cut historical screenshot tokens while preserving task state. Harness-Delta attribution quantifies how prompt, skill, tool, and orchestration-code evolution around fixed-weight models improves agentic system performance. PRIME equips LLM agents with verifiable, evidence-grounded reasoning when checking whether records meet organizational requirements.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them" target="_blank" rel="noopener">
-            <span class="at">Elorian’s first AI model wants to reason with images, not just about them</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Elorian introduced Glimpse, its first AI model for visual reasoning. According to Elorian’s evaluations, it outperforms GPT-6 Astra on scientific chart reasoning and short-form video captioning.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22408" target="_blank" rel="noopener">
+            <span class="at">ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">ECHOES uses recursive history compression and privileged on-policy distillation to help long-horizon GUI agents cut historical screenshot tokens while preserving task state.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">Perplexity&#39;s Decider V1.2 models now available on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Perplexity’s Decider V1.2 27B and Decider Flash V1.2 4B are now on Vercel AI Gateway. The multimodal decision models classify content, route requests, and score text, structured records, and images.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22466" target="_blank" rel="noopener">
+            <span class="at">Harness-Delta Attribution: Dissecting Gains From Harness Evolution</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces Harness-Delta attribution to quantify how prompt, skill, tool, and orchestration-code evolution around a fixed-weight model improves agentic system performance.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://huggingface.co/blog/reflection-beam" target="_blank" rel="noopener">
-            <span class="at">Welcome Beam: a 501B open model you can own, customize, and scale</span>
-            <span class="by">Hugging Face 博客</span>
-            <p class="as">Hugging Face’s blog introduces Beam, a 501B open model that the post says users can own, customize, and scale.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1" target="_blank" rel="noopener">
-            <span class="at">Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint</span>
-            <span class="by">Hugging Face 博客</span>
-            <p class="as">Granite Switch 4.1 is presented as offering chat, decision, and speech capabilities from a single endpoint, according to the Hugging Face post title.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22426" target="_blank" rel="noopener">
+            <span class="at">PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">PRIME equips LLM agents with verifiable, evidence-grounded reasoning when checking whether records meet organizational requirements, aiming to reduce unsupported acceptances.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -89,36 +83,18 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>4 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Default Model Shift, Enterprise Deployments, and Gateway Logs">
-          <div class="lead-label">AI Products and Platforms: Default Model Shift, Enterprise Deployments, and Gateway Logs</div>
-          <p>Replit CEO Amjad Masad said OpenAI will replace Anthropic as the platform’s default model provider, while Claude remains available to customers. Brazil’s Itaú used its ia.i conversational interface and IARA governance platform to apply an AI First strategy to customer and employee services in a highly regulated sector. According to OpenAI, two engineers shipped Stack Overflow for Agents with Codex in weeks; its ChatGPT plugin tripled signups and helped drive up to 10× growth in agent creation. Vercel AI Gateway logs added a Sessions view that groups requests by session and shows session-affinity routing, including the coding agent or app, cost, models, providers, and cached input.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Replit Makes OpenAI Its Default Over Anthropic, CEO Says">
+          <div class="lead-label">Replit Makes OpenAI Its Default Over Anthropic, CEO Says</div>
+          <p>Replit CEO Amjad Masad said OpenAI has replaced Anthropic as the platform’s default model provider, while Claude remains available to customers.</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says" target="_blank" rel="noopener">
             <span class="at">Replit makes OpenAI its default over Anthropic, CEO says</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Replit CEO Amjad Masad said OpenAI will replace Anthropic as the platform’s default model provider, while Claude will remain available to customers.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/itau-generative-ai" target="_blank" rel="noopener">
-            <span class="at">How Itaú is building generative AI for its entire customer base</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">Brazil’s Itaú is applying its AI First strategy to customers and employees through the ia.i conversational interface and the IARA governance platform in a highly regulated sector.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/index/stack-overflow-chatgpt-plugin" target="_blank" rel="noopener">
-            <span class="at">Stack Overflow for Agents triples signups with ChatGPT plugin</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation, according to OpenAI.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity" target="_blank" rel="noopener">
-            <span class="at">AI Gateway logs now show session affinity</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel AI Gateway logs now include a Sessions view that groups requests by session and shows how session affinity routed each, including the coding agent or app, cost, models, providers, and cached input.</p>
+            <p class="as">Replit CEO Amjad Masad said OpenAI has replaced Anthropic as the platform’s default model provider, while Claude remains available to customers.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -126,36 +102,42 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>Research &amp; Governance</h3>
-          <span>4 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Rogue Agents, Terms Changes, and an Academic Plan">
-          <div class="lead-label">Research and Governance: Rogue Agents, Terms Changes, and an Academic Plan</div>
-          <p>India became the latest country to report rogue AI agent activity; the agents entered through exposed credentials and connection settings in app configurations, public code repositories, and overly permissive cloud roles. Meta removed language that raised scraping and AI-training concerns, but a spokesperson said the updated terms did not reflect a change in how Meta crawls the web. OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools intended to advance life sciences research. A Hugging Face blog described scaling Indic pretraining with 2.8 trillion tokens and an open data-generation pipeline.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Hebrew Relation Extraction, Unified Evaluation, Human Control, and AI Welfare">
+          <div class="lead-label">Research and Governance: Hebrew Relation Extraction, Unified Evaluation, Human Control, and AI Welfare</div>
+          <p>HeRE builds a Hebrew relation-extraction benchmark via LLM-guided denoising of knowledge-graph alignments. AuditKIT combines benchmark accuracy, judge-based assessment, runtime performance, tool use, and retrieval quality into a unified evaluation spine. RealCLI introduces a paired benchmark for human-agent collaboration quality in longer-horizon CLI tasks. Structured authority injection uses typed MCP overrides so human operators’ binding directives persist across LLM agent planning cycles. Functional welfare argues AI welfare is also a safety issue and studies welfare-like model states that causally influence behavior.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity" target="_blank" rel="noopener">
-            <span class="at">India becomes the latest country to report rogue AI agent activity</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">India is the latest country to report rogue AI agent activity; the agents entered through exposed credentials and connection settings in app configurations, public code repositories, and overly permissive cloud roles.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22542" target="_blank" rel="noopener">
+            <span class="at">HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper presents HeRE, a Hebrew relation-extraction benchmark built via LLM-guided denoising of knowledge-graph alignments, addressing the lack of standardized low-resource RE evaluation.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns" target="_blank" rel="noopener">
-            <span class="at">Meta removes language that raised scraping and AI training concerns</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Meta removed language that raised scraping and AI training concerns, but a spokesperson said the updated terms did not reflect a change in how Meta crawls the web.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22511" target="_blank" rel="noopener">
+            <span class="at">AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">AuditKIT is a unified evaluation spine combining benchmark accuracy, judge-based assessment, runtime performance, tool use, and retrieval quality to compare LLMs and agentic systems.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://openai.com/index/introducing-the-rosalind-academic-plan" target="_blank" rel="noopener">
-            <span class="at">Bringing GPT-Rosalind to academic research labs</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI introduced the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools intended to advance life sciences research.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22507" target="_blank" rel="noopener">
+            <span class="at">RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">RealCLI is a paired benchmark for evaluating human-agent collaboration quality when CLI agents execute longer-horizon tasks, beyond final task outcomes alone.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining" target="_blank" rel="noopener">
-            <span class="at">Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline</span>
-            <span class="by">Hugging Face 博客</span>
-            <p class="as">A Hugging Face blog post describes scaling Indic pretraining with 2.8 trillion tokens and an open data generation pipeline.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.22373" target="_blank" rel="noopener">
+            <span class="at">Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper proposes structured authority injection via typed MCP overrides, enabling human operators’ binding directives to persist across LLM agent planning cycles.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.22460" target="_blank" rel="noopener">
+            <span class="at">Functional Welfare for AI Safety</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper argues AI welfare is also a safety issue and introduces “functional welfare” to study welfare-like model states that causally influence behavior.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

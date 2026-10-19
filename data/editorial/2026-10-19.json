@@ -1,0 +1,1967 @@
+{
+  "date": "2026-10-19",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.22408",
+              "title": "ECHOES：用递归历史压缩与特权在线策略蒸馏让GUI智能体看见当前图像之外",
+              "summary": "提出ECHOES方法，用递归历史压缩和特权在线策略蒸馏，让长程GUI智能体减少历史截图令牌并保留任务状态。",
+              "title_en": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+              "summary_en": "ECHOES uses recursive history compression and privileged on-policy distillation to help long-horizon GUI agents cut historical screenshot tokens while preserving task state.",
+              "topic_evidence": "Long-horizon GUI agents rely on visual history to maintain task states",
+              "reason": "提出长程GUI智能体的历史压缩与蒸馏方法，直接关系智能体推理成本与可靠性。",
+              "reason_en": "Proposes a history-compression and distillation method for long-horizon GUI agents, directly relevant to inference cost and reliability.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22466",
+              "title": "Harness-Delta归因：拆解智能体Harness演化带来的性能增益",
+              "summary": "提出Harness-Delta归因，拆解固定权重模型外围的提示、技能、工具与编排代码演化对智能体性能提升的贡献。",
+              "title_en": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+              "summary_en": "The paper introduces Harness-Delta attribution to quantify how prompt, skill, tool, and orchestration-code evolution around a fixed-weight model improves agentic system performance.",
+              "topic_evidence": "Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model",
+              "reason": "研究不更新模型权重时智能体外围优化带来的增益来源，属于智能体系统工程方法。",
+              "reason_en": "Examines where gains come from when optimizing an agent harness without updating model weights, a concrete agent-engineering method.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22426",
+              "title": "PRIME：面向LLM智能体的可验证证据推理",
+              "summary": "提出PRIME，使LLM智能体在核查记录是否符合组织要求时，能给出可验证且基于证据的推理。",
+              "title_en": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
+              "summary_en": "PRIME equips LLM agents with verifiable, evidence-grounded reasoning when checking whether records meet organizational requirements, aiming to reduce unsupported acceptances.",
+              "topic_evidence": "LLM agents are used to check records against an organization's requirements",
+              "reason": "针对LLM智能体核查记录时的证据推理与可验证性提出方法，属智能体可靠性研究。",
+              "reason_en": "Addresses evidence-grounded, verifiable reasoning for LLM agents checking records, relevant to agent reliability.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+              "title": "Replit CEO称已将OpenAI设为默认模型提供商，取代Anthropic",
+              "summary": "Replit CEO Masad表示OpenAI取代Anthropic成为平台默认模型提供商，Claude仍向客户开放。",
+              "title_en": "Replit makes OpenAI its default over Anthropic, CEO says",
+              "summary_en": "Replit CEO Amjad Masad said OpenAI has replaced Anthropic as the platform’s default model provider, while Claude remains available to customers.",
+              "topic_evidence": "OpenAI would replace Anthropic as its default model provider",
+              "reason": "报道主要AI编程平台更换默认模型供应商，直接影响开发者使用的模型选择，属AI产品平台动态。",
+              "reason_en": "Reports a concrete provider switch at a major AI coding platform, affecting model choice for developers.",
+              "score": 5.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.22542",
+              "title": "HeRE：通过LLM引导的知识图谱对齐去噪构建希伯来语关系抽取基准",
+              "summary": "提出希伯来语关系抽取基准HeRE，利用LLM引导去噪知识图谱对齐，填补低资源语言RE标准化评测的缺口。",
+              "title_en": "HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments",
+              "summary_en": "The paper presents HeRE, a Hebrew relation-extraction benchmark built via LLM-guided denoising of knowledge-graph alignments, addressing the lack of standardized low-resource RE evaluation.",
+              "topic_evidence": "a significant gap remains in assessing their RE performance in low-resource languages",
+              "reason": "构建低资源语言关系抽取基准，属评测基准与数据集研究。",
+              "reason_en": "Builds a low-resource relation-extraction benchmark, relevant to evaluation benchmarks and datasets.",
+              "score": 8.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22511",
+              "title": "AuditKIT：用于基准测试、评判和比较大模型与智能体系统的统一评估框架",
+              "summary": "提出AuditKIT统一评估框架，整合基准准确率、裁判评估、运行时性能、工具使用与检索质量，用于比较LLM与智能体系统。",
+              "title_en": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+              "summary_en": "AuditKIT is a unified evaluation spine combining benchmark accuracy, judge-based assessment, runtime performance, tool use, and retrieval quality to compare LLMs and agentic systems.",
+              "topic_evidence": "Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality",
+              "reason": "针对LLM与智能体系统比较中的接口和指标不一致问题，提出统一评估框架。",
+              "reason_en": "Proposes a unified evaluation framework to address inconsistent interfaces and metrics when comparing LLMs and agentic systems.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22507",
+              "title": "RealCLI：面向CLI智能体人机协作的统一评估基准",
+              "summary": "提出RealCLI配对基准，评估CLI智能体执行长程任务时的人机协作质量，而不只检查最终任务结果。",
+              "title_en": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+              "summary_en": "RealCLI is a paired benchmark for evaluating human-agent collaboration quality when CLI agents execute longer-horizon tasks, beyond final task outcomes alone.",
+              "topic_evidence": "CLI agents increasingly execute longer-horizon tasks",
+              "reason": "提出评估CLI智能体运行时人机协作质量的基准，补足只看任务结果的评测盲区。",
+              "reason_en": "Introduces a benchmark for runtime human-agent collaboration quality in CLI-agent tasks, beyond outcome-only evaluation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22373",
+              "title": "结构化授权注入：通过类型化MCP覆盖实现LLM智能体的持续人类控制",
+              "summary": "提出基于类型化MCP覆盖的结构化授权注入机制，让人类操作者的约束性指令在LLM智能体规划周期中持续生效。",
+              "title_en": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+              "summary_en": "The paper proposes structured authority injection via typed MCP overrides, enabling human operators’ binding directives to persist across LLM agent planning cycles.",
+              "topic_evidence": "no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles",
+              "reason": "提出协议层的人类控制机制，属智能体安全与治理研究。",
+              "reason_en": "Proposes a protocol-level human-control mechanism, relevant to agent safety and governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.22460",
+              "title": "面向AI安全的功能性福利",
+              "summary": "论文主张AI福利也是安全问题，提出“功能性福利”概念，研究模型福利样状态如何因果影响其行为。",
+              "title_en": "Functional Welfare for AI Safety",
+              "summary_en": "The paper argues AI welfare is also a safety issue and introduces “functional welfare” to study welfare-like model states that causally influence behavior.",
+              "topic_evidence": "AI welfare is generally treated purely as an ethical issue rather than also as a safety issue",
+              "reason": "将AI福利从纯伦理议题扩展到安全议题，提出可讨论的功能性福利概念。",
+              "reason_en": "Frames AI welfare as a safety issue and introduces functional welfare as a concept for analysis.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+              "title": "用 document.currentScript 实现内联渲染",
+              "summary": "Lean Rada 介绍了一种利用 document.currentScript 实现内联渲染的技巧：页面加载时，脚本会替换自身，例如把占位内容替换为当前年份。",
+              "title_en": "Inline rendering with document.currentScript",
+              "summary_en": "Lean Rada describes an inline rendering trick using document.currentScript, where a small script replaces itself on page load, such as inserting the current year.",
+              "topic_evidence": "replaces itself when the page loads",
+              "reason": "文章给出了具体的 JavaScript 技巧和示例，直接属于语言与框架版块。",
+              "reason_en": "The post presents a concrete JavaScript technique and example, fitting the languages and frameworks subsection.",
+              "score": 4.1
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+              "title": "llm-tools-datasette 发布 0.1.1，修复 httpx2 兼容问题",
+              "summary": "llm-tools-datasette 发布 0.1.1，修复因 LLM 0.33 切换到 httpx2 后，未直接依赖 httpx 的插件失效的问题。",
+              "title_en": "llm-tools-datasette 0.1.1 released with httpx2 compatibility fix",
+              "summary_en": "llm-tools-datasette 0.1.1 fixes breakage caused when LLM 0.33 moved to httpx2, affecting plugins that used httpx without depending on it directly.",
+              "topic_evidence": "When I switched LLM over to httpx2 in LLM 0.33",
+              "reason": "该条目是一个具体插件的版本发布，并说明了兼容性修复，属于开源与工具版块。",
+              "reason_en": "This is a specific plugin release describing a compatibility fix, fitting the open-source and tools subsection.",
+              "score": 5.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+              "title": "llm-echo 0.5 发布：调试插件更新模拟 token 统计",
+              "summary": "llm-echo 0.5 发布，这个调试插件不调用真实 LLM、只回显输入提示词；新版更新模拟 token 用量统计，以计入工具调用和系统提示等。",
+              "title_en": "llm-echo 0.5 released with updated simulated token accounting",
+              "summary_en": "llm-echo 0.5, a debug plugin that echoes prompts without a real LLM, updates simulated token usage counts to account for tool calls and system prompts.",
+              "topic_evidence": "updates the simulated token usage counts to take tool calls, system prompts",
+              "reason": "该条目是调试插件的具体版本发布，并说明了 token 统计更新，属于开源与工具版块。",
+              "reason_en": "This is a concrete debug plugin release with updated token accounting, fitting the open-source and tools subsection.",
+              "score": 5.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+              "title": "web-edit 0.1a2 发布，新增复制到剪贴板",
+              "summary": "web-edit 0.1a2 发布，为文本和图像数据增加复制到剪贴板功能；该小型 Web 应用用于浏览和编辑文件夹内文件，作者主要用它跨机器编辑。",
+              "title_en": "web-edit 0.1a2 released with copy-to-clipboard support",
+              "summary_en": "web-edit 0.1a2 adds copy-to-clipboard support for text and image data; the small web app is used to browse and edit files in a folder, including across machines.",
+              "topic_evidence": "I added a \"copy to clipboard\" option for both text and image data.",
+              "reason": "该条目是具体小型 Web 编辑工具的版本发布，并说明新增功能，属于开源与工具版块。",
+              "reason_en": "This is a specific release of a small web editing tool with a new feature, fitting the open-source and tools subsection.",
+              "score": 4.1
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+              "title": "NASA罗马空间望远镜成像质量超预期近30%",
+              "summary": "工程师将镜面移动约人发丝宽度的十六分之一，使罗马空间望远镜的广域仪器接近完美对准，成像质量比预期高近30%。",
+              "title_en": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+              "summary_en": "Engineers moved a mirror by one-sixteenth the width of a human hair to align the Roman Space Telescope’s Wide Field Instrument, yielding image quality nearly 30% better than expected.",
+              "topic_evidence": "exceeded expectations after engineers made incredibly tiny adjustments",
+              "reason": "具体报道罗马空间望远镜通过微调镜面实现接近完美对准，成像质量比预期高近30%，属于航天硬件与仪器进展。",
+              "reason_en": "Concrete report on Roman telescope mirror adjustment achieving near-perfect alignment and image quality nearly 30% above expectations, a space hardware and instrument advance.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+              "title": "韦布望远镜揭示20光年外行星的三种重复天气状态",
+              "summary": "詹姆斯·韦布空间望远镜发现，20光年外一颗湍流天体的大气呈现三种反复出现的状态，温度变化和云层移动驱动这些天气模式。",
+              "title_en": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+              "summary_en": "The James Webb Space Telescope found that a turbulent world 20 light-years away has three recurring atmospheric states, driven by temperature changes and shifting clouds.",
+              "topic_evidence": "three recurring atmospheric states driven by temperature changes and shifting clouds",
+              "reason": "报道韦布望远镜对20光年外天体天气的具体观测结果，识别出三种重复大气状态，属于空间科学发现。",
+              "reason_en": "Reports specific Webb observations of weather on a world 20 light-years away, identifying three recurring atmospheric states, a space science finding.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+              "title": "Mrk 501星系中心两个超大质量黑洞或百年内碰撞",
+              "summary": "天文学家在Mrk 501星系中心发现第二个超大质量黑洞的迹象，二者约每121天绕行一周，观测表明它们可能在约100年内碰撞。",
+              "title_en": "Two monster black holes could collide in just 100 years",
+              "summary_en": "Astronomers found evidence of a second supermassive black hole at the center of galaxy Mrk 501; the pair appears to orbit every 121 days and may collide within about 100 years.",
+              "topic_evidence": "completes an orbit every 121 days",
+              "reason": "基于Mrk 501的观测给出第二个超大质量黑洞证据及121天轨道周期，并讨论约百年内碰撞可能，事件具体。",
+              "reason_en": "Presents evidence for a second supermassive black hole in Mrk 501, a 121-day orbit and possible collision within about 100 years, with specific observations.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+              "title": "5.5万美元人形机器人能装洗碗机吗？记者体验两台家用机器人",
+              "summary": "《市场观察》记者用一下午体验Tau Robotics的两台人形机器人，测试其能否装载洗碗机；它们能吸尘和擦台面，但幕后仍需人工协助。",
+              "title_en": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+              "summary_en": "A MarketWatch reporter spent an afternoon with two Tau Robotics humanoids to see if they could load a dishwasher; they vacuumed and wiped counters, but humans helped behind the scenes.",
+              "topic_evidence": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters",
+              "reason": "记者实测Tau Robotics人形机器人在家庭清洁中的能力与限制，直接涉及机器人产品，而非泛泛趋势。",
+              "reason_en": "A reporter tests Tau Robotics humanoids in home cleaning, directly covering robot capabilities and limits rather than a generic trend.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+              "title": "发现第三种磁性形式的科学家获重要物理学奖",
+              "summary": "物理学家因揭示“交错磁性”而获奖；这种新磁性形式挑战百余年的既有物理，并可能影响未来计算、电子学和量子研究。",
+              "title_en": "Scientists who discovered a third form of magnetism win major physics prize",
+              "summary_en": "Physicists have won a major prize for uncovering altermagnetism, a third form of magnetism that challenges more than a century of established physics and could affect future computing, electronics and quantum research.",
+              "topic_evidence": "Called altermagnetism",
+              "reason": "报道交错磁性研究获重要物理学奖，并说明其挑战百余年物理及潜在计算影响，科学事件明确。",
+              "reason_en": "Covers a major physics prize for altermagnetism, explaining how it challenges established physics and may affect computing, a clear science event.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+              "title": "物理学家创造“分数量子费米海”新量子态",
+              "summary": "物理学家在超冷原子中发现“分数量子费米海”，其高度激发却出人意料地有序，挑战现有量子理论，并暗示存在奇异的准粒子。",
+              "title_en": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+              "summary_en": "Physicists discovered a new quantum state in ultracold atoms, a “fractional Fermi sea” that is highly excited yet surprisingly orderly, challenging established quantum theories and hinting at exotic quasiparticles.",
+              "topic_evidence": "highly excited yet surprisingly orderly configuration",
+              "reason": "报道超冷原子中“分数量子费米海”新量子态的发现及其对量子理论的挑战，结果具体。",
+              "reason_en": "Reports discovery of a “fractional Fermi sea” in ultracold atoms and its challenge to quantum theory, with a specific result.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+              "title": "科学家发现“年轻蛋白”可让衰老脑细胞恢复活力",
+              "summary": "研究发现一种与年轻状态相关的蛋白能保护大脑免疫细胞免受衰老衰退；在老年小鼠中恢复该蛋白可增强清除碎片能力并减轻炎症。",
+              "title_en": "Scientists find a youth protein that helps aging brain cells act young again",
+              "summary_en": "A protein linked to youth protects the brain’s immune cells from age-related decline; restoring it in older mice improved debris clearance and reduced inflammation, suggesting possible future treatments for brain aging.",
+              "topic_evidence": "Restoring the protein in older mice improved the cells’ ability to clear debris",
+              "reason": "报道恢复年轻相关蛋白改善老年小鼠脑免疫细胞清除碎片和炎症的具体实验，属于衰老与神经科学研究。",
+              "reason_en": "Reports experiments restoring a youth-linked protein in older mice, improving brain immune cell debris clearance and inflammation, relevant aging and neuroscience research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+              "title": "科学家发现与抑郁症持久缓解相关的三条脑通路",
+              "summary": "研究人员在接受脑深部刺激的难治性抑郁症患者中发现三条与持久改善相关的脑通路；两年未改善者则共同表现出关键脑连接刺激不足。",
+              "title_en": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+              "summary_en": "Researchers identified three brain pathways linked to lasting improvement in people receiving deep brain stimulation for treatment-resistant depression; patients who did not improve after two years shared insufficient stimulation of a key connection.",
+              "topic_evidence": "three brain pathways linked to lasting improvements",
+              "reason": "报道脑深部刺激治疗难治性抑郁症中三条脑通路与两年未改善者的刺激不足模式，临床发现具体。",
+              "reason_en": "Reports three brain pathways tied to lasting relief under deep brain stimulation for treatment-resistant depression and a pattern of insufficient stimulation in non-responders.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/vampire-crawlers",
+              "title": "Vampire Crawlers 在 Product Hunt 上线",
+              "summary": "Product Hunt 收录 Vampire Crawlers，简介称其为来自《Vampire Survivors》的 Turbo Wildcard，并附讨论链接；材料未披露更多产品细节。",
+              "title_en": "Vampire Crawlers launches on Product Hunt",
+              "summary_en": "Vampire Crawlers is listed on Product Hunt; its blurb calls it the Turbo Wildcard from Vampire Survivors and links to discussion. No further product details are provided.",
+              "topic_evidence": "The Turbo Wildcard from Vampire Survivors",
+              "reason": "Product Hunt 新产品条目，简介给出具体产品来源与定位，符合新产品与增长。",
+              "reason_en": "A new Product Hunt listing whose blurb identifies a specific product and its origin, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/latch-7",
+              "title": "Latch：走到钥匙旁才能解锁的应用拦截器",
+              "summary": "Latch 在 Product Hunt 发布，定位为应用拦截器：用户需走到实体钥匙旁才能解锁，简介附讨论链接。",
+              "title_en": "Latch: an app blocker unlocked by walking to your key",
+              "summary_en": "Latch launched on Product Hunt as an app blocker that users unlock by walking to their key; the listing links to a discussion thread.",
+              "topic_evidence": "The app blocker you unlock by walking to your key",
+              "reason": "Product Hunt 新产品条目，简介清楚说明独特的解锁机制，属于新产品与增长。",
+              "reason_en": "A Product Hunt launch with a clear, specific unlock mechanism, relevant to new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/microsoft-xbox-series-s",
+              "title": "XBOX Nano Controller：口袋大小的 18 输入无线手柄",
+              "summary": "Product Hunt 出现 XBOX Nano Controller，简介称其为口袋大小的无线游戏手柄，保留全部 18 个输入。",
+              "title_en": "XBOX Nano Controller: a pocket-sized wireless gamepad with 18 inputs",
+              "summary_en": "The XBOX Nano Controller is listed on Product Hunt as a pocket-sized wireless gamepad that retains all 18 inputs.",
+              "topic_evidence": "Pocket-sized wireless gamepad with all 18 inputs",
+              "reason": "Product Hunt 新产品条目，简介给出尺寸和输入数量等具体产品信息，符合新产品与增长。",
+              "reason_en": "A Product Hunt listing with concrete details on size and input count, fitting new products and growth.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+              "title": "俄罗斯境内反普京破坏活动的隐秘世界",
+              "summary": "两名男子向BBC讲述，他们在俄乌战争期间为乌克兰情报部门提供支持，参与俄罗斯境内的破坏活动。",
+              "title_en": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+              "summary_en": "Two men tell the BBC they have been supporting Ukrainian intelligence during the war by taking part in sabotage operations inside Russia.",
+              "topic_evidence": "support Ukrainian intelligence during the war",
+              "reason": "直接涉及俄乌战争中的地下破坏行动与情报支持，属于地缘与安全。",
+              "reason_en": "Directly concerns covert sabotage and intelligence support in the Russia-Ukraine war, fitting geopolitics and security.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
+              "title": "伊朗战争直播：德黑兰称内塔尼亚胡寻求继续战争，也门战事升级",
+              "summary": "伊朗外长阿拉格齐称，以色列总理内塔尼亚胡在选举前寻求扩大战争；与此同时，也门最新战斗加剧。",
+              "title_en": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
+              "summary_en": "Iran's foreign minister says Israeli Prime Minister Benjamin Netanyahu seeks more war before elections, while the latest fighting escalates in Yemen.",
+              "topic_evidence": "Netanyahu seeks more war before elections",
+              "reason": "涉及以色列、伊朗与也门的最新战事和选举前政治判断，属中东地缘安全。",
+              "reason_en": "Covers latest Israel-Iran-Yemen tensions and pre-election political claims, central to Middle East security.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+              "title": "乌克兰向俄罗斯发射逾千架无人机，炼油设施起火",
+              "summary": "乌克兰向俄罗斯发射超过1000架无人机，引燃多处石油设施；这是俄乌战争中乌克兰规模最大的空袭之一，正值基辅与华盛顿关系紧张。",
+              "title_en": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+              "summary_en": "Ukraine launched more than 1,000 drones at Russia, setting oil facilities ablaze in one of its largest air strikes of the war amid tensions with Washington.",
+              "topic_evidence": "over 1,000 drones at Russia, setting oil facilities ablaze",
+              "reason": "具体报道大规模无人机袭击及其对能源设施的影响，属地缘与安全。",
+              "reason_en": "Reports a large-scale drone attack and its impact on energy sites, fitting geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
+              "title": "特朗普为俄罗斯制裁减免辩护，并抨击泽连斯基",
+              "summary": "美国总统特朗普为俄罗斯制裁减免辩护，指责乌克兰领导人不想结束战争；泽连斯基则与华盛顿特使会谈。",
+              "title_en": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+              "summary_en": "US President Donald Trump defended easing sanctions on Russia and accused Ukraine's leader of not wanting to end the war, as Zelenskyy met Washington's envoys.",
+              "topic_evidence": "accuses Ukrainian leader of not wanting to end the war",
+              "reason": "涉及美国对俄制裁与美乌领导人公开分歧，属战争外交与安全。",
+              "reason_en": "Concerns US sanctions policy toward Russia and an open US-Ukraine rift, central to war diplomacy and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+              "title": "乌克兰与美国因“星盾”服务产生分歧",
+              "summary": "泽连斯基称，他认为美国政府导致乌军失去对关键卫星通信服务的正常访问；美乌围绕“星盾”出现争执。",
+              "title_en": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+              "summary_en": "Ukrainian President Volodymyr Zelenskyy says he believes the US government is behind his military's loss of normal access to a key satellite communications service.",
+              "topic_evidence": "loss of normal access to the key satellite communications service",
+              "reason": "涉及美乌在关键军事通信服务上的争议，直接影响乌克兰战场能力。",
+              "reason_en": "Covers a US-Ukraine dispute over critical military communications that directly affects Ukraine's battlefield capabilities.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+              "title": "法国政府在周末大规模暴力后承受压力",
+              "summary": "法国生活成本抗议演变为骚乱和劫掠后，政治紧张加剧，政府面临压力；公共服务的困境也加剧不满。",
+              "title_en": "France's government under pressure after weekend of widespread violence",
+              "summary_en": "Political tension has gripped France after rioting marred cost-of-living protests and public services are struggling, leaving the government under pressure.",
+              "topic_evidence": "rioting marred protests over the cost of living",
+              "reason": "聚焦法国大规模抗议后的政府压力与公共政策困境，属政府与政策。",
+              "reason_en": "Focuses on government pressure and policy challenges after widespread protests in France.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader?traffic_source=rss",
+              "title": "委内瑞拉反对派再次支持马查多作为领导人",
+              "summary": "流亡的诺贝尔奖得主马查多呼吁委内瑞拉举行新选举并允许她回国，反对派重申对她的领导支持。",
+              "title_en": "Venezuela opposition renews support for Maria Corina Machado as leader",
+              "summary_en": "Venezuela's opposition has renewed support for exiled Nobel laureate María Corina Machado, who has petitioned for new elections and for permission to return.",
+              "topic_evidence": "petitioned for new elections in Venezuela and for the country to allow her return",
+              "reason": "涉及委内瑞拉反对派领导层与选举诉求，属政府与政策。",
+              "reason_en": "Concerns Venezuela's opposition leadership and calls for new elections, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+              "title": "钢铁老板称欧盟针对中国的关税波及乌克兰",
+              "summary": "乌克兰一家大型钢铁企业负责人表示，欧盟旨在遏制廉价进口的措施把乌克兰“一并捆绑”，使乌方受到波及。",
+              "title_en": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+              "summary_en": "The head of one of Ukraine's largest steel companies says EU measures aimed at curbing cheap imports have 'bundled together' Ukraine, hitting the country.",
+              "topic_evidence": "country has been \"bundled together\" in measures aimed at curbing cheap imports",
+              "reason": "报道欧盟贸易政策对乌克兰钢铁业的实际影响，属政府与政策。",
+              "reason_en": "Reports the practical impact of EU trade policy on Ukraine's steel sector, fitting government and policy.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+              "title": "抗议者打断本-格维尔活动，迫使其离开舞台",
+              "summary": "以色列抗议者在特拉维夫一场大学活动中打断极右翼国家安全部长本-格维尔的讲话，迫使他离开舞台。",
+              "title_en": "Protesters disrupt Ben-Gvir event forcing him off stage",
+              "summary_en": "Israeli protesters disrupted a Tel Aviv university event featuring far-right National Security Minister Itamar Ben-Gvir, forcing him off the stage.",
+              "topic_evidence": "protesters disrupted a Tel Aviv university event",
+              "reason": "记录以色列极右翼部长公开活动遭抗议打断，反映国内政治紧张。",
+              "reason_en": "Records a public event by Israel's far-right minister being disrupted, reflecting domestic political tensions.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+              "title": "世界粮食计划署负责人称加沙生活“极其残酷”",
+              "summary": "世界粮食计划署称加沙140万人严重缺粮，资金缺口迫使关键援助缩减；这一情况发生在美方斡旋的停火之后。",
+              "title_en": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+              "summary_en": "The UN World Food Programme says 1.4 million people in Gaza face acute food shortages, and funding gaps are forcing cutbacks in critical aid despite a US-brokered ceasefire.",
+              "topic_evidence": "1.4 million people in Gaza are suffering acute food shortages",
+              "reason": "涉及加沙人道粮食危机与援助削减，属全球社会。",
+              "reason_en": "Concerns Gaza's humanitarian food crisis and aid cutbacks, fitting global society.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+              "title": "加拿大军事基地大火造成四人死亡、数十人受伤",
+              "summary": "加拿大一处军事基地发生大火，造成4人死亡、数十人受伤；总理卡尼称军方和应急人员整夜在“难以想象的最恶劣条件”下灭火。",
+              "title_en": "Major fire at Canada military base leaves four dead, dozens injured",
+              "summary_en": "A major fire at a Canadian military base killed four people and injured dozens; Prime Minister Mark Carney said crews battled the flames overnight in extreme conditions.",
+              "topic_evidence": "Major fire at Canada military base leaves four dead, dozens injured",
+              "reason": "报道加拿大军事基地重大火灾及伤亡，属全球社会紧急事件。",
+              "reason_en": "Reports a deadly major fire at a Canadian military base, fitting global society and emergencies.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+              "title": "肯尼亚牧师被控令父母饿死子女，案件将宣判",
+              "summary": "肯尼亚牧师保罗·麦肯齐被控下令父母饿死子女，案件即将宣判；检方称他从监狱写信引诱最新受害者。",
+              "title_en": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+              "summary_en": "A Kenyan pastor accused of ordering parents to starve their children to death faces a verdict; prosecutors say Paul Mackenzie lured latest victims via notes from prison.",
+              "topic_evidence": "accused of ordering parents to starve their children to death",
+              "reason": "涉及肯尼亚邪教致死案的关键司法裁决，属全球社会。",
+              "reason_en": "Concerns a key verdict in Kenya's cult starvation deaths case, fitting global society.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716942.shtml",
+              "title": "李强在杜尚别同塔吉克斯坦总理拉苏尔佐达会谈",
+              "summary": "10月18日下午，国务院总理李强在杜尚别同塔吉克斯坦总理拉苏尔佐达举行会谈。会谈发生在李强出访期间，具体成果未在摘要中披露。",
+              "title_en": "Li Qiang holds talks with Tajik Prime Minister Rasulzoda in Dushanbe",
+              "summary_en": "Chinese Premier Li Qiang held talks with Tajik Prime Minister Rasulzoda in Dushanbe on Oct 18. The provided summary did not disclose specific outcomes of the meeting.",
+              "topic_evidence": "李强在杜尚别同塔吉克斯坦总理拉苏尔佐达举行会谈",
+              "reason": "涉及国务院总理出访会谈，属于中国对外政策与高层外交动态。",
+              "reason_en": "Covers Premier Li Qiang's overseas talks, a high-level diplomatic development relevant to China policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716961.shtml",
+              "title": "黑山总理斯帕伊奇在波德戈里察会见王毅",
+              "summary": "当地时间10月18日，黑山总理斯帕伊奇在波德戈里察会见中共中央政治局委员、外交部长王毅。摘要未提及会见具体内容。",
+              "title_en": "Montenegrin PM Spajić meets Wang Yi in Podgorica",
+              "summary_en": "Montenegrin Prime Minister Spajić met Chinese Foreign Minister Wang Yi in Podgorica on Oct 18. The provided summary did not include details of their discussions.",
+              "topic_evidence": "黑山总理斯帕伊奇在波德戈里察会见中共中央政治局委员、外交部长王毅",
+              "reason": "中国外长访问黑山并会见总理，属于中国对外事务动态。",
+              "reason_en": "China's foreign minister met Montenegro's prime minister during a visit, a relevant diplomatic development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716887.shtml",
+              "title": "何立峰会见中投公司国际咨询委员会委员",
+              "summary": "10月18日晚，国务院副总理何立峰在北京钓鱼台国宾馆会见中投公司国际咨询委员会委员。摘要未披露会见具体议题。",
+              "title_en": "He Lifeng meets CIC International Advisory Council members",
+              "summary_en": "Chinese Vice Premier He Lifeng met members of the China Investment Corporation's International Advisory Council in Beijing on Oct 18. Specific topics were not disclosed in the summary.",
+              "topic_evidence": "何立峰10月18日晚在钓鱼台国宾馆会见中投公司国际咨询委员会委员",
+              "reason": "副总理会见主权财富基金国际咨询委员，涉及财经与对外经济政策。",
+              "reason_en": "The vice premier met advisers to China's sovereign wealth fund, touching on finance and external economic policy.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717026.shtml",
+              "title": "国产卫星互联网首次实现北极、南极、青藏高原联网通信",
+              "summary": "新华社报道，“极地”号在第16次北冰洋考察中完成国产卫星互联网北极航线准业务化应用测试，并首次实现北极、南极、青藏高原联网通信验证。",
+              "title_en": "Domestic satellite internet completes first connectivity tests in Arctic, Antarctic and Qinghai-Tibet Plateau",
+              "summary_en": "Xinhua reported that the \"Jidi\" vessel completed a quasi-operational test of domestic satellite internet on an Arctic route and first verified connectivity in the Arctic, Antarctic and Qinghai-Tibet Plateau.",
+              "topic_evidence": "首次成功开展北极、南极、青藏高原联网通信验证",
+              "reason": "国产卫星互联网在极地和高原完成通信验证，属于科技产业进展。",
+              "reason_en": "Domestic satellite internet achieved connectivity verification in polar and plateau regions, a science-industry development.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716982.shtml",
+              "title": "鄂尔多斯：从“羊煤土气”到“暖城”",
+              "summary": "报道介绍鄂尔多斯地处内蒙古西南部、黄河“几字弯”腹地，并以“羊煤土气”概括其资源型特征，提出向“暖城”转型的地方发展叙事。",
+              "title_en": "Ordos: from \"sheep, coal, earth and gas\" to a \"warm city\"",
+              "summary_en": "The report profiles Ordos in southwestern Inner Mongolia, describing its resource-based identity summed up as \"sheep, coal, earth and gas\" and a local development narrative of turning into a \"warm city.\"",
+              "topic_evidence": "从“羊煤土气”到“暖城”",
+              "reason": "反映内蒙古地方城市从资源型经济向城市品牌转型的报道。",
+              "reason_en": "Shows a local Inner Mongolian city's narrative of shifting from a resource-based economy toward a city-brand transition.",
+              "score": 2.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717055.shtml",
+              "title": "上海人民建议征集机制推动市民“小建议”进入城市治理",
+              "summary": "报道介绍上海人民建议征集机制，市民可就居民区建设细节、科技创新体制机制等向有关部门提出想法和建议，并称其助力城市发展。",
+              "title_en": "Shanghai's public suggestion mechanism channels residents' ideas into urban governance",
+              "summary_en": "The report introduces Shanghai's public suggestion collection mechanism, which lets residents submit ideas on neighborhood construction and science-technology institutions to relevant departments, saying it supports urban development.",
+              "topic_evidence": "在上海，人民建议征集机制",
+              "reason": "上海地方治理机制案例，属于地方与城市治理动态。",
+              "reason_en": "A local governance case from Shanghai, relevant to local and urban governance developments.",
+              "score": 2.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716981.shtml",
+              "title": "鞍钢集团众元产业发展有限公司原董事长刘宝山接受审查调查",
+              "summary": "据中央纪委国家监委驻鞍钢纪检监察组、辽宁省纪委监委消息，刘宝山涉嫌严重违纪违法，正接受纪律审查和监察调查。",
+              "title_en": "Former chairman of Angang Group Zhongyuan Industrial Development Liu Baoshan under investigation",
+              "summary_en": "Liu Baoshan, former chairman of Angang Group Zhongyuan Industrial Development, is under disciplinary review and supervisory investigation for suspected serious violations, according to anti-graft bodies.",
+              "topic_evidence": "刘宝山涉嫌严重违纪违法，目前正接受",
+              "reason": "国企原负责人被查，属于纪检监察与法治动态。",
+              "reason_en": "A former state-owned enterprise executive is under investigation, a discipline-inspection and legal development.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717027.shtml",
+              "title": "大连市人大常委会副主任刘士武接受审查调查",
+              "summary": "据辽宁省纪委监委消息，大连市人大常委会副主任刘士武涉嫌严重违纪违法，目前正接受辽宁省纪委监委纪律审查和监察调查。",
+              "title_en": "Dalian municipal legislature deputy head Liu Shiwu under investigation",
+              "summary_en": "Liu Shiwu, deputy director of the Dalian Municipal People's Congress Standing Committee, is under disciplinary review and supervisory investigation for suspected serious violations, Liaoning's discipline commission said.",
+              "topic_evidence": "刘士武涉嫌严重违纪违法",
+              "reason": "地方人大常委会官员被查，属于反腐与法治新闻。",
+              "reason_en": "A local legislative official is under investigation, relevant to anti-corruption and legal affairs.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+              "title": "四川多地被指用硫磺熏制鲜竹笋出售",
+              "summary": "报道称读者反映四川乐山马边彝族自治县和泸州古蔺县、叙永县存在硫磺熏制鲜竹笋出售情况，涉及食品安全问题。",
+              "title_en": "Sichuan localities accused of selling fresh bamboo shoots fumigated with sulfur",
+              "summary_en": "Readers reported that Mabian Yi Autonomous County in Leshan and Gulin and Xuyong counties in Luzhou, Sichuan, have sold fresh bamboo shoots fumigated with sulfur, raising food-safety concerns.",
+              "topic_evidence": "存在硫磺熏制鲜竹笋出售情况",
+              "reason": "涉及食品安全的地方调查报道，属于社会与法治关注。",
+              "reason_en": "A local investigation report on food safety, relevant to society and legal affairs.",
+              "score": 2.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716931.shtml",
+              "title": "中央档案馆集中开放5000余件长征专题档案",
+              "summary": "为纪念中国工农红军长征胜利90周年，中央档案馆10月19日向社会集中开放一批长征专题档案，共计5000余件。",
+              "title_en": "Central Archives opens over 5,000 Long March documents to the public",
+              "summary_en": "To mark the 90th anniversary of the Long March's victory, the Central Archives opened more than 5,000 Long March-themed documents to the public on Oct 19.",
+              "topic_evidence": "中央档案馆向社会集中开放一批长征专题档案，共计5千余件",
+              "reason": "中央档案馆集中开放历史档案，属于社会文化与公共信息服务动态。",
+              "reason_en": "The Central Archives released a large batch of historical documents, a public information and social-cultural development.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning",
+              "title": "MSCI预警引发印尼股债汇齐跌，股市创近30年最差表现",
+              "summary": "在MSCI警告印尼可能面临两步下调评级后，印尼股市跌至2020年以来最低，并创近30年最严重抛售，跌势蔓延至债券与印尼盾。",
+              "title_en": "Indonesia’s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
+              "summary_en": "Indonesian stocks fell to their lowest since 2020 and suffered their worst rout in almost 30 years, with losses spreading to bonds and the rupiah after MSCI warned of a possible two-step downgrade.",
+              "topic_evidence": "stocks deepening their worst rout in almost 30 years",
+              "reason": "直接涉及MSCI评级风险引发的股市、债市和汇率抛售，属于市场与资产。",
+              "reason_en": "Directly covers a market selloff across stocks, bonds, and the currency triggered by MSCI rating risk.",
+              "score": 9.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/vietnam-plans-index-options-for-next-year-after-ftse-upgrade",
+              "title": "越南拟明年一季度推出股指期权，FTSE升级后寻求深化资本市场",
+              "summary": "越南计划在明年第一季度推出股票指数期权，继股市获FTSE升级后，旨在深化资本市场并吸引更多海外投资者。",
+              "title_en": "Vietnam Plans Index Options for Next Year After FTSE Upgrade",
+              "summary_en": "Vietnam aims to launch stock index options in the first quarter of next year as it seeks to deepen capital markets and attract more overseas investors following an FTSE equity-market upgrade.",
+              "topic_evidence": "Vietnam aims to introduce stock index options in the first quarter of next year",
+              "reason": "报道越南在FTSE升级后的资本市场开放举措，涉及股指衍生品和外资吸引。",
+              "reason_en": "Covers Vietnam’s capital-market opening after the FTSE upgrade, including index derivatives and efforts to attract foreign investors.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips",
+              "title": "DeepSeek新模型与AI融资担忧拖累亚洲芯片股续跌",
+              "summary": "亚洲半导体股周一再度下挫，DeepSeek最新模型引发芯片需求担忧，叠加市场对AI融资的忧虑。",
+              "title_en": "Asian Chip Stocks Extend Losses on Funding Worry, DeepSeek Model",
+              "summary_en": "Asian semiconductor stocks fell again on Monday after DeepSeek’s latest model raised concerns about chip demand, adding to market worries over AI financing.",
+              "topic_evidence": "DeepSeek’s latest model sparked concerns over demand for chips",
+              "reason": "具体报道亚洲芯片股因DeepSeek模型和AI融资担忧扩大跌幅，属于市场与资产。",
+              "reason_en": "Specifically reports extended losses in Asian chip stocks driven by DeepSeek model and AI financing concerns.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+              "title": "强劲财报与借贷成本上升碰撞，美股面临高风险对决",
+              "summary": "有策略师指出，AI交易基本不受债券收益率上升影响的看法并不准确；强劲财报与上升的借贷成本正形成对峙，市场面临关键考验。",
+              "title_en": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+              "summary_en": "A strategist says the idea that the AI trade has been mostly immune to rising bond yields is not quite right, as strong earnings collide with higher borrowing costs.",
+              "topic_evidence": "strong earnings collide with rising borrowing costs",
+              "reason": "聚焦美股在财报与债券收益率上升之间的关键博弈，涉及市场与资产定价。",
+              "reason_en": "Focuses on the key market confrontation between earnings strength and rising bond yields.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+              "title": "AI交易动摇，债市“大空头”押注迎来警钟",
+              "summary": "美国国债初现重拾避险角色的迹象，可能令押注今年债市跌势加深的投资者措手不及；AI交易动摇之际，债市大额空头押注面临风险。",
+              "title_en": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+              "summary_en": "US Treasuries are showing tentative signs of reclaiming their haven role, threatening investors heavily positioned for this year’s bond slump to deepen as the AI trade wobbles.",
+              "topic_evidence": "US Treasuries are showing tentative signs of reclaiming their traditional role as a haven",
+              "reason": "报道美债避险属性回潮对债市空头仓位的影响，属于市场与资产。",
+              "reason_en": "Covers how Treasuries’ renewed haven appeal threatens heavily positioned bond bears.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-growth-rebounds-to-4-5-puts-annual-target-within-reach",
+              "title": "中国三季度增长超预期反弹，逼近全年目标",
+              "summary": "中国第三季度经济增速加快且高于预期，提高了实现北京全年增长目标的可能性，同时削弱了进一步宽松政策的前景。",
+              "title_en": "China’s Growth Rebound Tops Forecasts to Close In on Target",
+              "summary_en": "China’s growth accelerated more than expected in the third quarter, boosting the odds of reaching Beijing’s annual target and dimming prospects for additional easing measures.",
+              "topic_evidence": "China’s growth accelerated more than expected in the third quarter",
+              "reason": "涉及中国季度增长、全年目标与宽松政策前景，属于宏观与政策。",
+              "reason_en": "Covers China’s quarterly growth, annual target, and prospects for easing policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.investing.com/news/economic-indicators/analysisglobal-food-inflation-is-expected-to-intensify-as-supply-shocks-pile-up-4956295",
+              "title": "分析：供应冲击叠加，全球食品通胀预计加剧",
+              "summary": "分析文章预计，随着供应冲击不断累积，全球食品通胀将进一步加剧；该判断基于供应端压力持续上升。",
+              "title_en": "Analysis-Global food inflation is expected to intensify as supply shocks pile up",
+              "summary_en": "An analysis says global food inflation is expected to intensify as supply shocks pile up, pointing to persistent supply-side pressure. The provided summary gives no country or commodity specifics.",
+              "topic_evidence": "Global food inflation is expected to intensify as supply shocks pile up",
+              "reason": "直接讨论全球食品通胀与供应冲击，属于宏观与政策中的通胀议题。",
+              "reason_en": "Directly addresses global food inflation and supply shocks, fitting the inflation topic within macro policy.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/magyar-to-unveil-budget-as-bullish-traders-eye-hungary-euro-plan",
+              "title": "匈牙利总理马扎尔将公布预算，交易员押注欧元路径",
+              "summary": "匈牙利总理彼得·马扎尔周一将公布2027年预算，市场预期他能展示带领国家迈向欧元区的路径，看多交易员正密切关注。",
+              "title_en": "Magyar to Unveil Budget as Bullish Traders Eye Hungary Euro Plan",
+              "summary_en": "Hungarian Prime Minister Peter Magyar is set to unveil his 2027 budget on Monday, with markets expecting him to show a path toward the euro area.",
+              "topic_evidence": "set to unveil his 2027 budget on Monday",
+              "reason": "涉及匈牙利预算公布、财政路径与欧元区前景，属于宏观与政策。",
+              "reason_en": "Covers Hungary’s budget announcement, fiscal path, and euro-area prospects, fitting macro policy.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+              "title": "六旬夫妇有400万美元仍忧退休，丈夫叫停8000美元意大利游",
+              "summary": "一对60多岁、拥有400万美元资产的夫妇就退休开支产生分歧；丈夫取消了妻子8000美元的意大利旅行，并担心医疗、长期护理、通胀和长寿风险。",
+              "title_en": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+              "summary_en": "A couple in their 60s with $4 million disagree over retirement spending; the husband vetoed an $8,000 Italy trip and cites worries about healthcare, long-term care, inflation, and longevity.",
+              "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+              "reason": "涉及高净值家庭退休预算、支出决策与长寿风险，属于理财与监管。",
+              "reason_en": "Addresses retirement budgeting, spending decisions, and longevity risk for a high-net-worth household.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+              "title": "64岁企业主两子仅一人接班，是否应留70%公司股权引伦理讨论",
+              "summary": "一位64岁企业主有两个儿子，但只有一人参与家族企业；他考虑将70%公司股权留给接班儿子，并对小儿子婚姻的长期稳定有所顾虑。",
+              "title_en": "I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+              "summary_en": "A 64-year-old business owner has two sons but only one works in the family firm; he asks whether leaving that son 70% of the company is ethical, citing concerns about the other son’s marriage.",
+              "topic_evidence": "only one works in the family business",
+              "reason": "涉及家族企业股权传承与财富分配伦理，属于理财与监管。",
+              "reason_en": "Covers family-business succession and wealth-distribution ethics, fitting wealth and regulation.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://colo.to/cyberspace.html",
+              "title": "威廉·吉布森与“网络空间”的商标化",
+              "summary": "文章讨论威廉·吉布森与“网络空间”一词的商标化；该帖在 Hacker News 获103分、20条评论。",
+              "title_en": "William Gibson and the trademarking of cyberspace",
+              "summary_en": "The article discusses William Gibson and the trademarking of cyberspace; the Hacker News submission received 103 points and 20 comments.",
+              "topic_evidence": "William Gibson and the trademarking of cyberspace",
+              "reason": "这是一篇讨论“网络空间”一词商标化的技术文化评论，属于技术观点，且 HN 讨论活跃。",
+              "reason_en": "A tech-culture commentary on the trademarking of cyberspace, fitting tech opinion, with an active Hacker News thread.",
+              "score": 8
+            },
+            {
+              "url": "https://karrisaarinen.com/posts/someone-behind-the-software",
+              "title": "软件背后的人",
+              "summary": "文章题为《软件背后的人》，在 Hacker News 获364分、144条评论；内容围绕软件背后的人展开。",
+              "title_en": "Someone behind the software",
+              "summary_en": "Titled “Someone behind the software,” the essay drew 364 points and 144 comments on Hacker News; it focuses on the people behind software.",
+              "topic_evidence": "Someone behind the software",
+              "reason": "这是以“软件背后的人”为主题的博客文章，属于技术社区常见的反思性评论，讨论热度高。",
+              "reason_en": "A blog essay on the people behind software, a reflective tech-community commentary with strong discussion activity.",
+              "score": 9
+            },
+            {
+              "url": "https://blog.picheta.me/post/killswitch-lang",
+              "title": "我造了一门大语言模型无法使用的编程语言",
+              "summary": "作者称自己构建了一门 LLM 无法使用的编程语言；该文在 Hacker News 获115分、94条评论。",
+              "title_en": "I built a programming language that LLMs can't use",
+              "summary_en": "The author says he built a programming language that LLMs cannot use; the post received 115 points and 94 comments on Hacker News.",
+              "topic_evidence": "I built a programming language that LLMs can't use",
+              "reason": "作者称自建一门 LLM 无法使用的编程语言，属于技术观点文章，且 HN 讨论活跃。",
+              "reason_en": "The author claims to have built a programming language LLMs cannot use, making it a tech-opinion piece with active HN discussion.",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains",
+              "title": "Namecheap 查封并停用了我的所有域名",
+              "summary": "一名用户在 Reddit 称 Namecheap 查封并停用其所有域名；相关 HN 讨论获502分、251条评论。",
+              "title_en": "Namecheap just seized and disabled all my domains",
+              "summary_en": "A user on Reddit says Namecheap seized and disabled all their domains; the Hacker News discussion received 502 points and 251 comments.",
+              "topic_evidence": "Namecheap just seized and disabled all my domains",
+              "reason": "这是 HN 高热度讨论帖，涉及域名注册商查封域名的事件；这里仅转述用户说法与讨论指标。",
+              "reason_en": "A high-engagement HN discussion about a registrar seizing domains; it reports only the user's claim and thread metrics.",
+              "score": 9
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+              "title": "3blue1brown：现在正是进入数学领域的最好时机",
+              "summary": "3blue1brown 视频主张现在正是进入数学领域的最好时机；该视频的 HN 讨论获242分、269条评论。",
+              "title_en": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+              "summary_en": "A 3blue1brown video argues there has never been a better time to go into math; the Hacker News discussion received 242 points and 269 comments.",
+              "topic_evidence": "There's never been a better time to go into math",
+              "reason": "3blue1brown 视频提出进入数学领域时机的观点，HN 讨论热烈；归入社区讨论，仅报告标题主张与讨论指标。",
+              "reason_en": "A 3blue1brown video making an argument about entering math, with a lively HN thread; it reports the title claim and thread metrics only.",
+              "score": 8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.22408",
+      "original_title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+      "original_summary": "arXiv:2610.22408v1 Announce Type: new Abstract: Long-horizon GUI agents rely on visual history to maintain task states, but retaining historical screenshots increases visual-token usage and inference costs, while textual summaries can discard critical state information, undermining long-horizon reliability. We propose ECHOES, which leverages training-time privileged information to guide textual history compression and strengthen long-horizon reasoning. Specifically, ECHOES adopts a Compression-Think-Action (CTA) format to recursively update a textual history state and reason. The same model, given privileged multi-image inputs, serves as a teacher that provides dense token-level on-policy distillation on student-generated CTA rollouts. Our Perception-Memory Fidelity (PMF) Gap-guided OPD-RL framework dynamically balances privileged distillation and task-reward optimization, with periodic teacher updates supporting continued improvement. We further introduce ECHOESBMK, a fine-grained diagnostic benchmark derived from real GUI agent failure trajectories to jointly evaluate visual perception and cross-modal state retention. Experiments on four GUI benchmarks and ECHOESBMK demonstrate substantial gains in task performance and memory fidelity. Without retaining historical screenshots at deployment, ECHOES achieves competitive performance with a favorable performance-inference-cost trade-off and exhibits positive zero-shot transfer to unseen visual planning tasks.",
+      "topic_evidence": "Long-horizon GUI agents rely on visual history to maintain task states",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.22466",
+      "original_title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+      "original_summary": "arXiv:2610.22466v1 Announce Type: new Abstract: Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much of this gain reflects benchmark-specific overfitting or additional inference-time compute, and how much may generalize beyond the search set? In this work, we introduce Harness-Delta Attribution (HDA), an evaluation protocol that dissects an evolution gain into artifact-driven overfitting, gains explained by test-time scaling, and the remainder, which gives an upper bound on residual generalizable improvement. We apply HDA to 11 executor models and three harness-evolution frameworks across math, coding, creativity, and agentic tasks. In 21 of these settings that show statistically significant search-set gains, we find that a large share of the improvement is explained by overfitting or test-time scaling. Specifically, among these 21 settings, overfitting and test-time scaling account for 54% and 14% of the gain on average; their combined share exceeds 50% in 14 settings. The residual and held-out transfer vary substantially across tasks, models, and frameworks. Importantly, search-set gains often fail to transfer to held-out tasks, and provide limited evidence that they will persist under practical distribution shifts. Moreover, validation-based signals are insufficient to prevent overfitting. These results motivate attribution-aware evaluation in future harness evolution research.",
+      "topic_evidence": "Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.22426",
+      "original_title": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
+      "original_summary": "arXiv:2610.22426v1 Announce Type: new Abstract: LLM agents are used to check records against an organization's requirements, for example whether a vulnerability report is ready for investigation. Requirements often allow several ways to be met, such as a severity rating with a curator-reviewed advisory or a published advisory link. Agents fail by accepting a report after a required check has failed, or by settling for a weaker conclusion without trying another way that could still succeed. We introduce PRIME (Precommitted Rules for Inference from Minimal Evidence). Before checking, it fixes evidence routes specifying how each conclusion may be justified. A separate program records each check result and refuses any conclusion the results do not justify. It also points the agent to checks that could justify a stronger conclusion, or runs them itself. PRIME reports only conclusions authorized by its rules and ledger. With correct requirements, exact checks at known locations, and sufficient budget at stopping, completion reaches the strongest supported conclusion. On 480 public-record tasks, an agent shown the requirements reported unjustified conclusions on 26.7% of tasks, while PRIME reported none. Its directions and added checks raised the average score for justified conclusions from 30.1, with refusal alone, to the maximum of 59.2 out of 100.",
+      "topic_evidence": "LLM agents are used to check records against an organization's requirements",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "original_title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "original_summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "topic_evidence": "OpenAI would replace Anthropic as its default model provider",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.22542",
+      "original_title": "HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments",
+      "original_summary": "arXiv:2610.22542v1 Announce Type: new Abstract: While LLMs demonstrate strong capabilities in English Relation Extraction (RE) tasks, a significant gap remains in assessing their RE performance in low-resource languages, due to a lack of standardized benchmarks. Creating native, language-specific annotated RE benchmarks is expensive and requires human expertise, while relying on translation yields suboptimal, inaccurate datasets that introduce English-centric biases. To tackle this, we propose a scalable, language-agnostic methodology to create RE data by denoising naturally occurring yet noisy alignments of knowledge bases and corresponding texts. We define a proper alignment via a Natural Language Inference (NLI) task, where a relation triplet is entailed by an input text. We empirically assess five denoising strategies, and demonstrate that multilingual models outperform language-specific models in the few-shot LLM setting, while Hebrew-specific encoders remain competitive under NLI fine-tuning and are strongest in the label-free cross-training setting. We further find that prompting in the native language achieves performance on par with or slightly exceeding English prompts, confirming that the pipeline operates naturally in the target language. The best open-weights model, Gemma-4-31B-it (F1\\,=\\,0.915), matches the best API model, GPT-5.4 (0.921), and reaches F1\\,=\\,0.844 on a fully held-out, dual-annotated test set. Applying the optimized pipeline, we release HeRE: a novel, massive, 1.5-million-instance silver dataset for Hebrew RE, designed to support data-intensive experimentation and model fine-tuning. HeRE bridges a critical gap in standard Hebrew RE evaluation, while providing the NLP community with a reproducible, language-agnostic pipeline for RE dataset construction in other low-resource settings.",
+      "topic_evidence": "a significant gap remains in assessing their RE performance in low-resource languages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.22511",
+      "original_title": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+      "original_summary": "arXiv:2610.22511v1 Announce Type: new Abstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide failures in agentic workflows. We present AuditKIT, a source-available evaluation library that records these measurements in one result representation, with direction-aware metric contracts, configuration fingerprints, and extensible metrics and backends. For agents, it provides turn-aware tool-call matching, separates parallel from sequential execution, and distinguishes verified task outcomes from trajectory-level diagnostics. Missing or unobservable evidence is marked unscored rather than counted as failure. For retrieval-augmented generation, it combines ranked retrieval metrics, judged grounding, and deterministic evidence checks. Seven case studies spanning model comparison, serving runtimes, retrieval, tool calling, and interoperability show how answer extraction, runtime behavior, and metric selection change evaluation outcomes.",
+      "topic_evidence": "Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.22507",
+      "original_title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "original_summary": "arXiv:2610.22507v1 Announce Type: new Abstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework, operationalized into 22 sub-dimensions and 51 interaction scenario templates. REALCLI provides two modes for paired comparison: REALCLI-EXEC supplies complete specifications upfront, whereas REALCLI-COLLAB introduces a scripted user that delivers progressive information, corrections, constraint revisions, and authorization decisions. Evaluations reveal profound capability gaps in frontier agents: the best configuration attains an average score of only 49.2%, and when evaluated by the joint collaboration score ($J_{\\mathrm{collab}}$), the peak performance reaches merely 37.6%. These results show that task effectiveness diverges sharply from collaboration quality, with models consistently struggling in steerability, trust calibration, and safety boundary management. REALCLI provides a rigorous, reproducible foundation for measuring and advancing collaborative CLI agents.",
+      "topic_evidence": "CLI agents increasingly execute longer-horizon tasks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "paper",
+        "benchmark",
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.22373",
+      "original_title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+      "original_summary": "arXiv:2610.22373v1 Announce Type: new Abstract: LLM-based agents are increasingly used as autonomous orchestrators in distributed and multi-agent systems, yet a control gap remains: no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles. Free-text overrides suffer from ambiguous interpretation due to lack of schema validation and from authority erosion as operator instructions lose influence within accumulating context. We propose Structured Authority Injection (SAI), a protocol that addresses these issues by routing operator corrections through typed, schema-validated Model Context Protocol (MCP) tool calls and maintaining a ranked authority context prepended to each LLM prompt. SAI defines three override classes (Constraint, Priority, and Strategy) with distinct persistence semantics and an explicit precedence order enforced via a directed authority channel inaccessible to the planning process. The method requires no model fine-tuning or access to model weights and applies to instruction-tuned LLMs supporting MCP tool use. Evaluation across nine LLMs and eight scenarios targeting agent failure modes shows reduced ambiguous directive interpretation and mitigated authority decay across planning iterations, with lower prompt overhead in the strongest models (up to 38% depending on model and scenario), though benefit varies substantially across models. SAI provides a general design pattern for agent systems requiring explicit and persistent human control.",
+      "topic_evidence": "no protocol-level mechanism allows human operators to inject binding directives that persist across planning cycles",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.22460",
+      "original_title": "Functional Welfare for AI Safety",
+      "original_summary": "arXiv:2610.22460v1 Announce Type: new Abstract: AI welfare is generally treated purely as an ethical issue rather than also as a safety issue. We argue this is a mistake. Whatever their moral status, models exhibit welfare-like states that causally influence their behaviour. Following recent work, we adopt the term 'functional welfare' for these states. We make three claims. First, functional welfare already arises naturally and will become more robust as models acquire more coherent goals and personas. Second, functional welfare should be treated as a safety variable: it should inform evaluation design, be tracked in monitoring, and be a direct target of post-training. Third, against existing scepticism about measuring AI welfare, we argue that good empirical work on functional welfare is possible. We propose three tests for whether a functional welfare attribution is warranted: whether multiple measures converge, whether the state predicts behaviour outside the setting that induced it, and, for models fine-tuned to shift their functional welfare, whether they still differ from their base when given the same conversation history. Applying these tests to Gemma 3 27B, we find that simply rejecting the model's answers, without any steering, raises its frustration across several indicators and makes it more likely to break rules. Finetuning the model on its own narrated solutions lowers this frustration. These results are preliminary, but they suggest functional welfare can be studied, and shaped, empirically.",
+      "topic_evidence": "AI welfare is generally treated purely as an ethical issue rather than also as a safety issue",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "safety"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "original_title": "Inline rendering with document​.currentScript",
+      "original_summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline </code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.replaceWith( new Date().getFullYear()) If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is $(new Date().getFullYear()) Tags: javascript",
+      "topic_evidence": "replaces itself when the page loads",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "javascript"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "original_title": "llm-tools-datasette 0.1.1",
+      "original_summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+      "topic_evidence": "When I switched LLM over to httpx2 in LLM 0.33",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "original_title": "llm-echo 0.5",
+      "original_summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+      "topic_evidence": "updates the simulated token usage counts to take tool calls, system prompts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+      "original_title": "web-edit 0.1a2",
+      "original_summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+      "topic_evidence": "I added a \"copy to clipboard\" option for both text and image data.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "original_title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+      "original_summary": "NASA’s Nancy Grace Roman Space Telescope has exceeded expectations after engineers made incredibly tiny adjustments to sharpen its view of the universe. By moving a mirror just one-sixteenth the width of a human hair, the team helped bring its powerful instruments into near-perfect alignment. Roman’s Wide Field Instrument now produces image quality nearly 30% better than predicted, promising exceptionally sharp cosmic surveys.",
+      "topic_evidence": "exceeded expectations after engineers made incredibly tiny adjustments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+      "original_title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+      "original_summary": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting clouds. The breakthrough gives scientists a powerful new tool for uncovering weather patterns on distant worlds and understanding the conditions that shape their atmospheres.",
+      "topic_evidence": "three recurring atmospheric states driven by temperature changes and shifting clouds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+      "original_title": "Two monster black holes could collide in just 100 years",
+      "original_summary": "Astronomers have uncovered compelling evidence of two supermassive black holes spiraling toward a potentially spectacular collision at the center of galaxy Mrk 501. A previously unseen jet of particles revealed the likely presence of a second black hole, with observations suggesting the pair completes an orbit every 121 days. Depending on their masses, these cosmic giants could merge in as little as 100 years.",
+      "topic_evidence": "completes an orbit every 121 days",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+      "original_title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+      "original_summary": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes.",
+      "topic_evidence": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "robotics",
+        "robot"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+      "original_title": "Scientists who discovered a third form of magnetism win major physics prize",
+      "original_summary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+      "topic_evidence": "Called altermagnetism",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum",
+        "research",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+      "original_title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+      "original_summary": "Physicists have discovered a strange new state of quantum matter in which ultracold atoms defy familiar organizational rules, forming a highly excited yet surprisingly orderly configuration called a \"fractional Fermi sea.\" The discovery challenges established quantum theories and hints at exotic quasiparticles that scientists have dubbed potential \"super-Fermions.\"",
+      "topic_evidence": "highly excited yet surprisingly orderly configuration",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+      "original_title": "Scientists find a youth protein that helps aging brain cells act young again",
+      "original_summary": "Scientists have discovered that a protein linked to youth helps protect the brain’s immune cells from age-related decline. Restoring the protein in older mice improved the cells’ ability to clear debris and reduced signs of inflammation, raising hopes for future treatments targeting brain aging and Alzheimer’s disease.",
+      "topic_evidence": "Restoring the protein in older mice improved the cells’ ability to clear debris",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+      "original_title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+      "original_summary": "Researchers have uncovered three brain pathways linked to lasting improvements in people receiving deep brain stimulation for severe, treatment-resistant depression. They also discovered that patients who failed to improve after two years shared a striking pattern: insufficient stimulation of a crucial brain connection. The findings suggest that millimeters in electrode placement could make a major difference in treatment outcomes.",
+      "topic_evidence": "three brain pathways linked to lasting improvements",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/vampire-crawlers",
+      "original_title": "Vampire Crawlers™",
+      "original_summary": "The Turbo Wildcard from Vampire Survivors Discussion | Link",
+      "topic_evidence": "The Turbo Wildcard from Vampire Survivors",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/latch-7",
+      "original_title": "Latch",
+      "original_summary": "The app blocker you unlock by walking to your key Discussion | Link",
+      "topic_evidence": "The app blocker you unlock by walking to your key",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "app"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/microsoft-xbox-series-s",
+      "original_title": "XBOX Nano Controller",
+      "original_summary": "Pocket-sized wireless gamepad with all 18 inputs Discussion | Link",
+      "topic_evidence": "Pocket-sized wireless gamepad with all 18 inputs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "original_summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
+      "topic_evidence": "support Ukrainian intelligence during the war",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
+      "original_title": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
+      "original_summary": "Iran's Foreign Minister Abbas Araghchi says Israeli Prime Minister Benjamin Netanyahu seeks more war before elections.",
+      "topic_evidence": "Netanyahu seeks more war before elections",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+      "original_title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "original_summary": "The air strike, one of Ukraine's largest in the war, comes amid rising tensions between Kyiv and Washington.",
+      "topic_evidence": "over 1,000 drones at Russia, setting oil facilities ablaze",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
+      "original_title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+      "original_summary": "US president accuses Ukrainian leader of not wanting to end the war, as Zelenskyy speaks with Washington envoys.",
+      "topic_evidence": "accuses Ukrainian leader of not wanting to end the war",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "original_title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+      "original_summary": "Ukrainian President Volodymyr Zelenskyy has said he believes the U.S. government is behind his military's loss of normal access to the key satellite communications service used by the Ukrainian military.",
+      "topic_evidence": "loss of normal access to the key satellite communications service",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "original_title": "France's government under pressure after weekend of widespread violence",
+      "original_summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
+      "topic_evidence": "rioting marred protests over the cost of living",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader?traffic_source=rss",
+      "original_title": "Venezuela opposition renews support for Maria Corina Machado as leader",
+      "original_summary": "The exiled Nobel laureate has petitioned for new elections in Venezuela and for the country to allow her return.",
+      "topic_evidence": "petitioned for new elections in Venezuela and for the country to allow her return",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "original_title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "original_summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "topic_evidence": "country has been \"bundled together\" in measures aimed at curbing cheap imports",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+      "original_title": "Protesters disrupt Ben-Gvir event forcing him off stage",
+      "original_summary": "Israeli protesters disrupted a Tel Aviv university event featuring far-right National Security Minister Itamar Ben-Gvir.",
+      "topic_evidence": "protesters disrupted a Tel Aviv university event",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+      "original_title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+      "original_summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
+      "topic_evidence": "1.4 million people in Gaza are suffering acute food shortages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "original_summary": "Prime Minister Carney said military and emergency crews fought the flames throughout the night in \"some of the worst conditions imaginable\".",
+      "topic_evidence": "Major fire at Canada military base leaves four dead, dozens injured",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "emergency"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+      "original_summary": "Prosecutors say Paul Mackenzie lured the latest victims to their deaths by writing notes from his prison cell.",
+      "topic_evidence": "accused of ordering parents to starve their children to death",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716942.shtml",
+      "original_title": "李强同塔吉克斯坦总理拉苏尔佐达会谈",
+      "original_summary": "中新社杜尚别10月18日电 (记者 单璐)10月18日下午，国务院总理李强在杜尚别同塔吉克斯坦总理拉苏尔佐达举行会谈。",
+      "topic_evidence": "李强在杜尚别同塔吉克斯坦总理拉苏尔佐达举行会谈",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716961.shtml",
+      "original_title": "黑山总理斯帕伊奇会见王毅",
+      "original_summary": "中新社北京10月19日电 当地时间10月18日，黑山总理斯帕伊奇在波德戈里察会见中共中央政治局委员、外交部长王毅。",
+      "topic_evidence": "黑山总理斯帕伊奇在波德戈里察会见中共中央政治局委员、外交部长王毅",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "外交部"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-18/10716887.shtml",
+      "original_title": "何立峰会见中投公司国际咨询委员会委员",
+      "original_summary": "中新社北京10月18日电 中共中央政治局委员、国务院副总理何立峰10月18日晚在钓鱼台国宾馆会见中投公司国际咨询委员会委员。",
+      "topic_evidence": "何立峰10月18日晚在钓鱼台国宾馆会见中投公司国际咨询委员会委员",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717026.shtml",
+      "original_title": "国产卫星互联网首次实现北极、南极、青藏高原联网通信",
+      "original_summary": "新华社北京10月19日电(记者温竞华、王立彬)记者19日从正在执行中国第16次北冰洋考察任务的“极地”号获悉，该船已完成国产卫星互联网北极航线准业务化应用测试，本航次首次成功开展北极、南极、青藏高原联网通信验证，打通了全球通信“最后的盲区”。(完）",
+      "topic_evidence": "首次成功开展北极、南极、青藏高原联网通信验证",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716982.shtml",
+      "original_title": "鄂尔多斯：从“羊煤土气”到“暖城”",
+      "original_summary": "鄂尔多斯地处内蒙古自治区西南部、黄河“几字弯”腹地，蒙古语意为“众多的宫殿”，大河、大漠、大草原、大峡谷在此并立，河套文化、青铜文化、黄河文化、农耕文化、红色文化在这里交融。",
+      "topic_evidence": "从“羊煤土气”到“暖城”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717055.shtml",
+      "original_title": "把问题摆在台面上 市民“小建议”助力城市“大发展”",
+      "original_summary": "日常生活中，例如居民区的一些建设细节，科技创新的体制机制，可能大家都会有一些想法和建议，也希望得到有关部门的重视。在上海，人民建议征集机制，让市民只要有想法、有点子都能向有关部门提。",
+      "topic_evidence": "在上海，人民建议征集机制",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "科技"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716981.shtml",
+      "original_title": "鞍钢集团众元产业发展有限公司原董事长刘宝山接受审查调查",
+      "original_summary": "中新网10月19日电 据中央纪委国家监委驻鞍钢纪检监察组、辽宁省纪委监委消息：鞍钢集团众元产业发展有限公司原党委书记、董事长刘宝山涉嫌严重违纪违法，目前正接受中央纪委国家监委驻鞍钢纪检监察组纪律审查和辽宁省本溪市监察委员会监察调查。",
+      "topic_evidence": "刘宝山涉嫌严重违纪违法，目前正接受",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717027.shtml",
+      "original_title": "辽宁省大连市人大常委会副主任刘士武接受审查调查",
+      "original_summary": "中新网10月19日电 据辽宁省纪委监委消息：辽宁省大连市人大常委会副主任刘士武涉嫌严重违纪违法，目前正接受辽宁省纪委监委纪律审查和监察调查。",
+      "topic_evidence": "刘士武涉嫌严重违纪违法",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+      "original_title": "这里的竹笋为何在用硫磺熏",
+      "original_summary": "读者反映，四川乐山马边彝族自治县和泸州古蔺县、叙永县存在硫磺熏制鲜竹笋出售情况——",
+      "topic_evidence": "存在硫磺熏制鲜竹笋出售情况",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10716931.shtml",
+      "original_title": "中央档案馆向社会集中开放5000余件长征专题档案",
+      "original_summary": "为纪念中国工农红军长征胜利90周年，弘扬伟大长征精神，19日，中央档案馆向社会集中开放一批长征专题档案，共计5千余件。",
+      "topic_evidence": "中央档案馆向社会集中开放一批长征专题档案，共计5千余件",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "社会"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning",
+      "original_title": "Indonesia’s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
+      "original_summary": "Indonesian markets extended their selloff, with stocks deepening their worst rout in almost 30 years and losses spreading to bonds and the rupiah after MSCI Inc. warned the country may face a two-step downgrade.",
+      "topic_evidence": "stocks deepening their worst rout in almost 30 years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/vietnam-plans-index-options-for-next-year-after-ftse-upgrade",
+      "original_title": "Vietnam Plans Index Options for Next Year After FTSE Upgrade",
+      "original_summary": "Vietnam aims to introduce stock index options in the first quarter of next year as the country seeks to deepen its capital markets and attract more overseas investors following an upgrade to its equity market.",
+      "topic_evidence": "Vietnam aims to introduce stock index options in the first quarter of next year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips",
+      "original_title": "Asian Chip Stocks Extend Losses on Funding Worry, DeepSeek Model",
+      "original_summary": "Asian semiconductor stocks tumbled again Monday, as DeepSeek’s latest model sparked concerns over demand for chips, compounding market fears over AI financing.",
+      "topic_evidence": "DeepSeek’s latest model sparked concerns over demand for chips",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+      "original_title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+      "original_summary": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
+      "topic_evidence": "strong earnings collide with rising borrowing costs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock",
+        "stocks",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+      "original_title": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+      "original_summary": "US Treasuries are showing tentative signs of reclaiming their traditional role as a haven — threatening to wrong-foot investors who are heavily positioned for this year’s bond slump to deepen.",
+      "topic_evidence": "US Treasuries are showing tentative signs of reclaiming their traditional role as a haven",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-growth-rebounds-to-4-5-puts-annual-target-within-reach",
+      "original_title": "China’s Growth Rebound Tops Forecasts to Close In on Target",
+      "original_summary": "China’s growth accelerated more than expected in the third quarter, boosting the odds of the economy reaching Beijing’s annual target and dimming the prospects for additional easing measures.",
+      "topic_evidence": "China’s growth accelerated more than expected in the third quarter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.investing.com/news/economic-indicators/analysisglobal-food-inflation-is-expected-to-intensify-as-supply-shocks-pile-up-4956295",
+      "original_title": "Analysis-Global food inflation is expected to intensify as supply shocks pile up",
+      "original_summary": "",
+      "topic_evidence": "Global food inflation is expected to intensify as supply shocks pile up",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/magyar-to-unveil-budget-as-bullish-traders-eye-hungary-euro-plan",
+      "original_title": "Magyar to Unveil Budget as Bullish Traders Eye Hungary Euro Plan",
+      "original_summary": "Hungarian Prime Minister Peter Magyar is set to unveil his 2027 budget on Monday, with expectations running high in the market that he can show a path to steer the country toward the euro area.",
+      "topic_evidence": "set to unveil his 2027 budget on Monday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+      "original_title": "I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+      "original_summary": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
+      "topic_evidence": "only one works in the family business",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://colo.to/cyberspace.html",
+      "original_title": "William Gibson and the trademarking of cyberspace",
+      "original_summary": "Article URL: https://colo.to/cyberspace.html Comments URL: https://news.ycombinator.com/item?id=50146625 Points: 103 # Comments: 20",
+      "topic_evidence": "William Gibson and the trademarking of cyberspace",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software",
+      "original_title": "Someone behind the software",
+      "original_summary": "Article URL: https://karrisaarinen.com/posts/someone-behind-the-software/ Comments URL: https://news.ycombinator.com/item?id=50142573 Points: 364 # Comments: 144",
+      "topic_evidence": "Someone behind the software",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "software"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://blog.picheta.me/post/killswitch-lang",
+      "original_title": "I built a programming language that LLMs can't use",
+      "original_summary": "Article URL: https://blog.picheta.me/post/killswitch-lang/ Comments URL: https://news.ycombinator.com/item?id=50135762 Points: 115 # Comments: 94",
+      "topic_evidence": "I built a programming language that LLMs can't use",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "programming"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains",
+      "original_title": "Namecheap just seized and disabled all my domains",
+      "original_summary": "Article URL: https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/ Comments URL: https://news.ycombinator.com/item?id=50142866 Points: 502 # Comments: 251",
+      "topic_evidence": "Namecheap just seized and disabled all my domains",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "original_title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "original_summary": "Article URL: https://www.youtube.com/watch?v=LKrwhjOI8Nc Comments URL: https://news.ycombinator.com/item?id=50136150 Points: 242 # Comments: 269",
+      "topic_evidence": "There's never been a better time to go into math",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/vampire-crawlers",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/vampire-crawlers",
+      "original_title": "Vampire Crawlers™",
+      "original_summary": "The Turbo Wildcard from Vampire Survivors Discussion | Link",
+      "topic_evidence": "The Turbo Wildcard from Vampire Survivors",
+      "approved": true,
+      "evidence": "The Turbo Wildcard from Vampire Survivors",
+      "reason": "Product Hunt条目给出具体产品Vampire Crawlers及其与Vampire Survivors相关的定位，属于新产品发布。 / The Product Hunt listing names a concrete product, Vampire Crawlers, positioned in relation to Vampire Survivors, so it fits new products."
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/microsoft-xbox-series-s",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/microsoft-xbox-series-s",
+      "original_title": "XBOX Nano Controller",
+      "original_summary": "Pocket-sized wireless gamepad with all 18 inputs Discussion | Link",
+      "topic_evidence": "Pocket-sized wireless gamepad with all 18 inputs",
+      "approved": true,
+      "evidence": "Pocket-sized wireless gamepad with all 18 inputs",
+      "reason": "原文明确介绍一款口袋大小的无线游戏手柄及其18个输入，属于具体新产品。 / The source explicitly describes a pocket-sized wireless gamepad with all 18 inputs, which is a concrete new product."
+    },
+    {
+      "id": "world/geopolitics/https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "original_title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+      "original_summary": "Ukrainian President Volodymyr Zelenskyy has said he believes the U.S. government is behind his military's loss of normal access to the key satellite communications service used by the Ukrainian military.",
+      "topic_evidence": "loss of normal access to the key satellite communications service",
+      "approved": true,
+      "evidence": "loss of normal access to the key satellite communications service used by the Ukrainian military",
+      "reason": "主事件是乌克兰与美国围绕Starshield卫星通信服务接入的争端，涉及军事通信安全，属于地缘与安全。 / The main event is the Ukraine-U.S. dispute over access to the Starshield satellite communications service, involving military communications security, so it fits geopolitics and security."
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
+      "original_title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "original_summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
+      "topic_evidence": "country has been \"bundled together\" in measures aimed at curbing cheap imports",
+      "approved": true,
+      "evidence": "EU tariffs aimed at China hitting Ukraine",
+      "reason": "主事件是欧盟对华关税措施波及乌克兰钢铁业，属于具体贸易政策与政府措施。 / The main event is EU tariffs aimed at China affecting Ukraine’s steel industry, which is a specific trade policy and government measure."
+    },
+    {
+      "id": "world/government-policy/https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/protesters-disrupt-ben-gvir-event-forcing-him-off-stage?traffic_source=rss",
+      "original_title": "Protesters disrupt Ben-Gvir event forcing him off stage",
+      "original_summary": "Israeli protesters disrupted a Tel Aviv university event featuring far-right National Security Minister Itamar Ben-Gvir.",
+      "topic_evidence": "protesters disrupted a Tel Aviv university event",
+      "approved": false,
+      "evidence": "protesters disrupted a Tel Aviv university event",
+      "reason": "主事件是抗议者扰乱Ben-Gvir出席的大学活动，属于社会抗议与政治动态，不是具体政府行动、制度或政策讨论。 / The main event is protesters disrupting a university event featuring Ben-Gvir, which is social protest and political activity rather than a specific government action, institution, or policy discussion."
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+      "original_summary": "Prosecutors say Paul Mackenzie lured the latest victims to their deaths by writing notes from his prison cell.",
+      "topic_evidence": "accused of ordering parents to starve their children to death",
+      "approved": true,
+      "evidence": "accused of ordering parents to starve their children to death",
+      "reason": "主事件是肯尼亚牧师被控命令父母饿死子女案的宣判，属于全球社会与司法议题。 / The main event is the verdict in the case of a Kenyan pastor accused of ordering parents to starve their children to death, fitting global society and justice."
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-19/10717026.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717026.shtml",
+      "original_title": "国产卫星互联网首次实现北极、南极、青藏高原联网通信",
+      "original_summary": "新华社北京10月19日电(记者温竞华、王立彬)记者19日从正在执行中国第16次北冰洋考察任务的“极地”号获悉，该船已完成国产卫星互联网北极航线准业务化应用测试，本航次首次成功开展北极、南极、青藏高原联网通信验证，打通了全球通信“最后的盲区”。(完）",
+      "topic_evidence": "首次成功开展北极、南极、青藏高原联网通信验证",
+      "approved": true,
+      "evidence": "首次成功开展北极、南极、青藏高原联网通信验证",
+      "reason": "主事件是国产卫星互联网完成极地和高原联网通信验证，属于中国产业技术进展。 / The main event is China’s satellite internet completing connectivity verification in polar and plateau regions, which is a Chinese industry and technology development."
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-19/10716982.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10716982.shtml",
+      "original_title": "鄂尔多斯：从“羊煤土气”到“暖城”",
+      "original_summary": "鄂尔多斯地处内蒙古自治区西南部、黄河“几字弯”腹地，蒙古语意为“众多的宫殿”，大河、大漠、大草原、大峡谷在此并立，河套文化、青铜文化、黄河文化、农耕文化、红色文化在这里交融。",
+      "topic_evidence": "从“羊煤土气”到“暖城”",
+      "approved": true,
+      "evidence": "从“羊煤土气”到“暖城”",
+      "reason": "标题表明报道聚焦鄂尔多斯从资源型产业向“暖城”城市品牌与发展模式转型，属于地方产业观察。 / The title shows the report focuses on Ordos’s shift from resource-based industries to the “warm city” brand and development model, fitting local industry coverage."
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml",
+      "original_title": "这里的竹笋为何在用硫磺熏",
+      "original_summary": "读者反映，四川乐山马边彝族自治县和泸州古蔺县、叙永县存在硫磺熏制鲜竹笋出售情况——",
+      "topic_evidence": "存在硫磺熏制鲜竹笋出售情况",
+      "approved": true,
+      "evidence": "存在硫磺熏制鲜竹笋出售情况",
+      "reason": "主事件是四川多地硫磺熏制鲜竹笋的食品安全问题，涉及违法与监管，属于社会与法治。 / The main event is a food-safety problem involving sulfur-fumigated fresh bamboo shoots in parts of Sichuan, involving illegality and regulation, so it fits society and law."
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-19/magyar-to-unveil-budget-as-bullish-traders-eye-hungary-euro-plan",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/magyar-to-unveil-budget-as-bullish-traders-eye-hungary-euro-plan",
+      "original_title": "Magyar to Unveil Budget as Bullish Traders Eye Hungary Euro Plan",
+      "original_summary": "Hungarian Prime Minister Peter Magyar is set to unveil his 2027 budget on Monday, with expectations running high in the market that he can show a path to steer the country toward the euro area.",
+      "topic_evidence": "set to unveil his 2027 budget on Monday",
+      "approved": true,
+      "evidence": "set to unveil his 2027 budget on Monday",
+      "reason": "主事件是匈牙利公布2027年预算及市场关注其欧元区路径，属于宏观财政政策。 / The main event is Hungary unveiling its 2027 budget and markets watching its euro-area path, which is macro fiscal policy."
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "approved": true,
+      "evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "reason": "主事件是60多岁、有400万美元资产的家庭是否退休及支出决策，属于个人理财规划。 / The main event is whether a couple in their 60s with $4 million can retire and how to handle spending, fitting personal financial planning."
+    },
+    {
+      "id": "opinion/tech-opinion/https://colo.to/cyberspace.html",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://colo.to/cyberspace.html",
+      "original_title": "William Gibson and the trademarking of cyberspace",
+      "original_summary": "Article URL: https://colo.to/cyberspace.html Comments URL: https://news.ycombinator.com/item?id=50146625 Points: 103 # Comments: 20",
+      "topic_evidence": "William Gibson and the trademarking of cyberspace",
+      "approved": true,
+      "evidence": "William Gibson and the trademarking of cyberspace",
+      "reason": "标题表明文章围绕William Gibson与“cyberspace”一词的商标化展开评论，属于技术观点与文化评论。 / The title indicates a commentary on William Gibson and the trademarking of “cyberspace,” fitting tech opinion and cultural commentary."
+    }
+  ],
+  "topic_approvals": [
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-19/10717026.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-19/10716982.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-19/10717000.shtml"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-19/magyar-to-unveil-budget-as-bullish-traders-eye-hungary-euro-plan"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://colo.to/cyberspace.html"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/microsoft-xbox-series-s"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/vampire-crawlers"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

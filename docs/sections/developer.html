@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-18</title>
+<title>02 开发与编程 · 信息日报 2026-10-19</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261018 期</span>
+        <span>第 20261019 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月18日 星期日</span></div>
+      <div class="dateline"><span>2026年10月19日 星期一</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,36 +40,30 @@
 
     <header class="pagehead category-head">
       <h2>02 开发与编程</h2>
-      <span class="ed">8 条 / 3 个细分</span>
+      <span class="ed">4 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="开发与编程：代理优先的购物工具与基础设施更新">
-      <div class="lead-label">开发与编程：代理优先的购物工具与基础设施更新</div>
-      <p>本期开发与编程涵盖 Vercel 与 Shopify 的代理购物店面模板、使用 document.currentScript 进行内联渲染的技巧、web-edit 0.1a2 与 Chirp Pong 实验、GitHub 自动化审查外部协作者权限并归档陈旧仓库、可在浏览器运行的 ESP32 模拟器，以及 Vercel Ship 2026 和 Meta 对 2026 世界杯流量的基础设施回顾。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：内联渲染技巧与 LLM 插件更新">
+      <div class="lead-label">开发与编程：内联渲染技巧与 LLM 插件更新</div>
+      <p>本期介绍 Lean Rada 用 document.currentScript 实现页面内联渲染的技巧；同时收录三个工具更新：llm-tools-datasette 0.1.1 修复 LLM 0.33 转向 httpx2 后未直接依赖 httpx 的插件失效问题，llm-echo 0.5 更新模拟 token 统计以计入工具调用和系统提示，web-edit 0.1a2 为文本和图像数据新增复制到剪贴板功能。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="languages-frameworks">
         <header class="subsection-head">
           <h3>语言与框架</h3>
-          <span>2 条</span>
+          <span>1 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：代理购物店面与内联脚本渲染">
-          <div class="lead-label">语言与框架：代理购物店面与内联脚本渲染</div>
-          <p>Vercel 发布开源的 Next.js 店面模板 Vercel Shop，让购物代理可直接读取商品信息并使用面向代理设计的购物工具，而不是依赖为人和搜索引擎构建的页面。Lean Rada 介绍利用 document.currentScript 属性，在页面加载时用脚本自身替换内联 script 元素，例如把当前年份写入页面。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：document.currentScript 内联渲染">
+          <div class="lead-label">语言与框架：document.currentScript 内联渲染</div>
+          <p>Lean Rada 介绍利用 document.currentScript 实现内联渲染：页面加载时脚本替换自身，例如把占位内容替换为当前年份。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers" target="_blank" rel="noopener">
-            <span class="at">Vercel 与 Shopify 将 AI 代理视为一等购物者</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 发布开源 Next.js 店面模板 Vercel Shop，让代理可直接读取商品信息并使用为代理设计的购物工具，而非依赖为人与搜索引擎构建的页面。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/17/document-currentscript" target="_blank" rel="noopener">
-            <span class="at">使用 document.currentScript 实现内联渲染</span>
+            <span class="at">用 document.currentScript 实现内联渲染</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Lean Rada 介绍利用 document.currentScript 属性，在页面加载时用脚本自身替换内联 script 元素，例如把当前年份写入页面。</p>
+            <p class="as">Lean Rada 介绍了一种利用 document.currentScript 实现内联渲染的技巧：页面加载时，脚本会替换自身，例如把占位内容替换为当前年份。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -77,36 +71,30 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>4 条</span>
+          <span>3 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：文件编辑、声波游戏与浏览器模拟器">
-          <div class="lead-label">开源与工具：文件编辑、声波游戏与浏览器模拟器</div>
-          <p>Simon Willison 发布 web-edit 0.1a2，这个微型 Web 应用用于浏览和编辑文件夹内文件，新增文本与图像数据的复制到剪贴板功能。他还尝试在两部手机的静态 HTML 页面间用麦克风接收的啁啾声传输游戏状态，构建双人竞争式 Pong 游戏并称实验可运行。GitHub 工程博客介绍在共享组织中利用原生 GitHub 功能自动审查外部协作者访问权限并归档长期不活跃仓库；开源项目 esp32sim 则提供可在浏览器中运行、无需真实硬件即可执行固件的 ESP32 模拟器。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：LLM 插件与 web-edit 更新">
+          <div class="lead-label">开源与工具：LLM 插件与 web-edit 更新</div>
+          <p>llm-tools-datasette 发布 0.1.1，修复 LLM 0.33 切换到 httpx2 后未直接依赖 httpx 的插件失效问题；llm-echo 0.5 更新模拟 token 用量统计，以计入工具调用和系统提示；web-edit 0.1a2 为文本和图像数据新增复制到剪贴板功能。</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette" target="_blank" rel="noopener">
+            <span class="at">llm-tools-datasette 发布 0.1.1，修复 httpx2 兼容问题</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">llm-tools-datasette 发布 0.1.1，修复因 LLM 0.33 切换到 httpx2 后，未直接依赖 httpx 的插件失效的问题。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-echo" target="_blank" rel="noopener">
+            <span class="at">llm-echo 0.5 发布：调试插件更新模拟 token 统计</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">llm-echo 0.5 发布，这个调试插件不调用真实 LLM、只回显输入提示词；新版更新模拟 token 用量统计，以计入工具调用和系统提示等。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/17/web-edit" target="_blank" rel="noopener">
-            <span class="at">web-edit 0.1a2 发布</span>
+            <span class="at">web-edit 0.1a2 发布，新增复制到剪贴板</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 发布 web-edit 0.1a2，这是一个用于浏览和编辑文件夹内文件的微型 Web 应用，新增文本与图像数据的复制到剪贴板功能。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/15/chirp-pong" target="_blank" rel="noopener">
-            <span class="at">Chirp Pong：用声波传输游戏状态的手机双人游戏</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 尝试在两部手机的静态 HTML 页面间用麦克风接收的啁啾声传输网络数据，构建双人竞争式 Pong 游戏，并称实验可运行。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org" target="_blank" rel="noopener">
-            <span class="at">GitHub 分享如何自动审查外部协作者权限并归档陈旧仓库</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">GitHub 工程博客介绍在共享组织中利用原生 GitHub 功能自动审查外部协作者访问权限，并归档长期不活跃的仓库，以维持仓库卫生与安全。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://github.com/mikroverk/esp32sim" target="_blank" rel="noopener">
-            <span class="at">Esp32sim：在浏览器中运行 ESP32 固件</span>
-            <span class="by">Hacker News</span>
-            <p class="as">开源项目 esp32sim 是一个可在浏览器中运行的 ESP32 模拟器，演示中无需真实硬件即可执行固件，目标是方便实验、测试和模拟 ESP32 软件。</p>
+            <p class="as">web-edit 0.1a2 发布，为文本和图像数据增加复制到剪贴板功能；该小型 Web 应用用于浏览和编辑文件夹内文件，作者主要用它跨机器编辑。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -114,27 +102,9 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>基础设施与数据</h3>
-          <span>2 条</span>
+          <span>0 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：代理优先平台与世界杯流量压力测试">
-          <div class="lead-label">基础设施与数据：代理优先平台与世界杯流量压力测试</div>
-          <p>Vercel 回顾在伦敦、柏林、纽约、悉尼和旧金山举办的 Ship 2026 大会，描述其从塑造 Web 开发转向为 AI 代理提供基础设施，并强调代理优先的设计。Meta 工程博客称 2026 世界杯成为其基础设施最大规模计划性压力测试，并创下历史流量纪录，文章讨论峰值图表与大规模可靠性保障。</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/blog/vercel-ship-2026-recap" target="_blank" rel="noopener">
-            <span class="at">Vercel 回顾 Ship 2026：转向面向 AI 代理的基础设施</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 在伦敦、柏林、纽约、悉尼和旧金山举办 Ship 2026 大会，回顾其从塑造 Web 开发转向为 AI 代理提供基础设施，强调代理优先的设计。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale" target="_blank" rel="noopener">
-            <span class="at">Meta 回顾 2026 世界杯：创纪录流量与大规模可靠性保障</span>
-            <span class="by">Meta 工程</span>
-            <p class="as">Meta 工程博客称 2026 世界杯成为其基础设施最大规模计划性压力测试，并创下历史流量纪录，文章讨论峰值图表与大规模可靠性保障。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-        </div>
+        <p class="empty">本小版今日暂无入选文章。</p>
       </section>
     </div>
 
