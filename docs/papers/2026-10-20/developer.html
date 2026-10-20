@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-10-20</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261020 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月20日 星期二</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-20/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">7 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：低资源语言编码、工具更新与 Prometheus 集群进展">
+      <div class="lead-label">开发与编程：低资源语言编码、工具更新与 Prometheus 集群进展</div>
+      <p>OpenAI 改进 ChatGPT 在低资源编程语言上的表现并新增软件工程、SQLite 和 COBOL 迁移评估；Lean Rada 展示用 document.currentScript 实现内联渲染；Simon Willison 发布 llm-tools-datasette 0.1.1 修复 httpx2 兼容性问题，并发布 llm-echo 0.5 调试插件；OpenBSD 8.0 将采用来自 Linux 6.18 的显卡驱动；GitHub 介绍如何把 Copilot 应用中的代理会话迁移到 VS Code；Meta 表示吉瓦级超级集群 Prometheus 首阶段已完成，计划扩展至约 100 万块 GPU 并使用闭环液冷。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：低资源语言编码与内联渲染">
+          <div class="lead-label">语言与框架：低资源语言编码与内联渲染</div>
+          <p>OpenAI 介绍改进 ChatGPT 在低资源编程语言上的编码能力，并新增软件工程、SQLite 和 COBOL 迁移评估；Lean Rada 介绍利用 document.currentScript 让内联脚本在页面加载时替换自身元素，实现内联渲染。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://openai.com/index/low-resource-programming-languages" target="_blank" rel="noopener">
+            <span class="at">OpenAI 提升低资源编程语言的编码能力</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI 介绍其改进 ChatGPT 在低资源编程语言上的表现，并新增针对软件工程、SQLite 和 COBOL 迁移的评估。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/17/document-currentscript" target="_blank" rel="noopener">
+            <span class="at">用 document.currentScript 实现内联渲染</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Lean Rada 介绍利用 document.currentScript 属性实现内联渲染的技巧，可在页面加载时让内联脚本替换自身元素。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：llm 插件更新、OpenBSD 驱动与 Copilot 会话迁移">
+          <div class="lead-label">开源与工具：llm 插件更新、OpenBSD 驱动与 Copilot 会话迁移</div>
+          <p>Simon Willison 发布 llm-tools-datasette 0.1.1，修复 LLM 0.33 切换到 httpx2 后插件未直接依赖 httpx 导致的兼容性问题；同时发布 llm-echo 0.5 调试插件，以回显提示代替调用真实 LLM，并让模拟 token 用量计入工具调用、系统提示和推理内容。OpenBSD 8.0 将引入来自 Linux 6.18 的 inteldrm、radeondrm 和 amdgpu 显卡驱动；GitHub 博客说明如何把 GitHub Copilot 应用中的代理会话迁移到 VS Code，并保留对话、代码更改和工作上下文。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette" target="_blank" rel="noopener">
+            <span class="at">llm-tools-datasette 0.1.1 发布</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison 发布 llm-tools-datasette 0.1.1，修复该插件因 LLM 0.33 切换到 httpx2 后未直接依赖 httpx 而出现的兼容性问题。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-echo" target="_blank" rel="noopener">
+            <span class="at">llm-echo 0.5 发布</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison 发布 llm-echo 0.5 调试插件，该插件不调用真实 LLM 而回显输入提示，并更新模拟 token 用量以计入工具调用、系统提示和推理内容。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://bsd.network/@brynet/117407035545900963" target="_blank" rel="noopener">
+            <span class="at">OpenBSD 8.0 将采用来自 Linux 6.18 的显卡驱动</span>
+            <span class="by">Hacker News</span>
+            <p class="as">OpenBSD 8.0 版本将引入来自 Linux 6.18 的 inteldrm、radeondrm 和 amdgpu 显卡驱动；Hacker News 讨论帖显示 124 分和 28 条评论。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code" target="_blank" rel="noopener">
+            <span class="at">如何在 VS Code 中继续 GitHub Copilot 应用会话</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub 博客介绍如何将 GitHub Copilot 应用中的代理会话迁移到 VS Code，同时保留对话、代码更改和工作上下文。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>1 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Meta Prometheus 吉瓦级集群首阶段完成">
+          <div class="lead-label">基础设施与数据：Meta Prometheus 吉瓦级集群首阶段完成</div>
+          <p>Meta 表示其吉瓦级 AI 超级集群 Prometheus 首阶段已完成，计划扩展至约 100 万块 GPU，并采用闭环液冷等技术。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster" target="_blank" rel="noopener">
+            <span class="at">走进 Prometheus：Meta 的吉瓦级超级集群建设</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta 表示其吉瓦级 AI 超级集群 Prometheus 首阶段已完成，计划扩展至约 100 万块 GPU，并采用闭环液冷等技术。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

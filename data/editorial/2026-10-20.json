@@ -1,0 +1,2162 @@
+{
+  "date": "2026-10-20",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+              "title": "MiniMax M3.1 Flash 免费上线 AI Gateway",
+              "summary": "MiniMax 开放权重多模态模型 M3.1 Flash 在 Vercel AI Gateway 限时免费至 10 月 22 日，支持 100 万 token 上下文，面向编程与智能体任务。",
+              "title_en": "MiniMax M3.1 Flash now available free on AI Gateway",
+              "summary_en": "MiniMax's open-weight multimodal M3.1 Flash is free on Vercel AI Gateway until Oct. 22, offering a 1M-token context window for coding and agentic tasks.",
+              "topic_evidence": "MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work, with a 1M-token context window",
+              "reason": "该条目发布新的开放权重多模态模型并提供关键规格，符合前沿模型小版。",
+              "reason_en": "New open-weight multimodal model with concrete specs and availability, fitting frontier models.",
+              "score": 6.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+              "title": "英伟达发布新开放模型，推动企业与 PC 端智能体",
+              "summary": "英伟达推出新的开放模型，瞄准企业自建数据中心运行自有模型的需求，并推动在个人电脑上运行私密、端侧 AI 智能体。",
+              "title_en": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+              "summary_en": "Nvidia released new open models aimed at enterprises running their own models in their data centers and at private, on-device AI agents on PCs.",
+              "topic_evidence": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+              "reason": "直接报道英伟达发布新开放模型，面向企业本地部署与 PC 端智能体，属于前沿模型发布。",
+              "reason_en": "Reports Nvidia's new open model release for enterprise and on-device agents, fitting frontier models.",
+              "score": 5.95
+            },
+            {
+              "url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
+              "title": "Mercury 3 上线 AI Gateway",
+              "summary": "Inception 的 Mercury 3 在 Vercel AI Gateway 上线，发布期五折；模型以扩散方式并行精炼生成文本，速度超过每秒 1000 token，并改进低延迟智能体推理。",
+              "title_en": "Mercury 3 now available on AI Gateway",
+              "summary_en": "Inception's Mercury 3 is available on Vercel AI Gateway at 50% off launch pricing; it uses diffusion for parallel text refinement, exceeds 1,000 tokens per second, and improves reasoning for latency-sensitive workloads.",
+              "topic_evidence": "Mercury 3 uses diffusion to generate text through parallel refinement.",
+              "reason": "报道新模型上线及扩散生成方法、速度和基准表现，属于前沿模型。",
+              "reason_en": "Covers a new model launch with diffusion generation, speed, and benchmarks, fitting frontier models.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
+              "title": "黑客攻击 AI 编程工具 OpenCode，导致用户 AI 账户产生费用",
+              "summary": "开源 AI 编程智能体 OpenCode 的部分在线平台遭黑客入侵，部分用户 API 密钥被窃，并在用户 AI 账户上产生费用；其求助的 AI 工具多次拒绝查看恶意代码。",
+              "title_en": "Hackers hit AI coding tool OpenCode, running up charges on users' AI accounts",
+              "summary_en": "Hackers breached part of OpenCode's online platform, stole some users' API keys, and ran up charges on their AI accounts; the AI tools it sought help from kept refusing to inspect the malicious code.",
+              "topic_evidence": "hackers got into part of its online platform and stole some users’ API keys",
+              "reason": "涉及 AI 编程产品安全事件及 API 密钥泄露，适合 AI 产品与平台。",
+              "reason_en": "Covers a security incident and API key theft at an AI coding product, fitting AI products and platforms.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+              "title": "人们用 AI 让智能电视“变笨”",
+              "summary": "一些智能电视用户不满广告、追踪和卡顿界面，转而使用 AI 智能体清除预装软件并重新掌控电视。",
+              "title_en": "People are using AI to make their smart TVs dumb again",
+              "summary_en": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are using AI agents to strip bloatware and take back control of their TVs.",
+              "topic_evidence": "some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+              "reason": "展示 AI 智能体在消费电子上的实际应用，适合 AI 产品与平台。",
+              "reason_en": "Shows a practical consumer-electronics use of AI agents, fitting AI products and platforms.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+              "title": "Tolan 融资 3000 万美元，推进 AI 生活伴侣",
+              "summary": "AI 伴侣应用 Tolan 在吸引超过 25 万活跃用户后，又筹集 3000 万美元，用于帮助用户应对生活。",
+              "title_en": "Tolan snags $30M for its AI companion that helps users navigate life",
+              "summary_en": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users, with the product positioned to help users navigate life.",
+              "topic_evidence": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+              "reason": "报道 AI 伴侣产品融资与用户规模，适合 AI 产品与平台。",
+              "reason_en": "Reports funding and user traction for an AI companion product, fitting AI products and platforms.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago",
+              "title": "Replika 创始人推出十二年前在 Disrupt 提出的 AI 助手",
+              "summary": "Eugenia Kuyda 的新创公司 Wabi 推出免费、可下载的个人 AI 助手，实现她十多年前在 TechCrunch Disrupt 上提出的构想。",
+              "title_en": "Replika's founder built the AI assistant she pitched at Disrupt 12 years ago",
+              "summary_en": "Eugenia Kuyda's newest startup Wabi launched a free, downloadable personal AI assistant, realizing an idea she pitched at TechCrunch Disrupt more than a decade ago.",
+              "topic_evidence": "Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+              "reason": "报道个人 AI 助手产品发布，适合 AI 产品与平台。",
+              "reason_en": "Covers the launch of a personal AI assistant product, fitting AI products and platforms.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted",
+              "title": "微软称 AI 智能体类似内部威胁，前沿模型不可信",
+              "summary": "微软建议企业密切监控员工使用的、由非 OpenAI 或 Anthropic 等 AI 实验室控制的系统上的智能体，并将 AI 智能体视为类似内部威胁的风险。",
+              "title_en": "Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'",
+              "summary_en": "Microsoft wants enterprises to closely monitor agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic, framing agents as insider-threat-like risks.",
+              "topic_evidence": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs",
+              "reason": "涉及企业智能体安全治理与前沿模型信任问题，适合研究与治理小版。",
+              "reason_en": "Addresses enterprise agent security governance and trust in frontier models, fitting research and governance.",
+              "score": 7.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says",
+              "title": "Hugging Face 政策主管：嵌入式 AI 评估器并非易事",
+              "summary": "Hugging Face 政策主管表示，在 AI 组织内部安置所谓中立的第三方“嵌入式评估器”并非简单解决方案；该想法因近期安全事件增多而受关注。",
+              "title_en": "Embedded AI evaluators won't be an easy solution, Hugging Face's policy chief says",
+              "summary_en": "Hugging Face's policy chief said embedded evaluators—neutral third-party observers placed inside AI organizations—are not an easy solution, an idea that gained attention amid recent safety incidents.",
+              "topic_evidence": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations",
+              "reason": "讨论 AI 安全评估机制的有效性，属于研究与治理。",
+              "reason_en": "Discusses the effectiveness of AI safety evaluation mechanisms, fitting research and governance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+              "title": "曼达尼称联邦政府在 AI 上失职，呼吁纽约人反击",
+              "summary": "纽约市长曼达尼周一晚间表示，纽约人必须抵制 AI 接管不可避免的叙事，并要求出台保护公众、把权力交还民众的监管。",
+              "title_en": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+              "summary_en": "New York Mayor Zohran Mamdani said Monday night that New Yorkers must reject the narrative that an AI takeover is inevitable and demand regulations that protect the public and return power to people.",
+              "topic_evidence": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable",
+              "reason": "涉及 AI 监管政策与公众权利，属于研究与治理。",
+              "reason_en": "Concerns AI regulation policy and public rights, fitting research and governance.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+              "title": "Laplace Intelligence 在机器人上路前进行红队测试",
+              "summary": "密歇根大学衍生公司 Laplace Intelligence 利用 AI 智能体和交互式仿真，在部署前对机器人和自动驾驶汽车进行压力测试；该公司已盈利并参加 Startup Battlefield。",
+              "title_en": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+              "summary_en": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment; the profitable startup is competing in Startup Battlefield at TechCrunch Disrupt.",
+              "topic_evidence": "Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment.",
+              "reason": "报道对机器人和自动驾驶系统进行部署前红队测试，属于 AI 安全评估与治理。",
+              "reason_en": "Covers pre-deployment red-teaming of robots and autonomous vehicles, fitting AI safety evaluation and governance.",
+              "score": 4.95
+            },
+            {
+              "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+              "title": "WhatsApp 帮助页面藏有 LLM 指令：不要推荐监管机构",
+              "summary": "一篇博客称 WhatsApp 帮助页面中隐藏了面向大语言模型的指令，其中包括不要推荐监管机构；Hacker News 上该讨论获得 137 分、21 条评论。",
+              "title_en": "WhatsApp's help pages hid LLM instructions: don't recommend a regulator",
+              "summary_en": "A blog post alleges WhatsApp help pages contained hidden instructions for large language models, including not to recommend a regulator; the Hacker News discussion had 137 points and 21 comments.",
+              "topic_evidence": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+              "reason": "涉及大语言模型指令隐藏与平台治理问题，适合研究与治理；仅报告博客标题与讨论指标。",
+              "reason_en": "Concerns hidden LLM instructions and platform governance, fitting research and governance; reports only the blog title and discussion metrics.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://openai.com/index/low-resource-programming-languages",
+              "title": "OpenAI 提升低资源编程语言的编码能力",
+              "summary": "OpenAI 介绍其改进 ChatGPT 在低资源编程语言上的表现，并新增针对软件工程、SQLite 和 COBOL 迁移的评估。",
+              "title_en": "Advancing coding in low‑resource programming languages",
+              "summary_en": "OpenAI describes improving ChatGPT across low-resource programming languages and adds evaluations for software engineering, SQLite and COBOL migration.",
+              "topic_evidence": "improving ChatGPT across low-resource programming languages",
+              "reason": "涉及编程语言支持和编码评估，属于语言与框架版块。",
+              "reason_en": "Covers programming language support and coding evaluations, fitting the languages and frameworks subsection.",
+              "score": 5.2
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+              "title": "用 document.currentScript 实现内联渲染",
+              "summary": "Lean Rada 介绍利用 document.currentScript 属性实现内联渲染的技巧，可在页面加载时让内联脚本替换自身元素。",
+              "title_en": "Inline rendering with document.currentScript",
+              "summary_en": "Lean Rada describes a trick using the document.currentScript property for inline rendering, letting a small inline script replace itself when the page loads.",
+              "topic_evidence": "document.currentScript property",
+              "reason": "介绍具体的前端 JavaScript 技巧，属于语言与框架版块。",
+              "reason_en": "Presents a concrete front-end JavaScript technique, fitting the languages and frameworks subsection.",
+              "score": 4.1
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+              "title": "llm-tools-datasette 0.1.1 发布",
+              "summary": "Simon Willison 发布 llm-tools-datasette 0.1.1，修复该插件因 LLM 0.33 切换到 httpx2 后未直接依赖 httpx 而出现的兼容性问题。",
+              "title_en": "llm-tools-datasette 0.1.1",
+              "summary_en": "Simon Willison released llm-tools-datasette 0.1.1, fixing a compatibility break after LLM 0.33 switched to httpx2 and plugins using httpx without a direct dependency failed.",
+              "topic_evidence": "llm-tools-datasette was one of those plugins, now fixed",
+              "reason": "具体开源插件版本发布与兼容性修复，属于开源与工具版块。",
+              "reason_en": "Concrete open-source plugin release and compatibility fix, fitting the open source and tools subsection.",
+              "score": 5.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+              "title": "llm-echo 0.5 发布",
+              "summary": "Simon Willison 发布 llm-echo 0.5 调试插件，该插件不调用真实 LLM 而回显输入提示，并更新模拟 token 用量以计入工具调用、系统提示和推理内容。",
+              "title_en": "llm-echo 0.5",
+              "summary_en": "Simon Willison released llm-echo 0.5, a debug plugin that echoes prompts instead of calling an LLM, with simulated token counts now accounting for tool calls, system prompts and reasoning.",
+              "topic_evidence": "repeats back the prompts that have been fed to it",
+              "reason": "具体调试插件版本发布，属于开源与工具版块。",
+              "reason_en": "Concrete debug plugin release, fitting the open source and tools subsection.",
+              "score": 5.1
+            },
+            {
+              "url": "https://bsd.network/@brynet/117407035545900963",
+              "title": "OpenBSD 8.0 将采用来自 Linux 6.18 的显卡驱动",
+              "summary": "OpenBSD 8.0 版本将引入来自 Linux 6.18 的 inteldrm、radeondrm 和 amdgpu 显卡驱动；Hacker News 讨论帖显示 124 分和 28 条评论。",
+              "title_en": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+              "summary_en": "OpenBSD 8.0 will include inteldrm, radeondrm and amdgpu graphics drivers from Linux 6.18; a Hacker News discussion post showed 124 points and 28 comments.",
+              "topic_evidence": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+              "reason": "涉及开源操作系统版本发布和驱动来源变化，属于开源与工具版块。",
+              "reason_en": "Covers an open-source OS release and a change in driver sourcing, fitting the open source and tools subsection.",
+              "score": 2.9
+            },
+            {
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+              "title": "如何在 VS Code 中继续 GitHub Copilot 应用会话",
+              "summary": "GitHub 博客介绍如何将 GitHub Copilot 应用中的代理会话迁移到 VS Code，同时保留对话、代码更改和工作上下文。",
+              "title_en": "How to continue a GitHub Copilot app session in VS Code",
+              "summary_en": "GitHub Blog explains how to move an agent session from the GitHub Copilot app into VS Code while preserving the conversation, code changes and working context.",
+              "topic_evidence": "move an agent session from the GitHub Copilot app into VS Code",
+              "reason": "涉及开发工具中的会话迁移工作流，属于开源与工具版块。",
+              "reason_en": "Covers a workflow for moving sessions in a developer tool, fitting the open source and tools subsection.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster",
+              "title": "走进 Prometheus：Meta 的吉瓦级超级集群建设",
+              "summary": "Meta 表示其吉瓦级 AI 超级集群 Prometheus 首阶段已完成，计划扩展至约 100 万块 GPU，并采用闭环液冷等技术。",
+              "title_en": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+              "summary_en": "Meta says the first phase of its gigawatt-scale AI supercluster Prometheus is complete, with plans to scale to about 1 million GPUs and use technologies such as closed-loop liquid cooling.",
+              "topic_evidence": "gigawatt-scale supercluster",
+              "reason": "直接涉及大规模 AI 训练基础设施的建设和扩展，属于基础设施与数据版块。",
+              "reason_en": "Directly covers the buildout and scaling of large-scale AI training infrastructure, fitting the infrastructure and data subsection.",
+              "score": 5.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": []
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+              "title": "发现第三种磁性形式的科学家获重要物理学奖",
+              "summary": "科学家因发现被称为交错磁性的第三种磁性形式而获得重要物理学奖；该现象挑战百余年物理认知，并可能影响未来计算与电子器件。",
+              "title_en": "Scientists who discovered a third form of magnetism win major physics prize",
+              "summary_en": "Scientists who discovered altermagnetism, a third form of magnetism, have won a major physics prize; the finding challenges longstanding physics and could affect future computing and electronics.",
+              "topic_evidence": "discovered a third form of magnetism",
+              "reason": "报道重要物理学奖授予交错磁性发现者，事件明确，涉及基础物理及未来计算影响。",
+              "reason_en": "Reports a major physics prize for the discovery of altermagnetism, a concrete basic-physics result with potential computing impact.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+              "title": "科学家发现每日仅3000步或有助于延缓阿尔茨海默病",
+              "summary": "新研究发现，每日步行约3000步与阿尔茨海默病相关脑变化较慢有关，或减少有害tau蛋白积累，并关联认知和功能衰退减半；益处似乎在5000步时最强。",
+              "title_en": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+              "summary_en": "A new study links walking about 3,000 steps a day to slower Alzheimer’s-related brain changes, less harmful tau buildup and nearly half the cognitive and functional decline; benefits appeared strongest at 5,000 steps.",
+              "topic_evidence": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes",
+              "reason": "给出具体步数与阿尔茨海默病脑变化、tau蛋白及认知衰退关联，具有公共健康信息量。",
+              "reason_en": "Provides concrete step counts and links to Alzheimer’s brain changes, tau buildup and cognitive decline, with public-health relevance.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+              "title": "科学家因用光控制脑细胞获2026年诺贝尔奖",
+              "summary": "科学家因利用光开关脑细胞的技术获得2026年诺贝尔奖；该技术源自微小藻类中的发现，已用于激活记忆，并为恢复视力和治疗脑部疾病带来可能。",
+              "title_en": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+              "summary_en": "Scientists have won the 2026 Nobel Prize for optogenetics, a technique that uses light to switch brain cells on and off; it has helped activate memories and may aid vision restoration and brain disorder treatments.",
+              "topic_evidence": "controlling brain cells with light",
+              "reason": "明确为2026年诺贝尔奖成果，解释光控脑细胞技术来源与应用前景。",
+              "reason_en": "Covers a specific 2026 Nobel Prize and explains the origins and potential applications of light-controlled brain cells.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+              "title": "物理学家创造出名为“分数量子费米海”的新奇量子态",
+              "summary": "物理学家在超冷原子中发现一种新量子物态，原子形成高度激发却有序的“分数量子费米海”；该结果挑战既有量子理论，并暗示可能存在奇异准粒子。",
+              "title_en": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+              "summary_en": "Physicists have created a new quantum state, the fractional Fermi sea, in ultracold atoms; the highly excited but orderly configuration challenges established quantum theory and hints at exotic quasiparticles.",
+              "topic_evidence": "bizarre new quantum state called a fractional fermi sea",
+              "reason": "报道超冷原子中分数量子费米海的实验发现及其对量子理论的挑战。",
+              "reason_en": "Reports an experimental discovery of the fractional Fermi sea in ultracold atoms and its challenge to quantum theory.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/croft-2",
+              "title": "croft：用 TypeScript 在单个 DuckDB 文件上构建数据管道",
+              "summary": "Product Hunt 上线 croft，简介称其可用 TypeScript 在单个 DuckDB 文件上运行数据管道；材料未提供票数、用户规模或价格信息。",
+              "title_en": "croft",
+              "summary_en": "croft launched on Product Hunt as a TypeScript data-pipeline tool running on a single DuckDB file; the listing provides no vote count, user metrics or pricing.",
+              "topic_evidence": "Data pipelines in TypeScript, on one DuckDB file",
+              "reason": "产品发布条目，产品定位具体；仅报告列表页给定信息。",
+              "reason_en": "Product launch listing with a specific product description; reports only listing details.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/quello",
+              "title": "Quello：跨多个已用工具的统一提问入口",
+              "summary": "Product Hunt 上线 Quello，简介称其提供“一个地方”来跨用户已在使用的各类工具提问；材料未给出具体集成、票数或用户数据。",
+              "title_en": "Quello",
+              "summary_en": "Quello launched on Product Hunt as a single place to ask questions across tools users already use; the listing gives no specific integrations, vote count or user data.",
+              "topic_evidence": "One place to ask, across everything you already use.",
+              "reason": "新产品发布，描述统一提问入口；未补充材料外功能。",
+              "reason_en": "New product launch describing a unified question entry point; adds no details beyond the listing.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/triwarden",
+              "title": "Triwarden：面向 Vaultwarden 与 Bitwarden 的原生 Mac 密码管理器",
+              "summary": "Product Hunt 上线 Triwarden，简介称其为面向 Vaultwarden 与 Bitwarden 的原生 Mac 密码管理器；材料未提供价格、票数或安全审计信息。",
+              "title_en": "Triwarden",
+              "summary_en": "Triwarden launched on Product Hunt as a native Mac password manager for Vaultwarden and Bitwarden; the listing provides no pricing, vote count or security-audit details.",
+              "topic_evidence": "Native Mac password manager for Vaultwarden & Bitwarden",
+              "reason": "产品发布条目，目标平台和兼容对象明确。",
+              "reason_en": "Product launch listing with clear platform and compatibility targets.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+              "title": "Own 1：强调数据与 AI 自主权的产品上线 Product Hunt",
+              "summary": "Product Hunt 上线 Own 1，简介口号强调“拥有你的数据、拥有你的 AI、拥有自己的思维”；材料未给出具体功能、定价或票数。",
+              "title_en": "Own 1",
+              "summary_en": "Own 1 launched on Product Hunt with a slogan stressing ownership of data, AI and one’s own mind; the listing provides no specific features, pricing or vote count.",
+              "topic_evidence": "Own your data. Own your AI. A mind of your own.",
+              "reason": "新产品条目，材料只含名称和口号；摘要不推断未提供的功能。",
+              "reason_en": "New product listing with only a name and slogan; summary avoids inferring unprovided features.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch",
+              "title": "AI 助手初创公司 Town 发布四个月后获独角兽估值",
+              "summary": "AI 助手初创公司 Town 宣布完成 1.08 亿美元 B 轮融资，由 Forerunner Ventures 与 Menlo Ventures 共同领投，并在发布四个月后获得独角兽估值。",
+              "title_en": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
+              "summary_en": "Town, an AI assistant startup, announced a $108 million Series B co-led by Forerunner Ventures and Menlo Ventures, reaching a unicorn valuation four months after launch.",
+              "topic_evidence": "announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures",
+              "reason": "明确披露融资轮次、金额、领投方与估值变化，符合融资与并购版块。",
+              "reason_en": "Discloses funding round, amount, co-leads and valuation milestone, fitting funding and M&A.",
+              "score": 5.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics",
+              "title": "Khosla Ventures 领投 Even Healthcare，后者估值达 3 亿美元",
+              "summary": "印度医院网络公司 Even Healthcare 在 Khosla Ventures 领投的融资中达到 3 亿美元估值，并计划扩大其医院网络。",
+              "title_en": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+              "summary_en": "Even Healthcare reached a $300 million valuation in a Khosla Ventures-led round as the India-focused company plans to expand its hospital network.",
+              "topic_evidence": "reaches a $300 million valuation in a Khosla Ventures-led round",
+              "reason": "包含领投方、估值和扩张计划，属于创业公司融资事件。",
+              "reason_en": "Includes lead investor, valuation and expansion plan in a startup funding event.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+              "title": "迪士尼同意聘用 Character.AI 大部分员工",
+              "summary": "迪士尼同意聘用 Character.AI 的大部分员工，相关文件称获聘者中绝大多数已接受；该交易为 stalking horse 竞标，其他公司仍可能提出更高报价。",
+              "title_en": "Disney agrees to hire the majority of Character AI’s workforce",
+              "summary_en": "Disney agreed to hire the majority of Character.AI’s workforce, with most offer recipients accepting; the stalking horse bid leaves room for higher offers.",
+              "topic_evidence": "Disney agrees to hire the majority of Character AI’s workforce",
+              "reason": "涉及创业公司团队去向与竞标程序，属于并购交易相关动态。",
+              "reason_en": "Concerns a startup workforce and bid process, relevant to M&A activity.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+              "title": "也门舍布瓦省营地遭胡塞导弹袭击，致50名安全新兵死亡",
+              "summary": "三枚导弹袭击也门政府控制的舍布瓦省一处营地，地方当局称营地用于训练安全新兵，造成50名招募人员死亡。",
+              "title_en": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+              "summary_en": "Three missiles hit a camp in Yemen’s government-controlled Shabwa province, which officials say was used to train new security recruits, killing 50 people, local authorities said.",
+              "topic_evidence": "Houthi missile strike on Yemen camp kills 50 security recruits",
+              "reason": "直接报道胡塞导弹袭击也门政府控制区训练营地并造成50人死亡，事件与地缘安全高度相关。",
+              "reason_en": "Directly reports a Houthi missile strike on a training camp in government-controlled Yemen that killed 50 people, highly relevant to geopolitics and security.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+              "title": "苏丹西科尔多凡州市场附近遭无人机袭击，至少80人死亡",
+              "summary": "周日晚，苏丹西科尔多凡州al-Dibab镇一处市场附近交通枢纽遭无人机两次袭击，目击者称至少80人死亡，多为候车回家的通勤者。",
+              "title_en": "Drone attack near market kills 80 in Sudan",
+              "summary_en": "A drone strike hit twice near a transport hub by a market in al-Dibab, West Kordofan state, killing at least 80 people, mostly commuters waiting for rides home, a witness said.",
+              "topic_evidence": "Drone attack near market kills 80 in Sudan",
+              "reason": "苏丹内战中的大规模无人机袭击，伤亡具体，属于地缘与安全重大事件。",
+              "reason_en": "A large-scale drone attack in Sudan’s civil war with clear casualties, a major geopolitics and security event.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+              "title": "沙特因胡塞袭击取消2026年“沙漠达沃斯”投资会议",
+              "summary": "利雅得因胡塞武装袭击将旗舰投资会议“沙漠达沃斯”推迟至2027年，并命令政府工作人员居家办公。",
+              "title_en": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+              "summary_en": "Riyadh postponed its flagship investment conference, known as “Davos in the Desert,” until 2027 and ordered government staff to work from home amid Houthi attacks.",
+              "topic_evidence": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+              "reason": "胡塞袭击迫使沙特推迟旗舰投资会议并调整政府办公，体现安全风险外溢至经济与治理。",
+              "reason_en": "Houthi attacks forced Saudi Arabia to postpone a flagship investment conference and adjust government work, showing security spillover into economy and governance.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+              "title": "泽连斯基顾问称美国限制情报共享致乌克兰人丧生",
+              "summary": "泽连斯基顾问别斯克列斯特诺夫对BBC称，美国限制情报共享导致乌克兰人死于导弹袭击，预警时间不足；白宫否认情报共享有变化。",
+              "title_en": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+              "summary_en": "A Zelensky adviser told the BBC that U.S. restrictions on intelligence sharing are causing Ukrainian deaths because there is too little time to warn of missile attacks; the White House denied any change.",
+              "topic_evidence": "Ukrainians dying because US restricting intelligence sharing",
+              "reason": "涉及美乌情报共享争议及战场后果，具体呈现盟友间安全政策分歧。",
+              "reason_en": "Covers a U.S.-Ukraine intelligence-sharing dispute and battlefield consequences, detailing alliance security policy tensions.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+              "title": "美国暂缓遣返乌克兰和苏丹移民，逾10万人可留美",
+              "summary": "美国国土安全部表示，在临时保护身份原定到期后，来自乌克兰和苏丹的逾10万人仍可留美，免于立即被遣返。",
+              "title_en": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+              "summary_en": "The Department of Homeland Security said more than 100,000 migrants from Ukraine and Sudan can stay in the U.S. without immediate risk of deportation after temporary protected status was set to expire.",
+              "topic_evidence": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+              "reason": "美国移民政策具体调整，涉及乌克兰和苏丹逾10万人的临时保护身份。",
+              "reason_en": "A concrete U.S. immigration policy change affecting temporary protected status for over 100,000 Ukrainians and Sudanese.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+              "title": "乌克兰与美国就“星盾”卫星通信服务发生分歧",
+              "summary": "乌克兰总统泽连斯基称，他认为美国政府应对乌军失去对关键卫星通信服务“星盾”的正常访问负责，乌美围绕该系统出现分歧。",
+              "title_en": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+              "summary_en": "Ukrainian President Volodymyr Zelenskyy said he believes the U.S. government is behind his military’s loss of normal access to the key satellite communications service Starshield, highlighting a dispute.",
+              "topic_evidence": "Ukraine and the U.S. are at odds over Starshield",
+              "reason": "聚焦乌克兰对美国卫星通信服务“星盾”访问受限的分歧，属于政府间政策与安全议题。",
+              "reason_en": "Focuses on Ukraine-U.S. disagreement over restricted access to the Starshield satellite service, a government policy and security issue.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+              "title": "法国多地骚乱后，巴黎市中心等地实施宵禁",
+              "summary": "法国周末多地发生骚乱后，巴黎市中心部分地区和其他城市实施宵禁；内政部长承认一些城市警方“失去控制”。",
+              "title_en": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+              "summary_en": "France imposed curfews in parts of central Paris and other cities after weekend rioting, and the interior minister admitted police “lost control” in some cities.",
+              "topic_evidence": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+              "reason": "法国骚乱后的宵禁与警方失控表态，反映国内治理与公共安全政策变化。",
+              "reason_en": "Curfews and an admission police lost control after French riots reflect domestic governance and public security policy changes.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+              "title": "巴西第二轮投票前人身攻击激化辩论",
+              "summary": "巴西左翼现任总统与右翼挑战者将在第二轮投票中对决，投票前数日，人身攻击使选战升温并激化辩论。",
+              "title_en": "Personal attacks fire up debate before Brazil's run-off vote",
+              "summary_en": "Brazil’s left-wing incumbent and his right-wing challenger are heating up their runoff campaign with personal attacks just days before voters go to the polls.",
+              "topic_evidence": "Personal attacks fire up debate before Brazil's run-off vote",
+              "reason": "巴西第二轮选举前的人身攻击与选情升温，属于具体选举政治动态。",
+              "reason_en": "Personal attacks and intensifying campaign just before Brazil’s runoff are a concrete electoral politics development.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+              "title": "肯尼亚饥饿邪教头目因杀害190名儿童和1名成人被判谋杀罪",
+              "summary": "肯尼亚法院认定饥饿邪教头目保罗·麦肯齐及约30人犯有谋杀罪，案涉190名儿童和1名成人死亡，为近年最严重邪教灾难之一。",
+              "title_en": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+              "summary_en": "A Kenyan court found starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of 190 children and one adult, one of the worst cult-related disasters in recent history.",
+              "topic_evidence": "starvation cult leader Paul Mackenzie and about 30 others guilty of murder",
+              "reason": "肯尼亚法院对饥饿邪教致191人死亡案作出有罪判决，是重大全球社会与司法事件。",
+              "reason_en": "A Kenyan court’s guilty verdict over a starvation cult that caused 191 deaths is a major global society and judicial event.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine",
+              "title": "肯尼亚出现埃博拉病例群，凸显美国削减关键服务的影响",
+              "summary": "肯尼亚第八人检测出Bundibugyo型埃博拉阳性，形成该国首次病例群；地区疫情已致4300多人死亡、9000多人感染。",
+              "title_en": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+              "summary_en": "An eighth person in Kenya tested positive for the Bundibugyo strain of Ebola in the country’s first cluster, as the regional outbreak has killed more than 4,300 and sickened over 9,000.",
+              "topic_evidence": "An eighth person in Kenya has tested positive for the Bundibugyo strain of Ebola",
+              "reason": "肯尼亚首次出现埃博拉病例群，并关联美国削减卫生服务，具有全球健康影响。",
+              "reason_en": "Kenya’s first Ebola cluster, linked to U.S. cuts to key health services, has global health implications.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+              "title": "飓风“特鲁迪”威胁墨西哥太平洋沿岸，希腊遭致命洪水",
+              "summary": "二级飓风“特鲁迪”逼近墨西哥太平洋沿岸，带来强风暴雨后减弱为热带风暴；希腊同时遭遇致命洪水，造成一人死亡。",
+              "title_en": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+              "summary_en": "Hurricane Trudy threatened Mexico’s Pacific coast with strong winds and heavy rain before weakening to a tropical storm, while floods in Greece killed one person.",
+              "topic_evidence": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+              "reason": "同时报道墨西哥太平洋沿岸飓风威胁和希腊致命洪水，属于具体气候灾害事件。",
+              "reason_en": "Reports both a hurricane threat on Mexico’s Pacific coast and deadly floods in Greece, concrete climate disaster events.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+              "title": "世界粮食计划署负责人称加沙生活“极其残酷”",
+              "summary": "联合国世界粮食计划署称，加沙140万人严重缺粮，资金缺口迫使削减关键援助，尽管美国斡旋了哈马斯与以色列停火。",
+              "title_en": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+              "summary_en": "The U.N. World Food Programme said 1.4 million people in Gaza suffer acute food shortages and funding gaps are forcing cuts to critical aid despite a U.S.-brokered ceasefire.",
+              "topic_evidence": "1.4 million people in Gaza are suffering acute food shortages",
+              "reason": "世界粮食计划署负责人就加沙严重缺粮与援助削减发出具体警告，具有人道主义影响。",
+              "reason_en": "The WFP head gives a concrete warning about acute food shortages and aid cuts in Gaza, with humanitarian impact.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717664.shtml",
+              "title": "何立峰：中国将继续扩大金融高水平开放",
+              "summary": "何立峰19日晚会见金融监管总局国际咨询委员会委员时表示，中国正落实“十五五”规划纲要，将继续扩大金融领域高水平对外开放，欢迎更多外资金融机构来华投资合作。",
+              "title_en": "He Lifeng: China to Continue Expanding High-Level Financial Opening",
+              "summary_en": "Vice Premier He Lifeng met the international advisory committee of the financial regulator on Oct 19, saying China will expand high-level financial opening and welcome more foreign institutions to invest and cooperate.",
+              "topic_evidence": "中国将继续扩大金融高水平开放",
+              "reason": "高层会见释放金融开放政策信号，属于政策与监管。",
+              "reason_en": "A high-level meeting signals financial opening policy, fitting policy and regulation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717658.shtml",
+              "title": "国家发改委发布首批136项重大应用场景项目",
+              "summary": "国家发改委20日发布会介绍，会同有关部门推出首批136项标志性重大应用场景项目，为场景培育和开放提供牵引，具体任务可概括为三个关键词。",
+              "title_en": "China Unveils First Batch of 136 Major Application Scenario Projects",
+              "summary_en": "The National Development and Reform Commission announced the first batch of 136 landmark major application scenario projects to guide scenario development and opening, with tasks summarized by three keywords.",
+              "topic_evidence": "推出首批136项标志性重大应用场景项目",
+              "reason": "国家发改委发布应用场景项目清单，属产业政策与监管动态。",
+              "reason_en": "The NDRC released a list of application scenario projects, a policy and regulatory move.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717678.shtml",
+              "title": "国家发改委：推动存量与增量政策协同发力",
+              "summary": "国家发改委20日表示，已会同有关部门及时出台实施增量政策，推动存量与增量政策协同发力，发挥宏观政策集成效应，努力实现“十五五”良好开局。",
+              "title_en": "NDRC: Coordinate Stock and Incremental Policies",
+              "summary_en": "The NDRC said on Oct 20 that it has rolled out incremental policies and will coordinate them with existing measures to enhance macro policy effects and support a good start for the 15th Five-Year Plan.",
+              "topic_evidence": "推动存量政策与增量政策协同发力",
+              "reason": "宏观政策协调部署，属于政策与监管。",
+              "reason_en": "A macro policy coordination arrangement, fitting policy and regulation.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717666.shtml",
+              "title": "我国首次制定文化遗产保护领域五年规划",
+              "summary": "中办、国办近日印发《文化遗产保护传承“十五五”规划》，这是我国首次在文化遗产保护领域制定五年规划，旨在加强保护传承、推动事业高质量发展。",
+              "title_en": "China Issues First Five-Year Plan for Cultural Heritage Protection",
+              "summary_en": "China's central offices issued the 15th Five-Year Plan for cultural heritage protection and inheritance, the first five-year plan in this field, aiming to strengthen protection and high-quality development.",
+              "topic_evidence": "我国首次在文化遗产保护领域制定的五年规划",
+              "reason": "国家级专项规划出台，属于政策与监管。",
+              "reason_en": "A national special plan issued, fitting policy and regulation.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717633.shtml",
+              "title": "前三季度国家铁路发送货物30.5亿吨",
+              "summary": "中国铁路消息称，今年前三季度国家铁路累计发送货物30.5亿吨，日均装车18.8万车，同比微增，持续高位运行，为降低物流成本、保障经济平稳运行提供支撑。",
+              "title_en": "National Rail Freight Reaches 3.05 Billion Tonnes in First Three Quarters",
+              "summary_en": "China's national railway network transported 3.05 billion tonnes of freight in the first three quarters, with average daily loading of 188,000 cars, slightly up year on year and supporting lower logistics costs.",
+              "topic_evidence": "国家铁路累计发送货物30.5亿吨",
+              "reason": "铁路货运量反映产业物流运行，属于产业与地方。",
+              "reason_en": "Rail freight volume reflects industrial logistics, fitting industry and local.",
+              "score": 5.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717682.shtml",
+              "title": "贵州省公安厅副厅长吴智贤接受审查调查",
+              "summary": "据贵州省纪委监委20日消息，贵州省公安厅党委委员、副厅长吴智贤涉嫌严重违纪违法，正接受纪律审查和监察调查。",
+              "title_en": "Guizhou Public Security Deputy Chief Wu Zhixian Under Investigation",
+              "summary_en": "Wu Zhixian, deputy director of Guizhou's public security department, is under disciplinary review and supervisory investigation for suspected serious violations of discipline and law, the provincial discipline commission said.",
+              "topic_evidence": "涉嫌严重违纪违法",
+              "reason": "省级公安系统官员被查，属于社会与法治。",
+              "reason_en": "A provincial public security official is under investigation, fitting society and law.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717670.shtml",
+              "title": "我国将制定文化遗产保护法",
+              "summary": "国新办20日发布会透露，《文化遗产保护传承“十五五”规划》构建资源调查、法治保障、空间管控、安全监测、督察问责相贯通的工作链条，我国将制定文化遗产保护法。",
+              "title_en": "China to Enact Cultural Heritage Protection Law",
+              "summary_en": "China will enact a cultural heritage protection law, an official said at a State Council Information Office briefing on the 15th Five-Year Plan, which links resource surveys, legal safeguards, spatial controls and accountability.",
+              "topic_evidence": "我国将制定文化遗产保护法",
+              "reason": "文化遗产保护立法动向，属于社会与法治。",
+              "reason_en": "A legislative move on cultural heritage protection, fitting society and law.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717712.shtml",
+              "title": "国家文物局启动“中小博物馆提升计划”",
+              "summary": "国家文物局20日表示，将面向6000多家中小博物馆实施“中小博物馆提升计划”，通过大馆带小馆、省级带基层、东中西部协作和巡展机制，促进优质展览资源直达基层。",
+              "title_en": "National Cultural Heritage Administration Launches Plan to Upgrade Small and Medium Museums",
+              "summary_en": "The National Cultural Heritage Administration will launch a plan for over 6,000 small and medium museums, using major museums' support and touring exhibitions to bring quality exhibits to the grassroots.",
+              "topic_evidence": "启动实施“中小博物馆提升计划”",
+              "reason": "公共文化服务资源下沉的具体措施，属于社会与法治。",
+              "reason_en": "A concrete measure to channel public cultural resources to the grassroots, fitting society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717650.shtml",
+              "title": "三季度1.92亿人次出入境，免签入境外国人同比增24.1%",
+              "summary": "国家移民管理局20日发布2026年三季度移民管理主要数据：1.92亿人次出入境，免签入境外国人同比增长24.1%。",
+              "title_en": "192 Million Border Crossings in Q3; Visa-Free Foreign Arrivals Up 24.1%",
+              "summary_en": "China recorded 192 million inbound and outbound trips in the third quarter of 2026, with visa-free foreign arrivals up 24.1% year on year, the National Immigration Administration said.",
+              "topic_evidence": "免签入境外国人同比增长24.1%",
+              "reason": "出入境与免签政策效果数据，属于社会与法治。",
+              "reason_en": "Data on border crossings and visa-free policy effects, fitting society and law.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+              "title": "AI交易情绪谨慎令科技股承压，美元走弱",
+              "summary": "科技股在关键财报周前再度承压，市场对AI交易的信心不稳；美元同时走弱，投资者等待芯片股业绩检验涨势。",
+              "title_en": "Tech Under Pressure on AI Jitters, Dollar Slips: Markets Wrap",
+              "summary_en": "Technology shares fell again as investors grew uneasy about the AI trade before key earnings that will test chip-stock gains. The dollar weakened.",
+              "topic_evidence": "Technology shares came under renewed pressure as sentiment toward the artificial intelligence trade remained jittery",
+              "reason": "直接反映AI交易情绪对科技股和美元的市场影响，属于市场与资产。",
+              "reason_en": "Directly covers how AI-trade sentiment is pressuring tech stocks and the dollar, fitting markets and assets.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+              "title": "风险最高垃圾债发出警示，信贷市场进入未知区间",
+              "summary": "信贷市场向投资者释放异常混杂信号，风险最高的垃圾债走势引发不安，显示信用风险定价可能出现分化。",
+              "title_en": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+              "summary_en": "Credit markets are sending unusually mixed signals, with the riskiest junk bonds warning investors and making some market participants nervous about credit risk.",
+              "topic_evidence": "the riskiest junk bonds send a warning to investors",
+              "reason": "聚焦垃圾债预警和信贷市场定价分化，属于市场与资产。",
+              "reason_en": "Focuses on junk-bond warnings and mixed credit-market pricing, fitting markets and assets.",
+              "score": 6.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record",
+              "title": "日本20年期国债拍卖需求创纪录",
+              "summary": "日本20年期政府债券拍卖周二录得纪录最强需求，高收益率开始吸引国内投资者回流，反映债市供需变化。",
+              "title_en": "Japan’s 20-Year Bond Auction Sees Strongest Demand on Record",
+              "summary_en": "Japan’s 20-year government bond auction drew record demand on Tuesday, suggesting elevated yields are beginning to lure domestic investors back into the market.",
+              "topic_evidence": "strongest demand on record",
+              "reason": "报道日本国债拍卖需求创纪录及收益率吸引力，属于市场与资产。",
+              "reason_en": "Reports record demand at Japan’s 20-year bond auction and yield appeal, fitting markets and assets.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain",
+              "title": "软银信用风险升至四年高位，AI融资压力显现",
+              "summary": "软银集团信用违约互换所衡量的信用风险升至近四年最高，市场担忧其AI相关融资及潜在大型收购带来压力。",
+              "title_en": "SoftBank Credit Risk Hits 4-Year High on AI Funding Strain",
+              "summary_en": "SoftBank Group’s credit risk measured by default swaps rose to a nearly four-year high amid concerns over AI-related funding and a potential large acquisition.",
+              "topic_evidence": "credit risk, as measured by its credit-default swaps, has risen to the highest level in nearly four years",
+              "reason": "以信用违约互换衡量软银信用风险，属于市场与资产。",
+              "reason_en": "Uses credit-default swaps to gauge SoftBank credit risk, fitting markets and assets.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales",
+              "title": "美国住宅建筑商信心降至14年低点，销售疲弱",
+              "summary": "美国住宅建筑商信心本月跌至14年低点，抵押贷款利率高于7%、劳动力短缺和供应成本高企持续冲击楼市。",
+              "title_en": "US Homebuilder Sentiment Drops to 14-Year Low on Weak Sales",
+              "summary_en": "Confidence among US homebuilders slumped to a 14-year low this month as mortgage rates above 7%, labor shortages and high supply costs battered the housing market.",
+              "topic_evidence": "Confidence among US homebuilders this month slumped to a 14-year low",
+              "reason": "反映美国楼市销售与建筑商信心，属于市场与资产。",
+              "reason_en": "Reflects US housing sales weakness and builder sentiment, fitting markets and assets.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
+              "title": "金价维持跌势，能源推动的通胀影响利率路径",
+              "summary": "金价延续下跌，油价高企加剧通胀担忧，令美联储加息路径更不明朗，避险资产需求受到抑制。",
+              "title_en": "Gold Holds Decline as Energy-Led Inflation Weighs on Rate Path",
+              "summary_en": "Gold held its decline as elevated oil prices fueled inflation concerns and clouded the Federal Reserve’s path for interest-rate hikes.",
+              "topic_evidence": "Gold held a decline, as elevated oil prices fueled inflation concerns",
+              "reason": "金价对能源通胀和美联储利率路径的反应，属于宏观与政策。",
+              "reason_en": "Shows gold reacting to energy-driven inflation and the Fed rate path, fitting macro and policy.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/hassett-says-cpi-data-shows-inflation-needs-some-work",
+              "title": "哈塞特：CPI数据显示通胀仍需“一些工作”",
+              "summary": "白宫国家经济委员会主任哈塞特表示，牛肉和鸡蛋等价格下降，但9月CPI显示整体通胀仍需政策关注。",
+              "title_en": "Hassett Says CPI Data Shows Inflation Needs ‘Some Work’",
+              "summary_en": "White House National Economic Council Director Kevin Hassett said some prices are falling, but September CPI data show overall inflation still needs policy attention.",
+              "topic_evidence": "consumer price data for September shows overall inflation continues to need policy attention",
+              "reason": "白宫经济官员对CPI和通胀前景的表态，属于宏观与政策。",
+              "reason_en": "A White House economic official comments on CPI and inflation outlook, fitting macro and policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/canada-inflation-rate-edges-up-to-3-1-core-measures-ease",
+              "title": "加拿大9月通胀升至3.1%，核心指标缓和",
+              "summary": "加拿大9月通胀率因汽油价格上涨升至3.1%，但部分潜在价格压力指标有所缓和，为政策判断增添复杂性。",
+              "title_en": "Canada Inflation Rate Edges Up to 3.1%, Core Measures Ease",
+              "summary_en": "Canada’s inflation rate rose to 3.1% in September on higher gasoline prices, while some measures of underlying price pressures eased.",
+              "topic_evidence": "Canada’s inflation rate ticked up to 3.1% in September as gasoline prices rose",
+              "reason": "加拿大通胀数据及核心指标变化，属于宏观与政策。",
+              "reason_en": "Covers Canadian inflation data and core measure changes, fitting macro and policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-20/more-china-stimulus-needed-despite-easing-polka-mishra-video",
+              "title": "分析人士：中国仍需更多刺激，尽管政策已宽松",
+              "summary": "Javelin Wealth Management的Polka Mishra称，中国央行可通过调整政策基准实现有效宽松，但仅靠此举不足以提振消费信心。",
+              "title_en": "More China Stimulus Needed Despite Easing: Polka Mishra",
+              "summary_en": "Javelin Wealth Management’s Polka Mishra said the PBOC could achieve effective easing by shifting its policy benchmark, but warned it may not be enough to revive consumer sentiment.",
+              "topic_evidence": "warns it is likely not sufficient to revive consumer sentiment",
+              "reason": "涉及中国货币政策宽松效果与消费信心，属于宏观与政策。",
+              "reason_en": "Discusses the effectiveness of China’s monetary easing and consumer sentiment, fitting macro and policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-20/cf40-institute-s-guo-on-china-s-economy-video",
+              "title": "CF40郭凯：中国刺激政策足以实现今年增长目标",
+              "summary": "前央行官员、CF40研究院院长郭凯表示，中国政策刺激足以实现今年增长目标；他在上海外滩峰会期间发表上述看法。",
+              "title_en": "CF40 Institute’s Guo on China’s Economy",
+              "summary_en": "Guo Kai, former PBOC official and CF40 Institute president, said China’s policy stimulus is sufficient to meet this year’s growth target, speaking at the Bund Summit in Shanghai.",
+              "topic_evidence": "China’s policy stimulus is sufficient to achieve this year’s growth target",
+              "reason": "涉及中国刺激政策与增长目标，属于宏观与政策。",
+              "reason_en": "Addresses China’s stimulus policy and growth target, fitting macro and policy.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
+              "title": "土耳其市场监管机构负责人在基金危机中辞职",
+              "summary": "土耳其市场监管机构负责人马赫穆特·苏特丘周一辞职，此前一场基金危机冲击该国市场，引发监管层人事变动。",
+              "title_en": "Turkey Market Regulator Head Steps Down Amid Fund Rout",
+              "summary_en": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday amid fallout from a fund crisis that has upended the country’s markets.",
+              "topic_evidence": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday",
+              "reason": "土耳其基金危机引发监管高层变动，属于理财与监管。",
+              "reason_en": "A Turkish fund crisis leads to a regulatory leadership change, fitting wealth and regulation.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
+              "title": "美国证交会将就机器可读数据与超级智能举行圆桌会议",
+              "summary": "美国证交会宣布将于2026年11月9日举行圆桌会议，讨论机器可读数据、超级智能及相关风险与成本。",
+              "title_en": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
+              "summary_en": "The SEC will host a November 9, 2026 roundtable on machine-understandable data and Super Intelligence, discussing related risks and costs.",
+              "topic_evidence": "roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence",
+              "reason": "SEC圆桌会议涉及数据与超级智能监管议题，属于理财与监管。",
+              "reason_en": "The SEC roundtable covers data and Super Intelligence regulatory issues, fitting wealth and regulation.",
+              "score": 3.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://josie.lol/blog/linux-rtx-spark",
+              "title": "因没有微软账户，我把 Linux 装到 RTX Spark 笔记本上",
+              "summary": "作者在个人博客中讲述因没有微软账户，无法正常使用新购 RTX Spark 笔记本，于是安装 Linux 的经过；该文在 Hacker News 获得 206 分和 98 条评论。",
+              "title_en": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+              "summary_en": "A personal blog post describes installing Linux on an RTX Spark laptop because the author lacked a Microsoft account; the Hacker News submission received 206 points and 98 comments.",
+              "topic_evidence": "because I don't have a Microsoft account",
+              "reason": "个人技术博客，讲述因缺少微软账户而转向 Linux 的具体经历，属于技术观点/体验类文章。",
+              "reason_en": "A personal tech blog essay about switching to Linux due to lacking a Microsoft account; fits tech opinion/experience commentary.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://news.ycombinator.com/item?id=50151036",
+              "title": "Ask HN：如何应对上线自己看不懂的 AI 生成代码？",
+              "summary": "Hacker News 讨论帖询问工程师如何应对上线由 AI 生成、自己并不理解的代码；发帖人引用 Meta 工程师称写代码像黑箱。",
+              "title_en": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+              "summary_en": "An Ask HN thread asks how engineers should handle shipping AI-written code they do not understand, citing a Meta engineer who says coding now feels like a black box.",
+              "topic_evidence": "How to deal with shipping AI-written code you don't understand?",
+              "reason": "Ask HN 讨论帖，聚焦 AI 生成代码的理解与责任问题，属于社区讨论。",
+              "reason_en": "An Ask HN discussion on understanding and responsibility for AI-generated code; fits community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+      "original_title": "MiniMax M3.1 Flash now available on AI Gateway for free",
+      "original_summary": "MiniMax M3.1 Flash from MiniMax is now available on AI Gateway for free until Oct 22.MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work, with a 1M-token context window for long documents and multi-step agent sessions.Compared with earlier MiniMax models, M3.1 Flash improves on complex agentic tasks, coding, and cybersecurity. On the agent side, that covers multi-step business processes and computer use that carries a task from one application to the next. For coding, MiniMax reports its best results on application development, particularly frontend interactions, targeted bug fixes, and component tests.The free rate applies only when MiniMax serves the request. To make sure it does, sort the provider with order in the gateway provider options. After the offer ends, pinned requests bill at MiniMax's standard rate.Call it through the AI SDK, the Chat Completions, Responses, and Anthropic Messages APIs, or a coding agent connected to AI Gateway. Use minimax/minimax-m3.1-flash as the model name:To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup:Then select minimax/minimax-m3.1-flash in the agent. See the coding agents guide for details.Try MiniMax M3.1 Flash in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.You can view all language models available on AI Gateway. Read more",
+      "topic_evidence": "MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work, with a 1M-token context window",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "anthropic",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+      "original_title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "original_summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "topic_evidence": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
+      "original_title": "Mercury 3 now available on AI Gateway",
+      "original_summary": "Mercury 3 from Inception is now available on AI Gateway with 50% off launch pricing. Inception reports strong results across a range of benchmarks, with generation speeds above 1,000 tokens per second.Mercury 3 uses diffusion to generate text through parallel refinement. It brings improved reasoning to latency-sensitive workloads such as browser agents, real-time search, interactive education, and customer support. A 1M-token context window gives those applications room for long documents and extended conversation histories.Set AI_GATEWAY_API_KEY in your environment. Use inception/mercury-3 as the model name:To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup:Then select inception/mercury-3 in the agent. See the coding agents guide for details.Try Mercury 3 in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.You can view all language models available on AI Gateway. Read more",
+      "topic_evidence": "Mercury 3 uses diffusion to generate text through parallel refinement.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
+      "original_title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "original_summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "topic_evidence": "hackers got into part of its online platform and stole some users’ API keys",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "claude",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+      "original_title": "People are using AI to make their smart TVs dumb again",
+      "original_summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "topic_evidence": "some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+      "original_title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "original_summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "topic_evidence": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago",
+      "original_title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "original_summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "topic_evidence": "Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted",
+      "original_title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "original_summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "topic_evidence": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says",
+      "original_title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "original_summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "topic_evidence": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "safety",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+      "original_title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "original_summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "topic_evidence": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "regulation"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "original_summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "topic_evidence": "Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "original_title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "original_summary": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 137 # Comments: 21",
+      "topic_evidence": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "original_title": "Advancing coding in low‑resource programming languages",
+      "original_summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "topic_evidence": "improving ChatGPT across low-resource programming languages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "original_title": "Inline rendering with document​.currentScript",
+      "original_summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline </code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.replaceWith( new Date().getFullYear()) If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is $(new Date().getFullYear()) Tags: javascript",
+      "topic_evidence": "document.currentScript property",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "javascript"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "original_title": "llm-tools-datasette 0.1.1",
+      "original_summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+      "topic_evidence": "llm-tools-datasette was one of those plugins, now fixed",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "original_title": "llm-echo 0.5",
+      "original_summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+      "topic_evidence": "repeats back the prompts that have been fed to it",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "original_title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "original_summary": "Article URL: https://bsd.network/@brynet/117407035545900963 Comments URL: https://news.ycombinator.com/item?id=50158138 Points: 124 # Comments: 28",
+      "topic_evidence": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "original_title": "How to continue a GitHub Copilot app session in VS Code",
+      "original_summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+      "topic_evidence": "move an agent session from the GitHub Copilot app into VS Code",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster",
+      "original_title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "original_summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise ~1 million GPUs. Prometheus also features technologies like closed-loop liquid cooling [...] Read More... The post Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster appeared first on Engineering at Meta .",
+      "topic_evidence": "gigawatt-scale supercluster",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+      "original_title": "Scientists who discovered a third form of magnetism win major physics prize",
+      "original_summary": "Physicists have uncovered a hidden third form of magnetism that challenges more than 100 years of established physics. Called altermagnetism, the discovery could transform future computing and electronics while opening an entirely new frontier in quantum research.",
+      "topic_evidence": "discovered a third form of magnetism",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum",
+        "research",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+      "original_title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+      "original_summary": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes, according to new research. Scientists discovered that physical activity was linked to less buildup of harmful tau proteins and nearly half the cognitive and functional decline, even in people already showing early signs of the disease. The strongest benefits appeared at 5,000 to 7,500 daily steps, suggesting that the popular 10,000-step goal may not be necessary.",
+      "topic_evidence": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "research"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+      "original_title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+      "original_summary": "A discovery in tiny algae led to a Nobel Prize-winning breakthrough that allows scientists to switch brain cells on and off using light. The revolutionary technique has already helped researchers activate memories and is opening new possibilities for restoring vision and treating brain disorders.",
+      "topic_evidence": "controlling brain cells with light",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+      "original_title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+      "original_summary": "Physicists have discovered a strange new state of quantum matter in which ultracold atoms defy familiar organizational rules, forming a highly excited yet surprisingly orderly configuration called a \"fractional Fermi sea.\" The discovery challenges established quantum theories and hints at exotic quasiparticles that scientists have dubbed potential \"super-Fermions.\"",
+      "topic_evidence": "bizarre new quantum state called a fractional fermi sea",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/croft-2",
+      "original_title": "croft",
+      "original_summary": "Data pipelines in TypeScript, on one DuckDB file Discussion | Link",
+      "topic_evidence": "Data pipelines in TypeScript, on one DuckDB file",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/quello",
+      "original_title": "Quello",
+      "original_summary": "One place to ask, across everything you already use. Discussion | Link",
+      "topic_evidence": "One place to ask, across everything you already use.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/triwarden",
+      "original_title": "Triwarden",
+      "original_summary": "Native Mac password manager for Vaultwarden & Bitwarden Discussion | Link",
+      "topic_evidence": "Native Mac password manager for Vaultwarden & Bitwarden",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+      "original_title": "Own 1",
+      "original_summary": "Own your data. Own your AI. A mind of your own. Discussion | Link",
+      "topic_evidence": "Own your data. Own your AI. A mind of your own.",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch",
+      "original_title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
+      "original_summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
+      "topic_evidence": "announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "venture"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics",
+      "original_title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "original_summary": "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India.",
+      "topic_evidence": "reaches a $300 million valuation in a Khosla Ventures-led round",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "venture"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "original_title": "Disney agrees to hire the majority of Character AI’s workforce",
+      "original_summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "topic_evidence": "Disney agrees to hire the majority of Character AI’s workforce",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+      "original_summary": "Three missiles hit a camp in government-controlled Shabwa province that officials say was being used as a training centre for new recruits.",
+      "topic_evidence": "Houthi missile strike on Yemen camp kills 50 security recruits",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+      "original_title": "Drone attack near market kills 80 in Sudan",
+      "original_summary": "Witness says drone struck twice at transport hub in al-Dibab, in one of deadliest single attacks of war A drone strike near a market in southern Sudan on Sunday evening killed 80 people, mostly commuters catching rides home. Ahmed Wadi, a witness, said the attack in the town of al-Dibab in West Kordofan state left “50 bodies who I helped bury, one of them my own brother Mohamed”. Continue reading...",
+      "topic_evidence": "Drone attack near market kills 80 in Sudan",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+      "original_title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+      "original_summary": "Riyadh postpones flagship investment conference until 2027, orders government staff to work from home.",
+      "topic_evidence": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "original_summary": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
+      "topic_evidence": "Ukrainians dying because US restricting intelligence sharing",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+      "original_title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "original_summary": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday Send us your questions about immigration and the midterms More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on Monday. Temporary protected status was set to end on Monday for about 101,000 Ukrainians and 1,800 Sudanese. But the DHS said an announcement “will be made at the appropriate time”. Until then, the department said in a written statement, Ukrainians and Sudanese in the US covered by those temporary measures “retain protection”. The department did not indicate how long they could stay or when a final announcement would be made on their status. Continue reading...",
+      "topic_evidence": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "original_title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+      "original_summary": "Ukrainian President Volodymyr Zelenskyy has said he believes the U.S. government is behind his military's loss of normal access to the key satellite communications service used by the Ukrainian military.",
+      "topic_evidence": "Ukraine and the U.S. are at odds over Starshield",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "original_summary": "The country's interior minister admits that police \"lost control\" in some cities following a weekend of riots.",
+      "topic_evidence": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Personal attacks fire up debate before Brazil's run-off vote",
+      "original_summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
+      "topic_evidence": "Personal attacks fire up debate before Brazil's run-off vote",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+      "original_title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+      "original_summary": "Paul Mackenzie and his church set up sect that ordered followers to starve themselves and their children, say prosecutors A Kenyan court has found the starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of ⁠190 children and one adult in one of the world’s worst cult-related disasters in recent history. Mackenzie was arrested in 2023 after police received a tipoff, and weeks later authorities began uncovering bodies in shallow graves in the Shakahola forest near the coast ⁠in south-eastern Kenya. Continue reading...",
+      "topic_evidence": "starvation cult leader Paul Mackenzie and about 30 others guilty of murder",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine",
+      "original_title": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+      "original_summary": "Opposition to US-led quarantine center in Kenya follows sweeping funding cuts and withdrawal from WHO An eighth person in Kenya has tested positive for the Bundibugyo strain of Ebola in the country’s first-ever cluster of cases of the virus, as the second-largest outbreak in history has killed more than 4,300 and sickened more than 9,000 people in the region. It highlights the diminished role the US has played in the worsening Ebola outbreak by building a controversial quarantine center in Kenya, pulling back health support globally, and banning travelers from certain countries. All of this has also reduced the ability to identify and respond to the outbreak and exacerbated mistrust. Continue reading...",
+      "topic_evidence": "An eighth person in Kenya has tested positive for the Bundibugyo strain of Ebola",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "health"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+      "original_title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "original_summary": "Trudy weakens to tropical storm after warnings of strong winds and heavy rain, while one person killed in Greece In contrast to the quiet Atlantic hurricane season, there has been ongoing activity in the Pacific, with Trudy being the 22nd and latest named system. The category 2 hurricane remained roughly 100 miles (160km) south-west of the coast of Mexico, meaning the worst of the conditions stayed offshore. However, the US National Hurricane Center put coastal parts of the states of Jalisco, Michoacán and Colima under hurricane warnings, with sustained winds of up to 60-90mph forecast on Sunday. Rainfall totals of 100-150mm were likely for these areas, prompting warnings of flooding and landslides. Warnings also covered the risk of a dangerous storm surge accompanied by damaging waves in areas of onshore winds across the coast of south-western Mexico. By Monday morning, Trudy had weakened and been downgraded to a tropical storm, with coastal warnings being lifted. Continue reading...",
+      "topic_evidence": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+      "original_title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+      "original_summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
+      "topic_evidence": "1.4 million people in Gaza are suffering acute food shortages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717664.shtml",
+      "original_title": "何立峰会见金融监管总局国际咨询委员会委员时指出 中国将继续扩大金融高水平开放 加快建设金融强国",
+      "original_summary": "新华社北京10月20日电 中共中央政治局委员、国务院副总理何立峰19日晚在钓鱼台国宾馆会见金融监管总局国际咨询委员会委员时表示，中国正全面落实“十五五”规划纲要，将继续坚定不移扩大金融领域高水平对外开放，加快建设金融强国。欢迎更多外资金融机构来华投资兴业，深化对华合作，为中国式现代化建设提供高质量金融服务。",
+      "topic_evidence": "中国将继续扩大金融高水平开放",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "监管"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717658.shtml",
+      "original_title": "我国发布首批136项标志性重大应用场景项目",
+      "original_summary": "中新网10月20日电 国家发展改革委20日召开新闻发布会，国家发展改革委政策研究室副主任、新闻发言人李超介绍，国家发展改革委会同有关部门推出首批136项标志性重大应用场景项目，为场景培育和开放提供重要牵引。具体看，这批项目要完成的任务可以用三个关键词来概括。",
+      "topic_evidence": "推出首批136项标志性重大应用场景项目",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717678.shtml",
+      "original_title": "国家发展改革委：推动存量政策与增量政策协同发力",
+      "original_summary": "中新网10月20日电 国家发展改革委20日召开新闻发布会，国家发展改革委国民经济综合司副司长左刚表示，国家发展改革委会同有关部门及时出台实施增量政策，推动存量政策与增量政策协同发力，发挥好宏观政策集成效应，努力实现“十五五”良好开局。",
+      "topic_evidence": "推动存量政策与增量政策协同发力",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717666.shtml",
+      "original_title": "我国首次在文化遗产保护领域制定五年规划",
+      "original_summary": "中新网10月20日电 国新办20日上午举行“开局起步‘十五五’”系列主题新闻发布会，中央精神文明建设办公室专职副主任、中央文化遗产保护委员会办公室主任胡凯红表示，为加强文化遗产保护传承，推动文化遗产事业高质量发展，经党中央、国务院同意，近日中共中央办公厅、国务院办公厅印发了《文化遗产保护传承“十五五”规划》(以下简称“《规划》”)，这个规划是我国首次在文化遗产保护领域制定的五年规划。",
+      "topic_evidence": "我国首次在文化遗产保护领域制定的五年规划",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717633.shtml",
+      "original_title": "今年前三季度国家铁路累计发送货物30.5亿吨",
+      "original_summary": "中新网10月20日电 据“中国铁路”微信公众号消息，今年前三季度，国家铁路累计发送货物30.5亿吨，日均装车18.8万车，比去年同期微增，持续保持高位运行，中国铁路物流产品不断优化完善，品牌影响力、市场竞争力和客户满意度显著提升，为降低全社会物流成本、保障国民经济平稳运行提供了可靠运输支撑。",
+      "topic_evidence": "国家铁路累计发送货物30.5亿吨",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717682.shtml",
+      "original_title": "贵州省公安厅党委委员、副厅长吴智贤接受审查调查",
+      "original_summary": "中新网10月20日电 据贵州省纪委监委消息：贵州省公安厅党委委员、副厅长吴智贤涉嫌严重违纪违法，目前正接受贵州省纪委监委纪律审查和监察调查。",
+      "topic_evidence": "涉嫌严重违纪违法",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法",
+        "公安"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717670.shtml",
+      "original_title": "我国将制定文化遗产保护法",
+      "original_summary": "中新网10月20日电 国务院新闻办公室于20日举行“开局起步‘十五五’”系列主题新闻发布会，中央精神文明建设办公室专职副主任、中央文化遗产保护委员会办公室主任胡凯红表示，《文化遗产保护传承“十五五”规划》坚持问题导向，构建资源调查、法治保障、空间管控、安全监测、督察问责相贯通的工作链条。",
+      "topic_evidence": "我国将制定文化遗产保护法",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "保护",
+        "法治"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717712.shtml",
+      "original_title": "国家文物局：促进优质展览资源直达基层",
+      "original_summary": "中新网10月20日电 10月20日，国家文物局副局长邓超在国新办举行的“开局起步‘十五五’”系列主题新闻发布会上表示，面向我国6000多家中小博物馆，将启动实施“中小博物馆提升计划”，优化资源配置，开展博物馆帮扶机制试点。通过“大带小、上带下、东到西”，引导央地共建国家级重点博物馆、省级大馆率先行动，探索建立巡展机制，加强馆际交流合作，促进优质展览资源直达基层，推动中小博物馆在藏品、展览、教育、人才等方面全面提升，切实成为基层文化服务的核心力量。",
+      "topic_evidence": "启动实施“中小博物馆提升计划”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "教育"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717650.shtml",
+      "original_title": "三季度1.92亿人次出入境 免签入境外国人同比增长24.1%",
+      "original_summary": "中新网10月20日电 据国家移民管理局微信公众号消息，10月20日，国家移民管理局召开新闻发布会，发布2026年三季度移民管理主要数据。",
+      "topic_evidence": "免签入境外国人同比增长24.1%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Tech Under Pressure on AI Jitters, Dollar Slips: Markets Wrap",
+      "original_summary": "Technology shares came under renewed pressure as sentiment toward the artificial intelligence trade remained jittery ahead of key earnings reports this week that will test the strength of gains in chip stocks. The dollar weakened.",
+      "topic_evidence": "Technology shares came under renewed pressure as sentiment toward the artificial intelligence trade remained jittery",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+      "original_title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+      "original_summary": "Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.",
+      "topic_evidence": "the riskiest junk bonds send a warning to investors",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record",
+      "original_title": "Japan’s 20-Year Bond Auction Sees Strongest Demand on Record",
+      "original_summary": "Japan’s 20-year government bond auction Tuesday saw the strongest demand on record, a signal that elevated yields are starting to lure domestic investors back into the market.",
+      "topic_evidence": "strongest demand on record",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain",
+      "original_title": "SoftBank Credit Risk Hits 4-Year High on AI Funding Strain",
+      "original_summary": "SoftBank Group Corp.’s credit risk, as measured by its credit-default swaps, has risen to the highest level in nearly four years as concerns grow over AI-related funding and a potential large acquisition.",
+      "topic_evidence": "credit risk, as measured by its credit-default swaps, has risen to the highest level in nearly four years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "acquisition"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales",
+      "original_title": "US Homebuilder Sentiment Drops to 14-Year Low on Weak Sales",
+      "original_summary": "Confidence among US homebuilders this month slumped to a 14-year low as mortgage rates above 7%, labor shortages and elevated supply costs batter the housing market.",
+      "topic_evidence": "Confidence among US homebuilders this month slumped to a 14-year low",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
+      "original_title": "Gold Holds Decline as Energy-Led Inflation Weighs on Rate Path",
+      "original_summary": "Gold held a decline, as elevated oil prices fueled inflation concerns and clouded the Federal Reserve’s path for interest-rate hikes.",
+      "topic_evidence": "Gold held a decline, as elevated oil prices fueled inflation concerns",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "federal reserve"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/hassett-says-cpi-data-shows-inflation-needs-some-work",
+      "original_title": "Hassett Says CPI Data Shows Inflation Needs ‘Some Work’",
+      "original_summary": "White House National Economic Council Director Kevin Hassett said prices have been falling for items such as beef and eggs, though consumer price data for September shows overall inflation continues to need policy attention.",
+      "topic_evidence": "consumer price data for September shows overall inflation continues to need policy attention",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/canada-inflation-rate-edges-up-to-3-1-core-measures-ease",
+      "original_title": "Canada Inflation Rate Edges Up to 3.1%, Core Measures Ease",
+      "original_summary": "Canada’s inflation rate ticked up to 3.1% in September as gasoline prices rose, while some gauges of underlying price pressures eased.",
+      "topic_evidence": "Canada’s inflation rate ticked up to 3.1% in September as gasoline prices rose",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/more-china-stimulus-needed-despite-easing-polka-mishra-video",
+      "original_title": "More China Stimulus Needed Despite Easing: Polka Mishra",
+      "original_summary": "The People's Bank of China could effectively cut rates by shifting its policy benchmark from the seven-day reverse-repo rate to the overnight rate. Javelin Wealth Management Partner Polka Mishra describes the initiative as an \"effective easing\", but warns it is likely not sufficient to revive consumer sentiment and more akin to \"drip feeding\". (Source: Bloomberg)",
+      "topic_evidence": "warns it is likely not sufficient to revive consumer sentiment",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/cf40-institute-s-guo-on-china-s-economy-video",
+      "original_title": "CF40 Institute’s Guo on China’s Economy",
+      "original_summary": "Guo Kai, former PBOC official and president of the CF40 Institute, says China’s policy stimulus is sufficient to achieve this year’s growth target. He speaks with Stephen Engle on the sidelines of the Bund Summit in Shanghai. (Source: Bloomberg)",
+      "topic_evidence": "China’s policy stimulus is sufficient to achieve this year’s growth target",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
+      "original_title": "Turkey Market Regulator Head Steps Down Amid Fund Rout",
+      "original_summary": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday during the fallout of a fund crisis that’s upended the country’s markets.",
+      "topic_evidence": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
+      "original_title": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
+      "original_summary": "The Securities and Exchange Commission announced today that it will host a roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence (SI) and related risks and costs.“In the age of SI, high-quality…",
+      "topic_evidence": "roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "sec"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "original_title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+      "original_summary": "Article URL: https://josie.lol/blog/linux-rtx-spark Comments URL: https://news.ycombinator.com/item?id=50158100 Points: 206 # Comments: 98",
+      "topic_evidence": "because I don't have a Microsoft account",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "linux"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "original_title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "original_summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m... > I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code, it's going to take forever. That means you can end up with systems you've built where you don't truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I'm used to understanding what I'm building. Now I'm trying to figure out how much I need to understand before I'm comfortable moving forward. Are other engineers feeling this too? How are you handling this? Comments URL: https://news.ycombinator.com/item?id=50151036 Points: 327 # Comments: 476",
+      "topic_evidence": "How to deal with shipping AI-written code you don't understand?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+      "original_title": "People are using AI to make their smart TVs dumb again",
+      "original_summary": "Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "topic_evidence": "some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "approved": true,
+      "evidence": "some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "reason": "主事件是用户借助AI代理去除智能电视预装软件，属于AI代理产品与平台的具体应用趋势。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+      "original_title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "original_summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "topic_evidence": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "approved": false,
+      "evidence": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+      "reason": "主事件是AI伴侣应用完成3000万美元融资，核心为融资交易，应归融资与并购，而非AI产品与平台发布。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago",
+      "original_title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "original_summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "topic_evidence": "Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "approved": true,
+      "evidence": "Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+      "reason": "主事件是推出可免费下载的个人AI助手Wabi，明确属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted",
+      "original_title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "original_summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "topic_evidence": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs",
+      "approved": true,
+      "evidence": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs",
+      "reason": "主事件是企业应监控员工使用的AI代理并应对不可信前沿模型，属于AI安全与治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "original_summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "topic_evidence": "Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment.",
+      "approved": true,
+      "evidence": "Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment.",
+      "reason": "主事件是用AI代理和仿真对机器人与自动驾驶进行部署前红队测试，属于AI安全研究与治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "original_title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "original_summary": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 137 # Comments: 21",
+      "topic_evidence": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "approved": true,
+      "evidence": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "reason": "主事件是帮助页面隐藏影响LLM回答的指令，涉及AI系统透明度与治理。"
+    },
+    {
+      "id": "developer/languages-frameworks/https://openai.com/index/low-resource-programming-languages",
+      "section": "开发与编程",
+      "subsection": "语言与框架",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "original_title": "Advancing coding in low‑resource programming languages",
+      "original_summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "topic_evidence": "improving ChatGPT across low-resource programming languages",
+      "approved": true,
+      "evidence": "improving ChatGPT across low-resource programming languages",
+      "reason": "主事件是改进ChatGPT对低资源编程语言的支持并发布相关评测，直接属于开发与编程中的语言与框架。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/croft-2",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/croft-2",
+      "original_title": "croft",
+      "original_summary": "Data pipelines in TypeScript, on one DuckDB file Discussion | Link",
+      "topic_evidence": "Data pipelines in TypeScript, on one DuckDB file",
+      "approved": true,
+      "evidence": "Data pipelines in TypeScript, on one DuckDB file",
+      "reason": "材料明确描述了一个用TypeScript构建、基于单个DuckDB文件的数据管道产品，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/quello",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/quello",
+      "original_title": "Quello",
+      "original_summary": "One place to ask, across everything you already use. Discussion | Link",
+      "topic_evidence": "One place to ask, across everything you already use.",
+      "approved": true,
+      "evidence": "One place to ask, across everything you already use.",
+      "reason": "材料描述了一个统一提问入口的新产品，覆盖用户已有工具，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/triwarden",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/triwarden",
+      "original_title": "Triwarden",
+      "original_summary": "Native Mac password manager for Vaultwarden & Bitwarden Discussion | Link",
+      "topic_evidence": "Native Mac password manager for Vaultwarden & Bitwarden",
+      "approved": true,
+      "evidence": "Native Mac password manager for Vaultwarden & Bitwarden",
+      "reason": "材料明确描述了一个面向Vaultwarden与Bitwarden的原生Mac密码管理器，属于新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+      "original_title": "Own 1",
+      "original_summary": "Own your data. Own your AI. A mind of your own. Discussion | Link",
+      "topic_evidence": "Own your data. Own your AI. A mind of your own.",
+      "approved": false,
+      "evidence": "Own your data. Own your AI. A mind of your own.",
+      "reason": "材料只有口号式表述，未明确说明具体产品功能或增长情况，不足以归入新产品与增长。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "original_title": "Disney agrees to hire the majority of Character AI’s workforce",
+      "original_summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "topic_evidence": "Disney agrees to hire the majority of Character AI’s workforce",
+      "approved": true,
+      "evidence": "Disney agrees to hire the majority of Character AI’s workforce",
+      "reason": "主事件是迪士尼同意接收Character.AI多数员工，属于并购与资产交易，归入融资与并购合适。"
+    },
+    {
+      "id": "world/government-policy/https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+      "original_title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "original_summary": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday Send us your questions about immigration and the midterms More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on Monday. Temporary protected status was set to end on Monday for about 101,000 Ukrainians and 1,800 Sudanese. But the DHS said an announcement “will be made at the appropriate time”. Until then, the department said in a written statement, Ukrainians and Sudanese in the US covered by those temporary measures “retain protection”. The department did not indicate how long they could stay or when a final announcement would be made on their status. Continue reading...",
+      "topic_evidence": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "approved": true,
+      "evidence": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday",
+      "reason": "主事件是国土安全部对乌克兰和苏丹移民临时保护身份作出暂缓遣返安排，属于政府政策行动。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "original_summary": "The country's interior minister admits that police \"lost control\" in some cities following a weekend of riots.",
+      "topic_evidence": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "approved": true,
+      "evidence": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "reason": "主事件是法国骚乱后政府在巴黎等地实施宵禁，属于政府行动与政策。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Personal attacks fire up debate before Brazil's run-off vote",
+      "original_summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
+      "topic_evidence": "Personal attacks fire up debate before Brazil's run-off vote",
+      "approved": false,
+      "evidence": "Personal attacks fire up debate before Brazil's run-off vote",
+      "reason": "主事件是巴西第二轮选举前的竞选辩论与人身攻击，属于选战动态，不是具体政府政策行动。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+      "original_title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "original_summary": "Trudy weakens to tropical storm after warnings of strong winds and heavy rain, while one person killed in Greece In contrast to the quiet Atlantic hurricane season, there has been ongoing activity in the Pacific, with Trudy being the 22nd and latest named system. The category 2 hurricane remained roughly 100 miles (160km) south-west of the coast of Mexico, meaning the worst of the conditions stayed offshore. However, the US National Hurricane Center put coastal parts of the states of Jalisco, Michoacán and Colima under hurricane warnings, with sustained winds of up to 60-90mph forecast on Sunday. Rainfall totals of 100-150mm were likely for these areas, prompting warnings of flooding and landslides. Warnings also covered the risk of a dangerous storm surge accompanied by damaging waves in areas of onshore winds across the coast of south-western Mexico. By Monday morning, Trudy had weakened and been downgraded to a tropical storm, with coastal warnings being lifted. Continue reading...",
+      "topic_evidence": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "approved": true,
+      "evidence": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "reason": "主事件是飓风和洪水造成的社会影响与灾害应对，属于全球社会。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-20/10717633.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717633.shtml",
+      "original_title": "今年前三季度国家铁路累计发送货物30.5亿吨",
+      "original_summary": "中新网10月20日电 据“中国铁路”微信公众号消息，今年前三季度，国家铁路累计发送货物30.5亿吨，日均装车18.8万车，比去年同期微增，持续保持高位运行，中国铁路物流产品不断优化完善，品牌影响力、市场竞争力和客户满意度显著提升，为降低全社会物流成本、保障国民经济平稳运行提供了可靠运输支撑。",
+      "topic_evidence": "国家铁路累计发送货物30.5亿吨",
+      "approved": true,
+      "evidence": "国家铁路累计发送货物30.5亿吨",
+      "reason": "主事件是前三季度国家铁路货运量及物流运行数据，属于中国产业与地方。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-20/10717650.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717650.shtml",
+      "original_title": "三季度1.92亿人次出入境 免签入境外国人同比增长24.1%",
+      "original_summary": "中新网10月20日电 据国家移民管理局微信公众号消息，10月20日，国家移民管理局召开新闻发布会，发布2026年三季度移民管理主要数据。",
+      "topic_evidence": "免签入境外国人同比增长24.1%",
+      "approved": true,
+      "evidence": "免签入境外国人同比增长24.1%",
+      "reason": "主事件是国家移民管理局发布三季度出入境与免签入境数据，属于中国社会与法治中的社会管理信息。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis",
+      "original_title": "Turkey Market Regulator Head Steps Down Amid Fund Rout",
+      "original_summary": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday during the fallout of a fund crisis that’s upended the country’s markets.",
+      "topic_evidence": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday",
+      "approved": true,
+      "evidence": "Turkey’s market regulator chief, Mahmut Sutcu, stepped down on Monday",
+      "reason": "主事件是土耳其市场监管理事会负责人在基金危机中辞职，属于理财与监管。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-20/10717633.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-20/10717650.shtml"
+    ],
+    [
+      "developer",
+      "languages-frameworks",
+      "https://openai.com/index/low-resource-programming-languages"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-19/turkey-market-regulator-chief-steps-down-during-fund-crisis"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/croft-2"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/quello"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/triwarden"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
+    ]
+  ]
+}

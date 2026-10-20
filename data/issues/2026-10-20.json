@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "title": "信息日报 2026-10-20",
+  "title_en": "Information Daily 2026-10-20",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "苏丹西科尔多凡州市场附近遭无人机袭击，至少80人死亡",
+    "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan",
+    "source": "卫报国际",
+    "summary": "周日晚，苏丹西科尔多凡州al-Dibab镇一处市场附近交通枢纽遭无人机两次袭击，目击者称至少80人死亡，多为候车回家的通勤者。",
+    "source_en": "The Guardian World",
+    "title_en": "Drone attack near market kills 80 in Sudan",
+    "summary_en": "A drone strike hit twice near a transport hub by a market in al-Dibab, West Kordofan state, killing at least 80 people, mostly commuters waiting for rides home, a witness said.",
+    "original_title": "Drone attack near market kills 80 in Sudan",
+    "published_at": "2026-10-19T14:45:53+00:00",
+    "reason": "苏丹内战中的大规模无人机袭击，伤亡具体，属于地缘与安全重大事件。",
+    "reason_en": "A large-scale drone attack in Sudan’s civil war with clear casualties, a major geopolitics and security event.",
+    "score": 3.9
+  },
+  "path": "papers/2026-10-20.html",
+  "raw_path": "raw/2026-10-20.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life]",
+    "Editorial item ignored in startup-product/new-products: topic evidence does not match subsection [https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss]",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}
