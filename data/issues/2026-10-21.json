@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "title": "信息日报 2026-10-21",
+  "title_en": "Information Daily 2026-10-21",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "苏丹军队无人机袭击悼念者和燃料市场，消息人士称造成300多人死亡",
+    "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "消息人士称，苏丹军队无人机袭击了一辆载人前往葬礼的卡车，以及一个被指为快速支援部队供应燃料的市场，造成300多人死亡。",
+    "source_en": "BBC World",
+    "title_en": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "summary_en": "Sources say Sudanese army drones struck a truck carrying people to a funeral and a market alleged to supply fuel to the RSF, killing more than 300 people.",
+    "original_title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+    "published_at": "2026-10-20T17:30:15+00:00",
+    "reason": "报道苏丹武装冲突中的无人机袭击及重大伤亡，属战争与安全事件。",
+    "reason_en": "Reports a drone strike and mass casualties in Sudan’s armed conflict, fitting war and security.",
+    "score": 3.0
+  },
+  "path": "papers/2026-10-21.html",
+  "raw_path": "raw/2026-10-21.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://arxiv.org/abs/2610.26913]",
+    "Editorial item ignored in finance/wealth-regulation: topic evidence does not match subsection [https://www.bloomberg.com/news/videos/2026-10-21/coke-s-struggle-to-break-into-the-500-billion-global-coffee-market]",
+    "Source federal-reserve returned HTTP 404"
+  ]
+}

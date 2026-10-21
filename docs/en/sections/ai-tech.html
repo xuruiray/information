@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-20</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-21</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261020</span>
+        <span>Issue 20261021</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 20, 2026 · Tuesday</span></div>
+      <div class="dateline"><span>October 21, 2026 · Wednesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,39 +43,51 @@
       <span class="ed">11 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLM Daily: Open Models Expand as Agent Security and Governance Debates Intensify">
-      <div class="lead-label">AI &amp; LLM Daily: Open Models Expand as Agent Security and Governance Debates Intensify</div>
-      <p>This edition covers frontier models, AI products and platforms, and research and governance. MiniMax M3.1 Flash is free for a limited time on Vercel AI Gateway; Nvidia released open models for enterprise and PC agents; Inception&#39;s Mercury 3 uses diffusion for high-speed text generation. On the product side, OpenCode was breached and users&#39; AI accounts were charged, smart TV owners are using AI agents to strip bloatware, and Replika&#39;s founder launched the Wabi personal assistant. On governance, Microsoft framed AI agents as insider-threat-like risks, Hugging Face&#39;s policy chief said embedded evaluators are not an easy solution, and New York Mayor Mamdani urged the public to push back on AI takeover narratives; Laplace Intelligence red-teams robots and self-driving cars in simulation, while WhatsApp help pages were alleged to contain hidden instructions for LLMs.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs Daily: Agent Training and Evaluation, OpenAI Biotech Acquisition, and Safety Governance">
+      <div class="lead-label">AI &amp; LLMs Daily: Agent Training and Evaluation, OpenAI Biotech Acquisition, and Safety Governance</div>
+      <p>This edition covers five frontier-model papers: Navalia uses verifiable task synthesis and long-horizon post-training for cowork agents; industrial agentic AI examines LLM agents’ autonomous planning and deployment barriers in smart manufacturing; AtomSD and SPEM improve agents’ skill use through procedural atom-guided self-distillation and structure-aware procedural memory; and another study analyzes transformer inference via high-dimensional layer-state trajectories. On the product side, OpenAI is folding Orchestra Bio’s team and technology into Rosalind and Rosalind Workbench. Research and governance items include MAMath-Bench for multimodal multi-agent math reasoning, Anthropic’s proposed AI safety bill, a study on multi-agent collaboration and clinical hallucination, CERTA’s decision-level certification for clinical models, and WaveCommitments for speech-agent marketplaces.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>3 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Open Weights and High-Speed Inference Arrive Together">
-          <div class="lead-label">Frontier Models: Open Weights and High-Speed Inference Arrive Together</div>
-          <p>MiniMax&#39;s open-weight multimodal M3.1 Flash is free on Vercel AI Gateway until Oct. 22, offering a 1M-token context window for coding and agentic tasks. Nvidia released new open models aimed at enterprises running models in their own data centers and at private, on-device AI agents on PCs. Inception&#39;s Mercury 3 is available on Vercel AI Gateway at 50% off launch pricing, using diffusion to refine text in parallel, exceeding 1,000 tokens per second, and improving reasoning for latency-sensitive agent workloads.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Agent Training, Procedural Memory and Transformer Inference Dynamics">
+          <div class="lead-label">Frontier Models: Agent Training, Procedural Memory and Transformer Inference Dynamics</div>
+          <p>Five studies focus on agent capabilities and model internals: Navalia improves cross-document evidence integration and multistep numerical reasoning through verifiable task synthesis and long-horizon post-training; industrial agentic AI analyzes barriers—dynamic environments, physical constraints and reliability requirements—as LLM agents move from predefined workflows to autonomous planning and execution; AtomSD injects reusable procedural knowledge via procedural atom-guided self-distillation; SPEM organizes skills with structure-aware procedural memory to avoid token and runtime overhead and lost dependency information from full loading and flat retrieval; and another study treats ordered layer-state trajectories as an empirical process to test whether layer order defines measurable computation.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free" target="_blank" rel="noopener">
-            <span class="at">MiniMax M3.1 Flash now available free on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">MiniMax&#39;s open-weight multimodal M3.1 Flash is free on Vercel AI Gateway until Oct. 22, offering a 1M-token context window for coding and agentic tasks.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26887" target="_blank" rel="noopener">
+            <span class="at">Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces Navalia, a method that combines verifiable task synthesis with long-horizon post-training to improve LLM cowork agents on cross-document evidence integration and multistep numerical reasoning in financial analysis.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs" target="_blank" rel="noopener">
-            <span class="at">Nvidia launches new open models to run agents in the enterprise and on PCs</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Nvidia released new open models aimed at enterprises running their own models in their data centers and at private, on-device AI agents on PCs.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26941" target="_blank" rel="noopener">
+            <span class="at">Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper examines how LLM-driven agents move beyond predefined workflows toward autonomous planning and execution in smart manufacturing, while highlighting dynamic environments, physical constraints and reliability requirements as deployment barriers.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">Mercury 3 now available on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Inception&#39;s Mercury 3 is available on Vercel AI Gateway at 50% off launch pricing; it uses diffusion for parallel text refinement, exceeds 1,000 tokens per second, and improves reasoning for latency-sensitive workloads.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26926" target="_blank" rel="noopener">
+            <span class="at">AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">AtomSD uses procedural atom-guided self-distillation to give LLM agents reusable procedural knowledge, aiming to improve flexible action and reuse across interactions in complex tasks.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26995" target="_blank" rel="noopener">
+            <span class="at">SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">SPEM introduces structure-aware procedural memory for LLM agents, organizing reusable skills to avoid full skill loading and flat retrieval that incur token and runtime overhead and ignore dependencies.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26866" target="_blank" rel="noopener">
+            <span class="at">High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">The study treats ordered layer-state trajectories as an empirical process and tests whether layer order defines measurable computation, offering a dynamic view of how transformer inference unfolds.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -83,30 +95,18 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>3 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products &amp; Platforms: Breach Response and Consumer Experiments">
-          <div class="lead-label">AI Products &amp; Platforms: Breach Response and Consumer Experiments</div>
-          <p>Hackers breached part of OpenCode&#39;s online platform, stole some users&#39; API keys, and ran up charges on their AI accounts; the AI tools it sought help from repeatedly refused to inspect the malicious code. Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are using AI agents to strip bloatware and take back control. Eugenia Kuyda&#39;s newest startup Wabi launched a free, downloadable personal AI assistant, realizing an idea she pitched at TechCrunch Disrupt more than a decade ago.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="OpenAI Acquires Orchestra Bio to Strengthen Life-Sciences AI Tools">
+          <div class="lead-label">OpenAI Acquires Orchestra Bio to Strengthen Life-Sciences AI Tools</div>
+          <p>OpenAI acquired Orchestra Bio and is adding its team and technology to Rosalind, its AI model for life-sciences research, and to Rosalind Workbench, which helps researchers plan experiments and analyze results.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts" target="_blank" rel="noopener">
-            <span class="at">Hackers hit AI coding tool OpenCode, running up charges on users&#39; AI accounts</span>
+          <a class="art" href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business" target="_blank" rel="noopener">
+            <span class="at">OpenAI acquires startup Orchestra Bio to beef up its biotech business</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Hackers breached part of OpenCode&#39;s online platform, stole some users&#39; API keys, and ran up charges on their AI accounts; the AI tools it sought help from kept refusing to inspect the malicious code.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again" target="_blank" rel="noopener">
-            <span class="at">People are using AI to make their smart TVs dumb again</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Fed up with ads, tracking, and sluggish interfaces, some smart TV owners are using AI agents to strip bloatware and take back control of their TVs.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago" target="_blank" rel="noopener">
-            <span class="at">Replika&#39;s founder built the AI assistant she pitched at Disrupt 12 years ago</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Eugenia Kuyda&#39;s newest startup Wabi launched a free, downloadable personal AI assistant, realizing an idea she pitched at TechCrunch Disrupt more than a decade ago.</p>
+            <p class="as">OpenAI is adding Orchestra Bio’s team and technology to Rosalind, its AI model for life-sciences research, and to Rosalind Workbench, a tool for planning experiments and analyzing results.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -116,40 +116,40 @@
           <h3>Research &amp; Governance</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research &amp; Governance: Agent Risk, Evaluators, and Regulatory Pushback">
-          <div class="lead-label">Research &amp; Governance: Agent Risk, Evaluators, and Regulatory Pushback</div>
-          <p>Microsoft wants enterprises to closely monitor agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic, framing agents as insider-threat-like risks. Hugging Face&#39;s policy chief said placing neutral third-party embedded evaluators inside AI organizations is not an easy solution. New York Mayor Mamdani urged New Yorkers to reject the narrative that an AI takeover is inevitable and to demand regulations that protect the public and return power to people. Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. A blog post also alleged that WhatsApp help pages contained hidden instructions for LLMs, including not to recommend a regulator.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Math Reasoning Evaluation, Safety Bill and Clinical Trustworthiness">
+          <div class="lead-label">Research and Governance: Math Reasoning Evaluation, Safety Bill and Clinical Trustworthiness</div>
+          <p>Research and governance items include MAMath-Bench, which evaluates multimodal multi-agent mathematical reasoning with process-aware and robust assessment beyond answer correctness; Anthropic’s proposed AI safety bill that could block a model if 50 or more people could be killed, with TechCrunch reporting that federal agencies would need a judge’s permission to block a release; a paper asking whether multi-agent collaboration reduces hallucination in clinical tasks and separating performance gains from trustworthiness; CERTA’s decision-level statistical certificate for determining when a quantized clinical model can substitute for its BF16 reference and escalating uncertified decisions; and WaveCommitments’ private and verifiable mechanisms for speech-agent marketplaces.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted" target="_blank" rel="noopener">
-            <span class="at">Microsoft says AI agents are like insider threats as &#39;frontier models can&#39;t be trusted&#39;</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Microsoft wants enterprises to closely monitor agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic, framing agents as insider-threat-like risks.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26943" target="_blank" rel="noopener">
+            <span class="at">MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">MAMath-Bench evaluates multimodal multi-agent mathematical reasoning with attention to process-aware and robust assessment, requiring not only correct answers but coherent, verifiable reasoning processes.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says" target="_blank" rel="noopener">
-            <span class="at">Embedded AI evaluators won&#39;t be an easy solution, Hugging Face&#39;s policy chief says</span>
+          <a class="art" href="https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed" target="_blank" rel="noopener">
+            <span class="at">Anthropic pitches AI safety bill that may block a model if 50+ people could be killed</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Hugging Face&#39;s policy chief said embedded evaluators—neutral third-party observers placed inside AI organizations—are not an easy solution, an idea that gained attention amid recent safety incidents.</p>
+            <p class="as">Anthropic is pitching an AI safety bill that could block a model if 50 or more people could be killed, but TechCrunch reports federal agencies would need a judge’s permission to block a release.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back" target="_blank" rel="noopener">
-            <span class="at">Mamdani says feds have abdicated on AI, urges New Yorkers to push back</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">New York Mayor Zohran Mamdani said Monday night that New Yorkers must reject the narrative that an AI takeover is inevitable and demand regulations that protect the public and return power to people.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.27027" target="_blank" rel="noopener">
+            <span class="at">Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper separates performance gains of multi-agent LLM systems on clinical tasks from trustworthiness, asking whether collaboration reduces hallucination and what that means for clinicians acting on stated reasoning.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world" target="_blank" rel="noopener">
-            <span class="at">Laplace Intelligence red-teams robots and self-driving cars before they hit the real world</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment; the profitable startup is competing in Startup Battlefield at TechCrunch Disrupt.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26937" target="_blank" rel="noopener">
+            <span class="at">Do We Need the Largest LLMs for Every Clinical Decision?</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">CERTA introduces a decision-level statistical certificate to determine when a quantized clinical model can substitute for its BF16 reference and escalate uncertified decisions, aiming to support local deployment.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener">
-            <span class="at">WhatsApp&#39;s help pages hid LLM instructions: don&#39;t recommend a regulator</span>
-            <span class="by">Hacker News</span>
-            <p class="as">A blog post alleges WhatsApp help pages contained hidden instructions for large language models, including not to recommend a regulator; the Hacker News discussion had 137 points and 21 comments.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.26867" target="_blank" rel="noopener">
+            <span class="at">WaveCommitments: Private and Verifiable Speech-Agent Marketplaces</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">WaveCommitments proposes private and verifiable mechanisms for speech-agent marketplaces, letting sellers submit assets for evaluation without revealing them and buyers price assets they cannot directly test.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

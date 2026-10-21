@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 Development &amp; Programming · Information Daily 2026-10-20</title>
+<title>02 Development &amp; Programming · Information Daily 2026-10-21</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261020</span>
+        <span>Issue 20261021</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 20, 2026 · Tuesday</span></div>
+      <div class="dateline"><span>October 21, 2026 · Wednesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,36 +40,30 @@
 
     <header class="pagehead category-head">
       <h2>02 Development &amp; Programming</h2>
-      <span class="ed">7 articles / 3 subsections</span>
+      <span class="ed">2 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Low-Resource Coding, Tool Updates and Prometheus Progress">
-      <div class="lead-label">Developer &amp; Programming: Low-Resource Coding, Tool Updates and Prometheus Progress</div>
-      <p>OpenAI improved ChatGPT across low-resource programming languages and added evaluations for software engineering, SQLite and COBOL migration; Lean Rada showed inline rendering with document.currentScript; Simon Willison released llm-tools-datasette 0.1.1 to fix an httpx2 compatibility break and llm-echo 0.5 with simulated token counts; OpenBSD 8.0 will adopt graphics drivers from Linux 6.18; GitHub explained moving a Copilot app agent session into VS Code; Meta said the first phase of its gigawatt-scale Prometheus supercluster is complete, with plans to scale to about 1 million GPUs and use closed-loop liquid cooling.</p>
+    <section class="briefing-panel category-briefing" aria-label="Development and Programming: Copilot Practices and Certificate Trust Risk">
+      <div class="lead-label">Development and Programming: Copilot Practices and Certificate Trust Risk</div>
+      <p>This developer briefing covers two items: three Java Champions share practices for using GitHub Copilot to improve productivity while stressing human accountability for results, and private keys for eight eMudhra intermediate CA certificates were compromised, with certificates chaining to roots trusted by Mozilla, Microsoft, Apple and Chrome, requiring software with bundled trust stores to update.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="languages-frameworks">
         <header class="subsection-head">
           <h3>Languages &amp; Frameworks</h3>
-          <span>2 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks: Low-Resource Coding and Inline Rendering">
-          <div class="lead-label">Languages &amp; Frameworks: Low-Resource Coding and Inline Rendering</div>
-          <p>OpenAI described improving ChatGPT’s coding in low-resource programming languages and added evaluations for software engineering, SQLite and COBOL migration; Lean Rada described using document.currentScript for inline rendering, letting an inline script replace its own element on page load.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Java Champions&#39; Copilot Productivity Practices">
+          <div class="lead-label">Java Champions&#39; Copilot Productivity Practices</div>
+          <p>Three Java Champions describe using GitHub Copilot to solve problems and speed development, while stressing that humans remain accountable for the results.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://openai.com/index/low-resource-programming-languages" target="_blank" rel="noopener">
-            <span class="at">Advancing coding in low‑resource programming languages</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI describes improving ChatGPT across low-resource programming languages and adds evaluations for software engineering, SQLite and COBOL migration.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/17/document-currentscript" target="_blank" rel="noopener">
-            <span class="at">Inline rendering with document.currentScript</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Lean Rada describes a trick using the document.currentScript property for inline rendering, letting a small inline script replace itself when the page loads.</p>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity" target="_blank" rel="noopener">
+            <span class="at">How 3 Java Champions are using GitHub Copilot for increased productivity</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">Three Java Champions describe using GitHub Copilot to solve problems and speed development, while stressing that humans remain accountable for the results.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -77,55 +71,25 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>Open Source &amp; Tools</h3>
-          <span>4 articles</span>
+          <span>0 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: llm Plugin Updates, OpenBSD Drivers and Copilot Session Migration">
-          <div class="lead-label">Open Source &amp; Tools: llm Plugin Updates, OpenBSD Drivers and Copilot Session Migration</div>
-          <p>Simon Willison released llm-tools-datasette 0.1.1, fixing a compatibility break after LLM 0.33 switched to httpx2 and plugins using httpx without a direct dependency failed; he also released llm-echo 0.5, a debug plugin that echoes prompts instead of calling a real LLM, with simulated token counts now covering tool calls, system prompts and reasoning. OpenBSD 8.0 will include inteldrm, radeondrm and amdgpu graphics drivers from Linux 6.18; GitHub Blog explained how to move an agent session from the GitHub Copilot app into VS Code while preserving the conversation, code changes and working context.</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-tools-datasette" target="_blank" rel="noopener">
-            <span class="at">llm-tools-datasette 0.1.1</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison released llm-tools-datasette 0.1.1, fixing a compatibility break after LLM 0.33 switched to httpx2 and plugins using httpx without a direct dependency failed.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/18/llm-echo" target="_blank" rel="noopener">
-            <span class="at">llm-echo 0.5</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison released llm-echo 0.5, a debug plugin that echoes prompts instead of calling an LLM, with simulated token counts now accounting for tool calls, system prompts and reasoning.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://bsd.network/@brynet/117407035545900963" target="_blank" rel="noopener">
-            <span class="at">OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18</span>
-            <span class="by">Hacker News</span>
-            <p class="as">OpenBSD 8.0 will include inteldrm, radeondrm and amdgpu graphics drivers from Linux 6.18; a Hacker News discussion post showed 124 points and 28 comments.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code" target="_blank" rel="noopener">
-            <span class="at">How to continue a GitHub Copilot app session in VS Code</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">GitHub Blog explains how to move an agent session from the GitHub Copilot app into VS Code while preserving the conversation, code changes and working context.</p>
-            <span class="more">Read more →</span>
-          </a>
-        </div>
+        <p class="empty">No articles selected in this subsection today.</p>
       </section>
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>Infrastructure &amp; Data</h3>
           <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: Meta’s Gigawatt-Scale Prometheus Completes First Phase">
-          <div class="lead-label">Infrastructure &amp; Data: Meta’s Gigawatt-Scale Prometheus Completes First Phase</div>
-          <p>Meta said the first phase of its gigawatt-scale AI supercluster Prometheus is complete, with plans to scale to about 1 million GPUs and use technologies such as closed-loop liquid cooling.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="eMudhra Intermediate CA Private Key Compromise">
+          <div class="lead-label">eMudhra Intermediate CA Private Key Compromise</div>
+          <p>Private keys for eight eMudhra intermediate CA certificates were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome programs, requiring software with bundled trust stores to update.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster" target="_blank" rel="noopener">
-            <span class="at">Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster</span>
-            <span class="by">Meta 工程</span>
-            <p class="as">Meta says the first phase of its gigawatt-scale AI supercluster Prometheus is complete, with plans to scale to about 1 million GPUs and use technologies such as closed-loop liquid cooling.</p>
+          <a class="art" href="https://simonwillison.net/2026/Oct/20/emudhra-certificates" target="_blank" rel="noopener">
+            <span class="at">eMudhra Intermediate CA Compromise</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Private keys for eight eMudhra intermediate CA certificates were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome programs, requiring software with bundled trust stores to update.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

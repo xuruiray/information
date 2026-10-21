@@ -1,0 +1,1963 @@
+{
+  "date": "2026-10-21",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.26887",
+              "title": "Navalia：通过可验证任务合成与长程后训练推进协作智能体",
+              "summary": "该论文提出 Navalia，用可验证任务合成和长程后训练提升 LLM 协作智能体在金融分析等任务中的跨文档取证与多步数值推理能力。",
+              "title_en": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+              "summary_en": "The paper introduces Navalia, a method that combines verifiable task synthesis with long-horizon post-training to improve LLM cowork agents on cross-document evidence integration and multistep numerical reasoning in financial analysis.",
+              "topic_evidence": "Verifiable Task Synthesis and Long-Horizon Post-Training",
+              "reason": "聚焦 LLM 协作智能体的可验证任务合成与长程后训练，直接对应前沿智能体能力建设。",
+              "reason_en": "Focuses on verifiable task synthesis and long-horizon post-training for LLM cowork agents, directly relevant to frontier agent capabilities.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26941",
+              "title": "工业智能体 AI：面向智能制造的大模型驱动新一代智能体",
+              "summary": "论文讨论 LLM 智能体从预设工作流转向自主规划与执行，并分析动态环境、物理约束和可靠性要求给智能制造部署带来的障碍。",
+              "title_en": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+              "summary_en": "The paper examines how LLM-driven agents move beyond predefined workflows toward autonomous planning and execution in smart manufacturing, while highlighting dynamic environments, physical constraints and reliability requirements as deployment barriers.",
+              "topic_evidence": "LLM-Driven New-Generation Agents for Smart Manufacturing",
+              "reason": "讨论 LLM 智能体在智能制造中的自主规划与部署约束，属于前沿智能体应用方向。",
+              "reason_en": "Discusses autonomous planning and deployment constraints for LLM agents in smart manufacturing, relevant to frontier agent applications.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26926",
+              "title": "AtomSD：面向 LLM 智能体的过程原子引导自蒸馏",
+              "summary": "论文提出 AtomSD，用过程原子引导自蒸馏，把可复用的程序性知识注入 LLM 智能体，以提升复杂任务中的灵活行动与跨交互复用。",
+              "title_en": "AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents",
+              "summary_en": "AtomSD uses procedural atom-guided self-distillation to give LLM agents reusable procedural knowledge, aiming to improve flexible action and reuse across interactions in complex tasks.",
+              "topic_evidence": "Procedural Atom-Guided Self-Distillation for LLM Agents",
+              "reason": "提出面向 LLM 智能体的程序性知识蒸馏方法，直接涉及智能体行动能力。",
+              "reason_en": "Proposes a procedural-knowledge distillation method for LLM agents, directly addressing agent action capabilities.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26995",
+              "title": "SPEM：面向 LLM 智能体高效技能使用的结构感知程序记忆",
+              "summary": "论文提出 SPEM，用结构感知的程序记忆组织可复用技能，避免全量加载和扁平检索带来的 token、运行时开销及依赖信息丢失。",
+              "title_en": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+              "summary_en": "SPEM introduces structure-aware procedural memory for LLM agents, organizing reusable skills to avoid full skill loading and flat retrieval that incur token and runtime overhead and ignore dependencies.",
+              "topic_evidence": "Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+              "reason": "针对 LLM 智能体技能库扩展后的记忆与检索效率问题，属于智能体基础设施。",
+              "reason_en": "Addresses memory and retrieval efficiency as LLM agent skill libraries scale, relevant to agent infrastructure.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26866",
+              "title": "高维层状态轨迹揭示 Transformer 推理的内部动态",
+              "summary": "研究把有序层状态轨迹当作经验过程，检验层序是否定义可测量的计算，从而刻画大模型一次推理如何在内部展开。",
+              "title_en": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+              "summary_en": "The study treats ordered layer-state trajectories as an empirical process and tests whether layer order defines measurable computation, offering a dynamic view of how transformer inference unfolds.",
+              "topic_evidence": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+              "reason": "研究 Transformer 推理内部动态，直接关联大模型推理机制。",
+              "reason_en": "Examines the internal dynamics of transformer inference, directly relevant to large-model inference mechanisms.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+              "title": "OpenAI 收购 Orchestra Bio，强化生物技术业务",
+              "summary": "OpenAI 称将把 Orchestra 的团队与技术并入 Rosalind 生命科学 AI 模型及 Rosalind Workbench，后者用于帮助研究人员规划实验和分析结果。",
+              "title_en": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+              "summary_en": "OpenAI is adding Orchestra Bio’s team and technology to Rosalind, its AI model for life-sciences research, and to Rosalind Workbench, a tool for planning experiments and analyzing results.",
+              "topic_evidence": "adding Orchestra's team and technology to work on Rosalind",
+              "reason": "报道 OpenAI 将收购团队与技术并入 Rosalind 生命科学模型和工作台，属于 AI 产品与平台动态。",
+              "reason_en": "Reports OpenAI adding an acquired team and technology to its Rosalind life-sciences model and workbench, an AI product and platform development.",
+              "score": 5.95
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26913",
+              "title": "MedPAO-Assist：可边缘部署的模态感知智能体，用于放射报告结构化",
+              "summary": "论文提出面向放射报告结构化的边缘可部署、模态感知智能体 AI，试图绕开依赖专有云模型或高端 GPU 的部署瓶颈，以满足隐私与离线需求。",
+              "title_en": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+              "summary_en": "MedPAO-Assist presents an edge-deployable, modality-aware agentic AI system for structuring radiology reports, targeting privacy and offline requirements that constrain clinical adoption of cloud or high-end GPU models.",
+              "topic_evidence": "Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+              "reason": "提出可边缘部署的放射报告结构化智能体系统，属于面向临床工作流的 AI 产品化尝试。",
+              "reason_en": "Presents an edge-deployable agentic system for radiology report structuring, an AI product effort for clinical workflows.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.26943",
+              "title": "MAMath-Bench：面向多模态多智能体数学推理的过程感知稳健评估",
+              "summary": "该基准关注大模型数学推理中答案正确之外的推理过程可验证性，并针对多模态、多智能体场景设计过程感知的稳健评估。",
+              "title_en": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+              "summary_en": "MAMath-Bench evaluates multimodal multi-agent mathematical reasoning with attention to process-aware and robust assessment, requiring not only correct answers but coherent, verifiable reasoning processes.",
+              "topic_evidence": "Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+              "reason": "提出多模态多智能体数学推理基准，强调过程感知与稳健评估，属于评测研究。",
+              "reason_en": "Introduces a benchmark for multimodal multi-agent mathematical reasoning with process-aware, robust evaluation.",
+              "score": 9.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+              "title": "Anthropic 推动 AI 安全法案：模型或致 50 人以上死亡时可被阻止发布",
+              "summary": "Anthropic 提出一项 AI 安全法案，称可在模型可能导致 50 人以上死亡时阻止发布；但报道指出提案要求联邦机构须经法官许可才能阻止模型发布。",
+              "title_en": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+              "summary_en": "Anthropic is pitching an AI safety bill that could block a model if 50 or more people could be killed, but TechCrunch reports federal agencies would need a judge’s permission to block a release.",
+              "topic_evidence": "may block a model if 50+ people could be killed",
+              "reason": "涉及 AI 安全法案与模型发布监管，属于治理与政策议题。",
+              "reason_en": "Covers an AI safety bill and model-release regulation, a governance and policy issue.",
+              "score": 5.95
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.27027",
+              "title": "多智能体协作能否减少临床任务中的幻觉？",
+              "summary": "论文区分临床任务中多智能体系统性能提升与可信度提升，考察协作是否减少幻觉，以及这对临床医生依据推理过程决策意味着什么。",
+              "title_en": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+              "summary_en": "The paper separates performance gains of multi-agent LLM systems on clinical tasks from trustworthiness, asking whether collaboration reduces hallucination and what that means for clinicians acting on stated reasoning.",
+              "topic_evidence": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+              "reason": "评估多智能体协作对临床幻觉的影响，属于安全与可信评测研究。",
+              "reason_en": "Evaluates whether multi-agent collaboration reduces clinical hallucination, relevant to safety and trustworthiness research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26937",
+              "title": "每个临床决策都需要最大 LLM 吗？",
+              "summary": "论文提出 CERTA，用决策级统计证书判断量化模型何时可替代 BF16 参考模型，并把无法认证的决策升级处理，以支持临床本地部署。",
+              "title_en": "Do We Need the Largest LLMs for Every Clinical Decision?",
+              "summary_en": "CERTA introduces a decision-level statistical certificate to determine when a quantized clinical model can substitute for its BF16 reference and escalate uncertified decisions, aiming to support local deployment.",
+              "topic_evidence": "decision-level statistical certificate that determines when a quantized model may substitute for its native BF16 reference",
+              "reason": "提出临床模型量化替代的决策级认证方法，涉及部署安全与评估。",
+              "reason_en": "Proposes decision-level certification for substituting quantized clinical models, relevant to deployment safety and evaluation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.26867",
+              "title": "WaveCommitments：隐私且可验证的语音智能体市场",
+              "summary": "论文提出面向语音智能体市场的隐私与可验证机制，使卖方可在不泄露资产的情况下供评估，买方也能在无法直接测试时进行定价。",
+              "title_en": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
+              "summary_en": "WaveCommitments proposes private and verifiable mechanisms for speech-agent marketplaces, letting sellers submit assets for evaluation without revealing them and buyers price assets they cannot directly test.",
+              "topic_evidence": "Private and Verifiable Speech-Agent Marketplaces",
+              "reason": "研究语音智能体市场的隐私与可验证交易机制，属于治理与隐私技术。",
+              "reason_en": "Studies privacy and verifiability mechanisms for speech-agent marketplaces, relevant to governance and privacy technology.",
+              "score": 5.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+              "title": "三位 Java Champion 如何使用 GitHub Copilot 提升效率",
+              "summary": "三位 Java Champion 分享使用 GitHub Copilot 解决问题、加速开发的经验，并强调仍需由人负责最终结果。",
+              "title_en": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+              "summary_en": "Three Java Champions describe using GitHub Copilot to solve problems and speed development, while stressing that humans remain accountable for the results.",
+              "topic_evidence": "Three Java Champions share how they use GitHub Copilot to solve problems",
+              "reason": "内容聚焦 Java 开发者使用 Copilot 的实践，属于语言与开发工具交叉主题。",
+              "reason_en": "The article focuses on Java developers' hands-on use of Copilot, fitting the languages and developer-tools intersection.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates",
+              "title": "eMudhra 中间 CA 私钥遭泄露",
+              "summary": "eMudhra 的八个中间 CA 证书私钥被泄露，这些证书可链至 Mozilla、微软、苹果和 Chrome 信任的根证书；捆绑信任列表的软件需更新。",
+              "title_en": "eMudhra Intermediate CA Compromise",
+              "summary_en": "Private keys for eight eMudhra intermediate CA certificates were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome programs, requiring software with bundled trust stores to update.",
+              "topic_evidence": "The private keys of eight eMudhra intermediate CA certificates have been compromised.",
+              "reason": "事件涉及证书信任链和软件信任库更新，属于基础设施安全议题。",
+              "reason_en": "The incident concerns certificate trust chains and trust-store updates, making it an infrastructure security matter.",
+              "score": 7.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module",
+              "title": "NASA SR-1“自由号”核动力模块研制取得进展",
+              "summary": "NASA称，拟飞往火星及更远深空的SR-1“自由号”正推进关键核电源模块研制；任务将进行深空核电动推进验证，若成功，将成为首个在地球轨道外运行的裂变动力航天器。",
+              "title_en": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+              "summary_en": "NASA says work is advancing on the nuclear power module for SR-1 Freedom, a spacecraft intended to demonstrate nuclear electric propulsion in deep space and become the first fission-powered craft beyond Earth orbit.",
+              "topic_evidence": "progress is underway on its key element: the nuclear power module",
+              "reason": "报道NASA SR-1 Freedom核电源模块研制进展，涉及深空核电动推进，属于航天能源这一小版块。",
+              "reason_en": "Reports progress on NASA’s SR-1 Freedom nuclear power module and deep-space nuclear electric propulsion, matching the space and energy subsection.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+              "title": "天文学家精确测量宇宙最初五分钟的氦含量",
+              "summary": "国际团队借助一台强大望远镜观测了15个原始星系，以前所未有的精度测量大爆炸后最初五分钟形成的氦量，为理解宇宙最早时刻提供了新线索。",
+              "title_en": "Astronomers uncover new secrets of the Universe’s first five minutes",
+              "summary_en": "An international team used a powerful telescope to study 15 pristine galaxies and measure helium produced in the first five minutes after the Big Bang with unprecedented precision, offering clues to the universe’s earliest moments.",
+              "topic_evidence": "measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision",
+              "reason": "报道大爆炸后氦丰度的精确测量，属于空间天体物理与早期宇宙研究。",
+              "reason_en": "Covers a precision measurement of helium from the first minutes after the Big Bang, fitting space astrophysics and early-universe research.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+              "title": "研究揭示他汀类药物引发肌肉疼痛的机制",
+              "summary": "研究人员用先进成像发现，他汀可附着于肌肉细胞中的关键蛋白并迫使其打开，从而解释部分患者为何出现肌痛、无力乃至严重肌损伤。",
+              "title_en": "Scientists finally uncover why statins can cause muscle pain",
+              "summary_en": "Using advanced imaging, researchers found that statins can bind to a crucial muscle-cell protein and force it open, offering an explanation for muscle pain, weakness and severe damage in some patients.",
+              "topic_evidence": "statins can attach to a crucial protein in muscle cells and force open",
+              "reason": "报道他汀导致肌肉症状的蛋白机制研究，属于医学与生物学研究。",
+              "reason_en": "Reports a protein-level mechanism for statin-related muscle symptoms, fitting medical and biological research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261019093443.htm",
+              "title": "研究：改进飓风预警图仍难改变公众风险认知",
+              "summary": "新研究显示，改进后的飓风预报图能帮助人们识别受威胁区域，却未必提升风险认知或促使他们采取防护行动；对“飓风锥”的普遍误解仍然存在。",
+              "title_en": "Hurricane warning maps are improving, but a dangerous problem remains",
+              "summary_en": "A new study finds improved hurricane forecast graphics may help people identify threatened areas but do not necessarily increase perceived danger or protective action, while misunderstanding of the hurricane cone persists.",
+              "topic_evidence": "improved hurricane forecast graphics may help people identify threatened areas",
+              "reason": "报道飓风预警图形的风险沟通研究，属于科学传播与公共安全研究。",
+              "reason_en": "Covers research on hurricane forecast graphics and risk communication, fitting science communication and public-safety research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
+              "title": "科学家发现侏罗纪奇特桶状“鱿鱼”化石",
+              "summary": "研究人员在怀俄明州约1.6亿年前的古海洋地层中识别出已知最“胖”的箭石，一种桶状鱿鱼近亲；罕见化石显示其形态前所未见，可能是小型头足类捕食者。",
+              "title_en": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
+              "summary_en": "Scientists identified the 'fattest' belemnite ever found, a barrel-shaped squid relative that lived in ancient Wyoming seas 160 million years ago; the rare fossils reveal a previously unknown form and possible predator.",
+              "topic_evidence": "barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago",
+              "reason": "报道罕见的侏罗纪箭石化石和新形态，属于古生物学与演化研究。",
+              "reason_en": "Reports rare Jurassic belemnite fossils and a new form, fitting paleontology and evolutionary research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
+              "title": "研究：阻断免疫细胞可保护阿尔茨海默病小鼠大脑",
+              "summary": "科学家通过阻断参与神经元破坏的免疫细胞，在小鼠中减轻阿尔茨海默病相关脑损伤；即使未清除有害tau蛋白，记忆中心组织保留约多40%，记忆也有改善。",
+              "title_en": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
+              "summary_en": "By blocking immune cells involved in neuron destruction, scientists protected mice from Alzheimer’s-related brain damage; memory centers retained about 40% more tissue and memory improved even without removing toxic tau.",
+              "topic_evidence": "preserved roughly 40% more tissue in memory centers and improved memory",
+              "reason": "报道无需清除tau即可减轻小鼠阿尔茨海默病脑损伤的实验，属于神经科学与医学研究。",
+              "reason_en": "Reports an experiment reducing Alzheimer’s-like brain damage in mice without removing tau, fitting neuroscience and medical research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": []
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+              "title": "尽管奥斯陆气氛乐观，特朗普与泽连斯基仍显分歧",
+              "summary": "在奥斯陆，泽连斯基与史蒂夫·威特科夫拥抱，但有报道认为，这未必能消除乌方对美国政策的疑虑；特朗普与泽连斯基仍显对立。",
+              "title_en": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+              "summary_en": "In Oslo, Zelensky hugged Steve Witkoff, but reports say this is unlikely to dispel Ukrainian misgivings about US policy; Trump and Zelensky remain at loggerheads.",
+              "topic_evidence": "appear at loggerheads despite Oslo optimism",
+              "reason": "报道美乌领导人在奥斯陆互动及围绕美国政策的猜疑，属于地缘外交与安全议题。",
+              "reason_en": "Covers US-Ukraine leadership tensions and diplomatic signaling in Oslo, fitting geopolitics.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult?traffic_source=rss",
+              "title": "伊朗战争直播：美国警告与德黑兰达成和平协议极其困难",
+              "summary": "鲁比奥向美国媒体表示，与德黑兰达成和平协议极其困难，同时霍尔木兹海峡袭击仍在继续。",
+              "title_en": "Iran war live: US warns peace deal with Tehran is extremely difficult",
+              "summary_en": "Rubio told US media that reaching a peace deal with Tehran is extremely difficult, while attacks in the Strait of Hormuz continue.",
+              "topic_evidence": "US warns peace deal with Tehran is extremely difficult",
+              "reason": "直播报道美方对伊朗和平协议前景的判断，并提及霍尔木兹海峡袭击，属战争与安全动态。",
+              "reason_en": "Live coverage of US assessment on Iran peace prospects and Hormuz attacks, fitting war and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/20/nx-s1-6007897/trump-makes-russia-friendly-moves-as-he-looks-for-a-way-to-end-the-war-with-ukraine",
+              "title": "特朗普作出对俄友好举动，寻求结束乌克兰战争",
+              "summary": "随着美国中期选举临近且能源价格高企，特朗普推动结束乌克兰战争，并再次调整对俄关系。",
+              "title_en": "Trump makes Russia-friendly moves as he looks for a way to end the war with Ukraine",
+              "summary_en": "Ahead of US midterms and amid high energy costs, Trump is making Russia-friendly moves as he seeks to end the war in Ukraine.",
+              "topic_evidence": "Trump makes Russia-friendly moves as he looks for a way to end the war with Ukraine",
+              "reason": "报道特朗普调整对俄关系以推动结束乌克兰战争，涉及大国关系与战争外交。",
+              "reason_en": "Covers Trump’s Russia-friendly shift in seeking to end the Ukraine war, involving great-power diplomacy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+              "title": "美国特使将在俄罗斯会见普京，泽连斯基称情报共享‘现在行得通’",
+              "summary": "美国特使将赴俄罗斯会见普京；泽连斯基表示情报共享‘现在行得通’。此前乌方指责美国扣留关键情报，华盛顿斥之为‘丑闻性’说法。",
+              "title_en": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+              "summary_en": "A US envoy is set to meet Putin in Russia, while Zelensky says intelligence sharing 'works now'; Washington rejected Ukraine's earlier claim that key intelligence was withheld.",
+              "topic_evidence": "US envoy to meet Putin in Russia",
+              "reason": "报道美俄外交接触与美乌情报共享争议，属外交与安全关系。",
+              "reason_en": "Covers US-Russia diplomatic contact and the US-Ukraine intelligence-sharing dispute, fitting diplomacy and security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+              "title": "苏丹军队无人机袭击悼念者和燃料市场，消息人士称造成300多人死亡",
+              "summary": "消息人士称，苏丹军队无人机袭击了一辆载人前往葬礼的卡车，以及一个被指为快速支援部队供应燃料的市场，造成300多人死亡。",
+              "title_en": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+              "summary_en": "Sources say Sudanese army drones struck a truck carrying people to a funeral and a market alleged to supply fuel to the RSF, killing more than 300 people.",
+              "topic_evidence": "Sudan army drones hit mourners and fuel market killing more than 300 people",
+              "reason": "报道苏丹武装冲突中的无人机袭击及重大伤亡，属战争与安全事件。",
+              "reason_en": "Reports a drone strike and mass casualties in Sudan’s armed conflict, fitting war and security.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests?traffic_source=rss",
+              "title": "意大利批准全面安全措施以应对抗议",
+              "summary": "在冲突和抗议发生后，意大利政府批准范围广泛的安全措施，包括向米兰部署500名士兵。",
+              "title_en": "Italy approves sweeping security measures in response to protests",
+              "summary_en": "Italy’s government approved sweeping security measures and agreed to deploy 500 troops to Milan after clashes and protests, according to Al Jazeera.",
+              "topic_evidence": "Italy's government approves sending 500 troops to Milan after clashes and protests",
+              "reason": "报道意大利政府以安全措施和派兵回应抗议，属政府政策与国内安全。",
+              "reason_en": "Covers Italy’s government security response and troop deployment after protests, fitting government policy.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+              "title": "阿尔伯塔选民在公投中压倒性否决脱离加拿大方案",
+              "summary": "加拿大阿尔伯塔省公投初步结果显示，约76%的选民反对启动独立进程，为维护加拿大统一的一方带来决定性胜利。",
+              "title_en": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+              "summary_en": "Voters in Alberta overwhelmingly rejected a proposal to begin independence proceedings, with about 76% opposed, delivering a decisive victory for Canadian unity supporters.",
+              "topic_evidence": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+              "reason": "报道加拿大省级公投结果及对统一派的意义，属选举与政府政策。",
+              "reason_en": "Covers a Canadian provincial referendum result and its meaning for unionists, fitting elections and government policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff",
+              "title": "弗拉维奥·博索纳罗‘腐败’噱头在巴西大选第二轮前引发网络恶搞",
+              "summary": "巴西总统选举第二轮前，极右翼候选人弗拉维奥·博索纳罗在电视辩论中以‘corrupto’攻击对手，反而在社交媒体上引发模仿和恶搞。",
+              "title_en": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+              "summary_en": "Before Brazil’s presidential runoff, far-right candidate Flávio Bolsonaro used a 'corrupto' taunt against his rival in a TV debate, prompting viral social media parody instead.",
+              "topic_evidence": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+              "reason": "报道巴西大选第二轮前的候选人辩论与网络传播现象，属选举政治。",
+              "reason_en": "Covers a candidate debate and viral reaction before Brazil’s runoff, fitting electoral politics.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+              "title": "特朗普因加拿大关税被起诉，面临最新法律挑战",
+              "summary": "诉讼称白宫对加拿大加征最新关税超越权限，并对美国企业造成‘直接伤害’。这是针对特朗普关税政策的最新法律挑战。",
+              "title_en": "Trump sued over Canadian tariffs in latest legal challenge",
+              "summary_en": "A lawsuit argues the White House exceeded its authority by imposing the latest tariffs on Canada and caused 'immediate harm to American businesses.'",
+              "topic_evidence": "Trump sued over Canadian tariffs in latest legal challenge",
+              "reason": "报道针对特朗普加拿大关税的诉讼，涉及贸易政策的法律争议。",
+              "reason_en": "Covers litigation over Trump’s Canada tariffs, involving trade policy and legal authority.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+              "title": "尼日利亚确认埃博拉病例，疫情蔓延至西非",
+              "summary": "尼日利亚卫生部确认，一名从乌干达抵达阿布贾的女性埃博拉检测呈阳性；她于10月7日出现症状，四天后入院。",
+              "title_en": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+              "summary_en": "Nigeria’s health ministry confirmed an Ebola case in Abuja in a woman who arrived from Uganda; she developed symptoms on 7 October and was hospitalised four days later.",
+              "topic_evidence": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+              "reason": "报道尼日利亚确认埃博拉病例及输入链条，属全球公共卫生事件。",
+              "reason_en": "Covers Nigeria’s confirmed Ebola case and travel link, fitting global public health.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+              "title": "试点项目发现，每天向亚马孙地区居民发放2英镑有助于保护雨林",
+              "summary": "巴斯大学分析称，在秘鲁亚马孙地区开展的无条件基本收入试点中，近90%参与者采取了有益环境的做法。",
+              "title_en": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
+              "summary_en": "A University of Bath analysis found that almost 90% of participants in an unconditional basic income pilot for Indigenous people in the Peruvian Amazon adopted environmentally beneficial practices.",
+              "topic_evidence": "Giving £2 a day to people in the Amazon helps protect rainforest",
+              "reason": "报道亚马孙地区基本收入试点与雨林保护结果，属全球社会与环境议题。",
+              "reason_en": "Covers an Amazon basic income pilot and rainforest protection findings, fitting global society and environment.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss",
+              "title": "绿色和平称墨西哥尤卡坦饮用水遭粪便废物污染",
+              "summary": "绿色和平报告称，附近养猪场和市政废水可能是墨西哥尤卡坦地区饮用水污染的来源。该报告关注当地饮用水安全。",
+              "title_en": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+              "summary_en": "Greenpeace says faecal waste is polluting drinking water in Mexico’s Yucatan, with nearby pig farms and municipal wastewater identified as likely contamination sources.",
+              "topic_evidence": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+              "reason": "报道尤卡坦饮用水污染及可能来源，属全球社会中的环境与健康议题。",
+              "reason_en": "Covers drinking-water contamination and likely sources in Yucatan, fitting environment and health in global society.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718299.shtml",
+              "title": "我国应对气候变化工作取得显著成效",
+              "summary": "生态环境部发布2026年度气候行动报告：2025年单位GDP二氧化碳排放较2020年降17.7%，非化石能源消费占比21.7%，风光装机合计18.4亿千瓦。",
+              "title_en": "China reports notable progress in climate change response",
+              "summary_en": "China's ecology ministry released its 2026 climate action report, saying CO2 emissions per unit of GDP fell 17.7% from 2020 in 2025, non-fossil energy reached 21.7% of consumption, and wind and solar capacity totaled 1.84 billion kW.",
+              "topic_evidence": "单位国内生产总值二氧化碳排放较2020年降低17.7%",
+              "reason": "具体政策报告与量化数据，体现气候治理进展。",
+              "reason_en": "Concrete policy report with quantitative data on climate governance progress.",
+              "score": 9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718325.shtml",
+              "title": "全国碳排放权交易市场成交量突破10亿吨",
+              "summary": "生态环境部介绍，全国碳排放权交易市场启动五年多，已建成全球规模最大碳市场，管控二氧化碳排放约83亿吨、占全国总量65%以上，近期配额累计成交量突破10亿吨。",
+              "title_en": "National carbon market trading volume exceeds 1 billion tonnes",
+              "summary_en": "China's national carbon market, launched over five years ago, now covers about 8.3 billion tonnes of CO2, over 65% of national emissions, and cumulative allowance trading has exceeded 1 billion tonnes, the ecology ministry said.",
+              "topic_evidence": "近期配额累计成交量突破了10亿吨",
+              "reason": "碳市场运行关键数据，反映监管与市场建设。",
+              "reason_en": "Key data on carbon market operations, reflecting regulation and market development.",
+              "score": 8.5
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718346.shtml",
+              "title": "国台办：联大决议确认一个中国原则 不容置疑不容改变",
+              "summary": "国台办例行新闻发布会回应“联大第2758号决议与台湾问题”学术研讨会，强调联大决议确认一个中国原则，不容置疑、不容改变。",
+              "title_en": "Taiwan Affairs Office: UN resolution confirms one-China principle, indisputable and unchangeable",
+              "summary_en": "The Taiwan Affairs Office said at a regular press conference that UN General Assembly Resolution 2758 confirms the one-China principle, which is beyond doubt and cannot be changed.",
+              "topic_evidence": "联大决议确认一个中国原则 不容置疑不容改变",
+              "reason": "官方对涉台国际法理立场的最新表态。",
+              "reason_en": "Latest official statement on the international legal basis of Taiwan-related issues.",
+              "score": 8
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718318.shtml",
+              "title": "国台办：支持台胞台企抢抓新质生产力发展机遇 融入新发展格局",
+              "summary": "国台办发布会回应《中共中央 国务院关于发展新质生产力的意见》，表示支持台胞台企抢抓新质生产力机遇、融入新发展格局。",
+              "title_en": "Taiwan Affairs Office supports Taiwanese businesses in seizing new quality productive forces opportunities",
+              "summary_en": "The Taiwan Affairs Office voiced support for Taiwanese businesses and compatriots to seize opportunities in developing new quality productive forces and integrate into China's new development pattern, citing a recent central policy document.",
+              "topic_evidence": "支持台胞台企抢抓新质生产力发展机遇 融入新发展格局",
+              "reason": "具体政策回应，涉及台企在大陆发展机遇。",
+              "reason_en": "Specific policy response on development opportunities for Taiwanese businesses on the mainland.",
+              "score": 7.5
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718383.shtml",
+              "title": "五羊星座首发星发射 未来将具备30分钟级灾害应急响应能力",
+              "summary": "10月21日，五羊星座首发星先导A星搭乘谷神星一号海射型火箭在山东日照海上发射，标志全球首个低纬度高频遥感观测网络进入组网建设，未来服务应急减灾、精准农业等。",
+              "title_en": "First Wuyang constellation satellite launched, to enable 30-minute disaster response",
+              "summary_en": "On Oct 21, the first Wuyang constellation satellite, XianDao A, launched on a Ceres-1 sea rocket from Rizhao, Shandong, beginning construction of the world's first low-latitude high-frequency remote sensing network for disaster response and precision agriculture.",
+              "topic_evidence": "全球首个低纬度高频遥感观测网络正式进入组网建设阶段",
+              "reason": "具体航天发射与遥感组网计划，属产业进展。",
+              "reason_en": "Concrete space launch and remote sensing network plan, an industrial development.",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718374.shtml",
+              "title": "男子造谣“艺人肖某演唱会第一排门票25万元”被依法查处",
+              "summary": "公安部网安局通报，网传“艺人肖某演唱会第一排门票25万元”为不实信息，一名男子因造谣已被依法查处。",
+              "title_en": "Man punished for rumor that front-row concert ticket cost 250,000 yuan",
+              "summary_en": "China's cybersecurity bureau under the Ministry of Public Security said a man has been punished for spreading a false claim that front-row tickets for singer Xiao's concert cost 250,000 yuan.",
+              "topic_evidence": "男子造谣“艺人肖某演唱会第一排门票25万元”被依法查处",
+              "reason": "具体网络造谣查处案例，体现网络执法。",
+              "reason_en": "Specific case of rumor-mongering being punished, showing online law enforcement.",
+              "score": 7.5
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718323.shtml",
+              "title": "故意转账3万元诬告陷害法官，二人被追究刑责",
+              "summary": "最高法发布《人民法院司法责任追究条例》并公布典型案例：二人故意转账3万元诬告陷害法官，被依法追究刑事责任。",
+              "title_en": "Two punished for framing judge with 30,000 yuan transfer",
+              "summary_en": "China's Supreme People's Court released rules on judicial responsibility and typical cases, including two people criminally punished for transferring 30,000 yuan to frame a judge.",
+              "topic_evidence": "故意转账3万元诬告陷害法官，二人被追究刑责",
+              "reason": "最高法发布司法责任追究条例及典型案例，具法治意义。",
+              "reason_en": "Supreme People's Court releases judicial responsibility rules and typical cases, with rule-of-law significance.",
+              "score": 7.5
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml",
+              "title": "跨城接单20次就进“黑名单”？顺风车的合规边界该怎么划",
+              "summary": "报道聚焦顺风车职业化接单乱象：有车主日均接单超20单却自称“顺风合乘”，南京交通执法部门曾查处此类案例，引发合规边界讨论。",
+              "title_en": "Where is the compliance line for ride-sharing? High-frequency orders raise concerns",
+              "summary_en": "The report examines ride-sharing compliance as some drivers take over 20 orders a day while claiming to be carpooling; Nanjing transport authorities have handled such cases, raising questions about where to draw the line.",
+              "topic_evidence": "一名车主日均接单超20单，却主张自身属于“顺风合乘”",
+              "reason": "具体执法案例与合规边界讨论，属社会法治议题。",
+              "reason_en": "Specific enforcement case and compliance boundary discussion, a society and law issue.",
+              "score": 7
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml",
+              "title": "警惕“长得像食物、其实有毒”的野果 已有游客误食后腹泻不止",
+              "summary": "有游客在河南嵖岈山误食外观酷似无花果的桐油果，出现上吐下泻；当地人称桐油果用于熬桐油、漆雨伞，不能食用。",
+              "title_en": "Warning after tourist eats toxic wild fruit resembling fig",
+              "summary_en": "A tourist in Henan's Chaya Mountain fell ill after eating a tung oil fruit that looks like a fig; locals say the fruit is used for oil and painting umbrellas and is inedible.",
+              "topic_evidence": "游客吃的是桐油果",
+              "reason": "具体误食事件与安全提醒，属社会健康。",
+              "reason_en": "Specific poisoning incident and safety warning, a public health issue.",
+              "score": 6.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
+              "title": "美股与期货上涨，科技公司财报缓和AI交易担忧，油价走高",
+              "summary": "美股与股指期货上涨，强劲科技公司业绩缓解上周抛售后对AI交易的担忧；原油价格同步走高。",
+              "title_en": "Stocks Rise as Earnings Revive AI Trade, Oil Gains: Markets Wrap",
+              "summary_en": "US stocks and futures rose as strong technology earnings eased concerns about the AI trade after last week’s selloff. Crude oil also climbed.",
+              "topic_evidence": "Stocks rose with futures as strong results from technology companies eased concerns over the AI trade",
+              "reason": "直接覆盖美股大盘、科技财报与油价，属于市场与资产核心动态。",
+              "reason_en": "Directly covers US equities, tech earnings and oil, core market-assets developments.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+              "title": "超微电脑发布意外更新后股价大涨，戴尔与惠普股价跟涨",
+              "summary": "超微电脑意外披露营收和盈利能力可能远强于此前预期，带动戴尔与惠普等服务器相关股票一同上涨。",
+              "title_en": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+              "summary_en": "Super Micro unexpectedly said its revenue and profitability could be much stronger than originally expected, lifting its stock and pulling Dell and HPE shares higher.",
+              "topic_evidence": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+              "reason": "公司业绩预告引发股价与同业联动，是具体市场事件。",
+              "reason_en": "A specific earnings update drove stock and peer moves.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+              "title": "马斯克透露SpaceX合并新线索，特斯拉股价上涨",
+              "summary": "马斯克称两家公司的特别委员会正在评估合并前景，但合并并非确定之事；特斯拉股价受此消息上涨。",
+              "title_en": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+              "summary_en": "Elon Musk said special committees at Tesla and SpaceX are assessing merger prospects, while cautioning a combination is no sure thing. Tesla shares rose.",
+              "topic_evidence": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+              "reason": "涉及特斯拉与SpaceX潜在合并及股价反应，属市场与资产。",
+              "reason_en": "Covers a possible Tesla-SpaceX merger and stock reaction.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
+              "title": "霍尔木兹海峡船只遇袭威胁运输，油价小幅走高",
+              "summary": "霍尔木兹海峡附近船只遇袭威胁石油运输，同时美国行业数据显示库存再次下降，油价小幅上涨。",
+              "title_en": "Latest Oil Market News and Analysis for Oct. 21",
+              "summary_en": "Oil edged higher as attacks on ships near the Strait of Hormuz threatened shipments, while US industry data pointed to another decline in stockpiles.",
+              "topic_evidence": "Oil edged higher as attacks on ships around the Strait of Hormuz threatened shipments",
+              "reason": "具体报告原油价格、地缘运输风险与库存变化。",
+              "reason_en": "Specific oil price, shipping risk and inventory update.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/china-s-economy-in-six-charts-growth-exports-and-the-property-slump",
+              "title": "六张图看中国经济：增长、出口与房地产低迷",
+              "summary": "彭博经济以六张图梳理中国经济增长、出口与房地产低迷，审视曾被视为近乎必然的高速增长所面临的变化。",
+              "title_en": "China’s Economy in Six Charts: Growth, Exports and the Property Slump",
+              "summary_en": "Bloomberg Economics uses six charts to examine China’s growth, exports and property downturn, reviewing how a once seemingly inevitable rapid expansion has changed.",
+              "topic_evidence": "Growth, Exports and the Property Slump",
+              "reason": "宏观数据图表聚焦增长、出口和房地产，属宏观与政策。",
+              "reason_en": "Macro charts focus on growth, exports and property.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/boj-likely-to-keep-hiking-rates-every-quarter-ex-official-says",
+              "title": "前日本央行官员称BOJ可能每季度继续加息",
+              "summary": "曾主管货币政策的前日本央行官员表示，日本央行可能每三个月加息一次，以遏制通胀偏离稳定物价目标的风险。",
+              "title_en": "BOJ Likely to Keep Hiking Rates Every Quarter, Ex-Official Says",
+              "summary_en": "A former Bank of Japan executive director who oversaw monetary policy said the BOJ will probably raise rates every three months to contain inflation risks.",
+              "topic_evidence": "The Bank of Japan will probably keep raising interest rates every three months to contain risks of inflation",
+              "reason": "涉及日本央行加息路径与通胀风险，属宏观政策。",
+              "reason_en": "Covers BOJ rate path and inflation risk.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/s-korea-s-export-boom-stays-strong-ahead-of-bok-rate-decision",
+              "title": "韩国出口在央行利率决议前保持强劲",
+              "summary": "受全球AI需求推动半导体出货，韩国10月初出口维持强劲增长，显示在韩国央行利率决议前经济仍具韧性。",
+              "title_en": "S. Korea’s Export Boom Stays Strong Ahead of BOK Rate Decision",
+              "summary_en": "South Korea’s exports kept strong growth in early October as AI demand fueled semiconductor shipments, highlighting economic resilience before the central bank’s rate decision.",
+              "topic_evidence": "exports maintained strong growth in early October as booming global demand for artificial intelligence fueled semiconductor shipments",
+              "reason": "出口与半导体需求数据直接关联韩国央行决策和宏观前景。",
+              "reason_en": "Export and semiconductor data tie directly to BOK decision and macro outlook.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/rba-s-hauser-says-australia-inflation-outlook-materially-worse",
+              "title": "澳洲联储Hauser称澳大利亚通胀前景“明显恶化”",
+              "summary": "澳洲联储副行长Hauser表示，通胀前景比8月预测“明显恶化”，强化了市场对11月将进行今年第五次加息的预期。",
+              "title_en": "RBA’s Hauser Says Australia Price Outlook ‘Materially Worse’",
+              "summary_en": "RBA Deputy Governor Andrew Hauser said Australia’s inflation outlook is “materially worse” than the August forecast, strengthening expectations for a fifth rate hike this year in November.",
+              "topic_evidence": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast",
+              "reason": "明确涉及澳洲通胀预测和加息预期。",
+              "reason_en": "Explicit on Australia inflation forecast and rate-hike expectations.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/pboc-faces-multi-month-road-to-new-rate-anchor-analysts-say",
+              "title": "中国基准利率切换或推动隔夜操作加码",
+              "summary": "分析师称，中国央行可能正启动持续数月的向隔夜政策利率过渡，需要用新基准候选进行更频繁的流动性操作以测试市场接受度。",
+              "title_en": "China Benchmark Switch Spells Ramp-Up of Overnight Operation",
+              "summary_en": "Analysts say China’s central bank may be starting a multi-month transition toward an overnight policy rate, requiring more frequent liquidity operations with the new benchmark to test market reception.",
+              "topic_evidence": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate",
+              "reason": "涉及中国央行政策利率基准与流动性操作变化，属宏观政策。",
+              "reason_en": "Covers PBoC policy-rate benchmark and liquidity operations.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/podcast-portfolio-reset-why-passive-investing-is-anything-but-passive",
+              "title": "播客：投资组合重置——被动投资为何并非真正被动",
+              "summary": "彭博播客《投资组合重置》讨论被动投资本意是跟踪市场，但当其规模开始主导市场时会发生什么，以及投资者应如何理解其影响。",
+              "title_en": "Podcast: Portfolio Reset Why Passive Investing Is Anything But Passive",
+              "summary_en": "Bloomberg’s Portfolio Reset podcast examines passive investing, which is designed to track the market, and asks what happens when it starts to dominate it.",
+              "topic_evidence": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+              "reason": "个人理财与投资方法讨论，适合理财版块；只报告播客议题。",
+              "reason_en": "Personal-finance and investing discussion; reports the podcast topic only.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+              "title": "妻子称无法退休，我否决了她8000美元意大利旅行：我们有400万美元，还要继续工作吗？",
+              "summary": "一对60多岁、拥有400万美元资产的夫妇就退休与旅行支出产生分歧；提问者担心医疗、长期护理、通胀、长熊市和活到95岁。",
+              "title_en": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+              "summary_en": "A couple in their 60s with $4 million disagree over retirement and an $8,000 Italy trip. The husband cites worries about healthcare, long-term care, inflation, a long bear market and living to 95.",
+              "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+              "reason": "具体个人退休与资产规划案例，属理财。",
+              "reason_en": "Specific retirement and asset-planning case for personal finance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-21/coke-s-struggle-to-break-into-the-500-billion-global-coffee-market",
+              "title": "可口可乐进军5000亿美元全球咖啡市场遇阻",
+              "summary": "可口可乐收购Costa Coffee原计划在全球铺设数千台自助浓缩咖啡机，但这一收购战略推进并不顺利。",
+              "title_en": "Coke's Struggle to Break Into the $500 Billion Global Coffee Market",
+              "summary_en": "Coca-Cola’s acquisition of Costa Coffee was meant to bring thousands of self-serve espresso machines worldwide, but the company’s push into coffee has struggled.",
+              "topic_evidence": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines",
+              "reason": "公司收购与业务拓展案例，涉及商业与资产配置。",
+              "reason_en": "Corporate acquisition and business expansion case.",
+              "score": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://www.joshwcomeau.com/css/interop-2027",
+              "title": "CSS 的未来",
+              "summary": "来自 joshwcomeau.com 的博客文章《The Future of CSS》讨论 CSS 的未来发展，在 Hacker News 获得 119 分、39 条评论。",
+              "title_en": "The Future of CSS",
+              "summary_en": "A blog post from joshwcomeau.com titled 'The Future of CSS' discusses the future of CSS; it drew 119 points and 39 comments on Hacker News.",
+              "topic_evidence": "The Future of CSS",
+              "reason": "技术博客随笔，主题直接涉及 CSS 的未来发展，适合技术观点版。",
+              "reason_en": "A technical blog essay directly about the future of CSS, suitable for the tech opinion subsection.",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.thebeliever.net/the-other-epidemic",
+              "title": "另一场流行病：尝试停用苯二氮卓类药物",
+              "summary": "一篇关于尝试停用苯二氮卓类药物的长文，在 Hacker News 获得 119 分、82 条评论。",
+              "title_en": "The Other Epidemic: Trying to get off benzodiazepines",
+              "summary_en": "A long-form essay about trying to stop using benzodiazepines drew 119 points and 82 comments on Hacker News, with discussion.",
+              "topic_evidence": "Trying to get off benzodiazepines",
+              "reason": "健康与社会议题的长文，属于社会评论范畴。",
+              "reason_en": "Long-form essay on a health and society issue, fitting social commentary.",
+              "score": 8
+            },
+            {
+              "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
+              "title": "Ofcom 在 4chan 案件中让步",
+              "summary": "一篇评论英国通信管理局（Ofcom）在 4chan 相关案件中让步的文章，在 Hacker News 获得 358 分、265 条评论。",
+              "title_en": "Ofcom concedes defeat in 4chan case",
+              "summary_en": "An article commenting on UK regulator Ofcom conceding in a 4chan-related case; it received 358 points and 265 comments on Hacker News.",
+              "topic_evidence": "Ofcom concedes defeat in 4chan case",
+              "reason": "涉及网络平台监管与言论政策的评论，适合商业与社会评论版。",
+              "reason_en": "Commentary on online platform regulation and speech policy, fitting business and society commentary.",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://stevekrouse.com/ends",
+              "title": "我该教儿子什么？",
+              "summary": "Hacker News 讨论帖：一篇题为《What shall I teach my son?》的文章获得 325 分、394 条评论。",
+              "title_en": "What shall I teach my son?",
+              "summary_en": "A Hacker News discussion post: an essay titled 'What shall I teach my son?' drew 325 points and 394 comments.",
+              "topic_evidence": "What shall I teach my son?",
+              "reason": "高评论数的 HN 讨论帖，围绕教育子女的随笔展开社区讨论。",
+              "reason_en": "A high-comment HN discussion thread around an essay on what to teach one's son.",
+              "score": 7
+            },
+            {
+              "url": "https://permit.petercai.com/",
+              "title": "Show HN：模拟城市，但需要许可证",
+              "summary": "Hacker News 上的 Show HN 项目《SimCity, but with Permits》获得 660 分、343 条评论。",
+              "title_en": "Show HN: SimCity, but with Permits",
+              "summary_en": "A Show HN community project post titled 'SimCity, but with Permits' drew 660 points and 343 comments on Hacker News.",
+              "topic_evidence": "Show HN: SimCity, but with Permits",
+              "reason": "HN 社区高互动项目帖，评论数多，适合社区讨论版。",
+              "reason_en": "A highly interactive HN project post with many comments, suitable for community discussion.",
+              "score": 7
+            },
+            {
+              "url": "https://tyma.com/my-cringe-story",
+              "title": "我的朋友 Bob Cringely",
+              "summary": "一篇题为《My Friend Bob Cringely》的个人随笔，在 Hacker News 获得 184 分、51 条评论。",
+              "title_en": "My Friend Bob Cringely",
+              "summary_en": "A personal essay titled 'My Friend Bob Cringely' drew 184 points and 51 comments on Hacker News, sparking community discussion.",
+              "topic_evidence": "My Friend Bob Cringely",
+              "reason": "个人随笔在 HN 引发讨论，适合社区讨论版。",
+              "reason_en": "A personal essay generating discussion on HN, suitable for community discussion.",
+              "score": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "original_title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "original_summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training. Using corporate financial reports as its data source, Navalia semantically selects supporting evidence from complete fact sets and constructs executable computation chains to generate analytical tasks with traceable evidence and actual data dependencies between steps. We further use independent LLM review and programmatic checks to verify evidence consistency and answer correctness. The verified tasks are then used for trajectory collection, cold-start supervised fine-tuning (SFT), and reinforcement learning (RL) to improve long-horizon task execution. Navalia, initialized from Qwen3.6-35B-A3B, achieves consistent gains over the base model across all five benchmarks: OfficeQA Pro, FinSearchComp, Finance Agent Benchmark, APEX-Agents-AA, and Workspace-Bench-Lite. These results demonstrate that Navalia improves evidence integration, tool use, and long-horizon task execution capabilities and generalizes to broader Cowork settings, including general office tasks.",
+      "topic_evidence": "Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "original_title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "original_summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze five key challenges and discuss the concept and core characteristics of industrial agents. We then establish a unified taxonomy covering application scenarios, embodiment forms, and five capability levels. Next, we propose a four-layer system architecture and detail its core modules and operational mechanisms for closed-loop task execution. Finally, we review representative applications across the industrial lifecycle and outline future research directions. This article provides a structured reference for the design, development, and application of industrial agents.",
+      "topic_evidence": "LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.26926",
+      "original_title": "AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents",
+      "original_summary": "arXiv:2610.26926v1 Announce Type: new Abstract: Large language models (LLMs) possess broad factual knowledge and strong reasoning capabilities, but solving complex tasks also requires procedural knowledge about how to act. Existing approaches often represent procedural knowledge through trajectories or bundled skills, limiting flexible reuse across interaction histories. This paper introduces Procedural Atoms, fine-grained and independently applicable units that represent Intent, When, Do, and Avoid guidance. Building on this representation, we propose AtomSD, an Atom-guided Self-Distillation framework in which the learner continually extracts Procedural Atoms from its own successful trajectories and distills them into the evolving policy through Atom-conditioned supervision and task-reward optimization. Comprehensive experiments show that AtomSD consistently outperforms strong reward-based and distillation methods, exceeding the state-of-the-art baseline by up to 9.31 points in average performance. Further analyses demonstrate that the proposed Procedural Atoms provide effective guidance, highlighting the value of atom-level procedural knowledge for policy learning.",
+      "topic_evidence": "Procedural Atom-Guided Self-Distillation for LLM Agents",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.26995",
+      "original_title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+      "original_summary": "arXiv:2610.26995v1 Announce Type: new Abstract: LLM-based agents increasingly rely on reusable skills. However, scaling skill libraries makes efficient and accurate skill use difficult. Full skill loading incurs high token and runtime overhead. In contrast, flat semantic retrieval treats skills as independent text entries, ignoring dependencies, execution order, state transitions, and data flow constraints. We propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM-based agents. SPEM maintains Atomic Skill Memory for individual skills and Skill-DAG Memory for reusable compositions derived from successful executions. For a new task, SPEM reuses high-confidence Skill-DAG templates when available. Otherwise, it retrieves atomic skills and invokes Skill-GNN for state- and structure-aware skill selection. Successful executions are written back as new Skill-DAGs, allowing procedural memory to accumulate over time. Experiments on ALFWorld and SkillsBench show that SPEM achieves the best overall effectiveness--efficiency trade-off, reaching 87.1% ALFWorld success and 38.38% SkillsBench reward while reducing token and runtime costs against strong baselines.",
+      "topic_evidence": "Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.26866",
+      "original_title": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+      "original_summary": "arXiv:2610.26866v1 Announce Type: new Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether layer order defines a measurable computation. Across representative Qwen, Llama and Gemma checkpoints, realized order produced paths 1.60--2.24 times as aligned with their endpoint chord as endpoint-preserving shuffles. The order effect transferred to a lexical task, but was stronger in three random initializations of the same Qwen architecture, identifying an architecture-compatible scaffold rather than a training-specific law. Direct hidden states provided stronger mechanism coordinates than vocabulary readbacks, and a task-defined coordinate made candidate competition computable. After additive interventions failed, local transition actuators selectively controlled internal trajectories across checkpoints. A confidence gate then drove 17 of 87 held-out Qwen closure trajectories across the full-vocabulary top-1 candidate boundary while leaving all 203 non-closure top-1 outputs unchanged. Safety-matched action reassignment performed similarly, locating the gain in selective gating and the bounded actuator family rather than fine-grained dose assignment. Layer order exposes an observable, computable and behaviourally consequential process of transformer inference without establishing a complete theory of LLM dynamics or control of answer correctness.",
+      "topic_evidence": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "original_title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "original_summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "topic_evidence": "adding Orchestra's team and technology to work on Rosalind",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://arxiv.org/abs/2610.26913",
+      "original_title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "original_summary": "arXiv:2610.26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck for clinical adoption in radiology workflows that demand data privacy and offline operation. To address this, we present MedPAO-Assist, an edge-deployable agentic framework that generates structured radiology reports directly from radiologist dictation and voice commands, requiring only $\\approx3.3$ GB peak RAM and achieving an average end-to-end latency of $\\approx31$ seconds on a standard laptop CPU through an asynchronous, multi-threaded execution pipeline. The system currently supports four major imaging modalities -- Chest X-ray, Chest CT, Abdomen CT, and Brain MRI. To our knowledge, it is among the earliest agentic systems to run its entire pipeline with a Small Language Model (SLM) in the 0.6B-parameter range. This multi-agent architecture, built around an Extract-Ground-Generate paradigm, performs concept extraction, SNOMED-CT grounding, and structured report generation, followed by a speech-driven human-in-the-loop correction phase, together forming a fully \"no-touch\" reporting workflow that requires no keyboard input, external API calls, or internet connectivity. We evaluate each pipeline stage individually -- concept extraction, ontology grounding, and concept categorization and report hardware profiling results demonstrating the system's feasibility for real-time, CPU-only clinical deployment.",
+      "topic_evidence": "Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.26943",
+      "original_title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+      "original_summary": "arXiv:2610.26943v1 Announce Type: new Abstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the reliability of intermediate reasoning steps, and robustness against reasoning errors. To address these limitations, we introduce MAMath-Bench, a process-aware benchmark designed to evaluate the multimodal mathematical reasoning capabilities of MASs. MAMath-Bench comprises 1,003 problems spanning 11 mathematical categories, multiple difficulty levels, and several modalities, including text, images, and audio. It features fine-grained milestone annotations to evaluate systems across three dimensions: problem-solving correctness, reasoning-process reliability, and robustness to adversarial reasoning-chain perturbations. Our evaluation yields three key findings. First, multi-agent collaboration does not consistently improve final-answer accuracy over strong single LLMs. Second, collaboration can substantially enhance the coverage of intermediate reasoning, but such gains may come at the cost of increased reasoning redundancy. Third, current systems remain vulnerable to adversarial reasoning errors, particularly those involving subtle structural perturbations. The dataset is available at https://github.com/mira-ai-lab/AgentMath.",
+      "topic_evidence": "Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "benchmark",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+      "original_title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "original_summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "topic_evidence": "may block a model if 50+ people could be killed",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "safety",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.27027",
+      "original_title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+      "original_summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks, scoring hallucination, under a factuality and faithfulness taxonomy, inside the rationale each system generates and reporting it alongside the task metric. We report that collaboration buys task performance but not lower hallucination as a rule, and no topology is reliably better than another. The effect differs by model: of the $36$ model--system--task comparisons, $12$ are large enough to resolve --- four decreases and eight increases, with no model on both sides. What sets the level, and the direction of any change, is the model rather than the topology or the number of agents. A self-correction experiment is consistent with this: shown its own flagged errors, every model except Llama-3.2-3B-Instruct reduces hallucination; the one model for which collaboration lowers hallucination gains the most, and Llama-3.2-3B-Instruct, the model whose hallucination it amplifies most, does not reduce its hallucination at all. We find that collaboration redistributes what its models can already do; it does not supply what they cannot.",
+      "topic_evidence": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.26937",
+      "original_title": "Do We Need the Largest LLMs for Every Clinical Decision?",
+      "original_summary": "arXiv:2610.26937v1 Announce Type: new Abstract: Large clinical language models often require multi-GPU infrastructure, limiting local deployment. We introduce CERTA, a decision-level statistical certificate that determines when a quantized model may substitute for its native BF16 reference and escalates decisions that cannot be certified to it. Across eleven instruction-tuned models, both general-purpose and domain-adapted, from three families (7-72B), we evaluated 2,500 clinical-verification decisions from de-identified patient contexts (2,484 patients), with patient-disjoint calibration and testing. In the higher-power operational analysis, round-to-nearest 8-bit quantization at BF16 storage served 99.8-100% of held-out decisions across all eleven models; formal finite-sample guarantees were assessed separately using the exact split-sample procedure. In the same operational analysis, the class-conditional 4-bit frontier reduced the amortized, BF16-equivalent deployment cost to 25.8% and 27.3% of the BF16 reference for Qwen2.5-72B and HuatuoGPT-o1-72B, respectively, with measured peak memory of 43.0 and 42.7 GB, below the nominal capacity of a single 48 GB accelerator. Deployment on that specific hardware was not directly tested. Under the exact split-sample certificate, which also accounts for configuration selection, these costs were 26.7% and 27.9%. On external disease named-entity benchmarks against human annotations, the frontier-selected NF4 configurations had a mean absolute F1 change of 0.045 on both datasets, with substantial model-specific variation. CERTA converts compression from a fixed precision choice into a risk-controlled deployment policy for this verification task.",
+      "topic_evidence": "decision-level statistical certificate that determines when a quantized model may substitute for its native BF16 reference",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark",
+        "dataset",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.26867",
+      "original_title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
+      "original_summary": "arXiv:2610.26867v1 Announce Type: new Abstract: Modern speech systems are evolving into ecosystems of autonomous speech agents that speak together, negotiate, and trade assets such as embeddings, spectrograms, or raw data. In such markets, sellers cannot reveal assets for evaluation due to privacy constraints, and buyers cannot price what they cannot test. Thus, we open-source WaveCommitments, an end-to-end design that pairs confidential asset valuation via Data Shapley inside a trusted execution environment with multivariate polynomial commitments. It enables selective openings and tamper-evident provenance to prove that a delivered asset matches the valuation while hiding everything else. Our extensive experiments across three known datasets and various tasks with state-of-the-art encoders, including Whisper, reveal that we speed up the best benchmarks by up to 20x while reducing their proof sizes by up to 39x. We also systematically study how a speaker's value shifts across tasks and encoders, revealing agent-level market prices.",
+      "topic_evidence": "Private and Verifiable Speech-Agent Marketplaces",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark",
+        "dataset",
+        "privacy"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "original_title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "original_summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+      "topic_evidence": "Three Java Champions share how they use GitHub Copilot to solve problems",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "java"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates",
+      "original_title": "eMudhra Intermediate CA Compromise",
+      "original_summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0.13.4 and pip 26.2.2 and certifi 2026.10.19 have been released with upgraded certificate lists. Tags: encryption , https , pip , python , security , uv",
+      "topic_evidence": "The private keys of eight eMudhra intermediate CA certificates have been compromised.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "linux",
+        "security"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module",
+      "original_title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+      "original_summary": "Destined for Mars and beyond, NASA’s Space Reactor-1 (SR-1) Freedom will be humanity’s first fission-powered spacecraft to travel outside Earth’s orbit. Announced during NASA’s “Ignition” event, this mission will demonstrate nuclear electric propulsion in deep space, and progress is underway on its key element: the nuclear power module. To expedite development of the spacecraft, NASA […]",
+      "topic_evidence": "progress is underway on its key element: the nuclear power module",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093442.htm",
+      "original_title": "Astronomers uncover new secrets of the Universe’s first five minutes",
+      "original_summary": "Scientists have achieved a major breakthrough in understanding the Universe’s earliest moments, measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision. Using one of the world’s most powerful telescopes, an international team studied 15 remarkably pristine galaxies that act as cosmic time capsules, preserving clues from nearly 13.8 billion years ago.",
+      "topic_evidence": "measuring the amount of helium formed in the first five minutes after the Big Bang with unprecedented precision",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+      "original_title": "Scientists finally uncover why statins can cause muscle pain",
+      "original_summary": "Scientists have uncovered a surprising reason why statins, the widely prescribed cholesterol-lowering drugs that help prevent heart attacks and strokes, can sometimes cause muscle pain, weakness, and even severe muscle damage. Using advanced imaging technology, researchers discovered that statins can attach to a crucial protein in muscle cells and force open a channel that normally controls calcium flow. This causes calcium to leak continuously, potentially damaging muscle tissue.",
+      "topic_evidence": "statins can attach to a crucial protein in muscle cells and force open",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093443.htm",
+      "original_title": "Hurricane warning maps are improving, but a dangerous problem remains",
+      "original_summary": "A new study reveals that improved hurricane forecast graphics may help people identify threatened areas without making them more likely to recognize the danger or take protective action. Researchers also found that a widespread misunderstanding of the hurricane cone persists, highlighting a potentially dangerous gap between accurate forecasts and public preparedness.",
+      "topic_evidence": "improved hurricane forecast graphics may help people identify threatened areas",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "study"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093434.htm",
+      "original_title": "Scientists discover a bizarre Jurassic “squid” unlike anything ever seen",
+      "original_summary": "Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a predator of smaller squid-like animals and a surprising survivor of a supposedly vanished family.",
+      "topic_evidence": "barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
+      "original_title": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
+      "original_summary": "Scientists have found a promising way to protect the brain from Alzheimer’s-related damage by blocking immune cells that contribute to the destruction of neurons. In mice, the treatment preserved roughly 40% more tissue in memory centers and improved memory, even without removing harmful tau protein buildup.",
+      "topic_evidence": "preserved roughly 40% more tissue in memory centers and improved memory",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "original_summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+      "topic_evidence": "appear at loggerheads despite Oslo optimism",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult?traffic_source=rss",
+      "original_title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
+      "original_summary": "Rubio tells US media that reaching a peace deal with Tehran is extremely difficult while Hormuz attacks continue.",
+      "topic_evidence": "US warns peace deal with Tehran is extremely difficult",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6007897/trump-makes-russia-friendly-moves-as-he-looks-for-a-way-to-end-the-war-with-ukraine",
+      "original_title": "Trump makes Russia-friendly moves as he looks for a way to end the war with Ukraine",
+      "original_summary": "President Trump's up and down relationship with Russia is back on as he presses to find an end to the war in Ukraine amid high energy costs ahead of the U.S. midterms.",
+      "topic_evidence": "Trump makes Russia-friendly moves as he looks for a way to end the war with Ukraine",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "original_title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+      "original_summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+      "topic_evidence": "US envoy to meet Putin in Russia",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+      "original_summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+      "topic_evidence": "Sudan army drones hit mourners and fuel market killing more than 300 people",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests?traffic_source=rss",
+      "original_title": "Italy approves sweeping security measures in response to protests",
+      "original_summary": "Italy's government approves sending 500 troops to Milan after clashes and protests.",
+      "topic_evidence": "Italy's government approves sending 500 troops to Milan after clashes and protests",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "original_title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+      "original_summary": "Result is a victory for prime minister Mark Carney and supporters of Canadian unity Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering a decisive victory for supporters of Canadian unity and deepening divisions within the separatist movement. With nearly 1.9m votes counted, roughly 76% people supported remaining in Canada, while 24% backed beginning a process toward separation, according to unofficial results from Elections Alberta. Continue reading...",
+      "topic_evidence": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "prime minister",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff",
+      "original_title": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+      "original_summary": "Far-right presidential candidate’s TV debate swipe at rival backfires as people take to social media to parody it To Flávio Bolsonaro and his publicists, it must have seemed an ingenious idea that would expose his rival’s supposed crookedness on the eve of Brazil’s presidential election. But the far-right politician’s decision to attend a primetime television debate against his leftwing opponent, Luiz Inácio Lula da Silva, with the word “corrupto” (corrupt) written on the palm of his hand has backfired. Continue reading...",
+      "topic_evidence": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump sued over Canadian tariffs in latest legal challenge",
+      "original_summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
+      "topic_evidence": "Trump sued over Canadian tariffs in latest legal challenge",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+      "original_title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+      "original_summary": "Case in Africa’s most populous country was detected in a woman who had travelled from Uganda Nigeria has confirmed an Ebola case in its capital, Abuja, after a woman who arrived from Uganda tested positive for the virus, the health ministry said. The woman began showing symptoms on 7 October and was admitted to a hospital in Abuja four days later, where she was later diagnosed with Ebola. It is unclear when she arrived in Nigeria, Africa’s most populous country. Continue reading...",
+      "topic_evidence": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "health"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+      "original_title": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
+      "original_summary": "Researchers say almost 90% of participants in unconditional basic income scheme in Peru adopted environmentally beneficial practices A pioneering project to provide Indigenous people in the Peruvian Amazon with an unconditional basic income has contributed to the protection of the rainforest, according to a study. The analysis from the University of Bath is expected to contribute to a growing debate about the role of direct payments to communities that maintain globally important ecosystems. Continue reading...",
+      "topic_evidence": "Giving £2 a day to people in the Amazon helps protect rainforest",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss",
+      "original_title": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+      "original_summary": "The report says nearby pig farms and municipal wastewater are the likely sources of contamination.",
+      "topic_evidence": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718299.shtml",
+      "original_title": "我国应对气候变化工作取得显著成效",
+      "original_summary": "新华社北京10月21日电 生态环境部副部长李高10月21日在国务院新闻办公室举行的新闻发布会上说，近年来，我国推动应对气候变化工作取得显著成效，逐步探索出一条具有中国特色的绿色低碳发展之路。当天发布的《中国应对气候变化的政策与行动2026年度报告》显示，2025年，我国单位国内生产总值二氧化碳排放较2020年降低17.7%，非化石能源消费占能源消费总量的比重达到21.7%，风电、太阳能发电装机合计18.4亿千瓦，森林蓄积量达209.88亿立方米。",
+      "topic_evidence": "单位国内生产总值二氧化碳排放较2020年降低17.7%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718325.shtml",
+      "original_title": "全国碳排放权交易市场成交量突破10亿吨",
+      "original_summary": "新华社北京10月21日电 生态环境部副部长李高10月21日在国务院新闻办公室举行的新闻发布会上介绍，全国碳排放权交易市场启动上线交易五年多来，建成了全球规模最大的碳排放权交易市场，目前管控二氧化碳排放量约83亿吨，占全国二氧化碳排放总量65%以上，近期配额累计成交量突破了10亿吨。(完)",
+      "topic_evidence": "近期配额累计成交量突破了10亿吨",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718346.shtml",
+      "original_title": "国台办：联大决议确认一个中国原则 不容置疑不容改变",
+      "original_summary": "中新网10月21日电 10月21日，国务院台办举行例行新闻发布会。会上，有记者问，近日，“联大第2758号决议与台湾问题”学术研讨会在京召开。请介绍有关情况。",
+      "topic_evidence": "联大决议确认一个中国原则 不容置疑不容改变",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718318.shtml",
+      "original_title": "国台办：支持台胞台企抢抓新质生产力发展机遇 融入新发展格局",
+      "original_summary": "中新网10月21日电 10月21日，国务院台办举行例行新闻发布会。会上，有记者问：近日，《中共中央 国务院关于发展新质生产力的意见》发布，受到两岸产业界高度关注。请问这将为台商台企在大陆发展带来哪些机遇？怎样助力大陆台商台企抢抓机遇实现更大发展？",
+      "topic_evidence": "支持台胞台企抢抓新质生产力发展机遇 融入新发展格局",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "意见"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718383.shtml",
+      "original_title": "五羊星座首发星发射 未来将具备30分钟级灾害应急响应能力",
+      "original_summary": "今天(21日)上午，我国自主研制的五羊星座首发星，即：先导A星(广大一号)，搭乘谷神星一号海射型运载火箭，在山东日照黄海海上发射平台发射。这标志着全球首个低纬度高频遥感观测网络正式进入组网建设阶段。未来，五羊星座将在应急减灾、精准农业、海洋监测、港口航运等领域提供即感、即传、即用的遥感数据服务，为我国高质量发展提供空天信息支撑。",
+      "topic_evidence": "全球首个低纬度高频遥感观测网络正式进入组网建设阶段",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718374.shtml",
+      "original_title": "男子造谣“艺人肖某演唱会第一排门票25万元”被依法查处",
+      "original_summary": "中新网10月21日电 据公安部网安局微信公众号消息，近日，网传“艺人肖某演唱会第一排门票25万元”，相关消息引发网民热议。",
+      "topic_evidence": "男子造谣“艺人肖某演唱会第一排门票25万元”被依法查处",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "公安"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718323.shtml",
+      "original_title": "故意转账3万元诬告陷害法官，二人被追究刑责",
+      "original_summary": "中新网北京10月21日电（记者 高萌）10月21日，最高人民法院召开《人民法院司法责任追究条例》新闻发布会，并发布一批人民法院追究司法责任与保护依法履职典型案例。",
+      "topic_evidence": "故意转账3万元诬告陷害法官，二人被追究刑责",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml",
+      "original_title": "跨城接单20次就进“黑名单”？顺风车的合规边界该怎么划",
+      "original_summary": "不少市民外出时会选择顺风车，希望找到路线一致的车主，分摊出行成本。但现实中，部分接单车主并非顺路出行，而是像专职网约车司机一样高频接单。南京交通执法部门就曾查处过此类案例。一名车主日均接单超20单，却主张自身属于“顺风合乘”。顺风车，也就是私人小客车合乘，本是一种非营利性共享出行模式，但如今，大量职业化接单行为，让“互助合乘”异化为变相营运。真假顺风车交织混杂，乘客乘车时很难分辨。",
+      "topic_evidence": "一名车主日均接单超20单，却主张自身属于“顺风合乘”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml",
+      "original_title": "警惕“长得像食物、其实有毒”的野果 已有游客误食后腹泻不止",
+      "original_summary": "近日，有游客在河南嵖岈山摘了一枚长得酷似无花果的野果尝鲜，结果上吐下泻。后经证实：游客吃的是桐油果。当地人表示，这种果实是用来熬桐油、漆雨伞的，根本不能吃。",
+      "topic_evidence": "游客吃的是桐油果",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks Rise as Earnings Revive AI Trade, Oil Gains: Markets Wrap",
+      "original_summary": "Stocks rose with futures as strong results from technology companies eased concerns over the AI trade after last week’s bruising selloff. Crude oil climbed.",
+      "topic_evidence": "Stocks rose with futures as strong results from technology companies eased concerns over the AI trade",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+      "original_title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+      "original_summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+      "topic_evidence": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+      "original_title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+      "original_summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+      "topic_evidence": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
+      "original_title": "Latest Oil Market News and Analysis for Oct. 21",
+      "original_summary": "Oil edged higher as attacks on ships around the Strait of Hormuz threatened shipments, while US industry data pointed to another drop in stockpiles.",
+      "topic_evidence": "Oil edged higher as attacks on ships around the Strait of Hormuz threatened shipments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/china-s-economy-in-six-charts-growth-exports-and-the-property-slump",
+      "original_title": "China’s Economy in Six Charts: Growth, Exports and the Property Slump",
+      "original_summary": "China’s breakneck economic growth – which lifted incomes at home and reshaped markets abroad – once seemed as inevitable as a law of nature.",
+      "topic_evidence": "Growth, Exports and the Property Slump",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/boj-likely-to-keep-hiking-rates-every-quarter-ex-official-says",
+      "original_title": "BOJ Likely to Keep Hiking Rates Every Quarter, Ex-Official Says",
+      "original_summary": "The Bank of Japan will probably keep raising interest rates every three months to contain risks of inflation deviating from its stable price target, according to a former BOJ executive director who oversaw monetary policy.",
+      "topic_evidence": "The Bank of Japan will probably keep raising interest rates every three months to contain risks of inflation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/s-korea-s-export-boom-stays-strong-ahead-of-bok-rate-decision",
+      "original_title": "S. Korea’s Export Boom Stays Strong Ahead of BOK Rate Decision",
+      "original_summary": "South Korea’s exports maintained strong growth in early October as booming global demand for artificial intelligence fueled semiconductor shipments, underscoring the economy’s resilience on the eve of the central bank’s interest-rate decision.",
+      "topic_evidence": "exports maintained strong growth in early October as booming global demand for artificial intelligence fueled semiconductor shipments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/rba-s-hauser-says-australia-inflation-outlook-materially-worse",
+      "original_title": "RBA’s Hauser Says Australia Price Outlook ‘Materially Worse’",
+      "original_summary": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast, Deputy Governor Andrew Hauser said, bolstering expectations the Reserve Bank will deliver a fifth hike this year in November.",
+      "topic_evidence": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/pboc-faces-multi-month-road-to-new-rate-anchor-analysts-say",
+      "original_title": "China Benchmark Switch Spells Ramp-Up of Overnight Operation",
+      "original_summary": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate, a shift that will require more frequent liquidity operations using the new benchmark candidate to test market reception, analysts say.",
+      "topic_evidence": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/podcast-portfolio-reset-why-passive-investing-is-anything-but-passive",
+      "original_title": "Podcast: Portfolio Reset Why Passive Investing Is Anything But Passive",
+      "original_summary": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+      "topic_evidence": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/coke-s-struggle-to-break-into-the-500-billion-global-coffee-market",
+      "original_title": "Coke's Struggle to Break Into the $500 Billion Global Coffee Market",
+      "original_summary": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines around the world. Instead, Coke got burned. Kristina Peterson reports. (Source: Bloomberg)",
+      "topic_evidence": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.joshwcomeau.com/css/interop-2027",
+      "original_title": "The Future of CSS",
+      "original_summary": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 119 # Comments: 39",
+      "topic_evidence": "The Future of CSS",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.thebeliever.net/the-other-epidemic",
+      "original_title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "original_summary": "https://web.archive.org/web/20261020230542/https://www.thebe... https://archive.ph/Tb1SZ Comments URL: https://news.ycombinator.com/item?id=50173891 Points: 119 # Comments: 82",
+      "topic_evidence": "Trying to get off benzodiazepines",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
+      "original_title": "Ofcom concedes defeat in 4chan case",
+      "original_summary": "Article URL: https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/ Comments URL: https://news.ycombinator.com/item?id=50167028 Points: 358 # Comments: 265",
+      "topic_evidence": "Ofcom concedes defeat in 4chan case",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://stevekrouse.com/ends",
+      "original_title": "What shall I teach my son?",
+      "original_summary": "Article URL: https://stevekrouse.com/ends Comments URL: https://news.ycombinator.com/item?id=50169707 Points: 325 # Comments: 394",
+      "topic_evidence": "What shall I teach my son?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://permit.petercai.com/",
+      "original_title": "Show HN: SimCity, but with Permits",
+      "original_summary": "Article URL: https://permit.petercai.com/ Comments URL: https://news.ycombinator.com/item?id=50170593 Points: 660 # Comments: 343",
+      "topic_evidence": "Show HN: SimCity, but with Permits",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://tyma.com/my-cringe-story",
+      "original_title": "My Friend Bob Cringely",
+      "original_summary": "Article URL: https://tyma.com/my-cringe-story/ Comments URL: https://news.ycombinator.com/item?id=50166794 Points: 184 # Comments: 51",
+      "topic_evidence": "My Friend Bob Cringely",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "original_title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "original_summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "topic_evidence": "adding Orchestra's team and technology to work on Rosalind",
+      "approved": true,
+      "evidence": "adding Orchestra's team and technology to work on Rosalind",
+      "reason": "主事件为OpenAI收购Orchestra Bio，并将团队与技术投入其生命科学AI模型Rosalind及Rosalind Workbench工具，直接指向具体AI产品与平台的建设。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://arxiv.org/abs/2610.26913",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://arxiv.org/abs/2610.26913",
+      "original_title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "original_summary": "arXiv:2610.26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck for clinical adoption in radiology workflows that demand data privacy and offline operation. To address this, we present MedPAO-Assist, an edge-deployable agentic framework that generates structured radiology reports directly from radiologist dictation and voice commands, requiring only $\\approx3.3$ GB peak RAM and achieving an average end-to-end latency of $\\approx31$ seconds on a standard laptop CPU through an asynchronous, multi-threaded execution pipeline. The system currently supports four major imaging modalities -- Chest X-ray, Chest CT, Abdomen CT, and Brain MRI. To our knowledge, it is among the earliest agentic systems to run its entire pipeline with a Small Language Model (SLM) in the 0.6B-parameter range. This multi-agent architecture, built around an Extract-Ground-Generate paradigm, performs concept extraction, SNOMED-CT grounding, and structured report generation, followed by a speech-driven human-in-the-loop correction phase, together forming a fully \"no-touch\" reporting workflow that requires no keyboard input, external API calls, or internet connectivity. We evaluate each pipeline stage individually -- concept extraction, ontology grounding, and concept categorization and report hardware profiling results demonstrating the system's feasibility for real-time, CPU-only clinical deployment.",
+      "topic_evidence": "Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "approved": false,
+      "evidence": "presents MedPAO-Assist, an edge-deployable agentic framework",
+      "reason": "这是学术预印本描述并评估一个研究性框架，并非已发布的产品或平台；应归入AI研究类栏目，而不属AI产品与平台。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "original_summary": "The Ukrainian leader's hug with Steve Witkoff in the Norwegian capital is unlikely to dispel misgivings about US policy towards his country, writes Paul Adams.",
+      "topic_evidence": "appear at loggerheads despite Oslo optimism",
+      "approved": true,
+      "evidence": "appear at loggerheads despite Oslo optimism",
+      "reason": "主事件为特朗普与泽连斯基在奥斯陆的外交互动与立场分歧，属国际地缘与安全议题。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "original_title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+      "original_summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+      "topic_evidence": "US envoy to meet Putin in Russia",
+      "approved": true,
+      "evidence": "US envoy to meet Putin in Russia",
+      "reason": "主事件为美国特使赴俄会见普京、以及泽连斯基谈情报共享，属俄乌相关的国际地缘与安全动态。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+      "original_summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+      "topic_evidence": "Sudan army drones hit mourners and fuel market killing more than 300 people",
+      "approved": true,
+      "evidence": "Sudan army drones hit mourners and fuel market killing more than 300 people",
+      "reason": "主事件为苏丹军方无人机袭击葬礼民众与燃料市场致数百人死亡，属武装冲突与地缘安全议题。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump sued over Canadian tariffs in latest legal challenge",
+      "original_summary": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".",
+      "topic_evidence": "Trump sued over Canadian tariffs in latest legal challenge",
+      "approved": true,
+      "evidence": "The lawsuit argues the White House exceeded its authority in imposing the latest tariffs",
+      "reason": "主事件为针对白宫对加关税权限的诉讼，核心是政府贸易政策的授权与合法性讨论，属政府与政策。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+      "original_title": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
+      "original_summary": "Researchers say almost 90% of participants in unconditional basic income scheme in Peru adopted environmentally beneficial practices A pioneering project to provide Indigenous people in the Peruvian Amazon with an unconditional basic income has contributed to the protection of the rainforest, according to a study. The analysis from the University of Bath is expected to contribute to a growing debate about the role of direct payments to communities that maintain globally important ecosystems. Continue reading...",
+      "topic_evidence": "Giving £2 a day to people in the Amazon helps protect rainforest",
+      "approved": true,
+      "evidence": "Giving £2 a day to people in the Amazon helps protect rainforest",
+      "reason": "主事件为秘鲁亚马逊原住民无条件基本收入试点研究及其对雨林保护的作用，属全球社会议题。"
+    },
+    {
+      "id": "world/global-society/https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss",
+      "original_title": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+      "original_summary": "The report says nearby pig farms and municipal wastewater are the likely sources of contamination.",
+      "topic_evidence": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+      "approved": true,
+      "evidence": "Faecal waste pollutes drinking water in Mexico’s Yucatan",
+      "reason": "主事件为绿色和平报告指墨西哥尤卡坦饮用水遭粪便污染，属公共卫生与环境的社会议题。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-21/10718383.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718383.shtml",
+      "original_title": "五羊星座首发星发射 未来将具备30分钟级灾害应急响应能力",
+      "original_summary": "今天(21日)上午，我国自主研制的五羊星座首发星，即：先导A星(广大一号)，搭乘谷神星一号海射型运载火箭，在山东日照黄海海上发射平台发射。这标志着全球首个低纬度高频遥感观测网络正式进入组网建设阶段。未来，五羊星座将在应急减灾、精准农业、海洋监测、港口航运等领域提供即感、即传、即用的遥感数据服务，为我国高质量发展提供空天信息支撑。",
+      "topic_evidence": "全球首个低纬度高频遥感观测网络正式进入组网建设阶段",
+      "approved": true,
+      "evidence": "全球首个低纬度高频遥感观测网络正式进入组网建设阶段",
+      "reason": "主事件为五羊星座首发星发射并进入组网建设，属中国航天遥感产业与地方发展动态。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml",
+      "original_title": "跨城接单20次就进“黑名单”？顺风车的合规边界该怎么划",
+      "original_summary": "不少市民外出时会选择顺风车，希望找到路线一致的车主，分摊出行成本。但现实中，部分接单车主并非顺路出行，而是像专职网约车司机一样高频接单。南京交通执法部门就曾查处过此类案例。一名车主日均接单超20单，却主张自身属于“顺风合乘”。顺风车，也就是私人小客车合乘，本是一种非营利性共享出行模式，但如今，大量职业化接单行为，让“互助合乘”异化为变相营运。真假顺风车交织混杂，乘客乘车时很难分辨。",
+      "topic_evidence": "一名车主日均接单超20单，却主张自身属于“顺风合乘”",
+      "approved": true,
+      "evidence": "一名车主日均接单超20单，却主张自身属于“顺风合乘”",
+      "reason": "主事件为顺风车职业化接单的合规边界与执法案例，属社会与法治议题。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml",
+      "original_title": "警惕“长得像食物、其实有毒”的野果 已有游客误食后腹泻不止",
+      "original_summary": "近日，有游客在河南嵖岈山摘了一枚长得酷似无花果的野果尝鲜，结果上吐下泻。后经证实：游客吃的是桐油果。当地人表示，这种果实是用来熬桐油、漆雨伞的，根本不能吃。",
+      "topic_evidence": "游客吃的是桐油果",
+      "approved": true,
+      "evidence": "游客吃的是桐油果",
+      "reason": "主事件为游客误食外形似食物的有毒野果桐油果致病，属公众安全的社会民生议题。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-21/podcast-portfolio-reset-why-passive-investing-is-anything-but-passive",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/podcast-portfolio-reset-why-passive-investing-is-anything-but-passive",
+      "original_title": "Podcast: Portfolio Reset Why Passive Investing Is Anything But Passive",
+      "original_summary": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+      "topic_evidence": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+      "approved": true,
+      "evidence": "Passive investing is designed to track the market. But what happens when it starts to dominate it?",
+      "reason": "主事件为讨论被动投资由跟踪市场转向主导市场的投资方式变化，属投资理财议题。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "original_title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "original_summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "topic_evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "approved": true,
+      "evidence": "I worry about healthcare, long-term care, inflation, a long bear market and living to 95.",
+      "reason": "主事件为读者关于退休能力与资产配置的个人理财咨询，属理财规划议题。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/videos/2026-10-21/coke-s-struggle-to-break-into-the-500-billion-global-coffee-market",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/coke-s-struggle-to-break-into-the-500-billion-global-coffee-market",
+      "original_title": "Coke's Struggle to Break Into the $500 Billion Global Coffee Market",
+      "original_summary": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines around the world. Instead, Coke got burned. Kristina Peterson reports. (Source: Bloomberg)",
+      "topic_evidence": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines",
+      "approved": false,
+      "evidence": "Coca-Cola’s acquisition of Costa Coffee was supposed to lead to thousands of self-serve espresso machines",
+      "reason": "主事件为可口可乐借Costa拓展全球咖啡市场的公司经营与并购表现，属公司商业报道，不属理财与监管。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://www.joshwcomeau.com/css/interop-2027",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://www.joshwcomeau.com/css/interop-2027",
+      "original_title": "The Future of CSS",
+      "original_summary": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 119 # Comments: 39",
+      "topic_evidence": "The Future of CSS",
+      "approved": true,
+      "evidence": "The Future of CSS",
+      "reason": "主事件为对CSS技术演进的评述性文章，属技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://www.thebeliever.net/the-other-epidemic",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.thebeliever.net/the-other-epidemic",
+      "original_title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "original_summary": "https://web.archive.org/web/20261020230542/https://www.thebe... https://archive.ph/Tb1SZ Comments URL: https://news.ycombinator.com/item?id=50173891 Points: 119 # Comments: 82",
+      "topic_evidence": "Trying to get off benzodiazepines",
+      "approved": true,
+      "evidence": "Trying to get off benzodiazepines",
+      "reason": "主事件为关于苯二氮䓬类药物依赖与戒断的评述性长文，属社会议题评论。"
+    },
+    {
+      "id": "opinion/business-society/https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
+      "original_title": "Ofcom concedes defeat in 4chan case",
+      "original_summary": "Article URL: https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/ Comments URL: https://news.ycombinator.com/item?id=50167028 Points: 358 # Comments: 265",
+      "topic_evidence": "Ofcom concedes defeat in 4chan case",
+      "approved": true,
+      "evidence": "Ofcom concedes defeat in 4chan case",
+      "reason": "主事件为对英国监管机构Ofcom在与4chan法律纠纷中认输的评论分析，属平台监管相关的社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-21/10718383.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-21/10718286.shtml"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-21/podcast-portfolio-reset-why-passive-investing-is-anything-but-passive"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.thebeliever.net/the-other-epidemic"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://www.joshwcomeau.com/css/interop-2027"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

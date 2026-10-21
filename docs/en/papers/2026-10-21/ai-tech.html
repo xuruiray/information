@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI &amp; LLMs · Information Daily 2026-10-21</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261021</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 21, 2026 · Wednesday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="ai-tech.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-21/ai-tech.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html" aria-current="page">01 AI &amp; LLMs</a>
+      <a href="developer.html">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI &amp; LLMs</h2>
+      <span class="ed">11 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs Daily: Agent Training and Evaluation, OpenAI Biotech Acquisition, and Safety Governance">
+      <div class="lead-label">AI &amp; LLMs Daily: Agent Training and Evaluation, OpenAI Biotech Acquisition, and Safety Governance</div>
+      <p>This edition covers five frontier-model papers: Navalia uses verifiable task synthesis and long-horizon post-training for cowork agents; industrial agentic AI examines LLM agents’ autonomous planning and deployment barriers in smart manufacturing; AtomSD and SPEM improve agents’ skill use through procedural atom-guided self-distillation and structure-aware procedural memory; and another study analyzes transformer inference via high-dimensional layer-state trajectories. On the product side, OpenAI is folding Orchestra Bio’s team and technology into Rosalind and Rosalind Workbench. Research and governance items include MAMath-Bench for multimodal multi-agent math reasoning, Anthropic’s proposed AI safety bill, a study on multi-agent collaboration and clinical hallucination, CERTA’s decision-level certification for clinical models, and WaveCommitments for speech-agent marketplaces.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>Frontier Models</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Agent Training, Procedural Memory and Transformer Inference Dynamics">
+          <div class="lead-label">Frontier Models: Agent Training, Procedural Memory and Transformer Inference Dynamics</div>
+          <p>Five studies focus on agent capabilities and model internals: Navalia improves cross-document evidence integration and multistep numerical reasoning through verifiable task synthesis and long-horizon post-training; industrial agentic AI analyzes barriers—dynamic environments, physical constraints and reliability requirements—as LLM agents move from predefined workflows to autonomous planning and execution; AtomSD injects reusable procedural knowledge via procedural atom-guided self-distillation; SPEM organizes skills with structure-aware procedural memory to avoid token and runtime overhead and lost dependency information from full loading and flat retrieval; and another study treats ordered layer-state trajectories as an empirical process to test whether layer order defines measurable computation.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.26887" target="_blank" rel="noopener">
+            <span class="at">Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces Navalia, a method that combines verifiable task synthesis with long-horizon post-training to improve LLM cowork agents on cross-document evidence integration and multistep numerical reasoning in financial analysis.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26941" target="_blank" rel="noopener">
+            <span class="at">Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper examines how LLM-driven agents move beyond predefined workflows toward autonomous planning and execution in smart manufacturing, while highlighting dynamic environments, physical constraints and reliability requirements as deployment barriers.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26926" target="_blank" rel="noopener">
+            <span class="at">AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">AtomSD uses procedural atom-guided self-distillation to give LLM agents reusable procedural knowledge, aiming to improve flexible action and reuse across interactions in complex tasks.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26995" target="_blank" rel="noopener">
+            <span class="at">SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">SPEM introduces structure-aware procedural memory for LLM agents, organizing reusable skills to avoid full skill loading and flat retrieval that incur token and runtime overhead and ignore dependencies.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26866" target="_blank" rel="noopener">
+            <span class="at">High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">The study treats ordered layer-state trajectories as an empirical process and tests whether layer order defines measurable computation, offering a dynamic view of how transformer inference unfolds.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI Products &amp; Platforms</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="OpenAI Acquires Orchestra Bio to Strengthen Life-Sciences AI Tools">
+          <div class="lead-label">OpenAI Acquires Orchestra Bio to Strengthen Life-Sciences AI Tools</div>
+          <p>OpenAI acquired Orchestra Bio and is adding its team and technology to Rosalind, its AI model for life-sciences research, and to Rosalind Workbench, which helps researchers plan experiments and analyze results.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business" target="_blank" rel="noopener">
+            <span class="at">OpenAI acquires startup Orchestra Bio to beef up its biotech business</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">OpenAI is adding Orchestra Bio’s team and technology to Rosalind, its AI model for life-sciences research, and to Rosalind Workbench, a tool for planning experiments and analyzing results.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>Research &amp; Governance</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Math Reasoning Evaluation, Safety Bill and Clinical Trustworthiness">
+          <div class="lead-label">Research and Governance: Math Reasoning Evaluation, Safety Bill and Clinical Trustworthiness</div>
+          <p>Research and governance items include MAMath-Bench, which evaluates multimodal multi-agent mathematical reasoning with process-aware and robust assessment beyond answer correctness; Anthropic’s proposed AI safety bill that could block a model if 50 or more people could be killed, with TechCrunch reporting that federal agencies would need a judge’s permission to block a release; a paper asking whether multi-agent collaboration reduces hallucination in clinical tasks and separating performance gains from trustworthiness; CERTA’s decision-level statistical certificate for determining when a quantized clinical model can substitute for its BF16 reference and escalating uncertified decisions; and WaveCommitments’ private and verifiable mechanisms for speech-agent marketplaces.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.26943" target="_blank" rel="noopener">
+            <span class="at">MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">MAMath-Bench evaluates multimodal multi-agent mathematical reasoning with attention to process-aware and robust assessment, requiring not only correct answers but coherent, verifiable reasoning processes.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed" target="_blank" rel="noopener">
+            <span class="at">Anthropic pitches AI safety bill that may block a model if 50+ people could be killed</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Anthropic is pitching an AI safety bill that could block a model if 50 or more people could be killed, but TechCrunch reports federal agencies would need a judge’s permission to block a release.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.27027" target="_blank" rel="noopener">
+            <span class="at">Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper separates performance gains of multi-agent LLM systems on clinical tasks from trustworthiness, asking whether collaboration reduces hallucination and what that means for clinicians acting on stated reasoning.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26937" target="_blank" rel="noopener">
+            <span class="at">Do We Need the Largest LLMs for Every Clinical Decision?</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">CERTA introduces a decision-level statistical certificate to determine when a quantized clinical model can substitute for its BF16 reference and escalate uncertified decisions, aiming to support local deployment.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.26867" target="_blank" rel="noopener">
+            <span class="at">WaveCommitments: Private and Verifiable Speech-Agent Marketplaces</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">WaveCommitments proposes private and verifiable mechanisms for speech-agent marketplaces, letting sellers submit assets for evaluation without revealing them and buyers price assets they cannot directly test.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
