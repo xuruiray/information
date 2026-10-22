@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "title": "信息日报 2026-10-22",
+  "title_en": "Information Daily 2026-10-22",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "PHP 发布安全更新，修复两个远程代码执行漏洞",
+    "url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+    "source": "Simon Willison",
+    "summary": "PHP 8.x 全系列发布安全更新，修复两个远程代码执行漏洞；由于协调披露流程出现泄露，相关漏洞利用自昨夜起已在传播，运行 PHP 的环境应尽快升级。",
+    "source_en": "Simon Willison",
+    "title_en": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+    "summary_en": "PHP 8.x releases patch two remote code execution vulnerabilities, with exploits circulating after a leak in coordinated disclosure; operators are urged to upgrade promptly.",
+    "original_title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+    "published_at": "2026-10-21T18:41:53+00:00",
+    "reason": "该条目涉及 PHP 8.x 全系列安全发布和两个远程代码执行漏洞修复，属于开源语言发布与安全更新，并提示已有利用在传播。",
+    "reason_en": "The item covers a PHP 8.x security release fixing two remote code execution holes, an open-source language release and security update with exploits already circulating.",
+    "score": 4.1
+  },
+  "path": "papers/2026-10-22.html",
+  "raw_path": "raw/2026-10-22.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.aljazeera.com/news/2026/10/22/brazils-bolsonaro-challenges-lula-to-expand-release-of-personal-records?traffic_source=rss]",
+    "Editorial item ignored in world/global-society: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in china/china-policy: missing verbatim topic evidence [https://www.chinanews.com.cn/gn/2026/10-22/10718896.shtml]",
+    "Editorial item ignored in finance/wealth-regulation: topic evidence does not match subsection [https://www.bloomberg.com/news/articles/2026-10-21/us-mortgage-rates-fall-for-first-time-since-early-august]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security]"
+  ]
+}
