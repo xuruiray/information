@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-10-23</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261023 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月23日 星期五</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-23/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">2 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="GitHub 漏洞赏金经验与 Vercel 免费域名扩容">
+      <div class="lead-label">GitHub 漏洞赏金经验与 Vercel 免费域名扩容</div>
+      <p>GitHub 漏洞赏金团队在网络安全意识月介绍研究者 @r31n 的研究方法、偏好漏洞类型及给有志黑客的建议；Vercel 将 Pro 团队免费一年域名的可选顶级域名增至 16 个，新增 .co、.studio、.company 等八种，每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="GitHub 研究者安全技能与 Vercel 域名福利更新">
+          <div class="lead-label">GitHub 研究者安全技能与 Vercel 域名福利更新</div>
+          <p>GitHub 漏洞赏金团队在网络安全意识月聚焦研究者 @r31n，介绍其研究方法、偏好的漏洞类型以及给有志黑客的建议；Vercel 为 Pro 团队免费一年域名新增 .co、.studio、.company 等八个顶级域名，使可选总数达 16 个，每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills" target="_blank" rel="noopener">
+            <span class="at">GitHub 漏洞赏金项目聚焦研究者 @r31n 的安全技能</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub 漏洞赏金团队在网络安全意识月聚焦研究者 @r31n，介绍其研究方法、偏好的漏洞类型以及给有志黑客的建议。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro" target="_blank" rel="noopener">
+            <span class="at">Vercel Pro 免费域名新增八个顶级域名</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 将 Pro 团队免费一年域名的可选顶级域名增至 16 个，新增 .co、.studio、.company 等八种；每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

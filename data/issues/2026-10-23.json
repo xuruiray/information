@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "title": "信息日报 2026-10-23",
+  "title_en": "Information Daily 2026-10-23",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Claude Duet 应用是 Anthropic 在代理方向的下注",
+    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+    "source": "TechCrunch AI",
+    "summary": "Anthropic 推出 Claude Duet 应用，作为其在 AI 代理方向的下注；目前该应用通过候补名单向 Pro 和 Max 套餐用户开放。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Claude Duet app is Anthropic’s bet on agents",
+    "summary_en": "Anthropic has launched Claude Duet, an app positioning its bet on AI agents, available via waitlist to Pro and Max plan users.",
+    "original_title": "Claude Duet app is Anthropic’s bet on agents",
+    "published_at": "2026-10-22T13:53:26+00:00",
+    "reason": "具体应用发布，明确候补名单和套餐范围，体现 Anthropic 的代理产品布局。",
+    "reason_en": "A concrete app launch with waitlist and plan details, showing Anthropic's agent product strategy.",
+    "score": 4.95
+  },
+  "path": "papers/2026-10-23.html",
+  "raw_path": "raw/2026-10-23.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in world/global-society: topic evidence does not match subsection [https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet]"
+  ]
+}

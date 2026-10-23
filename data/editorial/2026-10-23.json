@@ -1,0 +1,2115 @@
+{
+  "date": "2026-10-23",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.30215",
+              "title": "AI Mindmeld：一种潜在互联协议",
+              "summary": "论文提出一种名为“mindmeld”的潜在互联协议，主张模型间直接交换高维表示，而非经由文本、图像、音频或视频中转专家信息，以缓解上下文瓶颈。",
+              "title_en": "AI Mindmeld: A Latent Interconnect Protocol",
+              "summary_en": "The paper proposes a latent interconnect protocol called “mindmeld,” advocating direct exchange of high-dimensional representations between models instead of routing specialist information through text, images, audio or video.",
+              "topic_evidence": "We advocate direct representation exchange",
+              "reason": "提出模型间直接表示交换的协议设想，属于前沿模型互联与代理协作方向。",
+              "reason_en": "Proposes a direct representation-exchange protocol, relevant to frontier model interconnection and agent collaboration.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.30435",
+              "title": "面向检索增强大模型搜索状态意识的自评估强化学习",
+              "summary": "论文针对检索增强大模型中的搜索代理缺乏“搜索状态意识”的问题，提出自评估强化学习方法，帮助模型识别已获取与仍缺失的信息。",
+              "title_en": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+              "summary_en": "The paper introduces self-assessment reinforcement learning to give retrieval-augmented LLM search agents awareness of what information they have gathered and what remains missing.",
+              "topic_evidence": "existing search agents often lack search-state awareness",
+              "reason": "针对 RAG 搜索代理的状态感知缺陷提出强化学习方法，属于前沿模型能力改进。",
+              "reason_en": "Targets a state-awareness gap in RAG search agents with a reinforcement-learning method, relevant to frontier model capability.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.30206",
+              "title": "MoEZip：面向稀疏专家混合大模型的路由感知 KV 缓存压缩",
+              "summary": "论文提出 MoEZip，一种面向稀疏专家混合大模型的“路由感知”KV 缓存压缩方法，以降低长上下文推理中随序列长度线性增长的内存开销。",
+              "title_en": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+              "summary_en": "MoEZip is a routing-aware KV cache compression method for sparse mixture-of-experts LLMs, targeting the memory bottleneck caused by key-value caches growing linearly with sequence length in long-context inference.",
+              "topic_evidence": "Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+              "reason": "面向 MoE 大模型长上下文推理的内存瓶颈提出压缩方法，属于推理效率前沿。",
+              "reason_en": "Addresses the memory bottleneck in long-context MoE inference with a compression method, relevant to inference efficiency.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.28909",
+              "title": "DiffResearch：用扩散语言模型加速深度研究",
+              "summary": "论文提出 DiffResearch，用扩散语言模型改造深度研究流程，试图缓解自回归模型在规划与长文写作中从左到右解码带来的端到端延迟。",
+              "title_en": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+              "summary_en": "The paper presents DiffResearch, which applies diffusion language models to deep-research workflows to reduce end-to-end latency associated with autoregressive left-to-right decoding in planning and long-form writing.",
+              "topic_evidence": "end-to-end latency a key bottleneck",
+              "reason": "把扩散语言模型用于深度研究流程以降低延迟，属于模型架构与推理效率交叉方向。",
+              "reason_en": "Applies diffusion language models to deep-research workflows to reduce latency, spanning model architecture and inference efficiency.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+              "title": "Claude Duet 应用是 Anthropic 在代理方向的下注",
+              "summary": "Anthropic 推出 Claude Duet 应用，作为其在 AI 代理方向的下注；目前该应用通过候补名单向 Pro 和 Max 套餐用户开放。",
+              "title_en": "Claude Duet app is Anthropic’s bet on agents",
+              "summary_en": "Anthropic has launched Claude Duet, an app positioning its bet on AI agents, available via waitlist to Pro and Max plan users.",
+              "topic_evidence": "Claude Duet is available through waitlist for Pro and Max plan users.",
+              "reason": "具体应用发布，明确候补名单和套餐范围，体现 Anthropic 的代理产品布局。",
+              "reason_en": "A concrete app launch with waitlist and plan details, showing Anthropic's agent product strategy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+              "title": "1Password 推出让 AI 代理代登录而不查看密码的新功能",
+              "summary": "1Password 推出新功能，允许 AI 代理代表用户登录个人账户，同时不向代理暴露用于保护账户的私密凭据。",
+              "title_en": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+              "summary_en": "1Password launched a feature that lets AI agents log into a customer's personal accounts on their behalf while keeping the private credentials hidden from the agents.",
+              "topic_evidence": "allows agents to log into a customer's personal accounts while still protecting the private credentials",
+              "reason": "具体产品功能发布，涉及 AI 代理身份验证与凭据保护。",
+              "reason_en": "A concrete product feature launch involving AI-agent authentication and credential protection.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+              "title": "OpenAI 将 Jev 竞品决策模型广泛开放，决策模型竞争升温",
+              "summary": "OpenAI 将其决策模型向全球开放，加入与 Jev 的竞争；TechCrunch 称决策模型竞争正在升温，但未给出具体评测结果。",
+              "title_en": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+              "summary_en": "OpenAI is making its decision model widely available, entering competition with Jev as the decision-model race heats up; the report does not provide benchmark results.",
+              "topic_evidence": "OpenAI is launching its decision model to the world.",
+              "reason": "具体模型产品开放事件，涉及决策模型竞争与可用范围。",
+              "reason_en": "A concrete model product availability event involving decision-model competition.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+              "title": "微软称其 AI 在疑难病例上优于医生，追求“医疗超级智能”",
+              "summary": "微软推出 AI 诊断系统，据《Science》研究在疑难病例上优于全科医生；报道指出提升主要来自底层 AI 模型，而非微软系统本身。",
+              "title_en": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+              "summary_en": "Microsoft's new AI diagnostic system beat generalist doctors on hard cases in a Science study, though most of the improvement appears to come from the underlying AI models rather than Microsoft's system itself.",
+              "topic_evidence": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases",
+              "reason": "具体医疗 AI 系统与研究报道，且对性能来源作出限定，信息量较高。",
+              "reason_en": "A concrete medical AI system and study report with a qualified attribution of performance gains.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.28763",
+              "title": "为科学自动化机器学习：前沿代理能否攀登真实科学高峰？",
+              "summary": "论文提出 Agent4Sci 长周期测试平台，用于衡量前沿编码代理在真实科学机器学习任务中能走多远，而不仅是常规机器学习工程。",
+              "title_en": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+              "summary_en": "The paper introduces Agent4Sci, a long-horizon testbed for measuring how far frontier coding agents can go in real scientific ML tasks beyond routine ML engineering.",
+              "topic_evidence": "We introduce Agent4Sci, a long-horizon testbed",
+              "reason": "提出面向科学 ML 的前沿代理长周期评测平台，属于代理能力评估。",
+              "reason_en": "Introduces a long-horizon evaluation testbed for frontier agents in scientific ML.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.28826",
+              "title": "决策语言模型可作为临床生成式 AI 评审的低成本快速替代方案",
+              "summary": "论文比较决策语言模型 Jev 与前沿及开源权重 LLM 评审在四个临床用例中的表现，主张前者可成为更便宜、更快的临床 AI 输出自动评审方案。",
+              "title_en": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+              "summary_en": "The paper compares Jev, a decision language model returning structured judgments, with frontier and open-weight LLM judges across four clinical use cases, positioning it as a cheaper, faster alternative.",
+              "topic_evidence": "We compared Jev, a decision language model that returns structured judgments",
+              "reason": "比较决策语言模型与 LLM 评审在临床场景的表现，属于 AI 评审与评估治理。",
+              "reason_en": "Compares decision language models with LLM judges in clinical settings, relevant to AI evaluation and governance.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.30229",
+              "title": "医疗 AI 隐私风险的自动筛查",
+              "summary": "论文研究医疗 AI 的隐私风险自动筛查，聚焦成员推断攻击：模型可能泄露某患者记录是否被用于训练，而这类风险通常未被充分报告。",
+              "title_en": "Automated screening of privacy risks in medical AI",
+              "summary_en": "The paper examines automated screening of privacy risks in medical AI, focusing on membership inference attacks that can reveal whether a patient's records were used in training and are often underreported.",
+              "topic_evidence": "Automated screening of privacy risks in medical AI",
+              "reason": "聚焦医疗 AI 成员推断隐私风险与自动筛查，属于 AI 隐私治理。",
+              "reason_en": "Focuses on membership-inference privacy risks and automated screening in medical AI, relevant to AI privacy governance.",
+              "score": 7.9
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+              "title": "将 Agent Skills 捐赠给 Agentic AI Foundation",
+              "summary": "Anthropic 宣布将 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation，以保持其开放、社区驱动和厂商中立。",
+              "title_en": "Donating Agent Skills to the Agentic AI Foundation",
+              "summary_en": "Anthropic is donating its Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, aiming to keep it open, community-driven and vendor-neutral.",
+              "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+              "reason": "具体标准治理事件，涉及代理技能标准的基金会归属与开放治理。",
+              "reason_en": "A concrete standards-governance event involving the foundation ownership and open governance of Agent Skills.",
+              "score": 6.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": []
+        },
+        {
+          "id": "open-source-tools",
+          "articles": []
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+              "title": "GitHub 漏洞赏金项目聚焦研究者 @r31n 的安全技能",
+              "summary": "GitHub 漏洞赏金团队在网络安全意识月聚焦研究者 @r31n，介绍其研究方法、偏好的漏洞类型以及给有志黑客的建议。",
+              "title_en": "How bug bounty sharpens one researcher’s security skills",
+              "summary_en": "For Cybersecurity Awareness Month, GitHub’s Bug Bounty team profiles researcher @r31n, covering their research approach, preferred bug classes, and advice for aspiring hackers.",
+              "topic_evidence": "spotlights @r31n, diving into their research approach, favorite bug classes",
+              "reason": "GitHub 安全团队对漏洞赏金研究者的具体介绍，涉及研究方法与漏洞类型，属于开发者安全实践。",
+              "reason_en": "A GitHub security team profile of a bug bounty researcher, covering methods and bug classes, relevant to developer security practice.",
+              "score": 4.0
+            },
+            {
+              "url": "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+              "title": "Vercel Pro 免费域名新增八个顶级域名",
+              "summary": "Vercel 将 Pro 团队免费一年域名的可选顶级域名增至 16 个，新增 .co、.studio、.company 等八种；每团队限一个，高级域名不适用，一年后按常规价续费。",
+              "title_en": "Eight more TLDs now eligible for a free domain with Pro",
+              "summary_en": "Vercel expanded its one-year free domain offer for Pro teams to sixteen eligible TLDs, adding .co, .studio, .company, .info, .pro, .live, .digital, and .agency; one domain per team, premium domains excluded.",
+              "topic_evidence": "Eight more TLDs now eligible for a free domain with Pro",
+              "reason": "Vercel 面向 Pro 团队的具体域名权益变更，属于开发者平台与基础设施相关更新。",
+              "reason_en": "A concrete domain-offer change for Vercel Pro teams, relevant as a developer platform and infrastructure update.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+              "title": "剑桥团队研制10美元光学传感器芯片，或实现腕上医学实验室",
+              "summary": "剑桥团队研制出约10美元的光学传感器，尺寸适合可穿戴设备，却在测试中达到实验室级精度；它识别食物、塑料和药物准确率100%，并能无创监测血糖、酒精等指标。",
+              "title_en": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+              "summary_en": "Cambridge researchers have built a roughly $10 optical sensor small enough for wearables but precise enough for lab-grade tests. It identified foods, plastics and medicines with 100% accuracy and monitored blood glucose and alcohol non-invasively.",
+              "topic_evidence": "a groundbreaking $10 optical sensor that delivers the precision of laboratory equipment",
+              "reason": "报道新型低成本光学传感器芯片及其在可穿戴医学检测中的测试结果，直接属于芯片与硬件。",
+              "reason_en": "Reports a new low-cost optical sensor chip and its wearable medical testing results, directly fitting chips and hardware.",
+              "score": 6.85
+            }
+          ]
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+              "title": "近3000颗爆炸恒星分析挑战宇宙学标准模型",
+              "summary": "一项对2884颗爆炸恒星的大规模分析发现，暗能量——推动宇宙加速膨胀的神秘力量——可能随时间变化。该结果挑战现代宇宙学基石，或改变对宇宙演化方式的理解。",
+              "title_en": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+              "summary_en": "A large analysis of 2,884 exploding stars finds new evidence that dark energy, the force accelerating cosmic expansion, may change over time, challenging a cornerstone of modern cosmology.",
+              "topic_evidence": "A massive analysis of 2,884 exploding stars",
+              "reason": "基于2884颗超新星的大样本分析，直接涉及宇宙学与暗能量演化。",
+              "reason_en": "A large-sample supernova analysis directly addresses cosmology and the evolution of dark energy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
+              "title": "好奇号传回火星新风车雕蚀悬崖景观，谜团待2027年接近解开",
+              "summary": "NASA好奇号火星车拍到风蚀悬崖的新景观，这些地貌可能保存古代火山活动证据。火星车正接近这些构造，科学家希望在2027年查明其奇特外观的成因。",
+              "title_en": "NASA’s Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
+              "summary_en": "NASA’s Curiosity rover has captured a new view of wind-carved Martian cliffs that may hold evidence of ancient volcanic activity. As the rover approaches, scientists hope to uncover their origins in 2027.",
+              "topic_evidence": "mysterious, wind-carved cliffs on Mars",
+              "reason": "报道好奇号火星探测的新图像与后续探测计划，属于航天与行星科学。",
+              "reason_en": "Reports new Curiosity rover imagery and upcoming exploration plans, fitting space and planetary science.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+              "title": "两年临床试验：鱼油补充剂未改善记忆或防止脑萎缩",
+              "summary": "一项为期两年的临床试验发现，鱼油补充剂虽能把omega-3送入大脑，却未改善记忆，也未防止与阿尔茨海默病相关的脑萎缩；研究者推测，通过健康饮食摄取这些营养素可能更有益。",
+              "title_en": "Millions take fish oil for brain health. A two-year study found no benefit",
+              "summary_en": "A two-year clinical trial found fish oil supplements delivered omega-3s to the brain but did not improve memory or protect against Alzheimer’s-related brain shrinkage, suggesting dietary sources may offer benefits supplements cannot.",
+              "topic_evidence": "failed to improve memory or protect against Alzheimer's-related brain shrinkage",
+              "reason": "随机临床试验结果明确，涉及营养补充剂与脑健康，属于医学研究。",
+              "reason_en": "Clear randomized clinical trial results on supplements and brain health, fitting medical research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231230.htm",
+              "title": "新型显微镜利用强激光揭示细胞内部隐藏结构",
+              "summary": "研究人员开发出一种新型显微镜，用高功率激光让此前不可见的细胞结构更易观察，显著提升图像清晰度，可捕捉传统电子显微镜难以呈现的小型蛋白，未来或揭示分子机制。",
+              "title_en": "A revolutionary new microscope could reveal the hidden machinery of life",
+              "summary_en": "Researchers have developed a microscope that uses a powerful laser to reveal previously invisible cellular structures with improved clarity, allowing scientists to examine small proteins that conventional electron microscopes struggle to capture.",
+              "topic_evidence": "revolutionary microscope that uses an incredibly powerful laser",
+              "reason": "报道新型成像设备及其对细胞结构和蛋白观察的提升，属于科研工具与生命科学研究。",
+              "reason_en": "Reports a new imaging device that improves observation of cellular structures and proteins, fitting research tools and life science.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm",
+              "title": "牛津科学家揭示病毒如何在没有蓝图的情况下自组装",
+              "summary": "科学家逐步捕捉到病毒样颗粒的自组装过程，发现简单的试错机制竟能以高精度生成复杂结构；研究识别出加速组装的关键分子转折点，或为干扰病毒和疫苗设计提供新思路。",
+              "title_en": "Oxford scientists discover how viruses build themselves without a blueprint",
+              "summary_en": "Scientists have observed virus-like particles assembling step by step, revealing how simple trial and error produces complex structures with precision. The key molecular turning point could inform ways to disrupt viruses and design vaccines.",
+              "topic_evidence": "captured virus-like particles assembling themselves step by step",
+              "reason": "提供病毒样颗粒自组装机制的逐步观测，属于分子生物学与疫苗相关基础研究。",
+              "reason_en": "Provides step-by-step observations of virus-like particle assembly, fitting molecular biology and vaccine-related basic research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231241.htm",
+              "title": "切尔诺贝利核事故40年后，放射性微粒仍留土壤且性质出乎意料",
+              "summary": "切尔诺贝利事故40年后，微小放射性颗粒仍残留在土壤中。科学家用强X射线发现，部分颗粒异常稳定，将放射性物质封存在内部，而非释放到环境。",
+              "title_en": "40 years later, Chernobyl's nuclear fallout is not what scientists expected",
+              "summary_en": "Forty years after the Chornobyl disaster, radioactive particles remain in soil. Using powerful X-rays, scientists found some particles are surprisingly stable and trap radioactive substances inside rather than releasing them.",
+              "topic_evidence": "tiny radioactive particles still linger in the soil",
+              "reason": "基于X射线分析给出核事故残留物稳定性的新发现，属于环境与材料科学研究。",
+              "reason_en": "X-ray analysis yields new findings on the stability of nuclear fallout particles, fitting environmental and materials research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+              "title": "前 OpenAI 科学负责人创立 Warp Science，用机器人自动化湿实验室",
+              "summary": "Warp Science 推出用机器人自动化湿实验室的方案，由人类化学家佩戴摄像头和传感器手套，训练机器人执行多种实验任务。",
+              "title_en": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+              "summary_en": "Warp Science, founded by a former OpenAI science lead, is developing robots to automate wet-lab work; human chemists wearing cameras and sensor gloves will train the robots to perform various lab tasks.",
+              "topic_evidence": "launches Warp Science to automate wet labs with robots",
+              "reason": "报道新公司正式推出及其具体自动化方法，符合新产品与增长。",
+              "reason_en": "Reports a new company launch and its specific automation approach, fitting new products and growth.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants",
+              "title": "聚变创业公司 Helion 再获 2.25 亿美元，研发可提升电厂输出的半导体",
+              "summary": "聚变创业公司 Helion 再获 2.25 亿美元融资，用于加速首座聚变电厂开发；公司还在研发新型半导体，称有望让电厂输出翻倍，并计划 2028 年为微软供电。",
+              "title_en": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+              "summary_en": "Fusion startup Helion has raised another $225 million to speed development of its first power plant. It is also developing new semiconductors that could double plant output; the plant is due to supply Microsoft in 2028.",
+              "topic_evidence": "another $225 million to help speed development",
+              "reason": "文章包含明确的 2.25 亿美元新融资及资金用途，属于融资新闻。",
+              "reason_en": "Contains a concrete $225 million funding round and its intended use, making it a funding story.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+              "title": "Warhound 融资 2 亿美元，为军用和执法犬只做基因工程并配 Anduril 装备",
+              "summary": "由 Ben Lamm 与 Palmer Luckey 创办的 Warhound 结束隐身模式，融资 2 亿美元，为军事和执法用途对犬只进行基因工程改造，并配备 Anduril 装备。",
+              "title_en": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+              "summary_en": "Warhound, founded by Ben Lamm and Palmer Luckey, has emerged from stealth with $200 million to genetically engineer dogs for military and law enforcement and equip them with Anduril gear.",
+              "topic_evidence": "raises $200M to engineer war dogs",
+              "reason": "报道公司结束隐身模式并完成 2 亿美元融资，属于融资与并购。",
+              "reason_en": "Reports the company exiting stealth with a $200 million raise, fitting funding and M&A.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say",
+              "title": "科技高管称初创公司快速增长的秘诀不是早期销售",
+              "summary": "在 TechCrunch Disrupt 上，Lovable、Polsia 和 Theory Ventures 的高管向创始人分享如何在最初 90 天实现销售成功，并称早期销售并非快速增长的关键。",
+              "title_en": "The secret to fast startup growth isn’t early sales, top names in tech say",
+              "summary_en": "At TechCrunch Disrupt, executives from Lovable, Polsia and Theory Ventures advised founders on achieving sales success in the first 90 days, saying early sales are not the secret to fast startup growth.",
+              "topic_evidence": "secret to fast startup growth isn’t early sales",
+              "reason": "文章聚焦创始人在最初 90 天的销售策略与增长误区，属于创业策略。",
+              "reason_en": "Focuses on founders' first-90-day sales strategy and growth misconceptions, fitting startup strategy.",
+              "score": 6.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+              "title": "调查：苏丹快速支援部队蓄意袭击医院",
+              "summary": "BBC调查发现苏丹快速支援部队多次蓄意袭击医院，联合国人权高专图尔克称这些袭击可能构成战争罪。",
+              "title_en": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+              "summary_en": "A BBC investigation found Sudan's RSF fighters deliberately targeted hospitals; the UN human rights chief said the multiple attacks may amount to war crimes.",
+              "topic_evidence": "Hospitals deliberately targeted by Sudan's RSF fighters",
+              "reason": "涉及苏丹武装冲突中袭击医疗设施及可能的战争罪，属地缘与安全。",
+              "reason_en": "Covers attacks on hospitals in Sudan's armed conflict and possible war crimes, fitting geopolitics and security.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+              "title": "特朗普称马斯克已恢复乌克兰“星链”网络访问",
+              "summary": "特朗普表示马斯克已恢复乌克兰的“星链”网络访问；乌克兰在军事等方面依赖该系统，马斯克此前多次否认限制访问。",
+              "title_en": "Trump says Musk has restored access to Ukraine's Starlink network",
+              "summary_en": "Trump said Musk restored Ukraine's access to Starlink. Ukraine relies on the network for military uses, and Musk has repeatedly denied restricting access.",
+              "topic_evidence": "Trump says Musk has restored access to Ukraine's Starlink network",
+              "reason": "涉及俄乌战争中“星链”访问与军事通信，属地缘与安全。",
+              "reason_en": "Concerns Starlink access and military communications in the Russia-Ukraine war, fitting geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+              "title": "特朗普与内塔尼亚胡正在制定对伊朗战争计划",
+              "summary": "报道梳理特朗普与以色列总理内塔尼亚胡正在制定的战争计划，美以可能对伊朗发动新的袭击。",
+              "title_en": "What we know about war plans that Trump and Netanyahu are drawing up",
+              "summary_en": "NPR reviews war plans being drawn up by Trump and Israeli Prime Minister Netanyahu, with the US and Israel possibly on the verge of a new attack on Iran.",
+              "topic_evidence": "Could the U.S. and Israel be on the verge of launching a new attack on Iran?",
+              "reason": "直接涉及美以可能对伊朗动武的计划，属地缘与安全。",
+              "reason_en": "Directly concerns possible US-Israeli military action against Iran, fitting geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+              "title": "德国称遭“密集”间谍活动，此前一名疑似俄罗斯间谍被捕",
+              "summary": "德国总理默茨称德国正遭遇“密集”间谍活动；此前一名乌克兰男子因涉嫌为俄罗斯从事间谍活动被捕。",
+              "title_en": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+              "summary_en": "German Chancellor Merz said Germany is the target of \"intensive\" espionage after a Ukrainian man was arrested on suspicion of spying for Russia, one of several such cases this year.",
+              "topic_evidence": "Germany target of 'intensive' espionage",
+              "reason": "涉及欧洲安全与俄罗斯间谍活动，属地缘与安全。",
+              "reason_en": "Concerns European security and alleged Russian espionage, fitting geopolitics and security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
+              "title": "以色列在约旦河西岸逮捕36名巴勒斯坦人，袭击农民事件增多",
+              "summary": "以色列在约旦河西岸逮捕36名巴勒斯坦人；正值橄榄收获季，针对巴勒斯坦农民及其土地的袭击加剧。",
+              "title_en": "Israel arrests 36 Palestinians in the West Bank, attacks on farmers ramp up",
+              "summary_en": "Israel arrested 36 Palestinians in the West Bank as attacks on Palestinian farmers and their land intensify during the olive harvest season.",
+              "topic_evidence": "Israel arrests 36 Palestinians in the West Bank",
+              "reason": "涉及巴以冲突中的逮捕与农民遭袭，属地缘与安全。",
+              "reason_en": "Concerns arrests and attacks on farmers in the Israeli-Palestinian conflict, fitting geopolitics and security.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years?traffic_source=rss",
+              "title": "委内瑞拉人近两年来首次全国抗议，要求举行选举",
+              "summary": "委内瑞拉民众举行近两年来首次全国抗议，要求举行选举；前总统马杜罗被美军抓获后，继任者日期尚未确定。",
+              "title_en": "Venezuelans demand elections in first national protest in nearly two years",
+              "summary_en": "Venezuelans held their first national protest in nearly two years to demand elections. No date has been set to decide on a successor after former president Maduro was captured by US forces.",
+              "topic_evidence": "Venezuelans demand elections in first national protest in nearly two years",
+              "reason": "直接涉及委内瑞拉选举诉求与马杜罗被捕后的政治过渡，属政府与政策。",
+              "reason_en": "Directly concerns demands for elections and the political transition after Maduro's capture, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/23/will-ice-agents-play-a-role-in-the-2026-us-midterm-elections?traffic_source=rss",
+              "title": "美国移民局特工将影响2026年中期选举？",
+              "summary": "报道关注美国移民和海关执法局特工是否会在2026年中期选举中发挥作用；民权组织担忧该机构可能影响选举日投票。",
+              "title_en": "Will ICE agents play a role in the 2026 US midterm elections?",
+              "summary_en": "The report examines whether ICE agents could play a role in the 2026 US midterm elections, with rights groups worried the agency could sway voting on election day.",
+              "topic_evidence": "Rights groups are worried the agency at the heart of Trump's immigration crackdown could sway the vote on election day.",
+              "reason": "涉及美国中期选举与移民执法机构的潜在影响，属政府与政策。",
+              "reason_en": "Concerns US midterm elections and the potential influence of the immigration enforcement agency, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast",
+              "title": "巴西大选与亚马孙之争",
+              "summary": "巴西总统决选周日举行，播客从罗赖马州报道亚马孙雨林及当地社区在选举中的利害关系。",
+              "title_en": "Brazil’s election and the battle for the Amazon – podcast",
+              "summary_en": "Ahead of Brazil's presidential runoff on Sunday, the podcast reports from Roraima on what is at stake for the Amazon rainforest and the communities living there.",
+              "topic_evidence": "Brazilian presidential runoff on Sunday",
+              "reason": "涉及巴西总统决选与亚马孙政策之争，属政府与政策中的选举议题。",
+              "reason_en": "Concerns Brazil's presidential runoff and the Amazon policy stakes, fitting elections within government and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+              "title": "卢拉称对手因涉嫌Meta干预巴西选举应被取消资格",
+              "summary": "巴西总统卢拉指控科技公司Meta在选举前偏袒其对手弗拉维奥·博索纳罗，称对手应被取消资格；Meta否认相关指控。",
+              "title_en": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+              "summary_en": "Brazilian President Lula accused Meta of favoring rival Flávio Bolsonaro ahead of the vote and said the rival should be disqualified; Meta denies the allegation.",
+              "topic_evidence": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+              "reason": "涉及巴西选举中的平台干预指控与候选人资格争议，属政府与政策。",
+              "reason_en": "Concerns allegations of platform interference and candidate eligibility in Brazil's election, fitting government and policy.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+              "title": "中国西藏发生7级地震，至少16人死亡",
+              "summary": "中国西藏北部那曲市发生7级地震，造成至少16人死亡、54人受伤，数百房屋倒塌，搜救工作仍在进行，并记录到至少7次余震。",
+              "title_en": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+              "summary_en": "A magnitude-7 earthquake struck northern Tibet's Nagqu city, killing at least 16 people, injuring 54 and collapsing hundreds of homes; search and rescue efforts continued amid aftershocks.",
+              "topic_evidence": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+              "reason": "重大地震灾害及救援进展，属全球社会。",
+              "reason_en": "Major earthquake disaster and rescue efforts, fitting global society.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+              "title": "也门冲突加剧饥荒，新生双胞胎挣扎求生",
+              "summary": "也门冲突加剧饥荒危机，拉加德和拉德一家因政府军与胡塞武装交战而徒步逃离家园，新生双胞胎挣扎求生。",
+              "title_en": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+              "summary_en": "In Yemen, newborn twins Raghad and Raad are fighting for survival as conflict fuels a hunger crisis; their family fled on foot amid fighting between pro-government forces and the Houthis.",
+              "topic_evidence": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+              "reason": "反映也门冲突引发的人道与粮食危机，属全球社会。",
+              "reason_en": "Highlights the humanitarian and hunger crisis caused by conflict in Yemen, fitting global society.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+              "title": "南非约50人围殴一名外国人致死",
+              "summary": "南非发生约50人围殴一名身份不明外国人致死的袭击；此前南非今年出现多起反移民抗议。",
+              "title_en": "Crowd of 50 beats foreigner to death in South Africa",
+              "summary_en": "A crowd of about 50 people beat an unidentified foreigner to death in South Africa, following a wave of anti-migrant protests in the country this year.",
+              "topic_evidence": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+              "reason": "涉及南非反移民暴力与移民社群安全，属全球社会。",
+              "reason_en": "Concerns anti-migrant violence and migrant community safety in South Africa, fitting global society.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719565.shtml",
+              "title": "六部门联合发文推进老旧街区厂区改造提升",
+              "summary": "住房城乡建设部、工业和信息化部等六部门近日印发指导意见，推动老旧街区厂区功能转换、业态升级和活力提升，因地制宜打造活力街区，促进城市结构优化与品质提升。",
+              "title_en": "Six Departments Issue Guidelines to Upgrade Old Urban Districts and Factory Areas",
+              "summary_en": "China's housing and industry authorities, along with four other departments, issued guidelines to convert and upgrade old urban districts and factory areas, aiming to boost local vitality and improve urban functions.",
+              "topic_evidence": "六部门近日联合印发《关于推进老旧街区厂区改造提升的指导意见》",
+              "reason": "属于明确的中央部门政策文件，涉及城市更新和产业空间改造。",
+              "reason_en": "Clear central-government policy document on urban renewal and industrial space upgrading.",
+              "score": 4.5
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719625.shtml",
+              "title": "国家发改委紧急安排3000万元支持西藏巴青震后应急恢复",
+              "summary": "西藏那曲市巴青县发生7.0级地震后，国家发展改革委紧急安排3000万元中央预算内投资，支持灾区开展灾后应急恢复工作。",
+              "title_en": "NDRC Allocates 30 Million Yuan for Post-Earthquake Recovery in Tibet's Baqing",
+              "summary_en": "After a magnitude-7.0 earthquake struck Baqing County in Nagqu, Tibet, China's National Development and Reform Commission allocated 30 million yuan in central budget investment for emergency recovery.",
+              "topic_evidence": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+              "reason": "中央政府灾后恢复投资安排，体现应急财政响应。",
+              "reason_en": "Central government post-disaster investment reflecting emergency fiscal response.",
+              "score": 4.3
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719621.shtml",
+              "title": "财政部、应急管理部拨付5000万元中央救灾资金支持西藏地震抢险",
+              "summary": "针对西藏那曲市巴青县7.0级地震，财政部、应急管理部10月23日紧急拨付5000万元中央自然灾害救灾资金，用于人员搜救、受灾群众安置和倒损民房修复等。",
+              "title_en": "China's Finance and Emergency Ministries Allocate 50 Million Yuan for Tibet Earthquake Relief",
+              "summary_en": "The Ministry of Finance and Ministry of Emergency Management urgently allocated 50 million yuan in central natural-disaster relief funds for search and rescue, resettlement and housing repair after the Tibet earthquake.",
+              "topic_evidence": "财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金",
+              "reason": "两部门紧急拨付救灾资金，属于灾害救助政策执行。",
+              "reason_en": "Emergency allocation of disaster relief funds by two central departments.",
+              "score": 4.2
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719600.shtml",
+              "title": "自然资源部将浙江、福建海洋灾害应急响应提升至三级",
+              "summary": "受台风“蔷琵”和冷空气影响，东海出现狂浪到狂涛区，浙江南部、福建近岸海域出现巨浪。自然资源部将浙江、福建海洋灾害应急响应提升至三级。",
+              "title_en": "China's Natural Resources Ministry Raises Ocean Disaster Response to Level III for Zhejiang and Fujian",
+              "summary_en": "As Typhoon Champi and cold air generated huge waves in the East China Sea, China's Ministry of Natural Resources upgraded its ocean disaster emergency response to Level III for Zhejiang and Fujian.",
+              "topic_evidence": "自然资源部将浙江、福建海洋灾害应急响应提升至三级",
+              "reason": "主管部门根据海洋灾害预警升级应急响应，属于监管与应急管理动作。",
+              "reason_en": "Regulator upgrades emergency response based on ocean disaster warnings.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": []
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719552.shtml",
+              "title": "最高法：推动人民陪审员更多参审社会影响较大案件",
+              "summary": "最高人民法院表示，人民法院推动人民陪审员更多参审涉及群体利益、公共利益及社会影响较大的案件，并列举牟某虐待案、未成年人向火锅内小便侵权案等。",
+              "title_en": "China's Supreme Court Promotes Lay Judges in Cases with Major Social Impact",
+              "summary_en": "China's Supreme People's Court said people's assessors will participate more in cases involving public interests and broad social concern, citing an abuse case and a hotpot contamination tort case.",
+              "topic_evidence": "人民法院推动人民陪审员更多参审涉及群体利益、公共利益，人民群众广泛关注或其他社会影响较大的案件",
+              "reason": "司法制度与人民陪审员参审范围的具体进展。",
+              "reason_en": "Concrete update on judicial system and lay assessor participation.",
+              "score": 4.5
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719596.shtml",
+              "title": "广东省教育厅原副厅长魏中林被开除党籍",
+              "summary": "据广东省纪委监委消息，经中共广东省委批准，广东省纪委监委对省教育厅原党组副书记、副厅长魏中林严重违纪违法问题立案审查调查，并给予其开除党籍处分。",
+              "title_en": "Former Guangdong Education Official Wei Zhonglin Expelled from Party",
+              "summary_en": "Wei Zhonglin, former deputy director of Guangdong's education department, was expelled from the Communist Party of China after an investigation into serious disciplinary and legal violations, the provincial discipline commission said.",
+              "topic_evidence": "广东省教育厅原党组副书记、副厅长魏中林严重违纪违法问题进行了立案审查调查",
+              "reason": "纪检监察机关对教育系统官员违纪违法问题的处理。",
+              "reason_en": "Disciplinary action against a former education official.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719506.shtml",
+              "title": "湖南中医药大学原党委书记戴爱国接受审查调查",
+              "summary": "湖南省纪委监委通报，湖南中医药大学原党委书记戴爱国涉嫌严重违纪违法，主动向组织交代问题，目前正接受纪律审查和监察调查。",
+              "title_en": "Former Hunan University of Chinese Medicine Party Secretary Dai Aiguo Under Investigation",
+              "summary_en": "Dai Aiguo, former party secretary of Hunan University of Chinese Medicine, is under disciplinary review and supervisory investigation for suspected serious violations, the provincial discipline commission announced.",
+              "topic_evidence": "湖南中医药大学原党委书记戴爱国涉嫌严重违纪违法，主动向组织交代问题",
+              "reason": "高校领导干部接受审查调查，属于反腐与法治动态。",
+              "reason_en": "University leader under investigation, reflecting anti-corruption and legal developments.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-23/10719628.shtml",
+              "title": "第一批救灾物资运抵西藏巴青县地震灾区",
+              "summary": "西藏那曲市巴青县7.0级地震发生后，国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应提升至三级，第一批救灾物资已运抵灾区。",
+              "title_en": "First Batch of Relief Supplies Arrives in Tibet's Baqing Earthquake Zone",
+              "summary_en": "After the magnitude-7.0 earthquake in Baqing County, Tibet, the first batch of disaster relief supplies arrived as the national earthquake emergency response was raised to Level III.",
+              "topic_evidence": "第一批救灾物资运抵西藏巴青县地震灾区",
+              "reason": "灾害救援物资抵达灾区的具体进展，体现应急响应落实。",
+              "reason_en": "Concrete progress in relief supplies reaching the quake zone, showing emergency response implementation.",
+              "score": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
+              "title": "全球AI交易承压，油价延续涨势：市场综述",
+              "summary": "投资者撤离年内热门AI交易并转向债券避险，全球AI板块承压；原油延续上涨，进一步加大市场压力。",
+              "title_en": "Global AI Trade Under Pressure, Oil Extends Rally: Markets Wrap",
+              "summary_en": "Investors rotated out of the year’s hot AI trade and sought safety in bonds, pressuring AI-related assets, while crude oil extended gains and added to market strain.",
+              "topic_evidence": "The artificial intelligence trade stayed on the back foot",
+              "reason": "直接描述AI交易轮动、债券避险和油价上涨三大市场变化，信息密度高。",
+              "reason_en": "Directly captures the AI trade rotation, bond safe-haven flows and oil gains, offering a high-information market snapshot.",
+              "score": 9.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying",
+              "title": "中国股市进一步下挫，国家队买入难挽信心",
+              "summary": "中国股市进一步跌入熊市，国有背景资金入市救助未能重建投资者信心，市场情绪依旧脆弱，抛压持续。",
+              "title_en": "China Stocks Sink Further as State Buying Offers Little Relief",
+              "summary_en": "Chinese stocks slid deeper into a bear market as state-backed fund purchases failed to restore investor confidence, leaving market sentiment fragile and selling pressure intact.",
+              "topic_evidence": "Chinese stocks slid deeper into a bear market",
+              "reason": "聚焦中国股市熊市加深及国有资金救助效果有限，属于核心市场动态。",
+              "reason_en": "Focuses on China’s deepening bear market and the limited impact of state-backed buying, a core market development.",
+              "score": 8.5
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst",
+              "title": "印尼企业债风险溢价升至六年高位，MSCI警告引发担忧",
+              "summary": "MSCI警告可能将印尼移出全球股票指数，影响蔓延至企业信贷，印尼企业美元债相对亚洲同业的利差升至六年高位。",
+              "title_en": "Indonesian Corporate Bond Premia Hit Six-Year High on MSCI Angst",
+              "summary_en": "MSCI’s warning that it may remove Indonesia from its global equity indexes spilled into corporate credit, pushing risk premia on Indonesian dollar bonds to a six-year high versus Asian peers.",
+              "topic_evidence": "risk premia on dollar bonds of local companies to widen to a six-year high",
+              "reason": "具体说明MSCI指数警告如何传导至印尼企业美元债市场，属于跨资产风险事件。",
+              "reason_en": "Shows how MSCI’s index warning transmitted into Indonesian corporate dollar bonds, a cross-asset risk event.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-ai-model-stocks-150-billion-drop-shows-no-sign-of-easing",
+              "title": "中国AI模型股1500亿美元市值蒸发，跌势未见缓和",
+              "summary": "中国AI模型开发商股票持续遭抛售，行业竞争升温且明年对手上市威胁加剧，市值蒸发约1500亿美元，跌势仍无缓解迹象。",
+              "title_en": "China AI Model Stocks’ $150 Billion Drop Shows No Sign of Easing",
+              "summary_en": "The selloff in Chinese AI model developer stocks shows no sign of easing, with intensifying competition and the threat of rival listings next year deepening a $150 billion market-value decline.",
+              "topic_evidence": "There’s no end in sight for the selloff in China’s artificial intelligence model developer stocks",
+              "reason": "直接量化中国AI模型股抛售规模，并给出竞争与上市压力等具体原因。",
+              "reason_en": "Quantifies the selloff in Chinese AI model stocks and cites concrete pressures from competition and rival listings.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+              "title": "油价逼近伊朗战争高点，油轮运价飙升引发第二轮能源挤压",
+              "summary": "油轮运价飙升推动油价逼近伊朗战争时期高点，华尔街开始计入地区全面冲突风险，全球能源供应和金融市场或再受冲击。",
+              "title_en": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+              "summary_en": "Oil prices are approaching Iran-war highs as soaring tanker rates trigger a second energy squeeze, with Wall Street starting to price in a full-scale regional conflict that could choke global energy supplies.",
+              "topic_evidence": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+              "reason": "聚焦油价、运价与地缘冲突风险联动，是重要大宗商品与市场风险信息。",
+              "reason_en": "Highlights the link between oil prices, tanker rates and geopolitical risk, an important commodities and market-risk signal.",
+              "score": 8.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-22/ecb-s-panetta-says-rising-bond-yields-will-restrain-economy",
+              "title": "欧洲央行帕内塔：债券收益率上升将抑制经济",
+              "summary": "欧洲央行管委帕内塔表示，债券收益率跳升将抑制欧元区经济，但按当前情况看尚不构成关键性风险。",
+              "title_en": "ECB’s Panetta Says Rising Bond Yields Will Restrain Economy",
+              "summary_en": "ECB Governing Council member Fabio Panetta said the jump in bond yields will restrain the euro-area economy, though it is not critical under current conditions.",
+              "topic_evidence": "the jump in bond yields will restrain the region’s economy",
+              "reason": "直接反映欧洲央行官员对债券收益率上升与经济前景的判断。",
+              "reason_en": "Directly conveys an ECB official’s assessment of rising bond yields and the economic outlook.",
+              "score": 8.5
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-23/ecb-set-to-raise-rates-in-december-after-pause-economists-say",
+              "title": "经济学家预计欧洲央行暂停后将于12月加息",
+              "summary": "经济学家预计，欧洲央行下周暂停加息后，将在12月进行最后一次加息，这与市场押注后续更多加息形成反差。",
+              "title_en": "ECB Set to Raise Rates in December After Pause, Economists Say",
+              "summary_en": "Economists expect the European Central Bank to pause next week and then raise rates one final time in December, contrasting with market bets on more hikes ahead.",
+              "topic_evidence": "The European Central Bank will lift interest rates for the final time in December following a pause next week",
+              "reason": "提供欧洲央行利率路径的具体预期，并点出与市场押注的分歧。",
+              "reason_en": "Provides a specific ECB rate-path forecast and highlights the divergence with market pricing.",
+              "score": 8.3
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-23/russia-to-extend-rate-cut-pause-as-ukraine-strikes-push-inflation-above-target",
+              "title": "俄罗斯料延长降息暂停，乌克兰袭击推高通胀至目标上方",
+              "summary": "俄罗斯央行预计连续第二次会议维持利率不变，因乌克兰对能源基础设施的袭击推高通胀并加大经济压力。",
+              "title_en": "Russia to Extend Rate-Cut Pause as Ukraine Strikes Push Inflation Above Target",
+              "summary_en": "Russia’s central bank is expected to keep rates unchanged for a second straight meeting as Ukrainian strikes on energy infrastructure push inflation above target and add economic pressure.",
+              "topic_evidence": "Russia’s central bank is set to keep interest rates unchanged for a second straight meeting",
+              "reason": "说明地缘冲突通过能源基础设施影响通胀，进而制约俄罗斯货币政策。",
+              "reason_en": "Explains how geopolitical strikes on energy infrastructure feed inflation and constrain Russian monetary policy.",
+              "score": 8.2
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-22/new-zealand-likely-facing-pre-election-rate-hike-economists-say",
+              "title": "经济学家：新西兰大选前可能被迫加息",
+              "summary": "经济学家表示，新西兰央行若想遏制通胀，需大幅加息，即便这意味着在大选前10天行动。",
+              "title_en": "New Zealand Likely Facing Pre-Election Rate Hike, Economists Say",
+              "summary_en": "New Zealand’s central bank may need to raise rates aggressively to contain inflation, even if that means a hike just 10 days before the general election, economists say.",
+              "topic_evidence": "a hike just 10 days before a general election",
+              "reason": "涉及通胀压力与选举前加息的政治经济权衡，事件具体且有政策含义。",
+              "reason_en": "Involves the political-economic trade-off of an inflation-driven rate hike just before an election.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-22/mexico-inflation-ticks-up-as-banxico-weighs-next-rate-move",
+              "title": "墨西哥通胀小幅回升，央行权衡下一步利率行动",
+              "summary": "墨西哥10月初年通胀升幅超预期，降低央行在下次货币政策会议上考虑降息的可能性。",
+              "title_en": "Mexico Inflation Ticks Up as Banxico Weighs Next Rate Move",
+              "summary_en": "Mexico’s annual inflation accelerated more than expected in early October, reducing the likelihood that Banxico will consider a rate cut at its next policy meeting.",
+              "topic_evidence": "Mexico’s annual inflation accelerated more than expected in early October",
+              "reason": "通胀超预期直接影响墨西哥央行下次利率决策，属于典型宏观政策信息。",
+              "reason_en": "Above-expected inflation directly affects Banxico’s next rate decision, a typical macro-policy signal.",
+              "score": 7.9
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+              "title": "Docker 很奇怪",
+              "summary": "一篇题为《Docker is weird》的技术博客文章讨论 Docker 的怪异之处；该文在 Hacker News 上获得 255 分、131 条评论，说明这一话题在开发者社区中引发了明显讨论。",
+              "title_en": "Docker is weird",
+              "summary_en": "A technical blog post titled Docker is weird examines why Docker feels odd; it received 255 points and 131 comments on Hacker News.",
+              "topic_evidence": "Docker is weird",
+              "reason": "技术博客随笔，直接讨论 Docker 的怪异之处，并在 Hacker News 上形成讨论。",
+              "reason_en": "A technical blog essay directly about Docker's oddities, with an active Hacker News thread.",
+              "score": 2.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.27251",
+              "title": "AI 与科学公地的圈占",
+              "summary": "论文题为《AI and the Enclosure of the Scientific Commons》，以“圈占”为框架讨论 AI 对科学公地的影响；该帖在 Hacker News 获得 126 分、74 条评论。",
+              "title_en": "AI and the Enclosure of the Scientific Commons",
+              "summary_en": "A paper titled AI and the Enclosure of the Scientific Commons examines AI's impact on the scientific commons; it drew 126 points and 74 comments on Hacker News.",
+              "topic_evidence": "AI and the Enclosure of the Scientific Commons",
+              "reason": "以“科学公地”为框架讨论 AI 影响的论文，属于技术与社会分析。",
+              "reason_en": "A paper framing AI's impact through the enclosure of the scientific commons, fitting tech-society analysis.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.anthropic.com/research/formal-verification",
+              "title": "大模型正让形式化软件验证在更大规模上可行",
+              "summary": "Anthropic 研究文章称，大语言模型正让形式化软件验证在更大规模上变得可行；该帖在 Hacker News 获得 215 分、118 条评论，并引发讨论。",
+              "title_en": "LLMs are making formal software verification feasible at a much larger scale",
+              "summary_en": "An Anthropic research post argues that large language models are making formal software verification feasible at a much larger scale; it received 215 points and 118 comments on Hacker News.",
+              "topic_evidence": "LLMs are making formal software verification feasible at a much larger scale",
+              "reason": "围绕大模型对软件验证影响的研究性观点，适合技术观点版。",
+              "reason_en": "A research argument about how LLMs affect software verification, suitable for tech opinion.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought",
+              "title": "Xbox 拟对已购游戏的云串流按小时收费",
+              "summary": "Ars Technica 报道，Xbox 希望用户为已购买游戏的云串流支付每小时 24 至 40 美分；该帖在 Hacker News 获得 255 分、228 条评论。",
+              "title_en": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+              "summary_en": "Ars Technica reports that Xbox wants users to pay 24 to 40 cents per hour to stream games they already bought; the Hacker News post received 255 points and 228 comments.",
+              "topic_evidence": "pay 24 to 40 cents per hour to stream games you bought",
+              "reason": "涉及数字内容所有权与云游戏收费模式的商业社会议题。",
+              "reason_en": "A business-society issue about digital ownership and per-hour cloud gaming charges.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://quad9.net/news/blog/au-revoir-france",
+              "title": "Quad9 将退出法国",
+              "summary": "DNS 解析服务 Quad9 宣布将退出法国；该消息在 Hacker News 获得 1072 分、382 条评论，成为高热度讨论帖。",
+              "title_en": "Quad9 (DNS Resolver) to Exit France",
+              "summary_en": "DNS resolver Quad9 announced it will exit France; the Hacker News post received 1,072 points and 382 comments, making it a high-engagement discussion.",
+              "topic_evidence": "Quad9 (DNS Resolver) to Exit France",
+              "reason": "Hacker News 高热度讨论帖，围绕 DNS 服务退出法国的社区讨论。",
+              "reason_en": "A high-engagement Hacker News thread about the DNS resolver's exit from France.",
+              "score": 2.9
+            },
+            {
+              "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+              "title": "eMudhra 将退出全球 SSL/TLS 证书业务",
+              "summary": "证书机构 eMudhra 宣布将退出全球 SSL/TLS 证书业务；该消息在 Hacker News 获得 986 分、658 条评论，引发大量讨论。",
+              "title_en": "eMudhra to exit global SSL/TLS certificate business",
+              "summary_en": "Certificate authority eMudhra announced it will exit the global SSL/TLS certificate business; the Hacker News post received 986 points and 658 comments.",
+              "topic_evidence": "eMudhra to exit global SSL/TLS certificate business",
+              "reason": "Hacker News 高评论数讨论帖，涉及证书行业变动的社区反应。",
+              "reason_en": "A high-comment Hacker News thread on a certificate authority's exit from the global market.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud",
+              "title": "女子因名下 CashApp 账户涉诈骗被控计算机欺诈",
+              "summary": "一名女子因名下 CashApp 账户被用于诈骗而面临计算机欺诈指控；该帖在 Hacker News 获得 595 分、591 条评论。",
+              "title_en": "Woman charged with computer fraud due to scam CashApp account being in her name",
+              "summary_en": "A woman faces computer fraud charges because a scam CashApp account was in her name; the Hacker News post received 595 points and 591 comments.",
+              "topic_evidence": "Woman charged with computer fraud due to scam CashApp account being in her name",
+              "reason": "Hacker News 高评论数讨论帖，涉及金融诈骗与法律责任边界的社会议题。",
+              "reason_en": "A high-comment Hacker News thread on financial fraud and legal liability.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.30215",
+      "original_title": "AI Mindmeld: A Latent Interconnect Protocol",
+      "original_summary": "arXiv:2610.30215v1 Announce Type: new Abstract: LLMs can act as scientific agents using tools to consult specialists and run experiments. Yet specialist information must enter their context, generally as text, images, audio or video: a bottleneck between models with rich, high-dimensional representations. We advocate direct representation exchange: a mindmeld conveying many properties, including information an LLM would not think to request. It should be extensible to new specialists, flexible across questions and tasks, and compositional across independently connected specialists without joint training. The Latent Interconnect Protocol (LIP) learns connectors mapping specialist representations into LLM internal states. Training only connectors keeps this practical as LLMs grow and evolve. We connect three protein and three small molecule specialists to Gemma 3 (4B and 12B parameters) and Kimi K2.6 (1T total, 32B active), freezing all pretrained models. Independently trained connectors provide useful information without changing the LLM or existing connectors, supporting familiar and new question types about unseen objects. We demonstrate zero-shot transfer to cross-domain tasks without joint training. Task performance and compositionality generally improve with LLM capability, with especially strong gains in zero-shot task transfer. Limitations remain: current LLMs were not trained for specialist representations as native inputs; access does not ensure reliable interpretation, integration or use in reasoning. We call on specialist developers to provide consistent representation interfaces and, especially, on LLM developers to train models to receive, combine and reason with these inputs. These efforts could expand scientific agents' information while preserving conventional tools' flexibility. Data, pretrained connectors, and code for training, evaluation and interactive inference: https://github.com/PolymathicAI/AI-Mindmeld",
+      "topic_evidence": "We advocate direct representation exchange",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.30435",
+      "original_title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+      "original_summary": "arXiv:2610.30435v1 Announce Type: new Abstract: Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallucinated reasoning and prematurely terminated search. To address this limitation, we propose Self-Assessment Reinforcement Learning (SARL), a reinforcement learning framework in which models learn to recognize their own search state during training and improve their search behavior accordingly, without requiring additional assessment at test time. SARL achieves this through a dual reward design that captures the corrective effect of each assessment while penalizing excessive reliance on it, jointly encouraging effective and efficient search trajectories. Under this setup, SARL achieves a 24.3% relative improvement over the strongest baseline, with average gains of 35.9% on multi-hop reasoning and 27.9% on deep research benchmarks against the strongest per-benchmark baselines. SARL further surpasses methods built on auxiliary supervision or multi-agent coordination, despite operating as a standalone RL framework with no inference-time scaffolding. Beyond final performance, SARL maintains training stability under extended search horizons, a regime where existing methods consistently degrade, enabling sustained gains as task complexity grows.",
+      "topic_evidence": "existing search agents often lack search-state awareness",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.30206",
+      "original_title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+      "original_summary": "arXiv:2610.30206v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compression methods reduce this cost for dense transformers, but overlook a problem specific to MoE: KV eviction can change which experts are selected during answer generation, degrading the generation quality. We propose MoEZip, a routing-aware KV cache compression for sparse MoE language models. To estimate the sensitivity of expert routing to perturbation, we propose a novel metric based on the Fisher information matrix of routing distributions. MoEZip combines this metric with attention weights for routing-aware scoring of contexts. Finally, we compose a complementary scoring system that combines eviction methods for dense and sparse-MoE architectures. Experiments show that MoEZip achieves robust performance under aggressive cache compression on various benchmarks. At a KV retention ratio of 10\\%, MoEZip improves over the SoTA baseline by +24 and +20 points on average on LongBench and RULER, corresponding to 2.3$\\times$ and 4.9$\\times$ higher scores, respectively.",
+      "topic_evidence": "Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.28909",
+      "original_title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+      "original_summary": "arXiv:2610.28909v1 Announce Type: new Abstract: Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We present DiffResearch, an open multi-agent deep research framework that places a diffusion language model (dLLM) at the core of every stage, and measure how a diffusion backbone changes latency and report quality. Holding the agentic scaffold, retrieval code, prompts, and evaluation fixed, we swap the backbone between an open diffusion model and a comparable AR model. Across 100 Deep Research Bench tasks, the diffusion backbone is roughly 6 times faster end-to-end, driven by order-of-magnitude reductions in planning and writing. We further introduce dFast, a decomposition mode that reads intermediate denoising states and extracts subqueries before generation finishes, providing a 1.99 times median speedup for decomposition in isolation with no loss of report quality. On the benchmark's RACE rubric, dFast obtains the best overall score among the three configurations. Finally, in a public system-level leaderboard snapshot, an instance built on a stronger diffusion model ranks above several commercial systems. We release DiffResearch under an Apache-2.0 license.",
+      "topic_evidence": "end-to-end latency a key bottleneck",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "original_title": "Claude Duet app is Anthropic’s bet on agents",
+      "original_summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "topic_evidence": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "claude"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "original_title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "original_summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "topic_evidence": "allows agents to log into a customer's personal accounts while still protecting the private credentials",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "original_title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "original_summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "topic_evidence": "OpenAI is launching its decision model to the world.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "original_title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "original_summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "topic_evidence": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.28763",
+      "original_title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "original_summary": "arXiv:2610.28763v1 Announce Type: new Abstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-the-wild conditions, and where they fall short. Empirically, today's frontier agents advance the published best on every benchmark, with Claude Opus reaching 10.4% mean relative improvement and no run flagged for academic misconduct. These gains, however, come almost entirely from a bag of ML-engineering tricks rather than research-level insight. Trajectory analysis surfaces three recurring limitations in this setting: novelty miscalibration, resource under-utilization, and rapid collapse into local engineering sweeps. Lightweight plug-in skills for research ideation, experiment management, and scheduled checklists raise Claude Opus from 10.4% to 20.1% and Codex from 4.4% to 8.1%, while yielding more diverse, domain-relevant interventions. Agent4Sci gives the community a way to track and push frontier agents from ML engineering toward domain insight on real-world ML-for-science problems. Code and data are available on GitHub (https://github.com/maszhongming/agent4sci) and Hugging Face (https://huggingface.co/datasets/MingZhong/agent4sci).",
+      "topic_evidence": "We introduce Agent4Sci, a long-horizon testbed",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "research",
+        "benchmark",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.28826",
+      "original_title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+      "original_summary": "arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns structured judgments, with frontier and open-weight LLM judges in four use cases. On 118 pediatric answers, Jev's agreement with physicians' ordinal quality ratings (Gwet's AC2 0.50; expected score 0.53) matched or exceeded that of seven of 12 LLM judges, including frontier models, Claude Opus 5.5 (0.49) and GPT-6 (0.38). On physician-graded binary HealthBench criteria, Jev matched or exceeded four of six LLM judges. On MedHELM's open-ended tasks, Jev's agreement with a three-LLM jury approached or exceeded the jurors' internal agreement. On HealthBench Professional, Jev matched the benchmark's reference judge, GPT-5.4, on 91% of criteria (other judges, 91-93%). Frontier judges cost 73-294 times more than Jev and took 7-57 times longer. Jev may enable efficient clinical AI evaluation at scale.",
+      "topic_evidence": "We compared Jev, a decision language model that returns structured judgments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.30229",
+      "original_title": "Automated screening of privacy risks in medical AI",
+      "original_summary": "arXiv:2610.30229v1 Announce Type: new Abstract: Medical artificial intelligence (AI) models are often shared without their training data, assuming this protects the patients who contributed them. However, a model can reveal whether a patient's records were used in training, a privacy breach known as a membership inference attack. This risk is usually reported as a cohort average, which can appear negligible while individual patients are almost certainly exposed. Identifying potentially vulnerable records before developing a production model could make privacy assessment more practical. We measured each patient's vulnerability to membership inference attack, across 7,789 models trained on six clinical datasets in four modalities, including two adapted pretrained medical models. Training choices changed how many patients had high attack scores, but the patients who ranked highest by risk largely stayed the same across the configurations we tested. Stronger weight decay reduced the exposed cohort up to threefold, yet largely the same patients remained most at risk across training recipes, architectures and initializations, including foundation models. Therefore, we developed a lightweight screening tool that uses four small models to identify patients with high risk of exposure before production-model training. We also assessed if flagged patients could be protected without removing their data. Privacy screening should become incorporated into data preparation for clinical AI.",
+      "topic_evidence": "Automated screening of privacy risks in medical AI",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "dataset",
+        "privacy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "original_title": "Donating Agent Skills to the Agentic AI Foundation",
+      "original_summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+      "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+      "original_title": "How bug bounty sharpens one researcher’s security skills",
+      "original_summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+      "topic_evidence": "spotlights @r31n, diving into their research approach, favorite bug classes",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "original_title": "Eight more TLDs now eligible for a free domain with Pro",
+      "original_summary": "Every Pro team can claim a free domain for one year. That offer now includes .co, .studio, .company, .info, .pro, .live, .digital, and .agency, bringing the eligible TLDs to sixteen.The offer still covers one domain per team, and premium domains are not eligible. After the first year, your domain will renew automatically at the regular price shown at checkout when you claim it.Claim yours at vercel.com/domains, and see the free domain FAQ for the full list of eligible TLDs and terms. Read more",
+      "topic_evidence": "Eight more TLDs now eligible for a free domain with Pro",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+      "original_title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+      "original_summary": "Cambridge researchers have created a groundbreaking $10 optical sensor that delivers the precision of laboratory equipment in a device small enough for wearable technology. It identified foods, plastics, and medicines with 100% accuracy in tests and demonstrated the ability to monitor blood glucose, alcohol, and other health markers without invasive procedures.",
+      "topic_evidence": "a groundbreaking $10 optical sensor that delivers the precision of laboratory equipment",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "chip",
+        "device",
+        "sensor"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+      "original_title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+      "original_summary": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time. The findings challenge a cornerstone of modern cosmology and could reshape our understanding of how the universe works.",
+      "topic_evidence": "A massive analysis of 2,884 exploding stars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "star",
+        "stars",
+        "energy"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231238.htm",
+      "original_title": "NASA’s Curiosity rover reveals a spectacular new view of Mars with a mystery on the horizon",
+      "original_summary": "NASA’s Curiosity rover has revealed a spectacular new view of mysterious, wind-carved cliffs on Mars that may hold evidence of ancient volcanic activity. With the rover approaching these unusual formations, scientists hope to uncover the secrets behind their strange appearance in 2027.",
+      "topic_evidence": "mysterious, wind-carved cliffs on Mars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+      "original_title": "Millions take fish oil for brain health. A two-year study found no benefit",
+      "original_summary": "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against Alzheimer's-related brain shrinkage. Researchers suspect that getting these nutrients through a healthy diet may offer benefits that supplements alone cannot provide.",
+      "topic_evidence": "failed to improve memory or protect against Alzheimer's-related brain shrinkage",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "health",
+        "study"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231230.htm",
+      "original_title": "A revolutionary new microscope could reveal the hidden machinery of life",
+      "original_summary": "Researchers have developed a revolutionary microscope that uses an incredibly powerful laser to make previously invisible cellular structures easier to see. The technology dramatically improves image clarity, allowing scientists to examine small proteins that conventional electron microscopes struggle to capture. It could eventually reveal how tiny molecular machines interact inside cells, providing an unprecedented look at the hidden workings of life.",
+      "topic_evidence": "revolutionary microscope that uses an incredibly powerful laser",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm",
+      "original_title": "Oxford scientists discover how viruses build themselves without a blueprint",
+      "original_summary": "Scientists have captured virus-like particles assembling themselves step by step, revealing how a surprisingly simple process of trial and error produces complex structures with remarkable precision. The discovery uncovers a crucial molecular turning point that speeds up assembly and could lead to new ways to disrupt viruses and develop vaccines.",
+      "topic_evidence": "captured virus-like particles assembling themselves step by step",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231241.htm",
+      "original_title": "40 years later, Chernobyl's nuclear fallout is not what scientists expected",
+      "original_summary": "Forty years after the Chornobyl disaster, tiny radioactive particles still linger in the soil, carrying a dangerous legacy. Using powerful X-rays, scientists discovered that some of these particles have remained surprisingly stable, trapping radioactive substances inside instead of releasing them into the environment.",
+      "topic_evidence": "tiny radioactive particles still linger in the soil",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "original_title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "original_summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+      "topic_evidence": "launches Warp Science to automate wet labs with robots",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants",
+      "original_title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "original_summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
+      "topic_evidence": "another $225 million to help speed development",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "original_title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "original_summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "topic_evidence": "raises $200M to engineer war dogs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say",
+      "original_title": "The secret to fast startup growth isn’t early sales, top names in tech say",
+      "original_summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
+      "topic_evidence": "secret to fast startup growth isn’t early sales",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "founder",
+        "startup"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "original_summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
+      "topic_evidence": "Hospitals deliberately targeted by Sudan's RSF fighters",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks",
+        "fighters",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "original_summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
+      "topic_evidence": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+      "original_title": "What we know about war plans that Trump and Netanyahu are drawing up",
+      "original_summary": "Could the U.S. and Israel be on the verge of launching a new attack on Iran? President Trump and Prime Minister Benjamin Netanyahu have been suggesting that's on the table.",
+      "topic_evidence": "Could the U.S. and Israel be on the verge of launching a new attack on Iran?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+      "original_summary": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
+      "topic_evidence": "Germany target of 'intensive' espionage",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
+      "original_title": "Israel arrests 36 Palestinians in the West Bank, attacks on farmers ramp up",
+      "original_summary": "Israeli pogroms on Palestinian farmers and their lands during the olive harvest season intensify.",
+      "topic_evidence": "Israel arrests 36 Palestinians in the West Bank",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years?traffic_source=rss",
+      "original_title": "Venezuelans demand elections in first national protest in nearly two years",
+      "original_summary": "No date has been set to decide on a successor for Nicolas Maduro after the former president was captured by US forces.",
+      "topic_evidence": "Venezuelans demand elections in first national protest in nearly two years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/23/will-ice-agents-play-a-role-in-the-2026-us-midterm-elections?traffic_source=rss",
+      "original_title": "Will ICE agents play a role in the 2026 US midterm elections?",
+      "original_summary": "Rights groups are worried the agency at the heart of Trump's immigration crackdown could sway the vote on election day.",
+      "topic_evidence": "Rights groups are worried the agency at the heart of Trump's immigration crackdown could sway the vote on election day.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast",
+      "original_title": "Brazil’s election and the battle for the Amazon – podcast",
+      "original_summary": "Our Latin America correspondent, Tom Phillips, heads to Roraima to hear what’s at stake for the rainforest and the communities that live there in the Brazilian presidential runoff on Sunday. Send your comments and questions to tif.questions@theguardian.com For the Amazon and the communities who live there, the stakes in Sunday’s Brazilian presidential election runoff could scarcely be higher. Our Latin America correspondent, Tom Phillips heads to Roraima, the country’s most northern state, to hear from voters, preachers and politicians in a region that heavily backed Flávio Bolsonaro in the first round. Continue reading...",
+      "topic_evidence": "Brazilian presidential runoff on Sunday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+      "original_title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "original_summary": "The Brazilian president accuses the tech firm of favouring Flávio Bolsonaro, which it denies.",
+      "topic_evidence": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+      "original_title": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+      "original_summary": "Search and rescue efforts under way after quake strikes region’s north, officials say, while at least seven aftershocks recorded A magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said. Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. Continue reading...",
+      "topic_evidence": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+      "original_summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+      "topic_evidence": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+      "original_title": "Crowd of 50 beats foreigner to death in South Africa",
+      "original_summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+      "topic_evidence": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719565.shtml",
+      "original_title": "六部门出台意见 推进老旧街区厂区改造提升",
+      "original_summary": "中新网10月23日电 据住房城乡建设部网站消息，为深入贯彻落实党中央、国务院关于持续推进城市更新行动有关部署要求，大力推动老旧街区厂区功能转换、业态升级、活力提升，因地制宜打造一批活力街区，促进城市结构优化、功能完善、文脉赓续、品质提升，住房城乡建设部、工业和信息化部等六部门近日联合印发《关于推进老旧街区厂区改造提升的指导意见》。",
+      "topic_evidence": "六部门近日联合印发《关于推进老旧街区厂区改造提升的指导意见》",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "国务院",
+        "意见"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719625.shtml",
+      "original_title": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+      "original_summary": "中新网10月23日电 据国家发展改革委微信公众号消息，10月22日22时33分许，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡。国家防减救灾委、应急管理部启动国家自然灾害救助四级应急响应。",
+      "topic_evidence": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719621.shtml",
+      "original_title": "两部门拨付5000万元中央自然灾害救灾资金支持西藏抢险救灾",
+      "original_summary": "中新网10月23日电 据财政部网站消息，2026年10月22日22时33分，西藏那曲市巴青县发生7.0级地震。10月23日，财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金，支持西藏开展地震应急抢险救援和受灾群众救助工作，重点做好人员搜救、受灾群众转移安置、排危除险等应急处置以及倒损民房修复等工作，最大限度减少灾害损失和人员伤亡。",
+      "topic_evidence": "财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719600.shtml",
+      "original_title": "台风“蔷琵”影响东部沿海，自然资源部升级海洋灾害应急响应",
+      "original_summary": "中新网10月23日电 据自然资源部微信公众号消息，受今年第30号台风“蔷琵”(强台风级)和冷空气共同影响，10月22日至23日，上海至福建沿海出现30～80厘米的风暴增水，东海南部出现6～9米的狂浪到狂涛区，浙江南部、福建近岸海域出现4～5米的巨浪。国家海洋预报台发布风暴潮蓝色警报和海浪橙色警报，根据《海洋灾害应急预案》规定，自然资源部将浙江、福建海洋灾害应急响应提升至三级。",
+      "topic_evidence": "自然资源部将浙江、福建海洋灾害应急响应提升至三级",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719552.shtml",
+      "original_title": "完善人民陪审制 最高法例举牟某虐待案、火锅小便案",
+      "original_summary": "新华社北京10月23日电(记者孙鹏程、齐琪)记者10月23日从最高人民法院获悉，人民法院推动人民陪审员更多参审涉及群体利益、公共利益，人民群众广泛关注或其他社会影响较大的案件。人民陪审员参加审理牟某虐待案、未成年人向火锅内小便侵权案等，夯实事实认定的民意基础，增进司法裁判的社会认同。",
+      "topic_evidence": "人民法院推动人民陪审员更多参审涉及群体利益、公共利益，人民群众广泛关注或其他社会影响较大的案件",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "社会"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719596.shtml",
+      "original_title": "广东省教育厅原党组副书记、副厅长魏中林被开除党籍",
+      "original_summary": "中新网10月23日电 据广东省纪委监委消息，经中共广东省委批准，广东省纪委监委对广东省教育厅原党组副书记、副厅长魏中林严重违纪违法问题进行了立案审查调查。",
+      "topic_evidence": "广东省教育厅原党组副书记、副厅长魏中林严重违纪违法问题进行了立案审查调查",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法",
+        "教育"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719506.shtml",
+      "original_title": "湖南中医药大学原党委书记戴爱国接受审查调查",
+      "original_summary": "中新网10月23日电 据湖南省纪委监委消息，湖南中医药大学原党委书记戴爱国涉嫌严重违纪违法，主动向组织交代问题，目前正接受湖南省纪委监委纪律审查和监察调查。",
+      "topic_evidence": "湖南中医药大学原党委书记戴爱国涉嫌严重违纪违法，主动向组织交代问题",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-23/10719628.shtml",
+      "original_title": "第一批救灾物资运抵西藏巴青县地震灾区",
+      "original_summary": "中新社北京10月23日电 (记者 郭超凯 陈溯)记者23日从中国应急管理部获悉，西藏那曲市巴青县发生7.0级地震后，国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应提升至三级，第一批救灾物资运抵西藏巴青县地震灾区。",
+      "topic_evidence": "第一批救灾物资运抵西藏巴青县地震灾区",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Global AI Trade Under Pressure, Oil Extends Rally: Markets Wrap",
+      "original_summary": "The artificial intelligence trade stayed on the back foot as investors rotated out of one of the year’s hottest themes and sought safety in bonds. Adding to the pressure, crude oil extended its gains.",
+      "topic_evidence": "The artificial intelligence trade stayed on the back foot",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying",
+      "original_title": "China Stocks Sink Further as State Buying Offers Little Relief",
+      "original_summary": "Chinese stocks slid deeper into a bear market as rescue efforts by state-backed funds fail to rebuild investor confidence.",
+      "topic_evidence": "Chinese stocks slid deeper into a bear market",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/indonesian-corporate-bond-premia-hit-six-year-high-on-msci-angst",
+      "original_title": "Indonesian Corporate Bond Premia Hit Six-Year High on MSCI Angst",
+      "original_summary": "Fallout from MSCI Inc.’s warning that it may remove Indonesia from its global equity indexes is spilling into corporate credit, causing risk premia on dollar bonds of local companies to widen to a six-year high over Asian peers.",
+      "topic_evidence": "risk premia on dollar bonds of local companies to widen to a six-year high",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-ai-model-stocks-150-billion-drop-shows-no-sign-of-easing",
+      "original_title": "China AI Model Stocks’ $150 Billion Drop Shows No Sign of Easing",
+      "original_summary": "There’s no end in sight for the selloff in China’s artificial intelligence model developer stocks, with competition growing ever more heated and the threat of rival listings next year.",
+      "topic_evidence": "There’s no end in sight for the selloff in China’s artificial intelligence model developer stocks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+      "original_title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "original_summary": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy supplies and unleash a fresh wave of turmoil across financial markets.",
+      "topic_evidence": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/ecb-s-panetta-says-rising-bond-yields-will-restrain-economy",
+      "original_title": "ECB’s Panetta Says Rising Bond Yields Will Restrain Economy",
+      "original_summary": "European Central Bank Governing Council member Fabio Panetta said the jump in bond yields will restrain the region’s economy, though isn’t critical as things stand.",
+      "topic_evidence": "the jump in bond yields will restrain the region’s economy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/ecb-set-to-raise-rates-in-december-after-pause-economists-say",
+      "original_title": "ECB Set to Raise Rates in December After Pause, Economists Say",
+      "original_summary": "The European Central Bank will lift interest rates for the final time in December following a pause next week, economists say, at odds with market bets on far more hikes lying ahead.",
+      "topic_evidence": "The European Central Bank will lift interest rates for the final time in December following a pause next week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/russia-to-extend-rate-cut-pause-as-ukraine-strikes-push-inflation-above-target",
+      "original_title": "Russia to Extend Rate-Cut Pause as Ukraine Strikes Push Inflation Above Target",
+      "original_summary": "Russia’s central bank is set to keep interest rates unchanged for a second straight meeting as the Kremlin battles the economic consequences of Ukrainian strikes on energy infrastructure.",
+      "topic_evidence": "Russia’s central bank is set to keep interest rates unchanged for a second straight meeting",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/new-zealand-likely-facing-pre-election-rate-hike-economists-say",
+      "original_title": "New Zealand Likely Facing Pre-Election Rate Hike, Economists Say",
+      "original_summary": "New Zealand’s central bank will need to move aggressively to raise interest rates if it wants to contain inflation, even if that means a hike just 10 days before a general election, economists say.",
+      "topic_evidence": "a hike just 10 days before a general election",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/mexico-inflation-ticks-up-as-banxico-weighs-next-rate-move",
+      "original_title": "Mexico Inflation Ticks Up as Banxico Weighs Next Rate Move",
+      "original_summary": "Mexico’s annual inflation accelerated more than expected in early October, reducing the likelihood that the central bank will consider a rate cut at its next monetary policy meeting.",
+      "topic_evidence": "Mexico’s annual inflation accelerated more than expected in early October",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "central bank"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "original_title": "Docker is weird",
+      "original_summary": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 255 # Comments: 131",
+      "topic_evidence": "Docker is weird",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "original_title": "AI and the Enclosure of the Scientific Commons",
+      "original_summary": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 126 # Comments: 74",
+      "topic_evidence": "AI and the Enclosure of the Scientific Commons",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "original_title": "LLMs are making formal software verification feasible at a much larger scale",
+      "original_summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 215 # Comments: 118",
+      "topic_evidence": "LLMs are making formal software verification feasible at a much larger scale",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "software"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought",
+      "original_title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "original_summary": "Article URL: https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/ Comments URL: https://news.ycombinator.com/item?id=50194009 Points: 255 # Comments: 228",
+      "topic_evidence": "pay 24 to 40 cents per hour to stream games you bought",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://quad9.net/news/blog/au-revoir-france",
+      "original_title": "Quad9 (DNS Resolver) to Exit France",
+      "original_summary": "Article URL: https://quad9.net/news/blog/au-revoir-france/ Comments URL: https://news.ycombinator.com/item?id=50195959 Points: 1072 # Comments: 382",
+      "topic_evidence": "Quad9 (DNS Resolver) to Exit France",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "original_title": "eMudhra to exit global SSL/TLS certificate business",
+      "original_summary": "Article URL: https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business Comments URL: https://news.ycombinator.com/item?id=50195110 Points: 986 # Comments: 658",
+      "topic_evidence": "eMudhra to exit global SSL/TLS certificate business",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud",
+      "original_title": "Woman charged with computer fraud due to scam CashApp account being in her name",
+      "original_summary": "Article URL: https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud/ Comments URL: https://news.ycombinator.com/item?id=50194833 Points: 595 # Comments: 591",
+      "topic_evidence": "Woman charged with computer fraud due to scam CashApp account being in her name",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "original_title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "original_summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "topic_evidence": "allows agents to log into a customer's personal accounts while still protecting the private credentials",
+      "approved": true,
+      "evidence": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials",
+      "reason": "1Password推出新功能，允许AI代理代为登录而不暴露密码，属于AI代理相关产品能力发布。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "original_title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "original_summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "topic_evidence": "OpenAI is launching its decision model to the world.",
+      "approved": true,
+      "evidence": "OpenAI is launching its decision model to the world.",
+      "reason": "OpenAI向全球开放其决策模型，属于AI产品/模型发布与平台可用性变化。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "original_title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "original_summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "topic_evidence": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases",
+      "approved": true,
+      "evidence": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases",
+      "reason": "微软新AI诊断系统在疑难病例上表现超过全科医生，属于AI医疗产品/系统能力发布。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "original_title": "Donating Agent Skills to the Agentic AI Foundation",
+      "original_summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+      "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "approved": true,
+      "evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "reason": "Anthropic将Agent Skills标准捐赠给Linux基金会下的AAIF，属于AI标准与治理。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "original_title": "Eight more TLDs now eligible for a free domain with Pro",
+      "original_summary": "Every Pro team can claim a free domain for one year. That offer now includes .co, .studio, .company, .info, .pro, .live, .digital, and .agency, bringing the eligible TLDs to sixteen.The offer still covers one domain per team, and premium domains are not eligible. After the first year, your domain will renew automatically at the regular price shown at checkout when you claim it.Claim yours at vercel.com/domains, and see the free domain FAQ for the full list of eligible TLDs and terms. Read more",
+      "topic_evidence": "Eight more TLDs now eligible for a free domain with Pro",
+      "approved": true,
+      "evidence": "Eight more TLDs now eligible for a free domain with Pro",
+      "reason": "Vercel扩大Pro团队免费域名可选顶级域，属于开发者基础设施服务更新。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "original_title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "original_summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+      "topic_evidence": "launches Warp Science to automate wet labs with robots",
+      "approved": true,
+      "evidence": "launches Warp Science to automate wet labs with robots",
+      "reason": "前OpenAI科学负责人推出Warp Science，用机器人自动化湿实验室，属于新产品/创业项目发布。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants",
+      "original_title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+      "original_summary": "Helion now has another $225 million to help speed development of its first fusion power plant, due to provide Microsoft with electricity in 2028.",
+      "topic_evidence": "another $225 million to help speed development",
+      "approved": true,
+      "evidence": "another $225 million to help speed development",
+      "reason": "Helion获得2.25亿美元新资金以加速聚变电站开发，属于融资事件。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "original_title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "original_summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "topic_evidence": "raises $200M to engineer war dogs",
+      "approved": true,
+      "evidence": "raises $200M to engineer war dogs",
+      "reason": "Warhound完成2亿美元融资并走出隐身模式，属于融资事件。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "original_summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
+      "topic_evidence": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "approved": true,
+      "evidence": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "reason": "报道乌克兰依赖Starlink的军事用途及访问恢复，属于地缘与安全。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+      "original_summary": "A Ukrainian man was arrested on suspicion of spying for Russia - one of several such cases in Germany this year.",
+      "topic_evidence": "Germany target of 'intensive' espionage",
+      "approved": true,
+      "evidence": "Germany target of 'intensive' espionage",
+      "reason": "德国总理在俄间谍嫌疑人被捕后称德国遭密集间谍活动，属于地缘与安全。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+      "original_title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "original_summary": "The Brazilian president accuses the tech firm of favouring Flávio Bolsonaro, which it denies.",
+      "topic_evidence": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "approved": false,
+      "evidence": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "reason": "主事件是巴西总统在选前指控Meta干预并称对手应被取消资格，属于选举政治争议，不是具体政府政策、制度或监管行动，不宜归入政府与政策。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
+      "original_title": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+      "original_summary": "Search and rescue efforts under way after quake strikes region’s north, officials say, while at least seven aftershocks recorded A magnitude-7 earthquake has hit China’s Tibet region, killing at least 16 people, injuring 54 and collapsing hundreds of homes in the northern regional city of Nagqu, official media said. Search and rescue efforts continued after the collapse of at least 339 homes and 20 livestock sheds, the Nagqu media office said, citing city government officials. Continue reading...",
+      "topic_evidence": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+      "approved": false,
+      "evidence": "Magnitude-7 earthquake hits China’s Tibet, killing at least 16 and destroying hundreds of homes",
+      "reason": "主事件是中国西藏7级地震造成伤亡和房屋倒塌，属于中国社会灾害新闻，应归中国观察/社会与法治，而非国际事务/全球社会。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+      "original_summary": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+      "topic_evidence": "Raghad and Raad's family had to flee their home on foot because of the fighting between pro-government forces and the Houthis.",
+      "approved": true,
+      "evidence": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+      "reason": "也门冲突加剧饥荒、双胞胎新生儿求生，属于全球社会人道危机。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+      "original_title": "Crowd of 50 beats foreigner to death in South Africa",
+      "original_summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+      "topic_evidence": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
+      "approved": true,
+      "evidence": "Crowd of 50 beats foreigner to death in South Africa",
+      "reason": "南非反移民抗议背景下50人群体殴打外国人致死，属于全球社会新闻。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-23/10719625.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719625.shtml",
+      "original_title": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+      "original_summary": "中新网10月23日电 据国家发展改革委微信公众号消息，10月22日22时33分许，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡。国家防减救灾委、应急管理部启动国家自然灾害救助四级应急响应。",
+      "topic_evidence": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+      "approved": true,
+      "evidence": "国家发展改革委紧急安排3000万元中央预算内投资支持西藏巴青7.0级地震灾害灾后应急恢复",
+      "reason": "国家发改委安排中央预算内投资支持地震灾后应急恢复，属于具体政府行动/政策。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-23/10719621.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719621.shtml",
+      "original_title": "两部门拨付5000万元中央自然灾害救灾资金支持西藏抢险救灾",
+      "original_summary": "中新网10月23日电 据财政部网站消息，2026年10月22日22时33分，西藏那曲市巴青县发生7.0级地震。10月23日，财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金，支持西藏开展地震应急抢险救援和受灾群众救助工作，重点做好人员搜救、受灾群众转移安置、排危除险等应急处置以及倒损民房修复等工作，最大限度减少灾害损失和人员伤亡。",
+      "topic_evidence": "财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金",
+      "approved": true,
+      "evidence": "财政部、应急管理部紧急拨付5000万元中央自然灾害救灾资金",
+      "reason": "两部门拨付中央自然灾害救灾资金，属于具体政府救灾财政行动。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-23/10719600.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719600.shtml",
+      "original_title": "台风“蔷琵”影响东部沿海，自然资源部升级海洋灾害应急响应",
+      "original_summary": "中新网10月23日电 据自然资源部微信公众号消息，受今年第30号台风“蔷琵”(强台风级)和冷空气共同影响，10月22日至23日，上海至福建沿海出现30～80厘米的风暴增水，东海南部出现6～9米的狂浪到狂涛区，浙江南部、福建近岸海域出现4～5米的巨浪。国家海洋预报台发布风暴潮蓝色警报和海浪橙色警报，根据《海洋灾害应急预案》规定，自然资源部将浙江、福建海洋灾害应急响应提升至三级。",
+      "topic_evidence": "自然资源部将浙江、福建海洋灾害应急响应提升至三级",
+      "approved": true,
+      "evidence": "自然资源部将浙江、福建海洋灾害应急响应提升至三级",
+      "reason": "自然资源部因台风升级海洋灾害应急响应，属于具体政府应急行动。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-23/10719628.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-23/10719628.shtml",
+      "original_title": "第一批救灾物资运抵西藏巴青县地震灾区",
+      "original_summary": "中新社北京10月23日电 (记者 郭超凯 陈溯)记者23日从中国应急管理部获悉，西藏那曲市巴青县发生7.0级地震后，国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应提升至三级，第一批救灾物资运抵西藏巴青县地震灾区。",
+      "topic_evidence": "第一批救灾物资运抵西藏巴青县地震灾区",
+      "approved": true,
+      "evidence": "第一批救灾物资运抵西藏巴青县地震灾区",
+      "reason": "首批救灾物资抵达地震灾区，属于灾害救援社会动态。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "original_title": "Docker is weird",
+      "original_summary": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 255 # Comments: 131",
+      "topic_evidence": "Docker is weird",
+      "approved": true,
+      "evidence": "Docker is weird",
+      "reason": "文章为对Docker的技术评论，属于技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought",
+      "original_title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "original_summary": "Article URL: https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/ Comments URL: https://news.ycombinator.com/item?id=50194009 Points: 255 # Comments: 228",
+      "topic_evidence": "pay 24 to 40 cents per hour to stream games you bought",
+      "approved": true,
+      "evidence": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "reason": "文章以评论性标题批评Xbox对已购游戏串流按时收费，属于商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://simonwillison.net/2026/Oct/22/donating-agent-skills"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-23/10719600.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-23/10719621.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-23/10719625.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-23/10719628.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://codeandcake.dev/posts/2026-10-22-docker-is-weird"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}
