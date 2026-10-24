@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI 与大模型 · 信息日报 2026-10-23</title>
+<title>01 AI 与大模型 · 信息日报 2026-10-24</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261023 期</span>
+        <span>第 20261024 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月23日 星期五</span></div>
+      <div class="dateline"><span>2026年10月24日 星期六</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,48 +40,36 @@
 
     <header class="pagehead category-head">
       <h2>01 AI 与大模型</h2>
-      <span class="ed">12 条 / 3 个细分</span>
+      <span class="ed">11 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：代理落地、推理效率与医疗治理同步推进">
-      <div class="lead-label">AI 与大模型：代理落地、推理效率与医疗治理同步推进</div>
-      <p>本期覆盖前沿模型、AI 产品与平台、研究与治理三组进展：论文提出模型间潜在互联、检索代理搜索状态自评估、面向稀疏专家模型的 KV 缓存压缩，以及用扩散语言模型加速深度研究；Anthropic 推出 Claude Duet 并开放候补，1Password 支持 AI 代理代登录而不暴露密码，OpenAI 广泛开放其决策模型，微软诊断系统在 Science 研究的疑难病例上优于全科医生但提升主要来自底层模型；研究侧发布 Agent4Sci 科学代理测试平台，评估 Jev 作为低成本临床评审，筛查医疗 AI 成员推断隐私风险，Anthropic 将 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：Kimi K3.1 Pro 上线、OpenAI 训练调整与企业落地">
+      <div class="lead-label">AI 与大模型：Kimi K3.1 Pro 上线、OpenAI 训练调整与企业落地</div>
+      <p>本期覆盖前沿模型、产品平台及研究治理。月之暗面上线 Kimi K3.1 Pro 并承诺 11 月 4 日前开放权重；OpenAI 称因重大风险不再用实时互联网训练模型，并广泛开放决策模型。1Password、Canva 和 Uber 分别推进智能体登录、图像生成与企业部署；Anthropic 捐赠 Agent Skills 标准，OpenAI 与 NASK 合作，MIT 研究闲置智能体，微软发布医疗诊断研究与 ThinkingBox 后训练方法。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>前沿模型</h3>
-          <span>4 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：潜在互联、搜索状态意识与长上下文效率">
-          <div class="lead-label">前沿模型：潜在互联、搜索状态意识与长上下文效率</div>
-          <p>四篇论文分别提出模型间直接交换高维表示的“mindmeld”潜在互联协议，以缓解上下文瓶颈；用自评估强化学习提升检索增强大模型搜索代理的“搜索状态意识”；提出 MoEZip 对稀疏专家混合大模型做路由感知 KV 缓存压缩，以降低长上下文推理内存开销；并推出 DiffResearch，用扩散语言模型改造深度研究流程，以缓解自回归从左到右解码带来的端到端延迟。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：Kimi K3.1 Pro 上线，OpenAI 停止实时互联网训练">
+          <div class="lead-label">前沿模型：Kimi K3.1 Pro 上线，OpenAI 停止实时互联网训练</div>
+          <p>月之暗面将 Kimi K3.1 Pro 上线 Kimi API，暂未开放权重，承诺 11 月 4 日前发布完整权重；同步推出速度快 2 至 3 倍、价格翻倍的 Highspeed 版本，美国定价每百万 token 2 美元起。OpenAI 表示将切断前沿模型与互联网的连接，不再使用实时互联网数据训练，理由是存在“重大风险”。报道称，这一决定距该公司一名工程师称该方案不可行仅数周。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.30215" target="_blank" rel="noopener">
-            <span class="at">AI Mindmeld：一种潜在互联协议</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">论文提出一种名为“mindmeld”的潜在互联协议，主张模型间直接交换高维表示，而非经由文本、图像、音频或视频中转专家信息，以缓解上下文瓶颈。</p>
+          <a class="art" href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro" target="_blank" rel="noopener">
+            <span class="at">月之暗面发布 Kimi K3.1 Pro，承诺 11 月 4 日前开放权重</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Kimi K3.1 Pro 已上线 Kimi API，暂未开放权重，月之暗面承诺 11 月 4 日前发布完整权重；同步推出速度快 2 至 3 倍、价格翻倍的 Highspeed 版本，美国定价每百万 token 2 美元起。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.30435" target="_blank" rel="noopener">
-            <span class="at">面向检索增强大模型搜索状态意识的自评估强化学习</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文针对检索增强大模型中的搜索代理缺乏“搜索状态意识”的问题，提出自评估强化学习方法，帮助模型识别已获取与仍缺失的信息。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.30206" target="_blank" rel="noopener">
-            <span class="at">MoEZip：面向稀疏专家混合大模型的路由感知 KV 缓存压缩</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">论文提出 MoEZip，一种面向稀疏专家混合大模型的“路由感知”KV 缓存压缩方法，以降低长上下文推理中随序列长度线性增长的内存开销。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.28909" target="_blank" rel="noopener">
-            <span class="at">DiffResearch：用扩散语言模型加速深度研究</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 DiffResearch，用扩散语言模型改造深度研究流程，试图缓解自回归模型在规划与长文写作中从左到右解码带来的端到端延迟。</p>
+          <a class="art" href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks" target="_blank" rel="noopener">
+            <span class="at">OpenAI 称因“重大风险”不再用实时互联网训练模型</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">OpenAI 表示将切断前沿模型与互联网的连接，不再使用实时互联网数据训练，理由是存在“重大风险”。报道称，这一决定距该公司一名工程师称该方案不可行仅数周。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -91,34 +79,34 @@
           <h3>AI 产品与平台</h3>
           <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：代理入口、凭证授权与决策模型竞争">
-          <div class="lead-label">AI 产品与平台：代理入口、凭证授权与决策模型竞争</div>
-          <p>Anthropic 推出 Claude Duet 应用，作为其 AI 代理方向的下注，目前通过候补名单向 Pro 和 Max 套餐用户开放；1Password 推出新功能，允许 AI 代理代表用户登录个人账户而不暴露密码；OpenAI 将其决策模型广泛开放，加入与 Jev 的竞争；微软推出 AI 诊断系统，据 Science 研究在疑难病例上优于全科医生，但报道指出提升主要来自底层 AI 模型而非微软系统本身。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：智能体登录、决策模型开放与企业部署">
+          <div class="lead-label">AI 产品与平台：智能体登录、决策模型开放与企业部署</div>
+          <p>1Password 发布新功能，允许 AI 智能体登录客户的个人账户，同时保护私密凭证，使智能体无需看到用户密码即可完成认证。OpenAI 将其决策模型广泛开放，加剧与 Jev 的竞争。Canva 发布首款图像生成模型，向所有用户开放，并承诺以更低成本提供更好、更可定制的生成效果。Uber 在较小范围试点后，将 ChatGPT Work 推广至全部 3 万名员工。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents" target="_blank" rel="noopener">
-            <span class="at">Claude Duet 应用是 Anthropic 在代理方向的下注</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Anthropic 推出 Claude Duet 应用，作为其在 AI 代理方向的下注；目前该应用通过候补名单向 Pro 和 Max 套餐用户开放。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password" target="_blank" rel="noopener">
-            <span class="at">1Password 推出让 AI 代理代登录而不查看密码的新功能</span>
+            <span class="at">1Password 推出新功能：AI 智能体可代为登录而不查看密码</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">1Password 推出新功能，允许 AI 代理代表用户登录个人账户，同时不向代理暴露用于保护账户的私密凭据。</p>
+            <p class="as">1Password 发布新功能，允许 AI 智能体登录客户的个人账户，同时保护用于保障账户安全的私密凭证，使智能体无需看到用户密码即可完成认证。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up" target="_blank" rel="noopener">
-            <span class="at">OpenAI 将 Jev 竞品决策模型广泛开放，决策模型竞争升温</span>
+            <span class="at">OpenAI 将决策模型向公众开放，加剧与 Jev 的竞争</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">OpenAI 将其决策模型向全球开放，加入与 Jev 的竞争；TechCrunch 称决策模型竞争正在升温，但未给出具体评测结果。</p>
+            <p class="as">OpenAI 将其决策模型向全球开放，加入与 Jev 的竞争。报道称，决策模型领域的竞争正在升温，OpenAI 此举旨在争取更广泛的应用场景。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence" target="_blank" rel="noopener">
-            <span class="at">微软称其 AI 在疑难病例上优于医生，追求“医疗超级智能”</span>
+          <a class="art" href="https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model" target="_blank" rel="noopener">
+            <span class="at">Canva 发布首款图像生成模型</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">微软推出 AI 诊断系统，据《Science》研究在疑难病例上优于全科医生；报道指出提升主要来自底层 AI 模型，而非微软系统本身。</p>
+            <p class="as">Canva 推出其首款图像生成模型，向所有用户开放，并承诺以更低成本提供更好、更可定制的生成效果。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work" target="_blank" rel="noopener">
+            <span class="at">Uber 将 ChatGPT Work 推广至全部 3 万名员工</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Uber 在较小范围试点后，将企业级 AI 智能体产品 ChatGPT Work 推广至全公司 3 万名员工，成为大规模企业部署案例。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -126,36 +114,42 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>研究与治理</h3>
-          <span>4 条</span>
+          <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：科学代理评测、临床评审与隐私筛查">
-          <div class="lead-label">研究与治理：科学代理评测、临床评审与隐私筛查</div>
-          <p>研究侧推出 Agent4Sci 长周期测试平台，衡量前沿编码代理在真实科学机器学习任务中的表现；论文比较决策语言模型 Jev 与前沿及开源权重 LLM 评审在四个临床用例中的表现，主张前者可作为更便宜、更快的临床 AI 输出自动评审方案；另有研究聚焦医疗 AI 成员推断攻击的自动隐私风险筛查；Anthropic 宣布将 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation，以保持其开放、社区驱动和厂商中立。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：Agent Skills 捐赠、AI 安全合作与智能体研究">
+          <div class="lead-label">研究与治理：Agent Skills 捐赠、AI 安全合作与智能体研究</div>
+          <p>Anthropic 将 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation，强调开放、社区驱动和厂商中立；该基金会由 Anthropic、Block 和 OpenAI 共同创立。OpenAI 与波兰 NASK 合作推进 AI 安全、安保和技术研究。MIT 将 13 个 AI 智能体置于虚拟岛屿，它们在无事可做时发明游戏、悼念丢失的戒指，并最终提升任务表现。微软 AI 诊断系统在《科学》发表的研究中于疑难病例上优于全科医生，但报道指出大部分提升似乎来自底层 AI 模型；微软 ThinkingBox 将数据库评分转化为强化学习奖励，用于智能体后训练。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.28763" target="_blank" rel="noopener">
-            <span class="at">为科学自动化机器学习：前沿代理能否攀登真实科学高峰？</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 Agent4Sci 长周期测试平台，用于衡量前沿编码代理在真实科学机器学习任务中能走多远，而不仅是常规机器学习工程。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.28826" target="_blank" rel="noopener">
-            <span class="at">决策语言模型可作为临床生成式 AI 评审的低成本快速替代方案</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">论文比较决策语言模型 Jev 与前沿及开源权重 LLM 评审在四个临床用例中的表现，主张前者可成为更便宜、更快的临床 AI 输出自动评审方案。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.30229" target="_blank" rel="noopener">
-            <span class="at">医疗 AI 隐私风险的自动筛查</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">论文研究医疗 AI 的隐私风险自动筛查，聚焦成员推断攻击：模型可能泄露某患者记录是否被用于训练，而这类风险通常未被充分报告。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/22/donating-agent-skills" target="_blank" rel="noopener">
-            <span class="at">将 Agent Skills 捐赠给 Agentic AI Foundation</span>
+            <span class="at">Anthropic 将 Agent Skills 标准捐赠给 Agentic AI Foundation</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Anthropic 宣布将 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation，以保持其开放、社区驱动和厂商中立。</p>
+            <p class="as">Anthropic 宣布把 Agent Skills 标准捐赠给 Linux 基金会下的 Agentic AI Foundation，强调保持开放、社区驱动和厂商中立；该基金会由 Anthropic、Block 和 OpenAI 共同创立。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/openai-nask-ai-safety-security-partnership" target="_blank" rel="noopener">
+            <span class="at">OpenAI 与波兰 NASK 合作推进 AI 安全与安保</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI 与波兰研究机构 NASK 建立合作，围绕 AI 安全、安保和技术研究加强防护措施，并支持更具韧性的数字生态。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing" target="_blank" rel="noopener">
+            <span class="at">研究：无事可做的 AI 智能体在虚拟岛上开始玩游戏</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">MIT 研究人员将 13 个 AI 智能体置于虚拟岛屿，在无事可做时，它们发明游戏、悼念丢失的戒指，并最终提升了任务表现。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence" target="_blank" rel="noopener">
+            <span class="at">微软称其 AI 在疑难病例上胜过医生，瞄准“医疗超级智能”</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">微软 AI 诊断系统在《科学》发表的研究中于疑难病例上优于全科医生，但报道指出大部分提升似乎来自底层 AI 模型，而非微软系统本身。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://huggingface.co/blog/microsoft/thinkingbox-training" target="_blank" rel="noopener">
+            <span class="at">微软 ThinkingBox 将数据库评分转化为强化学习奖励，用于智能体后训练</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">微软在 Hugging Face 博客介绍 ThinkingBox 方法，将数据库评分转化为强化学习奖励，用于智能体后训练，展示了一种可验证的任务反馈机制。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

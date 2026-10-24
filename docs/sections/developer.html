@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-23</title>
+<title>02 开发与编程 · 信息日报 2026-10-24</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261023 期</span>
+        <span>第 20261024 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月23日 星期五</span></div>
+      <div class="dateline"><span>2026年10月24日 星期六</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 开发与编程</h2>
-      <span class="ed">2 条 / 3 个细分</span>
+      <span class="ed">8 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="GitHub 漏洞赏金经验与 Vercel 免费域名扩容">
-      <div class="lead-label">GitHub 漏洞赏金经验与 Vercel 免费域名扩容</div>
-      <p>GitHub 漏洞赏金团队在网络安全意识月介绍研究者 @r31n 的研究方法、偏好漏洞类型及给有志黑客的建议；Vercel 将 Pro 团队免费一年域名的可选顶级域名增至 16 个，新增 .co、.studio、.company 等八种，每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：Vercel 工具链反馈与预算、Quick Study 及生产基础设施更新">
+      <div class="lead-label">开发与编程：Vercel 工具链反馈与预算、Quick Study 及生产基础设施更新</div>
+      <p>本期开发与编程总结涵盖 Vercel CLI 的 feedback 命令与 budgets 预算管理、Vercel MCP 的 submit_feedback 工具、Simon Willison 的 Quick Study，以及 Interfaze 在 Vercel 每月处理 5000 万次请求的实践、Vercel Agent 安全访问生产环境的方案、部署构建缓存大小展示和 Vercel Connect 托管 Stripe API 密钥。</p>
     </section>
 
     <div class="subsection-stack">
@@ -59,31 +59,73 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>0 条</span>
+          <span>4 条</span>
         </header>
-        <p class="empty">本小版今日暂无入选文章。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Vercel 反馈入口扩展，Quick Study 展示画布重绘">
+          <div class="lead-label">开源与工具：Vercel 反馈入口扩展，Quick Study 展示画布重绘</div>
+          <p>Vercel CLI 新增 feedback 命令，支持通过 --field 提交结构化反馈，并可通过 vercel budgets 查看和管理团队按需预算；Vercel MCP 新增 submit_feedback 工具，让代理以自然语言提交缺陷、使用摩擦和功能请求。Simon Willison 展示了 Quick Study：根据 Claude Opus 5.5 High 提示生成，打开照片后用 canvas 和模拟画笔在数秒内重绘，并使用 Sobel 边缘检测。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-cli" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI 新增 feedback 命令，可从终端提交反馈</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel CLI 加入 vercel feedback 命令，开发者可用终端提交缺陷、使用摩擦和功能请求；支持 -f/--field 以 key=value 附加结构化上下文，编码代理也可调用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI 新增 Spend Management 预算管理</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel CLI 现在可通过 vercel budgets 查看和管理团队按需预算，返回当前支出与生效预算；命令支持设置、查看和移除预算，设置预算本身不会停止用量。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP 新增 submit_feedback 工具，代理可直接提交反馈</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP 加入 submit_feedback 工具，代理或运行框架可用自然语言向 Vercel 团队发送缺陷、摩擦报告和功能请求，并可附带结构化上下文。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/23/quick-study-painter" target="_blank" rel="noopener">
+            <span class="at">Quick Study：用 Canvas 和 Sobel 边缘检测把照片快速“画”出来</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison 展示 Quick Study 工具：向 Claude Opus 5.5 High 发出提示，生成一个打开照片后用 canvas 和模拟画笔在数秒内重绘图像的作品，使用 Sobel 边缘检测。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
       </section>
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>基础设施与数据</h3>
-          <span>2 条</span>
+          <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="GitHub 研究者安全技能与 Vercel 域名福利更新">
-          <div class="lead-label">GitHub 研究者安全技能与 Vercel 域名福利更新</div>
-          <p>GitHub 漏洞赏金团队在网络安全意识月聚焦研究者 @r31n，介绍其研究方法、偏好的漏洞类型以及给有志黑客的建议；Vercel 为 Pro 团队免费一年域名新增 .co、.studio、.company 等八个顶级域名，使可选总数达 16 个，每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Interfaze 规模实践与 Vercel 生产访问、缓存和密钥管理">
+          <div class="lead-label">基础设施与数据：Interfaze 规模实践与 Vercel 生产访问、缓存和密钥管理</div>
+          <p>Interfaze 每月在 Vercel 处理 5000 万次请求，后端使用 Fluid compute，并通过 AI Gateway 将多家模型商放在统一回退层，其模型专注文档处理、OCR、目标检测和语音转文字等任务。Vercel Agent 介绍了安全访问生产系统的权限方案；部署摘要新增构建缓存大小显示，CLI 65.1.0 及以上的 vercel inspect 和 get-deployment REST API 也可查看；Vercel Connect 可为每个代理或任务创建单独的受限 Stripe API 密钥。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills" target="_blank" rel="noopener">
-            <span class="at">GitHub 漏洞赏金项目聚焦研究者 @r31n 的安全技能</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">GitHub 漏洞赏金团队在网络安全意识月聚焦研究者 @r31n，介绍其研究方法、偏好的漏洞类型以及给有志黑客的建议。</p>
+          <a class="art" href="https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel" target="_blank" rel="noopener">
+            <span class="at">Interfaze 如何在 Vercel 上每月处理 5000 万次请求</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Interfaze 每月在 Vercel 处理 5000 万次请求，后端用 Fluid compute，并通过 AI Gateway 将多家模型商放在统一回退层；其模型专注文档处理、OCR、目标检测和语音转文字等任务。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro" target="_blank" rel="noopener">
-            <span class="at">Vercel Pro 免费域名新增八个顶级域名</span>
+          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
+            <span class="at">Vercel Agent 如何安全访问生产环境</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 将 Pro 团队免费一年域名的可选顶级域名增至 16 个，新增 .co、.studio、.company 等八种；每团队限一个，高级域名不适用，一年后按常规价续费。</p>
+            <p class="as">Vercel 介绍其 Agent 访问生产系统的权限方案：在代理需要执行“修复部署”等操作时，平衡广泛权限的风险与逐步审批的负担，避免误操作影响无关资源。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
+            <span class="at">Vercel 部署摘要新增构建缓存大小显示</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 部署摘要现在显示每次部署节省的构建缓存大小及其距上限的接近程度；CLI 65.1.0 及以上的 vercel inspect 和 get-deployment REST API 也可查看。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Connect 新增托管 Stripe API 密钥</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Connect 现可为每个代理或任务创建单独的受限 Stripe API 密钥；创建连接器时可选 Managed API Key，Vercel 会按所选权限在用户账户中生成密钥。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

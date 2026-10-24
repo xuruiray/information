@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-24</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261024</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 24, 2026 · Saturday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-24/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">8 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Vercel tooling feedback and budgets, Quick Study, and production infrastructure updates">
+      <div class="lead-label">Developer &amp; Programming: Vercel tooling feedback and budgets, Quick Study, and production infrastructure updates</div>
+      <p>This developer and programming briefing covers Vercel CLI&#39;s feedback command and budgets management, Vercel MCP&#39;s submit_feedback tool, Simon Willison&#39;s Quick Study, Interfaze&#39;s 50 million monthly requests on Vercel, Vercel Agent&#39;s safe production access approach, deployment build-cache size display, and Vercel Connect&#39;s managed Stripe API keys.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open source &amp; tools: Vercel expands feedback entry points, Quick Study repaints photos on canvas">
+          <div class="lead-label">Open source &amp; tools: Vercel expands feedback entry points, Quick Study repaints photos on canvas</div>
+          <p>The Vercel CLI adds a feedback command with structured context via --field and lets teams view and manage on-demand budgets via vercel budgets; Vercel MCP adds a submit_feedback tool for agents to send bugs, friction reports, and feature requests in plain language. Simon Willison demonstrates Quick Study, built from a Claude Opus 5.5 High prompt, which opens a photo and rapidly repaints it with a canvas and simulated brush using Sobel edge detection.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-cli" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI adds feedback command for terminal bug reports</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">The Vercel CLI now includes a vercel feedback command that lets developers send bugs, friction reports and feature requests from the terminal, with structured key=value context via --field; coding agents can also use it.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI adds Spend Management budget controls</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">The Vercel CLI now lets teams view and manage Spend Management budgets via vercel budgets, returning current spend and active budget; users can set, view and remove budgets, though setting one does not stop usage by itself.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP adds submit_feedback tool for agent feedback</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP now includes a submit_feedback tool that lets agents or harnesses send bug reports, friction reports and feature requests to Vercel in plain language, with structured context attached.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/23/quick-study-painter" target="_blank" rel="noopener">
+            <span class="at">Quick Study turns photos into rapid canvas paintings with Sobel edge detection</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison demonstrates Quick Study, a tool built from a Claude Opus 5.5 High prompt that opens a photo and rapidly repaints it with a canvas and simulated brush, using Sobel edge detection.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; data: Interfaze at scale, plus Vercel production access, cache, and key management">
+          <div class="lead-label">Infrastructure &amp; data: Interfaze at scale, plus Vercel production access, cache, and key management</div>
+          <p>Interfaze serves 50 million monthly requests on Vercel, running its backend on Fluid compute and placing multiple model providers behind one fallback layer via AI Gateway for tasks such as document processing, OCR, object detection, and speech-to-text. Vercel outlines its Agent&#39;s permission approach for safe production access; deployment summaries now show build-cache size, also available via vercel inspect from CLI 65.1.0 and the get-deployment REST API; and Vercel Connect can create a separate restricted Stripe API key for each agent or task.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel" target="_blank" rel="noopener">
+            <span class="at">How Interfaze serves 50 million requests a month on Vercel</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Interfaze serves 50 million monthly requests on Vercel, running its backend on Fluid compute and placing multiple model providers behind one fallback layer via AI Gateway for deterministic tasks such as OCR and document processing.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
+            <span class="at">How Vercel Agent accesses production safely</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel outlines how its Agent safely accesses production systems, balancing the risk of broad permissions against step-by-step approvals when an agent needs to perform actions such as fixing a deployment.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
+            <span class="at">Deployments now show build cache size</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel deployment summaries now show build-cache size saved per deployment and how close it is to the build-machine limit; the same data appears in vercel inspect from CLI 65.1.0 and the get-deployment REST API.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Connect adds managed Stripe API keys</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Connect can now create a separate restricted Stripe API key for each agent or task; when creating a Stripe connector, users can choose Managed API Key and Vercel creates the key with selected permissions.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

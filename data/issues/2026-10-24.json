@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-24",
+  "title": "信息日报 2026-10-24",
+  "title_en": "Information Daily 2026-10-24",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "月之暗面发布 Kimi K3.1 Pro，承诺 11 月 4 日前开放权重",
+    "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+    "source": "Simon Willison",
+    "summary": "Kimi K3.1 Pro 已上线 Kimi API，暂未开放权重，月之暗面承诺 11 月 4 日前发布完整权重；同步推出速度快 2 至 3 倍、价格翻倍的 Highspeed 版本，美国定价每百万 token 2 美元起。",
+    "source_en": "Simon Willison",
+    "title_en": "Moonshot releases Kimi K3.1 Pro, promises open weights by November 4",
+    "summary_en": "Kimi K3.1 Pro is now available on the Kimi API but not yet open-weight; Moonshot promises full weights by Nov. 4, 2026, plus a 2–3x faster Highspeed version at double the price, with US pricing from $2 per million tokens.",
+    "original_title": "Introducing Kimi K3.1 Pro",
+    "published_at": "2026-10-23T19:40:54+00:00",
+    "reason": "报道新模型上线、开放权重时间表和定价，属于前沿模型发布。",
+    "reason_en": "Covers a new model launch, open-weight timeline, and pricing, fitting frontier model releases.",
+    "score": 6.1
+  },
+  "path": "papers/2026-10-24.html",
+  "raw_path": "raw/2026-10-24.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-24/10720204.shtml]",
+    "Editorial item ignored in opinion/tech-opinion: unknown URL: https://alexsci.com/blog/uuidv7_is_weird [https://alexsci.com/blog/uuidv7_is_weird]"
+  ]
+}
