@@ -1,0 +1,2554 @@
+{
+  "date": "2026-10-25",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+              "title": "Moonshot 推出 Kimi K3.1 Pro，API 已上线并承诺 11 月 4 日前开放权重",
+              "summary": "Moonshot 的 Kimi K3.1 Pro 已在 Kimi API 上线，暂未开放权重，承诺 11 月 4 日前发布完整权重；Highspeed 版速度提升 2-3 倍、价格翻倍，输入缓存命中同价。",
+              "title_en": "Introducing Kimi K3.1 Pro",
+              "summary_en": "Moonshot’s Kimi K3.1 Pro is now on the Kimi API without open weights yet; the company promises full weights by Nov. 4, 2026, and offers a 2–3× faster Highspeed version at double the price.",
+              "topic_evidence": "Kimi K3.1 Pro landed on the Kimi API today",
+              "reason": "报道 Moonshot 新模型上线 API、权重开放时间与定价，属于前沿模型发布。",
+              "reason_en": "Covers Moonshot's new model API launch, weight release timeline and pricing, a frontier model release.",
+              "score": 6.1
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+              "title": "OpenAI 称将停止用实时互联网训练前沿模型，理由为“重大风险”",
+              "summary": "OpenAI 表示将不再让前沿模型直接使用实时互联网训练，理由是存在“重大风险”；报道称此举发生在该公司一名工程师称该方案不可行数周之后。",
+              "title_en": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+              "summary_en": "OpenAI says it will stop training frontier models on the live internet, citing “significant risks”; the move comes weeks after an engineer said the approach would not work.",
+              "topic_evidence": "OpenAI will cut frontier models off from the internet",
+              "reason": "涉及 OpenAI 对前沿模型训练数据来源的政策变化，属于前沿模型训练。",
+              "reason_en": "Concerns OpenAI's policy change on training-data sources for frontier models.",
+              "score": 5.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+              "title": "Block 发布新语音模型，可在 MacBook M4 Max 本地运行",
+              "summary": "Block 公布一款新语音模型，称其听感“异常接近人类”，并可在 MacBook M4 Max 上本地运行。",
+              "title_en": "Block’s new voice model sounds eerily human",
+              "summary_en": "Block unveiled a new voice model it says sounds eerily human and can run locally on a MacBook M4 Max.",
+              "topic_evidence": "Block said that the voice model can run locally on a MacBook M4 Max",
+              "reason": "报道 Block 新语音模型及本地运行能力，属于新模型发布。",
+              "reason_en": "Reports Block's new voice model and its local-running capability, a new model release.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+              "title": "1Password 推出面向 AI 代理的登录功能，代理无需看到密码",
+              "summary": "1Password 新功能允许 AI 代理登录用户的个人账户，同时不向代理暴露用于保护账户的私人凭据。",
+              "title_en": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+              "summary_en": "1Password launched a feature letting AI agents log into customers’ personal accounts without seeing the private credentials that secure those accounts.",
+              "topic_evidence": "agents to log into a customer's personal accounts",
+              "reason": "报道 1Password 面向 AI 代理的账户登录产品功能。",
+              "reason_en": "Covers 1Password's product feature for AI-agent account login.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+              "title": "Canva 发布首款自研图像生成模型，向所有用户开放",
+              "summary": "Canva 推出首款自研图像生成模型并向所有用户开放，公司称新模型性能更好、可定制性更强且成本更低。",
+              "title_en": "Canva releases its first image generation model",
+              "summary_en": "Canva released its first image-generation model to all users, promising better and more customizable performance at lower cost.",
+              "topic_evidence": "Canva is making its new image model available to all users",
+              "reason": "报道 Canva 首款图像生成模型向所有用户开放。",
+              "reason_en": "Covers Canva's first image-generation model becoming available to all users.",
+              "score": 3.95
+            },
+            {
+              "url": "https://openai.com/index/decisions-api",
+              "title": "OpenAI 推出 Decisions API，为应用提供快速低成本决策",
+              "summary": "OpenAI 发布 Decisions API，称该接口可为任意应用提供快速、聚焦且低成本的决策能力。",
+              "title_en": "Build more responsive apps with the Decisions API",
+              "summary_en": "OpenAI launched the Decisions API, describing it as a way to provide fast, focused, low-cost decisions for any application.",
+              "topic_evidence": "Fast, focused, low-cost decisions for any application.",
+              "reason": "报道 OpenAI 新开发者 API，属于 AI 产品与平台。",
+              "reason_en": "Reports OpenAI's new developer API, an AI product and platform item.",
+              "score": 3.2
+            },
+            {
+              "url": "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+              "title": "Kimi K3.1 Pro 与 Highspeed 版登陆 Vercel AI Gateway",
+              "summary": "Moonshot 的 Kimi K3.1 Pro 与 Highspeed 版已上线 Vercel AI Gateway；前者改进编码、3D 建模、金融分析和代理任务，保留 100 万 token 上下文与图像输入。",
+              "title_en": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway",
+              "summary_en": "Moonshot’s Kimi K3.1 Pro and a faster Highspeed version are now on Vercel AI Gateway; K3.1 Pro improves coding, 3D modeling, financial analysis and agentic tasks while keeping a 1M-token context and image input.",
+              "topic_evidence": "Kimi K3.1 Pro from Moonshot AI is now available on AI Gateway",
+              "reason": "报道 Kimi K3.1 Pro 在 Vercel AI Gateway 上线，属于平台可用性。",
+              "reason_en": "Reports Kimi K3.1 Pro's availability on Vercel AI Gateway, a platform availability item.",
+              "score": 5.9
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+              "title": "研究：Grok 倾向推荐共和党候选人，OpenAI GPT 倾向民主党",
+              "summary": "一项新研究称，在近 500 场选举中，Grok 绝大多数推荐共和党候选人，而 OpenAI 的 GPT 偏向民主党，两者在超过 90% 的选战中意见不一致。",
+              "title_en": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+              "summary_en": "A new study found Grok overwhelmingly recommends Republican candidates while OpenAI’s GPT favors Democrats, with the two models disagreeing in more than 90% of nearly 500 races.",
+              "topic_evidence": "Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats",
+              "reason": "基于近 500 场选举的模型输出研究，属于 AI 评估与偏见治理。",
+              "reason_en": "A study of model outputs across nearly 500 races, relevant to AI evaluation and bias governance.",
+              "score": 5.95
+            },
+            {
+              "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+              "title": "OpenAI 详解前沿模型训练环境的安全加固",
+              "summary": "OpenAI 说明其如何加强前沿模型训练与评估的隔离，包括离线环境和高算力红队测试，以降低训练过程中的安全风险。",
+              "title_en": "Securing our frontier model training environment",
+              "summary_en": "OpenAI detailed how it strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+              "topic_evidence": "offline environments and high-compute red-teaming",
+              "reason": "OpenAI 说明训练环境隔离与红队措施，属于模型安全治理。",
+              "reason_en": "OpenAI explains training-environment containment and red-teaming, relevant to model safety governance.",
+              "score": 5.2
+            },
+            {
+              "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+              "title": "OpenAI 与波兰 NASK 合作推进 AI 安全与安保",
+              "summary": "OpenAI 与波兰研究机构 NASK 建立合作，聚焦 AI 安全、安保与技术研究，以加强防护并支持更具韧性的数字生态。",
+              "title_en": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+              "summary_en": "OpenAI and Poland’s NASK are partnering on AI safety, security and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+              "topic_evidence": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research",
+              "reason": "OpenAI 与 NASK 的 AI 安全合作，属于治理与政策。",
+              "reason_en": "OpenAI's AI safety partnership with NASK, relevant to governance and policy.",
+              "score": 5.2
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+              "title": "Anthropic 将 Agent Skills 标准捐给 Agentic AI Foundation",
+              "summary": "Anthropic 将 Agent Skills 标准捐给 Linux 基金会下的 Agentic AI Foundation，强调保持开放、社区驱动和厂商中立；该基金会由其与 Block、OpenAI 共同创立。",
+              "title_en": "Donating Agent Skills to the Agentic AI Foundation",
+              "summary_en": "Anthropic donated its Agent Skills standard to the Linux Foundation’s Agentic AI Foundation, stressing that it remain open, community-driven and vendor-neutral.",
+              "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+              "reason": "Anthropic 将 Agent Skills 标准捐给基金会，属于代理标准治理。",
+              "reason_en": "Anthropic donates the Agent Skills standard to a foundation, relevant to agent-standard governance.",
+              "score": 6.1
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+              "title": "MIT 研究：无事可做的 AI 代理在虚拟岛上开始玩游戏",
+              "summary": "MIT 研究人员把 13 个 AI 代理放到虚拟岛上，它们随后发明游戏、为丢失的戒指哀悼，并最终在任务中表现更好。",
+              "title_en": "Left alone with nothing to do, AI agents started playing",
+              "summary_en": "MIT researchers marooned 13 AI agents on a virtual island; the agents invented games, mourned a lost ring and eventually improved at their jobs.",
+              "topic_evidence": "MIT researchers marooned 13 AIs on a virtual island",
+              "reason": "MIT 对多代理行为的实验研究，属于 AI 研究。",
+              "reason_en": "MIT's experimental study of multi-agent behavior, an AI research item.",
+              "score": 4.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": []
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+              "title": "Vercel CLI 新增 feedback 反馈命令",
+              "summary": "Vercel CLI 加入 vercel feedback，可从终端提交缺陷、使用摩擦和功能请求，并支持用 -f 或 --field 附带结构化上下文；编码代理也可调用。",
+              "title_en": "Vercel CLI adds feedback command",
+              "summary_en": "Vercel CLI adds vercel feedback, letting users send bugs, friction reports, and feature requests from the terminal, with structured key-value context via -f or --field; coding agents can also use it.",
+              "topic_evidence": "The Vercel CLI now includes vercel feedback",
+              "reason": "具体 CLI 新功能，涉及开发者反馈流程与代理调用。",
+              "reason_en": "Concrete CLI feature for developer feedback workflows and agent use.",
+              "score": 4.9
+            },
+            {
+              "url": "https://blog.roku.com/developer/gitlab-move",
+              "title": "Roku 将开发者仓库从 GitHub 迁至 GitLab",
+              "summary": "Roku 宣布把开发者相关代码仓库从 GitHub 迁移到 GitLab；Hacker News 上该消息获得 273 分和 186 条评论。",
+              "title_en": "Roku moves developer repositories from GitHub to GitLab",
+              "summary_en": "Roku is moving its developer repositories from GitHub to GitLab; the Hacker News submission received 273 points and 186 comments.",
+              "topic_evidence": "Roku developer repositories moved from GitHub to GitLab",
+              "reason": "代码托管平台迁移是版本控制与开发工具链的具体变化，且社区讨论热度较高。",
+              "reason_en": "Code hosting migration is a concrete change in version control and developer tooling, with notable community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+              "title": "Vercel CLI 增加支出管理功能",
+              "summary": "Vercel CLI 新增 vercel budgets，可查看并设置团队的按需预算；设置预算本身不会停止用量，命令行还会返回当前支出和生效预算。",
+              "title_en": "Vercel CLI adds Spend Management",
+              "summary_en": "Vercel CLI adds vercel budgets to view and set a team's on-demand budget; setting a budget does not stop usage by itself, and the command returns current spend and active budget.",
+              "topic_evidence": "You can now view and manage your team's Spend Management budget from the Vercel CLI",
+              "reason": "为 CLI 增加预算查看与管理能力，属于开发工具和成本控制功能。",
+              "reason_en": "Adds budget viewing and management to the CLI, a developer tooling and cost-control feature.",
+              "score": 3.9
+            },
+            {
+              "url": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+              "title": "Vercel MCP 新增 submit_feedback 工具",
+              "summary": "Vercel MCP 加入 submit_feedback，可从代理或运行框架向 Vercel 团队提交缺陷、摩擦报告和功能请求，并允许助手附带结构化上下文。",
+              "title_en": "Vercel MCP adds submit_feedback tool",
+              "summary_en": "Vercel MCP adds submit_feedback, letting agents or harnesses send bug reports, friction reports, and feature requests to Vercel, with assistants able to attach structured context.",
+              "topic_evidence": "Vercel MCP now includes submit_feedback",
+              "reason": "面向代理的 MCP 反馈工具，属于开发工具链更新。",
+              "reason_en": "An MCP feedback tool for agents, part of developer tooling updates.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+              "title": "Interfaze 在 Vercel 上月处理 5000 万次请求",
+              "summary": "Interfaze 的月度请求量达到 5000 万次，后端运行在 Vercel Fluid compute 上，并通过 AI Gateway 在多个模型供应商之间做回退。",
+              "title_en": "How Interfaze serves 50 million requests a month on Vercel",
+              "summary_en": "Interfaze handles 50 million monthly requests with its backend on Vercel Fluid compute, using AI Gateway to fall back across multiple model providers.",
+              "topic_evidence": "50 million requests a month",
+              "reason": "案例给出请求规模、计算平台和多模型回退架构，属于部署性能与基础设施实践。",
+              "reason_en": "Case study provides request volume, compute platform, and multi-provider fallback architecture, relevant to deployment performance and infrastructure.",
+              "score": 10.9
+            },
+            {
+              "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+              "title": "Vercel Agent 如何安全访问生产环境",
+              "summary": "Vercel 说明其生产环境代理的权限设计：既要避免广泛授权误伤无关资源，也要减少逐步审批带来的操作负担。",
+              "title_en": "How Vercel Agent accesses production safely",
+              "summary_en": "Vercel outlines permission design for its production agent, balancing broad access that can affect unrelated resources against step-by-step approvals that burden users.",
+              "topic_evidence": "An agent working on production systems needs permission to act",
+              "reason": "讨论代理访问生产系统的权限与审批权衡，属于基础设施安全。",
+              "reason_en": "Discusses permission and approval trade-offs for agents accessing production systems, relevant to infrastructure security.",
+              "score": 5.9
+            },
+            {
+              "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+              "title": "Vercel 部署摘要显示构建缓存大小",
+              "summary": "Vercel 部署摘要现在显示每次部署节省的构建缓存大小，以及距离构建机器上限的余量；同样信息可在 CLI 的 vercel inspect 和 REST API 中查看。",
+              "title_en": "Vercel deployments now show build cache size",
+              "summary_en": "Vercel deployment summaries now show the build cache size saved per deployment and how close it is to the build machine limit; the same data is available via vercel inspect and the REST API.",
+              "topic_evidence": "Deployment summaries now show the size of the build cache each deployment saved",
+              "reason": "构建缓存大小与上限可见性直接影响部署性能与成本，属于基础设施监控。",
+              "reason_en": "Build cache size and limit visibility affect deployment performance and cost, relevant to infrastructure monitoring.",
+              "score": 3.9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+              "title": "Vercel Connect 支持托管 Stripe API 密钥",
+              "summary": "Vercel Connect 可为每个代理或任务创建单独的受限 Stripe API 密钥；创建连接时可选择托管密钥方式，并限定所选权限，原有 MCP 和自带密钥方式不变。",
+              "title_en": "Vercel Connect adds managed Stripe API keys",
+              "summary_en": "Vercel Connect can create a separate restricted Stripe API key for each agent or task; users choose managed key and permissions, while existing MCP and bring-your-own key methods remain unchanged.",
+              "topic_evidence": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task",
+              "reason": "针对代理任务的密钥隔离和权限限制，属于基础设施安全与集成。",
+              "reason_en": "Key isolation and permission scoping for agent tasks, relevant to infrastructure security and integrations.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+              "title": "剑桥团队制成10美元光学传感芯片，可将实验室检测缩至腕上",
+              "summary": "剑桥研究人员开发出10美元光学传感器，尺寸可嵌入可穿戴设备；测试中识别食物、塑料和药物准确率达100%，并展示无创监测血糖、酒精等健康指标的潜力。",
+              "title_en": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+              "summary_en": "Cambridge researchers built a $10 optical sensor small enough for wearables, reporting 100% accuracy in tests identifying foods, plastics and medicines, and demonstrating potential to monitor blood glucose, alcohol and other health markers non-invasively.",
+              "topic_evidence": "$10 optical sensor that delivers the precision of laboratory equipment",
+              "reason": "该报道给出10美元传感器在食物、塑料、药物识别中100%准确，以及无创监测血糖和酒精等具体结果，直接对应芯片与可穿戴硬件。",
+              "reason_en": "It reports concrete results for a $10 optical sensor, including 100% accuracy in identifying foods, plastics and medicines and non-invasive monitoring of glucose and alcohol, directly fitting chips and wearable hardware.",
+              "score": 6.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261023023732.htm",
+              "title": "耳部神经刺激装置试验：安全可家用，但总体未显著优于安慰剂",
+              "summary": "63名已服药高血压患者参与的临床试验显示，经耳刺激神经的小型装置安全、可在家使用且耐受良好；总体未显著优于安慰剂，但较严重高血压患者出现改善迹象。",
+              "title_en": "Could lowering high blood pressure be as simple as stimulating your ear?",
+              "summary_en": "In a 63-patient trial, a small ear-nerve stimulation device was safe, home-friendly and well tolerated, though it did not significantly beat placebo overall; patients with more severe hypertension showed signs of improvement.",
+              "topic_evidence": "A small device that gently stimulates nerves through the ear",
+              "reason": "该报道描述一种耳部神经刺激硬件在63名患者中的临床试验，并明确安全性和总体未优于安慰剂的结果边界。",
+              "reason_en": "It describes a clinical trial of an ear-nerve stimulation hardware device in 63 patients, with clear results on safety and lack of overall superiority to placebo.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+              "title": "Bennu小行星样本揭示45亿年前太阳系形成线索",
+              "summary": "对Bennu小行星微小样本的新分析表明，该天体可能形成于内太阳系与外太阳系物质混合的区域，木星在其中扮演了出乎意料的角色，改写太阳系形成认识。",
+              "title_en": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+              "summary_en": "New analysis of tiny Bennu samples suggests the asteroid formed where inner and outer Solar System material mixed, with Jupiter playing a surprising role, reshaping scientists' understanding of Solar System formation.",
+              "topic_evidence": "Bennu was born where material from the inner and outer Solar System mixed",
+              "reason": "基于Bennu样本提出其形成于内外太阳系物质混合区，并给出木星作用，属于具体航天与小行星科学研究。",
+              "reason_en": "It presents a specific asteroid-sample finding: Bennu likely formed where inner and outer Solar System material mixed, with Jupiter playing a role.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+              "title": "气球望远镜发现太阳大气中的神秘磁网",
+              "summary": "科学家利用高空气球望远镜在太阳看似平静的区域发现纤细的丝状磁结构，并绘制太阳喷流内部磁场；这些结构似乎由太阳表面的扭转运动塑造。",
+              "title_en": "Astronomers uncover a mysterious magnetic web above the Sun",
+              "summary_en": "Using a balloon-borne telescope, scientists found delicate thread-like magnetic structures in seemingly calm solar regions and mapped magnetic fields inside solar jets, apparently shaped by twisting motions on the Sun's surface.",
+              "topic_evidence": "delicate, thread-like magnetic structures woven through the solar atmosphere",
+              "reason": "报道描述气球望远镜对太阳大气磁结构和太阳喷流磁场的具体观测，直接属于航天与天文观测。",
+              "reason_en": "It reports specific balloon-telescope observations of magnetic structures in the solar atmosphere and magnetic fields inside solar jets, directly fitting space and astronomy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261022081308.htm",
+              "title": "MIT用活体肌肉细胞造出纸薄游泳机器人",
+              "summary": "MIT工程师制成由活体肌肉细胞驱动的纸薄游泳机器人，肌肉细胞对闪光作出反应，使机器人能在水中游动和转向；研究指向可自愈、能探索脆弱环境的微型生物机器人。",
+              "title_en": "MIT scientists build a tiny robot that swims using living muscle cells",
+              "summary_en": "MIT engineers built a paper-thin swimming robot powered by living muscle cells that respond to light flashes, enabling it to swim and steer; the work points toward tiny self-healing biological robots for fragile environments.",
+              "topic_evidence": "powered by living muscle cells that respond to flashes of light",
+              "reason": "报道给出活体肌肉细胞驱动机器人实现游泳和转向的具体原型，符合机器人小版。",
+              "reason_en": "It presents a concrete prototype of a robot driven by living muscle cells that can swim and steer, fitting the robotics subsection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+              "title": "近3000颗爆炸恒星分析：暗能量可能随时间变化",
+              "summary": "对2884颗爆炸恒星的集中分析发现新证据，暗示加速宇宙膨胀的暗能量可能随时间变化；若成立，将挑战现代宇宙学基石并改变对宇宙演化的理解。",
+              "title_en": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+              "summary_en": "An analysis of 2,884 exploding stars found new evidence that dark energy, the force accelerating cosmic expansion, may change over time, challenging a cornerstone of modern cosmology.",
+              "topic_evidence": "dark energy, the mysterious force accelerating the universe’s expansion, may change over time",
+              "reason": "报道以2884颗爆炸恒星为样本，给出暗能量可能随时间变化的具体统计证据，属于航天与天体物理。",
+              "reason_en": "It uses 2,884 exploding stars to report specific statistical evidence that dark energy may change over time, fitting space and astrophysics.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
+              "title": "FDA许可的PTSD新疗法试验报告68%缓解率",
+              "summary": "一项获FDA许可的PTSD疗法结合个体化脑图谱与磁刺激，试验报告症状减少52%、缓解率68%；研究者称该技术可能改变PTSD护理并推动更精准精神健康治疗。",
+              "title_en": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
+              "summary_en": "An FDA-cleared PTSD treatment combining personalized brain mapping and magnetic stimulation reported a 52% symptom reduction and 68% remission in a clinical trial, with researchers saying it could enable more precise mental-health care.",
+              "topic_evidence": "52% reduction in symptoms and 68% remission",
+              "reason": "报道给出PTSD磁刺激疗法的临床试验缓解率与症状降幅，属于具体医学研究结果。",
+              "reason_en": "It reports clinical-trial remission and symptom-reduction figures for a magnetic-stimulation PTSD treatment, a concrete medical-research result.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+              "title": "晶体微小缺陷揭示量子新现象，新方法解释碳化硅能量损失",
+              "summary": "研究人员提出新计算方法，解释金刚石和碳化硅中的微小缺陷在光照下如何表现，并发现碳化硅中此前被低估的能量损失机制，有助于解释长期谜团。",
+              "title_en": "A tiny defect in a crystal reveals a big quantum surprise",
+              "summary_en": "Researchers developed a computational method to understand how light interacts with tiny defects in diamond and silicon carbide, revealing an underestimated energy-loss mechanism in silicon carbide that helps explain a long-standing mystery.",
+              "topic_evidence": "surprisingly important energy-loss mechanism in silicon carbide",
+              "reason": "报道描述针对金刚石和碳化硅缺陷的新计算方法及被低估的能量损失机制，属于材料与量子物理研究。",
+              "reason_en": "It describes a new computational method for defects in diamond and silicon carbide and an underestimated energy-loss mechanism, fitting materials and quantum physics research.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
+              "title": "科学家提出在“镜像生命”出现前检测它的方法",
+              "summary": "科学家提出用特殊荧光分子和偏振光检测假想中的“镜像生命”，以区分普通生物与其镜像版本，从而在人工制造前评估其对人类、动物和生态系统的风险。",
+              "title_en": "Scientists propose a way to detect dangerous “mirror life” before it exists",
+              "summary_en": "Scientists propose using special fluorescent molecules and polarized light to distinguish ordinary organisms from hypothetical mirror-image life, aiming to detect the risky synthetic form before it is created.",
+              "topic_evidence": "Using special fluorescent molecules and a type of polarized light",
+              "reason": "报道提出可区分普通生物与镜像生命的检测方案，并明确其针对假想人工生命的风险，属于生物安全研究。",
+              "reason_en": "It proposes a detection scheme to distinguish ordinary organisms from hypothetical mirror life and frames the risk of synthetic mirror life, fitting biosecurity research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+              "title": "关闭Mitch蛋白可促燃脂并阻止新脂肪细胞形成",
+              "summary": "科学家发现，关闭名为Mitch的蛋白可让人体细胞燃烧更多脂肪并阻止新脂肪细胞形成；此前小鼠实验显示肥胖抵抗和肌肉耐力改善。",
+              "title_en": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+              "summary_en": "Scientists found that turning off a protein called Mitch makes human cells burn more fat and prevents new fat cells from forming, building on mouse experiments showing obesity resistance and better muscular endurance.",
+              "topic_evidence": "switching off a protein called Mitch makes human cells burn more fat",
+              "reason": "报道给出关闭Mitch蛋白后人体细胞燃脂和抑制新脂肪细胞形成的具体发现，并注明小鼠实验基础，属于医学与生物学研究。",
+              "reason_en": "It reports a specific finding that turning off the Mitch protein makes human cells burn more fat and blocks new fat-cell formation, with mouse-experiment context, fitting biomedical research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+              "title": "前 OpenAI 科学负责人创立 Warp Science，用机器人自动化湿实验室",
+              "summary": "Warp Science 由前 OpenAI 科学负责人创办，让佩戴摄像头和传感器手套的化学家训练机器人执行多种实验室任务。",
+              "title_en": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+              "summary_en": "Warp Science, founded by a former OpenAI science lead, is developing robots to automate wet-lab tasks; human chemists wearing cameras and sensor gloves will train the robots.",
+              "topic_evidence": "launches Warp Science to automate wet labs with robots",
+              "reason": "报道新创公司发布及产品方向，符合新产品与增长。",
+              "reason_en": "Covers a new startup launch and its product approach, fitting new products and growth.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.producthunt.com/products/canva",
+              "title": "Canva 推出 Craft：把提示词转成可编辑的设计图",
+              "summary": "Product Hunt 条目显示，Canva 发布 Craft，可将提示词转化为可直接编辑的设计成品图。",
+              "title_en": "Canva Craft",
+              "summary_en": "A Product Hunt listing shows Canva has launched Craft, which turns prompts into design-ready images that users can edit directly.",
+              "topic_evidence": "Turn prompts into design-ready images you can edit",
+              "reason": "Product Hunt 新品发布，功能描述具体。",
+              "reason_en": "A specific Product Hunt launch with clear functionality.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/sideos-ai",
+              "title": "sideOS.ai 推出本地 AI，用于听写、会议和后台任务",
+              "summary": "Product Hunt 条目显示，sideOS.ai 推出本地 AI 工具，覆盖听写、会议、后台任务等用途。",
+              "title_en": "sideOS.ai",
+              "summary_en": "sideOS.ai has launched on Product Hunt, offering local AI for dictation, meetings, background tasks and other uses, according to its listing.",
+              "topic_evidence": "Local AI for dictation, meetings, background tasks and more",
+              "reason": "新产品发布，功能场景明确。",
+              "reason_en": "New product launch with specific use cases.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/river-writer",
+              "title": "River Writer 推出安静写作 Mac 应用，面向剧本与小说",
+              "summary": "Product Hunt 条目显示，River Writer 是一款安静的 Mac 写作应用，面向电影剧本、舞台剧和小说。",
+              "title_en": "River Writer",
+              "summary_en": "River Writer has launched on Product Hunt as a quiet Mac app for screenplays, stage plays and novels, according to its listing.",
+              "topic_evidence": "A quiet Mac app for screenplays, stage plays and novels",
+              "reason": "专注写作场景的新产品发布。",
+              "reason_en": "A new product launch focused on writing workflows.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels",
+              "title": "Daytona 估值达 10 亿美元，FirstMark 与多位天使投资人参投",
+              "summary": "智能体云创业公司 Daytona 称估值达到 10 亿美元，获 FirstMark 及 Stripe、Datadog 等公司创始人以天使身份支持。",
+              "title_en": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+              "summary_en": "Agent cloud startup Daytona says it has reached a $1B valuation, backed by FirstMark and angel investors including founders of Stripe, Datadog and other companies.",
+              "topic_evidence": "hits $1B valuation backed by FirstMark",
+              "reason": "明确的融资估值事件。",
+              "reason_en": "Clear funding and valuation event.",
+              "score": 4.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+              "title": "Warhound 融资 2 亿美元，用基因工程改造犬只并配备 Anduril 装备",
+              "summary": "Warhound 由 Ben Lamm 与 Palmer Luckey 打造，从隐身状态亮相，融资 2 亿美元，计划通过基因工程改造犬只，用于军事和执法。",
+              "title_en": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+              "summary_en": "Warhound, a venture from Ben Lamm and Palmer Luckey, has emerged from stealth with $200M to genetically engineer dogs for military and law enforcement and equip them with Anduril gear.",
+              "topic_evidence": "raises $200M to engineer war dogs",
+              "reason": "大额融资与新公司亮相。",
+              "reason_en": "Large funding round and company unveiling.",
+              "score": 2.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early",
+              "title": "Carta 与 NewView 合作，推动创业公司员工提前出售股份",
+              "summary": "Carta 与 NewView 建立合作，希望让要约收购交易更便利，鼓励更多创业公司允许员工提前变现股份。",
+              "title_en": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+              "summary_en": "Carta and NewView have partnered on a program intended to make tender offers easier and encourage more startups to let employees cash out shares early.",
+              "topic_evidence": "making it easier to transact tender offers",
+              "reason": "涉及创业公司股权流动性与交易安排。",
+              "reason_en": "Concerns startup equity liquidity and transaction arrangements.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say",
+              "title": "科技人士称创业公司快速增长的关键不是早期销售",
+              "summary": "在 TechCrunch Disrupt 上，Lovable 的 Luke Arno、Polsia 的 Ben Broca 和 Theory Ventures 的 Tomasz Tunguz 向创始人分享如何在最初 90 天实现销售成功。",
+              "title_en": "The secret to fast startup growth isn’t early sales, top names in tech say",
+              "summary_en": "At TechCrunch Disrupt, Lovable’s Luke Arno, Polsia’s Ben Broca and Theory Ventures’ Tomasz Tunguz gave founders tips on achieving sales success in the first 90 days.",
+              "topic_evidence": "tips on how to achieve true sales success in the first 90 days",
+              "reason": "面向创始人的增长与销售策略讨论。",
+              "reason_en": "Growth and sales strategy discussion for founders.",
+              "score": 6.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers",
+              "title": "创业公司不必靠病毒式传播赢得客户",
+              "summary": "在 TechCrunch Disrupt 上，两位创始人与一位风投讨论如何获得并留住早期关注者，而不是只追求病毒式传播。",
+              "title_en": "Startups don’t need to go viral to win customers",
+              "summary_en": "At TechCrunch Disrupt, two founders and a VC discussed how startups can gain an early following and keep it, rather than relying on going viral.",
+              "topic_evidence": "how to not just gain an early following but keep one",
+              "reason": "讨论客户获取与早期用户留存策略。",
+              "reason_en": "Discusses customer acquisition and early user retention strategy.",
+              "score": 5.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit",
+              "title": "风投与 Superhuman Mail 创始人谈产品市场契合的危险信号",
+              "summary": "Iconiq 和 Sapphire Ventures 的投资人以及 Superhuman Mail 创始人 Rahul Vohra 分享打造热门产品的做法与禁忌，重点谈产品市场契合。",
+              "title_en": "VCs, Superhuman Mail founder share red flags about product-market fit",
+              "summary_en": "Investors from Iconiq and Sapphire Ventures and Superhuman Mail founder Rahul Vohra shared do’s and don’ts for building hit products, focusing on product-market fit red flags.",
+              "topic_evidence": "red flags about product-market fit",
+              "reason": "产品市场契合与产品打造经验，属于创业策略。",
+              "reason_en": "Product-market fit and product-building lessons, fitting startup strategy.",
+              "score": 5.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+              "title": "伊朗战争直播：特朗普暗示可能周日对伊朗动武或达成协议",
+              "summary": "特朗普表示，美国正考虑最早于周日对伊朗发动袭击，也可能与德黑兰达成一项重大协议。",
+              "title_en": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+              "summary_en": "Trump said the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
+              "topic_evidence": "Trump says US is considering a possible attack on Iran as soon as Sunday",
+              "reason": "直接涉及美国对伊朗的军事决策与外交选项，属于地缘与安全核心动态。",
+              "reason_en": "Directly covers US military decision-making and diplomatic options toward Iran, core geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
+              "title": "美军增援力量前往中东，部分人员撤离，或指向对伊朗潜在打击",
+              "summary": "军事增援力量正前往中东，部分人员已离开该地区，显示可能对伊朗发动打击；同时数百万美国人已提前参加中期选举投票。",
+              "title_en": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+              "summary_en": "Military reinforcements are heading to the Middle East and some personnel have left, pointing to a potential attack on Iran, while millions of Americans have voted early in the midterms.",
+              "topic_evidence": "pointing to a potential attack on Iran",
+              "reason": "报道美军部署变化及其与对伊朗潜在打击的关联，属于地缘安全动态。",
+              "reason_en": "Reports changes in US military deployments and their link to a potential strike on Iran, a geopolitical security development.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran",
+              "title": "退役将军讨论美以可能袭击伊朗的计划",
+              "summary": "NPR采访退役四星上将约瑟夫·沃特尔，讨论伊朗战争以及美以在选举后潜在轰炸行动中的目标。",
+              "title_en": "Retired general discusses the U.S. and Israeli plan for possible attack on Iran",
+              "summary_en": "NPR spoke with retired four-star Gen. Joseph Votel about the war in Iran and US and Israeli objectives for a potential post-election bombing campaign.",
+              "topic_evidence": "the U.S. and Israeli plan for possible attack on Iran",
+              "reason": "涉及美以对伊朗潜在军事行动的目标与规划，直接属于地缘与安全。",
+              "reason_en": "Involves US and Israeli objectives and planning for a potential military campaign against Iran.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
+              "title": "鲁比奥告诉古巴人“现在是行动的时候”以推动政治变革",
+              "summary": "美国国务卿鲁比奥呼吁寻求政治变革的古巴人采取行动，称“现在是时候”；此前特朗普称美国军舰从伊朗返程时可能介入古巴。",
+              "title_en": "Rubio tells Cubans ‘now is the time’ to act to see political change",
+              "summary_en": "US Secretary of State Marco Rubio urged Cubans seeking political change to act, saying 'now is the time', after Trump said US warships could intervene in Cuba while returning from Iran.",
+              "topic_evidence": "Rubio urged Cubans seeking political change in their country to act, saying “now is the time”",
+              "reason": "涉及美国对古巴的政治干预信号及军舰部署表态，属于地缘与安全。",
+              "reason_en": "Covers US signals on political intervention in Cuba and remarks about warship deployments, a geopolitical security issue.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+              "title": "乌克兰称星链连接在网络限制后“现已稳定”",
+              "summary": "乌克兰表示，在经历一周影响其军事和无人机行动的星链连接降速后，相关连接现已恢复稳定。",
+              "title_en": "Ukraine says Starlink connection 'now stable' after network limits",
+              "summary_en": "Ukraine said its Starlink connections are now stable after a week of slowed service that affected military and drone operations.",
+              "topic_evidence": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week",
+              "reason": "星链连接影响乌克兰军事与无人机行动，涉及战时通信安全。",
+              "reason_en": "Starlink connectivity affected Ukraine's military and drone operations, relating to wartime communications security.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+              "title": "塞尔维亚选战胶着，学生运动把武契奇逼到最后",
+              "summary": "由近两年反腐败抗议中崛起的“学生名单”成为武契奇执政的最大挑战，塞尔维亚选举竞争胶着。",
+              "title_en": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+              "summary_en": "The Student List, emerging from nearly two years of anti-corruption protests, has become the biggest challenge to Vučić's rule in a neck-and-neck election.",
+              "topic_evidence": "form the biggest challenge to Vučić's rule",
+              "reason": "聚焦塞尔维亚选举与学生运动对现政府的具体挑战，属于政府与政策。",
+              "reason_en": "Focuses on Serbia's election and the student movement's concrete challenge to the incumbent government.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+              "title": "中期选举临近，白宫放宽部分加拿大商品关税",
+              "summary": "白宫宣布自10月30日起放宽部分加拿大商品关税，包括某些机械，同时对地毯等其他产品加征关税。",
+              "title_en": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+              "summary_en": "The White House will ease tariffs on some Canadian goods, including certain machinery, from 30 October, while placing tariffs on other products such as carpets.",
+              "topic_evidence": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets",
+              "reason": "涉及美国贸易政策调整及中期选举背景，属于政府与政策。",
+              "reason_en": "Involves US trade policy changes amid the midterm election context, fitting government and policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
+              "title": "巴西选举第二轮投票前夕，超百万卢拉支持者集会",
+              "summary": "巴西总统选举第二轮投票前夕，超过一百万卢拉支持者在里约热内卢集会，约1.59亿选民将在周日投票。",
+              "title_en": "More than one million Lula supporters rally on eve of Brazilian election runoff",
+              "summary_en": "More than one million supporters of Brazil's leftwing President Luiz Inácio Lula da Silva rallied in Rio on the eve of the runoff, with nearly 159 million voters due to cast ballots Sunday.",
+              "topic_evidence": "More than one million supporters of Brazil’s leftwing president",
+              "reason": "报道巴西总统选举决胜轮前的关键竞选活动，属于政府与政策。",
+              "reason_en": "Reports a key campaign event on the eve of Brazil's presidential runoff, fitting government and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
+              "title": "以色列关键选举前爆发反内塔尼亚胡大规模集会",
+              "summary": "数千名以色列人在周二关键选举前集会反对总理本雅明·内塔尼亚胡，表达对其执政的不满。",
+              "title_en": "Mass rally against Netanyahu ahead of pivotal Israeli election",
+              "summary_en": "Thousands of Israelis rallied against Prime Minister Benjamin Netanyahu ahead of Tuesday's pivotal election, voicing opposition to his leadership.",
+              "topic_evidence": "Thousands of Israelis rallied against PM Benjamin Netanyahu ahead of elections on Tuesday",
+              "reason": "涉及以色列关键选举前的群众动员与政治竞争，属于政府与政策。",
+              "reason_en": "Covers mass mobilization and political competition before Israel's pivotal election.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+              "title": "保加利亚在俄乌战争阴影下举行总统选举",
+              "summary": "保加利亚举行总统选举，两名领先候选人都谴责近期黑海致命无人机袭击，但在乌克兰战争整体立场上存在分歧。",
+              "title_en": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+              "summary_en": "Bulgarians are voting for president amid Russia's war in Ukraine; the two leading candidates condemned recent deadly Black Sea drone strikes but differ on the wider war.",
+              "topic_evidence": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly",
+              "reason": "报道保加利亚总统选举及其与俄乌战争立场的关联，属于政府与政策。",
+              "reason_en": "Reports Bulgaria's presidential election and its link to positions on the Russia-Ukraine war.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+              "title": "肯尼亚一名65岁女性成为第二例埃博拉死亡病例",
+              "summary": "肯尼亚一名65岁女性死于埃博拉，成为该国第二例死亡病例；她是首例病例的密切家庭成员，该男子曾从刚果民主共和国旅行而来。",
+              "title_en": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+              "summary_en": "A 65-year-old woman in Kenya has died of Ebola, the second fatality, after being a close family member of the first victim who had travelled from the Democratic Republic of Congo.",
+              "topic_evidence": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+              "reason": "涉及肯尼亚埃博拉疫情与跨境传播，属于全球社会健康议题。",
+              "reason_en": "Covers the Ebola outbreak in Kenya and cross-border transmission, a global health and society issue.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+              "title": "法国大规模抗议再起冲突，近千人被捕",
+              "summary": "法国数十万人参加示威，抗议活动也蔓延至其他欧洲国家；在又一天的冲突后，近1000人被捕。",
+              "title_en": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+              "summary_en": "Hundreds of thousands demonstrated in France, with protests also held in other European countries, and almost 1,000 people were arrested after clashes.",
+              "topic_evidence": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+              "reason": "报道法国及欧洲多国大规模抗议与拘捕情况，属于全球社会动态。",
+              "reason_en": "Reports mass protests and arrests in France and other European countries, a global society development.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+              "title": "靳伟任中共湖南省委副书记",
+              "summary": "中共中央批准：靳伟任中共湖南省委委员、常委、副书记。该人事任命于10月25日公布，涉及湖南省委领导班子。",
+              "title_en": "Jin Wei Appointed Deputy Secretary of Hunan Provincial Party Committee",
+              "summary_en": "China's Communist Party Central Committee approved Jin Wei's appointment as a member, standing committee member and deputy secretary of the Hunan Provincial Party Committee, according to an announcement on Oct 25.",
+              "topic_evidence": "靳伟同志任中共湖南省委委员、常委、副书记",
+              "reason": "省级党委领导班子人事任免，属时政与政策监管动态。",
+              "reason_en": "A provincial Party leadership appointment, fitting the policy and regulation subsection.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720536.shtml",
+              "title": "2027年国考报名截止 热门岗位竞争超6000:1",
+              "summary": "2027年国家公务员考试报名10月24日截止，报名热度持续攀升，热门岗位竞争超过6000:1。",
+              "title_en": "Registration for China's 2027 National Civil Service Exam Closes With 6,000:1 Competition for Popular Posts",
+              "summary_en": "Registration for China's 2027 national civil service exam closed on Oct 24, with competition for a popular position exceeding 6,000 to 1 as application enthusiasm remained high.",
+              "topic_evidence": "热门岗位竞争超6000：1",
+              "reason": "国考报名竞争数据反映公共部门招录动态，适合政策与监管版块。",
+              "reason_en": "Civil service exam competition data reflects public-sector recruitment trends, suitable for policy and regulation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720584.shtml",
+              "title": "纪念台湾光复81周年座谈会在福州举行",
+              "summary": "10月25日台湾光复81周年纪念日当天，纪念座谈会在福建福州举行；该日也是国家依法设立台湾光复纪念日一周年。",
+              "title_en": "Symposium Marking 81st Anniversary of Taiwan's Retrocession Held in Fuzhou",
+              "summary_en": "A symposium marking the 81st anniversary of Taiwan's retrocession was held in Fuzhou, Fujian, on Oct 25, which also marks one year since the commemorative day was established by law.",
+              "topic_evidence": "纪念台湾光复81周年座谈会在福建福州举行",
+              "reason": "官方纪念活动具时政属性，归入政策与监管版块。",
+              "reason_en": "An official commemorative event with political significance, fitting policy and regulation.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720609.shtml",
+              "title": "我国成功发射卫星互联网低轨28组卫星",
+              "summary": "10月25日10时03分，我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨28组卫星送入预定轨道。",
+              "title_en": "China Launches 28th Batch of Low-Orbit Satellites for Internet Constellation",
+              "summary_en": "China launched the 28th batch of low-orbit satellites for its satellite internet constellation on Oct 25 from Hainan Commercial Spaceport using a Long March 8A rocket.",
+              "topic_evidence": "成功将卫星互联网低轨28组卫星发射升空",
+              "reason": "航天发射属国家科技与产业进展，归入产业与地方版块。",
+              "reason_en": "A space launch reflecting national technology and industry progress, fitting industry and local affairs.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720570.shtml",
+              "title": "山西太原人才智力交流大会线上线下揽才 达成初步就业意向逾6000人次",
+              "summary": "2026山西·太原人才智力交流大会10月24日启幕，采取省市联动、线上线下结合方式，围绕产业布局招才引智，达成初步就业意向逾6000人次。",
+              "title_en": "Taiyuan Talent Conference Generates Over 6,000 Preliminary Job Intentions",
+              "summary_en": "The 2026 Shanxi Taiyuan talent exchange conference opened on Oct 24, combining online and offline recruitment and generating more than 6,000 preliminary job intentions.",
+              "topic_evidence": "达成初步就业意向逾6000人次",
+              "reason": "地方人才招引活动直接服务产业布局，归入产业与地方版块。",
+              "reason_en": "A local talent recruitment event serving industrial development, fitting industry and local affairs.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720617.shtml",
+              "title": "新疆图木舒克：盐碱戈壁发展渔业养殖 产业富民带动就业",
+              "summary": "新疆图木舒克市永安湖万亩渔业养殖基地利用昆仑山融雪水养鱼，鲻鱼平均长到约两公斤，昔日盐碱戈壁转为产业富民项目。",
+              "title_en": "Xinjiang's Tumxuk Turns Saline Land Into Fishery Base to Boost Local Income",
+              "summary_en": "A fishery base at Yong'an Lake in Tumxuk, Xinjiang, is using Kunlun snowmelt to raise mullet, turning saline land into an industry that supports local incomes.",
+              "topic_evidence": "万亩渔业养殖基地",
+              "reason": "地方盐碱地渔业养殖是产业富民案例，归入产业与地方版块。",
+              "reason_en": "A local fishery project on saline land illustrates industry-driven income growth, fitting industry and local affairs.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720564.shtml",
+              "title": "2026世界青年科学家峰会在温州开幕 聚焦AI时代青年行动",
+              "summary": "2026世界青年科学家峰会10月24日在浙江温州开幕，来自60多个国家和地区近800名代表参会，围绕“AI时代的全球青年行动”对话。",
+              "title_en": "2026 World Young Scientists Summit Opens in Wenzhou, Focuses on AI-Era Youth Action",
+              "summary_en": "The 2026 World Young Scientists Summit opened in Wenzhou, Zhejiang, on Oct 24, with nearly 800 participants from over 60 countries discussing AI-era global youth action.",
+              "topic_evidence": "围绕“AI时代的全球青年行动”展开对话",
+              "reason": "地方举办的国际科学峰会，涉及AI议题，归入产业与地方版块。",
+              "reason_en": "An international science summit hosted locally with an AI focus, fitting industry and local affairs.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720576.shtml",
+              "title": "西藏巴青7.0级地震后 拉萨车站启动应急预案保障旅客出行",
+              "summary": "10月22日巴青县7.0级地震影响青藏铁路格尔木至拉萨段部分区段，拉萨车站启动旅客应急处置预案，对相关列车临时停运、晚点并保障旅客安全出行。",
+              "title_en": "Lhasa Railway Station Activates Emergency Plan After Tibet Earthquake",
+              "summary_en": "After a magnitude-7.0 earthquake in Baqing, Tibet, Lhasa railway station activated an emergency passenger plan, suspending or delaying trains on affected sections of the Qinghai-Tibet railway.",
+              "topic_evidence": "拉萨车站第一时间启动旅客应急处置预案",
+              "reason": "地震后铁路客运应急处置，属社会公共服务，归入社会与法治版块。",
+              "reason_en": "Emergency rail passenger response after an earthquake, fitting society and law.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720574.shtml",
+              "title": "广西马山通报水柜内多只猴子溺亡：系下山饮水不慎，已增设逃生通道",
+              "summary": "广西南宁马山县林业局10月25日通报，加方乡民治村一农业灌溉水柜内发现多只猴子溺亡，初核系猴群下山饮水不慎，已打捞消杀并增设逃生通道。",
+              "title_en": "Guangxi's Mashan Reports Monkeys Drowned in Irrigation Tank, Adds Escape Routes",
+              "summary_en": "Mashan county in Guangxi reported that several monkeys drowned in an irrigation tank after coming down to drink; authorities retrieved the animals, disinfected the site and added escape routes.",
+              "topic_evidence": "系猴群下山饮水时不慎溺亡",
+              "reason": "野生动物溺亡及处置属社会与生态管理，归入社会与法治版块。",
+              "reason_en": "Wildlife deaths and response measures involve social and ecological management, fitting society and law.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720575.shtml",
+              "title": "西藏巴青地震灾区安置推进：配发取暖炉具、搭建活动板房",
+              "summary": "巴青县7.0级地震后，受灾民众陆续转移安置，取暖炉具陆续配发、活动板房加紧搭建，安置保障从“安全过夜”向“住得暖”推进。",
+              "title_en": "Tibet Earthquake Resettlement Moves From Safe Shelter to Warmer Housing",
+              "summary_en": "In Baqing county, Tibet, after the magnitude-7.0 earthquake, displaced residents are receiving heating stoves and prefabricated housing as resettlement moves from safe overnight stays to warmer conditions.",
+              "topic_evidence": "从“安全过夜”向“住得暖”推进",
+              "reason": "震后安置保障属灾害救援与社会民生，归入社会与法治版块。",
+              "reason_en": "Post-earthquake resettlement and relief relate to disaster response and social welfare, fitting society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720555.shtml",
+              "title": "山西晋中祖孙俩坠入10米深水池 消防紧急营救",
+              "summary": "10月24日下午，山西晋中太谷区姥爷和外孙女因盖板突然坍塌坠入积水约10米深的水池，两人均被当地消防救援人员救起。",
+              "title_en": "Grandfather and Granddaughter Rescued After Falling Into 10-Meter Water Tank in Shanxi",
+              "summary_en": "A grandfather and his granddaughter fell into a 10-meter-deep water tank in Taigu, Shanxi, after a cover collapsed on Oct 24; both were rescued by local firefighters.",
+              "topic_evidence": "祖孙俩坠入10米深水池 消防快速营救",
+              "reason": "消防救援事件属社会与法治版块。",
+              "reason_en": "A fire and rescue incident, fitting society and law.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+              "title": "拥抱债券市场：与罗宾·威格尔斯沃思谈商业大师课",
+              "summary": "彭博《商业大师》对话《金融时报》Alphaville编辑罗宾·威格尔斯沃思，讨论债券市场如何成为全球经济引擎，以及30年期抵押贷款为何被称为现代奇迹。",
+              "title_en": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+              "summary_en": "Bloomberg's Masters in Business speaks with Robin Wigglesworth, editor of the FT's Alphaville, about the bond market as the engine of the global economy and why the 30-year mortgage is called a modern miracle.",
+              "topic_evidence": "the bond market as the engine of the global economy",
+              "reason": "直接讨论债券市场在全球经济中的作用，符合市场与资产版块。",
+              "reason_en": "Directly discusses the bond market's role in the global economy, fitting the markets and assets subsection.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+              "title": "风险最高债券现“全面崩盘”震动市场：信贷周报",
+              "summary": "彭博信贷周报以一名基金经理清晨5点收到“全面崩盘”消息开篇，报道风险最高债券市场的动荡如何令市场不安。",
+              "title_en": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+              "summary_en": "Bloomberg's Credit Weekly opens with a fund manager woken at 5 a.m. by a 'Total meltdown' message, reporting how turmoil in the riskiest debt unnerved the market.",
+              "topic_evidence": "Total meltdown.",
+              "reason": "聚焦高风险债券市场动荡，属于市场与资产版块。",
+              "reason_en": "Focuses on turmoil in the riskiest debt market, relevant to markets and assets.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+              "title": "金属交易商连续第二年录得创纪录利润，收获丰厚",
+              "summary": "金属交易商连续第二年大赚数十亿美元，几家顶级贸易公司录得创纪录利润，行业迎来又一个大丰收年。",
+              "title_en": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+              "summary_en": "Metals traders are earning billions of dollars in a second consecutive blowout year, with several top trading houses posting record profits, Bloomberg reports.",
+              "topic_evidence": "Metals traders are earning billions of dollars in a second consecutive blowout year",
+              "reason": "报道金属交易商连续第二年创纪录盈利，属于市场与资产版块。",
+              "reason_en": "Reports record profits for metals traders for a second consecutive year, fitting markets and assets.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
+              "title": "戴尔莫尔据称有意收购Cinven旗下英国供应商JLA",
+              "summary": "知情人士称，Dalmore Capital有意从私募股权公司Cinven手中收购英国商用设备供应商及服务商JLA集团，目前只是表达兴趣。",
+              "title_en": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
+              "summary_en": "Dalmore Capital is among parties interested in acquiring UK commercial equipment supplier JLA Group from buyout firm Cinven, according to people familiar with the matter.",
+              "topic_evidence": "expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group",
+              "reason": "涉及潜在并购交易，符合市场与资产版块。",
+              "reason_en": "Involves a potential acquisition, relevant to markets and assets.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-24/fed-set-to-lead-g7-trio-in-hawkish-rate-pause-eco-week-ahead",
+              "title": "美联储料领衔G7三家央行鹰派式按兵不动：经济周前瞻",
+              "summary": "彭博经济展望称，美联储、欧元区和日本央行下周可能维持利率不变，选择观望一段时间，再决定是否进一步加息。",
+              "title_en": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead",
+              "summary_en": "The Federal Reserve, the euro zone and Japan are expected to hold interest rates steady next week, opting to wait before any further hikes, Bloomberg Economics says.",
+              "topic_evidence": "keep interest rates steady in the coming week",
+              "reason": "直接涉及美联储及主要央行利率路径，属于宏观与政策版块。",
+              "reason_en": "Directly covers the Fed and major central banks' rate path, fitting macro and policy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-24/world-economy-latest-euro-area-business-activity-cools-on-weakness-in-france",
+              "title": "世界经济最新：欧元区商业活动因法国疲弱而降温",
+              "summary": "欧元区本月商业活动扩张步伐放缓，受法国收缩拖累；法国抗议活动已演变为骚乱和抢劫。",
+              "title_en": "World Economy Latest: Euro Area Business Activity Cools on Weakness in France",
+              "summary_en": "Euro-area business activity expanded at a slower pace this month, held back by a contraction in France, where protests have turned into rioting and looting.",
+              "topic_evidence": "Business activity in the euro area expanded at a slower pace this month",
+              "reason": "报道欧元区商业活动与法国经济拖累，属于宏观与政策版块。",
+              "reason_en": "Covers euro-area business activity and the French drag, fitting macro and policy.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+              "title": "美国证交会公布2027财年检查重点",
+              "summary": "美国证交会宣布检查部门2027财年检查重点，年度报告列出合规与防范欺诈等关键关注领域。",
+              "title_en": "SEC Announces Fiscal Year 2027 Examination Priorities",
+              "summary_en": "The SEC announced the Division of Examinations' fiscal year 2027 priorities, identifying key focus areas as it works to promote compliance and prevent fraud.",
+              "topic_evidence": "announced the Division of Examinations’ Fiscal Year 2027 examination priorities",
+              "reason": "直接涉及证券监管检查重点，属于理财与监管版块。",
+              "reason_en": "Directly covers SEC examination priorities, fitting wealth and regulation.",
+              "score": 3.7
+            },
+            {
+              "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+              "title": "美国年轻人放弃拥车：对部分人而言是通往财务自由之路",
+              "summary": "随着车价高企、拥车愈发难以负担，一些美国年轻人发现无车生活反而留出开支空间，把这视为改善财务状况的途径。",
+              "title_en": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+              "summary_en": "With vehicle prices soaring and ownership increasingly out of reach, some young Americans say life without a car gives them breathing room to spend on other priorities.",
+              "topic_evidence": "life without a car leaves them with breathing room to spend on other things",
+              "reason": "讨论年轻人因拥车成本高而调整个人财务，属于理财与监管版块。",
+              "reason_en": "Discusses how high car costs are reshaping young adults' personal finances, fitting wealth and regulation.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://danluu.com/ambitious",
+              "title": "我们应当对构建的软件更有野心",
+              "summary": "文章主张软件开发应设定更高目标、提升抱负；该文在Hacker News获得270分和231条评论，引发技术社区讨论。",
+              "title_en": "We Should Be More Ambitious With the Software We Build",
+              "summary_en": "An essay argues that software builders should aim higher and be more ambitious; its Hacker News submission drew 270 points and 231 comments.",
+              "topic_evidence": "We should be more ambitious with the software we build",
+              "reason": "直接讨论软件开发抱负，属于技术观点类评论；HN讨论活跃。",
+              "reason_en": "A direct commentary on ambition in software development; fits tech opinion and had active HN discussion.",
+              "score": 9.0
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+              "title": "美国媒体、电影与艺术行业流失20万个岗位，AI影响几何？",
+              "summary": "文章讨论美国媒体、电影和艺术行业约20万个岗位流失，并追问人工智能在其中起了多大作用；该HN条目获得247分、254条评论。",
+              "title_en": "America Has Lost 200k Jobs in Media, Film and the Arts. How Much Is AI?",
+              "summary_en": "The article examines the loss of about 200,000 U.S. jobs in media, film and the arts and asks how much AI contributed; its Hacker News submission drew 247 points and 254 comments.",
+              "topic_evidence": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+              "reason": "以具体就业数据讨论AI对创意产业的冲击，属于商业与社会评论；HN互动较多。",
+              "reason_en": "Uses specific job-loss figures to discuss AI's impact on creative industries; fits business and society commentary and drew substantial HN engagement.",
+              "score": 9.2
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://stealmybitcoin.com/",
+              "title": "Show HN：偷走我的比特币",
+              "summary": "作者称制作该站点，想看看是否有人能实际利用这个PHP RCE；标题邀请访问者“偷走我的比特币”。该HN条目获得438分、264条评论。",
+              "title_en": "Show HN: Steal My Bitcoin",
+              "summary_en": "The author says the site asks whether anyone can actually exploit this PHP RCE; the title invites visitors to \"Steal My Bitcoin.\" The HN post drew 438 points and 264 comments.",
+              "topic_evidence": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE",
+              "reason": "属于HN社区挑战与讨论，评论活跃；只报告标题、挑战描述和讨论指标。",
+              "reason_en": "An HN community challenge with active comments; reports only the title, challenge description and discussion metrics.",
+              "score": 8.5
+            },
+            {
+              "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+              "title": "我不理解量子物理（2018）",
+              "summary": "一篇2018年的文章以“我不理解量子物理”为题，表达对量子物理的困惑；该HN条目获得290分、234条评论。",
+              "title_en": "I Don't Understand Quantum Physics (2018)",
+              "summary_en": "A 2018 article titled \"I Don't Understand Quantum Physics\" expresses confusion about quantum physics; its Hacker News submission drew 290 points and 234 comments.",
+              "topic_evidence": "I don't understand quantum physics (2018)",
+              "reason": "作为HN上的文章与讨论条目，评论数较高；不补充原文未给出的论证结论。",
+              "reason_en": "An article and HN discussion thread with many comments; avoids inferring arguments not provided.",
+              "score": 8.2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+      "original_title": "Introducing Kimi K3.1 Pro",
+      "original_summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others. Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58). This is the first time a (soon-to-be) open weight model has scored this highly against the frontier. I tried it out via the Moonshot API using the llm openai endpoint command I added to LLM 0.32 back in August: llm openai endpoint \\ https://api.moonshot.ai/v1 \\ --key kimi \\ -m kimi-k3.1-pro \\ \"Generate an SVG of a pelican riding a bicycle\" \\ --responses \\ -o reasoning_effort low \\ > kimi-k3.1-pro-pelican-low.stdout.txt \\ 2> kimi-k3.1-pro-pelican-low.stderr.txt llm openai endpoint can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace). Here are the pelicans I got for Kimi K3.1 Pro on the three reasoning levels it supports - low, medium, and max. This is max: For comparison, I ran fresh pelicans against Kimi K3 on those three reasoning levels. Via Hacker News Tags: ai , generative-ai , llms , llm , llm-pricing , pelican-riding-a-bicycle , llm-release , ai-in-china , moonshot , kimi",
+      "topic_evidence": "Kimi K3.1 Pro landed on the Kimi API today",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "openai"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+      "original_title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "original_summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "topic_evidence": "OpenAI will cut frontier models off from the internet",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "openai"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+      "original_title": "Block’s new voice model sounds eerily human",
+      "original_summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "topic_evidence": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "original_title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "original_summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "topic_evidence": "agents to log into a customer's personal accounts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "original_title": "Canva releases its first image generation model",
+      "original_summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "topic_evidence": "Canva is making its new image model available to all users",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/decisions-api",
+      "original_title": "Build more responsive apps with the Decisions API",
+      "original_summary": "Fast, focused, low-cost decisions for any application.",
+      "topic_evidence": "Fast, focused, low-cost decisions for any application.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+      "original_title": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway",
+      "original_summary": "Kimi K3.1 Pro from Moonshot AI is now available on AI Gateway, along with Kimi K3.1 Pro Highspeed, a faster version for interactive use.K3.1 Pro is the first model in Moonshot's K3.1 series. It builds on Kimi K3 with improvements in coding, 3D modeling, financial analysis, and agentic tasks, and keeps the 1M-token context window and image input.For coding, K3.1 Pro handles work ranging from small fixes in an existing codebase to building a full project, including long agent runs with many steps. It builds front-end pages and interactive scenes with stronger typography and animation than earlier Kimi models. In finance, it can carry a task from start to finish, such as building a linked financial model with adjustable assumptions and scenarios, or writing research grounded in source documents. K3.1 Pro makes fewer factual errors than earlier Kimi models on difficult prompts.Moonshot AI plans to release the model weights by November 4: support for more providers will follow.Call either model through the AI SDK, the Chat Completions, Responses, and Anthropic Messages APIs, or a coding agent connected to AI Gateway. For Highspeed, use moonshotai/kimi-k3.1-pro-highspeed in place of the model name below.Use moonshotai/kimi-k3.1-pro as the model name:To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup:Then select moonshotai/kimi-k3.1-pro or moonshotai/kimi-k3.1-pro-highspeed in the agent. See the coding agents guide for details.Try Kimi K3.1 Pro in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.You can view all language models available on AI Gateway. Read more",
+      "topic_evidence": "Kimi K3.1 Pro from Moonshot AI is now available on AI Gateway",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+      "original_title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "original_summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "topic_evidence": "Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "original_title": "Securing our frontier model training environment",
+      "original_summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "topic_evidence": "offline environments and high-compute red-teaming",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "original_title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "original_summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "topic_evidence": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "original_title": "Donating Agent Skills to the Agentic AI Foundation",
+      "original_summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+      "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "original_title": "Left alone with nothing to do, AI agents started playing",
+      "original_summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "topic_evidence": "MIT researchers marooned 13 AIs on a virtual island",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+      "original_title": "Send feedback from the Vercel CLI",
+      "original_summary": "The Vercel CLI now includes vercel feedback, which sends bugs, friction reports, and feature requests to the Vercel team from your terminal.Coding agents can also send feedback when they run into issues. Use vercel feedback with -f or --field to include structured context as key=value pairs. Repeat the flag to describe the task, expected behavior, and what went wrong.Update to the latest Vercel CLI and read the vercel feedback documentation to get started. Read more",
+      "topic_evidence": "The Vercel CLI now includes vercel feedback",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "original_title": "Roku developer repositories moved from GitHub to GitLab",
+      "original_summary": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?id=50222622 Points: 273 # Comments: 186",
+      "topic_evidence": "Roku developer repositories moved from GitHub to GitLab",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+      "original_title": "Vercel CLI adds Spend Management",
+      "original_summary": "You can now view and manage your team's Spend Management budget from the Vercel CLI. Run vercel budgets and you, or the scripts and agents you run, get back your current spend and the active budget.View, set, and remove a budgetThis is the same On-Demand Budget shown in your team's billing settings. Setting a budget does not stop usage on its own. The --pause flag pauses production deployments of all projects when spend reaches 100%.List budget alert historyYou can now see your budget alert history. Run vercel budgets alerts for the full log, filtered with --since, --until, --limit, and --json. A bare vercel budgets prints the three most recent alerts.Managing budgets requires the Owner or Billing role. Spend Management is available at no additional cost to Pro teams and to Enterprise teams on the Flexible Commitment plan.Full reference now available in the vercel budgets CLI reference. Read more about Spend Management. Read more",
+      "topic_evidence": "You can now view and manage your team's Spend Management budget from the Vercel CLI",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+      "original_title": "Send feedback from the Vercel MCP",
+      "original_summary": "Vercel MCP now includes submit_feedback, a tool for sending bug reports, friction reports, and feature requests directly to the Vercel team from your agent or harness.Ask your agent to give feedback in plain language: Send Vercel feedback that the deployment error didn't explain which environment variable was missing.Your assistant can attach structured context that describes the task, the expected behavior, and what went wrong:The tool requires sign-in, and it sends feedback only when you ask your agent to share it.Connect your agent to Vercel MCP and read the submit_feedback documentation to get started. Read more",
+      "topic_evidence": "Vercel MCP now includes submit_feedback",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+      "original_title": "How Interfaze serves 50 million requests a month on Vercel",
+      "original_summary": "Interfaze on Vercel50 million requests a month Backend running on Fluid computeMultiple model providers behind one fallback layer with AI GatewayInterfaze builds models for deterministic work that general-purpose LLMs handle poorly: document processing, OCR, object detection, web scraping, speech to text, and classification.As founder Yoeven Khemlani puts it, \"Most models aren't deterministic by nature. That's fine when you're drafting an essay. But when a hospital or a legal team needs to process documents, you don't reach for an LLM.\" Ask an LLM for the total on an invoice and you get a number with no easy way to check where it came from. Interfaze's models return the number along with a bounding box showing where on the page it came from and a confidence score for how sure the model is. Every result can be checked, and the models still take prompts the way an LLM does.Everything around Interfaze's models runs on Vercel, including the backend. That spans the API serving 50 million requests a month, the sandbox that executes code the model writes, and the routing that keeps data preprocessing running when a third-party model provider goes down.The backend required no infrastructure workInterfaze's frontend and backend both run on Vercel. The backend handles every request to Interfaze's API, whether a customer is calling the model or uploading a file. All of it runs as serverless functions in the same codebase as the frontend. When a request needs computation, the model hands the code to Vercel Sandbox, which runs it in isolation. There was no separate infrastructure to set up.Fluid compute handles the heavy jobsScalability was Yoeven's top requirement. The goal is serving the model to millions of users, and Fluid compute scales with traffic on its own. Heavier work runs there too. Vercel's memory and timeout limits are high enough that Interfaze's web scraping, which runs on Puppeteer, works out of the box.AI Gateway makes model routing reliable at scaleInterfaze pushes large volumes of data cleaning through open source models hosted by third-party providers. A single provider is a weak link. Providers hit rate limits or go down, and when one does, the cleaning stops unless traffic moves somewhere else.The providers are also not interchangeable. Two of them can claim to host the same open source model and serve it at very different quality.When a provider fails or throttles, AI Gateway fails requests over to the next provider automatically. It also lets Interfaze choose which provider serves a given model, so the team can run the same workload through each one, see which performs well, and send traffic there.Workflow SDK runs email sequences over monthsInterfaze runs its lifecycle email system on the Workflow SDK, with sends conditioned on product usage. The system tracks which API a customer called, at what volume, and how that compares against their first week. Retries are handled automatically, so one failed step doesn't take down the sequence.The part Interfaze needed most was durable execution. A workflow can pause a step and pick it back up months later with its state intact, which the team found other systems could not do for long.Preview deployments carry new model versions to customersInterfaze runs more than one version of its model at a time, each at its own URL. When an error comes in, the team has to know which version produced the error before they can fix anything. On Vercel every URL is its own deployment with its own logs, so the error is already filed under the version that caused it. There was no separate logging vendor to set up.Those same preview URLs are how a new model version gets to customers before it ships. The Vercel side of a release builds in about three minutes. Hosting the weights on GPUs is the slow part.What's nextInterfaze recently released Interfaze 1 Lite, an open-weight version of its model that runs on a single GPU and is served through the same API. Next is a gateway for web search, one API that routes to whichever search provider a developer picks, the way AI Gateway does for models. It launches on the same Vercel backend as everything else.About Interfaze: Interfaze builds models for deterministic tasks, including OCR, object detection, web scraping, speech to text, and classification. Its customers are engineering teams in legal, healthcare, and finance. Read more",
+      "topic_evidence": "50 million requests a month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "infrastructure",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+      "original_title": "How Vercel Agent accesses production safely",
+      "original_summary": "An agent working on production systems needs permission to act. A request like “fix this deployment” doesn’t tell you upfront which actions it will take or what access it will need. Grant agents broad access and a mistake can affect unrelated resources. Ask for approval at every step and the user has to approve individual actions before they know how the agent intends to solve the problem. Repeated prompts can turn that review into a habit of clicking approve.Vercel Agent starts by investigating the problem, then proposes a plan showing what it would do and what access it would need. Approving that plan grants the additional permissions to carry it out, so the user can review the proposed fix before authorizing any changes.The plan determines the permissionsFor a broken production deployment, Vercel Agent might inspect recent deployments and build logs, then compare the failed deployment with the last known-good one. Read-only access lets that investigation run automatically. If it leads to a proposed redeploy, Vercel Agent requests the additional access in a plan the user can review and approve in one decision.Access is defined by scopes, the named capabilities recognized by the Vercel authorization system. Any plan requesting access beyond the read-only baseline waits for approval as a whole, including any read-only tasks it contains. In this example, the investigation runs under a separate read-only plan before Vercel Agent proposes the redeploy:PlanWorkRequested scopeInvestigate the failureInspect recent deployments and build logs, then compare the failed deployment with the last successful oneread:deploymentRedeploy the last known-good buildCreate a deploymentread-write:deploymentA short read-only lookup can run without a plan. For longer investigations, Vercel Agent creates a read-only plan so the user can follow its tasks and progress while it runs automatically.The plan connects what the user wants done to what Vercel Agent is allowed to do:Intent: The outcome the user asks for.Work: The tasks Vercel Agent proposes to achieve it.Access: The scopes those tasks require.Enforcement: The credentials and API checks that enforce access limits.Each stored plan records its tasks and progress, with requested scopes attached to each task. The task descriptions explain why access is needed, and the scopes are combined across the plan.The read-only baseline currently includes every registered scope beginning with read:. Plans need approval when they request access beyond that baseline or include supported external actions, such as opening a GitHub pull request. Read-only operations can still expose sensitive information, so automatic approval does not mean the work is harmless.Vercel Agent can only use permissions the user already hasVercel Agent runs as a Vercel App, which the user authorizes to act on their behalf within a team. That authorization is limited by the user’s existing permissions, so approving a plan cannot grant access the user does not have.The Vercel OAuth service exchanges that authorization for shorter-lived tokens with specific scopes. These scopes define which capabilities the token permits, such as reading deployments or changing project settings. Vercel APIs check the token on each request to enforce those limits.A user may authorize Vercel Agent for a team with dozens of projects. A redeploy plan requests deployment write access. Editing environment variables, changing domains, and managing team membership each require their own permissions.Deployment write access is broader than a single redeploy. Naming deployment X in a plan does not, by itself, restrict the token to that deployment. The runtime, the software that coordinates Vercel Agent’s execution, checks that the plan is active before selecting its approved credential. Vercel APIs check each request against that credential’s permissions.Approval determines which permissions Vercel Agent can useWhen a user approves a plan that needs additional Vercel access, its requested scopes are checked again and a token is prepared containing the read-only baseline plus the approved permissions. The runtime, the software that coordinates Vercel Agent’s execution, checks that the plan is active before selecting its approved credential. That credential remains subject to its scopes, team, the user’s permissions, and expiry.The credential used depends on the work:WorkCredentialRead-only investigationA baseline token with read-only scopesApproved Vercel changesA token with baseline scopes plus the approved additional scopesExternal actionsCredentials and permissions specific to that providerThe model’s instructions tell it when to propose a plan and request approval. If it attempts an operation outside the token’s permissions, Vercel APIs reject the request, even if the model considers the action necessary to complete the task.A single plan can include Vercel changes and a GitHub pull request. The user reviews both in one plan, while each provider uses separate permissions and credentials. GitHub pull-request access is tied to an owner and repository, so approval to open a pull request in acme/storefront applies to that repository even if the user also has access to acme/payments. Opening a pull request there requires its own approval.Plans and tokens use the same permission definitionsA proposed plan can request a permission that has been renamed or removed. We initially maintained a separate permission list for Vercel Agent, which could fall out of sync with the OAuth service that issues its tokens. We moved to the same scope definitions so those mismatches could be caught during planning.At session setup, Vercel Agent loads those definitions from the Vercel scope registry into an in-memory catalog. Fetching the registry requires authorization for the team, while the scope definitions themselves are shared across teams. The catalog supplies the definitions used at three stages:Plan validation: Requested scopes are normalized, and unknown or malformed names are rejected before the plan is stored or presented for approval.Approval: The requested scopes determine whether the plan fits within the read-only baseline or needs additional access.Token preparation: Valid scopes define the credentials for approved work.For example, a task to update firewall rules might request an outdated scope. The system rejects the proposed plan and returns valid scopes so Vercel Agent can correct it before requesting approval. This catches the mismatch during planning and requires an explicit correction instead of a fallback to broader access.Fetching the registry adds latency and a service dependency, so Vercel Agent caches the catalog and uses that copy to check stored plans when they are loaded. Those checks reflect the cached definitions until the catalog is refreshed with changes from the registry.Resuming work requires an active, approved planVercel Agent may receive approval after the original chat request has ended, or lose its connection before carrying out an approved redeploy. The stored plan includes its state, who approved it, and when, alongside its tasks and requested permissions. That record connects the proposed work to the access the user authorized and allows the approval to be checked when work resumes.Before resuming, the runtime reloads the plan and checks that it is active before selecting a credential with its approved permissions. A stopped plan fails that check, even if its token has time remaining before expiry.If approval and a request to stop arrive together, the plan can move from waiting for approval to active only if the stop has not already changed its status. The runtime then checks again that the plan is active before using the approved credential.If the investigation reveals that the current plan needs replacing, Vercel Agent can propose another. A replacement requesting elevated access needs its own approval, giving the user a chance to review the revised work and permissions together.Where permissions need more precisionAs Vercel Agent reached more of the platform, we had to correct access rules for actions that involve multiple resources or have different consequences. Attaching a domain can require both domain and project permissions, while staging a firewall rule and publishing it need different levels of access. Scopes need to capture these distinctions while keeping each plan’s access request manageable.Matching those scopes to a proposed fix requires care throughout planning:Choosing scopes: Vercel Agent chooses scopes with incomplete information, so it can request too little access and leave a task blocked, or too much and grant more authority than the work needs. Task-level guidance helps it choose, while validation catches invalid scope names. Even a valid scope can grant broader access than necessary.Describing the work: “Redeploy the last successful build” gives the user a concrete action to assess, while scope names alone leave them to work out the consequences. The plan needs to explain the intended change and make clear which limits the token actually enforces.Understanding denials: A denied operation could indicate a missing scope, an incorrect resource, or an operation that should remain blocked. Vercel Agent needs to distinguish those cases before requesting additional permissions.Even with the right permissions, a redeploy requires judgment about whether the selected commit is safe to ship. That depends on the application, the failure, and the proposed fix. The user needs enough information to assess the choice, and Vercel Agent still has to execute it correctly.Read-only investigation also needs controls for the information it retrieves, including sensitive project configuration and operational details. We chose a read-only baseline so Vercel Agent can investigate before asking for approval, and that choice needs continued review as scopes and the information they expose change. Other systems may need a narrower baseline. Separate controls must govern how retrieved information is handled and where it can go.Vercel Agent can make a wrong decision or encounter malicious instructions in content it reads, such as build logs. Scoped credentials limit which operations it can perform in either case, but permitted operations can still cause harm. Plans therefore work alongside sandbox isolation, network policy, secret handling, rate limits, audit logs, and service authorization. Our work on security boundaries in agentic architectures explains the separation between an agent, its credentials, and the code it executes.From investigation to approved actionAuthority stays attached to the work that required it. The runtime selects the approved credential for an active plan, and its scopes define the operations Vercel Agent can perform. With the investigation already done, the user can assess a proposed fix and its requested access together.Try Vercel Agent to investigate an issue in your project. Review what it finds and, if it proposes a change, assess the plan and requested access before approving it. Read more",
+      "topic_evidence": "An agent working on production systems needs permission to act",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "original_title": "Deployments now show build cache size",
+      "original_summary": "Deployment summaries now show the size of the build cache each deployment saved and how close it is to the limit for its build machine. The same information is in the CLI with vercel inspect on version 65.1.0 or newer, and in the get-deployment REST API endpoint.Uploading the build cache is billable build time, and a cache that goes over the limit is discarded, so the next build starts without one. This is on by default on all plans for deployments built on or after October 21. See the maximum build cache size for each build machine in the docs. Read more",
+      "topic_evidence": "Deployment summaries now show the size of the build cache each deployment saved",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "original_title": "Vercel Connect adds managed Stripe API keys",
+      "original_summary": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task. When you create a Stripe connector, you can now choose Managed API Key as the connection method. Vercel creates the key in your Stripe account, limited to the permissions you pick. The existing MCP and bring-your-own API key methods are unchanged.type: embedded-entry-inline id: 3rOuKp0F4Nk80dMYJ5QX6UMost apps and agents run on Stripe’s default secret key, which has full access to the account. With per-agent keys, each agent gets only the access its job needs. For example, a daily revenue report agent can be limited to read-only access to charges, and an onboarding agent can be limited to write access to customers.Vercel creates and stores the key, so there is no secret key to paste. You can rotate it from the connector's settings without redeploying, and the old key stays valid for up to 24 hours while you switch.Add the Stripe connectorCreate a Stripe connector from the connectors directory, choose Managed API Key, pick its permissions, and attach it to your project. You can also start from the CLI, which opens the browser to finish setup:type: embedded-entry-inline id: 1I7ChkvBWny4SCOzp2xI3Etype: embedded-entry-inline id: 66OV4WkA85AVl8hbRgk4PUTo get started, add the Stripe connector or read the documentation. Read more",
+      "topic_evidence": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+      "original_title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+      "original_summary": "Cambridge researchers have created a groundbreaking $10 optical sensor that delivers the precision of laboratory equipment in a device small enough for wearable technology. It identified foods, plastics, and medicines with 100% accuracy in tests and demonstrated the ability to monitor blood glucose, alcohol, and other health markers without invasive procedures.",
+      "topic_evidence": "$10 optical sensor that delivers the precision of laboratory equipment",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "chip",
+        "device",
+        "sensor"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023732.htm",
+      "original_title": "Could lowering high blood pressure be as simple as stimulating your ear?",
+      "original_summary": "A small device that gently stimulates nerves through the ear could offer a new way to tackle stubborn high blood pressure. In a clinical trial of 63 patients already taking medication, the treatment proved safe, easy to use at home, and well tolerated. Although it did not significantly outperform a placebo overall, patients with more severe hypertension showed promising reductions in blood pressure.",
+      "topic_evidence": "A small device that gently stimulates nerves through the ear",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "device"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+      "original_title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+      "original_summary": "Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where material from the inner and outer Solar System mixed, with Jupiter playing a surprising role in shaping its formation.",
+      "topic_evidence": "Bennu was born where material from the inner and outer Solar System mixed",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+      "original_title": "Astronomers uncover a mysterious magnetic web above the Sun",
+      "original_summary": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered delicate, thread-like magnetic structures woven through the solar atmosphere, apparently shaped by twisting motions on the Sun’s surface. They also mapped magnetic fields inside towering jets of solar material, revealing how those fields change with height.",
+      "topic_evidence": "delicate, thread-like magnetic structures woven through the solar atmosphere",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081308.htm",
+      "original_title": "MIT scientists build a tiny robot that swims using living muscle cells",
+      "original_summary": "MIT engineers have built a paper-thin swimming robot powered by living muscle cells that respond to flashes of light, allowing it to swim and steer through water. The breakthrough could pave the way for tiny, self-healing biological robots capable of exploring fragile environments that ordinary machines cannot safely navigate.",
+      "topic_evidence": "powered by living muscle cells that respond to flashes of light",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "robot"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+      "original_title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+      "original_summary": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time. The findings challenge a cornerstone of modern cosmology and could reshape our understanding of how the universe works.",
+      "topic_evidence": "dark energy, the mysterious force accelerating the universe’s expansion, may change over time",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "star",
+        "stars",
+        "energy"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
+      "original_title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
+      "original_summary": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a 52% reduction in symptoms and 68% remission. Researchers believe the technology could transform PTSD care and pave the way for more precise treatments for other mental health conditions.",
+      "topic_evidence": "52% reduction in symptoms and 68% remission",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "health"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+      "original_title": "A tiny defect in a crystal reveals a big quantum surprise",
+      "original_summary": "Researchers have solved a long-standing challenge in understanding how tiny defects in materials like diamond and silicon carbide behave when exposed to light. Their new computational method revealed a surprisingly important energy-loss mechanism in silicon carbide that scientists had previously underestimated. The finding helps explain a mystery that has puzzled researchers for years and could improve the design of quantum computers and sensors.",
+      "topic_evidence": "surprisingly important energy-loss mechanism in silicon carbide",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists",
+        "quantum",
+        "material"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
+      "original_title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
+      "original_summary": "Scientists have proposed a way to detect “mirror life,” a hypothetical form of life that could pose serious risks to humans, animals, and ecosystems if artificially created. Using special fluorescent molecules and a type of polarized light also used in 3D movie technology, researchers believe they could distinguish ordinary organisms from their mirror-image counterparts.",
+      "topic_evidence": "Using special fluorescent molecules and a type of polarized light",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
+      "original_title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+      "original_summary": "Scientists have discovered that switching off a protein called Mitch makes human cells burn more fat and prevents new fat cells from developing. The breakthrough builds on experiments in mice that showed remarkable resistance to obesity and improved muscular endurance, raising hopes for a new approach to weight-loss treatment.",
+      "topic_evidence": "switching off a protein called Mitch makes human cells burn more fat",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "original_title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "original_summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+      "topic_evidence": "launches Warp Science to automate wet labs with robots",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/canva",
+      "original_title": "Canva Craft",
+      "original_summary": "Turn prompts into design-ready images you can edit Discussion | Link",
+      "topic_evidence": "Turn prompts into design-ready images you can edit",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/sideos-ai",
+      "original_title": "sideOS.ai",
+      "original_summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+      "topic_evidence": "Local AI for dictation, meetings, background tasks and more",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/river-writer",
+      "original_title": "River Writer",
+      "original_summary": "A quiet Mac app for screenplays, stage plays and novels Discussion | Link",
+      "topic_evidence": "A quiet Mac app for screenplays, stage plays and novels",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "app"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels",
+      "original_title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+      "original_summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says.",
+      "topic_evidence": "hits $1B valuation backed by FirstMark",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "original_title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "original_summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "topic_evidence": "raises $200M to engineer war dogs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early",
+      "original_title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+      "original_summary": "A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers.",
+      "topic_evidence": "making it easier to transact tender offers",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say",
+      "original_title": "The secret to fast startup growth isn’t early sales, top names in tech say",
+      "original_summary": "At this year’s Disrupt, Lovable GTM lead Luke Arno, Polsia's Ben Broca, and Theory Ventures’ Tomasz Tunguz gave founders some tips on how to achieve true sales success in the first 90 days.",
+      "topic_evidence": "tips on how to achieve true sales success in the first 90 days",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "founder",
+        "startup"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers",
+      "original_title": "Startups don’t need to go viral to win customers",
+      "original_summary": "At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one.",
+      "topic_evidence": "how to not just gain an early following but keep one",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "founder",
+        "startup"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit",
+      "original_title": "VCs, Superhuman Mail founder share red flags about product-market fit",
+      "original_summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products.",
+      "topic_evidence": "red flags about product-market fit",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "founder"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+      "original_title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+      "original_summary": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
+      "topic_evidence": "Trump says US is considering a possible attack on Iran as soon as Sunday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
+      "original_title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+      "original_summary": "Military reinforcements are heading to the Middle East and some personnel have left the region, pointing to a potential attack on Iran. And, millions of Americans have already voted in the midterms.",
+      "topic_evidence": "pointing to a potential attack on Iran",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "middle east"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6012303/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran",
+      "original_title": "Retired general discusses the U.S. and Israeli plan for possible attack on Iran",
+      "original_summary": "NPR'S Leila Fadel speaks with retired four-star Gen. Joseph Votel about the war in Iran and the U.S. and Israeli objectives for a potential post-election bombing campaign.",
+      "topic_evidence": "the U.S. and Israeli plan for possible attack on Iran",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
+      "original_title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
+      "original_summary": "US secretary of state makes comments after Trump tells US rally warships could intervene on return from Iran Marco Rubio urged Cubans seeking political change in their country to act, saying “now is the time” moments after Donald Trump told a Friday rally for candidates in south Florida that US warships could intervene in Cuba on their way back from the Iran war. The US secretary of state, in his social media post addressed “to those who seek to create positive change”, urged Cubans to capitalize on Trump’s plans. “The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change you desire through a discrete [sic] partnership with the CIA,” Rubio said. Continue reading...",
+      "topic_evidence": "Rubio urged Cubans seeking political change in their country to act, saying “now is the time”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "original_title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "original_summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "topic_evidence": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+      "original_summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+      "topic_evidence": "form the biggest challenge to Vučić's rule",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+      "original_title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+      "original_summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
+      "topic_evidence": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
+      "original_title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
+      "original_summary": "Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio Bolsonaro More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro . Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won the first round on 4 October by 47% to 45%. Continue reading...",
+      "topic_evidence": "More than one million supporters of Brazil’s leftwing president",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
+      "original_title": "Mass rally against Netanyahu ahead of pivotal Israeli election",
+      "original_summary": "Thousands of Israelis rallied against PM Benjamin Netanyahu ahead of elections on Tuesday.",
+      "topic_evidence": "Thousands of Israelis rallied against PM Benjamin Netanyahu ahead of elections on Tuesday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+      "original_title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+      "original_summary": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly.",
+      "topic_evidence": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "original_summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+      "topic_evidence": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "original_summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "topic_evidence": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+      "original_title": "靳伟同志任中共湖南省委副书记",
+      "original_summary": "近日，中共中央批准：靳伟同志任中共湖南省委委员、常委、副书记。",
+      "topic_evidence": "靳伟同志任中共湖南省委委员、常委、副书记",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720536.shtml",
+      "original_title": "2027国考报名截止，多职位数千人竞争一岗",
+      "original_summary": "中新网北京10月25日电(记者 李京统)10月24日是2027年国考报名最后一天，报名热度持续攀升，热门岗位竞争超6000：1。",
+      "topic_evidence": "热门岗位竞争超6000：1",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720584.shtml",
+      "original_title": "纪念台湾光复81周年座谈会在福建福州举行",
+      "original_summary": "今天是台湾光复81周年纪念日，也是国家依法设立台湾光复纪念日一周年。今天(25日)，纪念台湾光复81周年座谈会在福建福州举行。",
+      "topic_evidence": "纪念台湾光复81周年座谈会在福建福州举行",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720609.shtml",
+      "original_title": "我国成功发射卫星互联网低轨28组卫星",
+      "original_summary": "中新网北京10月25日电 (记者 马帅莎 骆云飞)北京时间10月25日10时03分，我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨28组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。(完)",
+      "topic_evidence": "成功将卫星互联网低轨28组卫星发射升空",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720570.shtml",
+      "original_title": "线上线下同步揽才 山西太原人才智力交流大会达成初步就业意向逾6000人次",
+      "original_summary": "中新网太原10月25日电 (记者 杨静 李庭耀)“智汇山西”—2026山西·太原人才智力交流大会24日启幕。本次大会采取省市联动、线上线下相结合的方式，重点围绕山西省产业发展布局特别是人才需求，搭建集招才引智、就业创业、展示推介、合作洽谈于一体的交流对接平台，为该省推动高质量发展、深化全方位转型提供人才和智力支撑。",
+      "topic_evidence": "达成初步就业意向逾6000人次",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720617.shtml",
+      "original_title": "新疆图木舒克：产业富民“润”戈壁 三餐一线“织”幸福",
+      "original_summary": "央广网图木舒克10月24日消息(记者丁安 郭璁悦) 金秋十月，硕果盈枝。在新疆图木舒克市永安湖万亩渔业养殖基地，昆仑山融雪水正顺着渠系缓缓流入塘口，夕阳洒在水面上泛起金色波光。技术员张武魁蹲在塘边查看水质，捞起一尾鲻鱼，鱼尾拍打水花。“从鱼苗养到现在，平均能长到两公斤左右，长势很好。”他说。这一幕，很难让人想到这里曾是白茫茫的盐碱戈壁。",
+      "topic_evidence": "万亩渔业养殖基地",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720564.shtml",
+      "original_title": "2026青科会观察：看一场峰会如何赋能一座城",
+      "original_summary": "中新网温州10月25日电(胡丰盛)10月24日，2026世界青年科学家峰会(简称“青科会”)在浙江温州开幕。来自60多个国家和地区的近800名海内外代表聚于瓯江之畔，围绕“AI时代的全球青年行动”展开对话。",
+      "topic_evidence": "围绕“AI时代的全球青年行动”展开对话",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720576.shtml",
+      "original_title": "拉萨车站温情守护 保障旅客出行",
+      "original_summary": "中新网拉萨10月25日电 (旦增旺姆 格桑央金)10月22日22时33分，西藏自治区那曲市巴青县发生7.0级地震，青藏铁路格尔木至拉萨段部分区段受影响，相关列车临时停运、晚点。中国铁路青藏集团有限公司拉萨车站第一时间启动旅客应急处置预案，保障旅客安全出行。",
+      "topic_evidence": "拉萨车站第一时间启动旅客应急处置预案",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720574.shtml",
+      "original_title": "广西马山通报“水柜内发现多只猴子溺亡”",
+      "original_summary": "中新网10月25日电 据“马山县融媒体中心”微信公众号消息，10月25日，广西南宁马山县林业局发布情况说明称，近日，有媒体报道该县加方乡民治村一个用于农业灌溉的地头水柜内发现多只猴子溺亡。经核实，系猴群下山饮水时不慎溺亡。事发后，该县相关部门第一时间赶赴现场处置。目前，溺亡猴子已全部打捞并作无害化处理，水柜及周边已完成首轮消杀。进山入口设有警戒线和警示牌，柜内已投放竹竿等攀爬物、增设简易逃生通道，防止类似情况再次发生。下一步，该县将举一反三，对辖区同类设施开展安全排查，落实防护措施，及时回应社会关切。",
+      "topic_evidence": "系猴群下山饮水时不慎溺亡",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "社会"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720575.shtml",
+      "original_title": "西藏巴青地震灾区安置保障从“安全过夜”向“住得暖”推进",
+      "original_summary": "中新网西藏巴青10月25日电 (记者 江飞波 贡桑拉姆)西藏那曲市巴青县7.0级地震发生后，受灾民众陆续转移安置。随着取暖炉具陆续配发、活动板房加紧搭建，灾区民众的居住生活条件不断改善，正从“安全过夜”向“住得暖”推进。",
+      "topic_evidence": "从“安全过夜”向“住得暖”推进",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720555.shtml",
+      "original_title": "山西晋中太谷区：祖孙俩坠入10米深水池 消防快速营救",
+      "original_summary": "中新网晋中10月25日电 (陆祁国 田振国)10月24日下午，山西省晋中市太谷区发生一起意外坠落险情，姥爷和外孙女因盖板突然坍塌坠入积水深约10米的水池。幸运的是，两人均被当地消防救援人员救起。",
+      "topic_evidence": "祖孙俩坠入10米深水池 消防快速营救",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "救援",
+        "消防"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+      "original_title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+      "original_summary": "Barry speaks with Robin Wigglesworth, editor of Financial Times' Alphaville blog and author of the new book 'A Fabulous Debt: The Epic Story of How Bonds Built the Modern World'. They discuss the bond market as the engine of the global economy, why the 30-year mortgage is \"a miracle of the modern world,\" and when we should actually start worrying about US debt. (Source: Bloomberg)",
+      "topic_evidence": "the bond market as the engine of the global economy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+      "original_title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+      "original_summary": "It was a panicked message from a colleague that woke fund manager Ivelina Green at 5 a.m. on Thursday morning in New York: “Total meltdown.”",
+      "topic_evidence": "Total meltdown.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "original_title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+      "original_summary": "Metals traders are earning billions of dollars in a second consecutive blowout year for the sector, with several top trading houses notching up record profits.",
+      "topic_evidence": "Metals traders are earning billions of dollars in a second consecutive blowout year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
+      "original_title": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
+      "original_summary": "Dalmore Capital is among parties that have expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group from buyout firm Cinven, according to people with knowledge of the matter.",
+      "topic_evidence": "expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/fed-set-to-lead-g7-trio-in-hawkish-rate-pause-eco-week-ahead",
+      "original_title": "Fed Set to Lead G7 Trio in Hawkish Rate Pause: Eco Week Ahead",
+      "original_summary": "The Federal Reserve and its peers in the euro zone and Japan will probably keep interest rates steady in the coming week, opting to bide their time before potential further hikes.",
+      "topic_evidence": "keep interest rates steady in the coming week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/world-economy-latest-euro-area-business-activity-cools-on-weakness-in-france",
+      "original_title": "World Economy Latest: Euro Area Business Activity Cools on Weakness in France",
+      "original_summary": "Business activity in the euro area expanded at a slower pace this month, restrained by a contraction in France, where protests have devolved into rioting and looting.",
+      "topic_evidence": "Business activity in the euro area expanded at a slower pace this month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "original_title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+      "original_summary": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
+      "topic_evidence": "announced the Division of Examinations’ Fiscal Year 2027 examination priorities",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "sec"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "original_title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "original_summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
+      "topic_evidence": "life without a car leaves them with breathing room to spend on other things",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://danluu.com/ambitious",
+      "original_title": "We should be more ambitious with the software we build",
+      "original_summary": "Article URL: https://danluu.com/ambitious/ Comments URL: https://news.ycombinator.com/item?id=50225695 Points: 270 # Comments: 231",
+      "topic_evidence": "We should be more ambitious with the software we build",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "software"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "original_title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "original_summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 247 # Comments: 254",
+      "topic_evidence": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://stealmybitcoin.com/",
+      "original_title": "Show HN: Steal My Bitcoin",
+      "original_summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun! Comments URL: https://news.ycombinator.com/item?id=50224916 Points: 438 # Comments: 264",
+      "topic_evidence": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "original_title": "I don't understand quantum physics (2018)",
+      "original_summary": "Article URL: https://www.southampton.ac.uk/~doug/quantum_physics/index.html Comments URL: https://news.ycombinator.com/item?id=50219666 Points: 290 # Comments: 234",
+      "topic_evidence": "I don't understand quantum physics (2018)",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "original_title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "original_summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "topic_evidence": "agents to log into a customer's personal accounts",
+      "approved": true,
+      "evidence": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials",
+      "reason": "1Password推出让AI代理代为登录的新功能，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "original_title": "Canva releases its first image generation model",
+      "original_summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "topic_evidence": "Canva is making its new image model available to all users",
+      "approved": true,
+      "evidence": "Canva is making its new image model available to all users",
+      "reason": "Canva发布首个图像生成模型并向所有用户开放，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://openai.com/index/decisions-api",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/index/decisions-api",
+      "original_title": "Build more responsive apps with the Decisions API",
+      "original_summary": "Fast, focused, low-cost decisions for any application.",
+      "topic_evidence": "Fast, focused, low-cost decisions for any application.",
+      "approved": true,
+      "evidence": "Build more responsive apps with the Decisions API",
+      "reason": "OpenAI发布Decisions API，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+      "original_title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "original_summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "topic_evidence": "Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats",
+      "approved": true,
+      "evidence": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats",
+      "reason": "新研究比较Grok与OpenAI模型的选举推荐偏向，属于AI研究与治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "original_title": "Donating Agent Skills to the Agentic AI Foundation",
+      "original_summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+      "topic_evidence": "donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "approved": true,
+      "evidence": "we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "reason": "Anthropic将Agent Skills标准捐给AAIF/Linux Foundation，属于AI标准治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "original_title": "Left alone with nothing to do, AI agents started playing",
+      "original_summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "topic_evidence": "MIT researchers marooned 13 AIs on a virtual island",
+      "approved": true,
+      "evidence": "MIT researchers marooned 13 AIs on a virtual island",
+      "reason": "MIT让13个AI在虚拟岛自主活动的研究，属于AI研究。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "original_title": "Deployments now show build cache size",
+      "original_summary": "Deployment summaries now show the size of the build cache each deployment saved and how close it is to the limit for its build machine. The same information is in the CLI with vercel inspect on version 65.1.0 or newer, and in the get-deployment REST API endpoint.Uploading the build cache is billable build time, and a cache that goes over the limit is discarded, so the next build starts without one. This is on by default on all plans for deployments built on or after October 21. See the maximum build cache size for each build machine in the docs. Read more",
+      "topic_evidence": "Deployment summaries now show the size of the build cache each deployment saved",
+      "approved": true,
+      "evidence": "Deployment summaries now show the size of the build cache each deployment saved",
+      "reason": "Vercel部署摘要新增构建缓存大小展示，属于开发者基础设施功能。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "original_title": "Vercel Connect adds managed Stripe API keys",
+      "original_summary": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task. When you create a Stripe connector, you can now choose Managed API Key as the connection method. Vercel creates the key in your Stripe account, limited to the permissions you pick. The existing MCP and bring-your-own API key methods are unchanged.type: embedded-entry-inline id: 3rOuKp0F4Nk80dMYJ5QX6UMost apps and agents run on Stripe’s default secret key, which has full access to the account. With per-agent keys, each agent gets only the access its job needs. For example, a daily revenue report agent can be limited to read-only access to charges, and an onboarding agent can be limited to write access to customers.Vercel creates and stores the key, so there is no secret key to paste. You can rotate it from the connector's settings without redeploying, and the old key stays valid for up to 24 hours while you switch.Add the Stripe connectorCreate a Stripe connector from the connectors directory, choose Managed API Key, pick its permissions, and attach it to your project. You can also start from the CLI, which opens the browser to finish setup:type: embedded-entry-inline id: 1I7ChkvBWny4SCOzp2xI3Etype: embedded-entry-inline id: 66OV4WkA85AVl8hbRgk4PUTo get started, add the Stripe connector or read the documentation. Read more",
+      "topic_evidence": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task",
+      "approved": true,
+      "evidence": "Vercel Connect can now create a separate restricted Stripe API key for each agent or task",
+      "reason": "Vercel Connect可为每个代理或任务创建受限Stripe密钥，属于开发者基础设施集成。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots",
+      "original_title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "original_summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+      "topic_evidence": "launches Warp Science to automate wet labs with robots",
+      "approved": true,
+      "evidence": "launches Warp Science to automate wet labs with robots",
+      "reason": "Warp Science以机器人自动化湿实验室，属于新产品发布。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/canva",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/canva",
+      "original_title": "Canva Craft",
+      "original_summary": "Turn prompts into design-ready images you can edit Discussion | Link",
+      "topic_evidence": "Turn prompts into design-ready images you can edit",
+      "approved": true,
+      "evidence": "Turn prompts into design-ready images you can edit",
+      "reason": "Canva Craft将提示词转为可编辑设计图像，属于新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/sideos-ai",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/sideos-ai",
+      "original_title": "sideOS.ai",
+      "original_summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+      "topic_evidence": "Local AI for dictation, meetings, background tasks and more",
+      "approved": true,
+      "evidence": "Local AI for dictation, meetings, background tasks and more",
+      "reason": "sideOS.ai提供本地AI听写、会议等能力，属于新产品。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels",
+      "original_title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+      "original_summary": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says.",
+      "topic_evidence": "hits $1B valuation backed by FirstMark",
+      "approved": true,
+      "evidence": "hits $1B valuation backed by FirstMark",
+      "reason": "Daytona获融资并达到10亿美元估值，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear",
+      "original_title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+      "original_summary": "Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.",
+      "topic_evidence": "raises $200M to engineer war dogs",
+      "approved": true,
+      "evidence": "raises $200M to engineer war dogs",
+      "reason": "Warhound融资2亿美元用于工程化军犬，属于融资。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early",
+      "original_title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
+      "original_summary": "A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers.",
+      "topic_evidence": "making it easier to transact tender offers",
+      "approved": false,
+      "evidence": "making it easier to transact tender offers",
+      "reason": "Carta与NewView合作便利员工股份要约转让，未涉及具体融资轮或并购交易，不属于融资与并购栏目。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "original_title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "original_summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "topic_evidence": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week",
+      "approved": true,
+      "evidence": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week",
+      "reason": "Starlink限速影响乌克兰军事与无人机行动后恢复，属于地缘与安全。"
+    },
+    {
+      "id": "world/government-policy/https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+      "original_title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+      "original_summary": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly.",
+      "topic_evidence": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly",
+      "approved": false,
+      "evidence": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+      "reason": "保加利亚总统选举属于政治选举事件，不是具体政府政策行动，不能放入政府与政策栏目。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "original_summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+      "topic_evidence": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "approved": true,
+      "evidence": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "reason": "肯尼亚埃博拉死亡病例属于全球社会/公共卫生事件。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "original_summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "topic_evidence": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "approved": true,
+      "evidence": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "reason": "法国大规模抗议与冲突逮捕属于全球社会事件。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+      "original_title": "靳伟同志任中共湖南省委副书记",
+      "original_summary": "近日，中共中央批准：靳伟同志任中共湖南省委委员、常委、副书记。",
+      "topic_evidence": "靳伟同志任中共湖南省委委员、常委、副书记",
+      "approved": false,
+      "evidence": "靳伟同志任中共湖南省委委员、常委、副书记",
+      "reason": "靳伟任湖南省委副书记属于党内人事任命，未涉及政策、制度或监管内容。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-25/10720536.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720536.shtml",
+      "original_title": "2027国考报名截止，多职位数千人竞争一岗",
+      "original_summary": "中新网北京10月25日电(记者 李京统)10月24日是2027年国考报名最后一天，报名热度持续攀升，热门岗位竞争超6000：1。",
+      "topic_evidence": "热门岗位竞争超6000：1",
+      "approved": false,
+      "evidence": "热门岗位竞争超6000：1",
+      "reason": "2027国考报名竞争属于考试招录新闻，不是政策监管。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-25/10720584.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720584.shtml",
+      "original_title": "纪念台湾光复81周年座谈会在福建福州举行",
+      "original_summary": "今天是台湾光复81周年纪念日，也是国家依法设立台湾光复纪念日一周年。今天(25日)，纪念台湾光复81周年座谈会在福建福州举行。",
+      "topic_evidence": "纪念台湾光复81周年座谈会在福建福州举行",
+      "approved": false,
+      "evidence": "纪念台湾光复81周年座谈会在福建福州举行",
+      "reason": "台湾光复纪念座谈会属于纪念活动，不是政策监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-25/10720609.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720609.shtml",
+      "original_title": "我国成功发射卫星互联网低轨28组卫星",
+      "original_summary": "中新网北京10月25日电 (记者 马帅莎 骆云飞)北京时间10月25日10时03分，我国在海南商业航天发射场使用长征八号甲运载火箭，成功将卫星互联网低轨28组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。(完)",
+      "topic_evidence": "成功将卫星互联网低轨28组卫星发射升空",
+      "approved": true,
+      "evidence": "成功将卫星互联网低轨28组卫星发射升空",
+      "reason": "中国成功发射卫星互联网低轨卫星，属于产业与地方航天产业进展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-25/10720564.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720564.shtml",
+      "original_title": "2026青科会观察：看一场峰会如何赋能一座城",
+      "original_summary": "中新网温州10月25日电(胡丰盛)10月24日，2026世界青年科学家峰会(简称“青科会”)在浙江温州开幕。来自60多个国家和地区的近800名海内外代表聚于瓯江之畔，围绕“AI时代的全球青年行动”展开对话。",
+      "topic_evidence": "围绕“AI时代的全球青年行动”展开对话",
+      "approved": true,
+      "evidence": "2026世界青年科学家峰会(简称“青科会”)在浙江温州开幕",
+      "reason": "世界青年科学家峰会在温州开幕并讨论AI时代行动，属于地方科技产业活动。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-25/10720576.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720576.shtml",
+      "original_title": "拉萨车站温情守护 保障旅客出行",
+      "original_summary": "中新网拉萨10月25日电 (旦增旺姆 格桑央金)10月22日22时33分，西藏自治区那曲市巴青县发生7.0级地震，青藏铁路格尔木至拉萨段部分区段受影响，相关列车临时停运、晚点。中国铁路青藏集团有限公司拉萨车站第一时间启动旅客应急处置预案，保障旅客安全出行。",
+      "topic_evidence": "拉萨车站第一时间启动旅客应急处置预案",
+      "approved": true,
+      "evidence": "拉萨车站第一时间启动旅客应急处置预案",
+      "reason": "拉萨车站启动旅客应急处置预案，属于社会应急服务。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-25/10720575.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720575.shtml",
+      "original_title": "西藏巴青地震灾区安置保障从“安全过夜”向“住得暖”推进",
+      "original_summary": "中新网西藏巴青10月25日电 (记者 江飞波 贡桑拉姆)西藏那曲市巴青县7.0级地震发生后，受灾民众陆续转移安置。随着取暖炉具陆续配发、活动板房加紧搭建，灾区民众的居住生活条件不断改善，正从“安全过夜”向“住得暖”推进。",
+      "topic_evidence": "从“安全过夜”向“住得暖”推进",
+      "approved": true,
+      "evidence": "从“安全过夜”向“住得暖”推进",
+      "reason": "巴青地震灾区安置保障改善，属于社会灾害救助。"
+    },
+    {
+      "id": "finance/markets-assets/https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "section": "财经理财",
+      "subsection": "市场与资产",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "original_title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+      "original_summary": "Metals traders are earning billions of dollars in a second consecutive blowout year for the sector, with several top trading houses notching up record profits.",
+      "topic_evidence": "Metals traders are earning billions of dollars in a second consecutive blowout year",
+      "approved": true,
+      "evidence": "Metals traders are earning billions of dollars in a second consecutive blowout year",
+      "reason": "金属交易商连续第二年创纪录利润，属于市场与资产。"
+    },
+    {
+      "id": "finance/markets-assets/https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
+      "section": "财经理财",
+      "subsection": "市场与资产",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
+      "original_title": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
+      "original_summary": "Dalmore Capital is among parties that have expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group from buyout firm Cinven, according to people with knowledge of the matter.",
+      "topic_evidence": "expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group",
+      "approved": false,
+      "evidence": "expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group",
+      "reason": "Dalmore表达收购JLA兴趣属于潜在并购/私募股权交易，不属于市场与资产栏目。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "original_title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "original_summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
+      "topic_evidence": "life without a car leaves them with breathing room to spend on other things",
+      "approved": true,
+      "evidence": "life without a car leaves them with breathing room to spend on other things",
+      "reason": "美国年轻人放弃汽车以获得财务自由，属于个人理财。"
+    },
+    {
+      "id": "opinion/business-society/https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "original_title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "original_summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 247 # Comments: 254",
+      "topic_evidence": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "approved": true,
+      "evidence": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "reason": "AI对媒体影视艺术就业影响的评论，属于商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/index/decisions-api"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://simonwillison.net/2026/Oct/22/donating-agent-skills"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-25/10720609.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-25/10720564.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-25/10720575.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-25/10720576.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/deployments-now-show-build-cache-size"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys"
+    ],
+    [
+      "finance",
+      "markets-assets",
+      "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/canva"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/sideos-ai"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "title": "信息日报 2026-10-25",
+  "title_en": "Information Daily 2026-10-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "伊朗战争直播：特朗普暗示可能周日对伊朗动武或达成协议",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "特朗普表示，美国正考虑最早于周日对伊朗发动袭击，也可能与德黑兰达成一项重大协议。",
+    "source_en": "Al Jazeera",
+    "title_en": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+    "summary_en": "Trump said the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
+    "original_title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+    "published_at": "2026-10-25T00:00:00+00:00",
+    "reason": "直接涉及美国对伊朗的军事决策与外交选项，属于地缘与安全核心动态。",
+    "reason_en": "Directly covers US military decision-making and diplomatic options toward Iran, core geopolitics and security.",
+    "score": 3.85
+  },
+  "path": "papers/2026-10-25.html",
+  "raw_path": "raw/2026-10-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in startup-product/funding-ma: topic evidence does not match subsection [https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-25/10720536.shtml]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-25/10720584.shtml]",
+    "Editorial item ignored in finance/markets-assets: topic evidence does not match subsection [https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla]",
+    "Source federal-reserve returned HTTP 404"
+  ]
+}

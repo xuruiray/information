@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-10-25</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261025 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月25日 星期日</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-25/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">8 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：Vercel 工具链更新与 Roku 仓库迁移">
+      <div class="lead-label">开发与编程：Vercel 工具链更新与 Roku 仓库迁移</div>
+      <p>本期开发与编程涵盖 Vercel CLI 和 MCP 的反馈与预算管理功能、Roku 将开发者仓库迁至 GitLab，以及 Interfaze 在 Vercel 上的请求规模、Vercel Agent 的生产权限设计、构建缓存大小展示和托管 Stripe 密钥。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Vercel 反馈与预算命令、Roku 迁移 GitLab">
+          <div class="lead-label">开源与工具：Vercel 反馈与预算命令、Roku 迁移 GitLab</div>
+          <p>Vercel CLI 新增 feedback 反馈命令和 budgets 支出管理命令，Vercel MCP 增加 submit_feedback 工具；Roku 则宣布将开发者仓库从 GitHub 迁至 GitLab。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-cli" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI 新增 feedback 反馈命令</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel CLI 加入 vercel feedback，可从终端提交缺陷、使用摩擦和功能请求，并支持用 -f 或 --field 附带结构化上下文；编码代理也可调用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://blog.roku.com/developer/gitlab-move" target="_blank" rel="noopener">
+            <span class="at">Roku 将开发者仓库从 GitHub 迁至 GitLab</span>
+            <span class="by">Hacker News</span>
+            <p class="as">Roku 宣布把开发者相关代码仓库从 GitHub 迁移到 GitLab；Hacker News 上该消息获得 273 分和 186 条评论。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI 增加支出管理功能</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel CLI 新增 vercel budgets，可查看并设置团队的按需预算；设置预算本身不会停止用量，命令行还会返回当前支出和生效预算。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP 新增 submit_feedback 工具</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP 加入 submit_feedback，可从代理或运行框架向 Vercel 团队提交缺陷、摩擦报告和功能请求，并允许助手附带结构化上下文。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：生产规模、代理权限与构建缓存">
+          <div class="lead-label">基础设施与数据：生产规模、代理权限与构建缓存</div>
+          <p>Interfaze 在 Vercel 上月处理 5000 万次请求，Vercel Agent 说明生产环境权限设计，部署摘要新增构建缓存大小展示，Vercel Connect 支持按代理或任务创建受限的托管 Stripe API 密钥。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel" target="_blank" rel="noopener">
+            <span class="at">Interfaze 在 Vercel 上月处理 5000 万次请求</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Interfaze 的月度请求量达到 5000 万次，后端运行在 Vercel Fluid compute 上，并通过 AI Gateway 在多个模型供应商之间做回退。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
+            <span class="at">Vercel Agent 如何安全访问生产环境</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 说明其生产环境代理的权限设计：既要避免广泛授权误伤无关资源，也要减少逐步审批带来的操作负担。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
+            <span class="at">Vercel 部署摘要显示构建缓存大小</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 部署摘要现在显示每次部署节省的构建缓存大小，以及距离构建机器上限的余量；同样信息可在 CLI 的 vercel inspect 和 REST API 中查看。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Connect 支持托管 Stripe API 密钥</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Connect 可为每个代理或任务创建单独的受限 Stripe API 密钥；创建连接时可选择托管密钥方式，并限定所选权限，原有 MCP 和自带密钥方式不变。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
