@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "title": "信息日报 2026-10-26",
+  "title_en": "Information Daily 2026-10-26",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "卢拉赢得巴西总统第四任期，击败极右翼候选人博索纳罗",
+    "url": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election",
+    "source": "卫报国际",
+    "summary": "巴西左翼总统卢拉在决选中击败极右翼参议员弗拉维奥·博索纳罗，赢得第四个非连续任期，称这是对否认主义的失败。",
+    "source_en": "The Guardian World",
+    "title_en": "Lula wins fourth term as Brazil president after historic upset",
+    "summary_en": "Brazil’s leftist President Luiz Inácio Lula da Silva has won a fourth non-consecutive term, defeating far-right Senator Flávio Bolsonaro in a historic comeback and calling the result a defeat for denialism.",
+    "original_title": "Lula wins fourth term as Brazil president after historic upset over far-right Flávio Bolsonaro",
+    "published_at": "2026-10-26T00:19:05+00:00",
+    "reason": "巴西大选结果具国际影响，属于政府与选举版块。",
+    "reason_en": "Brazil’s election result has international implications and fits the government and elections subsection.",
+    "score": 3.9
+  },
+  "path": "papers/2026-10-26.html",
+  "raw_path": "raw/2026-10-26.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/10-26/10721045.shtml]"
+  ]
+}

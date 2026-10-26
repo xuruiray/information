@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-26</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261026</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 26, 2026 · Monday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-26/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">7 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Vercel tooling and image tool updates">
+      <div class="lead-label">Developer &amp; Programming: Vercel tooling and image tool updates</div>
+      <p>This developer section covers Vercel CLI spend management, a Vercel MCP feedback tool, the Seam Cutter and Quick Study image tools, plus updates to Vercel Agent production access, deployment build cache visibility and managed Stripe API keys.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: Vercel spend management, MCP feedback and image tools">
+          <div class="lead-label">Open Source &amp; Tools: Vercel spend management, MCP feedback and image tools</div>
+          <p>The Vercel CLI adds the vercel budgets command for viewing current spend and active budgets and setting or removing on-demand budgets; Vercel MCP adds a submit_feedback tool for submitting bugs, friction and feature requests in plain language; Simon Willison released Seam Cutter and Quick Study for seam-cut image cropping and rapid canvas-based photo painting.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
+            <span class="at">Vercel CLI adds Spend Management</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">The Vercel CLI now lets teams view current spend and active budgets and set or remove on-demand budgets via the vercel budgets command; setting a budget alone does not stop usage.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
+            <span class="at">Send feedback from the Vercel MCP</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP now includes a submit_feedback tool that lets agents send bug reports, friction reports and feature requests to Vercel in plain language, with structured context.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/25/seam-cutter" target="_blank" rel="noopener">
+            <span class="at">Seam Cutter</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Simon Willison released Seam Cutter, a tool that makes a horizontal or vertical cut across an image and slides the two sides to crop out a middle section, useful for stitching screenshots.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/23/quick-study-painter" target="_blank" rel="noopener">
+            <span class="at">Quick Study</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Quick Study is a tool that opens a photo and rapidly paints a version of it using a canvas element and simulated paintbrush, employing Sobel edge detection.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: Agent production access, build cache and managed keys">
+          <div class="lead-label">Infrastructure &amp; Data: Agent production access, build cache and managed keys</div>
+          <p>Vercel outlines the permission design for its agent accessing production systems, noting that requests like “fix this deployment” do not specify needed actions; deployment summaries now show build cache size and proximity to the build machine limit; Vercel Connect can create a separate restricted Stripe API key for each agent or task.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
+            <span class="at">How Vercel Agent accesses production safely</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel outlines how its agent accesses production systems safely, noting that a request like “fix this deployment” does not specify needed actions, while broad access risks unrelated resources.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
+            <span class="at">Deployments now show build cache size</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel deployment summaries now show the build cache size saved per deployment and how close it is to the build machine limit; the CLI and REST API expose the same data.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Connect adds managed Stripe API keys</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Connect can now create a separate restricted Stripe API key for each agent or task, letting users choose permissions when creating a connector; existing methods remain unchanged.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
