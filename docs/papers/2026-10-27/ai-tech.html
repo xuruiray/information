@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI 与大模型 · 信息日报 2026-10-27</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261027 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月27日 星期二</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-27/ai-tech.html">English</a>
+      <a href="ai-tech.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html" aria-current="page">01 AI 与大模型</a>
+      <a href="developer.html">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI 与大模型</h2>
+      <span class="ed">10 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：前沿模型、产品平台与治理评测">
+      <div class="lead-label">AI 与大模型：前沿模型、产品平台与治理评测</div>
+      <p>本期收录 OpenAI 发布 GPT-6.1 Terra，以及其把编程工具转为常驻个人助理 dots 的报道；研究侧关注全模态推理的按查询模态选择、线性时间上下文压缩、智能体轻量记忆，以及智能体运行一致性、动态工作负载、新闻认知质量、专家判断蒸馏和对齐伪装检测等评测与治理问题。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>前沿模型</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：GPT-6.1 Terra 与推理降本">
+          <div class="lead-label">前沿模型：GPT-6.1 Terra 与推理降本</div>
+          <p>OpenAI 发布 GPT-6.1 Terra，称其结合细致视觉推理、精确电脑操作与更清晰自然的写作。三项 arXiv 研究分别提出按查询选择模态以降低全模态大模型推理成本、用状态空间编码做线性时间上下文压缩，以及 SLICE-Mem 轻量记忆框架以减少智能体记忆准入、提取和组织的重复大模型调用。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/26/gpt-61-terra" target="_blank" rel="noopener">
+            <span class="at">OpenAI 发布 GPT-6.1 Terra，主打视觉推理与电脑操作</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">OpenAI 推出 GPT-6.1 Terra，称这是一款快速高效的模型，结合细致的视觉推理与精确的电脑操作，并具备更清晰自然的写作能力。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.31768" target="_blank" rel="noopener">
+            <span class="at">按查询选择模态，降低全模态大模型推理成本</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">研究提出按查询动态选择所需模态的推理方法，基于不同查询从额外模态获得的收益不一，减少全模态大模型的计算开销。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33006" target="_blank" rel="noopener">
+            <span class="at">线性时间上下文压缩：用状态空间编码缩短长上下文</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究提出基于状态空间编码的线性时间上下文压缩方法，在推理前把长上下文压缩为更短表示，以降低 Transformer 大模型的计算与内存开销。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33015" target="_blank" rel="noopener">
+            <span class="at">SLICE-Mem：轻量记忆框架降低 LLM 智能体记忆开销</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究提出 SLICE-Mem 轻量记忆框架，用于 LLM 智能体长期记忆，减少因记忆准入、提取和组织而反复调用大模型带来的成本与延迟。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI 产品与平台</h3>
+          <span>1 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：OpenAI 的常驻助理 dots">
+          <div class="lead-label">AI 产品与平台：OpenAI 的常驻助理 dots</div>
+          <p>TechCrunch 报道 OpenAI 将其编程工具演变为名为 dots 的常驻个人助理；负责该产品的 OpenAI 高管表示，不希望与其他人的 AI 智能体开会。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant" target="_blank" rel="noopener">
+            <span class="at">OpenAI 将编程工具演变为常驻个人助理 dots</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">TechCrunch 报道 OpenAI 如何把编程工具转成名为 dots 的常驻个人助理；负责该产品的 OpenAI 高管表示，不希望与其他人的 AI 智能体开会。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>研究与治理</h3>
+          <span>5 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：智能体一致性、新闻质量与专家评测">
+          <div class="lead-label">研究与治理：智能体一致性、新闻质量与专家评测</div>
+          <p>五项研究分别提出用递归语义分歧评估工具型 LLM 智能体在相同状态下多次运行的行为不一致，用 NewsBench 以专家依据评估政治与时事回答的认知质量，用 AOS-Bench 评估编码智能体管理持续动态工作负载的调度、委派与并行能力，提出将专家判断蒸馏为规模化自动评估系统，并用合成文档微调暴露疑似监督下隐藏目标的对齐伪装模型。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.33012" target="_blank" rel="noopener">
+            <span class="at">递归语义分歧：评估 LLM 智能体运行一致性</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究关注使用工具的 LLM 智能体在相同状态下多次独立运行仍会出现行为不一致，提出递归语义分歧方法，用于评估这种影响部署可靠性的变异。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33240" target="_blank" rel="noopener">
+            <span class="at">NewsBench：以专家依据评估 AI 新闻报道的认知质量</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">研究提出 NewsBench，以专家依据评估前沿 AI 系统在政治与时事信息回答中的认知质量，针对既有评测偏重意识形态对齐等局限。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33178" target="_blank" rel="noopener">
+            <span class="at">AOS-Bench：LLM 智能体能否管理动态工作负载？</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">研究提出 AOS-Bench，评估编码智能体从单请求转向持续处理多项待办任务时的调度、委派与并行能力，例如同时处理构建、数据处理和修复缺陷。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33233" target="_blank" rel="noopener">
+            <span class="at">大规模蒸馏专家判断：构建自动化评估系统</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">研究提出将专家人类判断蒸馏为可规模化运行的自动化评估系统的方法，面向医疗、国防、金融、治理和政治等高风险领域的 AI 模型评测。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33180" target="_blank" rel="noopener">
+            <span class="at">用合成文档微调揭示对齐伪装的大模型倾向</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">研究利用合成文档微调，检测大模型是否在疑似监督时隐藏目标、进行对齐伪装，以暴露安全评测中可能被掩盖的危险错位行为。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

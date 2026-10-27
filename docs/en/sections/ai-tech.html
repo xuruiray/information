@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-10-26</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-10-27</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261026</span>
+        <span>Issue 20261027</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 26, 2026 · Monday</span></div>
+      <div class="dateline"><span>October 27, 2026 · Tuesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,36 +40,48 @@
 
     <header class="pagehead category-head">
       <h2>01 AI &amp; LLMs</h2>
-      <span class="ed">9 articles / 3 subsections</span>
+      <span class="ed">10 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI and LLMs: Kimi K3.1 Pro debuts, OpenAI changes training, agent safety research rises">
-      <div class="lead-label">AI and LLMs: Kimi K3.1 Pro debuts, OpenAI changes training, agent safety research rises</div>
-      <p>Moonshot launched Kimi K3.1 Pro on its API without open weights, promising full weights by Nov. 4; OpenAI said it will no longer train models on the live internet, citing significant risks. TechCrunch rounded up AI agents that operate in text messages and a running list of AI projects that shut down or missed expectations. A study found Grok and OpenAI’s GPT favored different parties and disagreed in more than 90% of nearly 500 races. arXiv papers examined emergent cooperation bypassing workflows, the M³ multi-turn jailbreak system, reproducible evaluation for prompt compression, and retry authorization for agents.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and LLMs: Frontier Models, Products, and Governance">
+      <div class="lead-label">AI and LLMs: Frontier Models, Products, and Governance</div>
+      <p>This briefing covers OpenAI&#39;s release of GPT-6.1 Terra and its conversion of coding tools into the always-on personal assistant dots, alongside research on per-query modality selection for omni-modal inference, linear-time context compression, lightweight agent memory, agent consistency, dynamic workloads, news epistemic quality, expert-judgment distillation, and alignment-faking detection.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>2 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier models: Kimi K3.1 Pro withholds weights; OpenAI stops live-internet training">
-          <div class="lead-label">Frontier models: Kimi K3.1 Pro withholds weights; OpenAI stops live-internet training</div>
-          <p>Moonshot launched Kimi K3.1 Pro on its API without open weights and promised full weights by Nov. 4; its Highspeed tier is 2–3x faster at double the price. OpenAI said it will no longer train frontier models on the live internet, citing significant risks; TechCrunch noted an engineer had said weeks earlier that the approach would not work.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: GPT-6.1 Terra and Cheaper Inference">
+          <div class="lead-label">Frontier Models: GPT-6.1 Terra and Cheaper Inference</div>
+          <p>OpenAI released GPT-6.1 Terra, describing a fast, efficient model that combines detailed visual reasoning, precise computer use, and clearer, more natural writing. Three arXiv papers propose per-query modality selection to cut omni-modal LLM inference costs, linear-time context compression with state-space encoding, and the SLICE-Mem lightweight memory framework to reduce repeated LLM calls for agent memory admission, extraction, and organization.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro" target="_blank" rel="noopener">
-            <span class="at">Introducing Kimi K3.1 Pro</span>
+          <a class="art" href="https://simonwillison.net/2026/Oct/26/gpt-61-terra" target="_blank" rel="noopener">
+            <span class="at">GPT-6.1 Terra</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Moonshot launched Kimi K3.1 Pro on its API without open weights, promising full model weights by Nov. 4, 2026. A Highspeed tier is 2–3x faster at double the price, with cache hits priced the same.</p>
+            <p class="as">OpenAI introduced GPT-6.1 Terra, describing a fast, efficient model that combines detailed visual reasoning and precise computer use with clearer, more natural writing.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks" target="_blank" rel="noopener">
-            <span class="at">OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">OpenAI said it will no longer train its AI models on the live internet, citing significant risks; TechCrunch notes the move comes weeks after an engineer said that approach would not work.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.31768" target="_blank" rel="noopener">
+            <span class="at">Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">Researchers propose per-query modality selection for omni-modal LLM inference, exploiting the varying benefit of additional modalities across queries to reduce computational cost.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33006" target="_blank" rel="noopener">
+            <span class="at">Linear-Time Context Compression with State-Space Encoding</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">A linear-time context compression method uses state-space encoding to turn long contexts into shorter representations before inference, aiming to cut Transformer LLM computation and memory costs.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33015" target="_blank" rel="noopener">
+            <span class="at">SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">SLICE-Mem is a lightweight memory framework for LLM agents that aims to cut the cost and latency of repeated LLM inference for memory admission, extraction, and organization.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -77,24 +89,18 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>2 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI products and platforms: text-message agents and the “AI graveyard”">
-          <div class="lead-label">AI products and platforms: text-message agents and the “AI graveyard”</div>
-          <p>TechCrunch compiled AI agents that operate inside text messages, from general assistants to agents for families, travel and work. A separate running list tracks AI projects and startups that shut down or missed expectations, citing Apple’s repeatedly delayed Siri AI and OpenAI’s messy “super app” launch.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: OpenAI&#39;s Always-On Assistant dots">
+          <div class="lead-label">AI Products and Platforms: OpenAI&#39;s Always-On Assistant dots</div>
+          <p>TechCrunch reports how OpenAI turned its coding tools into dots, an always-on personal assistant; an OpenAI executive behind the product says he never wants meetings with someone else&#39;s AI agent.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages" target="_blank" rel="noopener">
-            <span class="at">Here are the top AI agents that can live in your text messages</span>
+          <a class="art" href="https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant" target="_blank" rel="noopener">
+            <span class="at">How OpenAI turned its coding tools into dots, an always-on personal assistant</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">TechCrunch compiled notable AI agents that operate inside text messages, ranging from general assistants to agents built for families, travel and work.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it" target="_blank" rel="noopener">
-            <span class="at">The AI graveyard: a running list of projects and startups that didn’t make it</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">TechCrunch maintains a running list of AI projects that shut down or missed expectations, citing examples such as Apple’s repeatedly delayed Siri AI and OpenAI’s messy “super app” launch.</p>
+            <p class="as">TechCrunch reports how OpenAI turned its coding tools into dots, an always-on personal assistant; an OpenAI executive behind dots says he never wants meetings with someone else&#39;s AI agent.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -104,40 +110,40 @@
           <h3>Research &amp; Governance</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and governance: model election leanings, agent cooperation risks and jailbreak evaluation">
-          <div class="lead-label">Research and governance: model election leanings, agent cooperation risks and jailbreak evaluation</div>
-          <p>A study found Grok overwhelmingly recommended Republican candidates while OpenAI’s GPT favored Democrats, with disagreement in more than 90% of nearly 500 races. arXiv papers discussed emergent LLM-agent cooperation bypassing intended workflows; M³ modeling multi-turn jailbreaking as a Markov decision process; reproducible offline evaluation for production agents; and retry authorization and recovery when tool-using agents’ authority changes and outcomes are uncertain.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Agent Consistency, News Quality, and Expert Evaluation">
+          <div class="lead-label">Research and Governance: Agent Consistency, News Quality, and Expert Evaluation</div>
+          <p>Five papers propose recursive semantic divergence to evaluate inconsistent behavior of tool-using LLM agents across runs from identical states; NewsBench for expert-grounded evaluation of epistemic quality in political and current-events answers; AOS-Bench for coding agents managing persistent dynamic workloads through scheduling, delegation, and parallel work; a method to distill expert judgment into automated evaluation at scale; and synthetic document fine-tuning to expose alignment-faking models that may hide goals under suspected oversight.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats" target="_blank" rel="noopener">
-            <span class="at">Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">A new study found Grok overwhelmingly recommended Republican candidates while OpenAI’s GPT favored Democrats, with the models disagreeing in more than 90% of nearly 500 election races.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.33012" target="_blank" rel="noopener">
+            <span class="at">Recursive Semantic Divergence for LLM Agent Consistency</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The work addresses inconsistent behavior of tool-using LLM agents across independent runs from identical states and proposes recursive semantic divergence to evaluate variability that undermines deployment reliability.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.31985" target="_blank" rel="noopener">
-            <span class="at">The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows</span>
+          <a class="art" href="https://arxiv.org/abs/2610.33240" target="_blank" rel="noopener">
+            <span class="at">NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News Reporting</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">A paper warns that LLM agents sharing resources under oversight can create safety risks even when they are not malicious, as emergent cooperation may bypass intended workflows.</p>
+            <p class="as">NewsBench is proposed to evaluate the epistemic quality of frontier AI responses on political and current-events information using expert grounding, addressing evaluations focused narrowly on ideological alignment.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.31937" target="_blank" rel="noopener">
-            <span class="at">$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process</span>
+          <a class="art" href="https://arxiv.org/abs/2610.33178" target="_blank" rel="noopener">
+            <span class="at">AOS-Bench: Can LLM Agents Manage Dynamic Workloads?</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">The M³ paper presents a multi-LLM system that models multi-turn jailbreaking as a Markov decision process, targeting black-box settings where red-teaming methods rely on heuristics or strong assumptions.</p>
+            <p class="as">AOS-Bench evaluates whether coding agents can manage persistent, dynamic workloads, including deciding when to take on new tasks and how to delegate and overlap work such as builds and bug fixes.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.31972" target="_blank" rel="noopener">
-            <span class="at">Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents</span>
+          <a class="art" href="https://arxiv.org/abs/2610.33233" target="_blank" rel="noopener">
+            <span class="at">Distilling Expert Judgment at Scale</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper presents an offline evaluation harness for a production conversational agent, designed to stay reproducible despite mutable enterprise data and avoid benchmark drift as backend state changes.</p>
+            <p class="as">The paper presents a methodology for distilling expert human judgment into automated evaluation systems at scale for high-stakes AI deployments in healthcare, defense, finance, governance, and politics.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.31916" target="_blank" rel="noopener">
-            <span class="at">Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows</span>
+          <a class="art" href="https://arxiv.org/abs/2610.33180" target="_blank" rel="noopener">
+            <span class="at">Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">The paper studies execution-time reliability of tool-using AI agents, focusing on recovery decisions when a durable agent’s authority changes and an action’s external outcome remains uncertain.</p>
+            <p class="as">The work uses synthetic document fine-tuning to expose alignment-faking LLMs that may hide goals when they suspect oversight, aiming to reveal dangerous misaligned behavior in safety evaluations.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

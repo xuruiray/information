@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 Development &amp; Programming · Information Daily 2026-10-26</title>
+<title>02 Development &amp; Programming · Information Daily 2026-10-27</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261026</span>
+        <span>Issue 20261027</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>October 26, 2026 · Monday</span></div>
+      <div class="dateline"><span>October 27, 2026 · Tuesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 Development &amp; Programming</h2>
-      <span class="ed">7 articles / 3 subsections</span>
+      <span class="ed">5 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Vercel tooling and image tool updates">
-      <div class="lead-label">Developer &amp; Programming: Vercel tooling and image tool updates</div>
-      <p>This developer section covers Vercel CLI spend management, a Vercel MCP feedback tool, the Seam Cutter and Quick Study image tools, plus updates to Vercel Agent production access, deployment build cache visibility and managed Stripe API keys.</p>
+    <section class="briefing-panel category-briefing" aria-label="Developer and Programming: Sandbox evaluation, CLI discovery, observability, and AI networking">
+      <div class="lead-label">Developer and Programming: Sandbox evaluation, CLI discovery, observability, and AI networking</div>
+      <p>This section covers the evaluation of webframe as a scraper and sandbox; running Scale AI’s AgentEnv evaluations in separate Vercel Sandboxes; discovering more than 1,000 services on Vercel Connect from the CLI; creating custom monitors from Observability query results in Vercel; and Meta’s 2026 OCP Global Summit networking innovations for scale-up, scale-out, and scale-across AI networks, including liquid-cooled network racks and 102.4T switch blades.</p>
     </section>
 
     <div class="subsection-stack">
@@ -59,36 +59,30 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>Open Source &amp; Tools</h3>
-          <span>4 articles</span>
+          <span>3 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: Vercel spend management, MCP feedback and image tools">
-          <div class="lead-label">Open Source &amp; Tools: Vercel spend management, MCP feedback and image tools</div>
-          <p>The Vercel CLI adds the vercel budgets command for viewing current spend and active budgets and setting or removing on-demand budgets; Vercel MCP adds a submit_feedback tool for submitting bugs, friction and feature requests in plain language; Simon Willison released Seam Cutter and Quick Study for seam-cut image cropping and rapid canvas-based photo painting.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Open source and tools: webframe, AgentEnv, and CLI service discovery">
+          <div class="lead-label">Open source and tools: webframe, AgentEnv, and CLI service discovery</div>
+          <p>webframe runs a URL or file in a hidden headless web view, sending console.log to stdout and exceptions to stderr. AgentEnv 0.9.1334 and later include a Vercel provider that runs an agent and its task environment in separate Sandboxes. The vercel connect discover command lets users search more than 1,000 services from the terminal by name, alias, keyword, and description, with filters by category, connection method, or product.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
-            <span class="at">Vercel CLI adds Spend Management</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">The Vercel CLI now lets teams view current spend and active budgets and set or remove on-demand budgets via the vercel budgets command; setting a budget alone does not stop usage.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
-            <span class="at">Send feedback from the Vercel MCP</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel MCP now includes a submit_feedback tool that lets agents send bug reports, friction reports and feature requests to Vercel in plain language, with structured context.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/25/seam-cutter" target="_blank" rel="noopener">
-            <span class="at">Seam Cutter</span>
+          <a class="art" href="https://simonwillison.net/2026/Oct/26/webframe-evaluation" target="_blank" rel="noopener">
+            <span class="at">webframe: evaluated as a scraper and a sandbox</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison released Seam Cutter, a tool that makes a horizontal or vertical cut across an image and slides the two sides to crop out a middle section, useful for stitching screenshots.</p>
+            <p class="as">Simon Willison evaluates webframe, a Go project by Jeff Lindsay that runs a URL or file in a hidden headless web view, sending console.log to stdout and exceptions to stderr.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/23/quick-study-painter" target="_blank" rel="noopener">
-            <span class="at">Quick Study</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Quick Study is a tool that opens a photo and rapidly paints a version of it using a canvas element and simulated paintbrush, employing Sobel edge detection.</p>
+          <a class="art" href="https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox" target="_blank" rel="noopener">
+            <span class="at">Run Scale AI’s AgentEnv evals on Vercel Sandbox</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel says AgentEnv 0.9.1334 and later include a Vercel provider that runs an agent and its task environment in separate Sandboxes for evaluation.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli" target="_blank" rel="noopener">
+            <span class="at">Discover 1000+ services on Vercel Connect from the CLI</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel&#39;s vercel connect discover command lets users and agents search more than 1,000 services from the terminal by name, alias, keyword, and description, with filters.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -96,30 +90,24 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>Infrastructure &amp; Data</h3>
-          <span>3 articles</span>
+          <span>2 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: Agent production access, build cache and managed keys">
-          <div class="lead-label">Infrastructure &amp; Data: Agent production access, build cache and managed keys</div>
-          <p>Vercel outlines the permission design for its agent accessing production systems, noting that requests like “fix this deployment” do not specify needed actions; deployment summaries now show build cache size and proximity to the build machine limit; Vercel Connect can create a separate restricted Stripe API key for each agent or task.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure and data: custom monitors and AI networking innovation">
+          <div class="lead-label">Infrastructure and data: custom monitors and AI networking innovation</div>
+          <p>Vercel now lets users create custom monitors from Observability query results to track metrics such as AI Gateway costs, Core Web Vitals, workflow and external API failure rates, or Sandbox CPU time. At the 2026 OCP Global Summit, Meta detailed networking innovations supporting its AI models and gigawatt-scale Prometheus cluster, including its first liquid-cooled network racks IcePack and IceCube, and 102.4T switch blades.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
-            <span class="at">How Vercel Agent accesses production safely</span>
+          <a class="art" href="https://vercel.com/changelog/create-custom-monitors-in-vercel-observability" target="_blank" rel="noopener">
+            <span class="at">Create custom monitors in Vercel Observability</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel outlines how its agent accesses production systems safely, noting that a request like “fix this deployment” does not specify needed actions, while broad access risks unrelated resources.</p>
+            <p class="as">Vercel now lets users create custom monitors from Observability query results, tracking metrics such as AI Gateway costs, Core Web Vitals, workflow and API failure rates, or Sandbox CPU time.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
-            <span class="at">Deployments now show build cache size</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel deployment summaries now show the build cache size saved per deployment and how close it is to the build machine limit; the CLI and REST API expose the same data.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
-            <span class="at">Vercel Connect adds managed Stripe API keys</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel Connect can now create a separate restricted Stripe API key for each agent or task, letting users choose permissions when creating a connector; existing methods remain unchanged.</p>
+          <a class="art" href="https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks" target="_blank" rel="noopener">
+            <span class="at">Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">At the 2026 OCP Global Summit, Meta detailed networking innovations for its AI models and gigawatt-scale Prometheus cluster, including its first liquid-cooled network rack and 102.4T switch blades.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

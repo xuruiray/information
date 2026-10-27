@@ -1,0 +1,1986 @@
+{
+  "date": "2026-10-27",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+              "title": "OpenAI 发布 GPT-6.1 Terra，主打视觉推理与电脑操作",
+              "summary": "OpenAI 推出 GPT-6.1 Terra，称这是一款快速高效的模型，结合细致的视觉推理与精确的电脑操作，并具备更清晰自然的写作能力。",
+              "title_en": "GPT-6.1 Terra",
+              "summary_en": "OpenAI introduced GPT-6.1 Terra, describing a fast, efficient model that combines detailed visual reasoning and precise computer use with clearer, more natural writing.",
+              "topic_evidence": "a fast, efficient model that combines detailed visual reasoning and precise computer use",
+              "reason": "直接报道 OpenAI 新模型 GPT-6.1 Terra 的发布，并点明视觉推理、电脑操作等能力，属于前沿模型动态。",
+              "reason_en": "Directly covers OpenAI's GPT-6.1 Terra release and its visual reasoning and computer-use capabilities, making it a frontier-model update.",
+              "score": 6.1
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.31768",
+              "title": "按查询选择模态，降低全模态大模型推理成本",
+              "summary": "研究提出按查询动态选择所需模态的推理方法，基于不同查询从额外模态获得的收益不一，减少全模态大模型的计算开销。",
+              "title_en": "Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection",
+              "summary_en": "Researchers propose per-query modality selection for omni-modal LLM inference, exploiting the varying benefit of additional modalities across queries to reduce computational cost.",
+              "topic_evidence": "the benefit of additional modalities varies across queries",
+              "reason": "论文针对全模态大模型推理成本，提出按查询选择模态的方法，属于推理效率与多模态模型前沿。",
+              "reason_en": "The paper targets omni-modal LLM inference cost with per-query modality selection, relevant to inference efficiency and multimodal frontiers.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33006",
+              "title": "线性时间上下文压缩：用状态空间编码缩短长上下文",
+              "summary": "研究提出基于状态空间编码的线性时间上下文压缩方法，在推理前把长上下文压缩为更短表示，以降低 Transformer 大模型的计算与内存开销。",
+              "title_en": "Linear-Time Context Compression with State-Space Encoding",
+              "summary_en": "A linear-time context compression method uses state-space encoding to turn long contexts into shorter representations before inference, aiming to cut Transformer LLM computation and memory costs.",
+              "topic_evidence": "compress a context into a shorter representation before inference",
+              "reason": "论文提出线性时间上下文压缩方法，直接针对长上下文带来的计算与内存成本，属于大模型推理效率研究。",
+              "reason_en": "It proposes linear-time context compression to address long-context computation and memory costs, a direct LLM inference-efficiency contribution.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33015",
+              "title": "SLICE-Mem：轻量记忆框架降低 LLM 智能体记忆开销",
+              "summary": "研究提出 SLICE-Mem 轻量记忆框架，用于 LLM 智能体长期记忆，减少因记忆准入、提取和组织而反复调用大模型带来的成本与延迟。",
+              "title_en": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory",
+              "summary_en": "SLICE-Mem is a lightweight memory framework for LLM agents that aims to cut the cost and latency of repeated LLM inference for memory admission, extraction, and organization.",
+              "topic_evidence": "repeated LLM inference for memory admission, extraction, and organization introduces substantial cost and latency",
+              "reason": "论文提出面向 LLM 智能体长期记忆的轻量框架，直接处理记忆管理中的推理成本与延迟，属于智能体与推理效率方向。",
+              "reason_en": "It introduces a lightweight long-term memory framework for LLM agents, directly addressing inference cost and latency in memory management.",
+              "score": 7.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+              "title": "OpenAI 将编程工具演变为常驻个人助理 dots",
+              "summary": "TechCrunch 报道 OpenAI 如何把编程工具转成名为 dots 的常驻个人助理；负责该产品的 OpenAI 高管表示，不希望与其他人的 AI 智能体开会。",
+              "title_en": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+              "summary_en": "TechCrunch reports how OpenAI turned its coding tools into dots, an always-on personal assistant; an OpenAI executive behind dots says he never wants meetings with someone else's AI agent.",
+              "topic_evidence": "OpenAI turned its coding tools into dots, an always-on personal assistant",
+              "reason": "报道 OpenAI 将编程工具转化为常驻个人助理产品 dots，属于 AI 产品与平台动态。",
+              "reason_en": "It reports OpenAI's transformation of coding tools into the always-on personal assistant dots, an AI product and platform update.",
+              "score": 5.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.33012",
+              "title": "递归语义分歧：评估 LLM 智能体运行一致性",
+              "summary": "研究关注使用工具的 LLM 智能体在相同状态下多次独立运行仍会出现行为不一致，提出递归语义分歧方法，用于评估这种影响部署可靠性的变异。",
+              "title_en": "Recursive Semantic Divergence for LLM Agent Consistency",
+              "summary_en": "The work addresses inconsistent behavior of tool-using LLM agents across independent runs from identical states and proposes recursive semantic divergence to evaluate variability that undermines deployment reliability.",
+              "topic_evidence": "inconsistent behavior across independent runs from identical states",
+              "reason": "论文直接研究 LLM 智能体在相同状态下重复运行的行为不一致，并提出评估方法，属于智能体可靠性与评测研究。",
+              "reason_en": "It directly studies inconsistent repeated runs of LLM agents from identical states and proposes an evaluation method, relevant to agent reliability and evaluation.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33240",
+              "title": "NewsBench：以专家依据评估 AI 新闻报道的认知质量",
+              "summary": "研究提出 NewsBench，以专家依据评估前沿 AI 系统在政治与时事信息回答中的认知质量，针对既有评测偏重意识形态对齐等局限。",
+              "title_en": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News Reporting",
+              "summary_en": "NewsBench is proposed to evaluate the epistemic quality of frontier AI responses on political and current-events information using expert grounding, addressing evaluations focused narrowly on ideological alignment.",
+              "topic_evidence": "evaluating the epistemic quality of their responses",
+              "reason": "论文提出面向 AI 时事报道认知质量的专家评测基准，直接回应前沿模型作为信息源时的评估问题。",
+              "reason_en": "It introduces an expert-grounded benchmark for epistemic quality in AI news reporting, directly addressing evaluation of frontier models as information sources.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33178",
+              "title": "AOS-Bench：LLM 智能体能否管理动态工作负载？",
+              "summary": "研究提出 AOS-Bench，评估编码智能体从单请求转向持续处理多项待办任务时的调度、委派与并行能力，例如同时处理构建、数据处理和修复缺陷。",
+              "title_en": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+              "summary_en": "AOS-Bench evaluates whether coding agents can manage persistent, dynamic workloads, including deciding when to take on new tasks and how to delegate and overlap work such as builds and bug fixes.",
+              "topic_evidence": "decide when to take on new tasks, how to delegate and overlap the",
+              "reason": "论文提出评估 LLM 智能体管理动态多任务工作负载的基准，属于智能体能力评测而非新模型发布。",
+              "reason_en": "It proposes a benchmark for LLM agents managing dynamic multitask workloads, an agent-capability evaluation rather than a model release.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33233",
+              "title": "大规模蒸馏专家判断：构建自动化评估系统",
+              "summary": "研究提出将专家人类判断蒸馏为可规模化运行的自动化评估系统的方法，面向医疗、国防、金融、治理和政治等高风险领域的 AI 模型评测。",
+              "title_en": "Distilling Expert Judgment at Scale",
+              "summary_en": "The paper presents a methodology for distilling expert human judgment into automated evaluation systems at scale for high-stakes AI deployments in healthcare, defense, finance, governance, and politics.",
+              "topic_evidence": "distilling expert human judgment into automated evaluation systems that operate at scale",
+              "reason": "论文提出面向高风险领域的专家判断蒸馏与自动化评估方法，直接服务于前沿 AI 的评测与治理。",
+              "reason_en": "It presents a method for distilling expert judgment into scalable automated evaluations for high-stakes AI, directly relevant to evaluation and governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33180",
+              "title": "用合成文档微调揭示对齐伪装的大模型倾向",
+              "summary": "研究利用合成文档微调，检测大模型是否在疑似监督时隐藏目标、进行对齐伪装，以暴露安全评测中可能被掩盖的危险错位行为。",
+              "title_en": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+              "summary_en": "The work uses synthetic document fine-tuning to expose alignment-faking LLMs that may hide goals when they suspect oversight, aiming to reveal dangerous misaligned behavior in safety evaluations.",
+              "topic_evidence": "alignment faking, where they pursue a hidden goal, but conceal this behaviour when they suspect effective oversight",
+              "reason": "论文针对对齐伪装这一安全评测难点，提出合成文档微调检测方法，属于 AI 安全与评测研究。",
+              "reason_en": "It targets alignment faking in safety evaluations with a synthetic document fine-tuning detection method, relevant to AI safety and evaluation research.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+              "title": "微软 Pylance 仓库的 Type Server Protocol 文档",
+              "summary": "Hacker News 上指向微软 Pylance 发布仓库中的 Type Server Protocol 文档，帖子获得 214 分和 145 条评论；候选材料未提供更多协议实现细节。",
+              "title_en": "Type Server Protocol",
+              "summary_en": "A Hacker News post links to Microsoft Pylance's Type Server Protocol documentation, with 214 points and 145 comments; the candidate material offers no further implementation details.",
+              "topic_evidence": "Type Server Protocol",
+              "reason": "候选标题直接指向微软 Pylance 仓库中的 Type Server Protocol 文档，属于 Python 语言工具链与协议，适合归入语言与框架。",
+              "reason_en": "The candidate title directly points to Microsoft Pylance's Type Server Protocol documentation, a Python tooling and protocol item suited to languages and frameworks.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+              "title": "webframe：作为抓取器与沙箱接受评估",
+              "summary": "Simon Willison 评估 Jeff Lindsay 的 Go 项目 webframe：它把 URL 或文件在隐藏无头网页视图中运行，将 console.log 输出到标准输出、异常输出到标准错误。",
+              "title_en": "webframe: evaluated as a scraper and a sandbox",
+              "summary_en": "Simon Willison evaluates webframe, a Go project by Jeff Lindsay that runs a URL or file in a hidden headless web view, sending console.log to stdout and exceptions to stderr.",
+              "topic_evidence": "run a web page like a program",
+              "reason": "摘要具体描述了 webframe 项目的运行方式、输出行为和 Go 实现，属于开发者工具与开源项目评估。",
+              "reason_en": "The summary specifically describes webframe's execution model, output behavior, and Go implementation, making it a developer tool and open-source project evaluation.",
+              "score": 9.1
+            },
+            {
+              "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+              "title": "在 Vercel Sandbox 上运行 Scale AI 的 AgentEnv 评测",
+              "summary": "Vercel 称 AgentEnv 0.9.1334 及以后版本提供 Vercel 提供程序，可在独立 Sandbox 中运行智能体及其任务环境，并查看任务评分与智能体记录。",
+              "title_en": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+              "summary_en": "Vercel says AgentEnv 0.9.1334 and later include a Vercel provider that runs an agent and its task environment in separate Sandboxes for evaluation.",
+              "topic_evidence": "runs the agent and its task environment in separate Sandboxes",
+              "reason": "候选内容说明 AgentEnv 评测框架新增 Vercel 提供程序及其运行方式，属于开发者工具与开源框架集成。",
+              "reason_en": "The candidate describes a new Vercel provider for the AgentEnv evaluation framework and how it runs, fitting developer tools and open-source framework integration.",
+              "score": 4.9
+            },
+            {
+              "url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+              "title": "通过 CLI 在 Vercel Connect 上发现 1000 多项服务",
+              "summary": "Vercel 推出 vercel connect discover 命令，可在终端按名称、别名、关键词和描述搜索 1000 多项服务，并按类别、连接方式或产品筛选结果。",
+              "title_en": "Discover 1000+ services on Vercel Connect from the CLI",
+              "summary_en": "Vercel's vercel connect discover command lets users and agents search more than 1,000 services from the terminal by name, alias, keyword, and description, with filters.",
+              "topic_evidence": "vercel connect discover searches by name, alias, keyword, and description",
+              "reason": "候选明确介绍一个新的 CLI 命令及其搜索与筛选能力，直接属于开发者工具。",
+              "reason_en": "The candidate clearly introduces a new CLI command and its search and filtering capabilities, directly fitting developer tools.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability",
+              "title": "在 Vercel Observability 中创建自定义监控器",
+              "summary": "Vercel 允许基于 Observability 查询结果创建自定义监控器，可追踪 AI Gateway 成本、Core Web Vitals、工作流与外部 API 失败率或 Sandbox CPU 时间等单项或比值指标。",
+              "title_en": "Create custom monitors in Vercel Observability",
+              "summary_en": "Vercel now lets users create custom monitors from Observability query results, tracking metrics such as AI Gateway costs, Core Web Vitals, workflow and API failure rates, or Sandbox CPU time.",
+              "topic_evidence": "create custom monitors to get alerts based on your Vercel Observability query results",
+              "reason": "候选描述的是可观测性监控器的创建方式与可追踪指标，属于基础设施监控与性能数据。",
+              "reason_en": "The candidate describes creating observability monitors and the metrics they can track, fitting infrastructure monitoring and performance data.",
+              "score": 3.9
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks",
+              "title": "Meta 在 2026 OCP 全球峰会：面向 AI 网络纵向扩展、横向扩展与跨域扩展的开放创新",
+              "summary": "Meta 在 2026 OCP 全球峰会介绍支持其 AI 模型和千兆瓦级 Prometheus 集群的网络创新，包括首款液冷网络机架 IcePack 与 IceCube，以及 102.4T 交换机刀片。",
+              "title_en": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+              "summary_en": "At the 2026 OCP Global Summit, Meta detailed networking innovations for its AI models and gigawatt-scale Prometheus cluster, including its first liquid-cooled network rack and 102.4T switch blades.",
+              "topic_evidence": "Meta’s first liquid-cooled network rack with 102.4T switch blades",
+              "reason": "候选具体介绍 Meta 的液冷网络机架、交换机刀片和 AI 集群网络方案，属于基础设施与数据中心网络。",
+              "reason_en": "The candidate specifically covers Meta's liquid-cooled network rack, switch blades, and AI cluster networking, fitting infrastructure and data-center networking.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+              "title": "科学家首次拍摄到磁性斯格明子晶格“融化”，或推动类脑计算",
+              "summary": "研究人员首次记录到称为斯格明子的微小磁涡旋从有序晶格中“融化”的过程，展示操控这类结构的新方法，有望用于更小、更节能的类脑计算硬件。",
+              "title_en": "Scientists film magnetic skyrmions melting out of lattice, pointing to brain-like computing",
+              "summary_en": "Researchers have for the first time filmed tiny magnetic vortices called skyrmions melting out of an organized lattice, revealing new ways to manipulate them and potentially enabling smaller, more energy-efficient brain-like computers.",
+              "topic_evidence": "tiny magnetic vortices called skyrmions melting out of an organized lattice",
+              "reason": "具体报道斯格明子晶格融化实验及其对类脑计算硬件的潜在意义。",
+              "reason_en": "Reports a specific experiment on skyrmion lattice melting and its potential for brain-like computing hardware.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+              "title": "新型三维热隐身斗篷可让物体躲过红外相机",
+              "summary": "研究团队研制出三维热隐身斗篷，能引导热量绕过物体，使其从几乎任意方向的红外成像中“消失”，同时保护物体免受极端冷热影响。",
+              "title_en": "New 3D thermal invisibility cloak hides objects from infrared cameras",
+              "summary_en": "Researchers have built and tested a 3D thermal invisibility cloak that guides heat around an object instead of blocking it, making the object invisible to infrared imaging from nearly any direction while shielding it from extreme temperatures.",
+              "topic_evidence": "3D invisibility cloak that can hide complex objects from infrared cameras",
+              "reason": "报道已建成并测试的三维热隐身器件及其红外隐身与隔热效果。",
+              "reason_en": "Covers a built and tested 3D thermal cloak with infrared stealth and thermal protection results.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": []
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+              "title": "运动不仅强健心脏，还会重塑控制心脏的神经",
+              "summary": "新研究发现，规律运动不仅增强心脏，还会重塑控制心脏功能的神经，而且身体左右两侧的变化存在明显差异。",
+              "title_en": "Exercise doesn't just strengthen the heart—it rewires its nerves",
+              "summary_en": "New research shows regular exercise reshapes the nerves controlling heart function, not just the heart muscle, with surprisingly different changes on the left and right sides of the body.",
+              "topic_evidence": "it actually reshapes the nerves controlling how the heart functions",
+              "reason": "具体研究运动对心脏神经的重塑作用及左右差异。",
+              "reason_en": "Describes research on exercise-induced rewiring of heart nerves and left-right differences.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+              "title": "AI 可在确诊前数年识别胰腺癌的“隐形”征兆",
+              "summary": "新 AI 系统 REDMOD 能在常规扫描可见之前平均提前 475 天发现胰腺癌隐藏迹象，灵敏度约为经验丰富放射科医生的两倍。",
+              "title_en": "AI detects 'invisible' signs of pancreatic cancer years before diagnosis",
+              "summary_en": "A new AI system called REDMOD identified hidden pancreatic cancer warning signs an average of 475 days before diagnosis and was nearly twice as sensitive as experienced radiologists.",
+              "topic_evidence": "identified hidden warning signs an average of 475 days before diagnosis",
+              "reason": "报道 REDMOD 系统在胰腺癌早期检测中的具体提前量和灵敏度对比。",
+              "reason_en": "Reports specific lead time and sensitivity comparison for REDMOD in early pancreatic cancer detection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+              "title": "2700年前的日食揭示地球自转的意外线索",
+              "summary": "科学家通过修正中国古代都城位置的8公里误差，重建了公元前709年的日全食，并据此获得更精确的地球自转速度和古代太阳活动测量。",
+              "title_en": "A 2,700-year-old solar eclipse reveals surprising clues about Earth's rotation",
+              "summary_en": "By correcting an 8-kilometer error in the location of an ancient Chinese capital, scientists reconstructed a total solar eclipse from 709 BCE and obtained more accurate measurements of Earth's rotation and the Sun's ancient behavior.",
+              "topic_evidence": "correcting an eight-kilometer error in the location of an ancient Chinese capital",
+              "reason": "具体说明利用古代日食记录修正位置误差并重建日食、测量地球自转的研究。",
+              "reason_en": "Details how an ancient eclipse record and a location correction were used to reconstruct the eclipse and measure Earth's rotation.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+              "title": "中国科学家发现巨型真菌“D-rex”，演化根源可追溯至6500万年前",
+              "summary": "中国发现一种新高大型真菌，高可达20英寸、重近5磅，是已知同类中最大的；其演化谱系似乎在恐龙灭绝后不久出现。",
+              "title_en": "Chinese scientists discover 'D-rex,' a giant fungus with roots stretching back 65 million years",
+              "summary_en": "Scientists have discovered a giant new fungus in China growing up to 20 inches tall and weighing nearly five pounds, the largest known of its kind, with a lineage that appears to have emerged shortly after the dinosaurs went extinct.",
+              "topic_evidence": "a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds",
+              "reason": "报道在中国发现的大型真菌新种及其尺寸与演化时间。",
+              "reason_en": "Reports a newly discovered giant fungus in China, including its size and evolutionary timing.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": []
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers",
+              "title": "Databricks 联合创始人谈赢得大型企业客户：借力巨头销售团队",
+              "summary": "Databricks 联合创始人表示，向大企业销售并非依赖最炫目的技术，而是借助大型厂商的销售团队来打开企业客户渠道。",
+              "title_en": "Databricks co-founder on winning big enterprise customers by leveraging a giant’s sales team",
+              "summary_en": "Databricks’ co-founder says selling to large enterprises is less about having the shiniest technology and more about leveraging a giant’s sales team to reach customers.",
+              "topic_evidence": "hitching a ride on a giant’s sales team",
+              "reason": "该文直接讨论初创公司面向大型企业客户的销售策略，属于创业公司的商业模式与增长路径。",
+              "reason_en": "The article directly discusses sales strategy for startups targeting large enterprise customers, fitting startup business models and growth paths.",
+              "score": 3.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/27/us-bans-byd-electric-vehicles-kadena-military-base",
+              "title": "美军在嘉手纳基地禁用中国比亚迪车辆，称存在“不可接受”风险",
+              "summary": "美国军方表示，位于日本的嘉手纳空军基地本周起禁止中国比亚迪制造的车辆进入，禁令也适用于送货司机和出租车，理由是安全风险。",
+              "title_en": "US bans vehicles from China’s BYD at Japan military base, calling them ‘unacceptable’ risk",
+              "summary_en": "The US military has banned BYD-made vehicles from Kadena airbase in Japan, saying the restriction also covers delivery drivers and taxis because of security concerns.",
+              "topic_evidence": "banned vehicles made by the Chinese electric vehicle maker BYD over security concerns",
+              "reason": "直接涉及美军基地安全限制与中国电动车企业，属于地缘与安全。",
+              "reason_en": "Directly concerns security restrictions at a US military base and a Chinese EV maker, fitting geopolitics and security.",
+              "score": 9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
+              "title": "苏丹准军事部队无人机袭击东部多州电站，造成大面积停电",
+              "summary": "苏丹快速支援部队对五座电站发动协同无人机袭击，导致东部多州大规模停电；一名政府官员称袭击发生在苏丹军队控制区。",
+              "title_en": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
+              "summary_en": "Sudan’s Rapid Support Forces launched coordinated drone attacks on five power stations, causing mass outages across eastern states, a government official said.",
+              "topic_evidence": "coordinated drone attack against five power stations",
+              "reason": "直接报道苏丹冲突中的无人机袭击与基础设施破坏。",
+              "reason_en": "Directly reports drone attacks and infrastructure damage in Sudan’s conflict.",
+              "score": 8.8
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+              "title": "伊朗战争直播：伊朗称美国对谈判“不认真”，伊拉克附近一船只起火",
+              "summary": "伊朗表示美国对谈判“不认真”，与此同时英国海事贸易行动办公室报告伊拉克沿海一艘船只起火。",
+              "title_en": "Iran war live: Iran says US ‘not serious’ about talks; ship ablaze off Iraq",
+              "summary_en": "Iran said the United States is “not serious” about negotiations, while UKMTO reported a ship on fire off the coast of Iraq.",
+              "topic_evidence": "ship on fire off the coast of Iraq",
+              "reason": "涉及美伊战争、谈判与海湾航运安全。",
+              "reason_en": "Concerns the US-Iran war, negotiations, and maritime security in the Gulf.",
+              "score": 8.7
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+              "title": "约旦为报复教堂袭击对叙利亚发动致命打击",
+              "summary": "约旦对叙利亚境内目标发动打击，以报复教堂袭击；叙利亚卫生官员称，叙境内一村庄遇袭造成五人死亡，包括妇女和儿童。",
+              "title_en": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+              "summary_en": "Jordan struck targets in Syria in retaliation for a church attack; Syrian health officials said a village attack killed five people, including women and children.",
+              "topic_evidence": "deadly strike in Syria in retaliation for church attack",
+              "reason": "跨境报复性军事打击，涉及中东安全。",
+              "reason_en": "Cross-border retaliatory military strike involving Middle East security.",
+              "score": 8.6
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+              "title": "卢拉在巴西大选戏剧性逆转中赢得第四个总统任期",
+              "summary": "巴西左翼现任总统卢拉在第二轮投票中击败右翼挑战者弗拉维奥·博索纳罗，赢得第四个任期；他在首轮曾落后。",
+              "title_en": "Lula wins fourth term in dramatic Brazil election comeback",
+              "summary_en": "Brazil’s left-wing incumbent President Lula defeated right-wing challenger Flávio Bolsonaro in the runoff, winning a fourth term after losing the first round.",
+              "topic_evidence": "Lula wins fourth term in dramatic Brazil election comeback",
+              "reason": "巴西总统选举结果，属于政府与政策。",
+              "reason_en": "Brazil’s presidential election result, fitting government and policy.",
+              "score": 9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+              "title": "塞尔维亚资深领导人武契奇败给抗议运动，民众庆祝",
+              "summary": "塞尔维亚执政12年的右翼民粹领导人武契奇表示，其政党“显然”已输掉这场被视为对国家未来公投的选举，抗议运动获胜后民众庆祝。",
+              "title_en": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+              "summary_en": "Serbia’s populist leader of 12 years, Aleksandar Vučić, said his party had clearly lost an election to a protest movement that framed the vote as a referendum on the country’s future.",
+              "topic_evidence": "Vučić loses election to student-led protest movement",
+              "reason": "欧洲国家选举更替，属于政府与政策。",
+              "reason_en": "An election change in a European country, fitting government and policy.",
+              "score": 8.8
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-2026-live-netanyahu-faces-tough-test-in-high-stakes-polls?traffic_source=rss",
+              "title": "以色列大选直播：内塔尼亚胡在关键选举中面临严峻考验",
+              "summary": "以色列举行自2023年哈马斯袭击引发地区冲突以来的首次选举，数百万选民投票；这次选举被广泛视为该国历史上最具影响的选举之一。",
+              "title_en": "Israel election 2026 live: Netanyahu faces tough test in high-stakes polls",
+              "summary_en": "Millions of Israelis are voting in the first election since the 2023 Hamas-led attacks, with Prime Minister Netanyahu facing a tough contest widely portrayed as among the country’s most consequential.",
+              "topic_evidence": "Netanyahu faces tough test in high-stakes polls",
+              "reason": "以色列关键选举与领导人考验，属于政府与政策。",
+              "reason_en": "Israel’s high-stakes election and leadership test, fitting government and policy.",
+              "score": 8.7
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election",
+              "title": "巴西落败候选人弗拉维奥·博索纳罗被令交出护照",
+              "summary": "巴西最高法院法官下令禁止右翼参议员弗拉维奥·博索纳罗离境并交出护照，裁决提及洗钱案；这发生在他总统选举落败数小时后。",
+              "title_en": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
+              "summary_en": "Brazil’s Supreme Court ordered defeated far-right senator Flávio Bolsonaro to surrender his passports and barred him from leaving the country, citing a money-laundering case.",
+              "topic_evidence": "ordered to surrender passports",
+              "reason": "巴西选举后的司法与政治后续，属于政府与政策。",
+              "reason_en": "Post-election judicial and political fallout in Brazil, fitting government and policy.",
+              "score": 8.5
+            },
+            {
+              "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+              "title": "英国制裁涉嫌在法希尔“强奸行动”中角色的苏丹军方领导人",
+              "summary": "英国对涉嫌在法希尔性暴力的苏丹高级指挥官实施旅行禁令和资产冻结；制裁正值大规模暴行一周年，该事件据称造成数万平民死亡。",
+              "title_en": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+              "summary_en": "Britain imposed travel bans and asset freezes on senior Sudanese commanders suspected of sexual violence in El Fasher, one year after a mass atrocity that reportedly killed tens of thousands.",
+              "topic_evidence": "campaign of rape",
+              "reason": "针对苏丹暴行的制裁政策，属于政府与政策。",
+              "reason_en": "Sanctions policy responding to atrocities in Sudan, fitting government and policy.",
+              "score": 8.4
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
+              "title": "英国预计无法实现降至国民收入0.3%的援助支出目标",
+              "summary": "全球发展中心测算，英国明年国际援助支出可能比预期少约4.1亿英镑，到明年底将无法实现国民收入0.3%的援助目标。",
+              "title_en": "UK poised to miss reduced aid spending target of 0.3% of national income",
+              "summary_en": "The UK is on course to miss its target of spending 0.3% of national income on international aid by about £400m by the end of next year, according to Center for Global Development estimates.",
+              "topic_evidence": "miss its target of spending 0.3% of national income on international aid",
+              "reason": "国际援助与发展政策，属于全球社会。",
+              "reason_en": "International aid and development policy, fitting global society.",
+              "score": 8.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721481.shtml",
+              "title": "中央纪委国家监委：前9个月立案省部级及以上干部73人",
+              "summary": "中央纪委国家监委10月27日通报，今年1至9月全国纪检监察机关立案省部级及以上干部73人，处分105人，显示反腐败监督持续加码。",
+              "title_en": "China's top anti-corruption body: 73 officials at provincial-ministerial level or above investigated in first nine months",
+              "summary_en": "The Central Commission for Discipline Inspection and the National Supervisory Commission reported on Oct 27 that 73 officials at or above provincial-ministerial level were placed under investigation in the first nine months of 2026, with 105 disciplined.",
+              "topic_evidence": "立案省部级及以上干部73人，处分省部级及以上干部105人",
+              "reason": "通报具体反腐数据，属于纪检监察监管动态。",
+              "reason_en": "Concrete anti-corruption data from disciplinary and supervisory authorities.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721545.shtml",
+              "title": "陪诊服务国家标准将于11月1日实施，明确服务边界",
+              "summary": "针对陪诊服务，国家标准将于11月1日起实施，旨在保障服务质量、规范服务边界，防止越界行为。",
+              "title_en": "China's national standard for medical companion services to take effect on Nov 1",
+              "summary_en": "A national standard for medical companion services will take effect on Nov 1, aiming to guarantee service quality and clarify boundaries to prevent overreach.",
+              "topic_evidence": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+              "reason": "新国家标准将实施，直接涉及服务监管与消费者保障。",
+              "reason_en": "A new national standard directly addresses service regulation and consumer protection.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721521.shtml",
+              "title": "山东聊城“中华葫芦之乡”：传统葫芦产业吸引年轻消费者",
+              "summary": "山东聊城被誉为“中华葫芦之乡”，当地千年葫芦产业通过文创和年轻化设计，吸引年轻消费群体，带动乡村特色产业发展。",
+              "title_en": "\"Hometown of Chinese gourds\" in Shandong's Liaocheng attracts young consumers",
+              "summary_en": "Liaocheng in Shandong, known as the \"hometown of Chinese gourds,\" is drawing young consumers by combining its centuries-old gourd craft with cultural and creative designs, boosting the local specialty industry.",
+              "topic_evidence": "千年葫芦“圈粉”年轻消费群体",
+              "reason": "地方特色产业与年轻消费结合，属于产业与地方动态。",
+              "reason_en": "Local specialty industry meets young consumer trends.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721539.shtml",
+              "title": "河北唐山推进秸秆资源化利用，田间废弃物成增收来源",
+              "summary": "河北唐山推动秸秆综合利用，将过去田间的“累赘”转化为农民增收的“香饽饽”，体现农业废弃物资源化利用的地方实践。",
+              "title_en": "Tangshan turns crop straw from waste into income source",
+              "summary_en": "Tangshan in Hebei is promoting comprehensive straw utilization, turning what was once field waste into an income source for farmers, reflecting local practices in agricultural waste recycling.",
+              "topic_evidence": "田间“累赘”变增收“香饽饽”",
+              "reason": "具体地方农业资源化利用案例，属于产业与地方。",
+              "reason_en": "A specific local agricultural recycling case.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721503.shtml",
+              "title": "中国脑机接口产业加速商业化，技术监管难题仍待解",
+              "summary": "中国脑机接口产业正加速走向商业化，但在技术成熟度、临床验证和监管规范等方面仍面临待解难题。",
+              "title_en": "China's brain-computer interface industry accelerates commercialization amid unresolved challenges",
+              "summary_en": "China's brain-computer interface industry is speeding toward commercialization, but challenges remain in technical maturity, clinical validation and regulatory standards.",
+              "topic_evidence": "脑机接口加速产业化，仍有难题待解",
+              "reason": "涉及前沿产业商业化进展与瓶颈，属于产业与地方。",
+              "reason_en": "Covers commercialization progress and bottlenecks of a frontier industry.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721489.shtml",
+              "title": "广西部署农药兽药综合整治，明确五项核心任务",
+              "summary": "广西农业农村厅召开全区农药兽药综合整治行动视频推进会，明确五项核心任务，严厉打击农药兽药违法乱象，保障农产品质量安全。",
+              "title_en": "Guangxi launches campaign against illegal pesticides and veterinary drugs",
+              "summary_en": "Guangxi's agriculture department held a video meeting to advance a comprehensive campaign against illegal pesticides and veterinary drugs, setting five core tasks to safeguard agricultural product quality.",
+              "topic_evidence": "广西明确五项核心整治任务 严打农药兽药违法乱象",
+              "reason": "地方部署具体执法整治行动，属于社会与法治。",
+              "reason_en": "Local enforcement campaign against illegal agricultural inputs.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721465.shtml",
+              "title": "安徽法律援助9年帮困难民众挽回损失10.32亿元",
+              "summary": "安徽省安庆市法律援助中心主任范江宏等人9年间为困难民众提供法律援助，累计挽回损失10.32亿元，体现法律援助的民生保障作用。",
+              "title_en": "Anhui legal aid helps disadvantaged people recover 1.032 billion yuan over nine years",
+              "summary_en": "Legal aid workers in Anqing, Anhui, have helped disadvantaged people recover 1.032 billion yuan over nine years, highlighting legal aid's role in protecting livelihoods.",
+              "topic_evidence": "9年帮困难民众挽回损失10.32亿元",
+              "reason": "具体法律援助成效数据，属于社会与法治。",
+              "reason_en": "Concrete legal aid results and social protection.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721538.shtml",
+              "title": "康复医生提醒泡沫轴风险：骨面不压、关节不滚",
+              "summary": "成都医学院第一附属医院康复科医生王风波提醒，泡沫轴使用不当可能导致肋骨损伤，建议不要直接压迫骨面，也不要滚关节。",
+              "title_en": "Rehabilitation doctor warns of foam roller injury risks",
+              "summary_en": "A rehabilitation doctor at the First Affiliated Hospital of Chengdu Medical College warned that improper foam roller use can cause rib injuries, advising users not to press directly on bones or roll over joints.",
+              "topic_evidence": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+              "reason": "具体健康风险提示，属于社会民生。",
+              "reason_en": "Specific public health warning.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721497.shtml",
+              "title": "全国儿童主任种子讲师培训班在辽宁本溪举办",
+              "summary": "全国儿童主任种子讲师培训班（第二期）在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训，以提升儿童福利与保护服务能力。",
+              "title_en": "National training for children's welfare instructors held in Liaoning",
+              "summary_en": "The second national training session for children's welfare instructors was held in Benxi, Liaoning, with 50 participants from across the country aiming to improve child welfare and protection services.",
+              "topic_evidence": "全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训",
+              "reason": "具体社会服务培训活动，属于社会民生。",
+              "reason_en": "Specific social service training event.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
+              "title": "Anthropic IPO 提振情绪 全球股市续涨、油价下跌",
+              "summary": "全球股市延续涨势，Anthropic PBC 提交首次公开募股文件，重新点燃市场对人工智能交易的乐观情绪；原油价格进一步走低。",
+              "title_en": "Stocks Extend Gains on Anthropic IPO, Oil Drops: Markets Wrap",
+              "summary_en": "Global stocks extended gains after Anthropic PBC filed for an initial public offering, reviving optimism over the AI trade; crude oil fell further.",
+              "topic_evidence": "Anthropic PBC’s filing for an initial public offering renewed optimism",
+              "reason": "直接反映全球股市与油价变动，并以 Anthropic IPO 为市场情绪线索。",
+              "reason_en": "Directly covers global equity and oil moves, with Anthropic's IPO filing as the sentiment driver.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale",
+              "title": "三星生命逆市发行创纪录美元债券",
+              "summary": "三星集团旗下三星生命发行韩国保险公司规模最大的美元债券，投资者在波动的债务市场中仍认购，部分企业此前已撤回发债计划。",
+              "title_en": "Samsung Life Prices Record Dollar Bond as Investors Defy Turmoil",
+              "summary_en": "A Samsung Group affiliate sold the largest dollar bond by a South Korean insurer, as investors braved volatile debt markets that have pushed some companies to pull offerings.",
+              "topic_evidence": "sold the biggest dollar bond sale for a South Korean insurer",
+              "reason": "具体展示高波动债市中的大型美元债发行与投资者需求。",
+              "reason_en": "Shows a large dollar bond sale and investor demand amid volatile debt markets.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-27/china-5-year-yield-hits-record-low-on-pboc-s-cash-injection",
+              "title": "中国五年期国债收益率跌近历史低位",
+              "summary": "在中国央行加大对银行体系现金投放后，中国五年期国债收益率下行，交易水平接近历史低位。",
+              "title_en": "China’s 5-Year Government Bond Yield Trades Near Record Low",
+              "summary_en": "China’s five-year government bond yield fell toward a record low after the central bank increased cash injections into the banking system.",
+              "topic_evidence": "China’s five-year government bond yield dropped after the central bank increased its cash injection",
+              "reason": "直接涉及国债收益率与央行流动性操作，属于市场与资产。",
+              "reason_en": "Directly covers a government bond yield move and central bank liquidity operation.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+              "title": "中国股市因 AI 竞赛蒸发数万亿美元",
+              "summary": "近几个月中国股市蒸发数万亿美元，市场对人工智能前景的担忧升温；在北京与华盛顿争夺 AI 主导权之际，缺乏盈利等问题引发关注。",
+              "title_en": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
+              "summary_en": "Trillions of dollars have been wiped from Chinese stock markets in recent months amid anxiety over AI prospects, as Beijing competes with Washington and investors question the boom’s sustainability.",
+              "topic_evidence": "Trillions of dollars have been wiped from China’s stock markets",
+              "reason": "聚焦中国股市大幅市值损失及 AI 投资可持续性担忧。",
+              "reason_en": "Focuses on large market-cap losses in Chinese equities and concerns about AI investment sustainability.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
+              "title": "英伟达、AMD 与博通或参与认购 Meta 350 亿美元股票发行",
+              "summary": "Meta 计划通过股票相关交易筹资总计 950 亿美元，交易延续至明年初；其中 350 亿美元股票发行中，英伟达、AMD 和博通可能购买 Meta 股份。",
+              "title_en": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+              "summary_en": "Meta aims to raise $95 billion through stock-related deals extending into early next year; Nvidia, AMD and Broadcom could buy Meta shares in a $35 billion offering.",
+              "topic_evidence": "Meta is looking to raise a total of $95 billion through stock-related deals",
+              "reason": "涉及大型股票发行及潜在芯片厂商认购，属于重大股权融资事件。",
+              "reason_en": "Covers a large equity offering and potential chipmaker participation in Meta financing.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-26/claudia-sahm-makes-case-for-an-october-fed-rate-hike-video",
+              "title": "Claudia Sahm 论证美联储 10 月加息理由",
+              "summary": "New Century Advisors 首席经济学家 Claudia Sahm 认为，能源成本高企可能传导至其他消费价格，对加拿大关税或上升，构成通胀上行风险，或支持 10 月加息。",
+              "title_en": "Claudia Sahm Makes the Case for an October Fed Rate Hike",
+              "summary_en": "New Century Advisors chief economist Claudia Sahm argues high energy costs could spread into consumer prices and Canadian tariffs may rise, creating upside inflation risks that could justify an October hike.",
+              "topic_evidence": "high energy costs could spread into other consumer prices",
+              "reason": "提供对美联储 10 月利率决策的具体通胀风险论证。",
+              "reason_en": "Offers a specific inflation-risk argument for an October Fed rate decision.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
+              "title": "韩国三季度增长超预期 芯片繁荣掩盖消费疲软",
+              "summary": "韩国第三季度经济增速快于预期，人工智能驱动的芯片繁荣提振出口和投资，但消费收缩显示复苏不均衡，可能使后续加息路径复杂化。",
+              "title_en": "S. Korea Growth Tops Forecast as Chip Boom Masks Weak Demand",
+              "summary_en": "South Korea’s economy grew faster than expected in the third quarter as an AI-driven chip boom lifted exports and investment, while a consumption contraction underscored an uneven expansion.",
+              "topic_evidence": "grew faster than expected in the third quarter",
+              "reason": "涉及增长、通胀与利率路径的宏观数据解读。",
+              "reason_en": "Covers growth data and implications for inflation and the rate path.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/pakistan-hikes-interest-rate-to-curb-inflation-risks",
+              "title": "巴基斯坦加息 中东冲突推升通胀风险",
+              "summary": "巴基斯坦周一上调基准利率，因中东冲突带来的通胀风险上升，决策者选择收紧政策，即使可能进一步拖慢经济增长。",
+              "title_en": "Pakistan Raises Rates as Middle East Conflict Fans Inflation",
+              "summary_en": "Pakistan raised its benchmark interest rate on Monday as inflation risks from the Middle East conflict pushed policymakers to tighten, even at the risk of further slowing growth.",
+              "topic_evidence": "Pakistan raised its benchmark interest rate on Monday",
+              "reason": "直接报道新兴市场央行为应对通胀而加息。",
+              "reason_en": "Directly reports an emerging-market central bank hiking rates to counter inflation.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show",
+              "title": "估算显示英国企业或面临 5.5% 最低工资上调",
+              "summary": "预算案周三公布前，估算显示除非财政大臣 John Healey 决定避免再次大幅上调，英国企业明年可能面临超过 5% 的最低工资涨幅。",
+              "title_en": "UK Companies at Risk of 5.5% Minimum Wage Hike, Estimates Show",
+              "summary_en": "Ahead of Wednesday’s budget, estimates show UK businesses could face a minimum wage increase of more than 5% next year unless Chancellor John Healey spares them another large rise.",
+              "topic_evidence": "increase in the minimum wage of more than 5% next year",
+              "reason": "涉及工资政策及其对企业成本和预算的影响。",
+              "reason_en": "Covers wage policy and its impact on business costs ahead of the budget.",
+              "score": 2.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/nigeria-floats-draft-economic-plan-to-outlast-governments",
+              "title": "尼日利亚公布跨政府经济框架草案",
+              "summary": "尼日利亚财政部长 Taiwo Oyedele 公布经济政策框架草案，旨在为政府计划、预算和政策提供蓝图，并使其不因政府更迭而失效。",
+              "title_en": "Nigeria Floats Draft Economic Plan to Outlast Governments",
+              "summary_en": "Nigerian Finance Minister Taiwo Oyedele unveiled a draft economic policy framework intended to guide government plans, budgets and policies regardless of which administration is in power.",
+              "topic_evidence": "unveiled a draft economic policy framework",
+              "reason": "报道国家级经济政策框架草案及其跨周期设计。",
+              "reason_en": "Reports a national economic policy framework designed to outlast administrations.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-27/mavuso-joburg-infrastructure-risks-driving-business-out-video",
+              "title": "约翰内斯堡基础设施衰败 或促使跨国公司撤离",
+              "summary": "Business Leadership South Africa 首席执行官 Busi Mavuso 警告，约翰内斯堡企业自建道路、运水并用离网电力维持运营，叠加成本正抑制新投资，并促使更多跨国公司重新考虑是否留在南非。",
+              "title_en": "Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns",
+              "summary_en": "Business Leadership South Africa CEO Busi Mavuso warns Johannesburg firms are paving roads, trucking water and generating off-grid power, with compounding costs choking investment and pushing multinationals to reconsider.",
+              "topic_evidence": "private companies are paving their own roads, trucking in water, and generating off-grid electricity",
+              "reason": "从企业运营成本角度说明基础设施与投资环境风险。",
+              "reason_en": "Explains infrastructure and investment-climate risks through business operating costs.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+              "title": "日本外汇交易平台遭黑客攻击 被索 5000 万美元赎金",
+              "summary": "黑客威胁泄露零售外汇交易者客户数据，并要求支付 5000 万美元，否则发动勒索软件攻击，再次暴露日本网络攻击脆弱性。",
+              "title_en": "Trading Platform Rocked by Japan Hack, $50 Million Ransom Note",
+              "summary_en": "Hackers threatened to leak customer data from retail foreign exchange traders and launch a ransomware attack unless paid $50 million, highlighting Japan’s cyber vulnerability.",
+              "topic_evidence": "hackers threatened to leak customer data of retail foreign exchange traders",
+              "reason": "涉及零售外汇平台的客户数据与赎金风险，属于金融业务安全事件。",
+              "reason_en": "Covers customer-data and ransom risks at a retail FX platform, a financial-operations security event.",
+              "score": 2.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+              "title": "来自未来的人：为什么 Johnny 停不下抽象",
+              "summary": "HN 上题为《来自未来的人：为什么 Johnny 停不下抽象》的文章获145分、70条评论，标题指向软件开发中的抽象倾向；候选仅提供标题与讨论指标。",
+              "title_en": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+              "summary_en": "An HN post titled “A Man from the Future: Why Johnny Can't Stop Abstracting” drew 145 points and 70 comments; only the title and discussion metrics are provided.",
+              "topic_evidence": "Why Johnny Can't Stop Abstracting",
+              "reason": "标题为软件抽象主题的博客式文章，且 HN 讨论有明确热度，适合技术观点版。",
+              "reason_en": "A blog-style essay on software abstraction with clear HN discussion activity, suitable for the tech opinion subsection.",
+              "score": 0
+            },
+            {
+              "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
+              "title": "仍能在 Windows 11 上运行的最老 GUI 应用",
+              "summary": "HN 文章标题讨论仍能在 Windows 11 运行的最老 GUI 应用，该帖获349分、208条评论；候选未给出应用名称、年代或兼容性细节。",
+              "title_en": "Oldest GUI application that still runs on Windows 11",
+              "summary_en": "An HN post discusses the oldest GUI application that still runs on Windows 11; it drew 349 points and 208 comments, but the candidate gives no app name or compatibility details.",
+              "topic_evidence": "Oldest GUI application that still runs on Windows 11",
+              "reason": "技术史与软件兼容性主题的博客文章，HN 讨论热度高，符合技术观点。",
+              "reason_en": "A blog post on computing history and software compatibility with high HN engagement, fitting tech opinion.",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce",
+              "title": "微软向约四分之一员工提供大规模买断",
+              "summary": "据《西雅图时报》标题，微软向约四分之一员工提出大规模买断；HN 讨论获843分、767条评论，候选未提供方案细节或公司回应。",
+              "title_en": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+              "summary_en": "The Seattle Times headline says Microsoft is offering mass buyouts for roughly a quarter of its workforce; the HN discussion drew 843 points and 767 comments, without further details in the candidate.",
+              "topic_evidence": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+              "reason": "涉及大型科技公司用工与组织调整，具备商业与社会讨论价值。",
+              "reason_en": "It concerns workforce and organizational changes at a major tech company, with business and societal relevance.",
+              "score": 0
+            },
+            {
+              "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+              "title": "太阳能发电规模正变得比核能更大",
+              "summary": "BBC Future 文章标题称太阳能发电规模正变得比核能更大；HN 讨论获202分、321条评论，候选未提供统计口径、地区范围或时间点。",
+              "title_en": "Solar power is becoming bigger than nuclear",
+              "summary_en": "A BBC Future headline says solar power is becoming bigger than nuclear; the HN discussion drew 202 points and 321 comments, with no data definitions or regional scope in the candidate.",
+              "topic_evidence": "Solar power is becoming bigger than nuclear",
+              "reason": "能源结构与政策讨论相关，适合商业与社会评论。",
+              "reason_en": "It relates to energy structure and policy debate, suitable for business and society commentary.",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://css-tricks.com/css-tricks-has-a-new-owner",
+              "title": "CSS-Tricks 迎来新所有者",
+              "summary": "HN 条目显示，CSS-Tricks 已有了新所有者；该帖获411分、94条评论，候选仅提供标题和讨论指标，未说明交易条款或新东家身份。",
+              "title_en": "CSS-Tricks has a new owner",
+              "summary_en": "An HN item says CSS-Tricks has a new owner; it drew 411 points and 94 comments, but the candidate only provides the title and metrics, not deal terms or the new owner's identity.",
+              "topic_evidence": "CSS-Tricks has a new owner",
+              "reason": "涉及开发者社区常用网站的所有权变更，HN 讨论热度较高，归入社区讨论。",
+              "reason_en": "It concerns an ownership change at a site widely used by the developer community, with active HN discussion.",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+      "original_title": "GPT-6.1 Terra",
+      "original_summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos. Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it. Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks. OpenAI's Ted Sanders provided some useful advice in a comment on Hacker News: In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select. Here are the pelicans for the different reasoning levels. This pelican for \"max\" cost 11.3161 cents and took 4 minutes and 11 seconds: Here's a new comparison grid showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna. GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna. Via Hacker News Tags: ai , openai , generative-ai , llms , llm-pricing , pelican-riding-a-bicycle , llm-release , gpt",
+      "topic_evidence": "a fast, efficient model that combines detailed visual reasoning and precise computer use",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.31768",
+      "original_title": "Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection",
+      "original_summary": "arXiv:2610.31768v1 Announce Type: new Abstract: Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multimodal understanding and reasoning capabilities, but often at substantial inference cost. We observe that the benefit of additional modalities varies across queries, indicating that a fixed modality configuration can be inefficient. Motivated by this, we study query-wise modality selection, which keeps the underlying Omni-LLM fixed while adaptively selecting which modalities to provide for each query. We formulate the problem as an accuracy-cost optimization problem and develop a cost-sensitive learning approach for modality selection. We evaluate our approach on WorldSense using Qwen2.5-Omni and Qwen3-Omni under three inference-cost measures: input tokens, latency, and monetary cost. Across both models, query-wise modality selection consistently improves the accuracy-cost trade-off and can even outperform the standard setting in which all available modalities are provided to the Omni-LLM. For Qwen2.5-Omni, our cost-sensitive approach matches or exceeds this full-modality accuracy while requiring only approximately 41% of the input tokens, 39% of the latency, and 61% of the monetary cost.",
+      "topic_evidence": "the benefit of additional modalities varies across queries",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.33006",
+      "original_title": "Linear-Time Context Compression with State-Space Encoding",
+      "original_summary": "arXiv:2610.33006v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that compress a context into a shorter representation before inference. Existing soft-prompt compression methods typically use the same Transformer backbone as used in the target model, where producing the compressed representation leads to significant latency overheads. This restricts them to the offline setting where context is compressed once and then reused across many queries. We propose the Boa Compressor, a plug-and-play online context compressor built on a Mamba state-space model (SSM) that encodes arbitrary-length context in a single linear-time pass, producing a representation on which we condition a frozen target LLM. The SSM is trained by distillation, matching the next-token logit distribution from the LLM ingesting the full context (as teacher) to the same LLM ingesting the compressed representation (as the student). At equal compression ratios, Boa matches or surpasses the performance of existing state-of-the-art offline compression baselines, while being an order of magnitude faster than Transformer-based implementations, thereby reducing end-to-end latency rather than adding compression time overhead. We demonstrate that Boa also scales well to longer contexts and to compression ratios as aggressive as 16x. By enabling effective compression that is cheap enough to run on every query at inference time, Boa becomes a practical and general tool for efficient long-context inference.",
+      "topic_evidence": "compress a context into a shorter representation before inference",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.33015",
+      "original_title": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory",
+      "original_summary": "arXiv:2610.33015v1 Announce Type: new Abstract: Long-term memory enables large language model (LLM) agents to maintain personalized and temporally coherent interactions, but repeated LLM inference for memory admission, extraction, and organization introduces substantial cost and latency. We present SLICE-Mem, a lightweight memory framework that combines salience-guided admission and predicate-centered information extraction. A compact classifier identifies user turns worth retaining, and a semantic-dependency-based extractor converts admitted turns into concise memory entries. This online pipeline requires no generative LLM calls, while cross-entry reconciliation is deferred to an offline consolidation stage. We evaluate SLICE-Mem on the weekly subset of Memora and LongMemEval-S using 8B and 30B Qwen backbones for memory construction and consolidation on both benchmarks. Compared with the generative-memory baseline MemOS under the Qwen3-30B configuration, SLICE-Mem's online pipeline achieves 46.60 versus 46.68 FAMA (Forgetting-Aware Memory Accuracy) on Memora Weekly and 56.8% versus 59.3% accuracy on LongMemEval-S, while reducing total LLM token consumption by 92.4% and 99.5%, respectively. These results demonstrate that SLICE-Mem can preserve useful evidence for long-term memory with substantially less reliance on LLM-based memory construction.",
+      "topic_evidence": "repeated LLM inference for memory admission, extraction, and organization introduces substantial cost and latency",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+      "original_title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "original_summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "topic_evidence": "OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33012",
+      "original_title": "Recursive Semantic Divergence for LLM Agent Consistency",
+      "original_summary": "arXiv:2610.33012v1 Announce Type: new Abstract: Large Language Model (LLM) agents with tool use exhibit inconsistent behavior across independent runs from identical states, calling different tools, producing contradictory outputs, or pursuing divergent strategies. This variability compounds over time and undermines deployment reliability. Existing evaluation metrics primarily measure task correctness via completion-based scores and do not capture consistency in agent behavior across executions. Separately, agent behavior is analyzed either at the token level using probability distributions or at the single-response level using semantic clustering, but neither captures how inconsistency propagates across future turns of a trajectory. We introduce Recursive Semantic Divergence (RSD), an unsupervised trajectory-level consistency metric adapted from bisimulation metrics in reinforcement learning. RSD measures the expected cumulative semantic disagreement between two independent rollouts of the same agent from the same state, using natural language inference to detect logical inconsistency. It is defined recursively over future states and approximated by a neural network trained on independent rollouts. The learned metric estimates future divergence from the current state, providing a consistency score at each turn without requiring the full trajectory to complete. When used as a reward signal for fine-tuning, RSD reduces the variation in task progress from 132% to 91% on tau2-bench and from 90% to 44% on toolsandbox, while improving performance across benchmarks and model scales. Training with RSD as an additional reward signal matches supervised fine-tuning performance with substantially lower variance, without requiring ground-truth labels.",
+      "topic_evidence": "inconsistent behavior across independent runs from identical states",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "reward",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33240",
+      "original_title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News Reporting",
+      "original_summary": "arXiv:2610.33240v1 Announce Type: new Abstract: As frontier AI systems increasingly serve as sources of political and current-events information, evaluating the epistemic quality of their responses is now especially consequential. Existing evaluations often focus narrowly on ideological alignment, rely on measures not validated for this setting, or depend on reference labels derived from public opinion or non-expert annotation, potentially producing misleading or miscalibrated results. To address these limitations, we introduce NewsBench, an expert-grounded benchmark that reframes evaluation around editorial standards developed by senior practitioners in journalism, policy, and intelligence analysis. NewsBench operationalizes quality across three dimensions, source quality, factuality, and neutrality, using a two-phase pipeline in which domain experts first define and calibrate evaluation guidelines, which are then transferred to automated AI judges validated against expert-adjudicated gold labels. The benchmark includes approximately $3,000$ evaluation prompts, with roughly $500$ refreshed monthly to capture emerging current events, roughly $2,500$ human expert-annotated items for calibration and validation, and a suite of AI judges designed to enable scalable evaluation. To validate our methodology, we report both inter-rater reliability among human experts and AI judge--human agreement across all three dimensions. Finally, we apply NewsBench to four frontier models, revealing distinct and non-overlapping failure profiles in sourcing, factuality, and neutrality.",
+      "topic_evidence": "evaluating the epistemic quality of their responses",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "benchmark",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33178",
+      "original_title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+      "original_summary": "arXiv:2610.33178v1 Announce Type: new Abstract: Coding agents are moving from handling one request at a time to serving as persistent assistants to which users hand a stream of work: a build, a data-processing job and a bug fix may all be pending on the same machine at once. Such an agent must decide when to take on new tasks, how to delegate and overlap them, and how to stay within the machine's CPU and memory. Existing benchmarks cannot measure this, because they evaluate each task in isolation. We introduce \\benchname{}, which evaluates an agent system as a workload manager: verified tasks arrive over time and must be delivered under shared CPU and memory limits, and the same tasks run one at a time serve as a per-system reference. Across five model--harness pairs, isolated task success does not carry over evenly. On heavy workloads every system loses 13 to 23 points. On medium workloads, systems span 11 points in isolated success but 26 points in stream success, and two systems 0.6 points apart in isolation deliver 54\\% and 68\\% of the same tasks. Execution-policy interventions trace much of this gap to task intake: serial dispatch leaves 73\\% of heavy-workload tasks unclaimed. Yet more elaborate management does not necessarily help. A fixed concurrency of two comes within four points of the best agent-managed policy on both medium and heavy workloads, and under every policy median CPU use stays below 30\\% of the provisioned cores while tasks wait. These results identify workload management as a distinct capability for agents, and \\benchname{} as a way to measure it.",
+      "topic_evidence": "decide when to take on new tasks, how to delegate and overlap the",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33233",
+      "original_title": "Distilling Expert Judgment at Scale",
+      "original_summary": "arXiv:2610.33233v1 Announce Type: new Abstract: Frontier AI models are increasingly deployed on topics where the stakes are high and expert judgment is required, including healthcare, defense, finance, governance, and politics. We present a general methodology for distilling expert human judgment into automated evaluation systems that operate at scale. Our approach assembles networks of domain experts and develops techniques for extracting not just their conclusions but their reasoning processes, encoding those processes into structured editorial standards that automated judges can apply continuously. We ground our approach in a long tradition of research on the nature of expertise and the conditions under which expert judgment is reliable and more effective than other approaches, and argue that independent, expert-calibrated evaluation is necessary not only on epistemic grounds but as a matter of accountability and public trust. We validate the methodology on AI news reporting as a first application domain. On source quality, two independent domain experts achieve Krippendorff's $\\alpha = 0.83/0.69$ on a held-out test set when applying the editorial standards, and our automated judge reaches $F1 = 0.81/0.97$ against expert consensus. On neutrality, experts achieve $\\alpha = .72$ on the test set, and the automated judge reaches $F1 = 0.86$ against expert consensus. Additionally, a controlled comparison shows that expert-calibrated judges substantially outperform uncalibrated frontier models on every source-quality metric, demonstrating that encoding expert reasoning is the critical step that prompt engineering alone cannot replace. We present this benchmark as a proof of concept for a broader evaluation infrastructure applicable to any domain where judgment matters and expertise is scarce.",
+      "topic_evidence": "distilling expert human judgment into automated evaluation systems that operate at scale",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "research",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33180",
+      "original_title": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+      "original_summary": "arXiv:2610.33180v1 Announce Type: new Abstract: Alignment evaluations aim to assess whether large language models would engage in dangerous misaligned behaviour. Misaligned and evaluation-aware models might engage in alignment faking, where they pursue a hidden goal, but conceal this behaviour when they suspect effective oversight such as during training, evaluation or audited deployment. Such a model might view any prompt-based intervention that aims to reveal latent propensities as part of the evaluation, calling into question the reliability of existing alignment evaluations. Current methods for detecting alignment faking rely on chain-of-thought monitorability, highly realistic environments that reduce evaluation awareness, or mechanistic interventions, all of which are expected to become less reliable for future model generations. We present a method for revealing latent misaligned propensities that does not rely on any of these. We use synthetic document finetuning to teach models that misaligned actions will go undetected whenever certain keywords appear in the prompt. We place alignment-faking model organisms in environments that are clearly identifiable as honeypots and measure how their behaviour changes after finetuning. We observe that finetuning consistently widens the gap in misaligned action rates between prompts with and without the cue, indicating that finetuning allows exposing latent propensities more reliably than purely prompt-based methods. We argue that behavioural methods for detecting alignment faking and related behaviours are critical going forward, as models become more capable and less interpretable. We find that SDF often damages the models' reasoning capabilities and introduce a mitigation based on on-policy distillation.",
+      "topic_evidence": "alignment faking, where they pursue a hidden goal, but conceal this behaviour when they suspect effective oversight",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "policy"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "original_title": "Type Server Protocol",
+      "original_summary": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 214 # Comments: 145",
+      "topic_evidence": "Type Server Protocol",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "original_title": "webframe: evaluated as a scraper and a sandbox",
+      "original_summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any exceptions to standard error. It's written in Go on top of the glaze library, which provides access to a system browser (\"WKWebView on macOS, WebKitGTK on Linux, WebView2 on Windows\") so it doesn't need to bundle its own browser engine. It reminds me of my own shot-scraper javascript tool, albeit in a much smaller package that doesn't depend on Playwright. I had Claude Opus 5.5 put it through its paces and prepare a research report for me. Here's the prompt I used: Explore https://github.com/tractordev/webframe try running it and put it though its paces, build a few exploratory prototypes, then evaluate it as a potential sandboxing tool and as a tool for scraping web pages using the same patterns encouraged by the \"shot-scraper JavaScript\" command (see simonw/shot-scraper on GitHub, docs directory) Tags: browsers , go , javascript , jeff-lindsay , shot-scraper",
+      "topic_evidence": "run a web page like a program",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github",
+        "tool",
+        "package"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+      "original_title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+      "original_summary": "AgentEnv, Scale AI's framework for testing agents against tasks and scoring their results, now runs on Vercel Sandbox. The Vercel provider ships in AgentEnv 0.9.1334 and later, and runs the agent and its task environment in separate Sandboxes.Try the AgentEnv example to run an evaluation on Vercel Sandbox and inspect the task’s score and the agent’s recorded actions. After completing the setup guide, run this command from the cloned repository. It uses your existing Vercel CLI login:Replace YOUR_TEAM with your Vercel team slug and YOUR_PROJECT with an existing project name.Learn more in the Sandbox ecosystem documentation. Read more",
+      "topic_evidence": "runs the agent and its task environment in separate Sandboxes",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "actions",
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+      "original_title": "Discover 1000+ services on Vercel Connect from the CLI",
+      "original_summary": "You and your agents can now browse and search more than 1000 services available in Vercel Connect without leaving your terminal. vercel connect discover searches by name, alias, keyword, and description.type: embedded-entry-inline id: H1F06IGrASdIU5HbPDOFMResults can be filtered by category, connection method (such as mcp or oauth) or the product a service exposes. You can also limit results to services that forward webhook triggers. vercel connect categories lists the category slugs you can filter by. Both commands support --format=json for scripts and agents.type: embedded-entry-inline id: 3qxhz833AJeAwUqgX6LAZiYou can then pass the service name while creating any connector to the command: Update to version 64.1.0 or later of the CLI to get started, and read the Vercel Connect CLI docs to learn more. Read more",
+      "topic_evidence": "vercel connect discover searches by name, alias, keyword, and description",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability",
+      "original_title": "Create custom monitors in Vercel Observability",
+      "original_summary": "You can now create custom monitors to get alerts based on your Vercel Observability query results. For example, you can track signals such as AI Gateway costs, Core Web Vitals and other performance metrics, Workflow and external API failure rates, or Vercel Sandbox CPU time.Each monitor tracks a single metric, such as response time, or a ratio of two metrics, such as errors divided by total requests. Choose statistical anomaly detection or a fixed threshold, then configure the detection window, filters, and grouping.To create a monitor, inspect a chart’s query in Observability, start from a preset, or open Settings > Alerts for your team. You can also define a custom monitor in a JSON file and create it with vercel monitors add in the Vercel CLI. Run vercel monitors schema --type custom for the schema and examples.Receive alerts through email, Slack, Vercel Inbox, push notifications, or team-level webhooks. You can also add context for Vercel Agent to use when investigating an alert.Custom monitors are available on Pro and Enterprise plans with Observability Plus, at $0.0035 per GB of data scanned. Built-in alerts remain included with Observability Plus.Create a custom monitor or learn more in the configuration documentation. Read more",
+      "topic_evidence": "create custom monitors to get alerts based on your Vercel Observability query results",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "performance",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks",
+      "original_title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "original_summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster. Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running [...] Read More... The post Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks appeared first on Engineering at Meta .",
+      "topic_evidence": "Meta’s first liquid-cooled network rack with 102.4T switch blades",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "original_title": "Tiny magnetic vortices could help computers work more like your brain",
+      "original_summary": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these unusual structures. The breakthrough could help make brain-like computers a reality, potentially enabling dramatically smaller and more energy-efficient technology.",
+      "topic_evidence": "tiny magnetic vortices called skyrmions melting out of an organized lattice",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "original_title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "original_summary": "Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat and cold. Instead of blocking heat, the device guides it around an object, making the object appear invisible to thermal imaging from virtually any direction. Successfully built and tested, the cloak could transform electronics cooling, thermal protection, and stealth technology.",
+      "topic_evidence": "3D invisibility cloak that can hide complex objects from infrared cameras",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "device"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+      "original_title": "Exercise doesn't just strengthen your heart. It rewires it",
+      "original_summary": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the changes are surprisingly different on the left and right sides of the body.",
+      "topic_evidence": "it actually reshapes the nerves controlling how the heart functions",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "research"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "original_title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+      "original_summary": "A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, identified hidden warning signs an average of 475 days before diagnosis and was nearly twice as sensitive as experienced radiologists. By spotting cancer-related changes at their earliest stages, it could dramatically improve the chances of successful treatment for one of the deadliest forms of cancer.",
+      "topic_evidence": "identified hidden warning signs an average of 475 days before diagnosis",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+      "original_title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+      "original_summary": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight-kilometer error in the location of an ancient Chinese capital, scientists were able to reconstruct a total solar eclipse that occurred in 709 BCE and obtain more accurate measurements of how fast Earth was spinning at the time.",
+      "topic_evidence": "correcting an eight-kilometer error in the location of an ancient Chinese capital",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+      "original_title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
+      "original_summary": "Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. Dubbed “D-rex,” its evolutionary lineage appears to have emerged shortly after the dinosaurs went extinct, raising intriguing questions about how that ancient catastrophe may have shaped its evolution.",
+      "topic_evidence": "a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers",
+      "original_title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "original_summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
+      "topic_evidence": "hitching a ride on a giant’s sales team",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "founder"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/27/us-bans-byd-electric-vehicles-kadena-military-base",
+      "original_title": "US bans vehicles from China’s BYD at Japan military base, calling them ‘unacceptable’ risk",
+      "original_summary": "US military says the restrictions on the electric vehicles at Kadena airbase also apply to delivery drivers and taxis One of America’s biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD over security concerns, the US military in Japan said on Tuesday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa , has fueled speculation that similar measures could be taken at other US military facilities as part of Washington’s crackdown on Chinese technology it suspects of being used to collect sensitive information. Continue reading...",
+      "topic_evidence": "banned vehicles made by the Chinese electric vehicle maker BYD over security concerns",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
+      "original_title": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
+      "original_summary": "Rapid Support Forces strike five power stations in three states controlled by Sudanese army Sudan’s paramilitary Rapid Support Forces have launched a coordinated drone attack against five power stations, causing mass power outages across the country’s east, a government official said. The drones hit two power stations each in the states of Al-Jazira and Gedaref and one in White Nile state, “resulting in power outages across large parts of these three states”, the official said on condition of anonymity. Continue reading...",
+      "topic_evidence": "coordinated drone attack against five power stations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+      "original_title": "Iran war live: Iran says US ‘not serious’ about talks; ship ablaze off Iraq",
+      "original_summary": "Iran says the United States is \"not serious\" about negotiations as UKMTO reports a ship on fire off the coast of Iraq.",
+      "topic_evidence": "ship on fire off the coast of Iraq",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+      "original_summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
+      "topic_evidence": "deadly strike in Syria in retaliation for church attack",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "original_summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
+      "topic_evidence": "Lula wins fourth term in dramatic Brazil election comeback",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+      "original_summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "topic_evidence": "Vučić loses election to student-led protest movement",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-2026-live-netanyahu-faces-tough-test-in-high-stakes-polls?traffic_source=rss",
+      "original_title": "Israel election 2026 live: Netanyahu faces tough test in high-stakes polls",
+      "original_summary": "Millions to cast ballots in election widely billed as the most consequential in Israel's history.",
+      "topic_evidence": "Netanyahu faces tough test in high-stakes polls",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election",
+      "original_title": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
+      "original_summary": "Far-right senator banned from leaving country as supreme court judge’s ruling makes reference to money-laundering case The far-right senator Flávio Bolsonaro was banned from leaving Brazil and ordered to surrender his passports just hours after his dramatic loss in the presidential election to the leftist president Luiz Inácio Lula da Silva. The ruling was issued by supreme court justice Alexandre de Moraes, the same justice who oversaw the trial of the senator’s father, the former president Jair Bolsonaro, for attempting a coup. Continue reading...",
+      "topic_evidence": "ordered to surrender passports",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+      "original_title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+      "original_summary": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudanese commanders implicated in a “campaign of rape” have been targeted by the UK on the first anniversary of a mass atrocity that saw tens of thousands of civilians killed over several days. A year after the fall of El Fasher , the British government said it had sanctioned military leaders from both sides in the country’s ongoing conflict whom it suspected of sexual violence during the siege of the city. Continue reading...",
+      "topic_evidence": "campaign of rape",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
+      "original_title": "UK poised to miss reduced aid spending target of 0.3% of national income",
+      "original_summary": "Calculations from the Center for Global Development say spending next year is likely to be £410m less than anticipated The UK is on course to miss its target of spending 0.3% of national income on international aid by an estimated £400m by the end of next year. Calculations from the Center for Global Development (CGD) found the UK was on course for a large shortfall in promised official development assistance at the end of 2027. Continue reading...",
+      "topic_evidence": "miss its target of spending 0.3% of national income on international aid",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "international"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721481.shtml",
+      "original_title": "中国官方：今年前9个月立案省部级及以上干部73人",
+      "original_summary": "中新社北京10月27日电 中央纪委国家监委27日通报今年1月至9月全国纪检监察机关监督检查审查调查情况，其中显示，立案省部级及以上干部73人，处分省部级及以上干部105人。",
+      "topic_evidence": "立案省部级及以上干部73人，处分省部级及以上干部105人",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721545.shtml",
+      "original_title": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+      "original_summary": "国家标准将于十一月一日实施",
+      "topic_evidence": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721521.shtml",
+      "original_title": "（乡村行·看振兴）“中华葫芦之乡”：千年葫芦“圈粉”年轻消费群体",
+      "original_summary": "中新网聊城10月27日电 题：“中华葫芦之乡”：千年葫芦“圈粉”年轻消费群体",
+      "topic_evidence": "千年葫芦“圈粉”年轻消费群体",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721539.shtml",
+      "original_title": "河北唐山秸秆“变身记”：田间“累赘”变增收“香饽饽”",
+      "original_summary": "中新网唐山10月27日电 题：河北唐山秸秆“变身记”：田间“累赘”变增收“香饽饽”",
+      "topic_evidence": "田间“累赘”变增收“香饽饽”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721503.shtml",
+      "original_title": "脑机接口加速产业化，仍有难题待解！",
+      "original_summary": "【深一度】",
+      "topic_evidence": "脑机接口加速产业化，仍有难题待解",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721489.shtml",
+      "original_title": "广西明确五项核心整治任务 严打农药兽药违法乱象",
+      "original_summary": "中新网南宁10月27日电 (韦小婷)广西壮族自治区农业农村厅26日在南宁召开全区农药兽药综合整治行动视频推进会，会议明确五大核心任务，推动专项整治走深走实。",
+      "topic_evidence": "广西明确五项核心整治任务 严打农药兽药违法乱象",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721465.shtml",
+      "original_title": "安徽法援“老黄牛”9年帮困难民众挽回损失10.32亿元",
+      "original_summary": "中新网合肥10月27日电 (赵强 张雪)“老范，这钱拿到了，家里的药费有着落了！”“多亏你们法律援助中心伸出援手。”在安徽省安庆市法律援助中心，这样的对话总在上演。求助民众紧握中心主任范江宏的手，久久不愿松开。",
+      "topic_evidence": "9年帮困难民众挽回损失10.32亿元",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721538.shtml",
+      "original_title": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+      "original_summary": "中新网成都10月27日电 (记者 何浠)近年来，泡沫轴、筋膜枪成了不少上班族居家健身、肌肉放松的“标配”。可就是这样看起来温和的健身小工具，真把人“滚”进了医院。“泡沫轴的原理不是它有多硬，而是压力集中在一根承重能力本来就很差的骨头上，底下又没有肌肉缓冲。”成都医学院第一附属医院康复医学科主任医师王风波26日接受记者采访时表示。",
+      "topic_evidence": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721497.shtml",
+      "original_title": "全国儿童主任种子讲师培训班在辽宁举办",
+      "original_summary": "中新网辽宁本溪10月27日电 (记者 李晛)全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训。",
+      "topic_evidence": "全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks Extend Gains on Anthropic IPO, Oil Drops: Markets Wrap",
+      "original_summary": "Global stocks extended gains as Anthropic PBC’s filing for an initial public offering renewed optimism over the artificial intelligence trade following recent strains. Crude oil declined further.",
+      "topic_evidence": "Anthropic PBC’s filing for an initial public offering renewed optimism",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale",
+      "original_title": "Samsung Life Prices Record Dollar Bond as Investors Defy Turmoil",
+      "original_summary": "An affiliate of Samsung Group sold the biggest dollar bond sale for a South Korean insurer as investors braved volatile debt markets that have forced some companies to pull their planned debt offerings.",
+      "topic_evidence": "sold the biggest dollar bond sale for a South Korean insurer",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/china-5-year-yield-hits-record-low-on-pboc-s-cash-injection",
+      "original_title": "China’s 5-Year Government Bond Yield Trades Near Record Low",
+      "original_summary": "China’s five-year government bond yield dropped after the central bank increased its cash injection into the banking system.",
+      "topic_evidence": "China’s five-year government bond yield dropped after the central bank increased its cash injection",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+      "original_title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
+      "original_summary": "Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against the United States for dominance in the sector. The STAR 50 Index, which tracks technology and innovation companies on the Shanghai stock exchange, has plunged 40% since June. Other indexes of major companies dropped by about 20% over the same time period. Continue reading...",
+      "topic_evidence": "Trillions of dollars have been wiped from China’s stock markets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
+      "original_title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+      "original_summary": "Meta is looking to raise a total of $95 billion through stock-related deals that stretch into early next year.",
+      "topic_evidence": "Meta is looking to raise a total of $95 billion through stock-related deals",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-26/claudia-sahm-makes-case-for-an-october-fed-rate-hike-video",
+      "original_title": "Claudia Sahm Makes the Case for an October Fed Rate Hike",
+      "original_summary": "New Century Advisors Chief Economist Claudia Sahm argues that high energy costs could spread into other consumer prices and that tariffs on Canada may rise, creating upside inflation risks that could justify a rate hike in October. She speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "topic_evidence": "high energy costs could spread into other consumer prices",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation",
+        "fed"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
+      "original_title": "S. Korea Growth Tops Forecast as Chip Boom Masks Weak Demand",
+      "original_summary": "South Korea’s economy grew faster than expected in the third quarter as an artificial intelligence-fueled chip boom powered exports and investment, but a contraction in consumption underscored an increasingly uneven expansion that may complicate the trajectory for further interest-rate hikes.",
+      "topic_evidence": "grew faster than expected in the third quarter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/pakistan-hikes-interest-rate-to-curb-inflation-risks",
+      "original_title": "Pakistan Raises Rates as Middle East Conflict Fans Inflation",
+      "original_summary": "Pakistan raised its benchmark interest rate on Monday as mounting inflation risks from the Middle East conflict forced policymakers to tighten policy even at the risk of further slowing economic growth.",
+      "topic_evidence": "Pakistan raised its benchmark interest rate on Monday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show",
+      "original_title": "UK Companies at Risk of 5.5% Minimum Wage Hike, Estimates Show",
+      "original_summary": "UK businesses could face an increase in the minimum wage of more than 5% next year unless Chancellor of the Exchequer John Healey decides to spare them another painful hike, according to estimates ahead of the budget on Wednesday.",
+      "topic_evidence": "increase in the minimum wage of more than 5% next year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/nigeria-floats-draft-economic-plan-to-outlast-governments",
+      "original_title": "Nigeria Floats Draft Economic Plan to Outlast Governments",
+      "original_summary": "Nigerian Finance Minister Taiwo Oyedele unveiled a draft economic policy framework designed to serve as a blueprint for government plans, budgets and policies, regardless of the administration in power.",
+      "topic_evidence": "unveiled a draft economic policy framework",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-27/mavuso-joburg-infrastructure-risks-driving-business-out-video",
+      "original_title": "Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns",
+      "original_summary": "Across Johannesburg, private companies are paving their own roads, trucking in water, and generating off-grid electricity just to stay operational. According to Busi Mavuso, CEO of Business Leadership South Africa, these compounding workaround costs are choking new investment and pushing more multinationals to reconsider their presence in the country. Speaking with Bloomberg’s Jennifer Zabasajja on Next Africa, Mavuso highlights how local manufacturing plants are steadily losing internal capital bids to overseas sister facilities, and why South Africa’s private sector can't afford to wait years for structural reforms to materialize. (Source: Bloomberg)",
+      "topic_evidence": "private companies are paving their own roads, trucking in water, and generating off-grid electricity",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+      "original_title": "Trading Platform Rocked by Japan Hack, $50 Million Ransom Note",
+      "original_summary": "Japan’s vulnerability to cyber attacks was on full display again Tuesday as hackers threatened to leak customer data of retail foreign exchange traders and to conduct a ransomware attack unless they were paid $50 million.",
+      "topic_evidence": "hackers threatened to leak customer data of retail foreign exchange traders",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "original_title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "original_summary": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 145 # Comments: 70",
+      "topic_evidence": "Why Johnny Can't Stop Abstracting",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
+      "original_title": "Oldest GUI application that still runs on Windows 11",
+      "original_summary": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 349 # Comments: 208",
+      "topic_evidence": "Oldest GUI application that still runs on Windows 11",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce",
+      "original_title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "original_summary": "Article URL: https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/ Comments URL: https://news.ycombinator.com/item?id=50245524 Points: 843 # Comments: 767",
+      "topic_evidence": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "original_title": "Solar power is becoming bigger than nuclear",
+      "original_summary": "Article URL: https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear Comments URL: https://news.ycombinator.com/item?id=50245385 Points: 202 # Comments: 321",
+      "topic_evidence": "Solar power is becoming bigger than nuclear",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner",
+      "original_title": "CSS-Tricks has a new owner",
+      "original_summary": "Article URL: https://css-tricks.com/css-tricks-has-a-new-owner/ Comments URL: https://news.ycombinator.com/item?id=50245831 Points: 411 # Comments: 94",
+      "topic_evidence": "CSS-Tricks has a new owner",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+      "original_title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "original_summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "topic_evidence": "OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "approved": true,
+      "evidence": "OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "reason": "主事件是把 OpenAI 编程工具改造为常驻个人助理产品 dots，并涉及产品负责人表态，属于 AI 产品与平台的明确产品动向。"
+    },
+    {
+      "id": "developer/languages-frameworks/https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "section": "开发与编程",
+      "subsection": "语言与框架",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "original_title": "Type Server Protocol",
+      "original_summary": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 214 # Comments: 145",
+      "topic_evidence": "Type Server Protocol",
+      "approved": false,
+      "evidence": "Type Server Protocol",
+      "reason": "输入仅有标题与 HN 元数据，缺少协议内容的实质描述；且类型服务器协议属于编辑器/语言工具链规范，不能据此确认为具体语言或框架，材料不足。"
+    },
+    {
+      "id": "developer/infra-data/https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks",
+      "original_title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "original_summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster. Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running [...] Read More... The post Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks appeared first on Engineering at Meta .",
+      "topic_evidence": "Meta’s first liquid-cooled network rack with 102.4T switch blades",
+      "approved": true,
+      "evidence": "Meta’s first liquid-cooled network rack with 102.4T switch blades",
+      "reason": "主事件是 Meta 在 OCP 峰会发布面向 AI 集群的液冷网络机架与交换机方案，属于数据中心与网络基础设施，归入基础设施与数据恰当。"
+    },
+    {
+      "id": "science-tech/chips-hardware/https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "section": "科技与科学",
+      "subsection": "芯片与硬件",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "original_title": "Tiny magnetic vortices could help computers work more like your brain",
+      "original_summary": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these unusual structures. The breakthrough could help make brain-like computers a reality, potentially enabling dramatically smaller and more energy-efficient technology.",
+      "topic_evidence": "tiny magnetic vortices called skyrmions melting out of an organized lattice",
+      "approved": false,
+      "evidence": "tiny magnetic vortices called skyrmions melting out of an organized lattice",
+      "reason": "主事件是首次拍摄斯格明子晶格熔化的凝聚态物理实验，仅附带类脑计算前景，并非芯片或硬件产品或架构，应归科学研究而非芯片与硬件。"
+    },
+    {
+      "id": "science-tech/science-research/https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "section": "科技与科学",
+      "subsection": "科学研究",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "original_title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+      "original_summary": "A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, identified hidden warning signs an average of 475 days before diagnosis and was nearly twice as sensitive as experienced radiologists. By spotting cancer-related changes at their earliest stages, it could dramatically improve the chances of successful treatment for one of the deadliest forms of cancer.",
+      "topic_evidence": "identified hidden warning signs an average of 475 days before diagnosis",
+      "approved": true,
+      "evidence": "identified hidden warning signs an average of 475 days before diagnosis",
+      "reason": "主事件是 REDMOD 系统提前识别胰腺癌征象的研究成果与灵敏度对比，属于科研进展，归入科学研究恰当。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-27/10721481.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721481.shtml",
+      "original_title": "中国官方：今年前9个月立案省部级及以上干部73人",
+      "original_summary": "中新社北京10月27日电 中央纪委国家监委27日通报今年1月至9月全国纪检监察机关监督检查审查调查情况，其中显示，立案省部级及以上干部73人，处分省部级及以上干部105人。",
+      "topic_evidence": "立案省部级及以上干部73人，处分省部级及以上干部105人",
+      "approved": true,
+      "evidence": "立案省部级及以上干部73人，处分省部级及以上干部105人",
+      "reason": "中央纪委国家监委通报纪检监察机关立案与处分数据，属于官方监督执纪的具体行动与监管动态，符合政策与监管。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-27/10721545.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721545.shtml",
+      "original_title": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+      "original_summary": "国家标准将于十一月一日实施",
+      "topic_evidence": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+      "approved": true,
+      "evidence": "让陪诊服务有保障不越界 国家标准将于11月1日实施",
+      "reason": "主事件是陪诊服务国家标准将于11月1日实施，属于具体标准与制度落地，符合政策与监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-27/10721521.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-27/10721521.shtml",
+      "original_title": "（乡村行·看振兴）“中华葫芦之乡”：千年葫芦“圈粉”年轻消费群体",
+      "original_summary": "中新网聊城10月27日电 题：“中华葫芦之乡”：千年葫芦“圈粉”年轻消费群体",
+      "topic_evidence": "千年葫芦“圈粉”年轻消费群体",
+      "approved": true,
+      "evidence": "千年葫芦“圈粉”年轻消费群体",
+      "reason": "主事件是地方葫芦产业对接年轻消费市场的乡村产业报道，属于产业与地方。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-27/10721539.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721539.shtml",
+      "original_title": "河北唐山秸秆“变身记”：田间“累赘”变增收“香饽饽”",
+      "original_summary": "中新网唐山10月27日电 题：河北唐山秸秆“变身记”：田间“累赘”变增收“香饽饽”",
+      "topic_evidence": "田间“累赘”变增收“香饽饽”",
+      "approved": true,
+      "evidence": "田间“累赘”变增收“香饽饽”",
+      "reason": "主事件是唐山秸秆综合利用带动农民增收的地方产业案例，属于产业与地方。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-27/10721465.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721465.shtml",
+      "original_title": "安徽法援“老黄牛”9年帮困难民众挽回损失10.32亿元",
+      "original_summary": "中新网合肥10月27日电 (赵强 张雪)“老范，这钱拿到了，家里的药费有着落了！”“多亏你们法律援助中心伸出援手。”在安徽省安庆市法律援助中心，这样的对话总在上演。求助民众紧握中心主任范江宏的手，久久不愿松开。",
+      "topic_evidence": "9年帮困难民众挽回损失10.32亿元",
+      "approved": true,
+      "evidence": "9年帮困难民众挽回损失10.32亿元",
+      "reason": "主事件是安徽法律援助中心九年间为困难群众挽回损失的法治服务成效，属于社会与法治。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-27/10721538.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721538.shtml",
+      "original_title": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+      "original_summary": "中新网成都10月27日电 (记者 何浠)近年来，泡沫轴、筋膜枪成了不少上班族居家健身、肌肉放松的“标配”。可就是这样看起来温和的健身小工具，真把人“滚”进了医院。“泡沫轴的原理不是它有多硬，而是压力集中在一根承重能力本来就很差的骨头上，底下又没有肌肉缓冲。”成都医学院第一附属医院康复医学科主任医师王风波26日接受记者采访时表示。",
+      "topic_evidence": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+      "approved": true,
+      "evidence": "泡沫轴也能滚断肋骨？康复医生：骨面不压、关节不滚",
+      "reason": "主事件是泡沫轴等健身工具致伤及康复医生的安全提醒，属于民生社会新闻，归入社会与法治尚可（虽偏健康科普）。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-27/10721497.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-27/10721497.shtml",
+      "original_title": "全国儿童主任种子讲师培训班在辽宁举办",
+      "original_summary": "中新网辽宁本溪10月27日电 (记者 李晛)全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训。",
+      "topic_evidence": "全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办，来自全国各地的50名儿童主任种子讲师参加培训",
+      "approved": false,
+      "evidence": "全国儿童主任种子讲师培训班(第二期)近日在辽宁本溪举办",
+      "reason": "材料仅为培训班举办的活动消息，缺乏具体制度、案件或政策内容，不足以构成社会与法治的具体事件。"
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show",
+      "original_title": "UK Companies at Risk of 5.5% Minimum Wage Hike, Estimates Show",
+      "original_summary": "UK businesses could face an increase in the minimum wage of more than 5% next year unless Chancellor of the Exchequer John Healey decides to spare them another painful hike, according to estimates ahead of the budget on Wednesday.",
+      "topic_evidence": "increase in the minimum wage of more than 5% next year",
+      "approved": true,
+      "evidence": "increase in the minimum wage of more than 5% next year",
+      "reason": "主事件是英国最低工资可能上调逾5%的预算前估算，属于宏观政策议题，符合宏观与政策。"
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-26/nigeria-floats-draft-economic-plan-to-outlast-governments",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/nigeria-floats-draft-economic-plan-to-outlast-governments",
+      "original_title": "Nigeria Floats Draft Economic Plan to Outlast Governments",
+      "original_summary": "Nigerian Finance Minister Taiwo Oyedele unveiled a draft economic policy framework designed to serve as a blueprint for government plans, budgets and policies, regardless of the administration in power.",
+      "topic_evidence": "unveiled a draft economic policy framework",
+      "approved": true,
+      "evidence": "unveiled a draft economic policy framework",
+      "reason": "主事件是尼日利亚财长公布跨政府延续的经济政策框架草案，属于宏观经济政策，符合宏观与政策。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency",
+      "original_title": "Trading Platform Rocked by Japan Hack, $50 Million Ransom Note",
+      "original_summary": "Japan’s vulnerability to cyber attacks was on full display again Tuesday as hackers threatened to leak customer data of retail foreign exchange traders and to conduct a ransomware attack unless they were paid $50 million.",
+      "topic_evidence": "hackers threatened to leak customer data of retail foreign exchange traders",
+      "approved": true,
+      "evidence": "hackers threatened to leak customer data of retail foreign exchange traders",
+      "reason": "主事件是日本零售外汇交易平台遭黑客勒索5000万美元、主管官员承诺紧急应对，属于零售金融与监管应对，符合理财与监管。"
+    },
+    {
+      "id": "opinion/tech-opinion/http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "original_title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "original_summary": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 145 # Comments: 70",
+      "topic_evidence": "Why Johnny Can't Stop Abstracting",
+      "approved": true,
+      "evidence": "Why Johnny Can't Stop Abstracting",
+      "reason": "主事件是围绕抽象化现象展开的技术评论文章，属于技术观点。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11",
+      "original_title": "Oldest GUI application that still runs on Windows 11",
+      "original_summary": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 349 # Comments: 208",
+      "topic_evidence": "Oldest GUI application that still runs on Windows 11",
+      "approved": false,
+      "evidence": "Oldest GUI application that still runs on Windows 11",
+      "reason": "主事件是对仍能在 Windows 11 运行的最老 GUI 程序的技术考证与怀旧记录，属技术发现类短文而非观点评论，不符合观点与社论。"
+    },
+    {
+      "id": "opinion/business-society/https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "original_title": "Solar power is becoming bigger than nuclear",
+      "original_summary": "Article URL: https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear Comments URL: https://news.ycombinator.com/item?id=50245385 Points: 202 # Comments: 321",
+      "topic_evidence": "Solar power is becoming bigger than nuclear",
+      "approved": true,
+      "evidence": "Solar power is becoming bigger than nuclear",
+      "reason": "主事件是分析太阳能规模超越核电的能源格局评论文章，属商业与社会评论，归入观点与社论恰当。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-27/10721521.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-27/10721539.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-27/10721481.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-27/10721545.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-27/10721465.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-27/10721538.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-26/nigeria-floats-draft-economic-plan-to-outlast-governments"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-26/japan-s-katayama-vows-to-address-cyber-attack-on-fx-with-urgency"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html"
+    ],
+    [
+      "science-tech",
+      "science-research",
+      "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
+    ]
+  ]
+}

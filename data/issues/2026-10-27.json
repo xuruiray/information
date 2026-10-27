@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "title": "信息日报 2026-10-27",
+  "title_en": "Information Daily 2026-10-27",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "OpenAI 发布 GPT-6.1 Terra，主打视觉推理与电脑操作",
+    "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+    "source": "Simon Willison",
+    "summary": "OpenAI 推出 GPT-6.1 Terra，称这是一款快速高效的模型，结合细致的视觉推理与精确的电脑操作，并具备更清晰自然的写作能力。",
+    "source_en": "Simon Willison",
+    "title_en": "GPT-6.1 Terra",
+    "summary_en": "OpenAI introduced GPT-6.1 Terra, describing a fast, efficient model that combines detailed visual reasoning and precise computer use with clearer, more natural writing.",
+    "original_title": "GPT-6.1 Terra",
+    "published_at": "2026-10-26T23:53:07+00:00",
+    "reason": "直接报道 OpenAI 新模型 GPT-6.1 Terra 的发布，并点明视觉推理、电脑操作等能力，属于前沿模型动态。",
+    "reason_en": "Directly covers OpenAI's GPT-6.1 Terra release and its visual reasoning and computer-use capabilities, making it a frontier-model update.",
+    "score": 6.1
+  },
+  "path": "papers/2026-10-27.html",
+  "raw_path": "raw/2026-10-27.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in developer/languages-frameworks: topic evidence does not match subsection [https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md]",
+    "Editorial item ignored in science-tech/chips-hardware: topic evidence does not match subsection [https://www.sciencedaily.com/releases/2026/10/261025073038.htm]",
+    "Editorial item ignored in china/china-society-law: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/10-27/10721497.shtml]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11]"
+  ]
+}

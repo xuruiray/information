@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-10-26</title>
+<title>02 开发与编程 · 信息日报 2026-10-27</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261026 期</span>
+        <span>第 20261027 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月26日 星期一</span></div>
+      <div class="dateline"><span>2026年10月27日 星期二</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 开发与编程</h2>
-      <span class="ed">7 条 / 3 个细分</span>
+      <span class="ed">5 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="开发与编程：Vercel 工具链与图像工具更新">
-      <div class="lead-label">开发与编程：Vercel 工具链与图像工具更新</div>
-      <p>本期开发与编程涵盖 Vercel CLI 支出管理、Vercel MCP 反馈工具、Seam Cutter 和 Quick Study 两个图像工具，以及 Vercel Agent 生产访问、部署构建缓存展示和托管 Stripe API 密钥等基础设施更新。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：沙箱评测、CLI 服务发现、可观测性与 AI 网络">
+      <div class="lead-label">开发与编程：沙箱评测、CLI 服务发现、可观测性与 AI 网络</div>
+      <p>本期涵盖 webframe 作为抓取器与沙箱的评估；Scale AI 的 AgentEnv 评测可在 Vercel Sandbox 的独立环境中运行；Vercel Connect 支持通过 CLI 搜索 1000 多项服务；Vercel Observability 可基于查询结果创建自定义监控器；Meta 在 2026 OCP 全球峰会介绍面向 AI 网络纵向扩展、横向扩展与跨域扩展的创新，包括液冷网络机架和 102.4T 交换机刀片。</p>
     </section>
 
     <div class="subsection-stack">
@@ -59,36 +59,30 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>4 条</span>
+          <span>3 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Vercel 支出管理、MCP 反馈与图像工具">
-          <div class="lead-label">开源与工具：Vercel 支出管理、MCP 反馈与图像工具</div>
-          <p>Vercel CLI 新增 vercel budgets 命令，用于查看当前支出、生效预算并设置或删除按需预算；Vercel MCP 新增 submit_feedback 工具，可用自然语言提交缺陷、使用摩擦和功能请求；Simon Willison 发布 Seam Cutter 和 Quick Study，分别用于滑移切口裁剪图片和用画布与模拟画笔快速绘制照片。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：webframe、AgentEnv 与 CLI 服务发现">
+          <div class="lead-label">开源与工具：webframe、AgentEnv 与 CLI 服务发现</div>
+          <p>webframe 将 URL 或文件置于隐藏无头网页视图中运行，把 console.log 输出到标准输出、异常输出到标准错误；AgentEnv 0.9.1334 及以后版本提供 Vercel 提供程序，可在独立 Sandbox 中运行智能体及其任务环境；vercel connect discover 命令支持在终端按名称、别名、关键词和描述搜索 1000 多项服务，并按类别、连接方式或产品筛选。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/changelog/vercel-cli-adds-spend-management" target="_blank" rel="noopener">
-            <span class="at">Vercel CLI 新增支出管理功能</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel CLI 新增 vercel budgets 命令，可查看当前支出和生效预算，并设置或删除按需预算；设置预算本身不会停止用量。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/send-feedback-from-vercel-mcp" target="_blank" rel="noopener">
-            <span class="at">Vercel MCP 支持直接发送反馈</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel MCP 新增 submit_feedback 工具，Agent 或执行框架可用自然语言向 Vercel 团队提交缺陷、使用摩擦和功能请求，并可附结构化上下文。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/25/seam-cutter" target="_blank" rel="noopener">
-            <span class="at">Seam Cutter：滑移切口裁剪图片的工具</span>
+          <a class="art" href="https://simonwillison.net/2026/Oct/26/webframe-evaluation" target="_blank" rel="noopener">
+            <span class="at">webframe：作为抓取器与沙箱接受评估</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Simon Willison 发布 Seam Cutter，可在图片上做水平或垂直切口并滑动两侧，从而裁掉中间区域，用于拼接长截图等场景。</p>
+            <p class="as">Simon Willison 评估 Jeff Lindsay 的 Go 项目 webframe：它把 URL 或文件在隐藏无头网页视图中运行，将 console.log 输出到标准输出、异常输出到标准错误。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Oct/23/quick-study-painter" target="_blank" rel="noopener">
-            <span class="at">Quick Study：用画布与模拟画笔快速绘制照片</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Quick Study 是一个可打开照片并用 canvas 与模拟画笔在数秒内快速绘制其版本的工具，采用 Sobel 边缘检测。</p>
+          <a class="art" href="https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox" target="_blank" rel="noopener">
+            <span class="at">在 Vercel Sandbox 上运行 Scale AI 的 AgentEnv 评测</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 称 AgentEnv 0.9.1334 及以后版本提供 Vercel 提供程序，可在独立 Sandbox 中运行智能体及其任务环境，并查看任务评分与智能体记录。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli" target="_blank" rel="noopener">
+            <span class="at">通过 CLI 在 Vercel Connect 上发现 1000 多项服务</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 推出 vercel connect discover 命令，可在终端按名称、别名、关键词和描述搜索 1000 多项服务，并按类别、连接方式或产品筛选结果。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -96,30 +90,24 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>基础设施与数据</h3>
-          <span>3 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Agent 生产访问、构建缓存与托管密钥">
-          <div class="lead-label">基础设施与数据：Agent 生产访问、构建缓存与托管密钥</div>
-          <p>Vercel 说明其 Agent 访问生产系统时的权限设计，指出“修复部署”等请求并不预先说明所需操作；部署摘要现在显示构建缓存大小及其与构建机器上限的距离；Vercel Connect 可为每个 Agent 或任务创建单独的受限 Stripe API 密钥。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：自定义监控器与 AI 网络创新">
+          <div class="lead-label">基础设施与数据：自定义监控器与 AI 网络创新</div>
+          <p>Vercel 允许基于 Observability 查询结果创建自定义监控器，追踪 AI Gateway 成本、Core Web Vitals、工作流与外部 API 失败率或 Sandbox CPU 时间等指标；Meta 在 2026 OCP 全球峰会介绍支持其 AI 模型和千兆瓦级 Prometheus 集群的网络创新，包括首款液冷网络机架 IcePack 与 IceCube，以及 102.4T 交换机刀片。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/blog/how-vercel-agent-accesses-production-safely" target="_blank" rel="noopener">
-            <span class="at">Vercel Agent 如何安全访问生产环境</span>
+          <a class="art" href="https://vercel.com/changelog/create-custom-monitors-in-vercel-observability" target="_blank" rel="noopener">
+            <span class="at">在 Vercel Observability 中创建自定义监控器</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 介绍其 Agent 访问生产系统时的权限设计：请求如“修复部署”并不预先说明所需操作，宽泛授权可能影响无关资源，逐步审批又增加负担。</p>
+            <p class="as">Vercel 允许基于 Observability 查询结果创建自定义监控器，可追踪 AI Gateway 成本、Core Web Vitals、工作流与外部 API 失败率或 Sandbox CPU 时间等单项或比值指标。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/deployments-now-show-build-cache-size" target="_blank" rel="noopener">
-            <span class="at">Vercel 部署页面显示构建缓存大小</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel 部署摘要现在显示每次部署节省的构建缓存大小及其与构建机器上限的距离，CLI 的 vercel inspect 和 get-deployment REST API 也可查看。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys" target="_blank" rel="noopener">
-            <span class="at">Vercel Connect 新增托管 Stripe API 密钥</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel Connect 可为每个 Agent 或任务创建单独的受限 Stripe API 密钥，创建连接器时选择托管密钥，权限由用户设定，原有 MCP 与自带密钥方式不变。</p>
+          <a class="art" href="https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks" target="_blank" rel="noopener">
+            <span class="at">Meta 在 2026 OCP 全球峰会：面向 AI 网络纵向扩展、横向扩展与跨域扩展的开放创新</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta 在 2026 OCP 全球峰会介绍支持其 AI 模型和千兆瓦级 Prometheus 集群的网络创新，包括首款液冷网络机架 IcePack 与 IceCube，以及 102.4T 交换机刀片。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
