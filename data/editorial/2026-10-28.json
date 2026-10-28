@@ -1,0 +1,2071 @@
+{
+  "date": "2026-10-28",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.36013",
+              "title": "OmniBrain-0：面向具身智能的统一代理模型",
+              "summary": "该论文提出 OmniBrain-0，一个面向具身智能的统一代理模型，旨在让机器人协调多种技能、跟踪任务进度并从失败中恢复。摘要称专用策略难以保证任务级可靠性。",
+              "title_en": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+              "summary_en": "The paper introduces OmniBrain-0, a unified agentic model for embodied intelligence, aiming to help robots coordinate diverse skills, track task progress, and recover from failures.",
+              "topic_evidence": "A Unified Agentic Model for Embodied Intelligence",
+              "reason": "新模型论文，直接涉及具身智能代理模型，属于前沿模型方向。",
+              "reason_en": "New model paper directly on embodied agentic models, fitting frontier model coverage.",
+              "score": 6.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+              "title": "前沿 AI 实验室称其模型反驳了指数时间假说，这意味着什么？",
+              "summary": "TechCrunch 采访 MIT 计算机科学家，解释 OpenAI 所称模型反驳指数时间假说的最新发现；报道聚焦这一说法的含义。",
+              "title_en": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+              "summary_en": "TechCrunch interviews an MIT computer scientist to explain OpenAI's claimed discovery that its models refuted the Exponential Time Hypothesis, focusing on what the claim means.",
+              "topic_evidence": "their models refuted the Exponential Time Hypothesis",
+              "reason": "前沿实验室的模型能力声明引发关注，属于前沿模型新闻。",
+              "reason_en": "A high-profile claim about frontier model capabilities, relevant to frontier AI news.",
+              "score": 5.95
+            },
+            {
+              "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+              "title": "用 LFM3 构建专门化多模态模型",
+              "summary": "Hugging Face 博客发布文章，介绍如何用 LFM3 构建专门化多模态模型；候选材料未给出更多技术细节。",
+              "title_en": "Build specialized multimodal models with LFM3",
+              "summary_en": "A Hugging Face blog post introduces LFM3 for building specialized multimodal models; the provided material gives no further technical details.",
+              "topic_evidence": "Build specialized multimodal models with LFM3",
+              "reason": "多模态模型发布或教程，直接属于前沿模型与多模态方向。",
+              "reason_en": "A multimodal model release or tutorial directly relevant to frontier and multimodal models.",
+              "score": 5.0
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33215",
+              "title": "通过查询-视觉交互分解进行视觉 token 剪枝",
+              "summary": "论文针对大型视觉语言模型推理成本高的问题，提出基于查询-视觉交互分解的视觉 token 剪枝方法，以提高效率。摘要称现有方法常利用查询信息指导 token 选择。",
+              "title_en": "Vision Token Pruning via Query-Vision Interaction Decomposition",
+              "summary_en": "The paper proposes a vision token pruning method based on query-vision interaction decomposition to reduce inference costs in large vision-language models.",
+              "topic_evidence": "Vision Token Pruning via Query-Vision Interaction Decomposition",
+              "reason": "面向视觉语言模型推理效率的方法论文，属于多模态前沿模型。",
+              "reason_en": "Method paper on vision-language model inference efficiency, relevant to multimodal frontier models.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.36083",
+              "title": "FinLLM-KG：面向算法交易金融情感分析的知识图谱增强大模型",
+              "summary": "论文提出 FinLLM-KG，用知识图谱增强金融大模型进行算法交易中的情感分析，试图解决逐篇预测和黑箱限制带来的上下文理解不足。",
+              "title_en": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+              "summary_en": "The paper introduces FinLLM-KG, a knowledge-graph-enhanced financial LLM for sentiment analysis in algorithmic trading, addressing isolated article-level prediction and black-box limitations.",
+              "topic_evidence": "Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis",
+              "reason": "金融领域专用大模型方法，直接涉及 LLM 模型设计。",
+              "reason_en": "Domain-specific LLM method directly relevant to model design.",
+              "score": 6.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://openai.com/index/retell-ai",
+              "title": "Retell 使用 OpenAI 模型支持每月 1 亿次通话",
+              "summary": "OpenAI 客户案例称，Retell 使用 OpenAI 模型支持每月 1 亿次通话；GPT-6 Astra 在其语音代理基准中居首，Codex 帮助其达到每员工 160 万美元年化收入。",
+              "title_en": "Retell uses OpenAI models to help power 100M monthly calls",
+              "summary_en": "An OpenAI case study says Retell uses OpenAI models to power 100 million monthly calls; GPT-6 Astra tops its voice-agent benchmark, and Codex helps reach a $1.6M annual revenue run rate per employee.",
+              "topic_evidence": "Retell uses OpenAI models to help power 100M monthly calls",
+              "reason": "企业语音代理部署案例，涉及 OpenAI 模型的产品化应用。",
+              "reason_en": "Enterprise voice-agent deployment case involving OpenAI models in production.",
+              "score": 7.2
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+              "title": "Opera 推出新网页标准，让用户在浏览器本地部署 AI",
+              "summary": "Opera 推出名为 WebAI 的新网页标准，目标是让用户在浏览器本地运行多种 AI 模型。TechCrunch 称该标准设计为兼容多种模型。",
+              "title_en": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+              "summary_en": "Opera introduces WebAI, a new web standard designed to let users deploy AI locally in their browser and work with a variety of AI models.",
+              "topic_evidence": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+              "reason": "浏览器平台级 AI 新标准，属于 AI 产品与平台。",
+              "reason_en": "A browser platform standard for local AI, fitting AI products and platforms.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.36006",
+              "title": "MedJev：评估医学中的零样本 System-One 决策",
+              "summary": "论文评估可在笔记本本地运行的开源 System One 模型 MedJev，在十个医学基准上测试其零样本临床决策表现。模型以单次前向传播回答结构化问题，不生成文本。",
+              "title_en": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+              "summary_en": "The paper evaluates MedJev, an open System One model that runs locally on a laptop, across ten medical benchmarks for zero-shot clinical decision making without text generation.",
+              "topic_evidence": "We evaluate MedJev, an open System One model that runs locally on a laptop, across ten medical benchmarks",
+              "reason": "医学模型基准评估，涉及零样本临床决策，属于研究与评估。",
+              "reason_en": "Medical model benchmark evaluation for zero-shot clinical decisions, fitting research and evaluation.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.33217",
+              "title": "Neyman 正交激活引导",
+              "summary": "论文研究激活引导方法，用于将大模型输出转向目标行为并生成合成数据；提出 Neyman 正交方法改进引导方向的估计。摘要称标准做法通过对比有无目标概念的激活来估计方向。",
+              "title_en": "Neyman Orthogonal Activation Steering",
+              "summary_en": "The paper proposes Neyman orthogonal activation steering to improve estimation of directions that shift LLM outputs toward target behaviors and support synthetic data generation.",
+              "topic_evidence": "Activation steering is a popular approach for shifting LLM output toward a desired behavior",
+              "reason": "大模型行为控制与合成数据方法研究，属于研究与治理。",
+              "reason_en": "Research on LLM behavior control and synthetic data, fitting research and governance.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.36191",
+              "title": "基于低秩多线性分解的大模型幻觉检测",
+              "summary": "论文提出用低秩多线性分解从大模型高维隐藏状态中提取信号，以检测流畅但事实错误的幻觉输出。摘要称现有方法难以从高维表示中提取有效信息。",
+              "title_en": "LLM Hallucination Detection via Low-rank Multilinear Decomposition",
+              "summary_en": "The paper uses low-rank multilinear decomposition to extract signals from high-dimensional hidden states for detecting fluent but factually incorrect LLM hallucinations.",
+              "topic_evidence": "Large language models (LLMs) frequently generate fluent yet factually incorrect responses",
+              "reason": "幻觉检测方法研究，直接关系模型可靠性与安全。",
+              "reason_en": "Hallucination detection research directly relevant to model reliability and safety.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.36353",
+              "title": "先检测再消歧：基于扰动的大模型输入歧义检测",
+              "summary": "论文提出基于扰动的输入歧义检测方法，让大模型在回答前判断提示是否包含多种有效解释。摘要称现有模型常把歧义输入当作单一含义作答。",
+              "title_en": "Detect Before You Disambiguate: Perturbation-Based Input Ambiguity Detection in LLMs",
+              "summary_en": "The paper proposes perturbation-based input ambiguity detection so LLMs can decide whether a prompt admits multiple valid interpretations before answering.",
+              "topic_evidence": "LLMs often answer ambiguous inputs as if they had a single intended meaning",
+              "reason": "输入歧义检测研究，涉及模型不确定性与可靠性。",
+              "reason_en": "Research on input ambiguity detection, relevant to model uncertainty and reliability.",
+              "score": 5.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+              "title": "美国银行提醒客户不要与 AI 助手共享银行密码",
+              "summary": "美国银行提醒客户不要与 AI 助手共享银行密码，并称客户需对 AI 代理访问导致的活动负责。TechCrunch 报道称这是对 AI 代理接入金融账户的风险提示。",
+              "title_en": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+              "summary_en": "Bank of America reminds customers not to share banking passwords with AI assistants and says customers are responsible for activity resulting from their AI agents' access.",
+              "topic_evidence": "don’t share your banking password with your AI assistant",
+              "reason": "金融机构对 AI 助手接入账户的隐私与责任提示，属于治理与隐私。",
+              "reason_en": "A financial institution's privacy and liability warning on AI assistant access, fitting governance and privacy.",
+              "score": 4.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape",
+              "title": "2026 年 Python 类型标注调查：AI 工具与类型检查器格局变化",
+              "summary": "Meta 工程发布 2026 年 Python 类型标注调查：1794 份回复显示，三年间类型提示使用率变化不大，但类型检查器选择明显改变；半数受访者使用多个检查器，缺少库类型信息最常见。",
+              "title_en": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+              "summary_en": "Meta Engineering released the 2026 Python Typing Survey with 1,794 responses. Type hint usage changed little over three years, but checker choices shifted sharply; half of respondents used multiple checkers, and missing library type information was the most common difficulty.",
+              "topic_evidence": "checker selection changed sharply",
+              "reason": "直接涉及 Python 类型系统、类型检查器与开发者工具调查，属于语言与框架版块。",
+              "reason_en": "Directly covers Python typing, type checkers, and developer tooling, fitting the languages and frameworks subsection.",
+              "score": 7.85
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/10/27/security/privacylib",
+              "title": "PrivacyLib：在数据访问边界实施隐私控制",
+              "summary": "Meta 工程介绍 PrivacyLib，将分散在各数据处理系统中的隐私要求执行逻辑集中到公共库。它旨在让同一隐私规则随数据在异构系统中流动时保持一致，减少重复实现。",
+              "title_en": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+              "summary_en": "Meta Engineering details PrivacyLib, a common library that centralizes enforcement of privacy requirements across its data and processing systems, replacing separate implementations in each system and helping consistent controls follow data at access boundaries.",
+              "topic_evidence": "PrivacyLib replaces this with a common library",
+              "reason": "文章介绍用于数据访问边界的隐私执行库，涉及基础设施、数据系统与安全工程，属于基础设施与数据版块。",
+              "reason_en": "It describes a privacy enforcement library for data access boundaries, covering infrastructure, data systems, and security engineering.",
+              "score": 5.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.33133",
+              "title": "研究用物理信息神经网络求解半导体漂移—扩散方程",
+              "summary": "研究提出用物理信息神经网络求解半导体器件建模中的漂移—扩散方程，以应对其强非线性和跨数量级解带来的数值困难。",
+              "title_en": "Physics Informed Neural Networks for Solving the Drift-Diffusion Equations",
+              "summary_en": "A study proposes physics-informed neural networks to solve drift-diffusion equations used in semiconductor device modeling, addressing strong nonlinearity and solutions spanning several orders of magnitude.",
+              "topic_evidence": "the modeling, design, and optimization of modern semiconductor devices",
+              "reason": "该研究直接面向半导体器件建模中的漂移—扩散方程求解，属于芯片与硬件相关的计算建模方法。",
+              "reason_en": "The study directly addresses drift-diffusion equation solving for semiconductor device modeling, relevant to chip and hardware computational methods.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm",
+              "title": "激光束改写磁态，或使计算机内存快千倍",
+              "summary": "加州大学圣迭戈分校团队用精确整形并缩小的超快激光束切换材料磁态，以光而非磁存储信息，或为更小、更快、更省能的内存器件提供路径。",
+              "title_en": "A tiny laser beam could make computer memory 1,000 times faster",
+              "summary_en": "UC San Diego researchers used a precisely shaped, shrunken ultrafast laser beam to switch magnetic states, storing information with light instead of magnets and pointing to smaller, faster, more energy-efficient memory.",
+              "topic_evidence": "store digital information using light instead of magnets",
+              "reason": "报道展示用超快激光切换磁态的新型存储机制，直接关联内存硬件。",
+              "reason_en": "It reports a new memory mechanism that switches magnetic states with ultrafast laser light, directly relevant to memory hardware.",
+              "score": 4.8
+            }
+          ]
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
+              "title": "韦布望远镜发现带“巨型遮阳伞”的炽热熔岩行星",
+              "summary": "距地球280光年的熔岩行星TOI-561 b在应被剥离大气的条件下似仍保有厚大气；韦布观测显示它反射约75%入射星光，矿物云可能起遮阳作用。",
+              "title_en": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+              "summary_en": "JWST observations of the lava planet TOI-561 b, 280 light-years away, suggest it retains a thick atmosphere and reflects about 75% of starlight, possibly due to mineral clouds acting as a sunscreen.",
+              "topic_evidence": "reflects about 75% of incoming starlight",
+              "reason": "韦布望远镜对TOI-561 b的观测涉及系外行星大气与星光反射，属于航天与天文观测。",
+              "reason_en": "JWST observations of TOI-561 b concern exoplanet atmosphere and starlight reflection, fitting space and astronomy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
+              "title": "“Lumina”模拟重建宇宙最初20亿年",
+              "summary": "史密森学会科学家构建迄今最大、最详细的早期宇宙模拟之一Lumina，重现大爆炸后最初20亿年暗物质、气体和辐射的相互作用，以及早期天体结构的形成。",
+              "title_en": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
+              "summary_en": "Smithsonian scientists created Lumina, one of the largest and most detailed simulations of the early universe, recreating the first 2 billion years and how dark matter, gas and radiation interacted.",
+              "topic_evidence": "recreates the universe’s first 2 billion years",
+              "reason": "Lumina模拟聚焦早期宇宙演化，属于天文与空间科学研究。",
+              "reason_en": "The Lumina simulation focuses on early-universe evolution, fitting astronomy and space science.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+              "title": "研究：自闭症儿童大脑处理面孔的方式不同且特化更少",
+              "summary": "一项大型研究发现，自闭症儿童大脑处理面孔的方式与典型发育儿童不同；随年龄增长，与面孔识别相关的脑信号在典型儿童中更特化，在自闭症儿童中变化较少。",
+              "title_en": "The autistic brain processes faces differently than scientists thought",
+              "summary_en": "A major study found that autistic children process faces differently: face-recognition brain signals become more specialized with age in neurotypical children but change much less in autistic children.",
+              "topic_evidence": "autistic children’s brains process faces differently",
+              "reason": "大型研究比较自闭症与典型发育儿童的面孔处理脑信号，属于神经科学与医学研究。",
+              "reason_en": "The large study compares face-processing brain signals in autistic and neurotypical children, fitting neuroscience and medical research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225608.htm",
+              "title": "研究：恐龙灭绝的小行星或为蚂蚁称霸地球创造条件",
+              "summary": "科学家发现，蚂蚁DNA中“跳跃基因”的活动爆发与主要蚂蚁类群兴起时间吻合，可能帮助增强其通过化学信号交流的能力；恐龙灭绝后蚂蚁或获扩张机会。",
+              "title_en": "The asteroid that killed the dinosaurs may have helped ants conquer the world",
+              "summary_en": "Scientists found bursts of activity by mobile genetic elements, or jumping genes, coincided with the rise of major ant groups and may have sharpened ants’ communication abilities after the dinosaurs’ extinction.",
+              "topic_evidence": "bursts of activity from these mobile genetic elements coincided with the rise of major ant groups",
+              "reason": "研究把蚂蚁跳跃基因活动与主要类群兴起联系起来，属于演化生物学研究。",
+              "reason_en": "The research links jumping-gene activity in ants to the rise of major ant groups, fitting evolutionary biology.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
+              "title": "研究：T细胞能感知组织硬度，或影响长期免疫记忆",
+              "summary": "麦吉尔大学团队发现，T细胞可感知周围组织刚度，并利用这类物理信号决定是否发育为持久记忆细胞；这一能力可能改变对长期免疫的理解。",
+              "title_en": "Scientists discover the immune system’s hidden sense of touch",
+              "summary_en": "McGill University researchers found that T cells can sense the stiffness of surrounding tissue and use these physical signals to help determine whether they become long-lasting memory cells.",
+              "topic_evidence": "T cells can actually sense how stiff their surrounding tissues are",
+              "reason": "发现T细胞感知组织硬度并影响记忆细胞分化，属于免疫学与生物医学研究。",
+              "reason_en": "The finding that T cells sense tissue stiffness and influence memory-cell differentiation fits immunology and biomedical research.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225606.htm",
+              "title": "研究：部分抗炎药或削弱免疫屏障，助病毒在体内扩散",
+              "summary": "研究发现，用于类风湿关节炎等疾病的JAK抑制剂可能抑制关键抗病毒基因，削弱对流感和新冠等感染的免疫防御，从而意外帮助危险病毒在体内扩散。",
+              "title_en": "Common drugs may help dangerous viruses spread through the body",
+              "summary_en": "Research suggests JAK inhibitors, prescribed for rheumatoid arthritis and other inflammatory diseases, can weaken a key immune defense against influenza, COVID-19 and other infections, potentially helping dangerous viruses spread.",
+              "topic_evidence": "can weaken a crucial immune defense against influenza, COVID-19, and other infections",
+              "reason": "研究提示JAK抑制剂削弱抗病毒免疫防御，属于医学与免疫学研究。",
+              "reason_en": "The study suggests JAK inhibitors weaken antiviral immune defense, fitting medical and immunological research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop",
+              "title": "Anduril与高通推出美国制造笔记本BlueChip，创始人拉基称要把电脑制造迁回美国，不仅组装，连目前仅在中国生产的个别组件也要本土化。",
+              "summary": "Anduril与高通推出美国制造笔记本BlueChip，创始人拉基称要把电脑制造迁回美国，不仅组装，连目前仅在中国生产的个别组件也要本土化。",
+              "title_en": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+              "summary_en": "Anduril and Qualcomm launched BlueChip, a U.S.-made laptop. Founder Palmer Luckey says the effort aims to bring computer manufacturing home, covering not just assembly but components now made exclusively in China.",
+              "topic_evidence": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+              "reason": "新产品发布，涉及美国本土电脑制造与组件供应链，直接符合新产品与增长。",
+              "reason_en": "New product launch involving U.S.-made computer manufacturing and component supply chain; fits new products and growth.",
+              "score": 4.8
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+              "title": "英伟达投资印度初创公司Simplismart，帮助企业用更少GPU运行AI模型",
+              "summary": "印度初创公司Simplismart获英伟达投资，其平台帮助企业以更少GPU运行AI模型；公司称年化营收运行率六个月内增长14倍，美国贡献超过一半收入。",
+              "title_en": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+              "summary_en": "Nvidia has backed Indian startup Simplismart, whose platform helps companies run AI models with fewer GPUs. Simplismart says its annualized revenue run rate grew 14-fold in six months, with the U.S. contributing over half.",
+              "topic_evidence": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+              "reason": "英伟达对印度AI基础设施初创公司的投资，含营收增长数据，属于融资事件。",
+              "reason_en": "Nvidia investment in an Indian AI infrastructure startup, with revenue growth figures; a funding event.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b",
+              "title": "分拆出Slate Auto的Re:Build融资21亿美元",
+              "summary": "制造业加速器Re:Build完成21亿美元融资，该公司曾分拆出Slate Auto，并将自身定位为“美国版深圳”的制造业答案。",
+              "title_en": "Re:Build, which spun out Slate Auto, raises $2.1B",
+              "summary_en": "Re:Build, the manufacturing accelerator that spun out Slate Auto, has raised $2.1 billion. It describes itself as 'America's answer to Shenzhen.'",
+              "topic_evidence": "Re:Build, which spun out Slate Auto, raises $2.1B",
+              "reason": "明确的21亿美元融资事件，且涉及制造业加速器与分拆公司。",
+              "reason_en": "Clear $2.1 billion funding round for a manufacturing accelerator that spun out Slate Auto.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes?traffic_source=rss",
+              "title": "叙利亚与约旦重开边境，并就致命空袭展开调查",
+              "summary": "叙利亚与约旦边境重新开放，两国外长成立安全委员会共享情报，并跟进约旦空袭叙利亚的影响。",
+              "title_en": "Syria-Jordan border reopens amid probe into deadly air strikes",
+              "summary_en": "Syria and Jordan reopened their border as foreign ministers formed a security committee to share intelligence and assess the impact of Jordanian air strikes on Syria.",
+              "topic_evidence": "Foreign ministers form security committee to share intelligence",
+              "reason": "直接涉及中东边境安全、空袭调查与双边安全合作。",
+              "reason_en": "Directly covers Middle East border security, air strike probe and bilateral security coordination.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+              "title": "官员称乌克兰赫尔松地区停火延长",
+              "summary": "官员表示，乌克兰赫尔松地区停火已延长；停火原为滞留奥列什基居民安排，俄乌均称未报告违反停火情况。",
+              "title_en": "Ceasefire extended across Ukraine's Kherson region, officials say",
+              "summary_en": "Officials say a ceasefire in Ukraine's Kherson region has been extended, originally arranged for stranded residents of Oleshky, with Russia and Ukraine reporting no violations.",
+              "topic_evidence": "Ceasefire extended across Ukraine's Kherson region",
+              "reason": "涉及俄乌冲突中的局部停火与平民撤离安排，属安全与地缘要闻。",
+              "reason_en": "Concerns a local ceasefire and civilian arrangement in the Russia-Ukraine war, relevant to security and geopolitics.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+              "title": "挪威与芬兰领导人罕见与普京通话",
+              "summary": "挪威与芬兰领导人罕见与俄罗斯总统普京通话；芬兰总统斯图布称，乌克兰冲突的结束“不会通过沉默实现”。",
+              "title_en": "Norway and Finland leaders hold rare call with Putin",
+              "summary_en": "Leaders of Norway and Finland held a rare call with Russian President Vladimir Putin; Finland's President Alexander Stubb said ending the Ukraine conflict 'will not be achieved through silence.'",
+              "topic_evidence": "Norway and Finland leaders hold rare call with Putin",
+              "reason": "北欧领导人直接与普京通话，涉及乌克兰冲突外交，属地缘与安全动态。",
+              "reason_en": "Nordic leaders' direct call with Putin concerns Ukraine conflict diplomacy, a geopolitical and security development.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cxdd8nq55d74o?at_medium=RSS&at_campaign=rss",
+              "title": "尼日利亚北部一名争议伊斯兰教士遭枪杀",
+              "summary": "尼日利亚北部争议伊斯兰教士叶海亚·马苏苏卡遭枪杀；他曾在视频中否定主流伊斯兰教的一些内容。",
+              "title_en": "Controversial Islamic cleric shot dead in northern Nigeria",
+              "summary_en": "A controversial Islamic cleric, Yahaya Masussuka, was shot dead in northern Nigeria; he had posted videos rejecting some elements of mainstream Islam.",
+              "topic_evidence": "Controversial Islamic cleric shot dead in northern Nigeria",
+              "reason": "涉及尼日利亚北部安全事件与宗教人物遇袭，属安全类国际新闻。",
+              "reason_en": "Covers a security incident and attack on a religious figure in northern Nigeria, relevant to international security.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss",
+              "title": "内塔尼亚胡与艾森科特阵营就以色列选举预测交锋",
+              "summary": "以色列出口民调显示差距收窄，但反对派领导人坚持认为选举结果是对政府的失败；内塔尼亚胡与艾森科特阵营就预测结果交锋。",
+              "title_en": "Netanyahu, Eisenkot camps clash over Israel election projections",
+              "summary_en": "Despite narrower exit poll figures, opposition leaders insisted the result was a defeat for the government, as Netanyahu and Eisenkot camps clashed over Israel's election projections.",
+              "topic_evidence": "Netanyahu, Eisenkot camps clash over Israel election projections",
+              "reason": "直接报道以色列选举出口民调后的阵营反应，属政府与选举政治。",
+              "reason_en": "Directly reports camp reactions after Israeli election exit polls, relevant to government and electoral politics.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss",
+              "title": "以色列议会选举的主要看点",
+              "summary": "以色列议会选举主要看点显示，内塔尼亚胡领导的利库德集团成为最大单一政党，其阵营得票略超反对派。",
+              "title_en": "Five key takeaways from Israel’s parliamentary elections",
+              "summary_en": "Netanyahu's Likud emerged as the single largest Israeli party, while its bloc edged past the opposition, according to key takeaways from Israel's parliamentary elections.",
+              "topic_evidence": "Netanyahu's Likud emerges as single largest Israeli party",
+              "reason": "概括以色列议会选举结果与阵营格局，属政府与选举要闻。",
+              "reason_en": "Summarizes Israeli parliamentary election results and bloc dynamics, relevant to government and elections.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
+              "title": "民调显示阿拉伯政党有望在以色列选举中赢得创纪录席位",
+              "summary": "早期迹象显示，以色列巴勒斯坦公民投票率创纪录，约达80%；阿拉伯政党有望赢得创纪录席位。",
+              "title_en": "Arab parties on track to win record seats in Israel election, polls show",
+              "summary_en": "Early indications show record voter turnout among Palestinian citizens of Israel at around 80 percent, with Arab parties on track to win record seats in the Israeli election, polls show.",
+              "topic_evidence": "Arab parties on track to win record seats in Israel election",
+              "reason": "聚焦以色列选举中阿拉伯政党席位与投票率变化，属选举政治。",
+              "reason_en": "Focuses on Arab parties' seat gains and turnout changes in Israel's election, relevant to electoral politics.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+              "title": "报道称弗拉维奥·博索纳罗在总统选举失利后逃离巴西",
+              "summary": "报道称，极右翼参议员弗拉维奥·博索纳罗在总统选举输给卢拉后未按期交出护照，正前往美国。",
+              "title_en": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+              "summary_en": "Far-right Senator Flávio Bolsonaro reportedly fled Brazil and is en route to the United States after missing a deadline to hand over his passport following his election loss to Lula.",
+              "topic_evidence": "Flávio Bolsonaro flees Brazil after presidential election loss",
+              "reason": "涉及巴西总统选举后的政治人物出走与司法争议，属政府与选举后续。",
+              "reason_en": "Concerns a political figure's departure and legal dispute after Brazil's presidential election, relevant to government and election aftermath.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
+              "title": "特朗普展示载有“100万桶石油”的油轮，并称委内瑞拉可为第51州",
+              "summary": "特朗普在得州竞选集会上展示一艘据称载有委内瑞拉100万桶石油的油轮，称与后马杜罗政府达成的协议是“史上最伟大石油胜利”，并提出委内瑞拉可成为美国第51州。",
+              "title_en": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
+              "summary_en": "At a Texas campaign rally, President Trump showed off a tanker he said carried one million barrels of oil from Venezuela, called the deal with the post-Maduro government the 'greatest oil victory in history,' and floated Venezuela as the 51st state.",
+              "topic_evidence": "floats Venezuela as 51st state",
+              "reason": "涉及美国总统对委内瑞拉政策、石油协议与领土表态，属政府政策与国际政治。",
+              "reason_en": "Concerns the US president's Venezuela policy, oil deal and statehood remark, relevant to government policy and international politics.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
+              "title": "埃及法院对记者莉娜·阿塔拉罚款并下令关闭新闻网站",
+              "summary": "埃及法院对记者莉娜·阿塔拉处以罚款，并下令关闭独立媒体“马达马斯尔”；国际特赦组织称该判决是对新闻自由的“沉重打击”。",
+              "title_en": "Egypt court fines journalist Lina Attalah and orders news site's closure",
+              "summary_en": "An Egyptian court fined journalist Lina Attalah and ordered the closure of independent outlet Mada Masr; Amnesty International called the verdict 'a crushing blow to press freedom.'",
+              "topic_evidence": "orders news site's closure",
+              "reason": "涉及埃及新闻自由与独立媒体被关停，属全球社会与权利议题。",
+              "reason_en": "Concerns press freedom and closure of an independent outlet in Egypt, relevant to global society and rights.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss",
+              "title": "调查称尼日利亚拘留室死亡事件完全可以避免",
+              "summary": "调查认定，尼日利亚明纳州一间监狱牢房因过度拥挤和通风不良导致33名被拘留者死亡，这些死亡完全可以避免。",
+              "title_en": "Deaths in detention cells in Nigeria were entirely preventable, inquiry finds",
+              "summary_en": "An inquiry found that the deaths of 33 detainees in a prison cell in Minna state, Nigeria, caused by overcrowding and poor ventilation, were entirely preventable.",
+              "topic_evidence": "Overcrowding and poor ventilation caused the deaths of 33 detainees",
+              "reason": "涉及拘留条件、人道状况与问责调查，属全球社会与人权议题。",
+              "reason_en": "Concerns detention conditions, humanitarian situation and accountability inquiry, relevant to global society and human rights.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit",
+              "title": "查尔斯国王将在英联邦峰会上与领导人讨论奴隶制遗留问题",
+              "summary": "查尔斯国王抵达巴哈马展开加勒比访问，并确认将在英联邦峰会上讨论奴隶制遗留问题；英联邦国家再次呼吁英国参与赔偿谈判。",
+              "title_en": "King Charles to discuss legacy of slavery with Commonwealth leaders at summit",
+              "summary_en": "King Charles arrived in the Bahamas for a Caribbean tour and confirmed he will discuss the legacy of slavery at a Commonwealth summit, as member nations renew calls for Britain to engage in reparation talks.",
+              "topic_evidence": "discuss the legacy of slavery with Commonwealth leaders",
+              "reason": "涉及英联邦峰会、殖民历史与赔偿谈判，属国际社会与历史正义议题。",
+              "reason_en": "Concerns a Commonwealth summit, colonial history and reparation talks, relevant to international society and historical justice.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722110.shtml",
+              "title": "国台办就稀土出口管制与台积电供应链评估答问",
+              "summary": "10月28日，国台办举行例行新闻发布会，就大陆稀土出口管制及台积电要求供应商评估替代方案的报道回应媒体提问。",
+              "title_en": "Taiwan Affairs Office takes questions on rare earth export controls and TSMC supply-chain review",
+              "summary_en": "At a routine press conference on October 28, the State Council Taiwan Affairs Office took questions on mainland rare earth export controls and reports that TSMC asked suppliers to evaluate alternatives.",
+              "topic_evidence": "台积电要求设备供应商评估不使用大陆稀土的替代方案",
+              "reason": "涉及出口管制政策与半导体供应链，属于政策与监管。",
+              "reason_en": "Covers export control policy and the semiconductor supply chain, fitting policy and regulation.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722107.shtml",
+              "title": "国台办回应特朗普称“没人在乎台海问题”",
+              "summary": "10月28日，国台办例行新闻发布会回应美国总统特朗普涉台言论，包括其称台湾芯片低价抢占美国市场及“没人在乎台海问题”。",
+              "title_en": "Taiwan Affairs Office responds to Trump remarks on Taiwan, chips and 'no one cares' about strait",
+              "summary_en": "The State Council Taiwan Affairs Office on October 28 responded to US President Trump's remarks criticizing Taiwan's chip pricing and saying 'no one cares' about the Taiwan Strait issue.",
+              "topic_evidence": "特朗普称没人在乎台海问题 国台办回应",
+              "reason": "涉美台与两岸政策表态，属政策与监管。",
+              "reason_en": "Concerns US-Taiwan and cross-strait policy statements, fitting policy and regulation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722106.shtml",
+              "title": "国台办称所谓“敌意螺旋”由民进党当局蓄意制造",
+              "summary": "10月28日，国台办在例行新闻发布会上称，所谓“敌意螺旋”由民进党当局蓄意制造；发布会并就两岸舆论攻防对民间交流的影响答问。",
+              "title_en": "Taiwan Affairs Office says 'spiral of hostility' was deliberately created by DPP authorities",
+              "summary_en": "At a routine press conference on October 28, the State Council Taiwan Affairs Office said the so-called 'spiral of hostility' was deliberately created by the DPP authorities and took questions on cross-strait exchanges.",
+              "topic_evidence": "所谓“敌意螺旋”由民进党当局蓄意制造",
+              "reason": "两岸政策表态，属政策与监管。",
+              "reason_en": "A cross-strait policy statement, fitting policy and regulation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722088.shtml",
+              "title": "2027年度中央机关公开遴选和公开选调公务员启动报名",
+              "summary": "国家公务员局消息，2027年度中央机关公开遴选和公开选调公务员10月28日开始报名，计划选拔213人，笔试定于11月28日举行。",
+              "title_en": "Central agencies open registration for 2027 civil service selection and transfer",
+              "summary_en": "Registration for the 2027 central government civil service selection and transfer opened on October 28, with 213 candidates to be selected and written exams scheduled for November 28.",
+              "topic_evidence": "计划选拔213人，笔试将于11月28日举行",
+              "reason": "中央机关人事选拔安排，属政策与监管。",
+              "reason_en": "A central government personnel selection arrangement, fitting policy and regulation.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722086.shtml",
+              "title": "桐乡推出“乌镇七子” 人工智能产业闭环加速成形",
+              "summary": "桐乡发布“乌镇七子”人工智能企业名单，包括尚元智行、新生纪智能、数翰科技等七家企业，依托世界互联网大会乌镇峰会资源推动AI产业闭环。",
+              "title_en": "Tongxiang unveils 'Seven Wuzhen Companies' as AI industry cluster takes shape",
+              "summary_en": "Tongxiang introduced seven AI companies under the 'Wuzhen Seven' label, including Shangyuan Zhixing and Xin Sheng Ji Intelligence, as it seeks to build a closed-loop AI industry cluster.",
+              "topic_evidence": "桐乡正式推出“乌镇七子”",
+              "reason": "地方AI产业集群具体进展，属产业与地方。",
+              "reason_en": "A concrete local AI industry cluster development, fitting industry and local news.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722131.shtml",
+              "title": "黑河—布拉戈维申斯克口岸秋冬季气垫船客运开通",
+              "summary": "10月27日，中国黑河—俄罗斯布拉戈维申斯克口岸2026年度秋冬季气垫船客运正式开启，为两国人员往来提供水上通道。",
+              "title_en": "Heihe-Blagoveshchensk border crossing opens autumn-winter hovercraft service",
+              "summary_en": "The Heihe-Blagoveshchensk border crossing between China and Russia launched its 2026 autumn-winter hovercraft passenger service on October 27, providing a water route for travelers.",
+              "topic_evidence": "2026年度秋冬季气垫船客运27日正式开启",
+              "reason": "中俄边境口岸交通服务，属地方产业与基础设施。",
+              "reason_en": "A China-Russia border crossing transport service, fitting local industry and infrastructure.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722124.shtml",
+              "title": "前三季度大陆自台湾进口渔产品同比增长35.5%",
+              "summary": "国台办发言人陈斌华10月28日介绍，今年前三季度大陆自台湾进口农产品同比增长18.5%，其中渔产品同比增长35.5%。",
+              "title_en": "Mainland imports of Taiwan fishery products up 35.5% in first three quarters",
+              "summary_en": "Mainland imports of agricultural products from Taiwan rose 18.5% year on year in the first three quarters, with fishery product imports up 35.5%, Taiwan Affairs Office spokesman Chen Binhua said on October 28.",
+              "topic_evidence": "进口渔产品同比增长35.5%",
+              "reason": "两岸农产品贸易具体数据，属产业与地方。",
+              "reason_en": "Specific cross-strait agricultural trade data, fitting industry and local news.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722073.shtml",
+              "title": "各地加快重大水利工程建设",
+              "summary": "央视新闻联播报道，各地正加快建设重大水利工程，提升水资源优化配置能力，以支撑经济社会高质量发展。",
+              "title_en": "Major water conservancy projects accelerated across China",
+              "summary_en": "Major water conservancy projects are being accelerated across China to improve water resource allocation and support high-quality economic and social development, CCTV's Xinwen Lianbo reported.",
+              "topic_evidence": "各地加快建设重大水利工程，不断提升水资源优化配置能力",
+              "reason": "地方重大基础设施建设进展，属产业与地方。",
+              "reason_en": "Progress on major local infrastructure projects, fitting industry and local news.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722078.shtml",
+              "title": "AI“换脸”带货引发索赔问题：演员吴越被深度伪造推销化妆品",
+              "summary": "演员吴越发文称某自媒体用AI深度伪造其肖像和声音制作带货视频，涉事账号已被永久封禁；事件引发消费者能否索赔的讨论。",
+              "title_en": "AI deepfake shopping videos raise consumer compensation questions after actor Wu Yue case",
+              "summary_en": "Actor Wu Yue said a self-media account used AI deepfakes of her face and voice to sell cosmetics; the account was permanently banned, spurring discussion of whether consumers can claim compensation.",
+              "topic_evidence": "利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频",
+              "reason": "AI深度伪造带货涉及消费者权益与平台治理，属社会与法治。",
+              "reason_en": "AI deepfake commerce involves consumer rights and platform governance, fitting society and legal news.",
+              "score": 2.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722068.shtml",
+              "title": "沈阳13个社区入选全国示范性老年友好型社区拟命名名单",
+              "summary": "沈阳市民政局10月28日介绍，辽宁省80个社区（村）入选全国示范性老年友好型社区拟命名名单，沈阳市13个创建单位全部入选，数量居全省首位。",
+              "title_en": "Shenyang's 13 communities selected for national age-friendly demonstration list",
+              "summary_en": "Thirteen Shenyang communities were included in a national demonstration list of age-friendly communities, accounting for all of the city's applicants and the largest number in Liaoning, the city's civil affairs bureau said on October 28.",
+              "topic_evidence": "沈阳市13个创建单位全部入选，数量居全省首位",
+              "reason": "地方老年友好社区建设具体进展，属社会与法治。",
+              "reason_en": "A concrete local age-friendly community development, fitting society and legal news.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722065.shtml",
+              "title": "北川大型泥石流野外试验基地启动运行",
+              "summary": "成都理工大学地质灾害防治与地质环境保护全国重点实验室北川大型泥石流野外试验基地10月27日在四川绵阳北川启动运行，并举行首场泥石流模拟试验。",
+              "title_en": "Beichuan large-scale debris flow field test base begins operation",
+              "summary_en": "A large-scale debris flow field test base run by Chengdu University of Technology's national key laboratory opened in Beichuan, Sichuan, on October 27, with its first simulation test.",
+              "topic_evidence": "在四川省绵阳市北川羌族自治县启动运行",
+              "reason": "地质灾害防治设施投用，涉及公共安全，属社会与法治。",
+              "reason_en": "A geohazard prevention facility entering operation, involving public safety and fitting society and legal news.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722103.shtml",
+              "title": "澳大利亚向中国返还2件流失文物",
+              "summary": "10月28日消息，澳大利亚向中国返还2件流失文物；现有材料未说明文物名称、年代及具体返还安排。",
+              "title_en": "Australia returns two lost cultural relics to China",
+              "summary_en": "Australia returned two lost cultural relics to China, according to a report on October 28; the artifacts' names, dates and return arrangements were not specified in the available material.",
+              "topic_evidence": "澳大利亚向我国返还2件流失文物",
+              "reason": "流失文物返还涉及文化遗产保护，属社会与法治。",
+              "reason_en": "The return of lost cultural relics involves cultural heritage protection, fitting society and legal news.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
+              "title": "SK海力士业绩推动科技股反弹，油价上涨",
+              "summary": "亚洲科技股在SK海力士强劲财报后上涨，韩国芯片股领涨，投资者重新加仓人工智能交易；市场同时关注油价走高。",
+              "title_en": "Tech Stocks Rally After Hynix Earnings, Oil Gains: Markets Wrap",
+              "summary_en": "Asian tech shares rose after SK Hynix's strong earnings, led by South Korean chip stocks, as investors returned to the artificial-intelligence trade; oil also gained.",
+              "topic_evidence": "Tech shares climbed across Asia, led by those in South Korea",
+              "reason": "直接反映亚洲科技股与AI交易在SK海力士财报后的市场表现，属市场与资产。",
+              "reason_en": "Directly covers Asian tech stocks and the AI trade after SK Hynix earnings, fitting markets and assets.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/ambani-sheds-tears-as-india-s-richest-family-hails-jio-debut-pop",
+              "title": "Jio平台上市首日走高，安巴尼家族出席敲钟",
+              "summary": "印度信实集团旗下Jio平台在孟买上市首日表现强劲，穆克什·安巴尼家族四代人出席敲钟仪式，市场关注这家印度最富有商业家族的资本运作。",
+              "title_en": "Ambani Sheds Tears as India’s Richest Family Hails Jio Debut Pop",
+              "summary_en": "Jio Platforms' stock-market debut was an emotional moment for Mukesh Ambani as four generations of India's wealthiest business family gathered to ring the opening bell.",
+              "topic_evidence": "Jio Platforms Ltd.’s stock market debut",
+              "reason": "报道印度大型IPO首日表现及家族财富事件，属于市场与资产。",
+              "reason_en": "Covers a major Indian IPO debut and a wealthy family's market event, fitting markets and assets.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+              "title": "散户逢低买入芯片股，Robinhood却因加密市场受挫",
+              "summary": "Robinhood首席财务官表示，市场波动未阻止交易者买入他们做过研究的芯片股；但加密市场波动令Robinhood承压。",
+              "title_en": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+              "summary_en": "Robinhood's CFO said market volatility did not deter traders from buying chip stocks they had researched, while the crypto market hurt Robinhood.",
+              "topic_evidence": "Retail traders buy the dip on chip stocks",
+              "reason": "具体描述散户交易行为及券商受加密市场拖累，属市场与资产。",
+              "reason_en": "Describes retail trading behavior and a brokerage hurt by crypto, fitting markets and assets.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+              "title": "Anthropic上市文件提振AI支出信心，CoreWeave等AI股上涨",
+              "summary": "投资者进一步解读Anthropic的IPO文件后，看到与今年多数时间支撑AI股相似的支出趋势，CoreWeave等AI相关股票随之走高。",
+              "title_en": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+              "summary_en": "After investors examined Anthropic's IPO filing, they saw spending trends similar to those that supported AI stocks for much of the year, lifting CoreWeave and other AI shares.",
+              "topic_evidence": "Anthropic restores the market’s faith in sustained spending",
+              "reason": "聚焦Anthropic上市文件对AI支出预期及AI股走势的影响，属市场与资产。",
+              "reason_en": "Focuses on how Anthropic's IPO filing affects AI spending expectations and AI stocks, fitting markets and assets.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/china-robot-stocks-extend-rally-with-unitree-earnings-in-focus",
+              "title": "中国机器人股延续涨势，宇树科技业绩成焦点",
+              "summary": "受量产部署时间表缩短预期推动，中国机器人股延续近期涨势；行业龙头宇树科技即将公布的业绩可能带来进一步提振。",
+              "title_en": "China Robot Stocks Extend Rally With Unitree Earnings in Focus",
+              "summary_en": "Chinese robotics stocks extended a recent rally on expectations of shorter timelines for mass deployment, with upcoming earnings from industry leader Unitree Technology poised to provide another lift.",
+              "topic_evidence": "Chinese robotic stocks extended a recent rally",
+              "reason": "报道中国机器人板块行情及龙头企业业绩预期，属市场与资产。",
+              "reason_en": "Covers China's robotics stock rally and a leading company's earnings outlook, fitting markets and assets.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/copper-wavers-near-two-week-high-as-traders-look-to-fed-meeting",
+              "title": "铜价徘徊两周高位，交易员关注美联储会议",
+              "summary": "铜价在两周最高收盘价附近交易，交易员等待美联储利率决定，市场对政策路径保持谨慎。",
+              "title_en": "Copper Wavers Near Two-Week High as Traders Look to Fed Meeting",
+              "summary_en": "Copper traded near its highest close in two weeks as traders awaited the Federal Reserve's interest-rate decision, with the policy path in focus.",
+              "topic_evidence": "Copper traded near its highest close in two weeks",
+              "reason": "将大宗商品走势与美联储利率决定联系起来，属宏观与政策。",
+              "reason_en": "Links commodity prices to the Federal Reserve rate decision, fitting macro and policy.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-27/bullish-treasury-bets-face-reversal-risk-from-hawkish-fed",
+              "title": "看涨美债押注面临美联储转鹰的回撤风险",
+              "summary": "若美联储在即将到来的货币政策会议上采取更鹰派立场，美国国债的看涨押注可能面临急剧反转。",
+              "title_en": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed",
+              "summary_en": "Bullish bets in US Treasuries are vulnerable to a sharp reversal if the Federal Reserve adopts a more aggressive stance at its upcoming monetary policy meeting.",
+              "topic_evidence": "Bullish bets in US Treasuries are vulnerable to a sharp reversal",
+              "reason": "直接讨论美联储政策立场对美债押注的影响，属宏观与政策。",
+              "reason_en": "Directly discusses how the Fed's policy stance could affect Treasury bets, fitting macro and policy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/australian-inflation-exceeds-estimate-ahead-of-rba-meeting",
+              "title": "澳大利亚通胀超预期，市场押注再次加息",
+              "summary": "澳大利亚通胀高于预期，加之央行官员周三发表鹰派言论，市场对下周政策会议将进行今年第五次加息的预期升温。",
+              "title_en": "Australia Under Pressure to Hike Rates Further as Prices Quicken",
+              "summary_en": "Hotter-than-expected Australian inflation and hawkish comments from Reserve Bank officials raised expectations of a fifth interest-rate hike this year at next week's policy meeting.",
+              "topic_evidence": "Hotter-than-expected Australian inflation",
+              "reason": "报道澳大利亚通胀超预期及加息预期，属宏观与政策。",
+              "reason_en": "Covers above-forecast Australian inflation and rate-hike expectations, fitting macro and policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/bank-of-canada-decision-markets-prepare-for-higher-interest-rates",
+              "title": "加拿大央行决议临近，市场准备迎接更高利率",
+              "summary": "市场关注加拿大央行即将公布的利率决定，并准备迎接更高利率；本期简报另提及Cliffs与Mélanie Joly的再度交锋。",
+              "title_en": "Bank of Canada Decision: Markets Prepare for Higher Interest Rates",
+              "summary_en": "Markets are preparing for higher interest rates ahead of the Bank of Canada's decision; the newsletter also mentions Cliffs versus Mélanie Joly again.",
+              "topic_evidence": "Markets Prepare for Higher Interest Rates",
+              "reason": "聚焦加拿大央行利率决定及市场预期，属宏观与政策。",
+              "reason_en": "Focuses on the Bank of Canada rate decision and market expectations, fitting macro and policy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-27/chile-keeps-rates-at-4-5-as-growth-fades-and-inflation-picks-up",
+              "title": "智利央行鹰派维持利率不变",
+              "summary": "智利央行周二将基准利率维持在4.5%，并警告外部冲击已显著推高通胀风险和消费者物价预测。",
+              "title_en": "Chile Central Bank Delivers Hawkish Rate Hold",
+              "summary_en": "Chile's central bank held its benchmark rate at 4.5% on Tuesday and warned that external shocks had substantially raised inflation risks and consumer-price forecasts.",
+              "topic_evidence": "Chile’s central bank held its benchmark interest rate steady",
+              "reason": "具体报道智利央行利率决定与通胀风险判断，属宏观与政策。",
+              "reason_en": "Reports Chile's central-bank rate decision and inflation-risk assessment, fitting macro and policy.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/your-portfolio-reset-how-investors-should-think-about-the-next-decade",
+              "title": "投资组合重置：投资者应如何思考下一个十年",
+              "summary": "文章指出，过去十年推动投资回报的力量正在转变，并讨论投资者应如何为未来十年的资产配置和组合调整做准备。",
+              "title_en": "Your Portfolio Reset: How Investors Should Think About The Next Decade",
+              "summary_en": "The forces that powered investment returns over the past decade are shifting, and the article discusses how investors should prepare portfolios for the next decade.",
+              "topic_evidence": "The forces that powered the last 10 years are shifting",
+              "reason": "面向个人投资者的长期资产配置与组合调整建议，符合理财子版。",
+              "reason_en": "Offers long-term portfolio and asset-allocation guidance for individual investors, fitting wealth.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://lexifina.com/blog/git-for-the-us-code",
+              "title": "为美国法典引入 Git 的构想",
+              "summary": "一篇博客文章提出为美国法典引入 Git；该链接在 Hacker News 获 153 分、72 条评论。",
+              "title_en": "Git for the US Code",
+              "summary_en": "A blog post proposes using Git for the US Code; its Hacker News submission drew 153 points and 72 comments.",
+              "topic_evidence": "Git for the US Code",
+              "reason": "标题直接涉及用 Git 管理美国法典，属于软件工具与法律文本治理的技术观点；HN 讨论活跃。",
+              "reason_en": "Title directly concerns using Git for the US Code, a software-practice commentary on legal-text management; the HN thread is active.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+              "title": "美国政府被指隐瞒涉监控美国人的秘密法院裁决",
+              "summary": "《连线》报道称，美国政府隐瞒一项关于如何监控美国人的秘密法院裁决；Hacker News 链接获 880 分、312 条评论。",
+              "title_en": "US Government is hiding a secret court ruling about how it spies on Americans",
+              "summary_en": "Wired reports that the US government is hiding a secret court ruling about how it spies on Americans; the Hacker News submission drew 880 points and 312 comments.",
+              "topic_evidence": "hiding a secret court ruling about how it spies on Americans",
+              "reason": "涉及政府监控与司法透明度的政策评论，符合商业与社会评论；HN 关注度高。",
+              "reason_en": "Concerns government surveillance and judicial transparency, fitting business-society commentary; high HN engagement.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": []
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.36013",
+      "original_title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "original_summary": "arXiv:2610.36013v1 Announce Type: new Abstract: General-purpose embodied intelligence requires robots to coordinate diverse skills over long horizons, track task progress, and recover from failures. Specialist policies alone do not ensure task-level reliability, while powerful multimodal agents rely on costly reasoning and external experience that compact models struggle to reproduce. We introduce OmniBrain-0, a lightweight unified embodied agent that coordinates manipulation and navigation through a shared high-level decision model, integrating task understanding, planning, progress tracking, and feedback-driven recovery. Our progressive training framework combines embodied pretraining, domain-specialized agent distillation, and multi-teacher on-policy distillation (MOPD). It distills powerful teachers' interaction experience into manipulation and navigation experts, then consolidates their decision capabilities into OmniBrain-0. Unification therefore occurs within the learned decision model rather than only at the tool interface. We further introduce Rubric-Guided Recursive Self-Improvement (RSI), a data flywheel in which a Meta-Agent turns execution evidence into refined rubrics, step-level reminders, and verified trajectories for domain-expert updates before their reconsolidation into OmniBrain-0 through MOPD. We evaluate OmniBrain-0 on LIBERO-Pro, LIBERO-Plus, RoboCasa365, RoboTwin 2.0, and R2R-CE Val-Unseen, as well as multiple real-world manipulation tasks. OmniBrain-0 combines strong cross-domain task performance with substantially lower inference and execution overhead than its closed-source teacher, demonstrating efficient transfer and consolidation of embodied capabilities into a compact unified agent.",
+      "topic_evidence": "A Unified Agentic Model for Embodied Intelligence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+      "original_title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "original_summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "topic_evidence": "their models refuted the Exponential Time Hypothesis",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "openai"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "original_title": "Build specialized multimodal models with LFM3",
+      "original_summary": "",
+      "topic_evidence": "Build specialized multimodal models with LFM3",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.33215",
+      "original_title": "Vision Token Pruning via Query-Vision Interaction Decomposition",
+      "original_summary": "arXiv:2610.33215v1 Announce Type: new Abstract: Large vision-language models (VLMs), which process both visual inputs and text queries, incur high inference costs due to the large number of visual tokens, making visual token pruning a natural approach for improving efficiency. Recent work has leveraged query information to guide token selection, often through heuristics derived from attention patterns or token dynamics. However, these approaches do not explicitly exploit the underlying structure of query-vision interactions. We address this gap by observing that the query-vision interaction matrix, naturally induced by the query and key projections already present in transformer attention, is effectively low-rank, with a small number of dominant latent interaction modes capturing query-relevant semantics. Motivated by this observation, we propose Query-Vision Decomposition (QViD), a novel training-free query-aware visual token pruning method that exploits this structure. Extensive experiments on both image and video understanding benchmarks show that QViD consistently improves performance under matched token budgets, with the largest gains appearing under aggressive compression regimes.",
+      "topic_evidence": "Vision Token Pruning via Query-Vision Interaction Decomposition",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.36083",
+      "original_title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+      "original_summary": "arXiv:2610.36083v1 Announce Type: new Abstract: Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined to predicting the sentiment of each article in isolation and operate as black boxes, which limits contextual understanding and hinders deployment in high-stakes financial decision-making. To this end, we introduce FinLLM-KG, a model-agnostic framework that combines causal LLMs with a financial knowledge graph, in order to inject temporally grounded, company-level knowledge from SEC 10-K filings at inference time, without updating model weights. Within FinLLM-KG, context is supplied either as a natural-language company profile or as a small set of relevance-ranked factual triples. This enables sentiment predictions to account for broader firm-level information rather than the article alone, at almost zero computational cost and for any causal LLM. In addition, attributing each article-level sentiment score to individual sentences and to the retrieved knowledge-graph facts makes the evidence behind the prediction inspectable, thereby enhancing explainability and supporting human-in-the-loop review. Simulations demonstrate that FinLLM-KG consistently improves portfolio performance over the state-of-the-art baseline.",
+      "topic_evidence": "Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/retell-ai",
+      "original_title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "original_summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "topic_evidence": "Retell uses OpenAI models to help power 100M monthly calls",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+      "original_title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "original_summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "topic_evidence": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.36006",
+      "original_title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "original_summary": "arXiv:2610.36006v1 Announce Type: new Abstract: System One decision models such as Jev answer structured questions in a single forward pass without generating text, offering fast and computationally efficient clinical decision support. We evaluate MedJev, an open System One model that runs locally on a laptop, across ten medical benchmarks spanning medical knowledge, diagnosis, and patient level prediction using MIMIC IV and MIMIC IV ED. We compare MedJev against zero shot LLM baselines, published GPT results, and supervised models. MedJev achieves accuracies of 72.5 percent on MedQA, 75.4 percent on USMLE, and 80.1 percent on NEJM, approaching published GPT 4 performance while maintaining well calibrated confidence estimates (ECE 0.028 to 0.063). On patient level tasks, MedJev achieves an AUROC of 0.926 for In Hospital Mortality, exceeding XGBoost (0.902), but underperforms supervised models on operational outcomes such as ED Triage Admission (0.745 vs. 0.809). Patient level predictions also exhibit substantial miscalibration (In Hospital Mortality ECE 0.286). We introduce a lightweight, two parameter recalibration method that adapts predictions to local patient populations using 50 to 200 labeled examples, reducing ECE to 0.007. Our findings establish open System One models as a promising zero shot baseline for medical AI, combining competitive predictive performance with low computational cost and efficient local calibration. We release our code and evaluation harness to support future research.",
+      "topic_evidence": "We evaluate MedJev, an open System One model that runs locally on a laptop, across ten medical benchmarks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "research",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.33217",
+      "original_title": "Neyman Orthogonal Activation Steering",
+      "original_summary": "arXiv:2610.33217v1 Announce Type: new Abstract: Activation steering is a popular approach for shifting LLM output toward a desired behavior, and increasingly for generating realistic synthetic data. The standard recipe estimates a steering direction by contrasting LLM activations on prompts with and without a target concept, such as truthfulness. In this paper, we separate the estimand (the steering direction these methods target) from the estimator used to recover it, two notions the literature often conflates. We frame nearly all existing methods as plug-in estimators of the average gradient of an outcome regression, with the binary contrastive label fixed as the outcome. Using this framing, we can immediately incorporate flexible modeling approaches and extend existing methods to allow for continuous outcomes such as log-probabilities or oracle ratings. Flexible ML models that fit the outcome well, however, might not estimate the gradient well, which motivates estimators that target the gradient directly. Drawing on the debiased machine learning literature, we develop a complementary estimator built on the Stein score, the Riesz representer of the gradient functional. Combining the two routes gives an orthogonalized estimator with classical double-robustness properties. We illustrate the framework on activation steering applied to a number of benchmark datasets.",
+      "topic_evidence": "Activation steering is a popular approach for shifting LLM output toward a desired behavior",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "paper",
+        "benchmark",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.36191",
+      "original_title": "LLM Hallucination Detection via Low-rank Multilinear Decomposition",
+      "original_summary": "arXiv:2610.36191v1 Announce Type: new Abstract: Large language models (LLMs) frequently generate fluent yet factually incorrect responses, raising concerns about their reliability. Recent hallucination detectors increasingly exploit internal representations, but extracting informative signals from high-dimensional hidden states remains challenging. Existing approaches often rely on selected activations or pooling-based compression, potentially overlooking discriminative information distributed across Transformer layers, feature modes, and tokens. We propose LOTUS (Low-rank Order-statistic TUcker-based Subspace learning), a multilinear low-rank decomposition framework for hallucination detection that extracts compact representations from LLM hidden states while reducing dependence on labeled data. Our approach first summarizes variable-length token representations using complementary statistical descriptors that capture peak activations, activation distributions, and cross-layer changes. We then leverage low-rank multilinear decomposition to extract compact representations that capture the underlying structure of LLM hidden states, which are subsequently used to train a lightweight hallucination classifier. Experiments across multiple LLMs and question-answering benchmarks demonstrate improved hallucination detection performance over recent state-of-the-art baselines.",
+      "topic_evidence": "Large language models (LLMs) frequently generate fluent yet factually incorrect responses",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.36353",
+      "original_title": "Detect Before You Disambiguate: Perturbation-Based Input Ambiguity Detection in LLMs",
+      "original_summary": "arXiv:2610.36353v1 Announce Type: new Abstract: Large language models (LLMs) often answer ambiguous inputs as if they had a single intended meaning. This is problematic because input ambiguity is an upstream source of uncertainty: when a prompt admits multiple valid interpretations, the key question is whether the model should answer directly at all. Existing input uncertainty methods often rely on LLM-generated statements or clarifications, but such transformations may already disambiguate the input before the ambiguity is measured. We propose a label-preserving perturbation framework for input ambiguity detection in which perturbations remain close to the original input while preserving its label. We instantiate this principle with two detectors: a black-box rule-based perturbation library and a white-box importance-guided method using model-internal signals. Experiments across four datasets in open-domain, conversational, and visual QA show that our methods outperform output-side uncertainty baselines and LLM-paraphrase-based perturbation baselines. Our results highlight the importance of detecting ambiguity before attempting to disambiguate it. Our code is available \\href{https://github.com/Xiao0o0o/input-ambiguity-detection}{\\textcolor{purple}{here}}.",
+      "topic_evidence": "LLMs often answer ambiguous inputs as if they had a single intended meaning",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "original_title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "original_summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "topic_evidence": "don’t share your banking password with your AI assistant",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape",
+      "original_title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+      "original_summary": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more than one, and missing library type information was the most common difficulty. For the third consecutive year, we asked Python developers how they [...] Read More... The post Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape appeared first on Engineering at Meta .",
+      "topic_evidence": "checker selection changed sharply",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "python",
+        "library"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/27/security/privacylib",
+      "original_title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+      "original_summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside [...] Read More... The post PrivacyLib: Privacy Controls at the Data Access Boundary appeared first on Engineering at Meta .",
+      "topic_evidence": "PrivacyLib replaces this with a common library",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "infrastructure",
+        "data"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://arxiv.org/abs/2610.33133",
+      "original_title": "Physics Informed Neural Networks for Solving the Drift-Diffusion Equations",
+      "original_summary": "arXiv:2610.33133v1 Announce Type: new Abstract: The drift-diffusion equations are the fundamental building block for the modeling, design, and optimization of modern semiconductor devices. Solutions of the drift-diffusion equations rarely give way to analytical forms, and exhibit strong nonlinearity, with the solutions ranging over several orders of magnitude. These attributes have led to research into numerical solvers, and while many commercial Technology Computer Aided Design (TCAD) packages now exist, they may require long simulation times, exhibit sensitivity to initial guesses, and rely on mesh generation. Further, these solvers are not well suited for inverse problems where the design parameters of a device are retrieved from its desired functional characteristics. To address all these challenges, this work demonstrates the usage of Physics Informed Neural Networks (PINNs) for the solution of the drift-diffusion equations with errors comparable to traditional simulation software using advanced training techniques to solve problems beyond the well-behaved equilibrium regime. For this study, we specifically choose an abrupt PN-junction in both one and two dimensions that features extreme gradients of the carrier concentrations at the Ohmic contacts and an abrupt discontinuity in the doping profile. Using the proposed PINN architecture, we are able to retrieve accurate results for all observables under all bias conditions. Additionally, we apply the PINN solver towards the inverse problem of retrieving doping profiles directly from desired electric field distributions or electrostatic potentials under non-zero applied biases. Our work establishes a powerful PINNs-based approach for semiconductor device modeling with the ability to solve inverse problems under non-equilibrium conditions for microelectronics research and discovery.",
+      "topic_evidence": "the modeling, design, and optimization of modern semiconductor devices",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "semiconductor",
+        "device"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm",
+      "original_title": "A tiny laser beam could make computer memory 1,000 times faster",
+      "original_summary": "Scientists at UC San Diego have developed a surprising new way to store digital information using light instead of magnets, potentially paving the way for smaller, faster, and more energy-efficient memory devices. By precisely shaping and shrinking an ultrafast laser beam, researchers demonstrated that they could switch magnetic states in a material, the basic process used to write digital data. The technique could potentially operate more than 1,000 times faster than conventional magnetic switching methods.",
+      "topic_evidence": "store digital information using light instead of magnets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "device"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
+      "original_title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+      "original_summary": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space Telescope observations suggest that TOI-561 b reflects about 75% of incoming starlight, possibly because of mineral clouds that act like a giant sunscreen. The planet may also be continually replenishing its atmosphere through gases released from a global ocean of molten rock.",
+      "topic_evidence": "reflects about 75% of incoming starlight",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers",
+        "space"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
+      "original_title": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
+      "original_summary": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang. Called Lumina, the groundbreaking simulation recreates the universe’s first 2 billion years, showing how dark matter, gas, and radiation interacted to give rise to the earliest stars, galaxies, and black holes.",
+      "topic_evidence": "recreates the universe’s first 2 billion years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "star",
+        "stars"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+      "original_title": "The autistic brain processes faces differently than scientists thought",
+      "original_summary": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previously thought. Researchers found that brain signals associated with recognizing faces become more specialized as neurotypical children grow older, but show much less change in autistic children. The discovery could help explain why some autistic people have difficulty recognizing faces and reading emotions.",
+      "topic_evidence": "autistic children’s brains process faces differently",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists",
+        "study"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225608.htm",
+      "original_title": "The asteroid that killed the dinosaurs may have helped ants conquer the world",
+      "original_summary": "The asteroid that killed the dinosaurs may have set the stage for ants to conquer the planet, with a surprising boost from “jumping genes” hidden in their DNA. Scientists discovered that bursts of activity from these mobile genetic elements coincided with the rise of major ant groups and may have helped sharpen their extraordinary ability to communicate through smell.",
+      "topic_evidence": "bursts of activity from these mobile genetic elements coincided with the rise of major ant groups",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
+      "original_title": "Scientists discover the immune system’s hidden sense of touch",
+      "original_summary": "Scientists at McGill University have discovered a surprising new ability of immune cells that could change how we understand long-term immunity. Researchers found that T cells can actually sense how stiff their surrounding tissues are, using these physical signals to help determine whether they develop into long-lasting memory cells that protect against future infections.",
+      "topic_evidence": "T cells can actually sense how stiff their surrounding tissues are",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225606.htm",
+      "original_title": "Common drugs may help dangerous viruses spread through the body",
+      "original_summary": "A surprising discovery reveals that widely used anti-inflammatory drugs may unintentionally help dangerous viruses spread through the body. Scientists found that JAK inhibitors, prescribed for rheumatoid arthritis and other inflammatory diseases, can weaken a crucial immune defense against influenza, COVID-19, and other infections. By suppressing genes that normally fight viruses, these medications may leave patients more vulnerable to infection.",
+      "topic_evidence": "can weaken a crucial immune defense against influenza, COVID-19, and other infections",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop",
+      "original_title": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+      "original_summary": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S., and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+      "topic_evidence": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "launch"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+      "original_title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "original_summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+      "topic_evidence": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b",
+      "original_title": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "original_summary": "The manufacturing accelerator bills itself as \"America’s answer to Shenzhen.\"",
+      "topic_evidence": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes?traffic_source=rss",
+      "original_title": "Syria-Jordan border reopens amid probe into deadly air strikes",
+      "original_summary": "Foreign ministers form security committee to share intelligence and follow up on impact of Jordan's strikes on Syria.",
+      "topic_evidence": "Foreign ministers form security committee to share intelligence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "original_summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+      "topic_evidence": "Ceasefire extended across Ukraine's Kherson region",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ceasefire"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Norway and Finland leaders hold rare call with Putin",
+      "original_summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+      "topic_evidence": "Norway and Finland leaders hold rare call with Putin",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8nq55d74o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Controversial Islamic cleric shot dead in northern Nigeria",
+      "original_summary": "Yahaya Masussuka had posted videos in which he rejected some elements of mainstream Islam.",
+      "topic_evidence": "Controversial Islamic cleric shot dead in northern Nigeria",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss",
+      "original_title": "Netanyahu, Eisenkot camps clash over Israel election projections",
+      "original_summary": "Despite narrower exit poll figures, opposition leaders insisted the result was a defeat for the government.",
+      "topic_evidence": "Netanyahu, Eisenkot camps clash over Israel election projections",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election",
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss",
+      "original_title": "Five key takeaways from Israel’s parliamentary elections",
+      "original_summary": "Netanyahu's Likud emerges as single largest Israeli party, bloc edges past opposition.",
+      "topic_evidence": "Netanyahu's Likud emerges as single largest Israeli party",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
+      "original_title": "Arab parties on track to win record seats in Israel election, polls show",
+      "original_summary": "Record-breaking voter turnout among Palestinian citizens of Israel hits around 80 percent, early indications show.",
+      "topic_evidence": "Arab parties on track to win record seats in Israel election",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "original_title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+      "original_summary": "Far-right senator en route to US after missing deadline to hand over his passport since loss to Lula The far-right senator Flávio Bolsonaro has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the leftwing incumbent, Luiz Inácio Lula da Silva, who called the act “shameful”. A report by the news website Metrópoles , citing people close to the politician’s family, said he was en route to the US. “The plane is in flight,” Metrópoles reported, without making clear where it had departed from. Continue reading...",
+      "topic_evidence": "Flávio Bolsonaro flees Brazil after presidential election loss",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
+      "original_title": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
+      "original_summary": "President at Texas campaign rally hails deal struck with post-Maduro government as ‘greatest oil victory in history’ Donald Trump suggested Venezuela would become the 51st state of the United States on Tuesday as the president showed off a tanker he claimed had “one million barrels of oil on it” from the country, nine months after deposing its president. At a campaign rally in Corpus Christ, Texas, Trump touted a US oil deal with Venezuela, which the US attacked in January, capturing its long-serving leader Nicolás Maduro . Continue reading...",
+      "topic_evidence": "floats Venezuela as 51st state",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Egypt court fines journalist Lina Attalah and orders news site's closure",
+      "original_summary": "Amnesty International said the verdict against Attalah and independent outlet Mada Masr represented \"a crushing blow to press freedom\".",
+      "topic_evidence": "orders news site's closure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "international"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Deaths in detention cells in Nigeria were entirely preventable, inquiry finds",
+      "original_summary": "Overcrowding and poor ventilation caused the deaths of 33 detainees in a prison cell in Minna state.",
+      "topic_evidence": "Overcrowding and poor ventilation caused the deaths of 33 detainees",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit",
+      "original_title": "King Charles to discuss legacy of slavery with Commonwealth leaders at summit",
+      "original_summary": "Royal tour of Caribbean comes as Commonwealth nations renew calls for Britain to engage in reparation talks King Charles has confirmed he will discuss the legacy of slavery at a summit with Commonwealth leaders as he begins his Caribbean tour. The king arrived in the Bahamas to a ceremonial welcome and attended a youth rally at Clifford Park, the site where the country officially gained its independence from British colonial rule in 1973. Continue reading...",
+      "topic_evidence": "discuss the legacy of slavery with Commonwealth leaders",
+      "status": "rejected",
+      "reason": "missing verbatim topic evidence",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722110.shtml",
+      "original_title": "国台办回应大陆稀土出口管制",
+      "original_summary": "中新网10月28日电 10月28日，国务院台办举行例行新闻发布会。有记者问：路透社报道称，大陆去年起将部分稀土材料、磁铁及相关加工技术纳入出口管制。有舆论称，台积电要求设备供应商评估不使用大陆稀土的替代方案，以降低供应链风险。请予以证实。请问这会否影响到未来两岸在半导体等科技产业的合作？",
+      "topic_evidence": "台积电要求设备供应商评估不使用大陆稀土的替代方案",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722107.shtml",
+      "original_title": "特朗普称没人在乎台海问题 国台办回应",
+      "original_summary": "中新网10月28日电 10月28日，国务院台办举行例行新闻发布会。有记者问：美国总统特朗普近日再度谈及台湾，批评台湾芯片以低价抢占美国市场，并称如果美国过去有聪明的总统，台湾与大陆之间的问题根本不会存在，“没人在乎台海问题”。请问如何看待特朗普此番言论？是否认为这反映美国将台湾视为经济利益工具，而非真正关心台海和平？",
+      "topic_evidence": "特朗普称没人在乎台海问题 国台办回应",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722106.shtml",
+      "original_title": "国台办：所谓“敌意螺旋”由民进党当局蓄意制造",
+      "original_summary": "中新网10月28日电 10月28日，国务院台办举行例行新闻发布会。有记者问：最近有一个特别的现象，一方面是台湾绿营近期不断强调大陆的“跨境镇压”，另一方面是大陆影视近期也热播关于“抓捕台湾间谍”的电视剧。这种双方各自加强安全宣传、形塑安全威胁的做法，会否激化两岸民间的集体对立与不信任感？请问在大陆倡导两岸融合发展的同时，如何看待这种由两岸官方宣传与舆论攻防所共同推高的“敌意螺旋”？这对于两岸未来的民间正常交流会带来怎样的冲击？",
+      "topic_evidence": "所谓“敌意螺旋”由民进党当局蓄意制造",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722088.shtml",
+      "original_title": "2027年度中央机关公开遴选和公开选调公务员今日开始报名",
+      "original_summary": "记者从国家公务员局了解到，2027年度中央机关公开遴选和公开选调公务员报名今天开始，计划选拔213人，笔试将于11月28日举行。",
+      "topic_evidence": "计划选拔213人，笔试将于11月28日举行",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722086.shtml",
+      "original_title": "AI乌镇 科创桐乡｜“乌镇七子”亮相！人工智能产业闭环加速成形",
+      "original_summary": "杭州的“六小龙”“新八骏”曾在浙江科创版图上写下传奇，如今，桐乡也终于迎来了自己的“AI战队”。借着世界互联网大会乌镇峰会沉淀多年的产业底气，桐乡正式推出“乌镇七子”——尚元智行、新生纪智能、数翰科技、赛那德、大衍科技、福瑞泰克、芯寒智能(排名不分先后)。",
+      "topic_evidence": "桐乡正式推出“乌镇七子”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业",
+        "科技"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722131.shtml",
+      "original_title": "2026年度秋冬季气垫船在黑河开船 为中俄两国构筑“水上高速通道”",
+      "original_summary": "中新网10月28日电(记者 王妮娜)中国黑河—俄罗斯布拉戈维申斯克口岸2026年度秋冬季气垫船客运27日正式开启，为中俄两国人员往来构筑“水上高速通道”。",
+      "topic_evidence": "2026年度秋冬季气垫船客运27日正式开启",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722124.shtml",
+      "original_title": "今年前三季度大陆自台湾进口渔产品同比增35.5%",
+      "original_summary": "中新社北京10月28日电 (记者 黄欣欣 徐雪莹)国务院台办发言人陈斌华28日介绍，今年前三季度，大陆自台湾进口农产品同比增长18.5%，其中进口渔产品同比增长35.5%。",
+      "topic_evidence": "进口渔产品同比增长35.5%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722073.shtml",
+      "original_title": "各地重大水利工程加快建设",
+      "original_summary": "央视网消息(新闻联播)：各地加快建设重大水利工程，不断提升水资源优化配置能力，助力经济社会高质量发展。",
+      "topic_evidence": "各地加快建设重大水利工程，不断提升水资源优化配置能力",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722078.shtml",
+      "original_title": "遇AI“换脸”带货，消费者能否索赔？",
+      "original_summary": "演员吴越近日公开发文，怒斥某自媒体账号利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频。视频中，高仿的“吴越”沿用其本人外形和口吻向观众推销化妆品，不断抛出“拍1发30”等促销话术。该账号此前还用同样手法仿冒过邓亚萍、郭晶晶等奥运冠军出镜带货。事件曝光后，涉事账号被平台永久封禁。",
+      "topic_evidence": "利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722068.shtml",
+      "original_title": "从宜居到善治 沈阳用心打造老年友好幸福家园",
+      "original_summary": "中新网沈阳10月28日电 (记者 李晛)记者28日自沈阳市民政局获悉，《全国示范性老年友好型社区拟命名名单的公示》近日发布，辽宁省共80个社区(村)入选拟命名名单，沈阳市13个创建单位全部入选，数量居全省首位。",
+      "topic_evidence": "沈阳市13个创建单位全部入选，数量居全省首位",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722065.shtml",
+      "original_title": "北川大型泥石流野外试验基地投用",
+      "original_summary": "中新网成都10月28日电 10月27日，成都理工大学地质灾害防治与地质环境保护全国重点实验室北川大型泥石流野外试验基地(以下简称试验基地)在四川省绵阳市北川羌族自治县启动运行。30余名海内外地质灾害领域专家学者现场观摩首场正式泥石流模拟试验。",
+      "topic_evidence": "在四川省绵阳市北川羌族自治县启动运行",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722103.shtml",
+      "original_title": "澳大利亚向我国返还2件流失文物",
+      "original_summary": "",
+      "topic_evidence": "澳大利亚向我国返还2件流失文物",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Tech Stocks Rally After Hynix Earnings, Oil Gains: Markets Wrap",
+      "original_summary": "Tech shares climbed across Asia, led by those in South Korea, after blowout earnings from chip heavyweight SK Hynix Inc. prompted investors to charge back into the artificial intelligence trade.",
+      "topic_evidence": "Tech shares climbed across Asia, led by those in South Korea",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/ambani-sheds-tears-as-india-s-richest-family-hails-jio-debut-pop",
+      "original_title": "Ambani Sheds Tears as India’s Richest Family Hails Jio Debut Pop",
+      "original_summary": "Jio Platforms Ltd.’s stock market debut was an emotional moment for Mukesh Ambani, 69, as four generations of India’s wealthiest business dynasty came together to ring the opening bell.",
+      "topic_evidence": "Jio Platforms Ltd.’s stock market debut",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+      "original_title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+      "original_summary": "Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”",
+      "topic_evidence": "Retail traders buy the dip on chip stocks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+      "original_title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+      "original_summary": "Now that investors have been able to dive further into Anthropic’s IPO filing, they’re seeing the same sorts of trends that helped buoy AI stocks for much of this year.",
+      "topic_evidence": "Anthropic restores the market’s faith in sustained spending",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/china-robot-stocks-extend-rally-with-unitree-earnings-in-focus",
+      "original_title": "China Robot Stocks Extend Rally With Unitree Earnings in Focus",
+      "original_summary": "Chinese robotic stocks extended a recent rally spurred by expectations of shorter timelines for mass deployment, with upcoming earnings from industry leader Yushu Technology Co. poised to provide another boost.",
+      "topic_evidence": "Chinese robotic stocks extended a recent rally",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/copper-wavers-near-two-week-high-as-traders-look-to-fed-meeting",
+      "original_title": "Copper Wavers Near Two-Week High as Traders Look to Fed Meeting",
+      "original_summary": "Copper traded near its highest close in two weeks as traders braced for the Federal Reserve’s decision on interest rates.",
+      "topic_evidence": "Copper traded near its highest close in two weeks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/bullish-treasury-bets-face-reversal-risk-from-hawkish-fed",
+      "original_title": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed",
+      "original_summary": "Bullish bets in US Treasuries are vulnerable to a sharp reversal if the Federal Reserve takes a more aggressive stance at its upcoming monetary policy meeting.",
+      "topic_evidence": "Bullish bets in US Treasuries are vulnerable to a sharp reversal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/australian-inflation-exceeds-estimate-ahead-of-rba-meeting",
+      "original_title": "Australia Under Pressure to Hike Rates Further as Prices Quicken",
+      "original_summary": "Hotter-than-expected Australian inflation and hawkish comments from Reserve Bank officials on Wednesday have raised expectations of a fifth interest-rate hike this year when policymakers convene next week.",
+      "topic_evidence": "Hotter-than-expected Australian inflation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/bank-of-canada-decision-markets-prepare-for-higher-interest-rates",
+      "original_title": "Bank of Canada Decision: Markets Prepare for Higher Interest Rates",
+      "original_summary": "Plus: Cliffs versus Mélanie Joly, again",
+      "topic_evidence": "Markets Prepare for Higher Interest Rates",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/chile-keeps-rates-at-4-5-as-growth-fades-and-inflation-picks-up",
+      "original_title": "Chile Central Bank Delivers Hawkish Rate Hold",
+      "original_summary": "Chile’s central bank held its benchmark interest rate steady Tuesday as it warned that external shocks have substantially raised inflation risks and consumer price forecasts.",
+      "topic_evidence": "Chile’s central bank held its benchmark interest rate steady",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/your-portfolio-reset-how-investors-should-think-about-the-next-decade",
+      "original_title": "Your Portfolio Reset: How Investors Should Think About The Next Decade",
+      "original_summary": "The forces that powered the last 10 years are shifting. Here’s how to prepare for what comes next.",
+      "topic_evidence": "The forces that powered the last 10 years are shifting",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "original_title": "Git for the US Code",
+      "original_summary": "Article URL: https://lexifina.com/blog/git-for-the-us-code Comments URL: https://news.ycombinator.com/item?id=50268380 Points: 153 # Comments: 72",
+      "topic_evidence": "Git for the US Code",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+      "original_title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "original_summary": "Article URL: https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/ Comments URL: https://news.ycombinator.com/item?id=50259604 Points: 880 # Comments: 312",
+      "topic_evidence": "hiding a secret court ruling about how it spies on Americans",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://openai.com/index/retell-ai",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/index/retell-ai",
+      "original_title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "original_summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "topic_evidence": "Retell uses OpenAI models to help power 100M monthly calls",
+      "approved": true,
+      "evidence": "GPT-6 Astra tops Retell’s voice agent benchmark",
+      "reason": "主事件是Retell语音AI平台采用OpenAI模型并披露基准表现与营收，属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+      "original_title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "original_summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "topic_evidence": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "approved": true,
+      "evidence": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "reason": "主事件为Opera推出WebAI浏览器本地AI部署标准，属于AI平台与产品能力。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "original_title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "original_summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "topic_evidence": "don’t share your banking password with your AI assistant",
+      "approved": false,
+      "evidence": "you're responsible for activity",
+      "reason": "主事件是银行面向客户的账户安全提醒与责任说明，不是AI研究或治理制度或政策，归入研究与治理不合适。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+      "original_title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "original_summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+      "topic_evidence": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "approved": true,
+      "evidence": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "reason": "主事件为英伟达投资印度AI初创公司Simplismart，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b",
+      "original_title": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "original_summary": "The manufacturing accelerator bills itself as \"America’s answer to Shenzhen.\"",
+      "topic_evidence": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "approved": true,
+      "evidence": "Re:Build, which spun out Slate Auto, raises $2.1B",
+      "reason": "主事件为Re:Build完成21亿美元融资，属于融资与并购。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Norway and Finland leaders hold rare call with Putin",
+      "original_summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+      "topic_evidence": "Norway and Finland leaders hold rare call with Putin",
+      "approved": true,
+      "evidence": "Norway and Finland leaders hold rare call with Putin",
+      "reason": "主事件为挪威和芬兰领导人就乌克兰冲突与普京通话，属于地缘与安全。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cxdd8nq55d74o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8nq55d74o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Controversial Islamic cleric shot dead in northern Nigeria",
+      "original_summary": "Yahaya Masussuka had posted videos in which he rejected some elements of mainstream Islam.",
+      "topic_evidence": "Controversial Islamic cleric shot dead in northern Nigeria",
+      "approved": true,
+      "evidence": "Controversial Islamic cleric shot dead in northern Nigeria",
+      "reason": "主事件为尼日利亚一名争议宗教人物遭枪杀，属于安全与暴力事件，归入地缘与安全可成立。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Deaths in detention cells in Nigeria were entirely preventable, inquiry finds",
+      "original_summary": "Overcrowding and poor ventilation caused the deaths of 33 detainees in a prison cell in Minna state.",
+      "topic_evidence": "Overcrowding and poor ventilation caused the deaths of 33 detainees",
+      "approved": true,
+      "evidence": "Overcrowding and poor ventilation caused the deaths of 33 detainees",
+      "reason": "主事件为尼日利亚拘留所33人死亡调查认定可预防，涉及拘留条件与社会治理，属于全球社会。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-28/10722088.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722088.shtml",
+      "original_title": "2027年度中央机关公开遴选和公开选调公务员今日开始报名",
+      "original_summary": "记者从国家公务员局了解到，2027年度中央机关公开遴选和公开选调公务员报名今天开始，计划选拔213人，笔试将于11月28日举行。",
+      "topic_evidence": "计划选拔213人，笔试将于11月28日举行",
+      "approved": true,
+      "evidence": "计划选拔213人，笔试将于11月28日举行",
+      "reason": "主事件为中央机关公开遴选和公开选调公务员启动报名，是具体政府人事制度实施，属于政策与监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-28/10722131.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722131.shtml",
+      "original_title": "2026年度秋冬季气垫船在黑河开船 为中俄两国构筑“水上高速通道”",
+      "original_summary": "中新网10月28日电(记者 王妮娜)中国黑河—俄罗斯布拉戈维申斯克口岸2026年度秋冬季气垫船客运27日正式开启，为中俄两国人员往来构筑“水上高速通道”。",
+      "topic_evidence": "2026年度秋冬季气垫船客运27日正式开启",
+      "approved": true,
+      "evidence": "2026年度秋冬季气垫船客运27日正式开启",
+      "reason": "主事件为黑河—布拉戈维申斯克口岸秋冬气垫船客运开通，属于地方交通与口岸运行。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/10-28/10722124.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722124.shtml",
+      "original_title": "今年前三季度大陆自台湾进口渔产品同比增35.5%",
+      "original_summary": "中新社北京10月28日电 (记者 黄欣欣 徐雪莹)国务院台办发言人陈斌华28日介绍，今年前三季度，大陆自台湾进口农产品同比增长18.5%，其中进口渔产品同比增长35.5%。",
+      "topic_evidence": "进口渔产品同比增长35.5%",
+      "approved": true,
+      "evidence": "进口渔产品同比增长35.5%",
+      "reason": "主事件为大陆自台湾进口渔产品同比增长的经贸数据，属于产业经贸动态。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/10-28/10722073.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722073.shtml",
+      "original_title": "各地重大水利工程加快建设",
+      "original_summary": "央视网消息(新闻联播)：各地加快建设重大水利工程，不断提升水资源优化配置能力，助力经济社会高质量发展。",
+      "topic_evidence": "各地加快建设重大水利工程，不断提升水资源优化配置能力",
+      "approved": true,
+      "evidence": "各地加快建设重大水利工程，不断提升水资源优化配置能力",
+      "reason": "主事件为多地重大水利工程加快建设，属于地方基础设施与产业动态。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-28/10722078.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722078.shtml",
+      "original_title": "遇AI“换脸”带货，消费者能否索赔？",
+      "original_summary": "演员吴越近日公开发文，怒斥某自媒体账号利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频。视频中，高仿的“吴越”沿用其本人外形和口吻向观众推销化妆品，不断抛出“拍1发30”等促销话术。该账号此前还用同样手法仿冒过邓亚萍、郭晶晶等奥运冠军出镜带货。事件曝光后，涉事账号被平台永久封禁。",
+      "topic_evidence": "利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频",
+      "approved": true,
+      "evidence": "利用人工智能深度伪造技术，复刻其肖像和声音制作带货视频",
+      "reason": "主事件涉及AI换脸带货侵权及消费者索赔问题，属于社会与法治。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-28/10722068.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-28/10722068.shtml",
+      "original_title": "从宜居到善治 沈阳用心打造老年友好幸福家园",
+      "original_summary": "中新网沈阳10月28日电 (记者 李晛)记者28日自沈阳市民政局获悉，《全国示范性老年友好型社区拟命名名单的公示》近日发布，辽宁省共80个社区(村)入选拟命名名单，沈阳市13个创建单位全部入选，数量居全省首位。",
+      "topic_evidence": "沈阳市13个创建单位全部入选，数量居全省首位",
+      "approved": true,
+      "evidence": "沈阳市13个创建单位全部入选，数量居全省首位",
+      "reason": "主事件为沈阳老年友好型社区建设入选全国示范名单，属于社会民生与地方治理。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/gn/2026/10-28/10722103.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-28/10722103.shtml",
+      "original_title": "澳大利亚向我国返还2件流失文物",
+      "original_summary": "",
+      "topic_evidence": "澳大利亚向我国返还2件流失文物",
+      "approved": true,
+      "evidence": "澳大利亚向我国返还2件流失文物",
+      "reason": "主事件为澳大利亚向中国返还流失文物，涉及文物追索与返还，属于社会与法治。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-28/your-portfolio-reset-how-investors-should-think-about-the-next-decade",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/your-portfolio-reset-how-investors-should-think-about-the-next-decade",
+      "original_title": "Your Portfolio Reset: How Investors Should Think About The Next Decade",
+      "original_summary": "The forces that powered the last 10 years are shifting. Here’s how to prepare for what comes next.",
+      "topic_evidence": "The forces that powered the last 10 years are shifting",
+      "approved": true,
+      "evidence": "The forces that powered the last 10 years are shifting.",
+      "reason": "主事件为投资者未来十年组合配置建议，属于理财。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://lexifina.com/blog/git-for-the-us-code",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "original_title": "Git for the US Code",
+      "original_summary": "Article URL: https://lexifina.com/blog/git-for-the-us-code Comments URL: https://news.ycombinator.com/item?id=50268380 Points: 153 # Comments: 72",
+      "topic_evidence": "Git for the US Code",
+      "approved": true,
+      "evidence": "Git for the US Code",
+      "reason": "原文为关于美国法典采用Git的技术观点文章，属于技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+      "original_title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "original_summary": "Article URL: https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/ Comments URL: https://news.ycombinator.com/item?id=50259604 Points: 880 # Comments: 312",
+      "topic_evidence": "hiding a secret court ruling about how it spies on Americans",
+      "approved": false,
+      "evidence": "hiding a secret court ruling about how it spies on Americans",
+      "reason": "原文是政府监控秘密裁决的报道链接，摘要仅为文章与讨论元数据，未显示为商业或社会评论，归入该小版不合适。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/index/retell-ai"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/10-28/10722124.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-28/10722073.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/10-28/10722131.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-28/10722088.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/gn/2026/10-28/10722103.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-28/10722068.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-28/10722078.shtml"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-28/your-portfolio-reset-how-investors-should-think-about-the-next-decade"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://lexifina.com/blog/git-for-the-us-code"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cxdd8nq55d74o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

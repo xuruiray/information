@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-10-28</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261028</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>October 28, 2026 · Wednesday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-10-28/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">2 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Meta Releases Python Typing Survey and PrivacyLib Privacy Controls">
+      <div class="lead-label">Meta Releases Python Typing Survey and PrivacyLib Privacy Controls</div>
+      <p>Meta Engineering published its 2026 Python Typing Survey of 1,794 responses, finding that type hint usage changed little over three years while checker choices shifted sharply; half of respondents used multiple checkers and missing library type information was the most common difficulty. It also introduced PrivacyLib, a common library that centralizes privacy enforcement so consistent controls can follow data across systems and reduce duplicate implementations.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="2026 Python Typing Survey: Checker Choices Shift, Half Use Multiple Tools">
+          <div class="lead-label">2026 Python Typing Survey: Checker Choices Shift, Half Use Multiple Tools</div>
+          <p>Meta Engineering released the 2026 Python Typing Survey. Across 1,794 responses, type hint usage changed little over three years, but checker choices shifted sharply; half of respondents used multiple checkers, and missing library type information was the most common issue.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape" target="_blank" rel="noopener">
+            <span class="at">Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta Engineering released the 2026 Python Typing Survey with 1,794 responses. Type hint usage changed little over three years, but checker choices shifted sharply; half of respondents used multiple checkers, and missing library type information was the most common difficulty.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="PrivacyLib: Centralizing Privacy Controls at Data Access Boundaries">
+          <div class="lead-label">PrivacyLib: Centralizing Privacy Controls at Data Access Boundaries</div>
+          <p>Meta Engineering detailed PrivacyLib, which centralizes privacy requirement enforcement across its data and processing systems into a shared library. The aim is to keep the same privacy rules consistent as data moves through heterogeneous systems and to reduce duplicate implementations.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://engineering.fb.com/2026/10/27/security/privacylib" target="_blank" rel="noopener">
+            <span class="at">PrivacyLib: Privacy Controls at the Data Access Boundary</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta Engineering details PrivacyLib, a common library that centralizes enforcement of privacy requirements across its data and processing systems, replacing separate implementations in each system and helping consistent controls follow data at access boundaries.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI 与大模型 · 信息日报 2026-10-27</title>
+<title>01 AI 与大模型 · 信息日报 2026-10-28</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261027 期</span>
+        <span>第 20261028 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年10月27日 星期二</span></div>
+      <div class="dateline"><span>2026年10月28日 星期三</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,48 +40,54 @@
 
     <header class="pagehead category-head">
       <h2>01 AI 与大模型</h2>
-      <span class="ed">10 条 / 3 个细分</span>
+      <span class="ed">11 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：前沿模型、产品平台与治理评测">
-      <div class="lead-label">AI 与大模型：前沿模型、产品平台与治理评测</div>
-      <p>本期收录 OpenAI 发布 GPT-6.1 Terra，以及其把编程工具转为常驻个人助理 dots 的报道；研究侧关注全模态推理的按查询模态选择、线性时间上下文压缩、智能体轻量记忆，以及智能体运行一致性、动态工作负载、新闻认知质量、专家判断蒸馏和对齐伪装检测等评测与治理问题。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型日报：具身代理、浏览器本地 AI 与模型可靠性研究">
+      <div class="lead-label">AI 与大模型日报：具身代理、浏览器本地 AI 与模型可靠性研究</div>
+      <p>本轮入选文章覆盖前沿模型、产品平台与研究治理。OmniBrain-0 论文提出面向具身智能的统一代理模型；TechCrunch 报道前沿 AI 实验室所称模型反驳指数时间假说，并采访 MIT 计算机科学家解释其含义；Hugging Face 博客介绍用 LFM3 构建专门化多模态模型；另有视觉 token 剪枝和 FinLLM-KG 等论文。产品侧，OpenAI 客户案例称 Retell 使用 OpenAI 模型支持每月 1 亿次通话，Opera 推出 WebAI 网页标准让用户在浏览器本地部署 AI。研究治理侧，论文分别评估医学零样本决策模型 MedJev，并提出 Neyman 正交激活引导、低秩多线性分解幻觉检测和基于扰动的输入歧义检测。</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>前沿模型</h3>
-          <span>4 条</span>
+          <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：GPT-6.1 Terra 与推理降本">
-          <div class="lead-label">前沿模型：GPT-6.1 Terra 与推理降本</div>
-          <p>OpenAI 发布 GPT-6.1 Terra，称其结合细致视觉推理、精确电脑操作与更清晰自然的写作。三项 arXiv 研究分别提出按查询选择模态以降低全模态大模型推理成本、用状态空间编码做线性时间上下文压缩，以及 SLICE-Mem 轻量记忆框架以减少智能体记忆准入、提取和组织的重复大模型调用。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：具身代理、推理假说争议与效率方法">
+          <div class="lead-label">前沿模型：具身代理、推理假说争议与效率方法</div>
+          <p>前沿模型小版包含五项内容：OmniBrain-0 论文提出面向具身智能的统一代理模型，目标是协调多种技能、跟踪任务进度并从失败中恢复；TechCrunch 采访 MIT 计算机科学家，解释前沿 AI 实验室所称其模型反驳指数时间假说的含义；Hugging Face 博客介绍用 LFM3 构建专门化多模态模型，未提供更多技术细节；另有论文提出基于查询-视觉交互分解的视觉 token 剪枝方法，以及用知识图谱增强金融大模型进行算法交易情感分析的 FinLLM-KG。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/26/gpt-61-terra" target="_blank" rel="noopener">
-            <span class="at">OpenAI 发布 GPT-6.1 Terra，主打视觉推理与电脑操作</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">OpenAI 推出 GPT-6.1 Terra，称这是一款快速高效的模型，结合细致的视觉推理与精确的电脑操作，并具备更清晰自然的写作能力。</p>
+          <a class="art" href="https://arxiv.org/abs/2610.36013" target="_blank" rel="noopener">
+            <span class="at">OmniBrain-0：面向具身智能的统一代理模型</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">该论文提出 OmniBrain-0，一个面向具身智能的统一代理模型，旨在让机器人协调多种技能、跟踪任务进度并从失败中恢复。摘要称专用策略难以保证任务级可靠性。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.31768" target="_blank" rel="noopener">
-            <span class="at">按查询选择模态，降低全模态大模型推理成本</span>
+          <a class="art" href="https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean" target="_blank" rel="noopener">
+            <span class="at">前沿 AI 实验室称其模型反驳了指数时间假说，这意味着什么？</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">TechCrunch 采访 MIT 计算机科学家，解释 OpenAI 所称模型反驳指数时间假说的最新发现；报道聚焦这一说法的含义。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://huggingface.co/blog/LiquidAI/lfm3" target="_blank" rel="noopener">
+            <span class="at">用 LFM3 构建专门化多模态模型</span>
+            <span class="by">Hugging Face 博客</span>
+            <p class="as">Hugging Face 博客发布文章，介绍如何用 LFM3 构建专门化多模态模型；候选材料未给出更多技术细节。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.33215" target="_blank" rel="noopener">
+            <span class="at">通过查询-视觉交互分解进行视觉 token 剪枝</span>
             <span class="by">arXiv 机器学习</span>
-            <p class="as">研究提出按查询动态选择所需模态的推理方法，基于不同查询从额外模态获得的收益不一，减少全模态大模型的计算开销。</p>
+            <p class="as">论文针对大型视觉语言模型推理成本高的问题，提出基于查询-视觉交互分解的视觉 token 剪枝方法，以提高效率。摘要称现有方法常利用查询信息指导 token 选择。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33006" target="_blank" rel="noopener">
-            <span class="at">线性时间上下文压缩：用状态空间编码缩短长上下文</span>
+          <a class="art" href="https://arxiv.org/abs/2610.36083" target="_blank" rel="noopener">
+            <span class="at">FinLLM-KG：面向算法交易金融情感分析的知识图谱增强大模型</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究提出基于状态空间编码的线性时间上下文压缩方法，在推理前把长上下文压缩为更短表示，以降低 Transformer 大模型的计算与内存开销。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33015" target="_blank" rel="noopener">
-            <span class="at">SLICE-Mem：轻量记忆框架降低 LLM 智能体记忆开销</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究提出 SLICE-Mem 轻量记忆框架，用于 LLM 智能体长期记忆，减少因记忆准入、提取和组织而反复调用大模型带来的成本与延迟。</p>
+            <p class="as">论文提出 FinLLM-KG，用知识图谱增强金融大模型进行算法交易中的情感分析，试图解决逐篇预测和黑箱限制带来的上下文理解不足。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -89,18 +95,24 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI 产品与平台</h3>
-          <span>1 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：OpenAI 的常驻助理 dots">
-          <div class="lead-label">AI 产品与平台：OpenAI 的常驻助理 dots</div>
-          <p>TechCrunch 报道 OpenAI 将其编程工具演变为名为 dots 的常驻个人助理；负责该产品的 OpenAI 高管表示，不希望与其他人的 AI 智能体开会。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：Retell 的通话规模与 Opera 的本地 AI 标准">
+          <div class="lead-label">AI 产品与平台：Retell 的通话规模与 Opera 的本地 AI 标准</div>
+          <p>AI 产品与平台小版包含两项：OpenAI 客户案例称 Retell 使用 OpenAI 模型支持每月 1 亿次通话，并称 GPT-6 Astra 在其语音代理基准中居首、Codex 帮助其达到每员工 160 万美元年化收入；Opera 推出名为 WebAI 的新网页标准，目标是让用户在浏览器本地部署多种 AI 模型。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant" target="_blank" rel="noopener">
-            <span class="at">OpenAI 将编程工具演变为常驻个人助理 dots</span>
+          <a class="art" href="https://openai.com/index/retell-ai" target="_blank" rel="noopener">
+            <span class="at">Retell 使用 OpenAI 模型支持每月 1 亿次通话</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI 客户案例称，Retell 使用 OpenAI 模型支持每月 1 亿次通话；GPT-6 Astra 在其语音代理基准中居首，Codex 帮助其达到每员工 160 万美元年化收入。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser" target="_blank" rel="noopener">
+            <span class="at">Opera 推出新网页标准，让用户在浏览器本地部署 AI</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">TechCrunch 报道 OpenAI 如何把编程工具转成名为 dots 的常驻个人助理；负责该产品的 OpenAI 高管表示，不希望与其他人的 AI 智能体开会。</p>
+            <p class="as">Opera 推出名为 WebAI 的新网页标准，目标是让用户在浏览器本地运行多种 AI 模型。TechCrunch 称该标准设计为兼容多种模型。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -108,42 +120,36 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>研究与治理</h3>
-          <span>5 条</span>
+          <span>4 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：智能体一致性、新闻质量与专家评测">
-          <div class="lead-label">研究与治理：智能体一致性、新闻质量与专家评测</div>
-          <p>五项研究分别提出用递归语义分歧评估工具型 LLM 智能体在相同状态下多次运行的行为不一致，用 NewsBench 以专家依据评估政治与时事回答的认知质量，用 AOS-Bench 评估编码智能体管理持续动态工作负载的调度、委派与并行能力，提出将专家判断蒸馏为规模化自动评估系统，并用合成文档微调暴露疑似监督下隐藏目标的对齐伪装模型。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：医学零样本决策、激活引导与幻觉检测">
+          <div class="lead-label">研究与治理：医学零样本决策、激活引导与幻觉检测</div>
+          <p>研究与治理小版包含四项论文：MedJev 在十个医学基准上评估可在笔记本本地运行的开源 System One 模型进行零样本临床决策；Neyman 正交激活引导用于改进将大模型输出转向目标行为的引导方向估计；低秩多线性分解用于从高维隐藏状态检测大模型幻觉；基于扰动的输入歧义检测让模型在回答前判断提示是否包含多种有效解释。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.33012" target="_blank" rel="noopener">
-            <span class="at">递归语义分歧：评估 LLM 智能体运行一致性</span>
+          <a class="art" href="https://arxiv.org/abs/2610.36006" target="_blank" rel="noopener">
+            <span class="at">MedJev：评估医学中的零样本 System-One 决策</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">研究关注使用工具的 LLM 智能体在相同状态下多次独立运行仍会出现行为不一致，提出递归语义分歧方法，用于评估这种影响部署可靠性的变异。</p>
+            <p class="as">论文评估可在笔记本本地运行的开源 System One 模型 MedJev，在十个医学基准上测试其零样本临床决策表现。模型以单次前向传播回答结构化问题，不生成文本。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33240" target="_blank" rel="noopener">
-            <span class="at">NewsBench：以专家依据评估 AI 新闻报道的认知质量</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">研究提出 NewsBench，以专家依据评估前沿 AI 系统在政治与时事信息回答中的认知质量，针对既有评测偏重意识形态对齐等局限。</p>
+          <a class="art" href="https://arxiv.org/abs/2610.33217" target="_blank" rel="noopener">
+            <span class="at">Neyman 正交激活引导</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">论文研究激活引导方法，用于将大模型输出转向目标行为并生成合成数据；提出 Neyman 正交方法改进引导方向的估计。摘要称标准做法通过对比有无目标概念的激活来估计方向。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33178" target="_blank" rel="noopener">
-            <span class="at">AOS-Bench：LLM 智能体能否管理动态工作负载？</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">研究提出 AOS-Bench，评估编码智能体从单请求转向持续处理多项待办任务时的调度、委派与并行能力，例如同时处理构建、数据处理和修复缺陷。</p>
+          <a class="art" href="https://arxiv.org/abs/2610.36191" target="_blank" rel="noopener">
+            <span class="at">基于低秩多线性分解的大模型幻觉检测</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出用低秩多线性分解从大模型高维隐藏状态中提取信号，以检测流畅但事实错误的幻觉输出。摘要称现有方法难以从高维表示中提取有效信息。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33233" target="_blank" rel="noopener">
-            <span class="at">大规模蒸馏专家判断：构建自动化评估系统</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">研究提出将专家人类判断蒸馏为可规模化运行的自动化评估系统的方法，面向医疗、国防、金融、治理和政治等高风险领域的 AI 模型评测。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2610.33180" target="_blank" rel="noopener">
-            <span class="at">用合成文档微调揭示对齐伪装的大模型倾向</span>
-            <span class="by">arXiv 人工智能</span>
-            <p class="as">研究利用合成文档微调，检测大模型是否在疑似监督时隐藏目标、进行对齐伪装，以暴露安全评测中可能被掩盖的危险错位行为。</p>
+          <a class="art" href="https://arxiv.org/abs/2610.36353" target="_blank" rel="noopener">
+            <span class="at">先检测再消歧：基于扰动的大模型输入歧义检测</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出基于扰动的输入歧义检测方法，让大模型在回答前判断提示是否包含多种有效解释。摘要称现有模型常把歧义输入当作单一含义作答。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

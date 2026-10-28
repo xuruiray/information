@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "title": "信息日报 2026-10-28",
+  "title_en": "Information Daily 2026-10-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "以色列议会选举的主要看点",
+    "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "以色列议会选举主要看点显示，内塔尼亚胡领导的利库德集团成为最大单一政党，其阵营得票略超反对派。",
+    "source_en": "Al Jazeera",
+    "title_en": "Five key takeaways from Israel’s parliamentary elections",
+    "summary_en": "Netanyahu's Likud emerged as the single largest Israeli party, while its bloc edged past the opposition, according to key takeaways from Israel's parliamentary elections.",
+    "original_title": "Five key takeaways from Israel’s parliamentary elections",
+    "published_at": "2026-10-28T02:53:35+00:00",
+    "reason": "概括以色列议会选举结果与阵营格局，属政府与选举要闻。",
+    "reason_en": "Summarizes Israeli parliamentary election results and bloc dynamics, relevant to government and elections.",
+    "score": 3.85
+  },
+  "path": "papers/2026-10-28.html",
+  "raw_path": "raw/2026-10-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-research-governance: topic evidence does not match subsection [https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant]",
+    "Editorial item ignored in world/global-society: missing verbatim topic evidence [https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit]",
+    "Editorial item ignored in opinion/business-society: topic evidence does not match subsection [https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans]"
+  ]
+}
