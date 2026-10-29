@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "title": "信息日报 2026-10-29",
+  "title_en": "Information Daily 2026-10-29",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "西班牙高速列车相撞事故造成至少68人死亡",
+    "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "西班牙托莱多省发生列车相撞事故，一列行驶中的列车撞上另一列停靠列车，造成至少68人死亡；交通部长称事故由“无法解释”的错误导致。",
+    "source_en": "BBC World",
+    "title_en": "High-speed train crash kills at least 68 people in Spain",
+    "summary_en": "A high-speed train crash in Spain’s Toledo province killed at least 68 people after a moving train hit a stopped train; the transport minister said an “inexplicable” error caused it.",
+    "original_title": "High-speed train crash kills at least 68 people in Spain",
+    "published_at": "2026-10-28T21:38:54+00:00",
+    "reason": "涉及重大交通事故与应急事件，属于全球社会。",
+    "reason_en": "Covers a major transport accident and emergency incident; fits global society.",
+    "score": 3.0
+  },
+  "path": "papers/2026-10-29.html",
+  "raw_path": "raw/2026-10-29.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-research-governance: topic evidence does not match subsection [https://simonwillison.net/2026/Oct/28/ted-sanders]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://divagr.com/blog/qwenputer]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://v12.sh/blog/the-case-of-the-9bit-aes-key]",
+    "Editorial item ignored in opinion/tech-opinion: topic evidence does not match subsection [https://nullpt.rs/fingerprinting-bioweapons]"
+  ]
+}

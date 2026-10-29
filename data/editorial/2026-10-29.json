@@ -1,0 +1,2253 @@
+{
+  "date": "2026-10-29",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+              "title": "Google 发布 Gemini 4 Carbon 模型",
+              "summary": "Hacker News 收录 Google 博客发布的 Gemini 4 Carbon，帖子获 867 分、715 条评论；候选材料未提供模型能力、参数或上线范围等细节。",
+              "title_en": "Gemini 4 Carbon",
+              "summary_en": "Hacker News links to Google’s blog post introducing Gemini 4 Carbon; the submission has 867 points and 715 comments, while the provided material offers no model capability or rollout details.",
+              "topic_evidence": "Gemini 4 Carbon",
+              "reason": "Google 新模型发布是前沿模型板块核心事件，且社区讨论热度高；但材料仅有标题和互动数。",
+              "reason_en": "A Google model release is core frontier-model news with high community engagement, though the material only provides title and discussion metrics.",
+              "score": 8.5
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+              "title": "英伟达发布开源语音转写模型，支持 40 种语言",
+              "summary": "TechCrunch 报道，英伟达发布免费语音转文字模型，可转写多达 40 种语言，但仅处理录音而非实时音频；报道认为其适合会议和医疗转写工具。",
+              "title_en": "Nvidia releases new open transcription model",
+              "summary_en": "TechCrunch reports Nvidia released a free speech-to-text model that transcribes up to 40 languages, but only recorded audio, not live audio, leaving real-time use to rivals such as ElevenLabs.",
+              "topic_evidence": "Nvidia just released a free speech-to-text model",
+              "reason": "开源多语种转写模型发布属于前沿模型进展，且明确了能力边界（仅录音）与适用场景。",
+              "reason_en": "An open multilingual transcription model release is a frontier-model development, with clear capability limits and use cases.",
+              "score": 7.8
+            },
+            {
+              "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+              "title": "Hugging Face 博客：用 LFM3 构建专用多模态模型",
+              "summary": "Hugging Face 博客发布 Liquid AI 的 LFM3 文章，标题为“用 LFM3 构建专用多模态模型”；候选材料未提供模型参数、训练数据或评测结果等细节。",
+              "title_en": "Build specialized multimodal models with LFM3",
+              "summary_en": "A Hugging Face blog post by Liquid AI is titled “Build specialized multimodal models with LFM3”; the provided material gives no parameters, training data, or benchmark results.",
+              "topic_evidence": "Build specialized multimodal models with LFM3",
+              "reason": "LFM3 是多模态模型构建主题，符合前沿模型板块；但仅有标题，摘要保持限定。",
+              "reason_en": "LFM3 concerns multimodal model building and fits frontier models, but only the title is available, so the summary stays qualified.",
+              "score": 7.2
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+              "title": "OpenAI 与 ServiceNow 扩大企业工作流合作",
+              "summary": "OpenAI 与 ServiceNow 扩大合作，将 OpenAI 模型和代理引入 ServiceNow，并把 ServiceNow 工作流接入 ChatGPT 和 Codex。",
+              "title_en": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+              "summary_en": "OpenAI and ServiceNow expanded their partnership to bring OpenAI models and agents into ServiceNow and connect ServiceNow workflows into ChatGPT and Codex.",
+              "topic_evidence": "OpenAI and ServiceNow expand their partnership",
+              "reason": "企业工作流中的模型与代理集成是 AI 产品平台的重要动向，合作内容具体。",
+              "reason_en": "Integrating models and agents into enterprise workflows is a notable AI platform move, with concrete partnership details.",
+              "score": 7.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+              "title": "Google 向更多应用开放 Gemini 和搜索",
+              "summary": "TechCrunch 报道，Google 推出新开发者平台，允许企业把服务接入 Gemini 和搜索等 AI 体验，可能改变消费者发现和使用应用的方式。",
+              "title_en": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+              "summary_en": "TechCrunch reports Google launched a developer platform letting businesses bring services into Gemini and Search AI experiences, potentially changing how consumers discover and use apps.",
+              "topic_evidence": "Google opens Gemini and Search to more apps",
+              "reason": "开放 Gemini 与搜索给第三方应用，是 AI 产品生态和分发渠道的重要变化。",
+              "reason_en": "Opening Gemini and Search to third-party apps is a significant change in AI product ecosystems and distribution.",
+              "score": 7.6
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+              "title": "Anthropic 推出工具，向企业展示 AI 支出买到什么",
+              "summary": "TechCrunch 报道，Anthropic 推出工具，让企业查看用户如何在其模型上花钱；报道提到该公司正筹备 IPO。",
+              "title_en": "Anthropic just launched tools to show companies what their AI spending is buying",
+              "summary_en": "TechCrunch reports Anthropic launched tools that show companies how users spend money on its models, ahead of the company’s planned IPO.",
+              "topic_evidence": "tools to show companies what their AI spending is buying",
+              "reason": "面向企业的用量与支出可视化工具属于 AI 平台产品，且与商业化透明度有关。",
+              "reason_en": "Enterprise usage and spending visibility tools are AI platform products tied to commercial transparency.",
+              "score": 7.1
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+              "title": "Chrome 的 AI 自动填充可经授权读取 Gmail 填写表单",
+              "summary": "TechCrunch 报道，Chrome 自动填充更新后，可在用户授权下从 Gmail 提取航班确认、物流跟踪、订单详情等信息来填写表单。",
+              "title_en": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+              "summary_en": "TechCrunch reports Chrome’s Autofill update can, with user permission, pull flight confirmations, tracking info, order details, and other information from Gmail to fill out forms.",
+              "topic_evidence": "Chrome’s AI-powered Autofill can now dig through your Gmail",
+              "reason": "这是消费级 AI 产品功能更新，涉及浏览器、邮箱数据与授权边界。",
+              "reason_en": "A consumer AI product update involving browser, email data, and permission boundaries.",
+              "score": 7.0
+            },
+            {
+              "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+              "title": "Vercel 在 AI Gateway 推出虚拟模型",
+              "summary": "Vercel 推出 AI Gateway 虚拟模型，用一个虚拟模型 ID 集中切换模型、配置回退与优先级，并统一执行零数据保留策略。",
+              "title_en": "Introducing Virtual Models on AI Gateway",
+              "summary_en": "Vercel introduced Virtual Models on AI Gateway, letting developers use one virtual model ID to switch models, set fallbacks and priority, and enforce Zero Data Retention centrally.",
+              "topic_evidence": "Virtual Models are an abstraction of the model string",
+              "reason": "这是面向开发者的 AI 模型路由与治理平台功能，直接影响模型部署和策略配置。",
+              "reason_en": "This is a developer-facing AI model routing and governance feature that affects deployment and policy configuration.",
+              "score": 7.0
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://surgehq.ai/blog/dayjob-tax",
+              "title": "Dayjob: Tax 在 50 项专业税务任务上评估 AI 代理",
+              "summary": "Hacker News 收录 Dayjob: Tax 项目，介绍在 50 项专业税务任务上评估 AI 代理；帖子获 220 分、143 条评论，材料未提供具体得分。",
+              "title_en": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+              "summary_en": "Hacker News links to Dayjob: Tax, which evaluates AI agents on 50 professional tax assignments; the submission has 220 points and 143 comments, with no specific scores provided.",
+              "topic_evidence": "evaluating AI agents on 50 professional tax assignments",
+              "reason": "专业任务上的代理评测属于研究与治理中的基准评估，且任务领域具体。",
+              "reason_en": "Agent evaluation on professional tasks is a concrete benchmark in research and governance.",
+              "score": 7.3
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+              "title": "Ted Sanders：模型规模可解释 LLM 性能的大部分差异",
+              "summary": "Simon Willison 引用 Ted Sanders 观点称，LLM 性能是多维的，但性能差异很大程度可由模型规模这一单一变量解释；大模型通常表现更好。",
+              "title_en": "Quoting Ted Sanders",
+              "summary_en": "Simon Willison quotes Ted Sanders arguing LLM performance is multidimensional, yet much variation is explained by model size; larger models generally perform better.",
+              "topic_evidence": "LLM performance is incredibly multidimensional",
+              "reason": "讨论模型规模与 LLM 性能关系，属于研究观察；材料为引用片段而非完整论文。",
+              "reason_en": "A research observation on model size and LLM performance, though the material is a quoted excerpt, not a full paper.",
+              "score": 6.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": []
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+              "title": "GitHub Octoverse 2026：合并 PR 数量增至三倍，代理式工程影响显现",
+              "summary": "GitHub 在 Universe 2026 发布 Octoverse 报告，EVP Jay Parikh 重点提到 2026 年合并 PR 数量增至三倍，并将其视为代理式工程对 GitHub 影响的显著体现。",
+              "title_en": "GitHub Octoverse 2026: Merged Pull Requests Tripled as Agentic Engineering Spreads",
+              "summary_en": "GitHub released its Octoverse 2026 report at GitHub Universe. EVP Jay Parikh highlighted that merged pull requests tripled in 2026, a stark signal of agentic engineering's impact on GitHub.",
+              "topic_evidence": "merged pull requests tripled",
+              "reason": "GitHub 年度开发者报告，提供合并 PR 等平台活动数据，反映代理式工程对开发流程的影响。",
+              "reason_en": "Official GitHub developer report with platform activity data, showing agentic engineering's impact on workflows.",
+              "score": 6.1
+            },
+            {
+              "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+              "title": "Vercel AI Gateway 推出虚拟模型配置",
+              "summary": "AI Gateway 新增虚拟模型：保存模型与设置后，应用和代理通过自定义模型 ID 调用；可在网关集中切换模型或参数，无需重新部署应用或重新配置代理。",
+              "title_en": "Vercel AI Gateway Adds Virtual Model Configurations",
+              "summary_en": "AI Gateway now offers virtual models, saved configurations that map a custom model ID to a model and settings. Teams can change the model or parameters centrally without redeploying apps or reconfiguring agents.",
+              "topic_evidence": "A virtual model is a saved configuration",
+              "reason": "具体平台功能，允许集中管理模型路由与参数，减少应用重新部署。",
+              "reason_en": "Concrete platform feature for centrally managing model routing and parameters without app redeployment.",
+              "score": 4.9
+            },
+            {
+              "url": "https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli",
+              "title": "Vercel CLI 允许代理启用 Web Analytics 与 Observability Plus",
+              "summary": "Vercel CLI 不再需要交互式终端即可启用 Web Analytics 或 Observability Plus；代理可在已关联项目中直接执行命令，但团队需先订阅 Observability Plus。",
+              "title_en": "Vercel CLI Lets Agents Enable Web Analytics and Observability Plus",
+              "summary_en": "Vercel CLI no longer requires an interactive terminal to enable Web Analytics or Observability Plus. Agents can run the commands in linked projects, though teams must already subscribe to Observability Plus.",
+              "topic_evidence": "Vercel CLI no longer requires an interactive terminal",
+              "reason": "具体 CLI 功能更新，说明代理可自动启用监控能力，影响开发与运维工作流。",
+              "reason_en": "Specific CLI update showing agents can enable monitoring, affecting development and operations workflows.",
+              "score": 3.9
+            },
+            {
+              "url": "https://vercel.com/changelog/fx-is-now-available-in-t3-code",
+              "title": "开源编码代理工具 fx 现已接入 T3 Code",
+              "summary": "Vercel 的开源编码代理工具 fx 现已接入 T3 Code，支持 Web、桌面和移动端；T3 Code 用户可将 fx 作为编码会话提供方，并使用 Supervised 与 Auto 模式。",
+              "title_en": "Open-Source Coding Agent Harness fx Comes to T3 Code",
+              "summary_en": "Vercel's open-source coding agent harness fx is now available in T3 Code across web, desktop, and mobile. T3 Code users can add fx as a provider, with Supervised and Auto modes supported.",
+              "topic_evidence": "fx, our open-source coding agent harness, in T3 Code",
+              "reason": "具体工具集成更新，展示编码代理控制平面与代理运行框架的互通。",
+              "reason_en": "Specific tool integration showing interoperability between a coding agent control plane and an agent harness.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+              "title": "Vercel Container Registry 支持 2 GB 压缩镜像层",
+              "summary": "Vercel Container Registry 将单个压缩镜像层上限从 500 MB 提升到 2 GB，镜像总大小仍限制为 15 GB；更大层适合包含大型工具链或依赖集的镜像，例如编码代理评估沙箱。",
+              "title_en": "Vercel Container Registry Supports 2 GB Compressed Image Layers",
+              "summary_en": "Vercel Container Registry now supports compressed image layers up to 2 GB, up from 500 MB, while total image size remains capped at 15 GB. Larger layers suit images with big toolchains or dependencies.",
+              "topic_evidence": "up to 2 GB per compressed image layer",
+              "reason": "具体基础设施配额更新，影响容器镜像构建与编码代理沙箱环境。",
+              "reason_en": "Concrete infrastructure quota update affecting container image builds and coding-agent sandbox environments.",
+              "score": 4.9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+              "title": "Vercel CI 进入 Beta：Turborepo 可用一行配置启用",
+              "summary": "Vercel CI 进入 Beta，Turborepo 项目可用一行配置启用；Vercel 称内部仓库从 git push 到 CI 通过的等待时间缩短 2-6 倍，以跟上编码代理的提交节奏。",
+              "title_en": "Vercel CI Enters Beta with One-Line Turborepo Setup",
+              "summary_en": "Vercel CI is now in beta, enabling Turborepo CI with one line of configuration. Vercel says its internal repositories saw 2-6x shorter waits from git push to CI passed, helping keep pace with coding agents.",
+              "topic_evidence": "wait time from git push to \"CI passed\" is 2-6x shorter",
+              "reason": "具体 CI 产品发布，包含配置方式与内部等待时间数据，属于开发基础设施更新。",
+              "reason_en": "Specific CI product launch with configuration details and internal wait-time data, relevant to development infrastructure.",
+              "score": 3.9
+            },
+            {
+              "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design",
+              "title": "Meta Andromeda：通过模型-系统协同设计提升广告检索",
+              "summary": "Meta 介绍下一代个性化广告检索引擎 Andromeda，通过协同设计模型、系统与 GPU 硬件提升检索效率；生产环境中可在检索规模以接近排序级的模型性能为所有合格广告打分。",
+              "title_en": "Meta Andromeda: Model-System Co-Design for Ads Retrieval",
+              "summary_en": "Meta describes the next generation of Andromeda, its personalized ads retrieval engine, co-designing model, system, and GPU hardware to improve efficiency. In production it scores every eligible ad with near ranking-level model performance at retrieval scale.",
+              "topic_evidence": "co-designing the model, system, and GPU hardware",
+              "reason": "具体工程系统文章，涉及模型与 GPU 基础设施协同设计，属于性能与数据基础设施。",
+              "reason_en": "Concrete engineering systems post on co-designing models with GPU infrastructure, relevant to performance and data infrastructure.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+              "title": "科学家借芯片制造技术抑制锂堆积，或让电动车电池更小更耐用",
+              "summary": "研究团队借用芯片制造的精密工艺，抑制会损害下一代电池的锂堆积，从而可能让电动车电池更小、更轻、寿命更长，并提升单次充电续航。",
+              "title_en": "Smaller EV batteries, longer range? Scientists may have found a way",
+              "summary_en": "Scientists developed a technique that borrows precision manufacturing methods from chip production to prevent damaging lithium buildup, potentially enabling smaller, lighter, longer-lasting electric-vehicle batteries and greater driving range.",
+              "topic_evidence": "prevent damaging lithium buildup",
+              "reason": "报道借用芯片制造工艺抑制锂堆积的电动车电池技术进展，属于能源存储而非芯片本身，因此归入能源版。",
+              "reason_en": "Covers an electric-vehicle battery advance that uses chip-production methods to limit lithium buildup; it is energy storage rather than chip hardware, so it fits the energy subsection.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
+              "title": "研究揭示流星进入大气层的七个阶段：熔化与剧烈碎裂而非简单烧尽",
+              "summary": "科学家梳理太空岩石冲向地球时经历的七个阶段，认为熔化与剧烈碎裂而非简单蒸发决定其命运，可帮助解释陨石散落和小行星在大气中爆炸。",
+              "title_en": "Meteors don't just burn up. What really happens is far more violent",
+              "summary_en": "Scientists identified seven stages that space rocks undergo as they approach Earth, finding that melting and violent fragmentation, rather than simple evaporation, determine their fate and may explain meteorite scattering and dangerous airbursts.",
+              "topic_evidence": "seven surprising stages that space rocks go through as they hurtle toward Earth",
+              "reason": "报道流星体进入地球大气层的七阶段模型及碎裂机制，属于空间科学，归入航天版。",
+              "reason_en": "A specific space-science finding on meteoroid entry stages and fragmentation, relevant to near-Earth object behavior.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
+              "title": "NASA“阿耳忒弥斯一号”揭示月球附近辐射水平高于地球轨道",
+              "summary": "NASA“阿耳忒弥斯一号”任务发现月球附近 cosmic 辐射高于地球轨道，但升幅低于预期；微型探测器还揭示辐射穿过人体的细节，为未来月球探索提供参考。",
+              "title_en": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+              "summary_en": "NASA’s Artemis I mission found cosmic radiation near the Moon is higher than in Earth orbit but less than expected, while tiny detectors revealed details about how radiation passes through the human body for future lunar exploration.",
+              "topic_evidence": "cosmic radiation near the Moon is higher than in Earth orbit",
+              "reason": "报道阿耳忒弥斯一号对月球附近辐射及人体穿透细节的测量结果，属于具体航天探索研究。",
+              "reason_en": "Reports specific Artemis I measurements of lunar-neighborhood radiation and radiation passage through the human body, relevant to space exploration.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+              "title": "科学家打破物理学教科书规则，产生更高能X射线",
+              "summary": "研究团队产生能量远高于传统理论预测的X射线，发现两个电子协同可突破先前认为的极限，为量子研究提供新线索。",
+              "title_en": "Scientists just broke a textbook rule of physics",
+              "summary_en": "Researchers generated X-rays at much higher energies than conventional laser-physics theory predicts, showing that two electrons can work together to overcome a previously accepted limit and opening new directions for quantum research.",
+              "topic_evidence": "generating X-rays with much higher energies than conventional theory predicts",
+              "reason": "报道X射线能量超过传统理论预测、双电子协同突破极限的具体物理结果，符合科学研究版。",
+              "reason_en": "Reports a specific physics result in which X-ray energies exceed conventional predictions via two-electron cooperation, fitting Science Research.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
+              "title": "研究称地球冰期或由隐藏的海洋连锁反应驱动",
+              "summary": "新研究提出南北极之间存在隐藏联系：北半球冰盖扩张冷却大西洋海水，水体南传至南极附近，可能形成影响冰期的海洋连锁反应。",
+              "title_en": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
+              "summary_en": "New research suggests a hidden pole-to-pole ocean link: as Northern Hemisphere ice sheets expanded, they cooled Atlantic waters that traveled south toward Antarctica, possibly affecting conditions near Antarctica and helping drive ice ages.",
+              "topic_evidence": "a surprising connection between Earth's opposite poles",
+              "reason": "报道南北极海洋联系可能驱动冰期的气候研究，属于具体地球科学研究。",
+              "reason_en": "Presents a specific climate and ocean research finding on a pole-to-pole mechanism potentially driving ice ages.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+              "title": "研究发现一小群脑细胞可防止血压危险波动",
+              "summary": "研究人员发现一小群脑细胞可防止危险的血压波动；即使平均读数看似正常，这一机制也揭示了隐藏的心血管风险来源，并可能带来保护心脑的新疗法。",
+              "title_en": "Your blood pressure could be dangerous even when your numbers look normal",
+              "summary_en": "Researchers found a small group of brain cells that prevents dangerous blood pressure swings, revealing a hidden source of cardiovascular risk even when average readings look normal and pointing to potential treatments that protect the heart and brain.",
+              "topic_evidence": "a small group of brain cells that prevents dangerous blood pressure swings",
+              "reason": "报道脑细胞调控血压波动并揭示隐藏心血管风险的医学研究，属于科学研究。",
+              "reason_en": "A specific biomedical study on brain-cell control of blood pressure and a hidden source of cardiovascular risk.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
+              "title": "科学家发现免疫系统的隐藏“触觉”：T细胞能感知组织硬度",
+              "summary": "麦吉尔大学团队发现T细胞能感知周围组织的硬度，并利用这种物理信号帮助决定是否发育为持久记忆细胞，可能改变对长期免疫的理解。",
+              "title_en": "Scientists discover the immune system’s hidden sense of touch",
+              "summary_en": "McGill University researchers found that T cells can sense the stiffness of surrounding tissues and use these physical signals to help decide whether they become long-lasting memory cells, potentially reshaping understanding of long-term immunity.",
+              "topic_evidence": "T cells can actually sense how stiff their surrounding tissues are",
+              "reason": "报道T细胞感知组织硬度并影响记忆细胞分化的免疫学发现，属于科学研究。",
+              "reason_en": "A specific immunology finding on T-cell mechanical sensing and its role in memory-cell development.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition",
+              "title": "Formlabs Studio 1 树脂 3D 打印机定价 699 美元",
+              "summary": "Formlabs 的 Studio 1 树脂 3D 打印机定价 699 美元；Hacker News 上的相关链接获得 156 分和 106 条评论，但所给摘要未提供更多产品细节。",
+              "title_en": "Formlabs Studio 1 $699 Resin Printer",
+              "summary_en": "Formlabs' Studio 1 resin 3D printer is priced at $699; the Hacker News submission has 156 points and 106 comments, with no further product details in the provided summary.",
+              "topic_evidence": "Formlabs Studio 1 $699 Resin Printer",
+              "reason": "具体产品型号和价格明确，Hacker News 讨论指标可核实，属于新产品发布。",
+              "reason_en": "A concrete product model and price with measurable Hacker News engagement, fitting a new-product launch.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.producthunt.com/products/alpha-vantage",
+              "title": "“Congress Trades” 追踪国会议员交易并检验跟随策略",
+              "summary": "Product Hunt 上的 “Congress Trades” 产品可查看国会议员的交易，并检验复制其交易是否能带来回报；所给摘要未提供更多功能或用户数据。",
+              "title_en": "Congress Trades",
+              "summary_en": "The \"Congress Trades\" product on Product Hunt lets users see how members of Congress trade and test whether copying them pays off; the provided summary gives no further features or user data.",
+              "topic_evidence": "See how Congress members trade, and if copying them pays off",
+              "reason": "Product Hunt 上的具体产品发布，功能描述明确为查看并测试国会议员交易策略。",
+              "reason_en": "A specific Product Hunt launch whose stated function is viewing and testing congressional trading strategies.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer",
+              "title": "Upwind 放弃 Datadog 收购要约后融资 4 亿美元",
+              "summary": "云安全初创公司 Upwind 在拒绝 Datadog 的收购要约后完成 4 亿美元 C 轮融资，估值 38 亿美元；其选择以同等估值继续独立发展。",
+              "title_en": "Upwind raises $400M after walking away from Datadog acquisition offer",
+              "summary_en": "Cloud security startup Upwind raised a $400M Series C at a $3.8B valuation after declining a Datadog acquisition offer at the same valuation, choosing to remain independent.",
+              "topic_evidence": "raised a Series C at a $3.8B valuation, instead of selling itself for the same price",
+              "reason": "明确的 C 轮融资与收购要约取舍，金额、估值和公司类型均具体，属于融资与并购。",
+              "reason_en": "Concrete Series C details and a declined acquisition offer, with company type, amount, and valuation specified.",
+              "score": 4.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+              "title": "Disruptive 募集 100 亿美元基金，计划重仓至少 10 家公司",
+              "summary": "Disruptive 募集 100 亿美元基金，计划对至少 10 家公司进行大额投资；该机构近年曾投资芯片初创 Groq 和 AI 语音生成公司 ElevenLabs。",
+              "title_en": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+              "summary_en": "Disruptive raised a $10B fund to make large bets on at least 10 companies; it has recently invested in chip startup Groq and AI voice-generation startup ElevenLabs.",
+              "topic_evidence": "raises $10B fund to make big bets on at least 10 companies",
+              "reason": "明确的新基金规模与投资计划，并给出既往投资标的，属于 VC 募资。",
+              "reason_en": "A specific new fund size and investment plan, with prior portfolio examples, fitting venture fundraising.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
+              "title": "Anthropic IPO 或让风投获利数十亿美元，亚马逊收益可能更高",
+              "summary": "报道指出，Anthropic 的 IPO 将使风投获得数十亿美元收益，而大规模票据转换显示亚马逊对 Anthropic 的持股可能带来更高回报。",
+              "title_en": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+              "summary_en": "The report says Anthropic's IPO will make VCs billions, while massive note conversions reveal Amazon's ownership stake could yield much larger returns.",
+              "topic_evidence": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+              "reason": "涉及 IPO 回报与持股结构变化，具体说明风投和亚马逊的收益差异，属于融资与并购。",
+              "reason_en": "Covers IPO returns and ownership conversion, specifying the differing gains for VCs and Amazon, fitting funding and exits.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+              "title": "塞尔维亚一男子袭击以色列使馆外警员后被击毙，部长称",
+              "summary": "贝尔格莱德当局称，一名未成年男子在以色列使馆外袭击警员后被击毙，安全部门此前已对其监控。部长披露了上述信息。",
+              "title_en": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+              "summary_en": "Authorities in Belgrade said an underage male was shot dead after attacking a police officer outside Israel’s embassy; the attacker had been monitored by security services, the minister said.",
+              "topic_evidence": "Serbian shot dead after attacking officer outside Israeli embassy",
+              "reason": "涉及以色列使馆外袭击与安保事件，直接属于地缘与安全。",
+              "reason_en": "Embassy attack and security incident; directly fits geopolitics and security.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news-analysis/2026/10/29/can-turkiyes-libya-breakthrough-reshape-eastern-mediterranean-diplomacy?traffic_source=rss",
+              "title": "土耳其利比亚突破能否重塑东地中海外交？",
+              "summary": "安卡拉在利比亚获得昔日对手对海上边界协议的支持，但分析指出其他外交考验仍在。该协议可能影响东地中海局势。",
+              "title_en": "Can Turkiye’s Libya breakthrough reshape Eastern Mediterranean diplomacy?",
+              "summary_en": "Ankara has won backing from former adversaries in Libya for a maritime border agreement, but other diplomatic tests remain, according to the report.",
+              "topic_evidence": "Ankara wins backing from former adversaries in Libya for maritime border agreement",
+              "reason": "聚焦土耳其与利比亚海上边界协议及东地中海外交，属于地缘与安全。",
+              "reason_en": "Focuses on Turkiye-Libya maritime border agreement and Eastern Mediterranean diplomacy; fits geopolitics and security.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+              "title": "官员称乌克兰赫尔松地区停火延长",
+              "summary": "官员表示，赫尔松地区停火已延长，原计划针对被困的奥列什基居民；俄乌双方称未报告违反停火的情况。",
+              "title_en": "Ceasefire extended across Ukraine's Kherson region, officials say",
+              "summary_en": "Officials said a ceasefire across Ukraine’s Kherson region has been extended; it was originally planned for stranded residents of Oleshky, and Russia and Ukraine reported no breaches.",
+              "topic_evidence": "Ceasefire extended across Ukraine's Kherson region",
+              "reason": "涉及俄乌冲突地区的停火安排，属于地缘与安全。",
+              "reason_en": "Covers ceasefire arrangements in the Russia-Ukraine conflict region; fits geopolitics and security.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+              "title": "欧盟撤回与加拿大启动“准成员”谈判的提议",
+              "summary": "欧盟在蒙特利尔峰会前放弃向加拿大提出启动“准成员”谈判，联合声明改为“更紧密联系”。成员国分歧导致措辞弱化。",
+              "title_en": "EU backs away from offer to Canada to start ‘associate member’ talks",
+              "summary_en": "The EU backed away from offering Canada talks on “associate membership” before a Montreal summit; a draft joint statement now refers to “ever closer association” after member-state disagreements.",
+              "topic_evidence": "EU backs away from offer to Canada to start ‘associate member’ talks",
+              "reason": "涉及欧盟与加拿大的外交安排及成员国分歧，属于地缘与安全。",
+              "reason_en": "Covers EU-Canada diplomatic arrangements and member-state disagreements; fits geopolitics and security.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+              "title": "以色列选举部分结果显示内塔尼亚胡阵营领先但未过半",
+              "summary": "在已统计85%选票后，内塔尼亚胡的利库德集团及其盟友预计在120席议会中赢得53席，尚未获得多数。",
+              "title_en": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+              "summary_en": "With 85% of ballots counted, Netanyahu’s Likud party and allies are projected to win 53 seats in the 120-seat Knesset, short of a majority.",
+              "topic_evidence": "Netanyahu's Likud party and its allies are set to win 53 seats",
+              "reason": "报道以色列选举计票与席位预测，属于政府与政策。",
+              "reason_en": "Reports Israeli election vote counting and seat projections; fits government and policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+              "title": "弗拉维奥·博索纳罗抵达迈阿密后否认逃离巴西",
+              "summary": "巴西败选候选人弗拉维奥·博索纳罗在抵达迈阿密后否认逃离，声称自己是政变和政治迫害的受害者，并重复未经证实的“选举舞弊”指控。",
+              "title_en": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+              "summary_en": "Defeated Brazilian candidate Flávio Bolsonaro denied fleeing Brazil after landing in Miami, claiming he was the victim of a coup and political persecution and repeating unsubstantiated “electoral fraud” allegations.",
+              "topic_evidence": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+              "reason": "涉及巴西选后政治争议与候选人去向，归入政府与政策。",
+              "reason_en": "Covers post-election political controversy and the candidate’s movements in Brazil; fits government and policy.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+              "title": "美国驻加拿大大使称，若中期选举不利特朗普可能归咎加拿大",
+              "summary": "美国驻加拿大大使胡克斯特拉表示，如果共和党在下周中期选举表现不佳，加拿大可能被指责；他还指加拿大官员干预美国选举。",
+              "title_en": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+              "summary_en": "US ambassador to Canada Pete Hoekstra suggested Canada could be blamed if Republicans perform poorly in next week’s midterms, and accused Canadian officials of interfering in US elections.",
+              "topic_evidence": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+              "reason": "涉及美国中期选举与美加外交争议，属于政府与政策。",
+              "reason_en": "Involves US midterms and US-Canada diplomatic controversy; fits government and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/29/judge-rejects-trump-effort-to-block-california-noncitizen-ballots?traffic_source=rss",
+              "title": "法官驳回特朗普阻止加州“非公民”选票的努力",
+              "summary": "一名法官驳回特朗普方面阻止加州“非公民”选票的努力；政府称已在13个州发出100多张传票，加大寻找疑似非公民选民。",
+              "title_en": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+              "summary_en": "A judge rejected Trump’s effort to block California “noncitizen” ballots; the government said more than 100 subpoenas were issued across 13 states in its search for alleged noncitizen voters.",
+              "topic_evidence": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+              "reason": "涉及选举争议与司法裁决，属于政府与政策。",
+              "reason_en": "Covers election dispute and judicial ruling; fits government and policy.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+              "title": "埃及罚款知名主编利娜·阿塔拉并关闭独立媒体Mada Masr",
+              "summary": "开罗法院裁定知名记者、Mada Masr主编利娜·阿塔拉管理未许可网站，对其罚款并下令关闭网站；她已获释，事件引发对新闻自由的担忧。",
+              "title_en": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+              "summary_en": "A Cairo court convicted prominent journalist Lina Attalah of managing an unlicensed website, fined her and ordered Mada Masr shut down; she was released amid warnings over press freedom.",
+              "topic_evidence": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+              "reason": "涉及埃及新闻自由与独立媒体遭关闭，属于全球社会。",
+              "reason_en": "Covers press freedom and closure of an independent outlet in Egypt; fits global society.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+              "title": "非洲疾控官员称“前所未有”的埃博拉疫情可能波及英国",
+              "summary": "非洲疾控中心官员卡塞亚警告，当前埃博拉疫情已累计1万例，若不能获得更多资金加强准备和治疗，疫情可能像新冠一样扩散到英国等国。",
+              "title_en": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+              "summary_en": "Africa CDC official Jean Kaseya warned the Ebola outbreak, now at 10,000 cases, could spread like Covid and reach the UK unless more funding is secured for preparedness and treatment.",
+              "topic_evidence": "As the current outbreak reached 10,000 cases",
+              "reason": "涉及非洲埃博拉疫情跨境风险与公共卫生应对，属于全球社会。",
+              "reason_en": "Covers cross-border Ebola risk and public-health response in Africa; fits global society.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+              "title": "西班牙高速列车相撞事故造成至少68人死亡",
+              "summary": "西班牙托莱多省发生列车相撞事故，一列行驶中的列车撞上另一列停靠列车，造成至少68人死亡；交通部长称事故由“无法解释”的错误导致。",
+              "title_en": "High-speed train crash kills at least 68 people in Spain",
+              "summary_en": "A high-speed train crash in Spain’s Toledo province killed at least 68 people after a moving train hit a stopped train; the transport minister said an “inexplicable” error caused it.",
+              "topic_evidence": "High-speed train crash kills at least 68 people in Spain",
+              "reason": "涉及重大交通事故与应急事件，属于全球社会。",
+              "reason_en": "Covers a major transport accident and emergency incident; fits global society.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss",
+              "title": "肯尼亚民众不满前英军士兵引渡听证延期",
+              "summary": "一名被控谋杀女性的前英国士兵引渡听证从下月推迟至2027年5月，官方未给出理由，家属表示不满，肯尼亚出现愤怒情绪。",
+              "title_en": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+              "summary_en": "A Kenyan extradition hearing for a former British soldier accused of murdering a woman was postponed from next month to May 2027 without an official reason, drawing anger, the family said.",
+              "topic_evidence": "No official reason has been given for postponing next month’s hearing to May 2027",
+              "reason": "涉及跨国引渡与司法争议，属于全球社会。",
+              "reason_en": "Covers cross-border extradition and a justice dispute; fits global society.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722619.shtml",
+              "title": "广西推进农兽药综合整治 同步开展“三进”普法与假劣农资销毁",
+              "summary": "2026年广西农业综合行政执法“三进”暨农药兽药综合整治普法活动28日在防城港举办，执法办案与普法宣传结合，并集中销毁假劣农资，提升民众依法维权意识。",
+              "title_en": "Guangxi Steps Up Agricultural and Veterinary Drug Enforcement with Outreach and Destruction of Fake Inputs",
+              "summary_en": "Guangxi held an agricultural law-enforcement and outreach event in Fangchenggang on Oct 28, combining pesticide and veterinary-drug inspections with public legal education and centralized destruction of counterfeit farm inputs.",
+              "topic_evidence": "农药兽药综合整治执法普法宣传活动",
+              "reason": "涉及农业行政执法、农兽药监管与普法，直接符合政策与监管小版。",
+              "reason_en": "Covers agricultural enforcement, pesticide and veterinary-drug regulation, and public legal education, directly fitting the policy and regulation subsection.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722630.shtml",
+              "title": "北京市政协协商座谈 建言提升国际传播力",
+              "summary": "北京市政协近日召开协商座谈会，政协委员、民主党派成员及专家学者围绕“提升国际传播力，讲好新时代中国故事、北京故事”建言献策，讨论首都国际传播能力建设。",
+              "title_en": "Beijing CPPCC Holds Consultation on Improving International Communication",
+              "summary_en": "Beijing's CPPCC recently held a consultation meeting where members, non-Communist parties and experts offered proposals on improving international communication and telling China and Beijing stories to global audiences.",
+              "topic_evidence": "提升国际传播力，讲好新时代中国故事、北京故事",
+              "reason": "政协协商座谈会围绕国际传播政策建言，属于政策与监管/时政。",
+              "reason_en": "A CPPCC consultation on international communication policy proposals fits the policy and regulation subsection.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722622.shtml",
+              "title": "第47届世界葡萄与葡萄酒大会在银川落幕 宁夏葡萄酒产业加速国际化",
+              "summary": "第47届世界葡萄与葡萄酒大会暨OIV成员国代表大会近日在宁夏银川落幕，这是该大会创办百余年来首次落地亚洲，显示宁夏葡萄酒产业稳步升级并走向世界。",
+              "title_en": "47th World Congress of Vine and Wine Concludes in Yinchuan as Ningxia Wine Goes Global",
+              "summary_en": "The 47th World Congress of Vine and Wine and OIV general assembly concluded in Yinchuan, Ningxia, the first time the century-old event was held in Asia, highlighting the region's wine-industry upgrade.",
+              "topic_evidence": "第47届世界葡萄与葡萄酒大会暨OIV成员国代表大会在宁夏银川圆满落幕",
+              "reason": "地方特色产业国际化，符合产业与地方。",
+              "reason_en": "A local specialty industry's international conference and global outreach fit industry and local development.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722668.shtml",
+              "title": "新疆疆果果十年带动5万余果农增收",
+              "summary": "新疆喀什民营企业疆果果农业科技有限公司通过标准化分拣、加工、包装和供应链，将巴旦木、新梅等特色林果销往全国及中亚、欧洲市场，十年带动5万余果农增收。",
+              "title_en": "Xinjiang's Jiangguoguo Says It Has Boosted Incomes for Over 50,000 Fruit Growers in a Decade",
+              "summary_en": "Kashgar-based Jiangguoguo Agricultural Technology says standardized sorting, processing, packaging and supply chains have moved local almonds and plums to domestic and overseas markets, raising incomes for more than 50,000 growers over ten years.",
+              "topic_evidence": "十年带动5万余果农增收",
+              "reason": "民营企业带动南疆林果产业链和果农增收，属于产业与地方。",
+              "reason_en": "A private firm linking Xinjiang fruit growers to domestic and overseas markets fits industry and local development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722581.shtml",
+              "title": "2026年风云卫星用户大会发布三项科技成果",
+              "summary": "2026年风云卫星用户大会29日在长沙举行，发布风云三号H星及风云四号C星数据产品、风云卫星中试平台和极端天气AI模型三项成果，展示卫星科技应用进展。",
+              "title_en": "Fengyun Satellite User Conference Releases Three Technological Achievements",
+              "summary_en": "The 2026 Fengyun Satellite User Conference in Changsha released data products from Fengyun-3H and Fengyun-4C, a satellite pilot-testing platform and an AI model for extreme weather, highlighting advances in satellite applications.",
+              "topic_evidence": "风云三号H星及风云四号C星气象卫星数据产品、风云精工·风云卫星中试平台、风云气象卫星极端天气AI模型三项科技成果正式发布",
+              "reason": "卫星科技成果发布与中试转化，涉及科技产业应用，符合产业与地方。",
+              "reason_en": "A satellite technology achievement release and pilot-testing platform fits the technology and industry angle of the subsection.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722617.shtml",
+              "title": "重庆璧山警方查处网络谣言 一网民因编造餐馆对外籍顾客免单言论被行拘",
+              "summary": "重庆市璧山区公安局29日通报，网民刘某在互联网平台编造“因曝光餐馆对外籍顾客免单而遭受言语攻击”的信息，引发关注讨论，已被依法行政拘留。",
+              "title_en": "Chongqing Police Detain Man for Fabricating Rumor About Restaurant Waiving Bills for Foreign Customers",
+              "summary_en": "Police in Bishan district, Chongqing, said a man surnamed Liu was administratively detained for fabricating and posting a claim that he was verbally attacked for exposing a restaurant's free meals for foreign customers.",
+              "topic_evidence": "网民刘某编造餐馆对外籍顾客免单言论，已被行拘",
+              "reason": "公安机关查处网络谣言并行政拘留，属于社会与法治。",
+              "reason_en": "Police action against an online rumor and administrative detention directly fits society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722644.shtml",
+              "title": "西藏巴青地震灾区已搭建板房2686间 安置逾1.2万人",
+              "summary": "截至10月28日13时，西藏巴青7.0级地震灾区34处安置点安置12964人，已搭建板房2686间、完成率超80%，并搭建帐篷3796顶，医疗和消防保障同步推进。",
+              "title_en": "Tibet's Baqing Quake Zone Builds 2,686 Prefabricated Rooms, Resettles Over 12,000",
+              "summary_en": "As of Oct 28, 34 resettlement sites in Tibet's Baqing county had housed 12,964 people after the 7.0-magnitude earthquake, with 2,686 prefabricated rooms completed, plus tents and medical and firefighting support.",
+              "topic_evidence": "34处集中安置点安置受灾群众12964人",
+              "reason": "地震灾害救援与安置进展，属于社会与法治。",
+              "reason_en": "Earthquake rescue and resettlement progress fits society and law.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722649.shtml",
+              "title": "三丽鸥致歉并终止与日剧《VIVANT》角色联动合作",
+              "summary": "日本三丽鸥集团此前宣布与日剧《VIVANT》推出联名产品，因该剧被指严重抹黑中国而在社交媒体引发强烈反感；三丽鸥随后致歉并终止相关角色联动合作。",
+              "title_en": "Sanrio Apologizes, Ends Character Tie-In with Japanese Drama VIVANT",
+              "summary_en": "Sanrio apologized and ended a character collaboration with Japanese drama VIVANT after its planned tie-in products sparked strong backlash on Chinese social media over the show's alleged negative portrayal of China.",
+              "topic_evidence": "终止与抹黑中国的日剧《VIVANT》角色联动合作",
+              "reason": "企业因涉华争议内容终止联名并致歉，属于社会舆论与品牌反应。",
+              "reason_en": "A corporate apology and cancellation over a China-related controversy is a social and consumer development.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722658.shtml",
+              "title": "辽宁秋假期间推出六大板块文化活动",
+              "summary": "辽宁省文化中心围绕2026年度秋假，于10月29日至11月2日推出舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动六大板块活动，让青少年享受艺术时光。",
+              "title_en": "Liaoning Launches Six Cultural Activity Series for Autumn Break",
+              "summary_en": "Liaoning's cultural center is running six series of cultural activities from Oct 29 to Nov 2 for the 2026 autumn break, covering stage performances, museum study, intangible heritage crafts, reading, exhibitions and online interaction.",
+              "topic_evidence": "聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块",
+              "reason": "地方公共文化服务与青少年教育安排，属于社会与法治中的社会动态。",
+              "reason_en": "Local public cultural services and youth education during the autumn break fit social news.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+              "title": "科技股收窄跌幅，原油下跌：市场综述",
+              "summary": "科技股在两家行业巨头业绩令人失望后曾领跌，随后收复部分失地；市场重新审视AI巨额支出回报，原油价格下跌。",
+              "title_en": "Stocks Pare Tech-Led Losses, Crude Oil Declines: Markets Wrap",
+              "summary_en": "Technology stocks pared losses after disappointing results from two industry heavyweights renewed doubts over returns on AI spending, while crude oil declined.",
+              "topic_evidence": "Technology stocks trimmed their losses",
+              "reason": "市场综述直接反映科技股、AI支出疑虑与原油走势，适合市场与资产版块。",
+              "reason_en": "A markets wrap that ties tech-stock moves, AI spending doubts and oil prices together.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/global-fund-managers-grow-bullish-on-japanese-government-bonds",
+              "title": "全球基金经理看多日本长期国债",
+              "summary": "随着国内需求复苏迹象和政策环境更有利，日本长期国债的高收益率吸引力上升，全球基金经理重新看多日本债市。",
+              "title_en": "Global Fund Managers Grow Bullish on Japan’s Long Bonds",
+              "summary_en": "Global fund managers are turning more positive on Japanese long bonds as recovering domestic demand and a supportive policy backdrop enhance the appeal of elevated yields.",
+              "topic_evidence": "Global fund managers are warming to Japan’s bond market again",
+              "reason": "具体反映全球资金对日本长债的需求变化，属于债券市场配置信号。",
+              "reason_en": "Shows a concrete shift in global demand for Japanese long bonds, a bond-market allocation signal.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-29/chinese-tech-stocks-sink-even-as-chipmaker-sales-surge-1-800",
+              "title": "中国科技股下挫，尽管一芯片制造商销售额激增1800%",
+              "summary": "中国科技硬件股大幅下跌，部分公司强劲季报未能抵消对基本面的持续担忧和全球AI情绪疲弱。",
+              "title_en": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800%",
+              "summary_en": "Chinese tech hardware shares tumbled as strong quarterly results at some companies failed to offset persistent concerns over fundamentals and weak global AI sentiment.",
+              "topic_evidence": "Chinese tech hardware shares tumbled",
+              "reason": "直接描述中国科技硬件股走势及强劲芯片销售未能提振市场，属市场与资产。",
+              "reason_en": "Directly covers Chinese tech hardware share moves and why surging chip sales failed to lift the market.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+              "title": "Alphabet财报后股价或创多年最大跌幅",
+              "summary": "尽管云业务收入翻倍，Alphabet仍未能安抚华尔街；投资者愈发担心AI正在削弱公司从搜索查询中获利的能力。",
+              "title_en": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+              "summary_en": "A doubling of cloud revenue was not enough to reassure Wall Street, with investors increasingly worried that AI is hurting Alphabet’s ability to monetize search queries.",
+              "topic_evidence": "A doubling of cloud revenue wasn’t enough to appease Wall Street",
+              "reason": "具体说明Alphabet财报后股价压力及AI对搜索变现的担忧，属于重要个股与市场情绪。",
+              "reason_en": "Explains post-earnings pressure on Alphabet and investor worries about AI’s effect on search monetization.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+              "title": "微软财报后股价走高，因增长与控支兼具",
+              "summary": "微软向投资者证明其能够在保持支出受控的同时实现快速增长，财报发布后股价走高，市场情绪改善。",
+              "title_en": "The major reason Microsoft’s stock is heading higher after earnings",
+              "summary_en": "Microsoft showed investors it can grow rapidly while keeping spending in check, lifting its stock after earnings and improving market sentiment toward the company.",
+              "topic_evidence": "able to grow rapidly while keeping spending in check",
+              "reason": "聚焦微软财报后的股价反应及其增长与支出控制，属于具体公司业绩驱动的市场动态。",
+              "reason_en": "Focuses on Microsoft’s post-earnings stock move and its growth-with-spending-discipline story.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it",
+              "title": "美联储按兵不动，沃什暗示年内可能再加息",
+              "summary": "美联储维持利率不变，主席沃什虽拒绝提供明确指引，但使央行仍保留今年再次加息的可能性。",
+              "title_en": "Fed Holds Fire as Warsh Telegraphs More Hikes Without Saying It",
+              "summary_en": "The Federal Reserve held rates steady, and Chair Kevin Warsh kept the central bank on track to raise again this year while refusing to offer explicit guidance.",
+              "topic_evidence": "left the central bank on track to raise interest rates again this year",
+              "reason": "直接报道美联储利率决定与沃什的政策信号，是宏观与政策核心事件。",
+              "reason_en": "Core Fed decision and policy-signal story, directly relevant to macro and policy.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-29/ecb-set-to-hold-rates-to-assess-france-and-energy-risks",
+              "title": "欧洲央行料维持利率，评估法国与能源风险",
+              "summary": "欧洲央行预计将维持利率不变，以评估法国债券市场动荡和能源成本再度上升带来的风险，政策保持观望。",
+              "title_en": "ECB Set to Hold Rates to Assess France and Energy Risks",
+              "summary_en": "The European Central Bank is expected to keep borrowing costs unchanged as it assesses French bond-market turmoil and renewed energy-cost pressures, maintaining a wait-and-see stance.",
+              "topic_evidence": "The European Central Bank is set to keep borrowing costs steady",
+              "reason": "具体说明欧洲央行利率决策考量，涉及法国债市和能源风险，属于宏观政策。",
+              "reason_en": "Concrete ECB rate decision story weighing French bond stress and energy risks.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/boj-set-to-hold-rate-as-inflation-reaches-long-awaited-milestone",
+              "title": "日本央行料维持利率，通胀达到期待已久里程碑",
+              "summary": "日本央行预计周五维持基准利率不变，同时暗示潜在通胀终于达到2%目标，这一里程碑将强化进一步加息的理由。",
+              "title_en": "BOJ Set to Hold Rate as Inflation Reaches Long-Awaited Milestone",
+              "summary_en": "The Bank of Japan is expected to hold its benchmark rate on Friday while signaling that underlying inflation has finally reached 2%, strengthening the case for further hikes.",
+              "topic_evidence": "underlying inflation has finally reached its 2% target",
+              "reason": "报道日本央行利率决定及通胀达标信号，直接影响加息预期，属于宏观与政策。",
+              "reason_en": "Covers the BOJ decision and inflation milestone that shapes expectations for further rate hikes.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-10-29/kalemli-ozcan-today-s-inflation-lacks-2021-s-force-video",
+              "title": "经济学家：当前通胀冲击不及2021年严重",
+              "summary": "布朗大学经济学家卡莱姆利-厄兹詹表示，关税和能源压力仍在，但供应条件更强，当前通胀冲击没有疫情时期那么严重。",
+              "title_en": "Kalemli-Ozcan: Today's Inflation Lacks 2021's Force",
+              "summary_en": "Brown University economist Sebnem Kalemli-Ozcan said tariff and energy pressures persist, but stronger supply conditions mean current inflation shocks are less severe than in the pandemic era.",
+              "topic_evidence": "today's inflation shocks do not match the severity of the pandemic era",
+              "reason": "提供对当前通胀性质的具体判断，区分关税能源压力与供应改善，属于宏观分析。",
+              "reason_en": "Offers a specific assessment of current inflation, separating tariff and energy pressures from improved supply conditions.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
+              "title": "加拿大央行行长警告美国赤字成本高昂且不可持续",
+              "summary": "加拿大央行行长麦克勒姆警告美国借贷轨迹不可持续，并对美国税收和支出政策作出罕见直率评估，称其推高全球债券收益率。",
+              "title_en": "Bank of Canada Chief Tiff Macklem Warns US Deficits Are Costly and Unsustainable",
+              "summary_en": "Bank of Canada Governor Tiff Macklem warned that US borrowing is unsustainable and offered an unusually blunt critique of US tax and spending policy, which he said is pressuring global bond yields.",
+              "topic_evidence": "US borrowing is on an unsustainable trajectory",
+              "reason": "涉及美国财政赤字、全球债券收益率及央行官员政策评论，属于宏观与政策。",
+              "reason_en": "Links US fiscal deficits, global bond yields and central-bank policy commentary.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-29/prediction-markets-avoid-australia-s-tough-line-on-gambling",
+              "title": "预测市场避开澳大利亚严格赌博监管",
+              "summary": "澳大利亚公司监管机构尚未收到任何预测市场运营申请；此类平台在当地可能适用赌博监管而非金融监管。",
+              "title_en": "Prediction Markets Avoid Australia’s Tough Line on Gambling",
+              "summary_en": "Australia’s corporate regulator has received no applications from prediction-market providers, which would likely face gambling rather than financial regulation in the country.",
+              "topic_evidence": "has not received a single application from a prediction market provider",
+              "reason": "具体反映预测市场在澳大利亚面临的监管归属问题，属于理财平台与监管。",
+              "reason_en": "Shows how prediction markets confront Australia’s regulatory boundary between gambling and finance.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+              "title": "生活成本调整会终结吗？拯救社会保障或需改革COLA",
+              "summary": "多项提案考虑改变退休人员获得通胀保护的方式，可能影响社会保障生活成本调整及退休收入。",
+              "title_en": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+              "summary_en": "Several proposals would change how retirees receive inflation protection, potentially altering Social Security’s cost-of-living adjustment and affecting retirement income.",
+              "topic_evidence": "Several proposals consider changing the way retirees receive inflation protection",
+              "reason": "直接讨论社会保障生活成本调整改革及其对退休收入的影响，属于个人理财与监管政策。",
+              "reason_en": "Directly addresses Social Security COLA reform and its impact on retiree income, fitting personal finance and policy.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+              "title": "Claude Code 的三词状态行消耗约15–20%令牌",
+              "summary": "一份 gist 称 Claude Code 的三词状态行会消耗约15–20%的令牌；该帖在 Hacker News 获187分、39条评论。",
+              "title_en": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+              "summary_en": "A gist claims Claude Code’s three-word status line consumes about 15–20% of tokens; the Hacker News post drew 187 points and 39 comments.",
+              "topic_evidence": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+              "reason": "技术观点：涉及 AI 编程工具的令牌开销分析，且有明确讨论热度。",
+              "reason_en": "Tech opinion: analyzes token overhead in an AI coding tool and has clear discussion traction.",
+              "score": 2.9
+            },
+            {
+              "url": "https://divagr.com/blog/qwenputer",
+              "title": "Qwenputer：在 Qwen3.5 内运行确定性 RISC-V CPU",
+              "summary": "一篇博客展示在 Qwen3.5 中实现可运行、确定性的 RISC-V CPU；该帖在 Hacker News 获268分、61条评论。",
+              "title_en": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+              "summary_en": "A blog post presents a functioning, deterministic RISC-V CPU implemented inside Qwen3.5; the Hacker News post received 268 points and 61 comments.",
+              "topic_evidence": "A functioning, deterministic RISC-V CPU inside Qwen3.5",
+              "reason": "技术观点：讨论大模型内部实现确定性 CPU 的博客项目，属技术分析或展示。",
+              "reason_en": "Tech opinion: a blog project demonstrating a deterministic CPU inside an LLM, relevant as technical analysis or display.",
+              "score": 2.9
+            },
+            {
+              "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+              "title": "所谓“9 位 AES 密钥”的案例",
+              "summary": "一篇技术博客复盘所谓“9 位 AES 密钥”的案例；该帖在 Hacker News 获101分、50条评论。",
+              "title_en": "The case of the 9 bit AES key",
+              "summary_en": "A technical blog post examines the case of a 9-bit AES key; the Hacker News post drew 101 points and 50 comments.",
+              "topic_evidence": "The case of the 9 bit AES key",
+              "reason": "技术观点：围绕 AES 密钥异常展开的技术案例复盘。",
+              "reason_en": "Tech opinion: a debugging case study about an AES key anomaly.",
+              "score": 2.9
+            },
+            {
+              "url": "https://nullpt.rs/fingerprinting-bioweapons",
+              "title": "指纹识别脚本为何会制造生物武器？",
+              "summary": "一篇博客追问指纹识别脚本为何会制造生物武器；该帖在 Hacker News 获1008分、206条评论。",
+              "title_en": "Why is this fingerprinting script creating bioweapons?",
+              "summary_en": "A blog post asks why a fingerprinting script creates bioweapons; the Hacker News post drew 1,008 points and 206 comments.",
+              "topic_evidence": "Why is this fingerprinting script creating bioweapons?",
+              "reason": "技术观点：围绕指纹识别脚本行为展开调查式讨论，Hacker News 互动量高。",
+              "reason_en": "Tech opinion: an investigative blog post about fingerprinting script behavior, with strong HN engagement.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
+              "title": "Stack Overflow 月提问量降至不足1000条",
+              "summary": "Stack Exchange 查询数据显示 Stack Overflow 月提问量已低于1000条；该帖在 Hacker News 获250分、227条评论。",
+              "title_en": "StackOverflow now gets fewer than 1000 questions a month",
+              "summary_en": "A Stack Exchange query shows Stack Overflow now receives fewer than 1,000 questions a month; the Hacker News post drew 250 points and 227 comments.",
+              "topic_evidence": "StackOverflow now gets fewer than 1000 questions a month",
+              "reason": "社区讨论：围绕开发者问答社区活跃度变化的具体数据点，且评论活跃。",
+              "reason_en": "Community discussion: a concrete data point on developer Q&A activity, with active HN comments.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "original_title": "Gemini 4 Carbon",
+      "original_summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Comments URL: https://news.ycombinator.com/item?id=50276792 Points: 867 # Comments: 715",
+      "topic_evidence": "Gemini 4 Carbon",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "original_title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "original_summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "topic_evidence": "Nvidia just released a free speech-to-text model",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "original_title": "Build specialized multimodal models with LFM3",
+      "original_summary": "",
+      "topic_evidence": "Build specialized multimodal models with LFM3",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "original_title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "original_summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "topic_evidence": "OpenAI and ServiceNow expand their partnership",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "original_title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "original_summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "topic_evidence": "Google opens Gemini and Search to more apps",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "gemini",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "original_title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "original_summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "topic_evidence": "tools to show companies what their AI spending is buying",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "original_title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "original_summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "topic_evidence": "Chrome’s AI-powered Autofill can now dig through your Gmail",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+      "original_title": "Introducing Virtual Models on AI Gateway",
+      "original_summary": "Today, we are introducing Virtual Models on AI Gateway.Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used. Assign a virtual model ID to an agent task, and pass it as the model string wherever that task is called. You can then change the model and settings behind the virtual model ID in AI Gateway, and your apps and agents will pick up the new configuration automatically, without code changes or redeploys.New models use the same virtual model IDIn the last 90 days, 125 new models from more than 10 labs became available on AI Gateway. That adds up to about 10 a week. AI Gateway already makes switching a one-line change. You call any of those models by ID, and AI Gateway routes each request to a healthy provider and can fall back to others when one fails.That one line still lives in your code, so switching usually means a redeploy.Virtual Models move model selection and configuration to AI Gateway. You create an ID for a task, like vmc/coding-agent, and then configure the model and the settings it should use:You can then use that virtual model ID as the model string wherever the task runs:For coding agents like Claude Code, Codex, and others, connect them with vercel ai-gateway setup, then select your virtual model in each harness's model picker or configuration.When a different model is available, including one from another provider, edit the virtual model. Every app and agent that calls vmc/coding-agent picks it up within a few minutes, with no code change or deployment needed:Give each task its own modelAn agent task like support ticket triage can run hundreds of times an hour and needs to be cheap. Other tasks, like legal contract review, may only run a few times a day, but require a high level of reasoning. You can now give each task a purpose-built virtual model and easily evolve that model and configuration over time: Settings such as fallbacks, Zero Data Retention, and tags stay with the virtual model when you switch models. Provider options apply per provider, so an Anthropic-specific setting stops applying when you point the virtual model at an OpenAI model. Review your provider options whenever you switch providers.Before you switch a virtual model that serves production traffic, point a second one, like vmc/coding-agent-candidate, at the new model and run your evals against it. If quality drops after the switch, point the original back at the previous model.Govern which models your team uses and howAnyone on your team can call a virtual model, and team roles control who can make changes to it. Platform and security teams can centrally govern and test models and settings, while still easily giving teams access to new models as they are released. Settings on a virtual model win over the same settings in a request, so callers can't override the provider order, fallbacks, or service tier you chose. For example, you can configure the fallback models for vmc/storefront-assistant centrally, and every app using that virtual model ID will use the same failover configuration, even if a request specifies different fallbacks.If a virtual model requires Zero Data Retention or providers that don't train on request data, those configurations are enforced even if a request explicitly sets zeroDataRetention or disallowPromptTraining to false.Tags on a virtual model replace any tags sent with the request, so spend lands on the task no matter how each app tags its calls. The Virtual Models page shows requests, spend, and success rate for each task.Get startedCreate a virtual model from your team dashboard or with the Vercel CLI.About AI GatewayAI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and doesn't charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.Virtual Models work with every model type on AI Gateway, including image, video, speech, embedding, and realtime models, and with the AI SDK and the OpenAI- and Anthropic-compatible APIs. See the Virtual Models documentation for every setting. Read more",
+      "topic_evidence": "Virtual Models are an abstraction of the model string",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "original_title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "original_summary": "Article URL: https://surgehq.ai/blog/dayjob-tax Comments URL: https://news.ycombinator.com/item?id=50275626 Points: 220 # Comments: 143",
+      "topic_evidence": "evaluating AI agents on 50 professional tax assignments",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "original_title": "Quoting Ted Sanders",
+      "original_summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. — Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
+      "topic_evidence": "LLM performance is incredibly multidimensional",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "original_title": "GitHub Octoverse 2026",
+      "original_summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commits more than tripled to 7.38 billion per month, with most of that increase in the second half of this year. New repository rate doubled this year, to 30.3 million per month. The report includes new numbers by industry, and breaks out numbers for repositories that involve \"interoperability or reverse engineering\". The methodology section includes notes about how they did this: Top countries by pushes to public repositories, adjusted by profile location . Pushes from each country were summed across the Octoverse year. To adjust for biases caused by VPN usage, LLM classification was used to extract the ISO 3166-1 alpha-2 code from the profiles of GitHub users who contributed pushes during this period [...] Industry . Public repositories created 2022 to 2026 were sorted into NAICS sectors by a fine-tuned multilingual embedding model using name, description, topics, and README, from random samples per year. [...] Interoperability . Counts public repositories created each year whose name, description, topics, or README mention interoperability or reverse engineering, or related terms, such as clean room implementation, drop-in replacement, or protocol re-implementation. Tags: github , ai , generative-ai , llms , coding-agents , disclosures , agentic-engineering",
+      "topic_evidence": "merged pull requests tripled",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+      "original_title": "Virtual models now available on AI Gateway",
+      "original_summary": "Virtual models are now available on AI Gateway. A virtual model is a saved configuration that tells AI Gateway which model and settings to use. Your apps and agents call it with a custom model ID, such as vmc/coding-agent. You can change the model or settings centrally in AI Gateway without redeploying your apps or reconfiguring your agents.Use virtual models to:Configure coding agents: Set reasoning effort, fast mode, prompt caching, and other options even when your agent doesn’t expose them.Control routing and compliance: Choose providers, configure fallback models, and enforce requirements such as Zero Data Retention.Attribute spend: Attach custom reporting tags to every request that uses the virtual model.To create a virtual model, open the Virtual Models page and click Create Virtual Model. Enter a slug, choose the underlying model, configure the settings you want requests to use, and save.Or create one with the Vercel CLI:To use a virtual model, replace the provider model ID in your AI SDK or compatible API requests with vmc/ , such as vmc/coding-agent.For coding agents, connect to AI Gateway with vercel ai-gateway setup if needed, then select your virtual model in the agent’s model picker or configuration.Virtual models work with every model type on AI Gateway. Read the launch post for examples or learn more in the virtual models documentation. Read more",
+      "topic_evidence": "A virtual model is a saved configuration",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli",
+      "original_title": "Agents can now enable Web Analytics and Observability Plus with Vercel CLI",
+      "original_summary": "Vercel CLI no longer requires an interactive terminal to enable Web Analytics or Observability Plus. Agents can now turn them on for your projects without asking you to run the commands yourself.To get started, run either command from a linked project directory:Teams must already be subscribed to Observability Plus to be able to enable it for a project.Update Vercel CLI to version 64.2.0 or later and learn more in the Vercel CLI project documentation. Read more",
+      "topic_evidence": "Vercel CLI no longer requires an interactive terminal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/fx-is-now-available-in-t3-code",
+      "original_title": "fx is now available in T3 Code",
+      "original_summary": "You can now use fx, our open-source coding agent harness, in T3 Code on web, desktop, and mobile.T3 Code is an open-source control plane for coding agents, allowing you to add agents like fx as providers for your coding sessions. The built-in fx provider supports Supervised and Auto modes, along with the models and skills you already use with fx.Get started by installing fx and setting up your model provider. Then download T3 Code and add fx from Settings > Providers > Add provider. Read more",
+      "topic_evidence": "fx, our open-source coding agent harness, in T3 Code",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+      "original_title": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "original_summary": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB.The higher layer limit is useful for images with large toolchains or dependency sets, such as custom Vercel Sandbox environments for coding-agent evaluations.With Docker and the Vercel CLI installed, run these commands from the directory containing your Dockerfile:Read the Vercel Container Registry getting-started guide to build, push, and pull your first container image. Read more",
+      "topic_evidence": "up to 2 GB per compressed image layer",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+      "original_title": "Vercel CI is now in beta",
+      "original_summary": "You can now run CI for your Turborepo with one line of configuration.In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up with our coding agents.To get started, prompt your agent in your repo:Each task marked with a ci tag runs on every push. Vercel CI automatically takes care of:Only running CI that is affected by your code changesTask caching with Vercel Remote CacheInstalling dependencies once per runCaching dependencies across code updatesTo learn more:Check out our blog postVisit the documentation Discuss Vercel CI on the Community announcement Read more",
+      "topic_evidence": "wait time from git push to \"CI passed\" is 2-6x shorter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design",
+      "original_title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+      "original_summary": "This post describes the next generation of Meta Andromeda, Meta’s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In production, the system scores every eligible ad with near ranking-level model performance at retrieval scale and surfaces the top candidates at over one [...] Read More... The post Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design appeared first on Engineering at Meta .",
+      "topic_evidence": "co-designing the model, system, and GPU hardware",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "performance"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+      "original_title": "Smaller EV batteries, longer range? Scientists may have found a way",
+      "original_summary": "Scientists have developed a new technology that could make electric vehicle batteries smaller, lighter, and longer-lasting, potentially allowing cars to travel farther on a single charge. By borrowing precision manufacturing techniques from computer chip production, they found a way to prevent damaging lithium buildup that has held back next-generation batteries.",
+      "topic_evidence": "prevent damaging lithium buildup",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
+      "original_title": "Meteors don't just burn up. What really happens is far more violent",
+      "original_summary": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate. The discovery could help explain why meteorites scatter across the ground and how dangerous asteroids explode in Earth's atmosphere.",
+      "topic_evidence": "seven surprising stages that space rocks go through as they hurtle toward Earth",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "space"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
+      "original_title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+      "original_summary": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny experimental detectors also uncovered surprising details about how radiation passes through the human body, offering valuable insights for future lunar exploration.",
+      "topic_evidence": "cosmic radiation near the Moon is higher than in Earth orbit",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+      "original_title": "Scientists just broke a textbook rule of physics",
+      "original_summary": "Scientists have defied a long-standing rule of laser physics by generating X-rays with much higher energies than conventional theory predicts. The surprising discovery reveals how two electrons working together can overcome a previously accepted limit, opening new possibilities for quantum research.",
+      "topic_evidence": "generating X-rays with much higher energies than conventional theory predicts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum",
+        "research",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
+      "original_title": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
+      "original_summary": "Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research suggests that as massive ice sheets expanded across the Northern Hemisphere, they cooled Atlantic Ocean waters that eventually traveled south toward Antarctica. This cooling may have disrupted Southern Ocean circulation, allowing the ocean to absorb and store more carbon dioxide from the atmosphere, further cooling the planet.",
+      "topic_evidence": "a surprising connection between Earth's opposite poles",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "research"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+      "original_title": "Your blood pressure could be dangerous even when your numbers look normal",
+      "original_summary": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding reveals a hidden source of cardiovascular risk and could open the door to new treatments that protect the heart and brain.",
+      "topic_evidence": "a small group of brain cells that prevents dangerous blood pressure swings",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
+      "original_title": "Scientists discover the immune system’s hidden sense of touch",
+      "original_summary": "Scientists at McGill University have discovered a surprising new ability of immune cells that could change how we understand long-term immunity. Researchers found that T cells can actually sense how stiff their surrounding tissues are, using these physical signals to help determine whether they develop into long-lasting memory cells that protect against future infections.",
+      "topic_evidence": "T cells can actually sense how stiff their surrounding tissues are",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition",
+      "original_title": "Formlabs Studio 1 $699 Resin Printer",
+      "original_summary": "Article URL: https://formlabs.com/products/form-studio-1-basic-founders-edition/ Comments URL: https://news.ycombinator.com/item?id=50281044 Points: 156 # Comments: 106",
+      "topic_evidence": "Formlabs Studio 1 $699 Resin Printer",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "product"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/alpha-vantage",
+      "original_title": "Congress Trades",
+      "original_summary": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "topic_evidence": "See how Congress members trade, and if copying them pays off",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer",
+      "original_title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "original_summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "topic_evidence": "raised a Series C at a $3.8B valuation, instead of selling itself for the same price",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "acquisition"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "original_title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "original_summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "topic_evidence": "raises $10B fund to make big bets on at least 10 companies",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
+      "original_title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "original_summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "topic_evidence": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ipo"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "original_summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
+      "topic_evidence": "Serbian shot dead after attacking officer outside Israeli embassy",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news-analysis/2026/10/29/can-turkiyes-libya-breakthrough-reshape-eastern-mediterranean-diplomacy?traffic_source=rss",
+      "original_title": "Can Turkiye’s Libya breakthrough reshape Eastern Mediterranean diplomacy?",
+      "original_summary": "Ankara wins backing from former adversaries in Libya for maritime border agreement, but other diplomatic tests remain.",
+      "topic_evidence": "Ankara wins backing from former adversaries in Libya for maritime border agreement",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "diplomacy"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "original_summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+      "topic_evidence": "Ceasefire extended across Ukraine's Kherson region",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ceasefire"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "original_title": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "original_summary": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’ The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal. A draft of a joint statement to be issued after the end of the summit, which runs Thursday and Friday, showed a watered-down version offering “an ever closer association of Canada to the EU, short of full membership itself”. Continue reading...",
+      "topic_evidence": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "original_summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "topic_evidence": "Netanyahu's Likud party and its allies are set to win 53 seats",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "original_summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "topic_evidence": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+      "original_title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+      "original_summary": "Pete Hoekstra, controversial US ambassador to Canada, has also accused Canadian officials of interfering in US elections The US ambassador has suggested Canada could be blamed if Republicans perform poorly in next week’s midterm elections, the latest intervention from a controversial figure who has been accused of inflaming a bitter dispute that has angered and baffled residents of both countries. On Wednesday, CTV news reported that Pete Hoekstra told business leaders at a closed door meeting that if a number of swing races – including Maine and Michigan – go to the Democrats, it could make things harder for Canada because Donald Trump might try to blame the loss on it. Continue reading...",
+      "topic_evidence": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/10/29/judge-rejects-trump-effort-to-block-california-noncitizen-ballots?traffic_source=rss",
+      "original_title": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+      "original_summary": "More than 100 subpoenas issued across 13 states as government ramps up search for alleged noncitizen voters.",
+      "topic_evidence": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+      "original_title": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+      "original_summary": "Warnings of escalating clampdown on press freedom come after Cairo court convicts Attalah of managing an unlicensed website Lina Attalah, a prominent Egyptian journalist and the editor-in-chief of the news outlet Mada Masr, has been released from detention by Egypt’s authorities and had her website ordered to be shut down by a court amid an intensifying crackdown on independent media in the country. Attalah was taken briefly into custody after a Cairo court convicted her of managing an unlicensed website, prompting fresh international concerns over press freedom in Egypt. Continue reading...",
+      "topic_evidence": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "international"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+      "original_title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+      "original_summary": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment The “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s top health officials. As the current outbreak reached 10,000 cases, with almost 5,000 deaths , Dr Jean Kaseya, director general of the Africa Centres for Disease Control and Prevention (CDC), compared the outbreak to the Covid pandemic, which first took hold in China before spreading to countries across the world, claiming millions of lives, and ravaging health systems and economies. Continue reading...",
+      "topic_evidence": "As the current outbreak reached 10,000 cases",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world",
+        "health"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+      "original_title": "High-speed train crash kills at least 68 people in Spain",
+      "original_summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "topic_evidence": "High-speed train crash kills at least 68 people in Spain",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+      "original_summary": "No official reason has been given for postponing next month’s hearing to May 2027, the family says.",
+      "topic_evidence": "No official reason has been given for postponing next month’s hearing to May 2027",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722619.shtml",
+      "original_title": "广西深化农兽药综合整治 “三进”普法与假劣农资集中销毁同步推进",
+      "original_summary": "中新网南宁10月29日电 (杨陈 李季)2026年广西全区农业综合行政执法“进农村、进企业、进学校”暨农药兽药综合整治执法普法宣传活动，28日在防城港市举办。活动紧扣农兽药综合整治专项行动要求，坚持执法办案与普法宣传深度融合，旨在提升民众依法维权意识。",
+      "topic_evidence": "农药兽药综合整治执法普法宣传活动",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722630.shtml",
+      "original_title": "北京市政协建言提升国际传播力",
+      "original_summary": "作为国际社会观察中国、认识中国的重要窗口，首都北京如何持续提升国际传播力，向世界展示一个真实、鲜活、充满机遇的中国？北京市政协近日召开协商座谈会，政协委员、民主党派成员及专家学者等围绕“提升国际传播力，讲好新时代中国故事、北京故事”积极建言献策。",
+      "topic_evidence": "提升国际传播力，讲好新时代中国故事、北京故事",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722622.shtml",
+      "original_title": "戈壁滩“酿”出“紫色产业”：宁夏为葡萄酒特色发展筑牢空间基础",
+      "original_summary": "中新网银川10月29日电 (邸子瀛)近日，第47届世界葡萄与葡萄酒大会暨OIV成员国代表大会在宁夏银川圆满落幕。这是该大会创办百余年来首次落地亚洲，印证了宁夏葡萄酒产业正在稳步升级、走向世界。",
+      "topic_evidence": "第47届世界葡萄与葡萄酒大会暨OIV成员国代表大会在宁夏银川圆满落幕",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722668.shtml",
+      "original_title": "从援疆相遇走向共富：疆果果十年带动5万余果农增收",
+      "original_summary": "中新网新疆喀什10月29日电 (贾志鹏)九月的新疆喀什，连片的巴旦木、新梅果园里挂满沉甸甸的果实，成群的运输车辆在民营企业喀什疆果果农业科技有限公司(下称“疆果果”)门口排起长队，刚从田间收来的特色林果，经过标准化分拣、加工、包装，将沿着供应链送往全国乃至中亚、欧洲市场。",
+      "topic_evidence": "十年带动5万余果农增收",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "科技"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722581.shtml",
+      "original_title": "2026年风云卫星用户大会召开 新成果展现发展成效",
+      "original_summary": "中新网长沙10月29日电 (付敬懿)以“风云瞰寰宇 聚智谋未来”为主题的2026年风云卫星用户大会29日在湖南长沙举行，风云三号H星及风云四号C星气象卫星数据产品、风云精工·风云卫星中试平台、风云气象卫星极端天气AI模型三项科技成果正式发布，展现风云气象卫星科技创新与综合应用发展成效。",
+      "topic_evidence": "风云三号H星及风云四号C星气象卫星数据产品、风云精工·风云卫星中试平台、风云气象卫星极端天气AI模型三项科技成果正式发布",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "科技"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722617.shtml",
+      "original_title": "重庆警方：网民刘某编造餐馆对外籍顾客免单言论，已被行拘",
+      "original_summary": "中新网10月29日电 据“平安璧山”微信公众号消息，10月29日，重庆市璧山区公安局依法查处一起网络谣言案。近日，有网民在互联网平台发布信息，称自己“因曝光餐馆对外籍顾客免单而遭受言语攻击”，引发网民关注讨论。",
+      "topic_evidence": "网民刘某编造餐馆对外籍顾客免单言论，已被行拘",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "警方",
+        "公安"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722644.shtml",
+      "original_title": "西藏巴青县：34处集中安置点已搭建板房2686间",
+      "original_summary": "记者从西藏自治区巴青7.0级地震灾害应急处置指挥部获悉：截至10月28日13时，34处集中安置点安置受灾群众12964人，受灾区域已搭建帐篷3796顶，配发火炉4084套。已搭建板房2686间，板房搭建完成率超80%，已入住群众4011人。各医疗保障点累计接诊群众2832人次，开展巡诊189次，累计发放药品354种、4910份。消防救援队伍推进安全隐患整改工作，组建微型消防站、志愿消防队39支。",
+      "topic_evidence": "34处集中安置点安置受灾群众12964人",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "救援",
+        "消防"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722649.shtml",
+      "original_title": "三丽鸥致歉：终止与抹黑中国的日剧《VIVANT》角色联动合作",
+      "original_summary": "拥有Hello Kitty、玉桂狗、美乐蒂等知名IP的日本三丽鸥集团，此前与严重抹黑中国的日剧《VIVANT》推出联名产品的消息，在社交媒体上引发强烈反感。",
+      "topic_evidence": "终止与抹黑中国的日剧《VIVANT》角色联动合作",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722658.shtml",
+      "original_title": "辽宁秋假文化活动开启 让青少年走出课堂享受艺术时光",
+      "original_summary": "中新网沈阳10月29日电 (记者 韩宏)辽宁省文化中心围绕2026年度秋假，聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块，于10月29日至11月2日秋假期间集中推出系列文化活动。",
+      "topic_evidence": "聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks Pare Tech-Led Losses, Crude Oil Declines: Markets Wrap",
+      "original_summary": "Technology stocks trimmed their losses as the European session neared, after disappointing earnings from two industry heavyweights earlier revived doubts over whether billions of dollars in AI spending will deliver sufficient returns. Oil fell.",
+      "topic_evidence": "Technology stocks trimmed their losses",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/global-fund-managers-grow-bullish-on-japanese-government-bonds",
+      "original_title": "Global Fund Managers Grow Bullish on Japan’s Long Bonds",
+      "original_summary": "Global fund managers are warming to Japan’s bond market again as signs of recovering domestic demand and a more supportive policy backdrop add to the appeal of elevated yields.",
+      "topic_evidence": "Global fund managers are warming to Japan’s bond market again",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/chinese-tech-stocks-sink-even-as-chipmaker-sales-surge-1-800",
+      "original_title": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800%",
+      "original_summary": "Chinese tech hardware shares tumbled as impressive quarterly results at some companies failed to offset persistent concerns over fundamentals and weak global AI sentiment.",
+      "topic_evidence": "Chinese tech hardware shares tumbled",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+      "original_title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+      "original_summary": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
+      "topic_evidence": "A doubling of cloud revenue wasn’t enough to appease Wall Street",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+      "original_title": "The major reason Microsoft’s stock is heading higher after earnings",
+      "original_summary": "Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
+      "topic_evidence": "able to grow rapidly while keeping spending in check",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it",
+      "original_title": "Fed Holds Fire as Warsh Telegraphs More Hikes Without Saying It",
+      "original_summary": "Federal Reserve Chairman Kevin Warsh on Wednesday left the central bank on track to raise interest rates again this year, even as he stuck to his refusal to offer any explicit guidance on the future path of policy.",
+      "topic_evidence": "left the central bank on track to raise interest rates again this year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/ecb-set-to-hold-rates-to-assess-france-and-energy-risks",
+      "original_title": "ECB Set to Hold Rates to Assess France and Energy Risks",
+      "original_summary": "The European Central Bank is set to keep borrowing costs steady as it weighs bond-market turmoil in France and a renewed advance in energy costs.",
+      "topic_evidence": "The European Central Bank is set to keep borrowing costs steady",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/boj-set-to-hold-rate-as-inflation-reaches-long-awaited-milestone",
+      "original_title": "BOJ Set to Hold Rate as Inflation Reaches Long-Awaited Milestone",
+      "original_summary": "The Bank of Japan is widely expected to keep its benchmark interest rate unchanged on Friday while indicating that underlying inflation has finally reached its 2% target, a milestone that would strengthen the case for further rate hikes.",
+      "topic_evidence": "underlying inflation has finally reached its 2% target",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-29/kalemli-ozcan-today-s-inflation-lacks-2021-s-force-video",
+      "original_title": "Kalemli-Ozcan: Today's Inflation Lacks 2021's Force",
+      "original_summary": "Brown University Professor of Economics Sebnem Kalemli-Ozcan tells Bloomberg TV that while tariff and energy pressures persist, stronger supply conditions mean today's inflation shocks do not match the severity of the pandemic era. (Source: Bloomberg)",
+      "topic_evidence": "today's inflation shocks do not match the severity of the pandemic era",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economics",
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
+      "original_title": "Bank of Canada Chief Tiff Macklem Warns US Deficits Are Costly and Unsustainable",
+      "original_summary": "Bank of Canada Governor Tiff Macklem warned that US borrowing is on an unsustainable trajectory as he offered an unusually blunt assessment of American tax and spending policy, which is putting pressure on global bond yields.",
+      "topic_evidence": "US borrowing is on an unsustainable trajectory",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/prediction-markets-avoid-australia-s-tough-line-on-gambling",
+      "original_title": "Prediction Markets Avoid Australia’s Tough Line on Gambling",
+      "original_summary": "Australia’s corporate regulator has not received a single application from a prediction market provider to operate in the country, where such platforms would likely face gambling rather than financial regulations.",
+      "topic_evidence": "has not received a single application from a prediction market provider",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "regulation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "original_title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "original_summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+      "topic_evidence": "Several proposals consider changing the way retirees receive inflation protection",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "original_title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "original_summary": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 187 # Comments: 39",
+      "topic_evidence": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://divagr.com/blog/qwenputer",
+      "original_title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "original_summary": "Article URL: https://divagr.com/blog/qwenputer Comments URL: https://news.ycombinator.com/item?id=50282838 Points: 268 # Comments: 61",
+      "topic_evidence": "A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "original_title": "The case of the 9 bit AES key",
+      "original_summary": "Article URL: https://v12.sh/blog/the-case-of-the-9bit-aes-key Comments URL: https://news.ycombinator.com/item?id=50280722 Points: 101 # Comments: 50",
+      "topic_evidence": "The case of the 9 bit AES key",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "original_title": "Why is this fingerprinting script creating bioweapons?",
+      "original_summary": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 1008 # Comments: 206",
+      "topic_evidence": "Why is this fingerprinting script creating bioweapons?",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
+      "original_title": "StackOverflow now gets fewer than 1000 questions a month",
+      "original_summary": "Article URL: https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1 Comments URL: https://news.ycombinator.com/item?id=50282454 Points: 250 # Comments: 227",
+      "topic_evidence": "StackOverflow now gets fewer than 1000 questions a month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "original_title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "original_summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "topic_evidence": "tools to show companies what their AI spending is buying",
+      "approved": true,
+      "evidence": "launched tools to show companies what their AI spending is buying",
+      "reason": "主事件是Anthropic推出展示企业AI支出用途的工具，属于AI产品/平台功能发布。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "original_title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "original_summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "topic_evidence": "Chrome’s AI-powered Autofill can now dig through your Gmail",
+      "approved": true,
+      "evidence": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "reason": "主事件是Chrome的AI自动填充功能更新，可从Gmail提取信息填表，属于AI产品功能迭代。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://surgehq.ai/blog/dayjob-tax",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "original_title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "original_summary": "Article URL: https://surgehq.ai/blog/dayjob-tax Comments URL: https://news.ycombinator.com/item?id=50275626 Points: 220 # Comments: 143",
+      "topic_evidence": "evaluating AI agents on 50 professional tax assignments",
+      "approved": true,
+      "evidence": "evaluating AI agents on 50 professional tax assignments",
+      "reason": "主事件是用50项专业税务任务评测AI智能体，属于AI研究与评测。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "original_title": "Quoting Ted Sanders",
+      "original_summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. — Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
+      "topic_evidence": "LLM performance is incredibly multidimensional",
+      "approved": false,
+      "evidence": "LLM performance is incredibly multidimensional",
+      "reason": "内容为对OpenAI模型命名和性能的引述解释，不是研究或治理事件，也不构成政策讨论。"
+    },
+    {
+      "id": "developer/open-source-tools/https://vercel.com/changelog/fx-is-now-available-in-t3-code",
+      "section": "开发与编程",
+      "subsection": "开源与工具",
+      "url": "https://vercel.com/changelog/fx-is-now-available-in-t3-code",
+      "original_title": "fx is now available in T3 Code",
+      "original_summary": "You can now use fx, our open-source coding agent harness, in T3 Code on web, desktop, and mobile.T3 Code is an open-source control plane for coding agents, allowing you to add agents like fx as providers for your coding sessions. The built-in fx provider supports Supervised and Auto modes, along with the models and skills you already use with fx.Get started by installing fx and setting up your model provider. Then download T3 Code and add fx from Settings > Providers > Add provider. Read more",
+      "topic_evidence": "fx, our open-source coding agent harness, in T3 Code",
+      "approved": true,
+      "evidence": "our open-source coding agent harness, in T3 Code",
+      "reason": "主事件是开源编码智能体工具fx接入T3 Code，属于开源与开发工具。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+      "original_title": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "original_summary": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB.The higher layer limit is useful for images with large toolchains or dependency sets, such as custom Vercel Sandbox environments for coding-agent evaluations.With Docker and the Vercel CLI installed, run these commands from the directory containing your Dockerfile:Read the Vercel Container Registry getting-started guide to build, push, and pull your first container image. Read more",
+      "topic_evidence": "up to 2 GB per compressed image layer",
+      "approved": true,
+      "evidence": "up to 2 GB per compressed image layer",
+      "reason": "主事件是容器镜像仓库单层压缩大小上限提升，属于基础设施能力更新。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+      "original_title": "Vercel CI is now in beta",
+      "original_summary": "You can now run CI for your Turborepo with one line of configuration.In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up with our coding agents.To get started, prompt your agent in your repo:Each task marked with a ci tag runs on every push. Vercel CI automatically takes care of:Only running CI that is affected by your code changesTask caching with Vercel Remote CacheInstalling dependencies once per runCaching dependencies across code updatesTo learn more:Check out our blog postVisit the documentation Discuss Vercel CI on the Community announcement Read more",
+      "topic_evidence": "wait time from git push to \"CI passed\" is 2-6x shorter",
+      "approved": true,
+      "evidence": "Vercel CI is now in beta",
+      "reason": "主事件是Vercel CI进入测试并缩短CI等待时间，属于开发基础设施服务。"
+    },
+    {
+      "id": "science-tech/space-energy-robotics/https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+      "section": "科技与科学",
+      "subsection": "航天能源与机器人",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+      "original_title": "Smaller EV batteries, longer range? Scientists may have found a way",
+      "original_summary": "Scientists have developed a new technology that could make electric vehicle batteries smaller, lighter, and longer-lasting, potentially allowing cars to travel farther on a single charge. By borrowing precision manufacturing techniques from computer chip production, they found a way to prevent damaging lithium buildup that has held back next-generation batteries.",
+      "topic_evidence": "prevent damaging lithium buildup",
+      "approved": true,
+      "evidence": "prevent damaging lithium buildup",
+      "reason": "主事件是新型电池制造技术抑制锂沉积以提升电动车续航，属于能源/电池技术。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/alpha-vantage",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/alpha-vantage",
+      "original_title": "Congress Trades",
+      "original_summary": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "topic_evidence": "See how Congress members trade, and if copying them pays off",
+      "approved": true,
+      "evidence": "See how Congress members trade, and if copying them pays off",
+      "reason": "该条目描述跟踪国会议员交易并评估跟单收益的具体产品，属于新产品。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "original_title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "original_summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "topic_evidence": "raises $10B fund to make big bets on at least 10 companies",
+      "approved": true,
+      "evidence": "raises $10B fund to make big bets on at least 10 companies",
+      "reason": "主事件是Disruptive募集100亿美元基金并计划投资多家公司，属于融资事件。"
+    },
+    {
+      "id": "world/geopolitics/https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "original_title": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "original_summary": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’ The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal. A draft of a joint statement to be issued after the end of the summit, which runs Thursday and Friday, showed a watered-down version offering “an ever closer association of Canada to the EU, short of full membership itself”. Continue reading...",
+      "topic_evidence": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "approved": true,
+      "evidence": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "reason": "主事件是欧盟在加拿大准成员谈判上的立场后退，属于地缘政治与国际关系。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "original_summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "topic_evidence": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "approved": false,
+      "evidence": "denies fleeing Brazil after landing in Miami",
+      "reason": "主事件是巴西政治人物否认出逃并重提政治迫害指控，不是具体政府政策或制度行动。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+      "original_title": "High-speed train crash kills at least 68 people in Spain",
+      "original_summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "topic_evidence": "High-speed train crash kills at least 68 people in Spain",
+      "approved": true,
+      "evidence": "High-speed train crash kills at least 68 people in Spain",
+      "reason": "主事件是西班牙高铁相撞造成至少68人死亡，属于全球社会突发事件。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+      "original_summary": "No official reason has been given for postponing next month’s hearing to May 2027, the family says.",
+      "topic_evidence": "No official reason has been given for postponing next month’s hearing to May 2027",
+      "approved": true,
+      "evidence": "No official reason has been given for postponing next month’s hearing to May 2027",
+      "reason": "主事件是肯尼亚引渡听证延期引发社会愤怒，属于全球社会司法事件。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/sh/2026/10-29/10722619.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722619.shtml",
+      "original_title": "广西深化农兽药综合整治 “三进”普法与假劣农资集中销毁同步推进",
+      "original_summary": "中新网南宁10月29日电 (杨陈 李季)2026年广西全区农业综合行政执法“进农村、进企业、进学校”暨农药兽药综合整治执法普法宣传活动，28日在防城港市举办。活动紧扣农兽药综合整治专项行动要求，坚持执法办案与普法宣传深度融合，旨在提升民众依法维权意识。",
+      "topic_evidence": "农药兽药综合整治执法普法宣传活动",
+      "approved": true,
+      "evidence": "农药兽药综合整治执法普法宣传活动",
+      "reason": "主事件是广西开展农兽药综合整治执法普法并销毁假劣农资，属于地方监管执法行动。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/10-29/10722630.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722630.shtml",
+      "original_title": "北京市政协建言提升国际传播力",
+      "original_summary": "作为国际社会观察中国、认识中国的重要窗口，首都北京如何持续提升国际传播力，向世界展示一个真实、鲜活、充满机遇的中国？北京市政协近日召开协商座谈会，政协委员、民主党派成员及专家学者等围绕“提升国际传播力，讲好新时代中国故事、北京故事”积极建言献策。",
+      "topic_evidence": "提升国际传播力，讲好新时代中国故事、北京故事",
+      "approved": true,
+      "evidence": "提升国际传播力，讲好新时代中国故事、北京故事",
+      "reason": "主事件是北京市政协就提升国际传播力召开协商座谈，属于政策讨论。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-29/10722649.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722649.shtml",
+      "original_title": "三丽鸥致歉：终止与抹黑中国的日剧《VIVANT》角色联动合作",
+      "original_summary": "拥有Hello Kitty、玉桂狗、美乐蒂等知名IP的日本三丽鸥集团，此前与严重抹黑中国的日剧《VIVANT》推出联名产品的消息，在社交媒体上引发强烈反感。",
+      "topic_evidence": "终止与抹黑中国的日剧《VIVANT》角色联动合作",
+      "approved": true,
+      "evidence": "终止与抹黑中国的日剧《VIVANT》角色联动合作",
+      "reason": "主事件是三丽鸥因联名争议致歉并终止合作，属于社会舆论事件。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/10-29/10722658.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-29/10722658.shtml",
+      "original_title": "辽宁秋假文化活动开启 让青少年走出课堂享受艺术时光",
+      "original_summary": "中新网沈阳10月29日电 (记者 韩宏)辽宁省文化中心围绕2026年度秋假，聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块，于10月29日至11月2日秋假期间集中推出系列文化活动。",
+      "topic_evidence": "聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块",
+      "approved": true,
+      "evidence": "聚焦舞台展演、文博研学、非遗手作、阅读推广、艺术展览、线上互动等六大板块",
+      "reason": "主事件是辽宁在秋假期间推出面向青少年的系列文化活动，属于社会文化动态。"
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable",
+      "original_title": "Bank of Canada Chief Tiff Macklem Warns US Deficits Are Costly and Unsustainable",
+      "original_summary": "Bank of Canada Governor Tiff Macklem warned that US borrowing is on an unsustainable trajectory as he offered an unusually blunt assessment of American tax and spending policy, which is putting pressure on global bond yields.",
+      "topic_evidence": "US borrowing is on an unsustainable trajectory",
+      "approved": true,
+      "evidence": "US borrowing is on an unsustainable trajectory",
+      "reason": "主事件是加拿大央行行长警告美国赤字与借贷不可持续，属于宏观政策评论。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "original_title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "original_summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+      "topic_evidence": "Several proposals consider changing the way retirees receive inflation protection",
+      "approved": true,
+      "evidence": "Several proposals consider changing the way retirees receive inflation protection",
+      "reason": "主事件是讨论社保生活成本调整改革对退休者通胀保护的影响，属于理财与监管议题。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://divagr.com/blog/qwenputer",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://divagr.com/blog/qwenputer",
+      "original_title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "original_summary": "Article URL: https://divagr.com/blog/qwenputer Comments URL: https://news.ycombinator.com/item?id=50282838 Points: 268 # Comments: 61",
+      "topic_evidence": "A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "approved": false,
+      "evidence": "A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "reason": "主事件是展示在Qwen3.5内运行RISC-V CPU的技术实验，不是观点或社论。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "original_title": "The case of the 9 bit AES key",
+      "original_summary": "Article URL: https://v12.sh/blog/the-case-of-the-9bit-aes-key Comments URL: https://news.ycombinator.com/item?id=50280722 Points: 101 # Comments: 50",
+      "topic_evidence": "The case of the 9 bit AES key",
+      "approved": false,
+      "evidence": "The case of the 9 bit AES key",
+      "reason": "主事件是AES密钥相关技术案例叙述，不是观点或社论。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://nullpt.rs/fingerprinting-bioweapons",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "original_title": "Why is this fingerprinting script creating bioweapons?",
+      "original_summary": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 1008 # Comments: 206",
+      "topic_evidence": "Why is this fingerprinting script creating bioweapons?",
+      "approved": false,
+      "evidence": "Why is this fingerprinting script creating bioweapons?",
+      "reason": "主事件是对指纹脚本生成生物武器相关结果的技术分析，不是观点或社论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://surgehq.ai/blog/dayjob-tax"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/10-29/10722630.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/sh/2026/10-29/10722619.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-29/10722649.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/10-29/10722658.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-ci-is-now-in-beta"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+    ],
+    [
+      "developer",
+      "open-source-tools",
+      "https://vercel.com/changelog/fx-is-now-available-in-t3-code"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-28/bank-of-canada-chief-tiff-macklem-warns-us-deficits-are-costly-and-unsustainable"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories"
+    ],
+    [
+      "science-tech",
+      "space-energy-robotics",
+      "https://www.sciencedaily.com/releases/2026/10/261027063708.htm"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/alpha-vantage"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.theguardian.com/world/2026/oct/28/european-union-canada"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}
