@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-10-30</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261030 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年10月30日 星期五</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-10-30/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">9 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：Node.js 26 LTS、Vercel CI 测试版与 Meta JiTTests">
+      <div class="lead-label">开发与编程：Node.js 26 LTS、Vercel CI 测试版与 Meta JiTTests</div>
+      <p>本期汇总 Vercel 对 Node.js 26 LTS、fx 适配器、CI 测试版、Antigravity 插件、Firewall、IP 地理定位和 Connect 的更新，并纳入 GitHub Octoverse 2026 与 Meta JiTTests 的生产成效。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：Node.js 26 LTS 与 fx 适配器更新">
+          <div class="lead-label">语言与框架：Node.js 26 LTS 与 fx 适配器更新</div>
+          <p>Vercel 宣布 Node.js 26 LTS 可用于构建和 Vercel Functions，内置 fetch 默认启用 HTTP/2 并新增 Temporal API；其 AI SDK HarnessAgent 的 fx 适配器改用 libfx，使 harness 与模型请求在应用进程内运行，文件系统与 shell 操作仍留在沙箱。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/node-js-26-lts-is-now-generally-available-on-vercel" target="_blank" rel="noopener">
+            <span class="at">Vercel 支持用 Node.js 26 LTS 构建和运行 Vercel Functions</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 宣布，Node.js 26 LTS 现在可用于构建和 Vercel Functions：内置 fetch 默认启用 HTTP/2（Undici 8），可复用连接以降低延迟，并新增不可变 Temporal API。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox" target="_blank" rel="noopener">
+            <span class="at">Vercel 的 fx 适配器改为在宿主进程运行 HarnessAgent</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">AI SDK 的 HarnessAgent 的 fx 适配器改用 TypeScript 库 libfx：harness 与模型请求在应用进程内运行，文件系统与 shell 操作仍隔离在沙箱中，无需再安装 fx 或架设沙箱桥接。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Octoverse 2026、Vercel CI 与 Meta JiTTests">
+          <div class="lead-label">开源与工具：Octoverse 2026、Vercel CI 与 Meta JiTTests</div>
+          <p>GitHub 发布 2026 Octoverse 报告，称 2026 年合并的 PR 数量在不到一年内增至三倍；Vercel 推出测试版 CI，以一行配置为 Turborepo 运行 CI，并称内部仓库从 git push 到 CI 通过缩短 2 至 6 倍；Vercel 插件上线 Google Antigravity 市场；Meta 公布 JiTTests 生产成效，用大模型按需生成测试以在代码合入前发现缺陷。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/28/github-octoverse-2026" target="_blank" rel="noopener">
+            <span class="at">GitHub Octoverse 2026：2026 年合并的 PR 数量在不到一年内增至三倍</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">GitHub 发布 2026 年 Octoverse 报告，执行副总裁 Jay Parikh 称，2026 年合并的 pull request 数量在不到一年内增至三倍，作者认为这体现了智能体工程对平台的影响。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-ci-is-now-in-beta" target="_blank" rel="noopener">
+            <span class="at">Vercel CI 进入测试阶段：一行配置即可为 Turborepo 运行 CI</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 推出测试版 CI，可用一行配置为 Turborepo 运行持续集成；Vercel 称，其内部仓库从 git push 到 CI 通过的时间缩短 2 至 6 倍，以跟上编码智能体的节奏。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-plugin-is-now-available-in-antigravity" target="_blank" rel="noopener">
+            <span class="at">Vercel 插件上线 Google Antigravity 市场</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 插件现可在 Google Antigravity 市场获取，为智能体提供 Vercel API 与推荐模式指导，并包含 AI SDK、Vercel Functions、Workflow 等技能，示例中用于构建并部署 Python 后端。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale" target="_blank" rel="noopener">
+            <span class="at">Meta 公布 JiTTests 生产成效：用大模型在代码合入前发现缺陷</span>
+            <span class="by">Meta 工程</span>
+            <p class="as">Meta 工程团队公布 JiTTests 在生产环境的落地效果：用大模型按需生成测试，在代码合入前发现缺陷；论文《Just-in-Time Catching Test Generation at Meta》给出完整细节。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：AI 爬虫控制、IP 地理定位与 webhook 触发">
+          <div class="lead-label">基础设施与数据：AI 爬虫控制、IP 地理定位与 webhook 触发</div>
+          <p>Vercel Firewall 的 AI Bots 托管规则集可分别记录或拦截 AI 爬虫与 AI 助手；IP 地理定位可对几乎所有请求给出城市级数据、对 90% 流量给出邮编级数据；Vercel Connect 新增 Resend、X、Twilio、Notion 和 Telegram 的 webhook 触发，并代为校验请求、处理心跳与验证挑战。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules" target="_blank" rel="noopener">
+            <span class="at">Vercel Firewall 可分别限制 AI 爬虫与 AI 助手</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Firewall 的 AI Bots 托管规则集现可分别记录或拦截 AI 爬虫与 AI 助手请求：爬虫为索引和训练抓取内容，助手响应用户操作或搜索取页，因此可只拦爬虫、放行助手。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/improved-ip-geolocation-data" target="_blank" rel="noopener">
+            <span class="at">Vercel IP 地理定位精度提升：几乎所有请求都能定位到城市级</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 的 IP 地理定位现以更细的网络粒度解析访客位置：几乎所有请求可给出城市级数据，90% 流量可到邮编级；数据刷新更频繁，所有项目默认启用且无需改代码。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-connect-adds-webhook-triggers-for-more-providers" target="_blank" rel="noopener">
+            <span class="at">Vercel Connect 新增 Resend、X、Twilio、Notion、Telegram 的 webhook 触发</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Connect 现支持来自 Resend、X、Twilio、Notion 和 Telegram 的 webhook 触发，接收事件后转发到 Vercel 项目端点，并代为校验请求、处理服务商心跳与验证挑战。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

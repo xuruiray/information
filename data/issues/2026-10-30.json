@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "title": "信息日报 2026-10-30",
+  "title_en": "Information Daily 2026-10-30",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "加密货币巨头币安遭黑客攻击，疑似史上最大规模",
+    "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "币安称约63亿美元资金受影响，两家分析机构将此次攻击归咎于朝鲜黑客组织TraderTraitor；这被认为是加密货币行业最大规模黑客事件。",
+    "source_en": "BBC World",
+    "title_en": "Crypto giant Binance hit by hack suspected to be largest in history",
+    "summary_en": "Binance said about $6.3bn in funds were affected, and two analytics firms attributed the breach to a North Korean hacking unit called TraderTraitor, in what is described as crypto’s largest-ever hack.",
+    "original_title": "Crypto giant Binance hit by hack suspected to be largest in history",
+    "published_at": "2026-10-30T05:15:16+00:00",
+    "reason": "涉及朝鲜网络攻击与全球金融基础设施安全。",
+    "reason_en": "Involves North Korean cyberattack and global financial infrastructure security.",
+    "score": 3.0
+  },
+  "path": "papers/2026-10-30.html",
+  "raw_path": "raw/2026-10-30.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://openai.com/index/ropes-gray-ai-diligence]",
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure]",
+    "Editorial item ignored in developer/languages-frameworks: topic evidence does not match subsection [https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration]",
+    "Editorial item ignored in opinion/tech-opinion: missing concrete Chinese title or summary [https://martinfowler.com/bliki/LLM-Voice.html]"
+  ]
+}
