@@ -1,0 +1,2476 @@
+{
+  "date": "2026-11-01",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+              "title": "谷歌首个数据中心卫星上线，在太空运行 Gemma 4 并写诗",
+              "summary": "谷歌首个数据中心卫星上线，首块太空 TPU 运行 DeepMind Gemma 4 模型并生成诗歌，展示轨道 AI 推理部署。",
+              "title_en": "Google’s first data center satellite is online and writing poetry",
+              "summary_en": "Google’s first data center satellite is online, with the first TPU in space running a DeepMind Gemma 4 model and generating poetry, demonstrating orbital AI inference.",
+              "topic_evidence": "The first TPU in space is running a Google DeepMind Gemma 4 model",
+              "reason": "报道谷歌在轨 TPU 运行 Gemma 4 模型，属于前沿模型的新部署场景，信息具体。",
+              "reason_en": "Reports a concrete deployment of a DeepMind Gemma 4 model on an orbital TPU, fitting the frontier-model subsection.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+              "title": "ChatGPT 合格订阅用户获 API 额度",
+              "summary": "OpenAI 为符合条件的 ChatGPT 订阅提供 API 额度，并与 Anthropic 此前面向 Max 和 Team 订阅的额度方案类似。",
+              "title_en": "API credits benefit for eligible ChatGPT subscriptions",
+              "summary_en": "OpenAI is offering API credits to eligible ChatGPT subscribers, following Anthropic’s similar credit benefit for Max and Team subscription tiers.",
+              "topic_evidence": "OpenAI have now launched pretty much exactly the same deal",
+              "reason": "涉及 ChatGPT 订阅与 API 额度联动，属于 AI 产品商业化与平台策略。",
+              "reason_en": "Covers a concrete ChatGPT subscription and API-credit benefit, fitting AI product and platform strategy.",
+              "score": 5.1
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+              "title": "Zest 新 AI 代理可通过短信找餐厅并订位",
+              "summary": "Zest 推出 AI 礼宾代理，可汇总用餐者口味偏好、让餐厅选项投票，并通过短信完成餐厅预订。",
+              "title_en": "Zest’s new AI agent finds restaurants and books reservations over text",
+              "summary_en": "Zest launched an AI concierge that combines diners’ tastes, lets groups vote on restaurant options, and books reservations over text.",
+              "topic_evidence": "Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+              "reason": "具体 AI 代理产品发布，覆盖偏好汇总、投票和订位流程。",
+              "reason_en": "A concrete AI-agent product launch covering preference aggregation, voting, and reservations.",
+              "score": 4.95
+            },
+            {
+              "url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+              "title": "Strix 现已支持 Vercel AI Gateway",
+              "summary": "开源 AI 渗透测试工具 Strix 可通过 Vercel AI Gateway，以单一 API 调用 Anthropic、OpenAI、Kimi、GLM、DeepSeek 等 400 多个模型，并统一追踪用量和成本。",
+              "title_en": "Strix now supports Vercel AI Gateway",
+              "summary_en": "Open-source AI penetration-testing tool Strix can now run on more than 400 models through Vercel AI Gateway, using one API across providers with usage and cost tracking.",
+              "topic_evidence": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.",
+              "reason": "AI 安全工具接入多模型网关，属于 AI 产品与平台集成。",
+              "reason_en": "An AI security tool adds multi-model gateway support, fitting AI product and platform integration.",
+              "score": 4.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+              "title": "注重隐私的 AI 助手 Ollie 将关闭",
+              "summary": "注重隐私的 AI 助手 Ollie 宣布将在一周内关闭；创始人称在 AI 助手大量涌入市场之际作出该决定。",
+              "title_en": "Ollie, a privacy-focused AI assistant, is shutting down",
+              "summary_en": "Ollie, a privacy-focused AI assistant, will shut down within a week, its founder said, as more AI assistants flood the market.",
+              "topic_evidence": "it will be shutting down in a week",
+              "reason": "AI 助手产品停止运营，反映细分市场竞争与产品持续性。",
+              "reason_en": "An AI assistant product is shutting down, offering a concrete signal on competition and product sustainability.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+              "title": "苹果 CEO 称公司不“为 AI 而 AI”",
+              "summary": "苹果新任 CEO 为公司在 AI 领域的当前定位辩护，表示公司不打算仅为推出 AI 而推出 AI 功能。",
+              "title_en": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+              "summary_en": "Apple’s new CEO defended the company’s current position in AI, saying Apple does not want to ship AI simply for AI’s sake.",
+              "topic_evidence": "Apple's new CEO defended the company's current position in the AI landscape.",
+              "reason": "高管公开阐述 AI 产品策略，属于平台与产品方向信息。",
+              "reason_en": "A senior executive publicly outlines AI product strategy, fitting platform and product direction.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://openai.com/index/updated-model-spec",
+              "title": "OpenAI 更新 Model Spec，提出五项核心价值",
+              "summary": "OpenAI 更新 Model Spec，以五项核心价值指导更强 AI 的判断力、人类自主性和对人类意图的忠实度。",
+              "title_en": "An updated Model Spec for more capable and beneficial AI",
+              "summary_en": "OpenAI updated its Model Spec with five core values intended to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+              "topic_evidence": "OpenAI’s updated Model Spec outlines five core values",
+              "reason": "涉及模型行为规范与对齐治理，属于研究与治理。",
+              "reason_en": "Covers model behavior rules and alignment governance, fitting research and governance.",
+              "score": 6.2
+            },
+            {
+              "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+              "title": "OpenAI 让网站更易表达 AI 训练偏好",
+              "summary": "OpenAI 将遵守共享的 robots.txt 信号，让网站运营者向参与该机制的 AI 服务商表达其训练数据偏好。",
+              "title_en": "Making it easier for websites to express AI training preferences",
+              "summary_en": "OpenAI will honor a shared robots.txt signal that lets website operators communicate their AI training preferences to participating providers.",
+              "topic_evidence": "OpenAI will honor a shared robots.txt signal",
+              "reason": "涉及训练数据使用偏好与网络标准，属于 AI 治理。",
+              "reason_en": "Covers training-data preferences and a web standard, fitting AI governance.",
+              "score": 5.2
+            },
+            {
+              "url": "https://openai.com/index/fair-use-benefits-everyone",
+              "title": "合理使用惠及所有人",
+              "summary": "OpenAI 公布创作者、学者、无障碍倡导者和法律专家等提交的法庭意见摘录，论述合理使用如何支持 AI 训练与创新。",
+              "title_en": "Fair use benefits everyone",
+              "summary_en": "OpenAI published excerpts from court briefs by creators, academics, accessibility advocates, and legal experts arguing that fair use supports AI training and innovation.",
+              "topic_evidence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts",
+              "reason": "涉及 AI 训练版权与合理使用辩论，属于治理与政策。",
+              "reason_en": "Covers copyright and fair-use arguments around AI training, fitting governance and policy.",
+              "score": 5.2
+            },
+            {
+              "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+              "title": "OpenAI 发布社区安全报告并加强对青少年的保护",
+              "summary": "OpenAI 通过扩展防护措施和更早干预，加强 ChatGPT 的暴力预防，并承诺开展公共安全报告。",
+              "title_en": "Community safety report and new protections for teens",
+              "summary_en": "OpenAI is expanding safeguards and earlier interventions to strengthen violence prevention in ChatGPT, and committing to public safety reporting.",
+              "topic_evidence": "strengthening violence prevention in ChatGPT with expanded safeguards",
+              "reason": "具体说明 ChatGPT 安全防护与青少年保护更新，属于 AI 安全治理。",
+              "reason_en": "Details concrete ChatGPT safeguards and teen-protection updates, fitting AI safety governance.",
+              "score": 4.2
+            },
+            {
+              "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+              "title": "算一算：我们如何接管 ChatGPT 账户",
+              "summary": "Hacker News 讨论文章《算一算：我们如何接管 ChatGPT 账户》，称涉及接管 ChatGPT 账户；该帖获 316 分、157 条评论。",
+              "title_en": "Do the math: How we took over ChatGPT accounts",
+              "summary_en": "A Hacker News submission links to an article titled “Do the math: How we took over ChatGPT accounts”; the post has 316 points and 157 comments.",
+              "topic_evidence": "How we took over ChatGPT accounts",
+              "reason": "涉及 ChatGPT 账户安全与隐私问题，属于 AI 安全研究讨论；仅报告标题和讨论指标。",
+              "reason_en": "Concerns ChatGPT account security and privacy, fitting AI security discussion; only the title and metrics are reported.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": []
+        },
+        {
+          "id": "open-source-tools",
+          "articles": []
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+              "title": "Vercel 将 Data Cache 并入 Runtime Cache",
+              "summary": "Vercel 将 Data Cache 并入 Runtime Cache，统一跨框架与 API 的数据缓存；Next.js 的 fetch 缓存和 unstable_cache 无需改代码，Pro 与 Enterprise 项目获得更大存储配额。",
+              "title_en": "Simplifying runtime caching on Vercel",
+              "summary_en": "Vercel has merged Data Cache into Runtime Cache, giving developers one caching product across frameworks and APIs. Next.js fetch caching and unstable_cache need no code changes, while Pro and Enterprise projects receive larger storage allocations.",
+              "topic_evidence": "bringing Data Cache into Runtime Cache",
+              "reason": "报道 Vercel 运行时缓存产品合并及配额变化，直接影响使用 Next.js 缓存和跨框架数据缓存的开发者。",
+              "reason_en": "Covers Vercel's runtime caching consolidation and quota changes, directly affecting developers using Next.js caching and cross-framework data caching.",
+              "score": 9.9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+              "title": "Vercel Daemons 可通过服务绑定调用内部服务",
+              "summary": "Vercel Daemons 新增服务绑定，可在部署内调用目标服务；绑定声明服务名和接收 URL 的环境变量，Vercel 负责内部路由、认证与 TLS，服务保持私有。",
+              "title_en": "Vercel Daemons can now call services with bindings",
+              "summary_en": "Vercel Daemons can now call services within their deployment through service bindings. Developers declare the target service and an environment variable for its URL, while Vercel handles internal routing, authentication, and TLS.",
+              "topic_evidence": "call the services in their deployment through service bindings",
+              "reason": "具体介绍 Daemons 服务绑定机制及其内部路由、认证和 TLS 处理，属于基础设施功能更新。",
+              "reason_en": "Details the Daemons service-binding mechanism and its internal routing, authentication, and TLS handling, making it an infrastructure feature update.",
+              "score": 2.9
+            },
+            {
+              "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+              "title": "Vercel Daemons 支持配置 HTTP 存活检查",
+              "summary": "Vercel Daemons 现可配置 HTTP 存活检查；开发者提供轻量健康端点，并在守护进程配置中用 livenessProbe 指向该端点，Vercel 会定期请求以判断服务是否健康。",
+              "title_en": "Add liveness checks to your Daemons",
+              "summary_en": "Vercel Daemons now support configurable HTTP liveness checks. Developers expose a lightweight health endpoint, point a livenessProbe value at it, and Vercel periodically requests it to determine whether the daemon remains healthy.",
+              "topic_evidence": "configuring HTTP liveness checks",
+              "reason": "说明守护进程健康检查的具体配置方式，面向部署与运维开发者。",
+              "reason_en": "Explains how to configure daemon health checks, aimed at deployment and operations developers.",
+              "score": 2.9
+            },
+            {
+              "url": "https://vercel.com/changelog/improved-ip-geolocation-data",
+              "title": "Vercel IP 地理定位提升覆盖与精度",
+              "summary": "Vercel 的 IP 地理定位现可提供更细网络粒度的访客位置，几乎全部请求可到城市级，90% 流量可到邮编级；数据刷新更频繁，所有项目无需改代码或配置即可启用。",
+              "title_en": "IP geolocation now covers more visitors at higher resolution",
+              "summary_en": "Vercel's IP geolocation now resolves visitor locations with finer network granularity, providing city-level data for nearly all requests and postal-code data for 90% of traffic. Data refreshes more often and is enabled by default.",
+              "topic_evidence": "city-level data for nearly all requests and postal-code data for 90% of traffic",
+              "reason": "报道地理定位数据精度和刷新频率变化，影响依赖访客位置的基础设施与数据应用。",
+              "reason_en": "Reports changes to geolocation precision and refresh frequency, affecting infrastructure and data applications that rely on visitor location.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+              "title": "宇航员完成7小时太空行走，为国际空间站安装新太阳能阵列",
+              "summary": "两名宇航员完成7小时11分钟太空行走，安装新太阳能阵列；NASA称11月5日最后一片阵列装好后，空间站可用电力最多增加30%。",
+              "title_en": "Astronauts just gave the International Space Station a powerful upgrade",
+              "summary_en": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station. NASA says the final array, set for November 5, will raise available power by up to 30%.",
+              "topic_evidence": "completed a 7-hour, 11-minute spacewalk to install a new solar array",
+              "reason": "具体航天与能源升级事件，含太空行走时长、安装目标和30%电力提升，符合航天能源版块。",
+              "reason_en": "Concrete spacewalk and station power upgrade with timeline and capacity impact.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+              "title": "哈勃观测挑战早期宇宙“宇宙雾”消散解释",
+              "summary": "哈勃新观测对约130亿年前宇宙如何从氢雾中变得透明的主流解释提出挑战；此前认为超新星爆炸风帮助辐射逃逸星系。",
+              "title_en": "Hubble reveals a stunning twist in how the universe emerged from darkness",
+              "summary_en": "New Hubble Space Telescope observations challenge the leading explanation for how the early universe cleared its dense hydrogen fog about 13 billion years ago, questioning the role of winds from exploding stars.",
+              "topic_evidence": "challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen",
+              "reason": "哈勃新观测直接挑战早期宇宙再电离的主流解释，属于航天天文观测。",
+              "reason_en": "Hubble observations directly challenge the leading explanation for early-universe reionization.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
+              "title": "16光年外双星系统摆动并非巨行星，仍可能藏宜居行星",
+              "summary": "天文学家解开近旁双星系统持续170年的摆动之谜，认为由恒星活动而非巨行星造成；关键区域排除木星大小行星，但较小宜居行星仍可能存在。",
+              "title_en": "A mysterious star system just 16 light-years away may be hiding habitable planets",
+              "summary_en": "Astronomers traced a 170-year-old wobble in a nearby two-star system to stellar activity, not a giant planet. Jupiter-sized worlds are ruled out in key regions, but smaller habitable planets may remain.",
+              "topic_evidence": "a mysterious wobble was caused by stellar activity rather than a giant planet",
+              "reason": "具体天文观测结果，修正行星成因并保留较小宜居行星的可能性。",
+              "reason_en": "Specific astronomical result revising a planet interpretation while keeping smaller habitable planets possible.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+              "title": "科学家以氧原子核对撞重现大爆炸初期物质",
+              "summary": "科学家让氧原子核以接近光速对撞，重现宇宙初期的原始物质状态；结果显示这种奇异物质可在更小、更低能的对撞中形成，挑战早期宇宙物理边界。",
+              "title_en": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+              "summary_en": "Scientists collided oxygen nuclei at nearly light speed to recreate a primordial state of matter. The exotic substance formed in smaller, lower-energy collisions than previously shown, challenging early-universe physics boundaries.",
+              "topic_evidence": "colliding oxygen nuclei at nearly the speed of light",
+              "reason": "明确实验方法与结果，涉及早期宇宙物质形成条件。",
+              "reason_en": "Clear experimental method and result on primordial matter formation conditions.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+              "title": "科学家发现可在-253°C抗裂的新型金属机制",
+              "summary": "两种实验合金在-253°C下没有像同类材料那样变脆，而是重组内部结构以吸收应力并保持柔性；研究揭示金属抗极低温开裂的新机制。",
+              "title_en": "Scientists discover metals that defy the deep freeze at -424°F",
+              "summary_en": "Two experimental alloys resisted cracking at -253°C by reorganizing their internal structures to absorb stress and remain flexible, revealing a new mechanism for metals in extreme cold.",
+              "topic_evidence": "two experimental alloys reorganize their internal structures",
+              "reason": "具体材料实验与机制发现，适合科学研究版块。",
+              "reason_en": "Specific materials experiment and mechanism discovery relevant to science research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+              "title": "用2.4万个超冷原子构建“微型宇宙”，观测时间涌现",
+              "summary": "研究人员用2.4万个超冷原子构建隔离量子系统，使其反复膨胀和收缩，模拟大爆炸及可能的“大挤压”，以研究时间如何在没有时钟的情况下涌现。",
+              "title_en": "Physicists created a tiny universe and watched time emerge without a clock",
+              "summary_en": "Using 24,000 ultracold atoms, a researcher built an isolated quantum system that repeatedly expands and contracts, mimicking the Big Bang and a possible Big Crunch to study how time emerges without a clock.",
+              "topic_evidence": "Using 24,000 ultracold atoms",
+              "reason": "明确量子模拟平台与科学目标，涉及时间起源这一基础物理问题。",
+              "reason_en": "Clear quantum simulation platform and goal addressing the origin of time.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+              "title": "血液检测或可提前10年提示阿尔茨海默病风险",
+              "summary": "一项国际研究发现，简单血液检测可在症状出现前多年预测阿尔茨海默病相关认知衰退；高风险者五年内受损概率约38%，十年内约78%。",
+              "title_en": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+              "summary_en": "A major international study found that a simple blood test could predict Alzheimer’s-related cognitive decline years before symptoms. The highest-risk group had a 38% chance of impairment within five years and 78% within 10 years.",
+              "topic_evidence": "a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms",
+              "reason": "具体临床预测数据，具有医学与公共卫生意义。",
+              "reason_en": "Concrete clinical prediction data with medical and public-health relevance.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+              "title": "Satlyt 完成测试，向把卫星变成太空数据中心再进一步",
+              "summary": "Satlyt 本月完成一次成功测试，距离把航天器（先从卫星开始）变成虚拟数据中心更近一步。",
+              "title_en": "Satlyt takes another step toward turning satellites into space data centers",
+              "summary_en": "Satlyt ran a successful test this month, moving the startup closer to turning spacecraft, starting with satellites, into virtual data centers.",
+              "topic_evidence": "successful test this month",
+              "reason": "初创公司完成把卫星变为虚拟数据中心的关键测试，属于具体产品进展。",
+              "reason_en": "A startup reports a successful test toward satellite-based virtual data centers, a concrete product milestone.",
+              "score": 2.8
+            },
+            {
+              "url": "https://www.producthunt.com/products/awaitio",
+              "title": "AwaitIO：写一个 TypeScript 函数，生成管理后台",
+              "summary": "Product Hunt 上的 AwaitIO 宣称，开发者编写一个 TypeScript 函数，即可获得对应的管理后台界面。",
+              "title_en": "AwaitIO",
+              "summary_en": "AwaitIO, listed on Product Hunt, says developers can write a TypeScript function and automatically get an admin screen in return.",
+              "topic_evidence": "Write a TypeScript function, get an admin screen",
+              "reason": "Product Hunt 新上线开发工具，功能描述具体。",
+              "reason_en": "A newly listed developer tool on Product Hunt with a specific function.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/agnos",
+              "title": "Agnos：为 AI 清理文档，并展示被移除内容",
+              "summary": "Product Hunt 上的 Agnos 提供面向 AI 的文档清理功能，并可查看文档中被移除的内容。",
+              "title_en": "Agnos",
+              "summary_en": "Agnos, listed on Product Hunt, offers clean documents for AI and lets users see what was removed from those documents.",
+              "topic_evidence": "Clean documents for AI, and see what was removed",
+              "reason": "Product Hunt 新上线 AI 文档处理工具，功能描述具体。",
+              "reason_en": "A newly listed AI document-cleaning tool on Product Hunt.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/basetab-ai",
+              "title": "BaseTab AI：把新标签页变成 AI 工作区",
+              "summary": "Product Hunt 上的 BaseTab AI 将浏览器新标签页改造成 AI 工作区，产品描述称其提供 AI 驱动的工作界面。",
+              "title_en": "BaseTab AI",
+              "summary_en": "BaseTab AI, listed on Product Hunt, turns the browser’s new tab into an AI-powered workspace, according to its product description.",
+              "topic_evidence": "Turn your new tab into an AI-powered workspace",
+              "reason": "Product Hunt 新上线浏览器工作区产品，定位具体。",
+              "reason_en": "A newly listed browser workspace product on Product Hunt.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+              "title": "Salesforce 再扩并购版图，据报以 3.75 亿美元收购防务科技初创 Rune",
+              "summary": "据 TechCrunch 报道，Salesforce 将以约 3.75 亿美元收购 AI 物流初创 Rune，后者的技术将用于增强其 Missionforce 防务平台。",
+              "title_en": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+              "summary_en": "Salesforce is reportedly acquiring AI logistics startup Rune for about $375 million, adding technology to strengthen its Missionforce defense platform as its acquisition spree continues.",
+              "topic_evidence": "reported $375M deal for defense tech startup Rune",
+              "reason": "报道给出明确交易金额与标的，直接属于并购新闻。",
+              "reason_en": "Reports a specific $375M acquisition target and price, directly fitting M&A.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+              "title": "前 Palantir 高管创办 Dream，获 a16z 1700 万美元融资，为建筑业打造 AI 世界模型",
+              "summary": "Dream 由前 Palantir 高管创办，获 a16z 1700 万美元融资，基于真实物理与建筑标准，用全美许可档案中逾 1 亿平方英尺建筑数据训练世界模型。",
+              "title_en": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+              "summary_en": "Dream, founded by former Palantir executives, raised $17 million from a16z to build AI world models for construction, trained on more than 100 million square feet of U.S. building data.",
+              "topic_evidence": "launch Dream with $17M from a16z",
+              "reason": "披露融资方、金额与用途，属于初创融资事件。",
+              "reason_en": "Discloses a specific funding round, investor, amount and use of funds.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+              "title": "AI 律所 Crosby 竞购陷入解体危机的老牌律所 Weil Gotshal",
+              "summary": "AI 律所 Crosby 已参与竞购正在解体的华尔街知名律所 Weil, Gotshal & Manges，事件成为法律行业焦点。",
+              "title_en": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+              "summary_en": "AI law firm Crosby has bid for Weil, Gotshal & Manges, the famed Wall Street law firm whose breakup has become a major talking point in the legal industry.",
+              "topic_evidence": "bids on disintegrating, famed firm Weil Gotshal",
+              "reason": "AI 律所对老牌律所发起竞购，属于并购交易动向。",
+              "reason_en": "An AI law firm bidding for a famed law firm is a concrete M&A development.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+              "title": "Runware 拟像造车一样量产 AI 数据中心，计划 48 小时上线",
+              "summary": "Runware 正在建设工厂，以流水线方式生产预制 AI 数据中心，并称可在 48 小时内上线；真正的考验是能否实现这种规模化交付。",
+              "title_en": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+              "summary_en": "Runware is building a factory to produce prefabricated AI data centers on an assembly line, aiming to bring them online in 48 hours; the real test is delivering at that scale.",
+              "topic_evidence": "building a factory to turn out prefabricated AI data centers",
+              "reason": "以工厂流水线量产预制 AI 数据中心，涉及交付模式与规模化商业策略。",
+              "reason_en": "A startup's prefab AI data center factory and 48-hour online goal concern delivery model and scale strategy.",
+              "score": 3.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+              "title": "加拿大与欧盟宣布成立开放“未来联盟”",
+              "summary": "加拿大与欧盟在蒙特利尔峰会上宣布成立“未来联盟”，向志同道合国家开放，称其为公民提供“保护伞”，并应对地缘政治不确定性。",
+              "title_en": "Canada and EU announce new alliance open to like-minded countries",
+              "summary_en": "Canada and the EU unveiled an Alliance for the Future at a Montreal summit, open to like-minded countries, describing it as a protective canopy for citizens and a hedge against unpredictable geopolitics.",
+              "topic_evidence": "Canada and Europe have announced a new alliance of like-minded nations",
+              "reason": "直接涉及加拿大与欧盟新联盟及地缘政治合作。",
+              "reason_en": "Directly covers a new Canada-EU alliance and geopolitical cooperation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
+              "title": "美伊外长称战争仍可能通过外交结束",
+              "summary": "美国与伊朗外长表示，结束两国战争仍存在外交解决可能。报道以视频形式梳理美伊冲突的最新进展。",
+              "title_en": "What we know about latest efforts to end US war on Iran",
+              "summary_en": "The US and Iranian foreign ministers say a diplomatic end to the war remains possible, in a video report on the latest developments in the conflict.",
+              "topic_evidence": "a diplomatic end to the war is still possible",
+              "reason": "直接报道美伊战争的外交前景，属地缘与安全议题。",
+              "reason_en": "Directly reports diplomatic prospects for ending the US-Iran war.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+              "title": "区块链情报公司称朝鲜关联币安63亿美元黑客事件",
+              "summary": "区块链情报公司将币安约63亿美元黑客事件与朝鲜关联；币安称该事件影响约63亿美元。",
+              "title_en": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+              "summary_en": "Blockchain intelligence firms link North Korea to a $6.3 billion hack on Binance; the exchange said approximately $6.3 billion was impacted in the apparent hack.",
+              "topic_evidence": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+              "reason": "涉及朝鲜关联网络攻击与大型加密交易所安全。",
+              "reason_en": "Concerns a North Korea-linked cyberattack on a major crypto exchange.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+              "title": "乌克兰撤离者称“从地狱回来” 讲述俄占前线城市经历",
+              "summary": "一对撤离夫妇表示，他们在俄占的奥列什基穿越雷区寻找食物；此前多年被困前线城市。",
+              "title_en": "Ukrainians say they came back from hell after years in Russia-occupied front-line city",
+              "summary_en": "A couple evacuated from Russian-occupied Oleshky say they crossed minefields in search of food after years trapped in the front-line city, describing coming back from hell.",
+              "topic_evidence": "crossed minefields in Oleshky in search of food",
+              "reason": "直接反映乌克兰战争前线平民处境。",
+              "reason_en": "Directly reflects civilian conditions on Ukraine's front line.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+              "title": "印度反对派将举行大型集会 要求选举专员辞职",
+              "summary": "印度反对派计划举行大型集会，要求选举专员辞职；选民名册修订引发抗议，担忧1.3亿选民被排除。",
+              "title_en": "India's opposition set to hold mega rally seeking election chief's resignation",
+              "summary_en": "India's opposition is set to hold a mega rally demanding the election commissioner's resignation, amid protests over a voter-roll revision feared to exclude 130 million voters.",
+              "topic_evidence": "seeking election chief's resignation",
+              "reason": "涉及印度选举管理与大规模抗议。",
+              "reason_en": "Covers Indian election administration and protests over voter rolls.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+              "title": "西班牙火车事故给桑切斯连任前景蒙上阴影",
+              "summary": "西班牙首相桑切斯在提前大选前数周遭遇一系列危机，火车事故使他的连任前景承压。",
+              "title_en": "Spain train disaster clouds Sánchez chances of re-election",
+              "summary_en": "A train disaster in Spain is clouding Prime Minister Pedro Sánchez's re-election chances, as he faces a succession of crises weeks before a snap general election.",
+              "topic_evidence": "Spain train disaster clouds Sánchez chances of re-election",
+              "reason": "直接关联西班牙提前大选与首相选情。",
+              "reason_en": "Directly concerns Spain's snap election and the prime minister's prospects.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+              "title": "波兰政府与最高法院控制权之争 警方介入",
+              "summary": "波兰政府暂停两名高级法官职务并拟提起刑事指控后，警方在最高法院控制权对峙中部署。",
+              "title_en": "Police deployed during stand-off over control of top Poland court",
+              "summary_en": "Police were deployed during a stand-off over control of Poland's top court after the government suspended two senior judges and moved to bring criminal charges against them.",
+              "topic_evidence": "stand-off over control of top Poland court",
+              "reason": "涉及波兰司法独立与政府法院控制权冲突。",
+              "reason_en": "Concerns judicial independence and a government stand-off with Poland's top court.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
+              "title": "以色列数千人集会 吁组“犹太-阿拉伯”联盟推翻内塔尼亚胡",
+              "summary": "以色列数千人集会，呼吁组建“犹太-阿拉伯”联盟以推翻内塔尼亚胡；内塔尼亚胡支持者举行反集会，称不应与“恐怖分子”组政府。",
+              "title_en": "Thousands rally in Israel urging Jewish-Arab coalition to oust Netanyahu",
+              "summary_en": "Thousands rallied in Israel urging a Jewish-Arab coalition to oust Netanyahu, while counter-protesters said Israel should not have a government with terrorists.",
+              "topic_evidence": "urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+              "reason": "直接报道以色列选举后政治联盟与抗议动向。",
+              "reason_en": "Directly covers post-election coalition politics and protests in Israel.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+              "title": "苏丹侨民与人权组织反对阿联酋外交官竞逐联合国秘书长",
+              "summary": "苏丹侨民团体和国际人权组织反对阿联酋外交官拉娜·努赛贝竞逐联合国最高职位，指其否认阿联酋通过支持准军事组织RSF加剧苏丹战争。",
+              "title_en": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+              "summary_en": "Sudanese diaspora and human rights groups denounced UAE diplomat Lana Nusseibeh's candidacy for UN secretary-general, citing her denial of accusations that the UAE fuels Sudan's war by backing the RSF.",
+              "topic_evidence": "accusations that the United Arab Emirates is fuelling the war in Sudan",
+              "reason": "涉及联合国秘书长人选争议与苏丹战争责任。",
+              "reason_en": "Concerns a contested UN secretary-general candidacy and allegations over Sudan's war.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+              "title": "希腊中部和土耳其西部发布强降雨与洪水预警",
+              "summary": "土耳其本周遭遇强雷暴和致命龙卷风，预计更多强降雨；希腊中部和土耳其西部未来数日仍将受强降雨和大风影响。",
+              "title_en": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+              "summary_en": "Severe rainfall and flood warnings have been issued for central Greece and western Turkey, after Turkey was hit by powerful thunderstorms and a fatal tornado, with more heavy rain expected.",
+              "topic_evidence": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+              "reason": "直接报道东南欧与土耳其极端天气和洪水风险。",
+              "reason_en": "Directly covers extreme weather and flood risks in southeastern Europe and Turkey.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+              "title": "刚果（金）埃博拉疫情已致逾5000人死亡",
+              "summary": "刚果（金）政府数据显示，该国最严重的埃博拉疫情已造成超过5000人死亡，逾1万人感染这种罕见病毒。",
+              "title_en": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+              "summary_en": "More than 5,000 people have died in the Democratic Republic of Congo's deadliest Ebola outbreak, with government data showing over 10,000 infections from the rare virus.",
+              "topic_evidence": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+              "reason": "涉及刚果（金）严重公共卫生疫情。",
+              "reason_en": "Concerns a severe public health outbreak in the DRC.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+              "title": "巴黎数千人示威 欧洲多地抗议蔓延",
+              "summary": "法国各地超过32万人示威，抗议生活成本上升和公共服务不佳；一些抗议者与警方发生冲突。",
+              "title_en": "Thousands demonstrate in Paris as protests spread across Europe",
+              "summary_en": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police as protests spread across Europe.",
+              "topic_evidence": "More than 320,000 people demonstrated across France",
+              "reason": "涉及法国及欧洲生活成本抗议与社会秩序。",
+              "reason_en": "Covers cost-of-living protests and public order in France and Europe.",
+              "score": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml",
+              "title": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+              "summary": "11月1日起，一批新规正式施行，涉及电动自行车3C认证、儿童用品强制性国家标准等社会民生领域。",
+              "title_en": "New rules on e-bike 3C certification and mandatory children's product standards take effect",
+              "summary_en": "A batch of new regulations took effect on Nov 1, covering 3C certification for electric bicycles and mandatory national standards for children's products, among other livelihood areas.",
+              "topic_evidence": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+              "reason": "标题和摘要明确列出11月1日起施行的新规，涉及电动自行车3C认证和儿童用品强制性国标，直接对应政策与监管。",
+              "reason_en": "The title and summary explicitly list new rules effective Nov 1, covering e-bike 3C certification and mandatory national standards for children's products, directly fitting policy and regulation.",
+              "score": 88
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml",
+              "title": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+              "summary": "自然资源部在福建莆田第十一届世界妈祖文化论坛上发布《全国海洋减灾典型案例（第一批）》，该批案例由自然资源部征集编制。",
+              "title_en": "Ministry of Natural Resources releases first batch of national marine disaster reduction cases",
+              "summary_en": "China's Ministry of Natural Resources released the first batch of national typical cases for marine disaster reduction at the 11th World Mazu Culture Forum in Putian, Fujian; the ministry solicited and compiled the cases.",
+              "topic_evidence": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+              "reason": "自然资源部发布首批全国海洋减灾典型案例，属于部委政策信息发布。",
+              "reason_en": "The Ministry of Natural Resources released the first batch of national marine disaster reduction cases, a ministry policy information release.",
+              "score": 78
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724231.shtml",
+              "title": "（走进中国乡村）浙南山乡栀子花果开出风景、结出产业",
+              "summary": "中新社报道浙南山乡的栀子花果既形成风景又带动产业，呈现乡村特色种植与景观开发相结合的发展路径。",
+              "title_en": "Southern Zhejiang mountain villages turn gardenia flowers and fruit into scenery and industry",
+              "summary_en": "A China News Service report says gardenia flowers and fruit in southern Zhejiang's mountain villages create scenery and support local industry, linking specialty planting with landscape development.",
+              "topic_evidence": "浙南山乡栀子花果开出风景、结出产业",
+              "reason": "报道浙南山乡栀子花果形成风景并带动产业，直接体现地方特色产业与乡村发展。",
+              "reason_en": "The report says gardenia flowers and fruit in southern Zhejiang's mountain villages create scenery and drive industry, directly reflecting local specialty industry and rural development.",
+              "score": 82
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724270.shtml",
+              "title": "一块糖串起沪港老街对话 上海探索城市微更新",
+              "summary": "上海瑞金二路街道以方糖装置、香港路牌等元素引出香港糖厂街故事，探索沪港老街的城市微更新。",
+              "title_en": "A piece of sugar links Shanghai and Hong Kong old streets as Shanghai explores urban micro-renewal",
+              "summary_en": "Shanghai's Ruijin Er Road subdistrict used sugar-cube installations and a Hong Kong street sign to tell the story of Hong Kong's Tong Chong Street and explore micro-renewal of old streets.",
+              "topic_evidence": "上海探索城市微更新",
+              "reason": "上海瑞金二路街道以糖主题装置串联香港老街故事，属于地方城市微更新实践。",
+              "reason_en": "Shanghai's Ruijin Er Road subdistrict uses sugar-themed installations to connect with Hong Kong old-street stories, a local urban micro-renewal practice.",
+              "score": 76
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724225.shtml",
+              "title": "天津首届城市管理开放日开进公园 五大展区“摆摊”送服务",
+              "summary": "天津市首届城市管理开放日10月31日在和平区五大道公园举办，设置成果展示、智能装备、互动体验等五个展区，吸引市民参与。",
+              "title_en": "Tianjin's first city management open day brings five exhibition zones into a park",
+              "summary_en": "Tianjin held its first city management open day on Oct 31 at Wudadao Park in Heping District, with five exhibition areas including achievements, smart equipment and interactive experiences.",
+              "topic_evidence": "天津首届城市管理开放日开进公园",
+              "reason": "天津举办首届城市管理开放日，设置五个展区向市民展示城市管理服务，属地方治理活动。",
+              "reason_en": "Tianjin held its first city management open day with five exhibition areas to show urban management services to residents, a local governance activity.",
+              "score": 70
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724228.shtml",
+              "title": "2026年广西水上搜救应急技能竞赛举行",
+              "summary": "10月30日至31日，2026年广西水上搜救应急技能竞赛暨广西海事局“桂海杯”首届职工综合技能竞赛在南宁举行，11支队伍参赛。",
+              "title_en": "2026 Guangxi waterborne search and rescue emergency skills competition held",
+              "summary_en": "The 2026 Guangxi waterborne search and rescue emergency skills competition was held in Nanning from Oct 30 to 31, with 11 teams competing in core rescue operations.",
+              "topic_evidence": "2026年广西水上搜救应急技能竞赛举行",
+              "reason": "竞赛围绕水上搜救核心环节展开实战比拼，涉及救援应急与社会公共安全。",
+              "reason_en": "The competition involved practical drills in core waterborne search and rescue, relating to emergency response and public safety.",
+              "score": 74
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724257.shtml",
+              "title": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+              "summary": "在短视频和AI影像普及背景下，胶片拍摄、手工冲洗的“慢摄影”受到部分年轻人青睐，哈尔滨有摄影师引导情侣拍摄传统胶片照片。",
+              "title_en": "Film 'slow photography' gains popularity as young people break from standardized industrial aesthetics",
+              "summary_en": "Amid the spread of short videos and AI imagery, film photography with manual processing is gaining favor among some young Chinese, with a Harbin photographer guiding couples through traditional film shoots.",
+              "topic_evidence": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+              "reason": "报道胶片拍摄和手工冲洗的“慢摄影”在年轻人中走红，反映社会消费与审美变化。",
+              "reason_en": "The report covers the rise of film-based 'slow photography' with manual processing among young people, reflecting social consumption and aesthetic shifts.",
+              "score": 80
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724132.shtml",
+              "title": "最大风力15级 台风“烟花”今日原地回旋",
+              "summary": "中央气象台称，第31号台风“烟花”11月1日早晨减弱为强台风级，中心附近最大风力15级，当日原地回旋。",
+              "title_en": "Typhoon Yanhua, with maximum winds of force 15, stalls today",
+              "summary_en": "Typhoon Yanhua weakened to a strong typhoon on the morning of Nov 1, with maximum winds of force 15 near its center, and was forecast to stall that day, according to the National Meteorological Center.",
+              "topic_evidence": "最大风力15级 台风“烟花”今日原地回旋",
+              "reason": "中央气象台发布台风“烟花”位置、风力和回旋预报，属社会公共安全信息。",
+              "reason_en": "The National Meteorological Center issued forecasts on Typhoon Yanhua's location, wind force and stalling movement, a public safety information item.",
+              "score": 72
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724262.shtml",
+              "title": "八旬台属李泽曾述说“两岸家书抵万金”",
+              "summary": "八旬台属李泽曾述说“两岸家书抵万金”，报道以其两岸家书故事为主题，呈现两岸民间书信往来记忆。",
+              "title_en": "80-year-old Taiwan relative Li Zezeng recounts 'cross-strait family letters worth ten thousand gold'",
+              "summary_en": "An 80-year-old relative of Taiwan compatriots, Li Zezeng, recounted that 'cross-strait family letters are worth ten thousand gold,' in a report on cross-strait correspondence memories.",
+              "topic_evidence": "八旬台属李泽曾述说“两岸家书抵万金”",
+              "reason": "报道八旬台属讲述两岸家书故事，呈现两岸民间书信往来记忆，属社会人物新闻。",
+              "reason_en": "The report features an 80-year-old relative of Taiwan compatriots recounting cross-strait family letters, presenting memories of cross-strait private correspondence as a social feature.",
+              "score": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
+              "title": "美国中期选举前亚洲股票交易员指南",
+              "summary": "彭博指出，亚洲AI权重较高的股市面临美国中期选举带来的政策变数，选举结果可能重塑科技股交易以及清洁能源和国防等板块。",
+              "title_en": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+              "summary_en": "Bloomberg says Asia’s AI-heavy stock markets face a policy wildcard from the U.S. midterm elections, whose outcome could reshape the tech trade and sectors from clean energy to defense.",
+              "topic_evidence": "Asia’s AI-heavy stock markets face a new US policy wildcard",
+              "reason": "直接涉及亚洲股市、美国中期选举政策风险及板块影响，属于市场与资产。",
+              "reason_en": "Directly covers Asian equities, U.S. midterm policy risk and sector implications, fitting markets and assets.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-faces-further-downside-risks-as-fear-surges-binance-hack-rattles-markets-4989389",
+              "title": "比特币面临进一步下行风险，恐慌升温与币安黑客事件冲击市场",
+              "summary": "英为财情报道称，随着恐慌情绪升温及币安黑客事件冲击市场，比特币面临进一步下行风险，但标题未披露具体价格与攻击细节。",
+              "title_en": "Bitcoin faces further downside risks as fear surges, Binance hack rattles markets",
+              "summary_en": "Investing.com reports that bitcoin faces further downside risk as fear rises and a Binance hack rattles markets; the headline does not provide price levels or attack details.",
+              "topic_evidence": "Bitcoin faces further downside risks as fear surges, Binance hack rattles markets",
+              "reason": "标题直接涉及比特币下行风险与交易所黑客事件对市场冲击。",
+              "reason_en": "The headline directly covers bitcoin downside risk and a exchange hack hitting markets.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.investing.com/news/stock-market-news/ai-investors-rush-to-hedge-against-potential-tech-market-downturn--wsj-4989371",
+              "title": "AI投资者争相对冲科技市场潜在下行风险",
+              "summary": "英为财情援引《华尔街日报》称，AI投资者正加大对冲，以防范科技市场可能出现的下行；标题未提供具体仓位或规模数据。",
+              "title_en": "AI investors rush to hedge against potential tech market downturn - WSJ",
+              "summary_en": "Investing.com, citing the Wall Street Journal, says AI investors are increasing hedges against a potential tech market downturn; the headline gives no position or size data.",
+              "topic_evidence": "AI investors rush to hedge against potential tech market downturn",
+              "reason": "反映AI相关股票投资风险与对冲需求，属于市场与资产。",
+              "reason_en": "Reflects AI-related equity risk and hedging demand, fitting markets and assets.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+              "title": "澳大利亚房屋拍卖清盘率降至六年低点",
+              "summary": "受墨尔本公共假期和利率上升威胁影响，澳大利亚房屋拍卖清盘率降至六年低点，住宅房地产市场承压。",
+              "title_en": "Australia Home Auction Clearance Rate Falls to Six-Year Low",
+              "summary_en": "Australia’s auction clearance rate fell to a six-year low as a Melbourne public holiday and the threat of higher interest rates weighed on the residential property market.",
+              "topic_evidence": "Australia’s auction clearance rate fell to a six-year low",
+              "reason": "具体反映澳大利亚住宅房地产市场与利率压力。",
+              "reason_en": "Specifically captures Australia’s housing market and interest-rate pressure.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/france-s-woes-brazil-s-limited-contagion-show-new-emerging-era",
+              "title": "法国困境与巴西有限传染揭示新兴市场新阶段",
+              "summary": "彭博称，阿根廷财长卡普托在巴西市场大跌前警告，一个重要国家陷入困境可能产生系统性风险；法国困境与巴西有限传染显示新兴市场进入新阶段。",
+              "title_en": "France’s Woes, Brazil’s Limited Contagion Show New Emerging Era",
+              "summary_en": "Bloomberg says Argentina’s finance minister warned before Brazil’s market rout that trouble in one major country could create systemic risk; France’s woes and limited Brazilian contagion signal a new emerging-market era.",
+              "topic_evidence": "a rout in Brazil’s markets",
+              "reason": "讨论新兴市场风险传染与巴西市场动荡，属于市场与资产。",
+              "reason_en": "Discusses emerging-market contagion risk and Brazil’s market turmoil, fitting markets and assets.",
+              "score": 5.95
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/charting-the-global-economy-central-banks-hold-rates-steady",
+              "title": "全球经济图表：多国央行维持利率不变",
+              "summary": "彭博称，本周全球多家央行维持利率不变，美国和欧洲官员正在评估高能源价格带来的通胀风险。",
+              "title_en": "Charting the Global Economy: Central Banks Hold Rates Steady",
+              "summary_en": "Bloomberg says central banks worldwide kept rates unchanged this week as U.S. and European officials assessed inflation risks from high energy prices.",
+              "topic_evidence": "Central banks around the world kept interest rates unchanged this week",
+              "reason": "涉及全球央行利率决策与能源通胀风险。",
+              "reason_en": "Covers global central-bank rate decisions and energy-driven inflation risk.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+              "title": "美国就业回升可能使美联储继续加息",
+              "summary": "彭博称，美国将迎来密集就业数据，周五劳工统计局月度就业报告是焦点；就业回升可能使美联储继续保持再次加息路径。",
+              "title_en": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+              "summary_en": "Bloomberg says the U.S. faces a heavy week of jobs data ending with Friday’s BLS monthly report; a jobs pickup may keep the Fed on track to raise rates again.",
+              "topic_evidence": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+              "reason": "直接涉及美国就业、美联储加息路径与宏观政策。",
+              "reason_en": "Directly covers U.S. jobs, the Fed’s rate-hike path and macro policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/south-korea-exports-extend-robust-growth-as-chip-boom-continues",
+              "title": "韩国出口延续强劲增长，芯片景气持续",
+              "summary": "韩国10月出口保持强劲增长，凸显AI驱动景气的支撑作用；但近期科技股抛售令市场质疑全球AI交易的持续性。",
+              "title_en": "S. Korea Exports Extend Robust Growth as Chip Boom Continues",
+              "summary_en": "South Korea’s October exports kept strong growth, underscoring an AI-driven boom, even as a recent tech-stock selloff raised questions about the durability of the global AI trade.",
+              "topic_evidence": "South Korea’s exports maintained strong growth in October",
+              "reason": "出口数据与AI芯片景气是宏观经济与贸易的重要指标。",
+              "reason_en": "Export data and the AI chip boom are key macro and trade indicators.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+              "title": "塞内加尔议员再次否决预算，IMF协议面临风险",
+              "summary": "塞内加尔议员再次否决政府修订的2026年财政法，僵局延长，可能推迟一项关键国际货币基金组织项目的获批。",
+              "title_en": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
+              "summary_en": "Senegalese lawmakers again rejected the government’s revised 2026 finance law, prolonging a standoff that could delay approval of a crucial International Monetary Fund program.",
+              "topic_evidence": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law",
+              "reason": "涉及财政预算、IMF项目与宏观政策风险。",
+              "reason_en": "Covers fiscal budget, IMF program and macro policy risk.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
+              "title": "两家实体因利用虚假SEC文件实施1.3亿美元欺诈被起诉",
+              "summary": "美国证交会起诉BG Wealth Sharing与DSJ Exchange两家实体，指其利用虚假SEC文件提升投资者信心并实施1.3亿美元欺诈。",
+              "title_en": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
+              "summary_en": "The SEC charged BG Wealth Sharing and DSJ Exchange, two foreign-operated, Colorado-incorporated entities, with a $130 million fraud scheme using false SEC filings to boost investor confidence.",
+              "topic_evidence": "used false SEC filings to boost confidence",
+              "reason": "涉及证券欺诈、SEC执法与投资者保护。",
+              "reason_en": "Covers securities fraud, SEC enforcement and investor protection.",
+              "score": 4.7
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+              "title": "土耳其任命新市场监管机构负责人应对基金危机",
+              "summary": "土耳其总统埃尔多安任命税务稽查委员会负责人穆赫辛·阿特奇为市场监管机构负责人，以应对冲击金融市场的投资基金危机。",
+              "title_en": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
+              "summary_en": "President Erdogan appointed tax inspection chief Muhsin Atci to head Turkey’s market regulator, as Ankara responds to an investment fund crisis that rocked financial markets.",
+              "topic_evidence": "an investment fund crisis that rocked financial markets",
+              "reason": "涉及市场military监管机构人事与基金危机应对。",
+              "reason_en": "Covers market regulator leadership and response to a fund crisis.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+              "title": "退休后想要保证收入又不想买年金？可尝试阶梯配置I债券",
+              "summary": "市场观察称，新I债券利率可能为5.5%或5.4%，但这不应改变策略；文章讨论用阶梯配置I债券构建退休保证收入。",
+              "title_en": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+              "summary_en": "MarketWatch says the new I-bond rate could be 5.5% or 5.4%, which should not change strategy; it discusses laddering I bonds to build guaranteed retirement income.",
+              "topic_evidence": "Try laddering I bonds",
+              "reason": "个人理财与退休收入配置建议。",
+              "reason_en": "Personal-finance and retirement-income allocation advice.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid",
+              "title": "“问题在于内存延迟”：一篇技术评论",
+              "summary": "一篇技术评论以“问题是内存延迟”为题，讨论内存延迟对系统性能的影响；该文在 Hacker News 获 172 票、46 条评论。",
+              "title_en": "It's the memory latency, stupid",
+              "summary_en": "A technical commentary titled “It’s the memory latency, stupid” examines memory latency’s impact on system performance. The Hacker News submission received 172 points and 46 comments.",
+              "topic_evidence": "It's the memory latency, stupid",
+              "reason": "标题提出明确技术判断，属于对系统性能瓶颈的评论与分析，且 HN 讨论热度较高。",
+              "reason_en": "The title makes a specific technical argument about a system performance bottleneck, fitting commentary and analysis with notable HN engagement.",
+              "score": 8
+            },
+            {
+              "url": "https://jepsen.io/analyses/particledb-1.1.4",
+              "title": "Jepsen 分析：ParticleDB 1.1.4",
+              "summary": "Jepsen 发布对 ParticleDB 1.1.4 的分布式数据库正确性分析；该条目在 Hacker News 获 236 票、132 条评论。",
+              "title_en": "Jepsen: ParticleDB 1.1.4",
+              "summary_en": "Jepsen published an analysis of ParticleDB 1.1.4, evaluating the distributed database’s correctness. The Hacker News entry received 236 points and 132 comments.",
+              "topic_evidence": "Jepsen: ParticleDB 1.1.4",
+              "reason": "Jepsen 分析报告针对具体数据库版本做正确性评估，属于技术分析与评论材料。",
+              "reason_en": "The Jepsen report evaluates the correctness of a specific database release, making it relevant technical analysis and commentary.",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+              "title": "学者的职责",
+              "summary": "一篇博客文章《学者的职责》在 Hacker News 获 107 票、31 条评论，讨论学者的角色与责任。",
+              "title_en": "The Duty of a Scholar",
+              "summary_en": "A blog essay, “The Duty of a Scholar,” discusses the role and responsibilities of scholars. It received 107 points and 31 comments on Hacker News.",
+              "topic_evidence": "The Duty of a Scholar",
+              "reason": "标题直接讨论学者的角色与责任，属于社会与职业伦理评论；HN 提供讨论热度指标。",
+              "reason_en": "The title directly addresses scholars’ roles and responsibilities, fitting social and professional ethics commentary, with HN engagement metrics.",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://karpathy.bearblog.dev/hacker-tube",
+              "title": "HackerTube：用 Hacker News 推荐视频搭建的 YouTube 式界面",
+              "summary": "HackerTube 以 2007 年以来 39,834 条 Hacker News 评论推荐的 6,454 个视频，搭建 YouTube 式浏览界面；HN 条目获 1012 票、311 条评论。",
+              "title_en": "HackerTube: YouTube built from videos recommended by HN",
+              "summary_en": "HackerTube builds a YouTube-style interface from 6,454 videos recommended across 39,834 Hacker News comments since 2007. The HN submission received 1,012 points and 311 comments.",
+              "topic_evidence": "YouTube built from videos recommended by HN",
+              "reason": "项目直接利用 HN 历史评论生成视频推荐界面，属于社区内容再利用的讨论素材，且 HN 互动量高。",
+              "reason_en": "The project directly reuses HN comment history for video recommendations, making it relevant to community discussion and highly engaged on HN.",
+              "score": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+      "original_title": "Google’s first data center satellite is online and writing poetry",
+      "original_summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "topic_evidence": "The first TPU in space is running a Google DeepMind Gemma 4 model",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "original_title": "API credits benefit for eligible ChatGPT subscriptions",
+      "original_summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai , openai , generative-ai , llms , anthropic , llm-pricing",
+      "topic_evidence": "OpenAI have now launched pretty much exactly the same deal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "original_title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "original_summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "topic_evidence": "Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "original_title": "Strix now supports Vercel AI Gateway",
+      "original_summary": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.Strix can reach models from Anthropic, OpenAI, Kimi, GLM, Deepseek, and others through a single API with no markup, removing the need to sign up for multiple providers. Usage and cost are tracked across all models in AI Gateway. Strix selects the Gateway through STRIX_LLM, where the model is the standard AI Gateway / ID behind a vercel_ai_gateway/ prefix:See Strix's AI Gateway setup guide to configure it and get started today. Read more",
+      "topic_evidence": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "original_title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "original_summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "topic_evidence": "it will be shutting down in a week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "original_title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "original_summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "topic_evidence": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/updated-model-spec",
+      "original_title": "An updated Model Spec for more capable and beneficial AI",
+      "original_summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "topic_evidence": "OpenAI’s updated Model Spec outlines five core values",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "original_title": "Making it easier for websites to express AI training preferences",
+      "original_summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "topic_evidence": "OpenAI will honor a shared robots.txt signal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "original_title": "Fair use benefits everyone",
+      "original_summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "topic_evidence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "original_title": "Community safety report and new protections for teens",
+      "original_summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "topic_evidence": "strengthening violence prevention in ChatGPT with expanded safeguards",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "original_title": "Do the math: How we took over ChatGPT accounts",
+      "original_summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 316 # Comments: 157",
+      "topic_evidence": "How we took over ChatGPT accounts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+      "original_title": "Simplifying runtime caching on Vercel",
+      "original_summary": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache, you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.Runtime Cache lets your code reuse fetched or computed data across requests without operating a separate caching service. Over the past year, we’ve improved read performance during traffic bursts, increased storage budgets, and made cache usage easier to investigate.Why we built Runtime CacheData Cache was originally launched as Vercel’s data caching service for the Next.js App Router, used by fetch caching and unstable_cache. Unlike CDN caching, which stores complete HTTP responses, Data Cache stores data your application uses to generate those responses. A product page, for example, can reuse cached catalog data while rendering a personalized response for each visitor.We wanted developers to have access to that service without depending on Next.js. Last year, we introduced Runtime Cache with a direct API: getCache from @vercel/functions. Applications can use it for feature flag lookups in Routing Middleware, caching CMS content during builds, and data caching in SvelteKit and Nuxt apps.Frameworks can expose this service through their own APIs, too. On Vercel, Next.js itself uses the Runtime Cache API for 'use cache: remote', which caches function and component outputs.How Runtime Cache worksThe infrastructure behind Runtime Cache is a distributed caching service shared by many teams. A Go API handles requests, backed by Redis fleets in every Vercel region. Every hour, the service handles more than 440 million reads and moves more than 18 TB of data.Each region has its own cache. A cache hit takes one round trip to the cache service in the region where your code runs. Vercel handles authentication with short-lived credentials, so you don’t need to manage API keys.On a cache miss, your app or framework fetches or computes the value and writes it to that region’s cache. The service doesn’t check other regions for a cached copy.Each cached entry stores its tags and write time. When the service reads an entry, it checks a separate tag store in the same region for those tags’ invalidation timestamps. If any tag was invalidated after the entry was written, the entry is stale.For example, an application can tag all its cached product data with catalog. When the catalog changes, invalidating that tag writes a single timestamp, even if a million entries share the tag. The service doesn’t need to find and delete those entries individually.The invalidation immediately updates the tag store in the region receiving the request. Vercel’s shared tag infrastructure, also used by the CDN, distributes the timestamp through the global push pipeline, typically reaching other regions within a few hundred milliseconds.Your app or framework chooses what to cache and handles misses. Runtime Cache handles regional storage, authentication, and distributing tag invalidations across regions.What we’ve shippedFaster reads during traffic burstsChecking whether an entry is still fresh adds a dependency to every cache hit. During traffic bursts, a slow shard in the tag store could delay reads even when the cached value was already available.We added circuit breakers that let reads temporarily check freshness using tag timestamps cached in memory, so they can proceed without waiting for the slow shard to respond. During this fallback, a read can briefly treat recently invalidated data as fresh.We enabled the breakers in every region in August. During the heaviest bursts in our largest region, p99 cache-service read latency fell to about one fifth of its previous level at comparable traffic. On-call alerts for this failure mode stopped.More storage and fewer evictionsWe raised Runtime Cache storage budgets for Pro projects in June and Enterprise projects in October, giving applications more room for data they reuse. This reduces the need to evict cached entries to make room for new data. Among Enterprise projects with frequent evictions, cache miss rates roughly halved within a day.More visibility into cache behaviorWe’ve added deployment markers, revalidation causes, and write utilization to the Runtime Cache view in Observability. These help you compare changes in cache behavior with releases, see why entries are refreshed, and identify data that gets written to the cache but rarely read.Bringing Data Cache into Runtime CacheWe’re simplifying caching on Vercel by consolidating on Runtime Cache. Until now, Next.js fetch caching and unstable_cache have used Data Cache, while getCache and 'use cache: remote' have used Runtime Cache. The migration brings all four APIs under Runtime Cache, so you and coding agents have one set of storage budgets and usage tools to work with.If you use fetch caching or unstable_cache, nothing changes in your code. On Pro, each project and environment gets its own storage allocation, with 8x the space of Data Cache’s previous team-wide pool. Enterprise projects get 10x their previous Data Cache storage.Previously unbilled Data Cache reads and writes will follow Runtime Cache pricing. New teams use Runtime Cache automatically, and existing teams will receive their migration and billing details in advance.See the changelog for the rollout, pricing, and early opt-in details. Before migrating, review your cache usage and follow the optimization guide to reduce unnecessary reads and writes. Read more",
+      "topic_evidence": "bringing Data Cache into Runtime Cache",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "infrastructure",
+        "performance",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+      "original_title": "Vercel Daemons can now call services with bindings",
+      "original_summary": "Vercel Daemons can now call the services in their deployment through service bindings.Declare the binding on the daemon. It names the target service and the environment variable that receives the service's URL:The daemon calls that URL like any other HTTP endpoint. Vercel handles the internal routing, authentication, and TLS, and the service stays private:Bindings point one way: services can't bind to daemons. Each instance keeps calling the deployment that started it, even after a promotion or rollback.Learn more about daemon service bindings in the docs. Read more",
+      "topic_evidence": "call the services in their deployment through service bindings",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+      "original_title": "Add liveness checks to your Daemons",
+      "original_summary": "Vercel Daemons now support configuring HTTP liveness checks.Start with an HTTP endpoint in your daemon that reports its health. Keep it lightweight so it responds quickly, and have it return an error status when the daemon is no longer healthy:The daemon configuration now accepts a livenessProbe value pointing at that endpoint:Vercel periodically requests the endpoint and restarts the daemon's container when the check fails, catching a daemon that is still running but no longer healthy.Read the Daemon documentation for more information about liveness checks, including default values and the optional tuning fields. Read more",
+      "topic_evidence": "configuring HTTP liveness checks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/improved-ip-geolocation-data",
+      "original_title": "IP geolocation now covers more visitors at higher resolution",
+      "original_summary": "IP geolocation on Vercel now resolves visitor locations with finer network granularity, delivering city-level data for nearly all requests and postal-code data for 90% of traffic.Geolocation data is now refreshed more often, so locations keep up as IP ranges are reassigned and routing changes. This is enabled for all projects with no code or configuration changes required. Existing geolocation headers along with the geolocation() helper in @vercel/functions, return the same fields for Vercel Functions and Routing Middleware.If you use geolocation for access controls, localization, or compliance, some visitors will now resolve to a different city or country, most often traffic from VPNs, hosting providers, and leased IP ranges:Physical termination location: Subnets announced from a hosting provider in a different country than their regional internet registry (RIR) record now resolve to the data center where the traffic actually terminates.Testing geo-dependent routes: Verify access rules against an IP's active network location rather than its static registry allocation.Read the request headers documentation for all available geolocation headers and fields. Read more",
+      "topic_evidence": "city-level data for nearly all requests and postal-code data for 90% of traffic",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "data"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+      "original_title": "Astronauts just gave the International Space Station a powerful upgrade",
+      "original_summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade. Once the final array is installed on November 5, the station will have up to 30% more available power, supporting critical operations and its eventual controlled deorbit.",
+      "topic_evidence": "completed a 7-hour, 11-minute spacewalk to install a new solar array",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+      "original_title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
+      "original_summary": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago. Scientists once believed powerful winds from exploding stars helped radiation escape galaxies and clear that cosmic fog, but new observations reveal that these winds actually block radiation instead.",
+      "topic_evidence": "challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "star",
+        "stars",
+        "astronomers",
+        "space"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
+      "original_title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
+      "original_summary": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet. Although Jupiter-sized worlds have been ruled out in key regions, smaller, potentially habitable planets could still be waiting to be discovered just 16 light-years from Earth.",
+      "topic_evidence": "a mysterious wobble was caused by stellar activity rather than a giant planet",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "star",
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+      "original_title": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+      "original_summary": "Scientists have recreated a primordial state of matter from the dawn of the universe by colliding oxygen nuclei at nearly the speed of light. The surprising results show that this exotic substance can form in smaller, lower-energy collisions than previously demonstrated, challenging the known boundaries of early-universe physics.",
+      "topic_evidence": "colliding oxygen nuclei at nearly the speed of light",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+      "original_title": "Scientists discover metals that defy the deep freeze at -424°F",
+      "original_summary": "Scientists have discovered a surprising mechanism that allows certain metals to resist cracking at temperatures as low as -253°C (-424°F), when similar materials typically become dangerously brittle. Instead of breaking, two experimental alloys reorganize their internal structures, creating new ways to absorb stress and remain flexible.",
+      "topic_evidence": "two experimental alloys reorganize their internal structures",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "material"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+      "original_title": "Physicists created a tiny universe and watched time emerge without a clock",
+      "original_summary": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it come from? Using 24,000 ultracold atoms, a University of Birmingham researcher built an isolated quantum system that repeatedly expands and contracts, mimicking the Big Bang and a possible Big Crunch. Remarkably, the experiment showed that time could emerge from changes happening inside the system, without relying on an external clock.",
+      "topic_evidence": "Using 24,000 ultracold atoms",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "quantum",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+      "original_title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+      "original_summary": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an estimated 78% chance within 10 years. Scientists believe the discovery could pave the way for earlier intervention and future treatments designed to prevent Alzheimer’s before memory problems begin.",
+      "topic_evidence": "a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "study"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "original_title": "Satlyt takes another step toward turning satellites into space data centers",
+      "original_summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "topic_evidence": "successful test this month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/awaitio",
+      "original_title": "AwaitIO",
+      "original_summary": "Write a TypeScript function, get an admin screen Discussion | Link",
+      "topic_evidence": "Write a TypeScript function, get an admin screen",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/agnos",
+      "original_title": "Agnos",
+      "original_summary": "Clean documents for AI, and see what was removed Discussion | Link",
+      "topic_evidence": "Clean documents for AI, and see what was removed",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/basetab-ai",
+      "original_title": "BaseTab AI",
+      "original_summary": "Turn your new tab into an AI-powered workspace Discussion | Link",
+      "topic_evidence": "Turn your new tab into an AI-powered workspace",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "original_title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "original_summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "topic_evidence": "reported $375M deal for defense tech startup Rune",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "original_title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "original_summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "topic_evidence": "launch Dream with $17M from a16z",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "original_title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "original_summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "topic_evidence": "bids on disintegrating, famed firm Weil Gotshal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "original_title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "original_summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "topic_evidence": "building a factory to turn out prefabricated AI data centers",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "startup"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "original_title": "Canada and EU announce new alliance open to like-minded countries",
+      "original_summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’ Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join. Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had the potential to offer unprecedented stability and opportunity”. Continue reading...",
+      "topic_evidence": "Canada and Europe have announced a new alliance of like-minded nations",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "geopolitics",
+        "europe"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
+      "original_title": "What we know about latest efforts to end US war on Iran",
+      "original_summary": "The foreign ministers of the US and Iran say a diplomatic end to the war is still possible.",
+      "topic_evidence": "a diplomatic end to the war is still possible",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+      "original_title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+      "original_summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+      "topic_evidence": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "original_title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "original_summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "topic_evidence": "crossed minefields in Oleshky in search of food",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "original_title": "India's opposition set to hold mega rally seeking election chief's resignation",
+      "original_summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+      "topic_evidence": "seeking election chief's resignation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Spain train disaster clouds Sánchez chances of re-election",
+      "original_summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
+      "topic_evidence": "Spain train disaster clouds Sánchez chances of re-election",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Police deployed during stand-off over control of top Poland court",
+      "original_summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "topic_evidence": "stand-off over control of top Poland court",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
+      "original_title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "original_summary": "In a counterprotest, Netanyahu supporters demand that Israel should not have a government with 'terrorists'.",
+      "topic_evidence": "urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "original_title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+      "original_summary": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her denial of accusations that the United Arab Emirates is fuelling the war in Sudan by supporting the paramilitary Rapid Support Forces. The UAE nominated Lana Nusseibeh last week to replace the UN secretary general, António Guterres, as he finishes his second five-year term ⁠this year, upending a race that had become gridlocked. Continue reading...",
+      "topic_evidence": "accusations that the United Arab Emirates is fuelling the war in Sudan",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "original_title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "original_summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful thunderstorms. During a particularly intense thunderstorm in Antalya, a coastal city in the south-west of Turkey, the formation of a tornado resulted in the deaths of four construction workers on Tuesday. Authorities in Greece and Turkey have released severe rainfall and flooding warnings, as a further 100-150mm (nearly 4-6in) of rain is expected this week in central Greece and western parts of Turkey, with locally higher totals possible. Travelling eastwards towards south Asia, strong winds and heavy rainfall have swept across the Indian regions of Odisha and Andhra Pradesh as Cyclone Arnab made landfall. With wind gusts in excess of 85mph (140km/h) and rainfall totals in some regions exceeding 200mm, the severe storm has prompted mass evacuations of more than 180,000 people, as well as widespread disruption to energy and transport infrastructure. The cyclone will weaken as it continues to traverse northwards over the coming days, though will continue to deliver heavy rain to parts of northern and central India as it does so. Continue reading...",
+      "topic_evidence": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "original_title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "original_summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
+      "topic_evidence": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Thousands demonstrate in Paris as protests spread across Europe",
+      "original_summary": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+      "topic_evidence": "More than 320,000 people demonstrated across France",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml",
+      "original_title": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+      "original_summary": "今天起，一批新规将正式施行，涉及社会民生多个领域。",
+      "topic_evidence": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml",
+      "original_title": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+      "original_summary": "中新网11月1日电 据自然资源部微信公众号消息，11月1日，在福建省莆田市举办的第十一届世界妈祖文化论坛上，由自然资源部征集编制的《全国海洋减灾典型案例(第一批)》正式发布。",
+      "topic_evidence": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724231.shtml",
+      "original_title": "（走进中国乡村）浙南山乡栀子花果开出风景、结出产业",
+      "original_summary": "中新社温州11月1日电 题：浙南山乡栀子花果开出风景、结出产业",
+      "topic_evidence": "浙南山乡栀子花果开出风景、结出产业",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724270.shtml",
+      "original_title": "一块糖串起沪港老街对话 上海探索城市微更新",
+      "original_summary": "中新网上海11月1日电 (谢梦圆 汤彦俊)街角的复古送糖车、几把巨型方糖椅、方糖玩偶，还有一块带“糖”字的香港路牌……秋日的上海瑞金二路街道像洒满了“糖”。顺着这些方糖线索，香港糖厂街的街区故事被牵引出来，沪港两条老街相似的更新脉络与治理逻辑也跨越时空，通过同一种味觉得以呼应。",
+      "topic_evidence": "上海探索城市微更新",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724225.shtml",
+      "original_title": "天津首届城市管理开放日开进公园 五大展区“摆摊”送服务",
+      "original_summary": "中新网天津11月1日电 (薛淳月)天津市首届城市管理开放日10月31日在和平区五大道公园举办。活动设置成果展示、智能装备、互动体验等五个展区，吸引不少市民现场了解并体验城市管理相关内容。",
+      "topic_evidence": "天津首届城市管理开放日开进公园",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724228.shtml",
+      "original_title": "2026年广西水上搜救应急技能竞赛举行",
+      "original_summary": "中新网南宁11月1日电(黄艳梅 莫卫华)10月30日至31日，2026年广西水上搜救应急技能竞赛暨广西海事局“桂海杯”第一届职工综合技能竞赛在南宁举行，11支参赛队伍围绕水上搜救核心环节展开实战比拼。",
+      "topic_evidence": "2026年广西水上搜救应急技能竞赛举行",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724257.shtml",
+      "original_title": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+      "original_summary": "中新网哈尔滨11月1日电 (赵宇航 韩雪)“放松，你们是主角，不用在意镜头外的任何事。”哈尔滨中华巴洛克历史文化街区内，一间胶片小屋里光线柔和，“95后”摄影师刘玉辉正引导一对情侣拍摄传统胶片照片。在短视频、AI影像快速普及的当下，一种以胶片拍摄、手工冲洗为载体的“慢摄影”，受到不少年轻人的青睐。",
+      "topic_evidence": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724132.shtml",
+      "original_title": "最大风力15级 台风“烟花”今日原地回旋",
+      "original_summary": "中新网11月1日电 据中央气象台网站消息，今年第31号台风“烟花”已于今天(11月1日)早晨由超强台风级减弱为强台风级，早晨5点钟其中心位于日本东京南偏东方向约1480公里的西北太平洋洋面上，就是北纬22.9度、东经144.1度，中心附近最大风力有15级(48米/秒)，中心最低气压为945百帕，七级风圈半径250-380公里，十级风圈半径110-120公里，十二级风圈半径70公里。",
+      "topic_evidence": "最大风力15级 台风“烟花”今日原地回旋",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724262.shtml",
+      "original_title": "八旬台属李泽曾述说“两岸家书抵万金”",
+      "original_summary": "中新社福建三明11月1日电 题：八旬台属李泽曾述说“两岸家书抵万金”",
+      "topic_evidence": "八旬台属李泽曾述说“两岸家书抵万金”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
+      "original_title": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+      "original_summary": "Asia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense.",
+      "topic_evidence": "Asia’s AI-heavy stock markets face a new US policy wildcard",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-faces-further-downside-risks-as-fear-surges-binance-hack-rattles-markets-4989389",
+      "original_title": "Bitcoin faces further downside risks as fear surges, Binance hack rattles markets",
+      "original_summary": "",
+      "topic_evidence": "Bitcoin faces further downside risks as fear surges, Binance hack rattles markets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.investing.com/news/stock-market-news/ai-investors-rush-to-hedge-against-potential-tech-market-downturn--wsj-4989371",
+      "original_title": "AI investors rush to hedge against potential tech market downturn - WSJ",
+      "original_summary": "",
+      "topic_evidence": "AI investors rush to hedge against potential tech market downturn",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+      "original_title": "Australia Home Auction Clearance Rate Falls to Six-Year Low",
+      "original_summary": "Australia’s auction clearance rate fell to a six-year low as a public holiday in Melbourne and the threat of higher interest rates weighed on the nation’s residential real estate market.",
+      "topic_evidence": "Australia’s auction clearance rate fell to a six-year low",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/france-s-woes-brazil-s-limited-contagion-show-new-emerging-era",
+      "original_title": "France’s Woes, Brazil’s Limited Contagion Show New Emerging Era",
+      "original_summary": "Argentina’s finance minister had some words of caution at an annual international confab recently amid broad enthusiasm over the resilience of emerging markets. Speaking little more than a week before a rout in Brazil’s markets, Luis Caputo warned, “Just one country — one important country — getting into trouble could probably generate a systemic risk and affect all of us.”",
+      "topic_evidence": "a rout in Brazil’s markets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/charting-the-global-economy-central-banks-hold-rates-steady",
+      "original_title": "Charting the Global Economy: Central Banks Hold Rates Steady",
+      "original_summary": "Central banks around the world kept interest rates unchanged this week as officials in the US and Europe assessed the risk of inflation stemming from high energy prices.",
+      "topic_evidence": "Central banks around the world kept interest rates unchanged this week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy",
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+      "original_title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "original_summary": "Jobs week lies ahead for the US, which means a heavy slate of data ahead of the capstone monthly employment report from the Bureau of Labor Statistics on Friday.",
+      "topic_evidence": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/south-korea-exports-extend-robust-growth-as-chip-boom-continues",
+      "original_title": "S. Korea Exports Extend Robust Growth as Chip Boom Continues",
+      "original_summary": "South Korea’s exports maintained strong growth in October, highlighting the strength of an artificial intelligence-driven boom that has powered the economy, even as a recent selloff in technology stocks raised questions about the durability of the global AI trade.",
+      "topic_evidence": "South Korea’s exports maintained strong growth in October",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+      "original_title": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
+      "original_summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+      "topic_evidence": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
+      "original_title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
+      "original_summary": "The Securities and Exchange Commission today charged two foreign-operated, Colorado-incorporated entities, BG Wealth Sharing Ltd and DSJ Exchange Pty Ltd, for orchestrating a fraud scheme that used false SEC filings to boost confidence in their…",
+      "topic_evidence": "used false SEC filings to boost confidence",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "wealth",
+        "sec"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+      "original_title": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
+      "original_summary": "Turkish President Recep Tayyip Erdogan appointed Muhsin Atci, head of the nation’s tax inspection board, as chief of Turkey’s market regulator to help deal with an investment fund crisis that rocked financial markets.",
+      "topic_evidence": "an investment fund crisis that rocked financial markets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "original_title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+      "original_summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "topic_evidence": "Try laddering I bonds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid",
+      "original_title": "It's the memory latency, stupid",
+      "original_summary": "Article URL: https://pivotlake.io/blog/its-the-memory-latency-stupid/ Comments URL: https://news.ycombinator.com/item?id=50318720 Points: 172 # Comments: 46",
+      "topic_evidence": "It's the memory latency, stupid",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "original_title": "Jepsen: ParticleDB 1.1.4",
+      "original_summary": "https://github.com/jepsen-io/particledb Comments URL: https://news.ycombinator.com/item?id=50316100 Points: 236 # Comments: 132",
+      "topic_evidence": "Jepsen: ParticleDB 1.1.4",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "original_title": "The Duty of a Scholar",
+      "original_summary": "Article URL: https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html Comments URL: https://news.ycombinator.com/item?id=50319061 Points: 107 # Comments: 31",
+      "topic_evidence": "The Duty of a Scholar",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://karpathy.bearblog.dev/hacker-tube",
+      "original_title": "HackerTube: YouTube built from videos recommended by HN",
+      "original_summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 1012 # Comments: 311",
+      "topic_evidence": "YouTube built from videos recommended by HN",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "original_title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "original_summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "topic_evidence": "Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "approved": true,
+      "evidence": "Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "reason": "主事件是介绍Zest的AI concierge具体产品能力：汇总口味、投票选餐厅并完成订位，直接属于AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "original_title": "Strix now supports Vercel AI Gateway",
+      "original_summary": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.Strix can reach models from Anthropic, OpenAI, Kimi, GLM, Deepseek, and others through a single API with no markup, removing the need to sign up for multiple providers. Usage and cost are tracked across all models in AI Gateway. Strix selects the Gateway through STRIX_LLM, where the model is the standard AI Gateway / ID behind a vercel_ai_gateway/ prefix:See Strix's AI Gateway setup guide to configure it and get started today. Read more",
+      "topic_evidence": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.",
+      "approved": true,
+      "evidence": "Strix, the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway.",
+      "reason": "主事件是开源AI渗透测试工具Strix接入Vercel AI Gateway，属于AI产品/平台的能力更新。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "original_title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "original_summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "topic_evidence": "it will be shutting down in a week",
+      "approved": true,
+      "evidence": "it will be shutting down in a week",
+      "reason": "主事件是隐私型AI助手Ollie即将关停，属于AI产品生命周期/平台动态。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "original_title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "original_summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "topic_evidence": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "approved": false,
+      "evidence": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "reason": "主事件是苹果CEO对AI战略的公开表态，不是具体AI产品或平台发布/功能更新；应归入人物言论或商业评论，而非AI产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://openai.com/index/updated-model-spec",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://openai.com/index/updated-model-spec",
+      "original_title": "An updated Model Spec for more capable and beneficial AI",
+      "original_summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "topic_evidence": "OpenAI’s updated Model Spec outlines five core values",
+      "approved": true,
+      "evidence": "OpenAI’s updated Model Spec outlines five core values",
+      "reason": "主事件是OpenAI更新Model Spec，提出指导模型行为的核心价值，属于AI研究与治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "original_title": "Making it easier for websites to express AI training preferences",
+      "original_summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "topic_evidence": "OpenAI will honor a shared robots.txt signal",
+      "approved": true,
+      "evidence": "OpenAI will honor a shared robots.txt signal",
+      "reason": "主事件是OpenAI遵循共享robots.txt信号以表达AI训练偏好，属于AI训练数据治理机制。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://openai.com/index/fair-use-benefits-everyone",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "original_title": "Fair use benefits everyone",
+      "original_summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "topic_evidence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts",
+      "approved": true,
+      "evidence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts",
+      "reason": "主事件是围绕AI训练合理使用的法律/政策讨论，属于AI研究与治理中的政策议题。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "original_title": "Do the math: How we took over ChatGPT accounts",
+      "original_summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 316 # Comments: 157",
+      "topic_evidence": "How we took over ChatGPT accounts",
+      "approved": true,
+      "evidence": "How we took over ChatGPT accounts",
+      "reason": "主事件是披露接管ChatGPT账号的安全研究，属于AI安全研究/治理范畴。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+      "original_title": "Vercel Daemons can now call services with bindings",
+      "original_summary": "Vercel Daemons can now call the services in their deployment through service bindings.Declare the binding on the daemon. It names the target service and the environment variable that receives the service's URL:The daemon calls that URL like any other HTTP endpoint. Vercel handles the internal routing, authentication, and TLS, and the service stays private:Bindings point one way: services can't bind to daemons. Each instance keeps calling the deployment that started it, even after a promotion or rollback.Learn more about daemon service bindings in the docs. Read more",
+      "topic_evidence": "call the services in their deployment through service bindings",
+      "approved": true,
+      "evidence": "call the services in their deployment through service bindings",
+      "reason": "主事件是Vercel Daemons通过service bindings调用部署内服务，属于基础设施能力更新。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
+      "original_title": "Add liveness checks to your Daemons",
+      "original_summary": "Vercel Daemons now support configuring HTTP liveness checks.Start with an HTTP endpoint in your daemon that reports its health. Keep it lightweight so it responds quickly, and have it return an error status when the daemon is no longer healthy:The daemon configuration now accepts a livenessProbe value pointing at that endpoint:Vercel periodically requests the endpoint and restarts the daemon's container when the check fails, catching a daemon that is still running but no longer healthy.Read the Daemon documentation for more information about liveness checks, including default values and the optional tuning fields. Read more",
+      "topic_evidence": "configuring HTTP liveness checks",
+      "approved": true,
+      "evidence": "configuring HTTP liveness checks",
+      "reason": "主事件是为Vercel Daemons配置HTTP存活检查，属于基础设施运维能力。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "original_title": "Satlyt takes another step toward turning satellites into space data centers",
+      "original_summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "topic_evidence": "successful test this month",
+      "approved": true,
+      "evidence": "successful test this month",
+      "reason": "主事件是Satlyt完成将卫星转为虚拟数据中心的关键测试，属于创业公司新产品/技术进展。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/awaitio",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/awaitio",
+      "original_title": "AwaitIO",
+      "original_summary": "Write a TypeScript function, get an admin screen Discussion | Link",
+      "topic_evidence": "Write a TypeScript function, get an admin screen",
+      "approved": true,
+      "evidence": "Write a TypeScript function, get an admin screen",
+      "reason": "主事件是展示AwaitIO这一具体产品：用TypeScript函数生成管理界面，属于新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/agnos",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/agnos",
+      "original_title": "Agnos",
+      "original_summary": "Clean documents for AI, and see what was removed Discussion | Link",
+      "topic_evidence": "Clean documents for AI, and see what was removed",
+      "approved": true,
+      "evidence": "Clean documents for AI, and see what was removed",
+      "reason": "主事件是展示Agnos面向AI的文档清洗产品及可查看删除内容功能，属于新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/basetab-ai",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/basetab-ai",
+      "original_title": "BaseTab AI",
+      "original_summary": "Turn your new tab into an AI-powered workspace Discussion | Link",
+      "topic_evidence": "Turn your new tab into an AI-powered workspace",
+      "approved": true,
+      "evidence": "Turn your new tab into an AI-powered workspace",
+      "reason": "主事件是展示BaseTab AI把新标签页变成AI工作区的具体产品，属于新产品。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "original_title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "original_summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "topic_evidence": "reported $375M deal for defense tech startup Rune",
+      "approved": true,
+      "evidence": "reported $375M deal for defense tech startup Rune",
+      "reason": "主事件是Salesforce以报道中的3.75亿美元收购国防科技初创Rune，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "original_title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "original_summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "topic_evidence": "launch Dream with $17M from a16z",
+      "approved": true,
+      "evidence": "launch Dream with $17M from a16z",
+      "reason": "主事件是前Palantir高管创立Dream并获得a16z 1700万美元融资，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "original_title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "original_summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "topic_evidence": "bids on disintegrating, famed firm Weil Gotshal",
+      "approved": true,
+      "evidence": "bids on disintegrating, famed firm Weil Gotshal",
+      "reason": "主事件是AI律所Crosby竞购正在瓦解的Weil Gotshal，属于并购交易。"
+    },
+    {
+      "id": "world/geopolitics/https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+      "original_title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+      "original_summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+      "topic_evidence": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+      "approved": true,
+      "evidence": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+      "reason": "主事件是区块链情报机构将币安63亿美元黑客事件与朝鲜关联，属于地缘与安全。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "original_title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "original_summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "topic_evidence": "crossed minefields in Oleshky in search of food",
+      "approved": true,
+      "evidence": "crossed minefields in Oleshky in search of food",
+      "reason": "主事件是俄占前线城市乌克兰居民撤离经历，反映战争与占领局势，属于地缘与安全。"
+    },
+    {
+      "id": "world/government-policy/https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+      "original_title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
+      "original_summary": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her denial of accusations that the United Arab Emirates is fuelling the war in Sudan by supporting the paramilitary Rapid Support Forces. The UAE nominated Lana Nusseibeh last week to replace the UN secretary general, António Guterres, as he finishes his second five-year term ⁠this year, upending a race that had become gridlocked. Continue reading...",
+      "topic_evidence": "accusations that the United Arab Emirates is fuelling the war in Sudan",
+      "approved": true,
+      "evidence": "accusations that the United Arab Emirates is fuelling the war in Sudan",
+      "reason": "主事件是苏丹侨民和人权组织反对阿联酋提名的联合国秘书长人选，涉及政府任命与外交政策争议，属于政府与政策。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "original_title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "original_summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful thunderstorms. During a particularly intense thunderstorm in Antalya, a coastal city in the south-west of Turkey, the formation of a tornado resulted in the deaths of four construction workers on Tuesday. Authorities in Greece and Turkey have released severe rainfall and flooding warnings, as a further 100-150mm (nearly 4-6in) of rain is expected this week in central Greece and western parts of Turkey, with locally higher totals possible. Travelling eastwards towards south Asia, strong winds and heavy rainfall have swept across the Indian regions of Odisha and Andhra Pradesh as Cyclone Arnab made landfall. With wind gusts in excess of 85mph (140km/h) and rainfall totals in some regions exceeding 200mm, the severe storm has prompted mass evacuations of more than 180,000 people, as well as widespread disruption to energy and transport infrastructure. The cyclone will weaken as it continues to traverse northwards over the coming days, though will continue to deliver heavy rain to parts of northern and central India as it does so. Continue reading...",
+      "topic_evidence": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "approved": true,
+      "evidence": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "reason": "主事件是希腊中部和土耳其西部发布强降雨与洪水警告，属于全球社会中的灾害事件。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "original_title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "original_summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
+      "topic_evidence": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "approved": true,
+      "evidence": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "reason": "主事件是刚果（金）埃博拉疫情造成5000多人死亡，属于全球社会公共卫生事件。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Thousands demonstrate in Paris as protests spread across Europe",
+      "original_summary": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+      "topic_evidence": "More than 320,000 people demonstrated across France",
+      "approved": true,
+      "evidence": "More than 320,000 people demonstrated across France",
+      "reason": "主事件是法国多地因生活成本与公共服务爆发大规模示威，属于全球社会。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml",
+      "original_title": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+      "original_summary": "今天起，一批新规将正式施行，涉及社会民生多个领域。",
+      "topic_evidence": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+      "approved": true,
+      "evidence": "涉电动自行车3C认证、儿童用品强制性国标等 一批新规今起施行",
+      "reason": "主事件是一批涉及电动自行车3C认证、儿童用品强制性国标的新规施行，属于政策与监管。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml",
+      "original_title": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+      "original_summary": "中新网11月1日电 据自然资源部微信公众号消息，11月1日，在福建省莆田市举办的第十一届世界妈祖文化论坛上，由自然资源部征集编制的《全国海洋减灾典型案例(第一批)》正式发布。",
+      "topic_evidence": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+      "approved": false,
+      "evidence": "自然资源部正式发布《全国海洋减灾典型案例（第一批）》",
+      "reason": "主事件是发布海洋减灾典型案例集，属于政府信息发布/案例推广，不是具体政策、制度、监管或标准制定；不宜归入政策与监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-01/10724270.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724270.shtml",
+      "original_title": "一块糖串起沪港老街对话 上海探索城市微更新",
+      "original_summary": "中新网上海11月1日电 (谢梦圆 汤彦俊)街角的复古送糖车、几把巨型方糖椅、方糖玩偶，还有一块带“糖”字的香港路牌……秋日的上海瑞金二路街道像洒满了“糖”。顺着这些方糖线索，香港糖厂街的街区故事被牵引出来，沪港两条老街相似的更新脉络与治理逻辑也跨越时空，通过同一种味觉得以呼应。",
+      "topic_evidence": "上海探索城市微更新",
+      "approved": true,
+      "evidence": "上海探索城市微更新",
+      "reason": "主事件是上海以街区活动探索城市微更新，属于地方城市治理与更新实践。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-01/10724225.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724225.shtml",
+      "original_title": "天津首届城市管理开放日开进公园 五大展区“摆摊”送服务",
+      "original_summary": "中新网天津11月1日电 (薛淳月)天津市首届城市管理开放日10月31日在和平区五大道公园举办。活动设置成果展示、智能装备、互动体验等五个展区，吸引不少市民现场了解并体验城市管理相关内容。",
+      "topic_evidence": "天津首届城市管理开放日开进公园",
+      "approved": true,
+      "evidence": "天津首届城市管理开放日开进公园",
+      "reason": "主事件是天津举办首届城市管理开放日，属于地方城市管理活动。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-01/10724228.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724228.shtml",
+      "original_title": "2026年广西水上搜救应急技能竞赛举行",
+      "original_summary": "中新网南宁11月1日电(黄艳梅 莫卫华)10月30日至31日，2026年广西水上搜救应急技能竞赛暨广西海事局“桂海杯”第一届职工综合技能竞赛在南宁举行，11支参赛队伍围绕水上搜救核心环节展开实战比拼。",
+      "topic_evidence": "2026年广西水上搜救应急技能竞赛举行",
+      "approved": true,
+      "evidence": "2026年广西水上搜救应急技能竞赛举行",
+      "reason": "主事件是广西举行水上搜救应急技能竞赛，属于社会应急/公共安全类社会新闻。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-01/10724257.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724257.shtml",
+      "original_title": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+      "original_summary": "中新网哈尔滨11月1日电 (赵宇航 韩雪)“放松，你们是主角，不用在意镜头外的任何事。”哈尔滨中华巴洛克历史文化街区内，一间胶片小屋里光线柔和，“95后”摄影师刘玉辉正引导一对情侣拍摄传统胶片照片。在短视频、AI影像快速普及的当下，一种以胶片拍摄、手工冲洗为载体的“慢摄影”，受到不少年轻人的青睐。",
+      "topic_evidence": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+      "approved": true,
+      "evidence": "胶片“慢摄影”走红：年轻人开始挣脱标准化工业审美",
+      "reason": "主事件是胶片慢摄影在年轻人中走红的文化社会现象，属于社会与法治中的社会新闻。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-01/10724132.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724132.shtml",
+      "original_title": "最大风力15级 台风“烟花”今日原地回旋",
+      "original_summary": "中新网11月1日电 据中央气象台网站消息，今年第31号台风“烟花”已于今天(11月1日)早晨由超强台风级减弱为强台风级，早晨5点钟其中心位于日本东京南偏东方向约1480公里的西北太平洋洋面上，就是北纬22.9度、东经144.1度，中心附近最大风力有15级(48米/秒)，中心最低气压为945百帕，七级风圈半径250-380公里，十级风圈半径110-120公里，十二级风圈半径70公里。",
+      "topic_evidence": "最大风力15级 台风“烟花”今日原地回旋",
+      "approved": true,
+      "evidence": "最大风力15级 台风“烟花”今日原地回旋",
+      "reason": "主事件是台风“烟花”强度与路径预报，属于社会公共安全/气象灾害信息。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/gn/2026/11-01/10724262.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-01/10724262.shtml",
+      "original_title": "八旬台属李泽曾述说“两岸家书抵万金”",
+      "original_summary": "中新社福建三明11月1日电 题：八旬台属李泽曾述说“两岸家书抵万金”",
+      "topic_evidence": "八旬台属李泽曾述说“两岸家书抵万金”",
+      "approved": true,
+      "evidence": "八旬台属李泽曾述说“两岸家书抵万金”",
+      "reason": "主事件是通过八旬台属讲述两岸家书故事，属于社会与法治中的人物社会新闻。"
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
+      "original_title": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
+      "original_summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+      "topic_evidence": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law",
+      "approved": true,
+      "evidence": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law",
+      "reason": "主事件是塞内加尔议员再次否决修订后的2026财政法，危及IMF项目，属于宏观与政策。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+      "original_title": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
+      "original_summary": "Turkish President Recep Tayyip Erdogan appointed Muhsin Atci, head of the nation’s tax inspection board, as chief of Turkey’s market regulator to help deal with an investment fund crisis that rocked financial markets.",
+      "topic_evidence": "an investment fund crisis that rocked financial markets",
+      "approved": true,
+      "evidence": "an investment fund crisis that rocked financial markets",
+      "reason": "主事件是土耳其因投资基金危机任命新的市场监管机构负责人，属于理财与监管。"
+    },
+    {
+      "id": "finance/wealth-regulation/https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "section": "财经理财",
+      "subsection": "理财与监管",
+      "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "original_title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+      "original_summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "topic_evidence": "Try laddering I bonds",
+      "approved": true,
+      "evidence": "Try laddering I bonds",
+      "reason": "主事件是介绍用I bonds阶梯配置构建退休通胀保值收入，属于个人理财。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://pivotlake.io/blog/its-the-memory-latency-stupid",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid",
+      "original_title": "It's the memory latency, stupid",
+      "original_summary": "Article URL: https://pivotlake.io/blog/its-the-memory-latency-stupid/ Comments URL: https://news.ycombinator.com/item?id=50318720 Points: 172 # Comments: 46",
+      "topic_evidence": "It's the memory latency, stupid",
+      "approved": true,
+      "evidence": "It's the memory latency, stupid",
+      "reason": "主事件是围绕内存延迟的技术观点文章，属于技术观点。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://jepsen.io/analyses/particledb-1.1.4",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "original_title": "Jepsen: ParticleDB 1.1.4",
+      "original_summary": "https://github.com/jepsen-io/particledb Comments URL: https://news.ycombinator.com/item?id=50316100 Points: 236 # Comments: 132",
+      "topic_evidence": "Jepsen: ParticleDB 1.1.4",
+      "approved": true,
+      "evidence": "Jepsen: ParticleDB 1.1.4",
+      "reason": "主事件是Jepsen对ParticleDB 1.1.4的技术分析/评审，属于技术观点。"
+    },
+    {
+      "id": "opinion/business-society/https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "original_title": "The Duty of a Scholar",
+      "original_summary": "Article URL: https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html Comments URL: https://news.ycombinator.com/item?id=50319061 Points: 107 # Comments: 31",
+      "topic_evidence": "The Duty of a Scholar",
+      "approved": true,
+      "evidence": "The Duty of a Scholar",
+      "reason": "主事件是讨论学者职责的社会评论文章，属于商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://openai.com/index/fair-use-benefits-everyone"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://openai.com/index/helping-websites-express-ai-training-preferences"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://openai.com/index/updated-model-spec"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724225.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724270.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724193.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/gn/2026/11-01/10724262.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724132.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724228.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-01/10724257.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/add-liveness-checks-to-your-daemons"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response"
+    ],
+    [
+      "finance",
+      "wealth-regulation",
+      "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://jepsen.io/analyses/particledb-1.1.4"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://pivotlake.io/blog/its-the-memory-latency-stupid"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/agnos"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/awaitio"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/basetab-ai"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-01",
+  "title": "信息日报 2026-11-01",
+  "title_en": "Information Daily 2026-11-01",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "谷歌首个数据中心卫星上线，在太空运行 Gemma 4 并写诗",
+    "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+    "source": "TechCrunch AI",
+    "summary": "谷歌首个数据中心卫星上线，首块太空 TPU 运行 DeepMind Gemma 4 模型并生成诗歌，展示轨道 AI 推理部署。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Google’s first data center satellite is online and writing poetry",
+    "summary_en": "Google’s first data center satellite is online, with the first TPU in space running a DeepMind Gemma 4 model and generating poetry, demonstrating orbital AI inference.",
+    "original_title": "Google’s first data center satellite is online and writing poetry",
+    "published_at": "2026-10-30T17:00:00+00:00",
+    "reason": "报道谷歌在轨 TPU 运行 Gemma 4 模型，属于前沿模型的新部署场景，信息具体。",
+    "reason_en": "Reports a concrete deployment of a DeepMind Gemma 4 model on an orbital TPU, fitting the frontier-model subsection.",
+    "score": 3.95
+  },
+  "path": "papers/2026-11-01.html",
+  "raw_path": "raw/2026-11-01.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml]"
+  ]
+}

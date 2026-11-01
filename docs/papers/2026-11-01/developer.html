@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-11-01</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261101 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年11月1日 星期日</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-11-01/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">4 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Vercel 更新缓存、Daemons 与 IP 地理定位">
+      <div class="lead-label">Vercel 更新缓存、Daemons 与 IP 地理定位</div>
+      <p>Vercel 将 Data Cache 并入 Runtime Cache，统一跨框架与 API 的数据缓存；Next.js 的 fetch 缓存和 unstable_cache 无需改代码，Pro 与 Enterprise 项目获得更大存储配额。Daemons 新增服务绑定与 HTTP 存活检查，IP 地理定位提升覆盖与精度，城市级数据覆盖近全部请求，90% 流量可到邮编级，并默认启用。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Vercel 基础设施更新：缓存、Daemons 与地理定位">
+          <div class="lead-label">Vercel 基础设施更新：缓存、Daemons 与地理定位</div>
+          <p>Vercel 将 Data Cache 并入 Runtime Cache，统一跨框架与 API 的数据缓存，Next.js 的 fetch 缓存和 unstable_cache 无需改代码，Pro 与 Enterprise 项目获得更大存储配额。Daemons 可通过服务绑定在部署内调用目标服务，由 Vercel 处理内部路由、认证与 TLS，并可配置 HTTP 存活检查。IP 地理定位提升覆盖与精度，城市级数据覆盖近全部请求，90% 流量可到邮编级，默认启用且无需改代码或配置。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/blog/simplifying-runtime-caching-on-vercel" target="_blank" rel="noopener">
+            <span class="at">Vercel 将 Data Cache 并入 Runtime Cache</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 将 Data Cache 并入 Runtime Cache，统一跨框架与 API 的数据缓存；Next.js 的 fetch 缓存和 unstable_cache 无需改代码，Pro 与 Enterprise 项目获得更大存储配额。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings" target="_blank" rel="noopener">
+            <span class="at">Vercel Daemons 可通过服务绑定调用内部服务</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Daemons 新增服务绑定，可在部署内调用目标服务；绑定声明服务名和接收 URL 的环境变量，Vercel 负责内部路由、认证与 TLS，服务保持私有。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/add-liveness-checks-to-your-daemons" target="_blank" rel="noopener">
+            <span class="at">Vercel Daemons 支持配置 HTTP 存活检查</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Daemons 现可配置 HTTP 存活检查；开发者提供轻量健康端点，并在守护进程配置中用 livenessProbe 指向该端点，Vercel 会定期请求以判断服务是否健康。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/improved-ip-geolocation-data" target="_blank" rel="noopener">
+            <span class="at">Vercel IP 地理定位提升覆盖与精度</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 的 IP 地理定位现可提供更细网络粒度的访客位置，几乎全部请求可到城市级，90% 流量可到邮编级；数据刷新更频繁，所有项目无需改代码或配置即可启用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
