@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "title": "信息日报 2026-11-02",
+  "title_en": "Information Daily 2026-11-02",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "加拿大与欧盟宣布成立开放联盟，欢迎志同道合国家加入",
+    "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+    "source": "卫报国际",
+    "summary": "加拿大与欧盟在蒙特利尔峰会上宣布成立“未来联盟”，称其将为民众提供保护，并对冲地缘政治的不确定性，同时向其他志同道合国家开放。",
+    "source_en": "The Guardian World",
+    "title_en": "Canada and EU announce new alliance open to like-minded countries",
+    "summary_en": "Canada and the EU unveiled the Alliance for the Future at a Montreal summit, describing it as a protective canopy for citizens and a hedge against geopolitical uncertainty, open to like-minded countries.",
+    "original_title": "Canada and EU announce new alliance open to like-minded countries",
+    "published_at": "2026-10-30T19:42:15+00:00",
+    "reason": "报道具体说明加拿大与欧盟在蒙特利尔宣布新联盟及其开放性质，属于地缘政治与外交结盟的重要动向。",
+    "reason_en": "The report specifies the Canada-EU alliance announced in Montreal and its open membership, a significant geopolitical and diplomatic alignment.",
+    "score": 5.9
+  },
+  "path": "papers/2026-11-02.html",
+  "raw_path": "raw/2026-11-02.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake]",
+    "Editorial item ignored in science-tech/chips-hardware: topic evidence does not match subsection [https://www.sciencedaily.com/releases/2026/10/261030002940.htm]",
+    "Source chinanews-china timed out"
+  ]
+}

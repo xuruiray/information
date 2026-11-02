@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI 与大模型 · 信息日报 2026-11-02</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261102 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年11月2日 星期一</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-11-02/ai-tech.html">English</a>
+      <a href="ai-tech.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html" aria-current="page">01 AI 与大模型</a>
+      <a href="developer.html">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI 与大模型</h2>
+      <span class="ed">10 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：前沿模型、产品与治理动态">
+      <div class="lead-label">AI 与大模型：前沿模型、产品与治理动态</div>
+      <p>本期内容涵盖前沿模型、AI 产品与平台，以及研究与治理。前沿模型方面，论文分别讨论对话式 AI 在用户偏好不确定性下的自适应个性化、兼顾零样本推理与持续学习的 AutoHebb 自修改神经网络，以及物理基础模型在仿真到现实微调中的灾难性遗忘。产品方面，datasette-llm 发布 0.1a9 版并可自动采用 LLM 默认模型，注重隐私的 AI 助手 Ollie 将在一周内关闭。研究与治理方面，内容包括 CoFiBreak 多轮越狱多样性奖励、剪枝冗余注意力头以抑制逐字记忆、Qistas 公平性评估协议、孟加拉语伊斯兰来源捏造基准 BILAL-BENCH，以及 NAACP 诉 xAI 数据中心污染案获准继续推进。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>前沿模型</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：个性化、自修改网络与仿真到现实遗忘">
+          <div class="lead-label">前沿模型：个性化、自修改网络与仿真到现实遗忘</div>
+          <p>三篇论文分别提出面向偏好认知不确定性的自适应个性化方法、可零样本推理并持续学习的 AutoHebb 自修改神经网络，并考察物理基础模型在仿真到现实微调中的灾难性遗忘。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.40930" target="_blank" rel="noopener">
+            <span class="at">面向偏好认知不确定性的自适应个性化</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出面向对话式AI的自适应个性化方法，针对用户偏好随时间保持、变得不确定或被明确修改的情况，调整回复策略，而非只依赖被动记忆检索。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40757" target="_blank" rel="noopener">
+            <span class="at">AutoHebb：可零样本推理并持续学习的自修改神经网络</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">论文提出 AutoHebb 自修改神经网络，试图同时实现零样本推理与持续学习，并指出现有模型在模拟这两种能力时存在局限。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40857" target="_blank" rel="noopener">
+            <span class="at">被冻结的时间：物理基础模型在仿真到现实适配中如何遗忘</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">研究考察科学基础模型在仿真到现实微调中的灾难性遗忘：这类模型能适配未见数据分布，但额外微调可能损害原有能力。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI 产品与平台</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI 产品与平台：datasette-llm 更新与 Ollie 关闭">
+          <div class="lead-label">AI 产品与平台：datasette-llm 更新与 Ollie 关闭</div>
+          <p>datasette-llm 发布 0.1a9 版，可自动采用 LLM 的默认模型，使 Datasette Agent 无需显式配置默认模型即可使用；注重隐私的 AI 助手 Ollie 将在一周内关闭。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/31/datasette-llm" target="_blank" rel="noopener">
+            <span class="at">datasette-llm 发布 0.1a9 版本</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-llm 插件发布0.1a9版，可自动采用LLM的默认模型，使Datasette Agent无需显式配置默认模型即可使用。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down" target="_blank" rel="noopener">
+            <span class="at">注重隐私的AI助手Ollie将关闭</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">注重用户隐私的AI助手Ollie创始人表示，产品将在一周内关闭；此时市场上AI助手数量正快速增加。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>研究与治理</h3>
+          <span>5 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：越狱、记忆抑制、公平评估与法律进展">
+          <div class="lead-label">研究与治理：越狱、记忆抑制、公平评估与法律进展</div>
+          <p>研究内容包括 CoFiBreak 的由粗到细多样性奖励、剪枝冗余注意力头以抑制逐字记忆、Qistas 预注册可移植公平性评估协议，以及评估孟加拉语伊斯兰来源捏造的 BILAL-BENCH。治理方面，法官允许 NAACP 就 xAI 数据中心污染提起的诉讼继续推进。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.40926" target="_blank" rel="noopener">
+            <span class="at">CoFiBreak：用于多轮越狱的由粗到细多样性奖励</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出CoFiBreak，用由粗到细的多样性奖励训练攻击者LLM进行多轮越狱，以缓解仅以攻击成功为奖励时提示多样性坍塌、影响安全评估的问题。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40974" target="_blank" rel="noopener">
+            <span class="at">更少注意力头，更少记忆：剪枝冗余注意力头可抑制逐字记忆</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">研究探讨通过剪枝冗余注意力头来抑制大语言模型逐字复述训练数据，以降低隐私泄露和知识产权暴露风险，并讨论其对泛化的影响。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40893" target="_blank" rel="noopener">
+            <span class="at">Qistas：面向大语言模型公平性评估的预注册可移植协议</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文提出Qistas，一个预注册、可移植的大语言模型公平性评估协议，针对现有基准多源于英语和美国社会类别、翻译后不适配其他社会的问题。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40996" target="_blank" rel="noopener">
+            <span class="at">开放语言模型会编造经文吗？BILAL-BENCH 评估孟加拉语伊斯兰来源捏造</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">论文推出BILAL-BENCH，评估开放语言模型在孟加拉语中捏造《古兰经》经文或圣训的问题，指出现有伊斯兰幻觉基准多为阿拉伯语且常为封闭式。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward" target="_blank" rel="noopener">
+            <span class="at">法官允许NAACP就xAI数据中心污染提起的诉讼继续推进</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">法官允许NAACP针对xAI数据中心污染的诉讼继续推进；该诉讼指控这家由SpaceX拥有的AI公司违反《清洁空气法》。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

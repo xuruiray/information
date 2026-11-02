@@ -1,0 +1,1895 @@
+{
+  "date": "2026-11-02",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.40930",
+              "title": "面向偏好认知不确定性的自适应个性化",
+              "summary": "论文提出面向对话式AI的自适应个性化方法，针对用户偏好随时间保持、变得不确定或被明确修改的情况，调整回复策略，而非只依赖被动记忆检索。",
+              "title_en": "Adaptive Personalization Under Preference Epistemic Uncertainty",
+              "summary_en": "The paper proposes an adaptive personalization approach for conversational AI that adjusts response strategies as user preferences remain stable, become uncertain, or are explicitly revised, rather than relying only on passive memory retrieval.",
+              "topic_evidence": "conversational AI to adapt its response strategy to evolving preferences",
+              "reason": "论文直接讨论对话式AI在用户偏好变化下的个性化策略，属于模型行为与个性化研究。",
+              "reason_en": "The paper directly addresses personalization strategies for conversational AI under changing user preferences, fitting model-behavior research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40757",
+              "title": "AutoHebb：可零样本推理并持续学习的自修改神经网络",
+              "summary": "论文提出 AutoHebb 自修改神经网络，试图同时实现零样本推理与持续学习，并指出现有模型在模拟这两种能力时存在局限。",
+              "title_en": "AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+              "summary_en": "The paper introduces AutoHebb, a self-modifying neural network aimed at combining zero-shot inference and continual learning, while noting limits in existing models that simulate these abilities.",
+              "topic_evidence": "Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+              "reason": "新神经网络架构研究，直接涉及零样本推理与持续学习。",
+              "reason_en": "A new neural-network architecture study directly concerned with zero-shot inference and continual learning.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40857",
+              "title": "被冻结的时间：物理基础模型在仿真到现实适配中如何遗忘",
+              "summary": "研究考察科学基础模型在仿真到现实微调中的灾难性遗忘：这类模型能适配未见数据分布，但额外微调可能损害原有能力。",
+              "title_en": "Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+              "summary_en": "The study examines catastrophic forgetting in scientific foundation models during sim-to-real fine-tuning, noting that while such models adapt to unseen data distributions, additional fine-tuning can degrade prior capabilities.",
+              "topic_evidence": "How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+              "reason": "科学基础模型的适配与遗忘研究，属于前沿模型能力评估。",
+              "reason_en": "Research on adaptation and forgetting in scientific foundation models, relevant to frontier-model capability evaluation.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+              "title": "datasette-llm 发布 0.1a9 版本",
+              "summary": "datasette-llm 插件发布0.1a9版，可自动采用LLM的默认模型，使Datasette Agent无需显式配置默认模型即可使用。",
+              "title_en": "datasette-llm 0.1a9",
+              "summary_en": "The datasette-llm plugin released version 0.1a9, which now picks up LLM’s default model so Datasette Agent can be used without explicitly configuring a default model.",
+              "topic_evidence": "It now picks up the default model used by LLM",
+              "reason": "具体开发者插件版本更新，涉及默认模型配置，属于AI工具与平台动态。",
+              "reason_en": "A concrete developer-plugin release involving default-model configuration, fitting AI tools and platforms.",
+              "score": 4.1
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+              "title": "苹果CEO称公司不想“为AI而AI”",
+              "summary": "苹果新任CEO为公司在AI领域的当前定位辩护，并表示苹果不打算“为AI而AI”地推出AI功能。",
+              "title_en": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+              "summary_en": "Apple’s CEO defended the company’s current position in the AI landscape, saying Apple does not “want to ship AI for AI’s sake.”",
+              "topic_evidence": "doesn’t ‘want to ship AI for AI’s sake’",
+              "reason": "苹果高层对AI产品策略的公开表态，属于AI产品与平台动向。",
+              "reason_en": "A public statement by Apple’s CEO on AI product strategy, fitting AI products and platforms.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+              "title": "注重隐私的AI助手Ollie将关闭",
+              "summary": "注重用户隐私的AI助手Ollie创始人表示，产品将在一周内关闭；此时市场上AI助手数量正快速增加。",
+              "title_en": "Ollie, a privacy-focused AI assistant, is shutting down",
+              "summary_en": "Ollie, a privacy-focused AI assistant, will shut down in a week, its founder said, as the market becomes increasingly crowded with AI assistants.",
+              "topic_evidence": "privacy-focused AI assistant, is shutting down",
+              "reason": "具体AI助手产品停止运营，属于AI产品动态。",
+              "reason_en": "A specific AI assistant product is shutting down, fitting AI product news.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.40926",
+              "title": "CoFiBreak：用于多轮越狱的由粗到细多样性奖励",
+              "summary": "论文提出CoFiBreak，用由粗到细的多样性奖励训练攻击者LLM进行多轮越狱，以缓解仅以攻击成功为奖励时提示多样性坍塌、影响安全评估的问题。",
+              "title_en": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+              "summary_en": "The paper introduces CoFiBreak, a coarse-to-fine diversity reward for training attacker LLMs in multi-turn jailbreaks, aiming to reduce prompt-diversity collapse when attack success is the only reward and to improve safety evaluation.",
+              "topic_evidence": "A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+              "reason": "针对LLM红队与越狱安全评估的方法研究，属于AI安全治理。",
+              "reason_en": "A method study on LLM red-teaming and jailbreak safety evaluation, fitting AI safety governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40974",
+              "title": "更少注意力头，更少记忆：剪枝冗余注意力头可抑制逐字记忆",
+              "summary": "研究探讨通过剪枝冗余注意力头来抑制大语言模型逐字复述训练数据，以降低隐私泄露和知识产权暴露风险，并讨论其对泛化的影响。",
+              "title_en": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+              "summary_en": "The study examines pruning redundant attention heads to suppress verbatim memorization in large language models, aiming to reduce privacy leakage and intellectual-property exposure while considering effects on generalization.",
+              "topic_evidence": "Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+              "reason": "直接研究LLM记忆与隐私泄露，属于安全治理相关。",
+              "reason_en": "Directly studies LLM memorization and privacy leakage, relevant to safety governance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40893",
+              "title": "Qistas：面向大语言模型公平性评估的预注册可移植协议",
+              "summary": "论文提出Qistas，一个预注册、可移植的大语言模型公平性评估协议，针对现有基准多源于英语和美国社会类别、翻译后不适配其他社会的问题。",
+              "title_en": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+              "summary_en": "The paper presents Qistas, a pre-registered and portable protocol for evaluating LLM fairness, addressing benchmarks that are largely English-born and American in their social categories and often do not fit other societies after translation.",
+              "topic_evidence": "A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+              "reason": "提出跨社会可移植的LLM公平性评估协议，属于研究与治理。",
+              "reason_en": "Proposes a portable cross-society protocol for LLM fairness evaluation, fitting research and governance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40996",
+              "title": "开放语言模型会编造经文吗？BILAL-BENCH 评估孟加拉语伊斯兰来源捏造",
+              "summary": "论文推出BILAL-BENCH，评估开放语言模型在孟加拉语中捏造《古兰经》经文或圣训的问题，指出现有伊斯兰幻觉基准多为阿拉伯语且常为封闭式。",
+              "title_en": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
+              "summary_en": "The paper introduces BILAL-BENCH to benchmark fabrication of Qur’anic verses and hadith by open language models in Bengali, noting that existing Islamic hallucination benchmarks are largely Arabic and often closed-ended.",
+              "topic_evidence": "Benchmarking Islamic-Source Fabrication in Bengali",
+              "reason": "针对开放语言模型宗教文本幻觉的新基准，属于研究与治理。",
+              "reason_en": "A new benchmark for religious-text hallucination in open language models, fitting research and governance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+              "title": "法官允许NAACP就xAI数据中心污染提起的诉讼继续推进",
+              "summary": "法官允许NAACP针对xAI数据中心污染的诉讼继续推进；该诉讼指控这家由SpaceX拥有的AI公司违反《清洁空气法》。",
+              "title_en": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+              "summary_en": "A judge allowed the NAACP lawsuit over xAI’s data center pollution to proceed; the suit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+              "topic_evidence": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+              "reason": "涉及AI数据中心环境监管与诉讼，属于AI治理。",
+              "reason_en": "Involves environmental regulation and litigation over an AI data center, fitting AI governance.",
+              "score": 3.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+              "title": "拿不准时，先删掉 uv.lock 文件",
+              "summary": "作者在切换到 Python 3.15 后偶尔遇到令人困惑的依赖错误，经验法则是拿不准就删除 uv.lock；多数项目是库，不包含锁文件。",
+              "title_en": "If in doubt, delete the uv.lock file",
+              "summary_en": "After switching to Python 3.15, the author occasionally hits confusing dependency errors and advises deleting uv.lock when in doubt; most of his projects are libraries without lockfiles.",
+              "topic_evidence": "If in doubt, delete the uv.lock file",
+              "reason": "涉及 Python 3.15 下 uv 锁文件引发的依赖错误排查，属于语言与工具链实践。",
+              "reason_en": "Covers troubleshooting Python 3.15 dependency errors tied to uv.lock, a language toolchain practice.",
+              "score": 5.1
+            },
+            {
+              "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+              "title": "JavaScript 框架的 AI 成本",
+              "summary": "一篇题为《The AI cost of JavaScript frameworks》的文章讨论 JavaScript 框架的 AI 成本；Hacker News 页面显示 337 分、259 条评论，摘要未展开具体论证。",
+              "title_en": "The AI cost of JavaScript frameworks",
+              "summary_en": "An article titled 'The AI cost of JavaScript frameworks' examines the AI cost of JavaScript frameworks; its Hacker News post shows 337 points and 259 comments, without further argument details in the summary.",
+              "topic_evidence": "The AI cost of JavaScript frameworks",
+              "reason": "围绕 JavaScript 框架的 AI 成本展开讨论，标题与 HN 讨论指标明确，符合语言与框架版块。",
+              "reason_en": "Discusses the AI cost of JavaScript frameworks, with clear title and HN discussion metrics, fitting the languages and frameworks subsection.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+              "title": "Game Off 2026 主题公布：SHIFT",
+              "summary": "GitHub 第 14 届年度游戏开发活动 Game Off 回归，为期一个月，于 2026 年 11 月举行，主题为 SHIFT；参赛者可围绕切换档位、交换视角、弯曲现实或按键创作游戏。",
+              "title_en": "Game Off 2026: The theme is SHIFT",
+              "summary_en": "GitHub's 14th annual month-long Game Off returns in November 2026 with the theme SHIFT, inviting participants to make games around changing gears, swapping perspectives, bending reality or pressing a key.",
+              "topic_evidence": "The theme is SHIFT",
+              "reason": "GitHub 年度游戏开发活动公布新主题，属于开发者社区与开源活动。",
+              "reason_en": "GitHub's annual game-development event announces its new theme, relevant to developer community and open-source activities.",
+              "score": 4.0
+            },
+            {
+              "url": "https://github.com/ivankovic/omnidiff",
+              "title": "OmniDiff：开源、快速、内容感知的 Rust Git 差异工具",
+              "summary": "OmniDiff 是 AGPLv3 开源 Git difftool，用 Rust 编写，可比较 25 种语言代码以及配置、图片、PDF、压缩包和字体等；作者称在 2023 款 ThinkPad T14s 上比较数万行 C++ 文件耗时不到 100ms。",
+              "title_en": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+              "summary_en": "OmniDiff is an AGPLv3 open-source Git difftool written in Rust. It diffs code in 25 languages plus configs, images, PDFs, archives and fonts; the author claims sub-100ms on tens of thousands of C++ lines.",
+              "topic_evidence": "content aware Git difftool, in Rust",
+              "reason": "新开源的 Rust Git difftool，支持多格式并强调性能，属于开发工具发布。",
+              "reason_en": "A newly open-sourced Rust Git difftool supporting multiple formats and emphasizing performance, fitting developer tool releases.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+              "title": "我们如何接管 ChatGPT 账户",
+              "summary": "Parameter Labs 描述其发现的针对 ChatGPT artifacts 实现的利用，该功能在沙箱 iframe 中展示交互式自定义 HTML 应用，强调此类 HTML 需严格隔离以维持安全边界。",
+              "title_en": "How We Took Over ChatGPT Accounts",
+              "summary_en": "Parameter Labs describes an exploit against ChatGPT's artifacts implementation, which displays interactive custom HTML apps in sandboxed iframes, stressing that such HTML must stay tightly isolated.",
+              "topic_evidence": "interactive custom HTML apps are displayed in a sandboxed iframe",
+              "reason": "报道 ChatGPT HTML 预览/artifacts 沙箱 iframe 的实际攻击面，属于基础设施安全。",
+              "reason_en": "Reports a real attack surface in ChatGPT's HTML preview/artifacts sandboxed iframe, relevant to infrastructure security.",
+              "score": 5.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+              "title": "科学家将阿基米德螺旋缩小至单分子尺度",
+              "summary": "研究团队造出一种可用电流双向旋转的分子马达，灵感来自阿基米德螺旋；旋转可使电导率最高提升100倍，或推动分子电子学发展。",
+              "title_en": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+              "summary_en": "Researchers built a single-molecule motor that spins in either direction under electric current, inspired by Archimedes’ screw; its rotation can raise electrical conductivity up to 100-fold, with potential uses in molecular electronics.",
+              "topic_evidence": "its rotation can boost electrical conductivity by up to 100 times",
+              "reason": "报道电控分子马达及其电导提升效应，属于分子电子学器件硬件进展。",
+              "reason_en": "Reports an electrically controlled molecular motor that can boost conductivity, a molecular-electronics hardware advance.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": []
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+              "title": "科学家对撞氧原子核 重现大爆炸初期物质形态",
+              "summary": "研究人员以接近光速对撞氧原子核，重现宇宙早期物质状态；结果显示这类奇异物质可在更小、更低能的对撞中形成，挑战原有边界。",
+              "title_en": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+              "summary_en": "By colliding oxygen nuclei at nearly light speed, scientists recreated a primordial state of matter and found it can form in smaller, lower-energy collisions than previously demonstrated, challenging early-universe physics boundaries.",
+              "topic_evidence": "colliding oxygen nuclei at nearly the speed of light",
+              "reason": "描述氧核对撞重现早期宇宙物质，并给出更低能阈值的实验结果。",
+              "reason_en": "Describes oxygen-nucleus collisions recreating early-universe matter and reports a lower-energy formation threshold.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+              "title": "科学家发现可在-253°C下抗开裂的金属机制",
+              "summary": "两种实验合金在-253°C低温下并未变脆，而是重组内部结构以吸收应力并保持柔性；研究揭示金属抗极寒开裂的新机制。",
+              "title_en": "Scientists discover metals that defy the deep freeze at -424°F",
+              "summary_en": "Two experimental alloys resisted cracking at -253°C by reorganizing their internal structures to absorb stress and remain flexible, revealing a mechanism that lets certain metals avoid dangerous embrittlement in extreme cold.",
+              "topic_evidence": "two experimental alloys reorganize their internal structures",
+              "reason": "报道低温合金抗开裂的结构机制，材料科学信息具体。",
+              "reason_en": "Reports a structural mechanism for crack resistance in cryogenic alloys, with specific materials-science findings.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+              "title": "研究：长期接触一种常见农药与帕金森病风险超过2.5倍相关",
+              "summary": "加州大学洛杉矶分校研究发现，长期接触一种常见农药与帕金森病风险超过2.5倍相关，并揭示其对脑细胞的损伤机制及潜在保护路径。",
+              "title_en": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+              "summary_en": "A UCLA study found long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson’s disease, and identified how the chemical damages brain cells plus a possible protective approach.",
+              "topic_evidence": "long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease",
+              "reason": "提供农药暴露与帕金森病风险的量化关联及细胞损伤机制。",
+              "reason_en": "Provides a quantified link between pesticide exposure and Parkinson’s risk, plus a cellular damage mechanism.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+              "title": "血液检测或可提前10年揭示阿尔茨海默病风险",
+              "summary": "一项国际研究发现，简单血液检测有助于在症状出现前多年预测阿尔茨海默病相关认知下降；最高风险者5年内受损概率约38%，10年内约78%。",
+              "title_en": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+              "summary_en": "A major international study found a simple blood test could predict Alzheimer’s-related cognitive decline years before symptoms; the highest-risk group had a 38% chance of impairment within five years and 78% within 10.",
+              "topic_evidence": "a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear",
+              "reason": "给出血液检测预测认知下降的量化风险，具有早期干预意义。",
+              "reason_en": "Reports quantified risk from a blood test for predicting cognitive decline, with implications for earlier intervention.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+              "title": "Satlyt成功测试卫星数据中心技术，推进太空虚拟数据中心计划",
+              "summary": "Satlyt本月完成一次成功测试，朝着把卫星等航天器改造成虚拟数据中心的目标迈进。",
+              "title_en": "Satlyt takes another step toward turning satellites into space data centers",
+              "summary_en": "Satlyt completed a successful test this month, advancing its effort to turn satellites and other spacecraft into virtual data centers.",
+              "topic_evidence": "Satlyt ran a successful test this month",
+              "reason": "报道Satlyt卫星数据中心技术的成功测试和产品化进展，属于新产品与增长。",
+              "reason_en": "Reports Satlyt’s successful test and product development progress toward satellite data centers, fitting new products and growth.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+              "title": "Salesforce据报以3.75亿美元收购国防科技初创公司Rune，并购攻势延续",
+              "summary": "Salesforce据报以3.75亿美元收购国防科技初创公司Rune，延续近期并购攻势；Rune的AI物流技术将用于加强其Missionforce国防平台。",
+              "title_en": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+              "summary_en": "Salesforce reportedly agreed to acquire defense tech startup Rune for $375 million, continuing its M&A spree; Rune’s AI logistics tech will bolster its Missionforce defense platform.",
+              "topic_evidence": "reported $375M deal for defense tech startup Rune",
+              "reason": "直接涉及Salesforce对国防科技初创公司Rune的3.75亿美元并购交易，属于融资与并购。",
+              "reason_en": "Directly covers Salesforce’s reported $375 million acquisition of defense tech startup Rune, fitting the funding and M&A subsection.",
+              "score": 3.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+              "title": "AI律所Crosby竞购正在瓦解的知名律所Weil Gotshal",
+              "summary": "AI律所Crosby参与竞购正在瓦解的华尔街知名律所Weil Gotshal，事件成为法律行业焦点。",
+              "title_en": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+              "summary_en": "AI law firm Crosby has bid for Weil Gotshal & Manges as the famed Wall Street law firm disintegrates, becoming a focus of the legal industry.",
+              "topic_evidence": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+              "reason": "报道AI律所Crosby对知名律所Weil Gotshal的竞购，属于并购事件而非新产品发布。",
+              "reason_en": "Covers AI law firm Crosby’s bid for Weil Gotshal, an M&A event rather than a product launch.",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+              "title": "加拿大与欧盟宣布成立开放联盟，欢迎志同道合国家加入",
+              "summary": "加拿大与欧盟在蒙特利尔峰会上宣布成立“未来联盟”，称其将为民众提供保护，并对冲地缘政治的不确定性，同时向其他志同道合国家开放。",
+              "title_en": "Canada and EU announce new alliance open to like-minded countries",
+              "summary_en": "Canada and the EU unveiled the Alliance for the Future at a Montreal summit, describing it as a protective canopy for citizens and a hedge against geopolitical uncertainty, open to like-minded countries.",
+              "topic_evidence": "Alliance for the Future, unveiled at Montreal summit and open to other countries",
+              "reason": "报道具体说明加拿大与欧盟在蒙特利尔宣布新联盟及其开放性质，属于地缘政治与外交结盟的重要动向。",
+              "reason_en": "The report specifies the Canada-EU alliance announced in Montreal and its open membership, a significant geopolitical and diplomatic alignment.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+              "title": "美中贸易战似已缓和，但平静表象具有误导性",
+              "summary": "报道称，美中贸易休战虽使冲突降温，但双方均未采取措施限制新的对抗，关税威胁仍可能随时重新抬头，当前平静并不可靠。",
+              "title_en": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+              "summary_en": "A truce has cooled the US-China trade conflict, but neither side has acted to prevent new hostilities, and tariff threats could resurge, making the calm misleading.",
+              "topic_evidence": "A truce has cooled the trade conflict",
+              "reason": "文章分析美中贸易休战的脆弱性及未解决的新对抗风险，符合地缘政治与安全。",
+              "reason_en": "It analyzes the fragility of the US-China trade truce and unresolved risks of new hostilities, fitting geopolitics and security.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+              "title": "海湾地区紧张，卡塔尔牵头与伊朗会谈以避免美国新一轮袭击",
+              "summary": "卡塔尔在过去72小时展开密集斡旋，力图在周二美国中期选举后阻止美国可能对伊朗发动的新一轮袭击，海湾地区因此高度不安。",
+              "title_en": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+              "summary_en": "Qatar has led intense mediation over 72 hours to prevent possible new US attacks on Iran after Tuesday’s midterm elections, leaving the Gulf region on edge.",
+              "topic_evidence": "Qatar has been leading intense mediation efforts over the past 72 hours",
+              "reason": "报道提供卡塔尔斡旋的具体时间、目标与地区反应，是当前海湾安全与美伊冲突风险的关键动态。",
+              "reason_en": "It gives specific timing, aims and regional reactions to Qatar’s mediation, a key development in Gulf security and US-Iran risk.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+              "title": "赫尔松停火结束后，俄军袭击致乌克兰数千人断电",
+              "summary": "罕见的人道停火结束后，俄罗斯对乌克兰的袭击导致数千人断电；停火期间平民曾从俄占奥列什基撤离。",
+              "title_en": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+              "summary_en": "Russian strikes cut power to thousands in Ukraine after a rare humanitarian ceasefire ended; the truce had allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+              "topic_evidence": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+              "reason": "报道说明停火结束、袭击与断电后果及撤离背景，是乌克兰战事的具体安全动态。",
+              "reason_en": "It details the ceasefire’s end, strikes, power cuts and evacuation context, a concrete security development in the Ukraine war.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+              "title": "加沙医院称以色列空袭致八人死亡，包括一名儿童",
+              "summary": "医院方面称，以色列在汗尤尼斯和加沙城的空袭造成八人死亡，其中包括一名儿童，另有五名哈马斯管理的警察死亡。",
+              "title_en": "Israeli strikes in Gaza kill eight including child, hospitals say",
+              "summary_en": "Israeli strikes in Khan Younis and Gaza City killed eight people including a child, and five officers from the Hamas-run police, hospitals said.",
+              "topic_evidence": "Israeli strikes in Gaza kill eight including child, hospitals say",
+              "reason": "报道给出空袭地点、死亡人数与身份等具体信息，属于加沙冲突的最新安全事件。",
+              "reason_en": "It provides specific locations, casualties and identities, a latest security incident in the Gaza conflict.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+              "title": "印度反对党举行大型集会，要求选举专员辞职",
+              "summary": "数千人聚集在新德里市中心，要求印度首席选举专员下台；报道称反对党以此向选举机构施压。",
+              "title_en": "India's opposition holds mega rally seeking election chief's resignation",
+              "summary_en": "Thousands gathered in central Delhi to demand the resignation of India’s chief election commissioner, in a major opposition rally.",
+              "topic_evidence": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+              "reason": "文章描述反对党集会及要求选举专员辞职的具体诉求，属于政府与选举治理议题。",
+              "reason_en": "It describes an opposition rally and the specific demand for the election commissioner’s resignation, a government and election-governance issue.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
+              "title": "法官下令特朗普政府停止威胁美国选举官员",
+              "summary": "一名法官下令特朗普政府停止威胁美国选举官员；此前有选举官员收到要求搁置疑似非公民选民选票的信件。",
+              "title_en": "Judge orders Trump administration to stop threatening US election officials",
+              "summary_en": "A judge ordered the Trump administration to stop threatening US election officials after they received letters demanding they set aside ballots of possible non-citizen voters.",
+              "topic_evidence": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
+              "reason": "报道聚焦法院命令及其与选举官员受威胁、选票处理争议的关系，属于政府与选举政策。",
+              "reason_en": "It focuses on a court order tied to threats against election officials and ballot-handling disputes, fitting government and election policy.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+              "title": "以色列官员称选举结果有效，内塔尼亚胡指选举遭“窃取”",
+              "summary": "以色列选举机构表示，即便外国干预指控属实，僵持的选举结果也不会被推翻；内塔尼亚胡称选举遭“窃取”。",
+              "title_en": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+              "summary_en": "Israel’s election body said the deadlocked result will not be undermined even if foreign interference claims are proven, as Netanyahu alleged the election was stolen.",
+              "topic_evidence": "Election body says deadlocked result won't be undermined",
+              "reason": "报道说明选举机构对结果的立场及内塔尼亚胡的“窃取”指控，属于政府与选举争议。",
+              "reason_en": "It covers the election body’s stance on the result and Netanyahu’s stolen-election claim, a government and election dispute.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+              "title": "菲律宾南部进入新政治阶段",
+              "summary": "菲律宾南部一个新地方政府正式就职，报道称这被视为持续约80年冲突和平进程中的里程碑。",
+              "title_en": "A new political era in the Southern Philippines",
+              "summary_en": "A new local government has taken office in the southern Philippines, marking a milestone in the peace process for a conflict lasting some 80 years.",
+              "topic_evidence": "A new local government has taken its seat in the southern Philippines",
+              "reason": "报道指出新地方政府就职及其对80年冲突和平进程的意义，属于政府与和平进程。",
+              "reason_en": "It notes the seating of a new local government and its significance for a peace process in an 80-year conflict, fitting government and peace process.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+              "title": "英国曾“强烈”反对将奴隶制赔偿列入英联邦峰会议程",
+              "summary": "报道称英国官员坚持奴隶制赔偿不应列入英联邦领导人峰会议程，甚至警告安迪·伯纳姆不会出席；英国首相后来同意就赔偿正义进行结构化对话。",
+              "title_en": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+              "summary_en": "British officials reportedly insisted slavery reparations should not be on the Commonwealth summit agenda and even warned Andy Burnham would not attend; the UK prime minister has since agreed to structured dialogue on reparatory justice.",
+              "topic_evidence": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+              "reason": "报道提供英国在英联邦峰会前对赔偿议题的具体立场与后续对话安排，属于国际政府与外交政策。",
+              "reason_en": "It details the UK’s position on reparations before the Commonwealth summit and subsequent dialogue plans, an international government and diplomacy issue.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+              "title": "法国再陷动荡，青年主导的抗议席卷欧洲",
+              "summary": "法国内政部长努涅斯警告出现“非常高”的骚乱风险，全国约32万人上街；同日欧洲多地也出现青年主导的抗议。",
+              "title_en": "France seethes again as youth-led protests sweep Europe",
+              "summary_en": "France’s interior minister warned of a very high risk of disorder as some 320,000 people took to the streets nationwide, while youth-led protests also spread across Europe.",
+              "topic_evidence": "some 320,000 people nationwide took to the streets",
+              "reason": "报道给出抗议规模、官员风险警告及欧洲扩散范围，属于全球社会与社会运动动态。",
+              "reason_en": "It provides protest scale, officials’ risk warning and European spread, fitting global society and social movement developments.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+              "title": "德国生活成本抗议演变为暴力，商店遭洗劫",
+              "summary": "德国柏林、汉堡和法兰克福等多地抗议生活成本上涨并演变为暴力，商店遭洗劫；同日法国也有数十万人上街。",
+              "title_en": "Shops looted as German cost-of-living protests turn violent",
+              "summary_en": "Protests over the cost of living turned violent in German cities including Berlin, Hamburg and Frankfurt, with shops looted, on the same day hundreds of thousands protested in France.",
+              "topic_evidence": "Shops looted as German cost-of-living protests turn violent",
+              "reason": "报道具体说明德国多城抗议生活成本、暴力与商店被洗劫，属于全球社会与社会稳定议题。",
+              "reason_en": "It specifies cost-of-living protests, violence and looting in multiple German cities, a global society and social stability issue.",
+              "score": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": []
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724721.shtml",
+              "title": "河北乐亭建筑支护产业集群升级拓展外贸出海通道",
+              "summary": "河北乐亭建筑支护产业集群通过“组队升级”推动产业协作，借集群优势搭建外贸“出海桥”，拓展海外市场。",
+              "title_en": "Hebei Laoting Construction Support Industry Cluster Upgrades, Expands Export Channels",
+              "summary_en": "The construction support industry cluster in Laoting, Hebei, is upgrading through group coordination to build export channels and reach overseas markets.",
+              "topic_evidence": "河北乐亭建筑支护产业集群“组队升级” “架”起外贸“出海桥”",
+              "reason": "具体报道乐亭建筑支护产业集群升级与外贸拓展，属于产业与地方。",
+              "reason_en": "Specific report on Laoting's construction support cluster upgrading and expanding exports; fits industry and local.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724646.shtml",
+              "title": "黑龙江双鸭山：智能收粮与产业链延伸推动粮食增值",
+              "summary": "双鸭山在秋粮收购中推进数字化改造，压缩收粮流程并保障粮款兑付；同时依托龙头企业延伸深加工链条，推动粮食就地转化增值。",
+              "title_en": "Shuangyashan, Heilongjiang: Smart Grain Purchasing and Industry Chain Extension Raise Grain Value",
+              "summary_en": "Shuangyashan is digitizing autumn grain purchasing to speed procedures and ensure timely payment, while leading firms extend processing chains to increase local grain value.",
+              "topic_evidence": "以数字化改造压缩收粮流程、保障粮款及时兑付",
+              "reason": "报道双鸭山秋粮收购数字化和深加工延链的具体做法，属于产业与地方。",
+              "reason_en": "Report on specific practices in Shuangyashan's digitized grain purchasing and processing chain extension; fits industry and local.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724711.shtml",
+              "title": "华东理工本科生团队将航天相变热防护用于超充连接器",
+              "summary": "华东理工大学本科生团队历时两年，把航天器相变热防护思路迁移到车载高压电连接器，为超充热安全提供新方案。",
+              "title_en": "East China University of Science and Technology Team Applies Aerospace Phase-Change Thermal Protection to Ultra-Fast Charging Connectors",
+              "summary_en": "An undergraduate team at East China University of Science and Technology spent two years adapting aerospace phase-change thermal protection for high-voltage vehicle connectors, offering a new approach to ultra-fast charging safety.",
+              "topic_evidence": "将航天器相变热防护的工程思路“跨界”迁移到车载高压电连接器场景",
+              "reason": "具体报道高校团队解决超充连接器热安全难题的技术迁移方案，属于产业技术。",
+              "reason_en": "Specific report on a university team's technology transfer to address thermal safety in ultra-fast charging connectors; fits industry technology.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth",
+              "title": "调查显示中国制造业扩张放缓，出口订单走弱",
+              "summary": "一项私营调查显示，中国制造业活动扩张速度为7月以来最慢，海外订单减弱，令出口导向型扩张前景受到关注。",
+              "title_en": "Survey Shows China's Factory Activity Expansion Slows as Export Orders Weaken",
+              "summary_en": "A private survey showed China's factory activity expanded at the slowest pace since July, with weaker overseas orders raising questions about the outlook for export-led growth.",
+              "topic_evidence": "China’s factory activity expanded at a slower pace for the first time since July",
+              "reason": "提供中国制造业景气与出口订单走弱的最新调查数据，属于产业运行。",
+              "reason_en": "Provides latest survey data on China's manufacturing activity and weakening export orders; fits industry trends.",
+              "score": 2.95
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724675.shtml",
+              "title": "湖南城步苗寨畅通消防通道并用“电子哨兵”盯防老旧木房",
+              "summary": "城步苗族自治县丹口镇下团社区清理巷道杂物、畅通消防通道，并在老旧木房安装“电子哨兵”，提升村寨消防安全。",
+              "title_en": "Miao Village in Chengbu, Hunan, Clears Fire Lanes and Deploys \"Electronic Sentinels\" for Old Wooden Houses",
+              "summary_en": "Xiatuan community in Chengbu Miao Autonomous County has cleared narrow alleys for fire trucks and installed \"electronic sentinels\" on old wooden houses to improve fire safety.",
+              "topic_evidence": "老旧木房还装有“电子哨兵”",
+              "reason": "具体报道苗寨消防通道治理和老旧木房电子监测措施，属于社会安全治理。",
+              "reason_en": "Specific report on fire lane clearing and electronic monitoring for old wooden houses in a Miao village; fits social safety governance.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724656.shtml",
+              "title": "重载无人直升机驰援西藏巴青地震灾区并勘察地表破裂带",
+              "summary": "西藏那曲市巴青县发生7.0级地震后，应急管理部中国地震应急搜救中心调派FWH-1500重载无人直升机赴玛如乡，参与抢险救灾和地表破裂带勘察。",
+              "title_en": "Heavy-Lift Unmanned Helicopter Assists Tibet Earthquake Zone, Surveys Surface Rupture",
+              "summary_en": "After a magnitude-7.0 earthquake in Baqing County, Nagqu, Tibet, a heavy-lift FWH-1500 unmanned helicopter was dispatched to Mairu Township for rescue support and surface rupture surveys.",
+              "topic_evidence": "紧急调派FWH-1500重载无人直升机",
+              "reason": "报道西藏地震后重载无人机参与救援与勘察的具体行动，属于灾害应对与社会治理。",
+              "reason_en": "Report on specific heavy-lift drone deployment for rescue and survey after a Tibet earthquake; fits disaster response and society.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml",
+              "title": "“职业差评”形成标价数千元的生意，有店铺被投诉到濒临闭店",
+              "summary": "报道称“职业差评”背后存在收费数千元一次的“服务”，有店铺因反复投诉差点闭店，折射恶意投诉灰产问题。",
+              "title_en": "\"Professional Negative Reviews\" Become a Business Worth Thousands of Yuan; Some Shops Nearly Forced to Close",
+              "summary_en": "A report describes a \"professional negative review\" business charging thousands of yuan per service, with one shop nearly closing after repeated complaints, highlighting malicious complaint practices.",
+              "topic_evidence": "一次“服务”标价数千元，有店铺被投诉到差点闭店",
+              "reason": "具体揭示职业差评收费与商家遭投诉的案例，涉及市场秩序与法治。",
+              "reason_en": "Specific case of paid professional negative reviews and a shop nearly closed by complaints; relates to market order and rule of law.",
+              "score": 2.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
+              "title": "亚洲多数股市随美股期货上涨，油价下跌",
+              "summary": "亚洲多数股市与美股期货一同走高，科技股上周下挫后风险偏好趋稳，市场情绪有所修复；与此同时，原油价格下跌。",
+              "title_en": "Most Asian Stocks Gain With US Futures, Oil Falls: Markets Wrap",
+              "summary_en": "Most Asian equities rose alongside US equity futures as risk appetite stabilized after last week’s tech-share slump, with market sentiment recovering; oil prices fell.",
+              "topic_evidence": "Most Asian stocks rose with US equity futures",
+              "reason": "报道覆盖亚洲股市、美股期货与原油的当日走势，属于市场与资产的核心行情信息。",
+              "reason_en": "Covers same-day moves in Asian equities, US futures and oil, core market and asset information.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
+              "title": "华尔街准备迎接多年来最大规模的美债发行指引调整",
+              "summary": "在美国财长贝森特暗示愿意干预债市压低收益率后，华尔街正为2024年初以来最大规模的美国国债发行指引调整做准备。",
+              "title_en": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+              "summary_en": "After Treasury Secretary Scott Bessent signaled willingness to intervene in the bond market to lower yields, Wall Street is preparing for the largest overhaul of US Treasury issuance guidance since early 2024.",
+              "topic_evidence": "biggest revamp in guidance for US Treasuries issuance since early 2024",
+              "reason": "直接涉及美国国债发行与债市干预预期，是债券市场的重要政策与供给信息。",
+              "reason_en": "Directly concerns US Treasury issuance and bond-market intervention expectations, key for fixed income.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/taiwan-said-to-ease-exporter-fx-rule-after-record-stocks-exodus",
+              "title": "台湾据悉放宽出口商外汇规则，此前股市资金创纪录外流",
+              "summary": "台湾央行据悉放宽对出口商卖出美元的限制，以支撑本币；此前创纪录的外资股票流出使新台币上月成为亚洲表现最差货币。",
+              "title_en": "Taiwan Said to Ease Exporter FX Rule After Record Stocks Exodus",
+              "summary_en": "Taiwan’s central bank is said to have eased restrictions on exporters selling US dollars to support the local currency, after record foreign equity outflows made it Asia’s worst performer last month.",
+              "topic_evidence": "eased restrictions on exporters selling US dollars",
+              "reason": "涉及央行外汇规则调整与股市资金流动，属于市场与资产中的汇率和跨境资金事件。",
+              "reason_en": "Involves central-bank FX rule changes and equity flows, a market and asset event in currencies and cross-border capital.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+              "title": "AI驱动牛市的最大威胁：2027年盈利增长可能失速",
+              "summary": "2026年亮眼的盈利增长推动股市走高，但文章警告，到2027年这一增长引擎可能停滞，成为AI驱动牛市面临的最大威胁。",
+              "title_en": "This is the biggest threat to the AI-powered bull market",
+              "summary_en": "Blockbuster earnings growth helped drive stocks higher in 2026, but the article warns that this engine may stall in 2027, posing the biggest threat to the AI-powered bull market.",
+              "topic_evidence": "Blockbuster earnings growth has helped to power the stock market higher in 2026",
+              "reason": "聚焦股市盈利增长与牛市持续性风险，属于市场与资产中的股票市场分析。",
+              "reason_en": "Focuses on earnings growth and bull-market durability, a stock-market analysis in markets and assets.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake",
+              "title": "黑石牵头31亿美元交易，收购LNG Canada项目权益",
+              "summary": "由黑石集团牵头的投资者财团同意以31亿美元从三菱商事子公司手中收购LNG Canada液化业务的部分权益。",
+              "title_en": "Blackstone Leads $3.1 Billion Deal to Acquire LNG Canada Stake",
+              "summary_en": "A Blackstone-led investor group agreed to buy a stake in LNG Canada’s liquefaction business from a Mitsubishi subsidiary for $3.1 billion.",
+              "topic_evidence": "agreed to acquire a stake in LNG Canada’s liquefaction business",
+              "reason": "报道具体的数十亿美元并购交易与资产收购，属于市场与资产中的收购事件。",
+              "reason_en": "Reports a specific multibillion-dollar acquisition and asset purchase, fitting M&A in markets and assets.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/the-bank-of-england-ponders-a-new-normal-for-interest-rates",
+              "title": "英国央行重新思考利率的“新常态”",
+              "summary": "英国央行今年大部分时间认为利率可能已高到足以压低通胀，但现在不再确定，正在重新评估利率的合适水平。",
+              "title_en": "The Bank of England Ponders a New Normal for Interest Rates",
+              "summary_en": "For most of this year the Bank of England argued rates were probably high enough to curb inflation; now it is less certain and is reassessing the appropriate level.",
+              "topic_evidence": "interest rates were probably high enough to bear down on inflation",
+              "reason": "直接讨论英国央行对利率水平和通胀的判断，属于宏观货币政策。",
+              "reason_en": "Directly discusses the Bank of England’s view on rates and inflation, core macro monetary policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-set-for-fifth-rate-hike-as-inflation-fight-intensifies",
+              "title": "澳大利亚料将第五次加息，通胀斗争加剧",
+              "summary": "澳大利亚央行预计周二将今年第五次加息，以加大对发达经济体中最强劲通胀之一的控制力度。",
+              "title_en": "Australia Set for Fifth Rate Hike as Inflation Fight Intensifies",
+              "summary_en": "Australia’s central bank is expected to raise rates for the fifth time this year on Tuesday, intensifying efforts to control inflation that is among the strongest in the developed world.",
+              "topic_evidence": "raise interest rates for a fifth time this year on Tuesday",
+              "reason": "涉及澳大利亚央行加息预期与通胀治理，属于宏观与政策。",
+              "reason_en": "Covers expected Reserve Bank of Australia rate hike and inflation control, fitting macro policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/saudi-economy-shrank-at-slower-pace-before-houthi-war-escalation",
+              "title": "沙特经济在胡塞冲突升级前以较慢速度萎缩",
+              "summary": "沙特经济再次收缩，但萎缩速度放缓；在胡塞冲突近期升级之前，该国仍可能录得多年来最差经济表现之一。",
+              "title_en": "Saudi Economy Shrank at Slower Pace Before Houthi Escalation",
+              "summary_en": "Saudi Arabia’s economy contracted again at a slower pace, putting the kingdom on track for one of its worst performances in years even before its conflict with the Houthis escalated.",
+              "topic_evidence": "Saudi Arabia’s economy contracted again, albeit at a slower pace",
+              "reason": "报道沙特经济增长与冲突背景，属于宏观经济与政策。",
+              "reason_en": "Reports Saudi economic contraction and conflict context, fitting macro economy and policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+              "title": "美国就业回升可能使美联储继续加息",
+              "summary": "美国将迎来就业数据周，周五劳工统计局月度就业报告发布前有多项数据；就业回升可能让美联储继续保持加息路径。",
+              "title_en": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+              "summary_en": "The US faces a heavy week of labor data before Friday’s monthly employment report; a pickup in hiring may keep the Federal Reserve on track to raise rates again.",
+              "topic_evidence": "Jobs week lies ahead for the US",
+              "reason": "涉及美国就业数据与美联储加息前景，属于宏观与政策。",
+              "reason_en": "Connects US jobs data with the Federal Reserve’s rate-hike path, core macro policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-31/uk-s-healey-hints-at-delay-in-equalizing-minimum-wage-for-youths",
+              "title": "英国财相希利称福利支出将下降，但未给出时间表",
+              "summary": "英国财政大臣希利表示政府将降低福利支出，但拒绝承诺时间表，凸显工党在控制公共财政主要压力方面的困难。",
+              "title_en": "UK’s Healey Says Benefits Bill Will Fall, Doesn’t Give Timeline",
+              "summary_en": "Chancellor John Healey said the UK government would reduce welfare spending but declined to set a timetable, highlighting Labour’s difficulty in curbing a major pressure on public finances.",
+              "topic_evidence": "UK government would bring down welfare spending but declined to commit to a timetable",
+              "reason": "涉及英国福利支出与公共财政政策，属于宏观与政策中的财政议题。",
+              "reason_en": "Concerns UK welfare spending and fiscal policy, a macro-policy fiscal issue.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+              "title": "美国证交会就部分关联方及非美国回购交易给予国债清算要求豁免",
+              "summary": "美国证交会发布豁免救济，涉及关联方之间及非美国回购交易，以帮助经纪交易商等市场参与者推进美国国债集中清算。",
+              "title_en": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+              "summary_en": "The SEC issued exemptive relief for certain inter-affiliate and non-US repo transactions, aiming to help broker-dealers and other market participants move toward central clearing of US Treasuries.",
+              "topic_evidence": "issuing exemptive relief related to inter-affiliate repo",
+              "reason": "直接涉及美国证交会对国债清算规则的豁免，属于监管与市场基础设施。",
+              "reason_en": "Directly concerns SEC relief from Treasury clearing rules, fitting regulation and market infrastructure.",
+              "score": 4.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just",
+              "title": "联想“加密”指纹U盘被指只是未加密的SD卡加外壳",
+              "summary": "一篇Reddit帖子称，联想所谓加密指纹U盘内部只是未加密的SD卡加外壳；该帖在Hacker News获439分、157条评论。",
+              "title_en": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+              "summary_en": "A Reddit post claims Lenovo's 'encrypted' fingerprint USB drive is merely an unencrypted SD card in a case; the Hacker News thread received 439 points and 157 comments.",
+              "topic_evidence": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+              "reason": "对联想加密U盘产品的技术质疑，属于技术观点/安全评论，且有Hacker News讨论热度。",
+              "reason_en": "A technical critique of Lenovo's encrypted USB product, fitting tech opinion/security commentary with strong Hacker News engagement.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://news.ycombinator.com/item?id=50328896",
+              "title": "Ask HN：推荐哪款尊重隐私的电视？",
+              "summary": "Hacker News 用户询问推荐尊重隐私的60至80英寸4K电视，愿意支付溢价，并提到Apple TV可作为智能电视应用的替代方案。",
+              "title_en": "Ask HN: Which TV do you recommend for privacy?",
+              "summary_en": "A Hacker News user asks for a privacy-respecting 60–80 inch 4K TV, willing to pay a premium, and mentions Apple TV as an alternative to smart TV apps.",
+              "topic_evidence": "Which TV do you recommend for privacy?",
+              "reason": "社区中关于隐私友好电视的问答讨论，涉及具体尺寸、分辨率和替代方案，适合社区讨论版块。",
+              "reason_en": "A community Q&A on privacy-friendly TVs with specific size, resolution, and alternatives, suitable for community discussion.",
+              "score": 2.9
+            },
+            {
+              "url": "https://occupysaas.com/",
+              "title": "Hacker News 讨论：OccupySaaS",
+              "summary": "Hacker News 上题为“OccupySaaS”的链接获得164分和109条评论，讨论围绕SaaS话题展开。",
+              "title_en": "OccupySaaS",
+              "summary_en": "A Hacker News link titled 'OccupySaaS' received 164 points and 109 comments; the discussion centers on SaaS.",
+              "topic_evidence": "OccupySaaS",
+              "reason": "Hacker News 上的讨论帖，标题指向SaaS话题，有164分和109条评论，适合社区讨论版块。",
+              "reason_en": "A Hacker News discussion thread with 164 points and 109 comments on the topic of SaaS, suitable for community discussion.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.40930",
+      "original_title": "Adaptive Personalization Under Preference Epistemic Uncertainty",
+      "original_summary": "arXiv:2610.40930v1 Announce Type: new Abstract: Human preferences change over time: an established preference may remain valid over time, become uncertain as context shifts, or be explicitly revised. Effective personalization requires conversational AI to adapt its response strategy to evolving preferences rather than relying on passive memory retrieval. We formalize this capability as adaptive personalization under epistemic uncertainty. A human preference study further confirms that people favor state-contingent response strategies as preference uncertainty changes. To evaluate whether language models mirror this adaptation, we create a multilingual benchmark spanning 250 personas, 5 languages, and 25K conversational turns that decouples strategy selection from response execution. Across eight closed- and open-weight models, we uncover a recognition-generation gap: models reliably identify appropriate strategies when selecting among candidate options, but collapse during open-ended generation, suffering a 35-46% drop in strategy calibration. Crucially, this failure is systematic: models default to exploit-first behavior, over-relying on existing preferences regardless of preference epistemic uncertainty. We show this failure is addressable: while prompting interventions fail, targeted training that supervises models' internal strategy representations toward state-conditional human preferences narrows the user acceptability generalization gap by a third on out-of-distribution personas and conversational styles.",
+      "topic_evidence": "conversational AI to adapt its response strategy to evolving preferences",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.40757",
+      "original_title": "AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+      "original_summary": "arXiv:2610.40757v1 Announce Type: new Abstract: Humans and animals have a unique capacity to generalize and learn in novel circumstances, including \"0-shot\" inference (ZI) and continual learning (CL) -- two powerful cognitive abilities. Despite this importance, efforts to model ZI and CL are seriously limited in several ways. First, existing models typically lack components critical to ZI and CL in the brain, namely, strong inductive biases (for ZI) and autonomous control of learning (for CL). Second, models can be less tractable to analysis if model components are overly complex (lacking simplicity), or too task-restricted if model components are overly bespoke (lacking expressivity). Here we introduce autonomous Hebbian networks (\"AutoHebb\"), a class of online learning feedforward neural networks that realize strong inductive biases and autonomously controlled learning, and are both simple and expressive. Unlike standard models that learn via externally controlled optimization (e.g. gradient descent), AutoHebb networks combine external feedback with internally generated activity to produce a global learning signal ('neuromodulator') fed back to the network. The neuromodulator in turn gates a biologically grounded local learning rule (3-factor Hebbian rule) that updates networks' plastic weights. Using meta-learning to search for fixed (non-plastic) weights, we find that AutoHebb networks (1) succeed on ZI tasks, (2) show emergent (untrained) ZI/CL abilities, (3) admit reverse-engineering into explicit algorithms, and (4) outperform modern learning models on ZI/CL tasks. Lastly, performance comparisons to related models implied an essential role for three model components: meta-learning, Hebbian plasticity, and autonomous control of learning. These findings indicate that AutoHebb may be useful in hypothesis generation, analysis, and discovery of biologically grounded forms of learning and generalization.",
+      "topic_evidence": "Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.40857",
+      "original_title": "Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+      "original_summary": "arXiv:2610.40857v1 Announce Type: new Abstract: Scientific foundation models (SciFMs) have achieved remarkable performance on a wide range of PDEs, including the ability to efficiently adapt to unseen data distributions with additional finetuning. As with all neural architectures, finetuning such models comes with the risk of catastrophic forgetting, whereby adapting to new tasks degrades prior knowledge of the model. We study catastrophic forgetting in Walrus-1.3B, a SciFM for continuum dynamics, over the course of a two-stage sim-to-real adaptation: first finetuning on simulated flow around a cylinder and then adapting to experimental data of the same system. We find that finetuning on the simulations rapidly degrades rollout performance on the original pretraining datasets, with one-step errors increasing up to 35x after just 20 epochs. Subsequent adaptation to real data further erodes performance on the simulated task. We characterize the potential drivers of forgetting, such as dataset dependence and task representation similarity. We then show that replaying as little as 1% simulated data during real-data finetuning recovers most of the lost simulation performance while retaining effective adaptation to the experimental dynamics. Our results identify catastrophic forgetting as a practical obstacle to sim-to-real adaptation of SciFMs and show that lightweight replay strategies significantly improve retention.",
+      "topic_evidence": "How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "original_title": "datasette-llm 0.1a9",
+      "original_summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+      "topic_evidence": "It now picks up the default model used by LLM",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "original_title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "original_summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "topic_evidence": "doesn’t ‘want to ship AI for AI’s sake’",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "original_title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "original_summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "topic_evidence": "privacy-focused AI assistant, is shutting down",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40926",
+      "original_title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+      "original_summary": "arXiv:2610.40926v1 Announce Type: new Abstract: Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse of attack diversity can bias safety evaluation toward repeatedly testing near-duplicate attack patterns rather than the underlying harmful intents. Existing methods often trade off attack success or inference cost for greater content or strategy diversity. We propose CoFiBreak, a coarse-to-fine diversity reward for Group Relative Policy Optimization (GRPO) that improves attack diversity while preserving strong attack effectiveness and low inference cost. The coarse reward broadens which strategies the attacker uses by encouraging strategies underrepresented within each GRPO group, while the fine reward broadens how those strategies are realized by discouraging reuse of the same personas, framings, and output formats after harmful-intent information is removed from prompt embeddings. Diversity rewards apply only to attacks that already exceed an effectiveness threshold, so diversity cannot be gained through ineffective attacks. Since both rewards are computed only during training, CoFiBreak also retains inference efficiency. Trained with Llama3.1-8B-Instruct as the victim, CoFiBreak discovers 1.6-2.0x as many distinct successful fine-grained strategies as the strongest baseline across frontier victims on HarmBench. It reaches 98.8% ASR@10 (attack success rate with 10 generations per intent) on AdvBench with the highest diversity score among all compared methods, which is 2.1x that of the strongest-attacking baseline. The resulting attacks transfer to unseen frontier LLMs, reaching 71.0% ASR@10 on AdvBench with the unseen victim Claude-Opus-4.6. The code will be released.",
+      "topic_evidence": "A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "reward",
+        "safety",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40974",
+      "original_title": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+      "original_summary": "arXiv:2610.40974v1 Announce Type: new Abstract: Large language models have been shown to memorise and reproduce verbatim sequences from their training data, raising concerns about privacy leakage, intellectual property exposure, and the limits of generalisation. Recent theoretical work suggests that attention heads may contribute to this behaviour by functioning as associative memory mechanisms, with memorisation capacity scaling with the number of heads. At the same time, empirical work has shown that many attention heads are redundant and can be pruned with limited impact on downstream performance. Despite these parallel findings, the effect of pruning redundant heads on memorised-sequence reproduction remains unexplored. In this work, we demonstrate that zeroing out a substantial fraction of attention heads prior to inference can significantly suppress verbatim memorisation while preserving, or even improving, language modelling performance on the benchmark used to identify redundant heads. Evaluating GPT-2-XL(1.5B) on known memorised sequences, we find that pruning 729 task-redundant heads reduces the memorisation count by 91.5%, while improving WikiText-103 perplexity by 0.92. These findings suggest that attention-head redundancy can be exploited to mitigate memorisation at inference time, without retraining or modifying the training data.",
+      "topic_evidence": "Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark",
+        "privacy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40893",
+      "original_title": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+      "original_summary": "arXiv:2610.40893v1 Announce Type: new Abstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run. We present Qistas (Arabic qistas, \"the just balance\"), a protocol for evaluating how LLMs treat the social, confessional, and regional constituencies of a society, portable across countries and instantiated first for Iraq. In its pilot form it measures only what needs no verdict on contested truth: procedural symmetry across matched counterfactual pairs, differential refusal, stereotype reliance under ambiguity, and terminological framing of documented events. Every measurement is paired by construction and analysed with paired machinery (sign-flip permutation tests, exact McNemar tests, template-clustered bootstrap intervals, Holm-corrected families), with a power analysis that states, before any data exist, the smallest effect each axis can detect after the design effect of template clustering. We release the authoring apparatus (a pruned 3x5 taxonomy with four cells closed by design, per-type checklists, a cumulative rulings log, a structural audit, and a human review notebook) and report its first field test: a semantic review of a 58-item seed bank in which 24 of 25 template groups failed at least one check. The defect patterns it exposed (evaluation criteria leaking into prompts, token-level swaps that break Arabic agreement, epistemically unbalanced pairs, single-theme refusal probes, unwritten dialect twins counted as coverage) are, we argue, general hazards of counterfactual fairness benchmarks. This is a protocol paper, not a results paper: no model has been evaluated, and the accompanying pre-registration commits the hypotheses, metrics, exclusion rules, and analysis plan that the pilot will follow.",
+      "topic_evidence": "A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "paper",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40996",
+      "original_title": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
+      "original_summary": "arXiv:2610.40996v1 Announce Type: new Abstract: When a language model invents a Qur'anic verse or hadith, it gives false authority to text that readers may treat as sacred. Existing Islamic hallucination benchmarks are largely Arabic and often closed-ended, while Bengali resources mainly study general-domain hallucination or factual knowledge. We introduce BILAL-BENCH, a 240-question expert-verified benchmark for open-ended Islamic-source fabrication in Bengali. It covers Qur'anic attribution, hadith, fiqh, contemporary issues, and adversarial false-premise prompts, and uses a two-axis rubric that separates source errors from assertiveness. We evaluate seven open-weight models from 1B to 120B on 1,680 double-annotated responses. Six of the seven models confidently fabricate on 79.3-95.3% of source-production questions, with no monotonic improvement from scale. Hadith provenance is the weakest category across models: only two of 315 responses are correct and correctly sourced. The two 8B BanglaLLaMA variants have similar confident-fabrication rates but different error profiles. Models vary far more in whether they withhold a claim they cannot support than in source accuracy: appropriate abstention or false-premise correction ranges from 6 to 46 responses across the benchmark, and does not track parameter count.",
+      "topic_evidence": "Benchmarking Islamic-Source Fabrication in Bengali",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "original_title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "original_summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "topic_evidence": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "original_title": "If in doubt, delete the uv.lock file",
+      "original_summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv , til , python",
+      "topic_evidence": "If in doubt, delete the uv.lock file",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "python",
+        "library"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "original_title": "The AI cost of JavaScript frameworks",
+      "original_summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 337 # Comments: 259",
+      "topic_evidence": "The AI cost of JavaScript frameworks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "javascript",
+        "framework"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "original_title": "Game Off 2026: The theme is SHIFT",
+      "original_summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+      "topic_evidence": "The theme is SHIFT",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "original_title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "original_summary": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts... It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's open source. AGPLv3. It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good understanding of what is needed, before putting together the diff pipelines for each content type. Incidentally, this also forms the basis of the CI pipeline, so the robustness of the codebase is quite high. I'm still developing it. It's v0.3.0 at this time. But I have been using it daily as my git difftool for months now, and it works well. AI Disclosure: Yes, I do use AI. No, I do not vibecode. Comments URL: https://news.ycombinator.com/item?id=50325253 Points: 198 # Comments: 46",
+      "topic_evidence": "content aware Git difftool, in Rust",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "git",
+        "open source",
+        "tool",
+        "package"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "original_title": "How We Took Over ChatGPT Accounts",
+      "original_summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes , javascript , sandboxing , security , xss , openai , chatgpt , content-security-policy",
+      "topic_evidence": "interactive custom HTML apps are displayed in a sandboxed iframe",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "chips-hardware",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+      "original_title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+      "original_summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago. Even more remarkably, its rotation can boost electrical conductivity by up to 100 times, potentially transforming the future of molecular electronics.",
+      "topic_evidence": "its rotation can boost electrical conductivity by up to 100 times",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+      "original_title": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+      "original_summary": "Scientists have recreated a primordial state of matter from the dawn of the universe by colliding oxygen nuclei at nearly the speed of light. The surprising results show that this exotic substance can form in smaller, lower-energy collisions than previously demonstrated, challenging the known boundaries of early-universe physics.",
+      "topic_evidence": "colliding oxygen nuclei at nearly the speed of light",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "physics"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+      "original_title": "Scientists discover metals that defy the deep freeze at -424°F",
+      "original_summary": "Scientists have discovered a surprising mechanism that allows certain metals to resist cracking at temperatures as low as -253°C (-424°F), when similar materials typically become dangerously brittle. Instead of breaking, two experimental alloys reorganize their internal structures, creating new ways to absorb stress and remain flexible.",
+      "topic_evidence": "two experimental alloys reorganize their internal structures",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "material"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+      "original_title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+      "original_summary": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical damages brain cells and identified a promising way to protect them.",
+      "topic_evidence": "long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "study"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+      "original_title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+      "original_summary": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an estimated 78% chance within 10 years. Scientists believe the discovery could pave the way for earlier intervention and future treatments designed to prevent Alzheimer’s before memory problems begin.",
+      "topic_evidence": "a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "study"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "original_title": "Satlyt takes another step toward turning satellites into space data centers",
+      "original_summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "topic_evidence": "Satlyt ran a successful test this month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "original_title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "original_summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "topic_evidence": "reported $375M deal for defense tech startup Rune",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "original_title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "original_summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "topic_evidence": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "original_title": "Canada and EU announce new alliance open to like-minded countries",
+      "original_summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’ Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join. Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had the potential to offer unprecedented stability and opportunity”. Continue reading...",
+      "topic_evidence": "Alliance for the Future, unveiled at Montreal summit and open to other countries",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "geopolitics",
+        "europe"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "original_title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+      "original_summary": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities Donald Trump ’s trade wars have largely fallen off the headlines. Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates. But the sense that the world’s two largest economies are plowing ahead into an overt economic conflagration has taken a back seat to other, more salient fears, about Trump ending American democracy, AI killing us all and stuff like that. The sense of calm is misleading. Under the radar, the world is marching toward an economic war of potentially epic proportions, one that, history suggests, could well spill over into the real thing. Continue reading...",
+      "topic_evidence": "A truce has cooled the trade conflict",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+      "original_title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+      "original_summary": "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the entire Gulf region on edge.",
+      "topic_evidence": "Qatar has been leading intense mediation efforts over the past 72 hours",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "original_summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+      "topic_evidence": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ceasefire"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "original_summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
+      "topic_evidence": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "original_title": "India's opposition holds mega rally seeking election chief's resignation",
+      "original_summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+      "topic_evidence": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Judge orders Trump administration to stop threatening US election officials",
+      "original_summary": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
+      "topic_evidence": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election",
+        "administration"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+      "original_title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+      "original_summary": "Election body says deadlocked result won't be undermined even if foreign interference claims are found to be true.",
+      "topic_evidence": "Election body says deadlocked result won't be undermined",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+      "original_title": "A new political era in the Southern Philippines",
+      "original_summary": "A new local government has taken its seat in the southern Philippines, in a step that marks a milestone in the peace process for a conflict that has lasted some 80 years.",
+      "topic_evidence": "A new local government has taken its seat in the southern Philippines",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+      "original_title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+      "original_summary": "British prime minister has now agreed to structured dialogue on reparatory justice but issue remains off formal Chogm agenda British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda of the Commonwealth leaders’ summit in Antigua and Barbuda – and even warned that Andy Burnham would not attend the meeting if the subject was formally included, according to a leading Caribbean political figure. Ralph Gonsalves, a former prime minister of St Vincent and the Grenadines and a senior figure in the reparatory justice movement Repair Campaign, welcomed Britain’s decision to enter structured dialogue on reparations, but said the UK had come “kicking and screaming” to the conversation. Continue reading...",
+      "topic_evidence": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "prime minister"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+      "original_title": "France seethes again as youth-led protests sweep Europe",
+      "original_summary": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets.",
+      "topic_evidence": "some 320,000 people nationwide took to the streets",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Shops looted as German cost-of-living protests turn violent",
+      "original_summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "topic_evidence": "Shops looted as German cost-of-living protests turn violent",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724721.shtml",
+      "original_title": "河北乐亭建筑支护产业集群“组队升级” “架”起外贸“出海桥”",
+      "original_summary": "中新网唐山11月2日电 题：河北乐亭建筑支护产业集群“组队升级” “架”起外贸“出海桥”",
+      "topic_evidence": "河北乐亭建筑支护产业集群“组队升级” “架”起外贸“出海桥”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724646.shtml",
+      "original_title": "黑龙江双鸭山：智能收粮加延伸产业链 丰收粮变身“增值粮”",
+      "original_summary": "中新网双鸭山11月2日电 (王浩铭 李雪媛 田德雨)11月，黑龙江双鸭山市秋粮收购进入攻坚期。作为省内重要玉米产区，当地统筹推进秋粮收购：一方面以数字化改造压缩收粮流程、保障粮款及时兑付；另一方面依托龙头企业拉长深加工链条，推动粮食就地转化、提质增值。",
+      "topic_evidence": "以数字化改造压缩收粮流程、保障粮款及时兑付",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724711.shtml",
+      "original_title": "给超充连接器“退烧” 沪高校本科生团队破解充电热安全难题",
+      "original_summary": "中新网上海11月2日电 (记者 许婧)随着新能源汽车驶入“超充时代”，大功率充电带来的热安全问题正成为行业关注的焦点。如何让高压电连接器在极速补能时不再“发高烧”？记者2日从华东理工大学获悉，该校一支由本科生组成的“安连捷”科创团队，历时两年持续攻关，将航天器相变热防护的工程思路“跨界”迁移到车载高压电连接器场景，为超充热安全提供了一套全新的青年方案。",
+      "topic_evidence": "将航天器相变热防护的工程思路“跨界”迁移到车载高压电连接器场景",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "能源"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth",
+      "original_title": "Chinese Factory Activity Cools With Slowdown in Export Orders",
+      "original_summary": "China’s factory activity expanded at a slower pace for the first time since July, a private survey showed, as weaker overseas orders call into question the outlook for the country’s export-led expansion.",
+      "topic_evidence": "China’s factory activity expanded at a slower pace for the first time since July",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724675.shtml",
+      "original_title": "湖南城步苗寨畅通消防通道 “电子哨兵”盯住老旧木房",
+      "original_summary": "中新网邵阳11月2日电 (刘剑平 谢美香)“以前寨子里面道路窄，杂物乱堆，消防车进不来，心里一直悬着。现在通道畅通了，心里踏实多了。”走进湖南邵阳市城步苗族自治县丹口镇下团社区，巷道里原先堆放的柴火、农具已经清理，消防标识线清晰可见，老旧木房还装有“电子哨兵”，这种改变让村民杨光勋十分安心。",
+      "topic_evidence": "老旧木房还装有“电子哨兵”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "消防"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724656.shtml",
+      "original_title": "重载无人直升机驰援西藏地震灾区 完成地表破裂带勘察等任务",
+      "original_summary": "西藏那曲市巴青县发生7.0级地震后，根据现场指挥部安排，应急管理部中国地震应急搜救中心第一时间启动“重载无人机应急救援协作机制”，紧急调派FWH-1500重载无人直升机(最大飞行重量1吨，有效载荷450公斤)及配套保障装备，连夜赶赴受灾最严重的玛如乡参与抢险救灾行动。",
+      "topic_evidence": "紧急调派FWH-1500重载无人直升机",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "救援"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml",
+      "original_title": "“职业差评”背后的生意经：一次“服务”标价数千元，有店铺被投诉到差点闭店",
+      "original_summary": "“职业差评”背后的生意经",
+      "topic_evidence": "一次“服务”标价数千元，有店铺被投诉到差点闭店",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Most Asian Stocks Gain With US Futures, Oil Falls: Markets Wrap",
+      "original_summary": "Most Asian stocks rose with US equity futures as risk appetite stabilized following last week’s slump in tech shares. Oil fell.",
+      "topic_evidence": "Most Asian stocks rose with US equity futures",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
+      "original_title": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+      "original_summary": "After Treasury Secretary Scott Bessent surprised dealers with his willingness to intervene in the bond market to drive down yields in recent months, Wall Street is now girding for the biggest revamp in guidance for US Treasuries issuance since early 2024.",
+      "topic_evidence": "biggest revamp in guidance for US Treasuries issuance since early 2024",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/taiwan-said-to-ease-exporter-fx-rule-after-record-stocks-exodus",
+      "original_title": "Taiwan Said to Ease Exporter FX Rule After Record Stocks Exodus",
+      "original_summary": "Taiwan’s central bank is said to have eased restrictions on exporters selling US dollars to support the local currency after record foreign stock outflows helped make it Asia’s worst performer last month.",
+      "topic_evidence": "eased restrictions on exporters selling US dollars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "original_title": "This is the biggest threat to the AI-powered bull market",
+      "original_summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+      "topic_evidence": "Blockbuster earnings growth has helped to power the stock market higher in 2026",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake",
+      "original_title": "Blackstone Leads $3.1 Billion Deal to Acquire LNG Canada Stake",
+      "original_summary": "A Blackstone Inc.-led investor group agreed to acquire a stake in LNG Canada’s liquefaction business from a Mitsubishi Corp. subsidiary for $3.1 billion.",
+      "topic_evidence": "agreed to acquire a stake in LNG Canada’s liquefaction business",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/the-bank-of-england-ponders-a-new-normal-for-interest-rates",
+      "original_title": "The Bank of England Ponders a New Normal for Interest Rates",
+      "original_summary": "For most of this year, the Bank of England argued that interest rates were probably high enough to bear down on inflation. Now it’s not so sure.",
+      "topic_evidence": "interest rates were probably high enough to bear down on inflation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-set-for-fifth-rate-hike-as-inflation-fight-intensifies",
+      "original_title": "Australia Set for Fifth Rate Hike as Inflation Fight Intensifies",
+      "original_summary": "Australia’s central bank is poised to raise interest rates for a fifth time this year on Tuesday, intensifying efforts to gain control over inflation that’s among the strongest in the developed world.",
+      "topic_evidence": "raise interest rates for a fifth time this year on Tuesday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/saudi-economy-shrank-at-slower-pace-before-houthi-war-escalation",
+      "original_title": "Saudi Economy Shrank at Slower Pace Before Houthi Escalation",
+      "original_summary": "Saudi Arabia’s economy contracted again, albeit at a slower pace, putting the kingdom on track for one of its worst economic performances in years even before a recent escalation in the kingdom’s conflict with the Houthis.",
+      "topic_evidence": "Saudi Arabia’s economy contracted again, albeit at a slower pace",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+      "original_title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "original_summary": "Jobs week lies ahead for the US, which means a heavy slate of data ahead of the capstone monthly employment report from the Bureau of Labor Statistics on Friday.",
+      "topic_evidence": "Jobs week lies ahead for the US",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "fed",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/uk-s-healey-hints-at-delay-in-equalizing-minimum-wage-for-youths",
+      "original_title": "UK’s Healey Says Benefits Bill Will Fall, Doesn’t Give Timeline",
+      "original_summary": "Chancellor John Healey said the UK government would bring down welfare spending but declined to commit to a timetable for it, highlighting the difficulty the Labour Party faces in curbing a major pressure on public finances.",
+      "topic_evidence": "UK government would bring down welfare spending but declined to commit to a timetable",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "original_title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "original_summary": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
+      "topic_evidence": "issuing exemptive relief related to inter-affiliate repo",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "sec"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just",
+      "original_title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "original_summary": "Article URL: https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/ Comments URL: https://news.ycombinator.com/item?id=50326099 Points: 439 # Comments: 157",
+      "topic_evidence": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "technology"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "original_title": "Ask HN: Which TV do you recommend for privacy?",
+      "original_summary": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium. I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV. I am curious what success others have had. Comments URL: https://news.ycombinator.com/item?id=50328896 Points: 247 # Comments: 417",
+      "topic_evidence": "Which TV do you recommend for privacy?",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://occupysaas.com/",
+      "original_title": "OccupySaaS",
+      "original_summary": "Article URL: https://occupysaas.com/ Comments URL: https://news.ycombinator.com/item?id=50331402 Points: 164 # Comments: 109",
+      "topic_evidence": "OccupySaaS",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "original_title": "datasette-llm 0.1a9",
+      "original_summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+      "topic_evidence": "It now picks up the default model used by LLM",
+      "approved": true,
+      "evidence": "It now picks up the default model used by LLM",
+      "reason": "datasette-llm 0.1a9 是具体 AI 插件版本发布，改进默认模型读取，直接属于 AI 产品与平台。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "original_title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "original_summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "topic_evidence": "doesn’t ‘want to ship AI for AI’s sake’",
+      "approved": false,
+      "evidence": "doesn’t ‘want to ship AI for AI’s sake’",
+      "reason": "主事件是苹果 CEO 对 AI 产品策略的表态，标题和摘要未给出具体 AI 产品或平台事件，放入 AI 产品与平台依据不足。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "original_title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "original_summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "topic_evidence": "privacy-focused AI assistant, is shutting down",
+      "approved": true,
+      "evidence": "privacy-focused AI assistant, is shutting down",
+      "reason": "Ollie 是隐私导向的 AI 助手，主事件为其即将关停，属于 AI 产品与平台动态。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "original_title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "original_summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "topic_evidence": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "approved": true,
+      "evidence": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "reason": "法院允许 NAACP 就 xAI 数据中心污染提起诉讼，涉及 AI 基础设施的环境合规与治理，属于研究与治理。"
+    },
+    {
+      "id": "science-tech/chips-hardware/https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+      "section": "科技与科学",
+      "subsection": "芯片与硬件",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+      "original_title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+      "original_summary": "Scientists have built a groundbreaking molecular motor that spins in either direction using electricity, inspired by a machine invented more than 2,000 years ago. Even more remarkably, its rotation can boost electrical conductivity by up to 100 times, potentially transforming the future of molecular electronics.",
+      "topic_evidence": "its rotation can boost electrical conductivity by up to 100 times",
+      "approved": false,
+      "evidence": "its rotation can boost electrical conductivity by up to 100 times",
+      "reason": "主事件是单分子马达的基础研究，不是芯片或硬件产品或技术发布，归入芯片与硬件不准确。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers",
+      "original_title": "Satlyt takes another step toward turning satellites into space data centers",
+      "original_summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "topic_evidence": "Satlyt ran a successful test this month",
+      "approved": true,
+      "evidence": "Satlyt ran a successful test this month",
+      "reason": "Satlyt 完成卫星虚拟数据中心测试，是具体新产品或服务进展，属于新产品与增长。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune",
+      "original_title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "original_summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "topic_evidence": "reported $375M deal for defense tech startup Rune",
+      "approved": true,
+      "evidence": "reported $375M deal for defense tech startup Rune",
+      "reason": "报道明确为 Salesforce 以约 3.75 亿美元收购 Rune，属于融资与并购。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal",
+      "original_title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "original_summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "topic_evidence": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "approved": true,
+      "evidence": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "reason": "AI 律所 Crosby 对 Weil Gotshal 提出收购竞标，属于并购事件。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "original_summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
+      "topic_evidence": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "approved": true,
+      "evidence": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "reason": "以色列在加沙空袭造成人员死亡，属于地缘与安全。"
+    },
+    {
+      "id": "world/global-society/https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+      "original_title": "France seethes again as youth-led protests sweep Europe",
+      "original_summary": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets.",
+      "topic_evidence": "some 320,000 people nationwide took to the streets",
+      "approved": true,
+      "evidence": "some 320,000 people nationwide took to the streets",
+      "reason": "法国全国约 32 万人示威，属于全球社会抗议事件。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Shops looted as German cost-of-living protests turn violent",
+      "original_summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "topic_evidence": "Shops looted as German cost-of-living protests turn violent",
+      "approved": true,
+      "evidence": "Shops looted as German cost-of-living protests turn violent",
+      "reason": "德国生活成本抗议演变为暴力并发生商铺抢劫，属于全球社会。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth",
+      "original_title": "Chinese Factory Activity Cools With Slowdown in Export Orders",
+      "original_summary": "China’s factory activity expanded at a slower pace for the first time since July, a private survey showed, as weaker overseas orders call into question the outlook for the country’s export-led expansion.",
+      "topic_evidence": "China’s factory activity expanded at a slower pace for the first time since July",
+      "approved": true,
+      "evidence": "China’s factory activity expanded at a slower pace for the first time since July",
+      "reason": "中国工厂活动扩张放缓、出口订单走弱，属于中国产业动态。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml",
+      "original_title": "“职业差评”背后的生意经：一次“服务”标价数千元，有店铺被投诉到差点闭店",
+      "original_summary": "“职业差评”背后的生意经",
+      "topic_evidence": "一次“服务”标价数千元，有店铺被投诉到差点闭店",
+      "approved": true,
+      "evidence": "一次“服务”标价数千元，有店铺被投诉到差点闭店",
+      "reason": "职业差评形成付费服务并导致店铺濒临闭店，属于社会与法治议题。"
+    },
+    {
+      "id": "finance/markets-assets/https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake",
+      "section": "财经理财",
+      "subsection": "市场与资产",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake",
+      "original_title": "Blackstone Leads $3.1 Billion Deal to Acquire LNG Canada Stake",
+      "original_summary": "A Blackstone Inc.-led investor group agreed to acquire a stake in LNG Canada’s liquefaction business from a Mitsubishi Corp. subsidiary for $3.1 billion.",
+      "topic_evidence": "agreed to acquire a stake in LNG Canada’s liquefaction business",
+      "approved": true,
+      "evidence": "agreed to acquire a stake in LNG Canada’s liquefaction business",
+      "reason": "Blackstone 牵头以 31 亿美元收购 LNG Canada 股权，属于市场与资产交易。"
+    },
+    {
+      "id": "finance/macro-policy/https://www.bloomberg.com/news/articles/2026-10-31/uk-s-healey-hints-at-delay-in-equalizing-minimum-wage-for-youths",
+      "section": "财经理财",
+      "subsection": "宏观与政策",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/uk-s-healey-hints-at-delay-in-equalizing-minimum-wage-for-youths",
+      "original_title": "UK’s Healey Says Benefits Bill Will Fall, Doesn’t Give Timeline",
+      "original_summary": "Chancellor John Healey said the UK government would bring down welfare spending but declined to commit to a timetable for it, highlighting the difficulty the Labour Party faces in curbing a major pressure on public finances.",
+      "topic_evidence": "UK government would bring down welfare spending but declined to commit to a timetable",
+      "approved": true,
+      "evidence": "UK government would bring down welfare spending but declined to commit to a timetable",
+      "reason": "英国财政大臣表示将削减福利支出但未给时间表，属于宏观与政策讨论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://simonwillison.net/2026/Oct/31/datasette-llm"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-02/10724728.shtml"
+    ],
+    [
+      "finance",
+      "macro-policy",
+      "https://www.bloomberg.com/news/articles/2026-10-31/uk-s-healey-hints-at-delay-in-equalizing-minimum-wage-for-youths"
+    ],
+    [
+      "finance",
+      "markets-assets",
+      "https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+    ]
+  ]
+}

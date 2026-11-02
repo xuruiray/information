@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI &amp; LLMs · Information Daily 2026-11-02</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261102</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>November 2, 2026 · Monday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="ai-tech.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-11-02/ai-tech.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html" aria-current="page">01 AI &amp; LLMs</a>
+      <a href="developer.html">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI &amp; LLMs</h2>
+      <span class="ed">10 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs: Frontier Models, Products, and Governance">
+      <div class="lead-label">AI &amp; LLMs: Frontier Models, Products, and Governance</div>
+      <p>This edition covers frontier models, AI products and platforms, and research and governance. On frontier models, the papers discuss adaptive personalization for conversational AI under preference uncertainty, AutoHebb self-modifying neural networks combining zero-shot inference and continual learning, and catastrophic forgetting in a physics foundation model during sim-to-real fine-tuning. On products, datasette-llm released version 0.1a9 with automatic use of LLM’s default model, while privacy-focused AI assistant Ollie will shut down in a week. On research and governance, items include CoFiBreak’s diversity reward for multi-turn jailbreaks, pruning redundant attention heads to suppress verbatim memorization, the Qistas fairness evaluation protocol, the BILAL-BENCH benchmark for Islamic-source fabrication in Bengali, and a judge allowing the NAACP lawsuit over xAI data center pollution to proceed.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>Frontier Models</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Personalization, Self-Modification, and Sim-to-Real Forgetting">
+          <div class="lead-label">Frontier Models: Personalization, Self-Modification, and Sim-to-Real Forgetting</div>
+          <p>Three papers respectively propose adaptive personalization under preference epistemic uncertainty, introduce AutoHebb self-modifying neural networks for zero-shot inference and continual learning, and examine catastrophic forgetting in a physics foundation model under sim-to-real fine-tuning.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.40930" target="_blank" rel="noopener">
+            <span class="at">Adaptive Personalization Under Preference Epistemic Uncertainty</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper proposes an adaptive personalization approach for conversational AI that adjusts response strategies as user preferences remain stable, become uncertain, or are explicitly revised, rather than relying only on passive memory retrieval.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40757" target="_blank" rel="noopener">
+            <span class="at">AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">The paper introduces AutoHebb, a self-modifying neural network aimed at combining zero-shot inference and continual learning, while noting limits in existing models that simulate these abilities.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40857" target="_blank" rel="noopener">
+            <span class="at">Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">The study examines catastrophic forgetting in scientific foundation models during sim-to-real fine-tuning, noting that while such models adapt to unseen data distributions, additional fine-tuning can degrade prior capabilities.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI Products &amp; Platforms</h3>
+          <span>2 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: datasette-llm Update and Ollie Shutdown">
+          <div class="lead-label">AI Products and Platforms: datasette-llm Update and Ollie Shutdown</div>
+          <p>datasette-llm released version 0.1a9, which picks up LLM’s default model so Datasette Agent can be used without explicitly configuring a default model; privacy-focused AI assistant Ollie will shut down in a week.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Oct/31/datasette-llm" target="_blank" rel="noopener">
+            <span class="at">datasette-llm 0.1a9</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">The datasette-llm plugin released version 0.1a9, which now picks up LLM’s default model so Datasette Agent can be used without explicitly configuring a default model.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down" target="_blank" rel="noopener">
+            <span class="at">Ollie, a privacy-focused AI assistant, is shutting down</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Ollie, a privacy-focused AI assistant, will shut down in a week, its founder said, as the market becomes increasingly crowded with AI assistants.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>Research &amp; Governance</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Jailbreaks, Memorization Suppression, Fairness Evaluation, and Legal Developments">
+          <div class="lead-label">Research and Governance: Jailbreaks, Memorization Suppression, Fairness Evaluation, and Legal Developments</div>
+          <p>Research items include CoFiBreak’s coarse-to-fine diversity reward, pruning redundant attention heads to suppress verbatim memorization, the pre-registered and portable Qistas fairness evaluation protocol, and BILAL-BENCH for benchmarking Islamic-source fabrication in Bengali. On governance, a judge allowed the NAACP lawsuit over xAI data center pollution to proceed.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2610.40926" target="_blank" rel="noopener">
+            <span class="at">CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper introduces CoFiBreak, a coarse-to-fine diversity reward for training attacker LLMs in multi-turn jailbreaks, aiming to reduce prompt-diversity collapse when attack success is the only reward and to improve safety evaluation.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40974" target="_blank" rel="noopener">
+            <span class="at">Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The study examines pruning redundant attention heads to suppress verbatim memorization in large language models, aiming to reduce privacy leakage and intellectual-property exposure while considering effects on generalization.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40893" target="_blank" rel="noopener">
+            <span class="at">Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper presents Qistas, a pre-registered and portable protocol for evaluating LLM fairness, addressing benchmarks that are largely English-born and American in their social categories and often do not fit other societies after translation.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2610.40996" target="_blank" rel="noopener">
+            <span class="at">Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper introduces BILAL-BENCH to benchmark fabrication of Qur’anic verses and hadith by open language models in Bengali, noting that existing Islamic hallucination benchmarks are largely Arabic and often closed-ended.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward" target="_blank" rel="noopener">
+            <span class="at">Judge allows NAACP lawsuit over xAI data center pollution to move forward</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">A judge allowed the NAACP lawsuit over xAI’s data center pollution to proceed; the suit accuses the SpaceX-owned AI company of violating the Clean Air Act.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
