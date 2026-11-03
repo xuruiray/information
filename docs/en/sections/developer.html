@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 Development &amp; Programming · Information Daily 2026-11-02</title>
+<title>02 Development &amp; Programming · Information Daily 2026-11-03</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261102</span>
+        <span>Issue 20261103</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>November 2, 2026 · Monday</span></div>
+      <div class="dateline"><span>November 3, 2026 · Tuesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 Development &amp; Programming</h2>
-      <span class="ed">5 articles / 3 subsections</span>
+      <span class="ed">10 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Dependencies, framework costs, and open-source tools">
-      <div class="lead-label">Developer &amp; Programming: Dependencies, framework costs, and open-source tools</div>
-      <p>This Developer &amp; Programming briefing covers five final articles: Simon Willison advises deleting uv.lock when in doubt under Python 3.15; an analysis of the AI cost of JavaScript frameworks drew 337 points and 259 comments on Hacker News; GitHub&#39;s Game Off 2026 announced the theme SHIFT; OmniDiff launched as an AGPLv3 Rust Git difftool; and Parameter Labs disclosed an account-takeover exploit targeting ChatGPT artifacts.</p>
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Python 3.15 dependency handling, Vercel flags and MCP updates, plus npm and sandbox security">
+      <div class="lead-label">Developer &amp; Programming: Python 3.15 dependency handling, Vercel flags and MCP updates, plus npm and sandbox security</div>
+      <p>This Developer &amp; Programming briefing focuses on toolchain and platform updates: advice on handling uv.lock after moving to Python 3.15; Vercel&#39;s cross-project flag evaluation, redesigned Flags Explorer, faster Sandboxes with Drives, and blocking of malicious npm packages before and during installation; Vercel MCP rendering deployments as an interactive card in ChatGPT and adding Client ID Metadata Documents support; Simon Willison&#39;s LLM CLI 0.37 release; GitHub&#39;s Game Off 2026 theme SHIFT; and Parameter Labs&#39; account takeover exploit against ChatGPT&#39;s HTML preview sandbox.</p>
     </section>
 
     <div class="subsection-stack">
@@ -54,22 +54,22 @@
           <h3>Languages &amp; Frameworks</h3>
           <span>2 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Languages and frameworks: uv.lock and JavaScript framework AI costs">
-          <div class="lead-label">Languages and frameworks: uv.lock and JavaScript framework AI costs</div>
-          <p>Simon Willison advises deleting uv.lock when in doubt after occasional confusing dependency errors following a switch to Python 3.15, noting most of his projects are libraries without lockfiles. A separate article examines the AI cost of JavaScript frameworks; its Hacker News post shows 337 points and 259 comments.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Languages &amp; Frameworks: Python 3.15 dependency handling and Vercel cross-project flags">
+          <div class="lead-label">Languages &amp; Frameworks: Python 3.15 dependency handling and Vercel cross-project flags</div>
+          <p>In languages and frameworks, the author hit dependency errors after moving to Python 3.15 and advises deleting uv.lock first when in doubt; library projects generally should not ship lock files that pin versions for downstream users. Vercel Project Connections let apps within a team evaluate flags defined in another Vercel project using deployment identity, without sharing server SDK keys.</p>
         </section>
 
         <div class="columns subsection-columns">
           <a class="art" href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first" target="_blank" rel="noopener">
-            <span class="at">If in doubt, delete the uv.lock file</span>
+            <span class="at">After moving to Python 3.15, delete the uv.lock file when dependency errors appear</span>
             <span class="by">Simon Willison</span>
-            <p class="as">After switching to Python 3.15, the author occasionally hits confusing dependency errors and advises deleting uv.lock when in doubt; most of his projects are libraries without lockfiles.</p>
+            <p class="as">Since switching to Python 3.15 the author hit occasional confusing dependency errors; the rule: if in doubt, delete uv.lock. Library projects generally should not ship lock files that pin versions for downstream users.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks" target="_blank" rel="noopener">
-            <span class="at">The AI cost of JavaScript frameworks</span>
-            <span class="by">Hacker News</span>
-            <p class="as">An article titled &#39;The AI cost of JavaScript frameworks&#39; examines the AI cost of JavaScript frameworks; its Hacker News post shows 337 points and 259 comments, without further argument details in the summary.</p>
+          <a class="art" href="https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Project Connections let apps evaluate another project&#39;s flags without SDK keys</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Within a team, Project Connections let an application evaluate flags defined in another Vercel project, authenticating via deployment identity instead of manually copying and managing a server SDK key.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -77,24 +77,36 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>Open Source &amp; Tools</h3>
-          <span>2 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Open source and tools: Game Off 2026 and OmniDiff">
-          <div class="lead-label">Open source and tools: Game Off 2026 and OmniDiff</div>
-          <p>GitHub&#39;s 14th annual month-long Game Off runs in November 2026 with the theme SHIFT. OmniDiff is an AGPLv3 Rust Git difftool for code in 25 languages plus configs, images, PDFs, archives and fonts; the author claims sub-100ms diffs on tens of thousands of C++ lines on a 2023 ThinkPad T14s.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: LLM CLI 0.37, Vercel MCP cards, Game Off and Flags Explorer">
+          <div class="lead-label">Open Source &amp; Tools: LLM CLI 0.37, Vercel MCP cards, Game Off and Flags Explorer</div>
+          <p>In open source and tools, Simon Willison released LLM CLI 0.37, adding gpt-6.1-sol and gpt-6.1-terra models and an llm openai endpoint add command; Vercel MCP can render deployment status, build logs and commit details as an interactive card in ChatGPT and other chat clients; GitHub announced SHIFT as the theme for its 14th annual Game Off 2026; and Vercel redesigned Flags Explorer to co-locate overrides, branch recommendations and related actions.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift" target="_blank" rel="noopener">
-            <span class="at">Game Off 2026: The theme is SHIFT</span>
-            <span class="by">GitHub 博客</span>
-            <p class="as">GitHub&#39;s 14th annual month-long Game Off returns in November 2026 with the theme SHIFT, inviting participants to make games around changing gears, swapping perspectives, bending reality or pressing a key.</p>
+          <a class="art" href="https://simonwillison.net/2026/Nov/2/llm" target="_blank" rel="noopener">
+            <span class="at">Simon Willison releases LLM CLI 0.37 with GPT-6.1 models and OpenAI endpoint command</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">The release packs about two months of features and fixes, adding gpt-6.1-sol and gpt-6.1-terra models plus an llm openai endpoint add command for configuring OpenAI-compatible endpoints.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://github.com/ivankovic/omnidiff" target="_blank" rel="noopener">
-            <span class="at">Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust</span>
-            <span class="by">Hacker News</span>
-            <p class="as">OmniDiff is an AGPLv3 open-source Git difftool written in Rust. It diffs code in 25 languages plus configs, images, PDFs, archives and fonts; the author claims sub-100ms on tens of thousands of C++ lines.</p>
+          <a class="art" href="https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP now renders deployments as an interactive card in chat clients</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP supports MCP Apps, showing live deployment status, build logs and commit details as an interactive card in ChatGPT and other chat clients, with logs sendable into the chat.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift" target="_blank" rel="noopener">
+            <span class="at">GitHub&#39;s 14th annual Game Off 2026 jam announces theme SHIFT</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub&#39;s month-long game jam returns for its 14th year this November with the theme SHIFT, inviting participants to make games around changing gears, swapping perspectives or bending reality.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing" target="_blank" rel="noopener">
+            <span class="at">Vercel redesigns Flags Explorer for easier feature flag override sharing</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">The Flags Explorer in the Vercel Toolbar gets a redesign that co-locates overrides, branch recommendations and related actions, and surfaces overrides whenever a branch has them set.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -102,18 +114,36 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>Infrastructure &amp; Data</h3>
-          <span>1 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure and data: ChatGPT artifacts account-takeover exploit">
-          <div class="lead-label">Infrastructure and data: ChatGPT artifacts account-takeover exploit</div>
-          <p>Parameter Labs describes an exploit against ChatGPT&#39;s artifacts implementation, which displays interactive custom HTML apps in sandboxed iframes, stressing that such HTML must stay tightly isolated to maintain the security boundary.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: faster Sandboxes, npm blocking, ChatGPT sandbox exploit and MCP client access">
+          <div class="lead-label">Infrastructure &amp; Data: faster Sandboxes, npm blocking, ChatGPT sandbox exploit and MCP client access</div>
+          <p>In infrastructure and data, Vercel Sandboxes that mount Drives start faster, with median creation time falling from 1.7s to 0.7s and p95 from 2.2s to 1.6s; Vercel blocks malicious npm packages before and during dependency installation using a version blocklist; Parameter Labs detailed an account takeover exploit against ChatGPT&#39;s HTML preview sandbox; and Vercel MCP added support for Client ID Metadata Documents, removing manual review and redirect URI allowlisting for client connections.</p>
         </section>
 
         <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster" target="_blank" rel="noopener">
+            <span class="at">Vercel Sandboxes with Drives start up to 2.4x faster</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Sandboxes that mount Drives now start faster: median creation time falls from 1.7s to 0.7s and p95 from 2.2s to 1.6s, applying automatically at the same price.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation" target="_blank" rel="noopener">
+            <span class="at">Vercel blocks malicious npm packages before and during installation</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel now checks for blocked npm packages before and during dependency installation in builds, using a blocklist of specific versions flagged for malware or vulnerabilities to stop malicious install scripts.</p>
+            <span class="more">Read more →</span>
+          </a>
           <a class="art" href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts" target="_blank" rel="noopener">
-            <span class="at">How We Took Over ChatGPT Accounts</span>
+            <span class="at">Parameter Labs details an account takeover exploit against ChatGPT&#39;s HTML preview sandbox</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Parameter Labs describes an exploit against ChatGPT&#39;s artifacts implementation, which displays interactive custom HTML apps in sandboxed iframes, stressing that such HTML must stay tightly isolated.</p>
+            <p class="as">Parameter Labs describes an exploit against ChatGPT&#39;s implementation of the artifacts pattern, now called HTML previews, where interactive custom HTML apps run in a sandboxed iframe that must stay tightly isolated.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP now supports Client ID Metadata Documents</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Any MCP client can now request a connection to Vercel MCP; users still log in and approve each connection, but Vercel no longer manually reviews and allowlists each client and its redirect URIs.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

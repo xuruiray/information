@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-11-03</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261103 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年11月3日 星期二</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-11-03/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">10 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：Python 3.15 依赖处理、Vercel 功能开关与 MCP 更新，以及 npm 与沙箱安全">
+      <div class="lead-label">开发与编程：Python 3.15 依赖处理、Vercel 功能开关与 MCP 更新，以及 npm 与沙箱安全</div>
+      <p>本期开发与编程版聚焦工具链与平台更新：Python 3.15 升级后的 uv.lock 处理建议；Vercel 推出跨项目功能开关评估、重设计 Flags Explorer、让挂载 Drives 的 Sandbox 启动更快，并在依赖安装前后拦截恶意 npm 包；Vercel MCP 可在 ChatGPT 中以交互卡片展示部署，并支持 Client ID Metadata Documents；Simon Willison 发布 LLM CLI 0.37；GitHub Game Off 2026 公布主题 SHIFT；Parameter Labs 披露针对 ChatGPT HTML 预览沙箱的账户接管漏洞。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="语言与框架：Python 3.15 依赖处理与 Vercel 跨项目功能开关">
+          <div class="lead-label">语言与框架：Python 3.15 依赖处理与 Vercel 跨项目功能开关</div>
+          <p>语言与框架方面，作者在改用 Python 3.15 后遇到依赖错误，建议先删除 uv.lock；库项目通常不应提交锁文件，以免锁定下游版本。Vercel Project Connections 允许同一团队的应用通过部署身份评估另一 Vercel 项目定义的功能开关，无需共享服务器 SDK 密钥。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first" target="_blank" rel="noopener">
+            <span class="at">Python 3.15 升级后遇依赖报错，建议先删除 uv.lock 文件</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">作者改用 Python 3.15 后偶遇依赖错误，经验是：拿不准时先删除 uv.lock 再运行；库项目通常不应提交锁文件，以免锁定下游版本。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys" target="_blank" rel="noopener">
+            <span class="at">Vercel Project Connections 支持跨项目评估功能开关，无需共享 SDK 密钥</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">同一团队内的应用可通过 Project Connections 评估另一 Vercel 项目定义的功能开关，靠部署身份认证，无需再手动复制并管理服务器 SDK 密钥。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：LLM CLI 0.37、Vercel MCP 交互卡片、Game Off 与 Flags Explorer">
+          <div class="lead-label">开源与工具：LLM CLI 0.37、Vercel MCP 交互卡片、Game Off 与 Flags Explorer</div>
+          <p>开源与工具方面，Simon Willison 发布 LLM CLI 0.37，新增 gpt-6.1-sol、gpt-6.1-terra 模型及 llm openai endpoint add 命令；Vercel MCP 支持在 ChatGPT 等聊天客户端以交互卡片展示部署状态、构建日志和提交信息；GitHub 第 14 届 Game Off 2026 公布主题 SHIFT；Vercel 重新设计 Flags Explorer，集中展示覆盖设置、分支建议和相关操作。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/2/llm" target="_blank" rel="noopener">
+            <span class="at">Simon Willison 发布 LLM CLI 0.37，新增 GPT-6.1 模型与 OpenAI 端点命令</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">该版本汇总约两个月的功能与修复，新增 gpt-6.1-sol 和 gpt-6.1-terra 模型，并加入 llm openai endpoint add 命令，便于配置兼容 OpenAI 的自定义端点。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP 现可在 ChatGPT 中以交互卡片展示部署</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel MCP 支持 MCP Apps，可在 ChatGPT 等聊天客户端里用交互卡片显示部署状态、构建日志及提交信息，并可将日志发送到对话中调试。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift" target="_blank" rel="noopener">
+            <span class="at">GitHub 第 14 届 Game Off 2026 游戏创作活动主题定为 SHIFT</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub 年度为期一个月的游戏创作活动进入第 14 年，11 月以 SHIFT 为主题，参与者可围绕换挡、切换视角或扭曲现实等方向制作游戏。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing" target="_blank" rel="noopener">
+            <span class="at">Vercel 重新设计 Flags Explorer，简化功能开关覆盖共享</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel Toolbar 中的 Flags Explorer 界面改版，将覆盖设置、分支建议和相关操作集中展示，并在分支设置覆盖后予以显示，便于团队共享。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>4 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Sandbox 提速、npm 拦截、ChatGPT 沙箱漏洞与 MCP 客户端接入">
+          <div class="lead-label">基础设施与数据：Sandbox 提速、npm 拦截、ChatGPT 沙箱漏洞与 MCP 客户端接入</div>
+          <p>基础设施与数据方面，挂载 Drives 的 Vercel Sandbox 启动提速，创建时间中位数从 1.7 秒降至 0.7 秒、p95 从 2.2 秒降至 1.6 秒；Vercel 在构建的依赖安装前及过程中按版本黑名单拦截恶意 npm 包；Parameter Labs 披露针对 ChatGPT HTML 预览沙箱的账户接管漏洞；Vercel MCP 支持 Client ID Metadata Documents，客户端接入不再需要 Vercel 手工审核并加入重定向 URI 白名单。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster" target="_blank" rel="noopener">
+            <span class="at">Vercel 挂载 Drives 的 Sandbox 启动提速最高 2.4 倍</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">挂载 Drives 的 Vercel Sandbox 启动更快，创建时间中位数从 1.7 秒降至 0.7 秒，p95 从 2.2 秒降至 1.6 秒，自动生效且价格不变。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation" target="_blank" rel="noopener">
+            <span class="at">Vercel 在构建安装依赖前后拦截恶意 npm 包</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Vercel 在构建的依赖安装前及过程中检查被封锁的 npm 包，依据针对恶意软件或漏洞的特定版本黑名单，阻止恶意安装脚本运行。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts" target="_blank" rel="noopener">
+            <span class="at">Parameter Labs 披露针对 ChatGPT HTML 预览沙箱的账户接管漏洞</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Parameter Labs 描述其针对 ChatGPT 的 artifacts（现称 HTML 预览）实现的利用：交互式自定义 HTML 应用在沙箱 iframe 中显示，需严格隔离。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents" target="_blank" rel="noopener">
+            <span class="at">Vercel MCP 支持 Client ID Metadata Documents，客户端接入无需预先审核</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">任何 MCP 客户端现在可申请连接 Vercel MCP，仍须登录并逐次批准，但不再需要 Vercel 手工审核并将其重定向 URI 加入白名单。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

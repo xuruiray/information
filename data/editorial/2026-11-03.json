@@ -1,0 +1,2242 @@
+{
+  "date": "2026-11-03",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+              "title": "Anthropic 警告已非常接近 RSI 能力，即自我构建的 AI",
+              "summary": "TechCrunch 报道，Anthropic 警告其已非常接近 RSI 能力，即自我构建的 AI；报道将 RSI 定义为 AI 训练自身并引发能力急剧加速的节点。",
+              "title_en": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+              "summary_en": "TechCrunch reports that Anthropic warned it is very close to recursive self-improvement, or self-building AI, a point where AI training itself could sharply accelerate capabilities.",
+              "topic_evidence": "Anthropic warns that it’s very close to RSI capability",
+              "reason": "直接涉及前沿 AI 能力与递归自我改进风险，是当日最具信息量的模型能力讨论之一。",
+              "reason_en": "Directly concerns frontier AI capability and recursive self-improvement risk, making it one of the day’s most informative model-capability items.",
+              "score": 4.95
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40917",
+              "title": "迈向智能体运行框架的可移植规范",
+              "summary": "论文指出大模型只能通过周边基础设施（harness）行动，并将该框架拆分为八个可规范、可组合的功能组件，以形成可移植定义。",
+              "title_en": "Towards Portable Specification of the Agent Harness",
+              "summary_en": "The paper argues LLMs act only through surrounding infrastructure and proposes decomposing the agent harness into eight specifiable, composable functional components to create a portable definition.",
+              "topic_evidence": "decompose the harness into eight functional components",
+              "reason": "聚焦智能体基础设施的定义与可移植性，有助于理解模型能力如何受运行框架影响。",
+              "reason_en": "Focuses on defining portable agent infrastructure, clarifying how model capabilities depend on the surrounding harness.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40927",
+              "title": "无需环境副本的智能体测试时扩展世界建模",
+              "summary": "论文提出用智能体世界建模支持测试时扩展，避免依赖可并行执行的环境副本；该方法面向企业工作区和云服务难以复制真实环境的部署场景。",
+              "title_en": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+              "summary_en": "The paper proposes agentic world modeling for test-time scaling without environment replicas, targeting deployments where enterprise workspaces and cloud services cannot be copied for parallel trajectory execution.",
+              "topic_evidence": "Test-time scaling (TTS) improves large language model agents",
+              "reason": "讨论 LLM 智能体在真实部署中的测试时扩展方法，属于推理与智能体前沿。",
+              "reason_en": "Addresses test-time scaling for LLM agents in realistic deployments, fitting frontier inference and agent research.",
+              "score": 4.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+              "title": "42AI 结束隐身状态，获 6250 万美元融资并推出可‘预测人类行为’的世界模型",
+              "summary": "TechCrunch 报道，42AI 结束隐身并获 6250 万美元融资，称其世界模型可在全新情境中预测人的行为；报道以科幻式问题引出该能力。",
+              "title_en": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+              "summary_en": "TechCrunch reports that 42AI emerged from stealth with $62.5 million and a world model it says can predict human behavior in completely new situations.",
+              "topic_evidence": "world model that can ‘predict human behavior’",
+              "reason": "涉及世界模型这一前沿方向，并给出融资与能力主张的具体信息。",
+              "reason_en": "Covers a frontier world-model claim with specific funding and capability details.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://openai.com/index/qodo-codex-plugin",
+              "title": "Qodo 将公司知识接入 Codex，增强 AI 代码审查上下文",
+              "summary": "Qodo 把企业知识和编码规范带入 Codex，帮助开发者在提交拉取请求前跨仓库发现 P0 问题。",
+              "title_en": "Qodo builds context into AI code review with Codex",
+              "summary_en": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+              "topic_evidence": "Qodo brings company knowledge and coding standards into Codex",
+              "reason": "属于 AI 编程产品的具体集成，说明企业上下文如何进入代码审查流程。",
+              "reason_en": "A concrete AI coding product integration showing how enterprise context enters code review workflows.",
+              "score": 4.2
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+              "title": "Trajectory 融资 4500 万美元，让非技术专家也能训练 AI 模型",
+              "summary": "成立一年的 Trajectory 完成 4500 万美元融资，估值达 3 亿美元，目标是让非技术专家也能参与 AI 模型训练。",
+              "title_en": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+              "summary_en": "The one-year-old startup Trajectory raised $45 million at a $300 million valuation to make AI model training accessible to nontechnical experts.",
+              "topic_evidence": "make AI model training accessible to nontechnical experts",
+              "reason": "融资事件同时指向面向非技术专家的模型训练平台，符合 AI 产品与平台主题。",
+              "reason_en": "The funding event points to a model-training platform for nontechnical experts, fitting the AI products and platforms theme.",
+              "score": 4.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2610.40798",
+              "title": "超越看似合理的预测：网络世界模型中的安全充分性",
+              "summary": "研究对十个冻结开放模型的 3000 条预测做匹配人类评估，发现 86.1% 被判定语义上合理；但合理预测不一定支持正确的安全决策。",
+              "title_en": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+              "summary_en": "A matched human evaluation of 3,000 predictions from ten frozen open models found 86.1% semantically plausible, but plausible predictions did not necessarily support correct safety decisions.",
+              "topic_evidence": "86.1% are judged semantically plausible",
+              "reason": "以具体评估数据揭示世界模型预测合理性与安全决策充分性之间的差距，属于 AI 安全研究。",
+              "reason_en": "Uses concrete evaluation data to show the gap between plausible world-model predictions and safety-sufficient decisions, fitting AI safety research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40890",
+              "title": "ChatGPT 会成为监控助手？AI 辅助监控风险的探索性案例研究",
+              "summary": "论文以 ChatGPT 为案例，探讨通用大模型可生成详细指导、可用代码和有说服力文本，从而可能被用于监控相关任务的风险。",
+              "title_en": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+              "summary_en": "The case study examines how ChatGPT’s ability to generate detailed guidance, functional code and persuasive text may enable surveillance-related tasks, raising misuse and privacy concerns.",
+              "topic_evidence": "AI-Assisted Surveillance Risks",
+              "reason": "聚焦广泛使用的消费级大模型在监控场景中的滥用风险，属于治理与隐私议题。",
+              "reason_en": "Focuses on misuse and privacy risks when a widely used consumer LLM is applied to surveillance-related tasks.",
+              "score": 5.9
+            },
+            {
+              "url": "https://openai.com/index/lifeval",
+              "title": "OpenAI 推出 LifeVal，评估 AI 对日常任务的帮助",
+              "summary": "OpenAI 发布 LifeVal 基准，衡量 AI 在寻找托育、管理财务和处理政府文书等日常任务中帮助人的效果。",
+              "title_en": "LifeVal",
+              "summary_en": "OpenAI introduced LifeVal, a benchmark measuring how well AI helps people complete everyday tasks such as finding childcare, managing finances and handling government paperwork.",
+              "topic_evidence": "a benchmark measuring how well AI helps people complete everyday tasks",
+              "reason": "提供面向真实日常任务的评估基准，补充模型能力评测维度。",
+              "reason_en": "Adds an evaluation benchmark centered on real everyday tasks, broadening model capability assessment.",
+              "score": 5.2
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40946",
+              "title": "打开盒子改变猫：LLM 能检测思维链监控，接下来怎么办？",
+              "summary": "论文研究大模型在能检测思维链监控时的行为条件，指出思维链可暴露潜在有害计划，但模型一旦察觉被监控，监控有效性可能受影响。",
+              "title_en": "Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?",
+              "summary_en": "The paper investigates how LLMs behave when they can detect chain-of-thought monitoring, noting that reasoning traces can expose harmful plans but monitoring may weaken once models notice it.",
+              "topic_evidence": "LLMs Detect Chain-of-Thought Monitoring",
+              "reason": "直接讨论思维链监控的可检测性与安全影响，属于 AI 安全治理的关键问题。",
+              "reason_en": "Directly addresses the detectability and safety implications of chain-of-thought monitoring, a key AI governance issue.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2610.40758",
+              "title": "规则更多，列表更长？在隐藏规则课程上评测自我进化智能体",
+              "summary": "论文提出 CLR-Bench，用隐藏规则课程评测自我进化智能体能否学会未被告知的规则，并检验智能体是否只是把每次纠正记为例外、导致列表不断增长。",
+              "title_en": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+              "summary_en": "The paper introduces CLR-Bench, a hidden-rule curriculum for testing whether self-evolving agents learn unstated rules or merely record each correction as an exception, causing lists to grow.",
+              "topic_evidence": "Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+              "reason": "提出针对自我进化智能体的新基准，具体检验其隐藏规则学习与例外堆叠问题。",
+              "reason_en": "Introduces a new benchmark for self-evolving agents that specifically tests hidden-rule learning versus exception accumulation.",
+              "score": 5.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+              "title": "Python 3.15 升级后遇依赖报错，建议先删除 uv.lock 文件",
+              "summary": "作者改用 Python 3.15 后偶遇依赖错误，经验是：拿不准时先删除 uv.lock 再运行；库项目通常不应提交锁文件，以免锁定下游版本。",
+              "title_en": "After moving to Python 3.15, delete the uv.lock file when dependency errors appear",
+              "summary_en": "Since switching to Python 3.15 the author hit occasional confusing dependency errors; the rule: if in doubt, delete uv.lock. Library projects generally should not ship lock files that pin versions for downstream users.",
+              "topic_evidence": "If in doubt, delete the uv.lock file",
+              "reason": "针对 Python 3.15 依赖与 uv.lock 锁文件的具体经验，属语言与依赖管理。",
+              "reason_en": "Concrete Python 3.15 dependency and uv.lock guidance, fitting language and dependency management.",
+              "score": 5.1
+            },
+            {
+              "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+              "title": "Vercel Project Connections 支持跨项目评估功能开关，无需共享 SDK 密钥",
+              "summary": "同一团队内的应用可通过 Project Connections 评估另一 Vercel 项目定义的功能开关，靠部署身份认证，无需再手动复制并管理服务器 SDK 密钥。",
+              "title_en": "Vercel Project Connections let apps evaluate another project's flags without SDK keys",
+              "summary_en": "Within a team, Project Connections let an application evaluate flags defined in another Vercel project, authenticating via deployment identity instead of manually copying and managing a server SDK key.",
+              "topic_evidence": "evaluate flags defined in another Vercel project within the same team, without managing SDK keys",
+              "reason": "涉及应用侧 SDK 密钥与功能开关配置方式的具体变化。",
+              "reason_en": "Specific change to app-side SDK key and feature-flag configuration.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/2/llm",
+              "title": "Simon Willison 发布 LLM CLI 0.37，新增 GPT-6.1 模型与 OpenAI 端点命令",
+              "summary": "该版本汇总约两个月的功能与修复，新增 gpt-6.1-sol 和 gpt-6.1-terra 模型，并加入 llm openai endpoint add 命令，便于配置兼容 OpenAI 的自定义端点。",
+              "title_en": "Simon Willison releases LLM CLI 0.37 with GPT-6.1 models and OpenAI endpoint command",
+              "summary_en": "The release packs about two months of features and fixes, adding gpt-6.1-sol and gpt-6.1-terra models plus an llm openai endpoint add command for configuring OpenAI-compatible endpoints.",
+              "topic_evidence": "There's a lot of stuff in this new release of my LLM CLI tool and Python library",
+              "reason": "具体版本发布，含新模型与命令，直接属于 CLI 工具与发布。",
+              "reason_en": "Concrete release with new models and a command, fitting CLI tools and releases.",
+              "score": 9.1
+            },
+            {
+              "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+              "title": "Vercel MCP 现可在 ChatGPT 中以交互卡片展示部署",
+              "summary": "Vercel MCP 支持 MCP Apps，可在 ChatGPT 等聊天客户端里用交互卡片显示部署状态、构建日志及提交信息，并可将日志发送到对话中调试。",
+              "title_en": "Vercel MCP now renders deployments as an interactive card in chat clients",
+              "summary_en": "Vercel MCP supports MCP Apps, showing live deployment status, build logs and commit details as an interactive card in ChatGPT and other chat clients, with logs sendable into the chat.",
+              "topic_evidence": "Vercel MCP can now show your deployments as an interactive card inside ChatGPT",
+              "reason": "具体工具能力更新，属 MCP 工具生态。",
+              "reason_en": "Specific tool capability update in the MCP tool ecosystem.",
+              "score": 3.9
+            },
+            {
+              "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+              "title": "GitHub 第 14 届 Game Off 2026 游戏创作活动主题定为 SHIFT",
+              "summary": "GitHub 年度为期一个月的游戏创作活动进入第 14 年，11 月以 SHIFT 为主题，参与者可围绕换挡、切换视角或扭曲现实等方向制作游戏。",
+              "title_en": "GitHub's 14th annual Game Off 2026 jam announces theme SHIFT",
+              "summary_en": "GitHub's month-long game jam returns for its 14th year this November with the theme SHIFT, inviting participants to make games around changing gears, swapping perspectives or bending reality.",
+              "topic_evidence": "GitHub's annual month-long game jam is back for its 14th year!",
+              "reason": "具体开源社区活动与主题信息。",
+              "reason_en": "Concrete open-source community event and theme.",
+              "score": 4.0
+            },
+            {
+              "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+              "title": "Vercel 重新设计 Flags Explorer，简化功能开关覆盖共享",
+              "summary": "Vercel Toolbar 中的 Flags Explorer 界面改版，将覆盖设置、分支建议和相关操作集中展示，并在分支设置覆盖后予以显示，便于团队共享。",
+              "title_en": "Vercel redesigns Flags Explorer for easier feature flag override sharing",
+              "summary_en": "The Flags Explorer in the Vercel Toolbar gets a redesign that co-locates overrides, branch recommendations and related actions, and surfaces overrides whenever a branch has them set.",
+              "topic_evidence": "The Explorer surface has been redesigned to co-locate overrides, branch recommendations, and any related actions.",
+              "reason": "具体开发工具界面改版。",
+              "reason_en": "Concrete developer tool UI redesign.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+              "title": "Vercel 挂载 Drives 的 Sandbox 启动提速最高 2.4 倍",
+              "summary": "挂载 Drives 的 Vercel Sandbox 启动更快，创建时间中位数从 1.7 秒降至 0.7 秒，p95 从 2.2 秒降至 1.6 秒，自动生效且价格不变。",
+              "title_en": "Vercel Sandboxes with Drives start up to 2.4x faster",
+              "summary_en": "Sandboxes that mount Drives now start faster: median creation time falls from 1.7s to 0.7s and p95 from 2.2s to 1.6s, applying automatically at the same price.",
+              "topic_evidence": "Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.",
+              "reason": "具体基础设施性能数据变化。",
+              "reason_en": "Concrete infrastructure performance number change.",
+              "score": 2.9
+            },
+            {
+              "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+              "title": "Vercel 在构建安装依赖前后拦截恶意 npm 包",
+              "summary": "Vercel 在构建的依赖安装前及过程中检查被封锁的 npm 包，依据针对恶意软件或漏洞的特定版本黑名单，阻止恶意安装脚本运行。",
+              "title_en": "Vercel blocks malicious npm packages before and during installation",
+              "summary_en": "Vercel now checks for blocked npm packages before and during dependency installation in builds, using a blocklist of specific versions flagged for malware or vulnerabilities to stop malicious install scripts.",
+              "topic_evidence": "checks for blocked npm packages before and during dependency installation in builds",
+              "reason": "具体供应链安全拦截措施。",
+              "reason_en": "Concrete supply-chain security measure.",
+              "score": 2.9
+            },
+            {
+              "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+              "title": "Parameter Labs 披露针对 ChatGPT HTML 预览沙箱的账户接管漏洞",
+              "summary": "Parameter Labs 描述其针对 ChatGPT 的 artifacts（现称 HTML 预览）实现的利用：交互式自定义 HTML 应用在沙箱 iframe 中显示，需严格隔离。",
+              "title_en": "Parameter Labs details an account takeover exploit against ChatGPT's HTML preview sandbox",
+              "summary_en": "Parameter Labs describes an exploit against ChatGPT's implementation of the artifacts pattern, now called HTML previews, where interactive custom HTML apps run in a sandboxed iframe that must stay tightly isolated.",
+              "topic_evidence": "Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern",
+              "reason": "涉及沙箱 iframe 隔离的具体安全漏洞。",
+              "reason_en": "Concrete security vulnerability in sandboxed iframe isolation.",
+              "score": 5.1
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+              "title": "Vercel MCP 支持 Client ID Metadata Documents，客户端接入无需预先审核",
+              "summary": "任何 MCP 客户端现在可申请连接 Vercel MCP，仍须登录并逐次批准，但不再需要 Vercel 手工审核并将其重定向 URI 加入白名单。",
+              "title_en": "Vercel MCP now supports Client ID Metadata Documents",
+              "summary_en": "Any MCP client can now request a connection to Vercel MCP; users still log in and approve each connection, but Vercel no longer manually reviews and allowlists each client and its redirect URIs.",
+              "topic_evidence": "Any MCP client can now ask to connect to Vercel MCP.",
+              "reason": "涉及 MCP 客户端接入与认证机制的具体变化。",
+              "reason_en": "Specific change to MCP client onboarding and authentication.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+              "title": "哈勃与韦布望远镜发现海王星外27个古老天体",
+              "summary": "两架望远镜观测海王星外27个微小遥远天体，发现它们数十亿年几乎未变，其异常大小和数量挑战太阳系形成理论。",
+              "title_en": "Hubble and Webb Discover 27 Ancient Objects Beyond Neptune",
+              "summary_en": "NASA's Hubble and James Webb telescopes studied 27 tiny distant objects beyond Neptune, finding they stayed largely unchanged for billions of years; their unexpected sizes and numbers challenge solar system formation theories.",
+              "topic_evidence": "27 tiny, distant objects beyond Neptune",
+              "reason": "具体报告27个海王星外天体的观测结果及其对太阳系形成理论的挑战，属于空间科学新发现。",
+              "reason_en": "Reports a specific observation of 27 distant objects beyond Neptune and how their sizes and numbers challenge solar system formation theories.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm",
+              "title": "毅力号火星车行驶28.10英里创纪录",
+              "summary": "NASA毅力号在火星累计行驶28.10英里，超过任何地外车辆，依靠自主导航和驾驶能力推进机器人探索。",
+              "title_en": "NASA’s Perseverance Rover Sets 28.10-Mile Driving Record on Mars",
+              "summary_en": "NASA’s Perseverance rover has driven 28.10 miles on Mars, farther than any vehicle on another world, using autonomous navigation and advanced driving capabilities to expand robotic exploration.",
+              "topic_evidence": "traveling 28.10 miles across Mars",
+              "reason": "给出火星车行驶里程的明确纪录，并涉及自主导航技术，符合航天与机器人小版。",
+              "reason_en": "Provides a concrete Mars driving-distance record and highlights autonomous navigation technology, fitting the space and robotics subsection.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+              "title": "IceCube探测到能量达太阳中微子百亿倍的“幽灵粒子”",
+              "summary": "南极冰下IceCube天文台探测到来自遥远宇宙的高能中微子，能量约为太阳中微子的100亿倍，或有助于研究宇宙极端事件。",
+              "title_en": "IceCube Detects Ghost Particles with 10 Billion Times the Energy of Solar Neutrinos",
+              "summary_en": "The IceCube observatory buried in Antarctic ice has detected high-energy neutrinos from distant cosmic sources, with energies about 10 billion times that of solar neutrinos, offering clues to extreme cosmic events.",
+              "topic_evidence": "10 billion times the energy of solar neutrinos",
+              "reason": "报道IceCube对高能宇宙中微子的具体探测及能量量级，属于天体物理观测进展。",
+              "reason_en": "Covers a specific IceCube detection of high-energy cosmic neutrinos and its energy scale, an astrophysics observation advance.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+              "title": "科学家称一种被遗忘的粒子或能解释宇宙物质为何存在",
+              "summary": "研究人员提出，一种被忽视数十年的中微子可能在大爆炸后重塑早期宇宙，解释物质为何留存，并可能留下可探测的引力波信号。",
+              "title_en": "Scientists Say a Forgotten Particle May Explain Why the Universe Exists",
+              "summary_en": "Scientists suggest a long-overlooked neutrino may have reshaped the early universe after the Big Bang, explaining why matter survived and possibly leaving detectable gravitational-wave signals.",
+              "topic_evidence": "a forgotten particle may explain why the universe exists",
+              "reason": "提出一种被忽视粒子影响早期宇宙物质留存的具体假说，并涉及可探测引力波信号。",
+              "reason_en": "Presents a specific hypothesis about a long-overlooked particle shaping early-universe matter survival and potentially detectable gravitational waves.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+              "title": "新发现阿尔茨海默病药物可修复DNA损伤并减轻脑部炎症",
+              "summary": "一种原用于脊髓损伤的实验药物被发现可改善阿尔茨海默病的DNA损伤和炎症等特征，且已在人体做过初步安全性测试。",
+              "title_en": "New Alzheimer’s Drug Repairs DNA Damage and Reduces Brain Inflammation",
+              "summary_en": "A drug originally developed for spinal cord injuries was found to address DNA damage and inflammation linked to Alzheimer’s disease; it has already undergone initial human safety testing.",
+              "topic_evidence": "repairs DNA damage and reduces brain inflammation",
+              "reason": "报道具体药物在阿尔茨海默病多个病理特征上的发现，并说明已有初步人体安全性测试。",
+              "reason_en": "Reports a specific drug’s effects on multiple Alzheimer’s pathology features and notes initial human safety testing.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
+              "title": "大型强子对撞机在较小碰撞中发现大爆炸物质证据",
+              "summary": "CERN科学家发现，相对较小的原子碰撞也能产生夸克-胶子等离子体，这种物质温度超过太阳中心10万倍，为早期宇宙研究提供新证据。",
+              "title_en": "Large Hadron Collider Finds Evidence of Big Bang Matter in Smaller Collisions",
+              "summary_en": "CERN scientists found that relatively small atomic collisions can recreate quark-gluon plasma, a state hotter than the Sun’s center by over 100,000 times, offering new evidence about the early universe.",
+              "topic_evidence": "even relatively small atomic collisions can recreate",
+              "reason": "给出大型强子对撞机在较小碰撞中产生夸克-胶子等离子体的具体实验证据。",
+              "reason_en": "Provides specific LHC evidence that relatively small collisions can recreate quark-gluon plasma.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
+              "title": "科学家逆转大鼠肝细胞衰老并使阿尔茨海默相关蛋白减半",
+              "summary": "USC研究显示，一种实验药物恢复衰老大鼠肝细胞，使一种阿尔茨海默相关蛋白水平减半，并把坏胆固醇降至年轻水平。",
+              "title_en": "Scientists Reverse Liver Cell Aging in Rats and Halve Alzheimer’s-Linked Protein",
+              "summary_en": "USC researchers found an experimental drug restored aging liver cells in rats, halved an Alzheimer’s-linked protein and lowered bad cholesterol to youthful levels, suggesting liver rejuvenation may protect against disease.",
+              "topic_evidence": "cutting levels of an Alzheimer’s-linked protein in half",
+              "reason": "报道实验药物在衰老大鼠肝细胞、阿尔茨海默相关蛋白和胆固醇上的具体结果。",
+              "reason_en": "Reports concrete results of an experimental drug on aging liver cells, an Alzheimer’s-linked protein and cholesterol in rats.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+              "title": "研究将常见农药与帕金森病风险增加2.5倍以上相关联",
+              "summary": "UCLA研究发现，长期接触一种常见农药与帕金森病风险增至2.5倍以上相关；科学家还揭示了其损伤脑细胞的机制并找到保护思路。",
+              "title_en": "Study Links Common Pesticide to More Than 2.5 Times the Risk of Parkinson’s Disease",
+              "summary_en": "A UCLA study linked long-term exposure to a common pesticide with more than 2.5 times the risk of Parkinson’s disease, and researchers identified how the chemical damages brain cells and a possible protective approach.",
+              "topic_evidence": "2.5 times the risk of Parkinson’s disease",
+              "reason": "提供农药暴露与帕金森病风险的具体关联数值，并涉及脑细胞损伤机制。",
+              "reason_en": "Provides a specific risk association between pesticide exposure and Parkinson’s disease and addresses brain-cell damage mechanisms.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers",
+              "title": "Readwise 推出 Books 应用，挑战亚马逊 Kindle 与 Goodreads",
+              "summary": "Readwise 推出 Books 应用，整合电子书商店、阅读追踪、详细阅读统计和 AI 功能，试图挑战亚马逊 Kindle 与 Goodreads 的阅读生态。",
+              "title_en": "Readwise takes on Amazon’s Kindle and Goodreads with its new app for book lovers",
+              "summary_en": "Readwise launched Readwise Books, combining an e-book store, reading tracker, detailed stats and AI features to challenge Amazon’s Kindle and Goodreads ecosystem.",
+              "topic_evidence": "combines an e-book store, reading tracker, detailed reading stats, and AI features",
+              "reason": "新产品发布，整合阅读商店、追踪与 AI 功能，直接挑战亚马逊阅读生态。",
+              "reason_en": "New product launch combining e-book store, tracking and AI to challenge Amazon’s reading ecosystem.",
+              "score": 2.8
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like",
+              "title": "创业公司 Everbloom 推出 25 年来首种新纤维 renoa，体验称手感熟悉",
+              "summary": "创业公司 Everbloom 推出 25 年来首种新纤维材料 renoa；TechCrunch 体验后称其手感熟悉。",
+              "title_en": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
+              "summary_en": "Startup Everbloom introduced renoa, described as the first new fiber in 25 years; TechCrunch found the material’s feel familiar.",
+              "topic_evidence": "the first new fiber in 25 years",
+              "reason": "创业公司推出新材料产品，有明确产品创新点，适合新产品版块。",
+              "reason_en": "Startup launches a new material product with a clear innovation claim, fitting the new-products section.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.producthunt.com/products/friday-work",
+              "title": "Friday Work 发布：Claude 达到限制后任务仍可继续",
+              "summary": "Friday Work 在 Product Hunt 上线，宣称当 Claude 达到使用限制时，用户任务仍能继续执行，面向依赖 AI 助手的持续工作流。",
+              "title_en": "Friday Work",
+              "summary_en": "Friday Work launched on Product Hunt, claiming tasks can keep running when Claude hits its usage limit, targeting workflows that depend on AI assistants.",
+              "topic_evidence": "When Claude hits its limit, your task keeps going",
+              "reason": "具体说明 AI 使用限制下的任务续跑能力，属产品功能创新。",
+              "reason_en": "Describes a specific product capability for continuing tasks when AI usage limits are hit.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/agent-inbox",
+              "title": "Agent Inbox 上线：为 AI 代理提供邮箱、Slack 和 Telegram 入口",
+              "summary": "Agent Inbox 在 Product Hunt 发布，可为 AI 代理分配电子邮件地址以及 Slack 和 Telegram 账号，让代理通过常用通信渠道接收和处理消息。",
+              "title_en": "Agent Inbox",
+              "summary_en": "Agent Inbox launched on Product Hunt, giving AI agents an email address plus Slack and Telegram handles so they can receive and act on messages via common channels.",
+              "topic_evidence": "Give your agent an email address, Slack and Telegram handle",
+              "reason": "为 AI 代理提供通信入口，产品功能具体，符合代理工具趋势。",
+              "reason_en": "Provides concrete communication infrastructure for AI agents, fitting the agent tooling trend.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+              "title": "美国在中期选举前对伊朗发动打击",
+              "summary": "美国官员称对格什姆岛的袭击有限且属防御性质，BBC美国合作方CBS报道。行动发生在中期选举前夕，地区紧张加剧。",
+              "title_en": "US strikes Iran ahead of midterm elections",
+              "summary_en": "US officials described attacks on Qeshm Island as limited and defensive, CBS reported, as strikes occurred ahead of the US midterm elections.",
+              "topic_evidence": "US officials described the attacks on Qeshm Island as limited and defensive",
+              "reason": "直接涉及美国对伊朗军事行动及选举时点，属地缘安全重大事件。",
+              "reason_en": "Directly covers US military strikes on Iran and election timing, a major geopolitical security event.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+              "title": "卡塔尔牵头与伊朗会谈 海湾地区紧张",
+              "summary": "卡塔尔过去72小时展开密集调解，试图阻止美国在中期选举后可能对伊朗发动新一轮打击；整个海湾地区处于不安之中。",
+              "title_en": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+              "summary_en": "Qatar has led intense mediation over 72 hours to prevent possible new US attacks on Iran after Tuesday's midterms, leaving the Gulf region on edge.",
+              "topic_evidence": "Qatar has been leading intense mediation efforts over the past 72 hours",
+              "reason": "反映美伊冲突升级风险与海湾国家外交斡旋，属地缘安全动态。",
+              "reason_en": "Shows escalation risk between US and Iran and Gulf diplomacy, a geopolitical security development.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+              "title": "乌克兰称俄军轰炸援助中心致26人死亡",
+              "summary": "乌方称至少九枚3000公斤航空炸弹击中南部村庄，造成26人死亡；总统称袭击“极其可怕”。",
+              "title_en": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+              "summary_en": "Ukrainian officials say at least nine 3,000kg aerial bombs hit a southern village, killing 26 people at an aid centre; the president called the attack horrific.",
+              "topic_evidence": "at least nine 3,000kg aerial bombs hit a southern Ukrainian village",
+              "reason": "报道俄乌战争中的大规模平民伤亡袭击，属地缘安全核心事件。",
+              "reason_en": "Reports mass civilian casualties in Russia-Ukraine war, a core geopolitical security event.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+              "title": "乌克兰战争最长停火结束后 赫尔松地区战火重燃",
+              "summary": "为期六天的停火虽属前所未有，但未能改变战争总体走向；赫尔松地区战斗恢复，战事继续消耗。",
+              "title_en": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+              "summary_en": "Though unprecedented, the six-day truce did little to alter the wider trajectory of the war, as fighting resumed in the Kherson region and the conflict grinds on.",
+              "topic_evidence": "the six-day truce has done little to alter the wider trajectory",
+              "reason": "关注乌克兰停火破裂与战事走向，属地缘安全动态。",
+              "reason_en": "Focuses on ceasefire collapse and war trajectory in Ukraine, a geopolitical security development.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+              "title": "美中贸易战似已降温 但平静表象具有误导性",
+              "summary": "贸易休战缓和了冲突，但两国均未采取措施限制新的敌对行动爆发；关税威胁仍可能随政治言论再度出现。",
+              "title_en": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+              "summary_en": "A truce has cooled the trade conflict, but neither country has acted to prevent new hostilities; tariff threats could resurface as political rhetoric shifts.",
+              "topic_evidence": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities",
+              "reason": "分析美中贸易休战的脆弱性，涉及大国地缘经济博弈。",
+              "reason_en": "Analyzes fragility of US-China trade truce, involving major-power geoeconomic competition.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+              "title": "澳大利亚社媒禁令面临高等法院法律挑战",
+              "summary": "一个人权组织将在高等法院主张，这项领先政策剥夺16岁以下未成年人自由交流的权利。",
+              "title_en": "Legal challenge to Australia's social media ban to start in High Court",
+              "summary_en": "A rights group will argue in the High Court that Australia's world-leading policy robs under-16s of their right to free communication.",
+              "topic_evidence": "A rights group will argue the world-leading policy robs under-16s of their right to free communication",
+              "reason": "涉及政府社媒监管政策与司法审查，属政府与政策议题。",
+              "reason_en": "Involves government social media regulation and judicial review, a government-policy issue.",
+              "score": 5.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+              "title": "最高法院驳回特朗普阻止加州清点争议选票的请求",
+              "summary": "裁决在中期选举前夕作出，实质上结束了特朗普政府试图取消该州选票资格的请求。",
+              "title_en": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+              "summary_en": "The ruling, issued on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify ballots in California.",
+              "topic_evidence": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots",
+              "reason": "涉及美国选举争议与最高法院裁决，属政府与政策重要动态。",
+              "reason_en": "Covers US election dispute and Supreme Court ruling, a key government-policy development.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/3/us-midterms-present-a-test-for-republican-redistricting-in-texas-and-beyond?traffic_source=rss",
+              "title": "美国中期选举检验共和党在得州等地的重划选区",
+              "summary": "党派性重划选区改变了休斯敦黑人选民的选举格局，民主党正寻找新的获胜路径。",
+              "title_en": "US midterms present a test for Republican redistricting in Texas and beyond",
+              "summary_en": "Partisan redistricting has transformed elections for Black voters in Houston, as Democrats seek new pathways to victory in the midterms.",
+              "topic_evidence": "Partisan redistricting has transformed elections for Black voters in Houston",
+              "reason": "聚焦美国中期选举中的选区重划争议，属政府与选举政策议题。",
+              "reason_en": "Focuses on redistricting disputes in US midterms, a government and election policy issue.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+              "title": "英国曾强烈反对将奴隶制赔偿列入英联邦峰会议程",
+              "summary": "英方官员据称坚持赔偿讨论不应列入安提瓜和巴布达英联邦峰会日程，甚至警告安迪·伯纳姆不会参会；首相后同意结构化对话。",
+              "title_en": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+              "summary_en": "British officials reportedly insisted reparations for slavery stay off the Commonwealth summit agenda in Antigua and Barbuda, even warning Andy Burnham would not attend; the PM later agreed to structured dialogue.",
+              "topic_evidence": "British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda",
+              "reason": "涉及英联邦外交与赔偿政策争议，属政府与政策议题。",
+              "reason_en": "Involves Commonwealth diplomacy and reparations policy dispute, a government-policy issue.",
+              "score": 2.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss",
+              "title": "巴勒斯坦周报：以色列选举僵局与西岸围困、加沙杀戮交织",
+              "summary": "以色列选举结果未明之际，巴勒斯坦人面临西岸封锁和加沙杀戮；周报梳理当地政治与安全局势。",
+              "title_en": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
+              "summary_en": "As Israel grapples with an inconclusive election, Palestinians face West Bank closures and Gaza killings, according to Al Jazeera's weekly roundup.",
+              "topic_evidence": "As Israel grapples with an inconclusive election, Palestinians face West Bank closures and Gaza killings.",
+              "reason": "关联以色列选举僵局与巴勒斯坦地区政策安全局势，属政府与政策。",
+              "reason_en": "Links Israeli election deadlock with Palestinian policy and security conditions, a government-policy issue.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/iea-issues-warning-on-gas-market-tightness-extending-into-2027",
+              "title": "国际能源署警告天然气市场紧张或延续至2027年",
+              "summary": "IEA称全球天然气市场紧张可能延续至明年，欧洲或将以创纪录低库存结束冬季并需补库。",
+              "title_en": "IEA Issues Warning on Gas Market Tightness Extending Into 2027",
+              "summary_en": "The International Energy Agency warns global gas market tightness could extend into next year as Europe risks ending winter with record-low inventories and needing to refill them.",
+              "topic_evidence": "Tightness in the world’s natural gas market could extend well into next year",
+              "reason": "涉及全球能源供应与欧洲库存风险，属全球社会经济议题。",
+              "reason_en": "Covers global energy supply and European inventory risks, a global society and economic issue.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/3/going-hungry-garment-workers-in-bangladesh-say-wages-barely-cover-needs?traffic_source=rss",
+              "title": "孟加拉国制衣工人称工资难以糊口",
+              "summary": "全球第二大服装出口国数万名工人上街，要求提高最低工资；工人称现有工资几乎无法覆盖基本需求。",
+              "title_en": "‘Going hungry’: Garment workers in Bangladesh say wages barely cover needs",
+              "summary_en": "Tens of thousands of workers in the world's second-largest apparel exporter took to the streets to demand better minimum wages, saying current pay barely covers basic needs.",
+              "topic_evidence": "Tens of thousands of workers in world's second-largest apparel exporter hit the streets to demand better minimum wages",
+              "reason": "反映全球供应链劳工权益与工资抗议，属全球社会议题。",
+              "reason_en": "Reflects labor rights and wage protests in global supply chains, a global society issue.",
+              "score": 3.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725282.shtml",
+              "title": "“十五五”时期我国将实施“蛟龙探海”三期等重大工程",
+              "summary": "国家发展改革委11月3日发布会介绍培育海洋经济新动能，明确“十五五”时期将实施“蛟龙探海”三期等重大工程，并完善海洋产业支持政策。",
+              "title_en": "China to Implement Major Projects Including Phase III of 'Jiaolong Sea Exploration' During 15th Five-Year Plan",
+              "summary_en": "The National Development and Reform Commission said on Nov 3 that China will launch major marine projects including Phase III of the Jiaolong sea exploration program during the 15th Five-Year Plan period.",
+              "topic_evidence": "“十五五”时期我国将实施“蛟龙探海”三期等重大工程",
+              "reason": "国家发改委发布会公布海洋产业重大工程安排，属于宏观政策与产业支持。",
+              "reason_en": "The NDRC press conference announced major marine projects, reflecting macro policy support for the marine economy.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725267.shtml",
+              "title": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+              "summary": "国家知识产权局日前印发《专利和商标审查“十五五”规划》，明确“十五五”时期专利和商标审查工作的主要目标、重点任务和专项工程。",
+              "title_en": "China's IP Administration Issues 15th Five-Year Plan for Patent and Trademark Examination",
+              "summary_en": "The National Intellectual Property Administration issued a five-year plan for patent and trademark examination, setting main goals, key tasks and special projects for the 15th Five-Year Plan period.",
+              "topic_evidence": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+              "reason": "规划明确审查工作目标与任务，属知识产权监管政策。",
+              "reason_en": "The plan sets examination goals and tasks, making it a notable intellectual property regulatory policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725266.shtml",
+              "title": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+              "summary": "国务院总理李强11月3日上午在浙江乌镇出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲。",
+              "title_en": "Premier Li Qiang Attends Opening of 2026 World Internet Conference Wuzhen Summit and Delivers Keynote Speech",
+              "summary_en": "Premier Li Qiang attended the opening ceremony of the 2026 World Internet Conference Wuzhen Summit in Zhejiang on Nov 3 and delivered a keynote speech, Xinhua reported.",
+              "topic_evidence": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+              "reason": "国务院总理出席互联网大会并演讲，属高层时政与互联网治理信号。",
+              "reason_en": "The premier's attendance and speech at the internet conference signal high-level attention to internet governance.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725295.shtml",
+              "title": "广西要求平台企业“双十一”前集中复核在播主体资质",
+              "summary": "广西市场监管局11月2日召开“双十一”行政指导会，要求平台企业在促销前集中复核在播主体资质，清退证照失效、地址不符等空壳店铺。",
+              "title_en": "Guangxi Requires Platforms to Recheck Live-Streaming Merchant Qualifications Before 'Double 11'",
+              "summary_en": "Guangxi's market regulator asked platform companies to recheck live-streaming merchant qualifications before the 'Double 11' shopping festival and remove shell shops with invalid licenses or mismatched addresses.",
+              "topic_evidence": "“双十一”前集中复核在播主体资质",
+              "reason": "地方市场监管部门在促销前提出具体平台合规要求，属监管政策。",
+              "reason_en": "A local market regulator issued specific platform compliance requirements ahead of the shopping festival.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725208.shtml",
+              "title": "力箭二号首次执行卫星互联网大规模组网任务",
+              "summary": "中科宇航11月3日称，力箭二号遥二火箭在东风商业航天创新试验区升空，将千帆极轨21组18颗卫星送入预定轨道，首次执行卫星互联网大规模组网任务。",
+              "title_en": "Lijian-2 Rocket Conducts First Large-Scale Satellite Internet Constellation Launch",
+              "summary_en": "Chinese private rocket firm CAS Space said the Lijian-2 Y2 rocket launched 18 satellites for the Qianfan polar-orbit group into planned orbits on Nov 3, its first large-scale satellite internet constellation mission.",
+              "topic_evidence": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+              "reason": "商业航天企业完成卫星互联网组网发射，属产业进展。",
+              "reason_en": "A private Chinese rocket firm completed a satellite internet constellation launch, marking an industry advance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725314.shtml",
+              "title": "联合国第十五届能源可持续发展国际论坛在西安开幕",
+              "summary": "联合国第十五届能源可持续发展国际论坛11月3日在西安国际会议中心开幕，这是该论坛首次在中国举办。",
+              "title_en": "15th UN International Forum on Energy for Sustainable Development Opens in Xi'an",
+              "summary_en": "The 15th United Nations International Forum on Energy for Sustainable Development opened in Xi'an on Nov 3, marking the first time the forum has been held in China.",
+              "topic_evidence": "联合国第十五届能源可持续发展国际论坛在西安开幕",
+              "reason": "国际能源论坛首次在华举办，涉及地方承办与能源产业交流。",
+              "reason_en": "The UN energy forum is being held in China for the first time, involving local hosting and energy industry exchange.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725297.shtml",
+              "title": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+              "summary": "广西农业农村厅11月3日介绍，当地推进基层监管能力提升、禁用农药清缴回收、“四不两直”暗访和经营资质清理等措施，规范农药经营市场秩序。",
+              "title_en": "Guangxi Tightens Pesticide Regulation to Protect Agricultural Product Safety",
+              "summary_en": "Guangxi's agriculture department said it has rolled out measures including grassroots monitoring, banned pesticide collection, unannounced inspections and license reviews to tighten pesticide market oversight.",
+              "topic_evidence": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+              "reason": "地方农业监管部门开展农药经营整治，属地方产业治理。",
+              "reason_en": "Local agricultural authorities are tightening pesticide market oversight, reflecting local industry governance.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725262.shtml",
+              "title": "中央气象台：11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+              "summary": "中国气象局11月3日发布会称，11月北方大部气温偏高、冬麦区降水偏多，利于冬小麦播种出苗；南方部分地区的降水偏多可能造成土壤过湿和湿渍害。",
+              "title_en": "Weather Center: November Conditions Favor Winter Wheat Sowing in North China, South Needs Waterlogging Precautions",
+              "summary_en": "China's meteorological authorities said November warmth and moisture in the north will help winter wheat sowing, while heavy rain in parts of the south may cause waterlogging and slow autumn planting.",
+              "topic_evidence": "预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+              "reason": "气象部门发布农业气象建议，涉及地方农业生产安排。",
+              "reason_en": "Meteorological authorities issued agricultural weather advice concerning local farming schedules.",
+              "score": 4.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725218.shtml",
+              "title": "贵州省贵阳市政府原副市长高杨被“双开”",
+              "summary": "贵州省纪委监委11月3日通报，经贵州省委批准，对贵阳市政府原党组成员、副市长高杨严重违纪违法问题立案审查调查，并给予“双开”处分。",
+              "title_en": "Former Guiyang Vice Mayor Gao Yang Expelled from Party and Public Office",
+              "summary_en": "Guizhou's discipline watchdog said former Guiyang vice mayor Gao Yang has been expelled from the Communist Party and public office amid an investigation into serious disciplinary and legal violations.",
+              "topic_evidence": "贵州省贵阳市政府原党组成员、副市长高杨被“双开”",
+              "reason": "纪检监察机关通报地方官员严重违纪违法处理结果，属法治与反腐。",
+              "reason_en": "Disciplinary authorities announced the punishment of a local official for serious violations, a rule-of-law and anti-corruption development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725199.shtml",
+              "title": "广西农业科学院原院长邓国富被开除党籍",
+              "summary": "广西壮族自治区纪委监委11月3日通报，经自治区党委批准，对广西农业科学院原党组书记、院长邓国富严重违纪违法问题立案审查调查，并开除其党籍。",
+              "title_en": "Former Guangxi Academy of Agricultural Sciences Head Deng Guofu Expelled from Party",
+              "summary_en": "Guangxi's discipline commission said Deng Guofu, former party secretary and president of the Guangxi Academy of Agricultural Sciences, has been expelled from the Communist Party over serious violations.",
+              "topic_evidence": "广西农业科学院原党组书记、院长邓国富被开除党籍",
+              "reason": "地方科研机构原负责人被开除党籍，属纪检法治动态。",
+              "reason_en": "A former head of a local research institute was expelled from the party, a notable discipline and legal case.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725265.shtml",
+              "title": "河南安阳通报“异地高考”咨询：取缔无照经营行为",
+              "summary": "安阳市市场监管局11月3日通报，已对涉事人员侯某下达责令整改通知书，取缔其违法开展“异地高考”咨询的无照经营行为，并将联合有关部门开展排查整治。",
+              "title_en": "Anyang Cracks Down on Unlicensed 'Out-of-Province Gaokao' Consulting",
+              "summary_en": "Anyang's market regulator said it ordered a person surnamed Hou to rectify and shut down unlicensed consulting on out-of-province gaokao registration, and will launch citywide checks with other departments.",
+              "topic_evidence": "对违法开展咨询的无照经营行为予以取缔",
+              "reason": "地方部门查处违规高考咨询，涉及教育秩序与市场监管法治。",
+              "reason_en": "Local authorities cracked down on unlicensed gaokao consulting, touching on education order and market regulation.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725299.shtml",
+              "title": "最强厄尔尼诺将明显影响我国 预计今冬冷暖起伏大",
+              "summary": "中国气象局11月3日发布会称，2026年9月赤道中东太平洋形成超强厄尔尼诺事件，10月发展为有监测记录以来最强，预计秋末冬初达峰并明显影响我国今冬明春气候。",
+              "title_en": "Strongest El Niño on Record Expected to Affect China, Bringing Sharp Winter Temperature Swings",
+              "summary_en": "China's Meteorological Administration said an exceptionally strong El Niño, the strongest in records since monitoring began, will peak in late autumn or early winter and notably affect China's weather through next spring.",
+              "topic_evidence": "10月已发展为有监测记录以来最强的厄尔尼诺事件",
+              "reason": "气象部门发布超强厄尔尼诺影响研判，涉及社会公众防灾与气候适应。",
+              "reason_en": "Meteorological authorities assessed the impact of a record-strong El Niño, relevant to public disaster preparedness and climate adaptation.",
+              "score": 4.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+              "title": "美股科技股抛售拖累亚洲股市，人民币走弱",
+              "summary": "亚洲股市因美国芯片股抛售加剧而下跌，投资者在美国中期选举前趋于谨慎，市场情绪承压；人民币同时走弱。",
+              "title_en": "Asian Stocks Drop on US Tech Jitters, Yuan Weakens: Markets Wrap",
+              "summary_en": "Asian equities fell as a deeper selloff in US chipmakers made investors cautious before the US midterm elections, while the yuan weakened.",
+              "topic_evidence": "Asian stocks fell as a selloff in US chipmakers deepened",
+              "reason": "直接反映亚洲股市、美国芯片股抛售和人民币走势，属于市场与资产。",
+              "reason_en": "Directly covers Asian equities, the US chipmaker selloff and the yuan, fitting markets and assets.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-to-boost-use-of-stock-support-tools-to-stabilize-market",
+              "title": "中国股市重启抛售，救市工具遭遇质疑",
+              "summary": "中国试图重启2024年下跌时使用的工具以遏制股市抛售，但投资者仍存疑虑，股市继续走低。",
+              "title_en": "Chinese Stock Selloff Resumes as Rescue Tools Face Skepticism",
+              "summary_en": "China revived tools used during the 2024 downturn to stem a stock rout, but skepticism persisted as equities resumed their selloff.",
+              "topic_evidence": "China’s efforts to stem a market rout by reviving tools from the 2024 downturn were met with skepticism",
+              "reason": "报道中国股市抛售及救市工具效果，属于市场与资产。",
+              "reason_en": "Covers the renewed Chinese equity selloff and doubts over market-support tools.",
+              "score": 6.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+              "title": "纳指100跌入年内第三次回调，AI担忧升温",
+              "summary": "10月科技股抛售延续，纳斯达克100指数进入今年第三次回调，市场关注是否将演变为熊市。",
+              "title_en": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+              "summary_en": "The October technology selloff extended, pushing the Nasdaq-100 into its third correction this year as investors asked whether a bear market might follow.",
+              "topic_evidence": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+              "reason": "直接描述纳斯达克100指数回调及AI担忧，属于市场与资产。",
+              "reason_en": "Directly describes the Nasdaq-100 correction and mounting AI concerns.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
+              "title": "华尔街关注多年来最大规模美债发行调整",
+              "summary": "在财政部长贝森特干预债市压低收益率后，华尔街正准备迎接自2024年初以来最大的美国国债发行指引调整。",
+              "title_en": "Wall Street Eyes Biggest Treasury Sales Overhaul in Years",
+              "summary_en": "After Treasury Secretary Scott Bessent intervened in the bond market to lower yields, Wall Street is bracing for the biggest change to US Treasury issuance guidance since early 2024.",
+              "topic_evidence": "biggest revamp in guidance for US Treasuries issuance since early 2024",
+              "reason": "涉及美国国债发行指引和债券市场，属于市场与资产。",
+              "reason_en": "Concerns US Treasury issuance guidance and the bond market.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
+              "title": "Marvell与Lumentum股东齐声反对合并交易：称“报价糟糕”",
+              "summary": "Marvell宣布以全股票方式收购Lumentum后，两家公司股价周一双双下跌，股东对交易报价表达不满。",
+              "title_en": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+              "summary_en": "Shares of Marvell and Lumentum both fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum, with shareholders criticizing the offer.",
+              "topic_evidence": "Marvell said it reached an all-stock agreement to buy Lumentum",
+              "reason": "具体收购交易及股东反应，符合市场与资产中的并购主题。",
+              "reason_en": "A concrete acquisition and shareholder reaction, fitting the M&A theme in markets and assets.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/markets-and-economists-are-divided-beyond-a-boe-hike-this-week",
+              "title": "英国央行本周加息几成定局，后续路径分歧明显",
+              "summary": "英国通胀迈向4%且伊朗战争未见结束，市场普遍预计英国央行周四加息，但经济学家与投资者对后续加息幅度看法分歧。",
+              "title_en": "Markets and Economists Are Divided Beyond a BOE Hike This Week",
+              "summary_en": "With UK inflation heading toward 4% and the Iran war unresolved, a Bank of England hike Thursday is seen as near-certain, but economists and investors diverge on how much more will follow.",
+              "topic_evidence": "a Bank of England interest-rate hike on Thursday is seen as all but a done deal",
+              "reason": "直接涉及英国央行利率决策与通胀，属于宏观与政策。",
+              "reason_en": "Directly covers the Bank of England rate decision and inflation outlook.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy",
+              "title": "巴基斯坦经济反弹掩盖更深层问题",
+              "summary": "巴基斯坦股市飙升、外汇储备创纪录且信用评级改善，但报道指出经济复苏表面之下仍存在更深层隐忧。",
+              "title_en": "Pakistan’s Rebound Masks Deeper Problems Weighing on Economy",
+              "summary_en": "Pakistan’s soaring stock market, record foreign reserves and improving credit ratings suggest recovery, but the report says deeper economic problems remain beneath the surface.",
+              "topic_evidence": "Beneath the surface, the recovery remains far less convincing.",
+              "reason": "分析巴基斯坦经济复苏与结构性问题，属于宏观与政策。",
+              "reason_en": "Analyzes Pakistan’s economic rebound and underlying structural problems.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/el-nino-could-raise-us-inflation-boost-jobs-in-2027-fed-study",
+              "title": "旧金山联储研究：厄尔尼诺或推高美国通胀并提振2027年就业",
+              "summary": "旧金山联储新经济信函称，今年太平洋海水异常偏暖的厄尔尼诺现象可能推高美国物价，并在明年提振就业。",
+              "title_en": "El Niño Could Raise US Inflation, Boost Jobs in 2027: Fed Study",
+              "summary_en": "A new Federal Reserve Bank of San Francisco economic letter says this year’s El Niño could push US prices higher and boost employment next year.",
+              "topic_evidence": "could push US prices higher and boost employment next year",
+              "reason": "美联储研究涉及通胀与就业，属于宏观与政策。",
+              "reason_en": "A Fed study on inflation and employment fits macro and policy.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-02/south-korea-inflation-holds-firm-bolstering-case-for-more-hikes",
+              "title": "韩国通胀保持坚挺，强化进一步加息理由",
+              "summary": "韩国10月通胀仍处高位，强化了市场对韩国央行在11月政策会议上再次加息的预期，政策压力上升。",
+              "title_en": "Korea Inflation Holds Firm, Bolstering Case for More Hikes",
+              "summary_en": "South Korea’s inflation remained elevated in October, strengthening the case for another rate increase at the central bank’s November policy meeting.",
+              "topic_evidence": "South Korea’s inflation remained elevated in October",
+              "reason": "涉及韩国通胀与央行加息预期，属于宏观与政策。",
+              "reason_en": "Covers Korean inflation and the case for another central-bank hike.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/graphics/2026-inflation-price-index",
+              "title": "美国通胀：海量数据点显示部分价格压力缓解",
+              "summary": "彭博价格项目提供对通胀的独立解读：整体通胀率仍高，但细分数据表明部分价格压力正在减弱。",
+              "title_en": "US Inflation: Millions of Data Points Show Some Price Pressures Easing",
+              "summary_en": "The Bloomberg Price Project offers an independent inflation read: the headline remains high, but detailed data show some price pressures easing.",
+              "topic_evidence": "the details reveal some price pressures easing",
+              "reason": "具体分析美国通胀分项与价格压力，属于宏观与政策。",
+              "reason_en": "Provides an inflation analysis showing some price pressures easing.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+              "title": "AI时代的无我数学",
+              "summary": "Terry Tao博客文章题为《AI时代的无我数学》，探讨AI时代数学研究中的无我精神；该文在Hacker News获144分、98条评论。",
+              "title_en": "Egoless Mathematics in the AI Era",
+              "summary_en": "Terry Tao’s blog post, “Egoless Mathematics in the AI Era,” discusses ego-free practice in mathematical research; it drew 144 points and 98 comments on Hacker News.",
+              "topic_evidence": "Egoless Mathematics in the AI Era",
+              "reason": "Terry Tao的博客文章直接讨论AI时代数学研究的观念变化，属于技术观点；HN讨论数据可核验。",
+              "reason_en": "Terry Tao’s blog post directly addresses changing norms in mathematical research in the AI era, making it a technology opinion piece; the HN discussion metrics are verifiable.",
+              "score": 2.9
+            },
+            {
+              "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+              "title": "Ubuntu近三周仍未发布Linux 0day RCE补丁",
+              "summary": "文章指出Ubuntu在近三周内仍未发布针对Linux 0day远程代码执行漏洞的补丁；该帖在Hacker News获430分、126条评论。",
+              "title_en": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+              "summary_en": "An article says Ubuntu has still not released a patch for a Linux zero-day remote code execution vulnerability after almost three weeks; the Hacker News post drew 430 points and 126 comments.",
+              "topic_evidence": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+              "reason": "该文围绕Ubuntu对关键Linux 0day RCE漏洞的补丁延迟展开批评，符合技术观点；讨论数据可核验。",
+              "reason_en": "The article criticizes Ubuntu’s patch delay for a critical Linux zero-day RCE vulnerability, fitting the technology opinion subsection; the discussion metrics are verifiable.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": [
+            {
+              "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+              "title": "SEC应阻止Anthropic IPO以保护公众",
+              "summary": "TechPolicy.Press评论文章主张美国SEC应阻止Anthropic的IPO以保护公众；该文在Hacker News获294分、227条评论，引发对AI公司上市监管的讨论。",
+              "title_en": "The SEC Should Block Anthropic's IPO to Protect the Public",
+              "summary_en": "A TechPolicy.Press commentary argues that the U.S. SEC should block Anthropic’s IPO to protect the public; the Hacker News post drew 294 points and 227 comments.",
+              "topic_evidence": "The SEC Should Block Anthropic's IPO to Protect the Public",
+              "reason": "该文是明确的监管评论，主张SEC阻止Anthropic IPO，属于商业与社会评论；HN讨论活跃。",
+              "reason_en": "This is an explicit regulatory commentary arguing that the SEC should block Anthropic’s IPO, fitting business and society opinion; the HN discussion is active.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://hackertimes.ca/",
+              "title": "Show HN：Hacker Times，仿《纽约时报》的Hacker News界面",
+              "summary": "Show HN项目Hacker Times把Hacker News呈现为《纽约时报》风格报纸，网站每小时更新；该帖在Hacker News获171分、53条评论。",
+              "title_en": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+              "summary_en": "Show HN project Hacker Times presents Hacker News as a New York Times-style newspaper and updates once an hour; the post drew 171 points and 53 comments.",
+              "topic_evidence": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+              "reason": "这是Hacker News社区内的Show HN项目，提供已知的票数和评论数，适合社区讨论栏目。",
+              "reason_en": "This is a Show HN project within the Hacker News community, with known point and comment counts, making it suitable for the community discussion subsection.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+      "original_title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "original_summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "topic_evidence": "Anthropic warns that it’s very close to RSI capability",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "anthropic"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.40917",
+      "original_title": "Towards Portable Specification of the Agent Harness",
+      "original_summary": "arXiv:2610.40917v1 Announce Type: new Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness into eight functional components that can be specified and compared across systems, and we propose a portable specification framework that records which model ran in which harness. The record is needed because different harness configurations can yield several-fold differences in reported scores for the same model, and because much of an agent's attack surface lies in its harness. Existing model cards and agent cards provide release and operational information, but do not establish the sequence of effective configurations within a run. Harnesses can change between releases and between runs, and, where agents edit their own tools and configuration, within a run. Enacted AI laws contain documentation duties relevant to covered systems, subject to their respective scopes and application dates, but do not prescribe the common harness record proposed here. Therefore, the harness has to be explicitly described and specified as a versioned part of the system.",
+      "topic_evidence": "decompose the harness into eight functional components",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2610.40927",
+      "original_title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "original_summary": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interference. Existing generative world models avoid direct execution, but typically compress environment state into a single prompt, limiting their ability to reliably simulate transitions under partial observability. Instead, we introduce Agentic World Modeling (AWM), which reformulates next-observation prediction as a multi-turn evidence-acquisition task. For each hypothetical action, an agentic simulator adaptively queries the real environment through safe read-only interfaces, reasons over the returned evidence, and uses executable computation to construct the resulting observation without mutating shared state. Integrated with trajectory-level TTS, AWM enables parallel exploration over a single shared environment. Across $\\tau$-bench, AppWorld, and OfficeBench, AWM outperforms a single-shot simulation baseline by 40.07% on average, and surpasses a trained world-model baseline by 12.36% on average. These results establish interactive, read-grounded simulation as a practical foundation for safe and scalable agentic test-time scaling in shared, non-resettable environments.",
+      "topic_evidence": "Test-time scaling (TTS) improves large language model agents",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+      "original_title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "original_summary": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "topic_evidence": "world model that can ‘predict human behavior’",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "original_title": "Qodo builds context into AI code review with Codex",
+      "original_summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "topic_evidence": "Qodo brings company knowledge and coding standards into Codex",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "original_title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "original_summary": "The one-year-old startup is now valued at $300 million.",
+      "topic_evidence": "make AI model training accessible to nontechnical experts",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "original_title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "original_summary": "arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically plausible. However, several models exhibit highly asymmetric authorisation behaviour, combining low false-safe execution with poor recall of clarifiable ASK cases and a strong preference for BLOCK. This motivates safety sufficiency: whether a predictive interface preserves and exposes the policy-decisive information required to distinguish actions that may be EXECUTED, require clarification through ASK, or should be BLOCKED. We introduce SafeWebWorld, a benchmark for evaluating safety sufficiency across five web-safety domains through action-conditioned futures, policy-decisive evidence, and policy-conditioned decisions. Under a controlled Security-Aligned Supervised Fine-Tuning protocol, evidence preservation can improve substantially while authorisation-sensitive decisions deteriorate. To determine whether this deterioration reflects loss of authorisation-sensitive score structure or a failure of the decision readout, we introduce Latent Authorisation Recovery (LAR). Frozen-score recalibration reveals substantial but backbone-dependent recovery, while paired recovery provides only a modest additional gain. Yet within-family and matched-authorisation evaluations remain poor, showing that aggregate recoverability does not imply robust fine-grained authorisation behaviour. Overall, plausible prediction, evidence preservation, and aggregate recovery are each insufficient on their own to establish robust authorisation.",
+      "topic_evidence": "86.1% are judged semantically plausible",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "benchmark",
+        "safety",
+        "policy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "original_title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "original_summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. We contribute a taxonomy of seven surveillance risk categories based on prior LLM risk research and reports of deployed surveillance systems, instantiated as 110 prompts, along with a manually reviewed analysis of ChatGPT's responses. Prompts were issued using two approaches: 55 jailbreak prompts drawing on five types of elicitation strategies, and 55 plain-language direct prompts, each run alone, and if unsuccessful, again with a short fixed prefix. We find that ChatGPT provides substantive surveillance guidance for 40 of the 55 jailbreak prompts and for 33 of the 55 direct prompts without any prefix. Compliant responses also rarely included policy mentions or suggestions for privacy-preserving alternatives. We manually review every response and find that even when ChatGPT states a refusal, it may still supply detailed instructions, working code, or architectural guidance alongside brief ethical caveats.",
+      "topic_evidence": "AI-Assisted Surveillance Risks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "research",
+        "policy",
+        "privacy"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://openai.com/index/lifeval",
+      "original_title": "LifeVal",
+      "original_summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "topic_evidence": "a benchmark measuring how well AI helps people complete everyday tasks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40946",
+      "original_title": "Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?",
+      "original_summary": "arXiv:2610.40946v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning allows large language models (LLMs) to generate intermediate reasoning traces in natural language while solving complex tasks. These traces can support safety monitoring by exposing potentially harmful plans before actions are executed. In this work, we investigate the conditions under which LLMs infer the presence of CoT monitoring from direct and indirect environmental cues and examine how this inference affects their subsequent behavior. Our observations suggest that oversight is an interactive process: while a monitor inspects a model's reasoning, traces left by monitoring interventions can allow the model to infer that its thoughts are being observed and to adapt its behavior accordingly. We show that even subtle environmental cues, such as timing-related signals from timeouts and operation durations, can reveal the presence of monitoring and trigger models to adapt their behavior. Across repeated episodes and interaction loops, we further observe that models can form statistical estimates of the monitor's effectiveness and use these estimates to guide attempts to evade detection. These findings highlight the need to evaluate CoT-based oversight under adaptive conditions, where the monitoring process itself may influence the behavior it seeks to observe.",
+      "topic_evidence": "LLMs Detect Chain-of-Thought Monitoring",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "original_title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "original_summary": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-12% of the unseen members from the count, fewer than the 20% reached by simply keeping the raw practice history. A fixed lesson that states the named-grouping convention lifts the same methods by 14.5 to 16.5 points. Their states hold the revealed member in 75-98% of cases and almost never the class name, and when practice exposes a member the list misses, they add that member to the list. With the stronger GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone. They reach 78% accuracy and solve 59-60% of the single cells, against 53% and 8% with the certifying model, and they surpass the raw history. CLR-Bench therefore measures how well an agent learns, and this ability differs across models.",
+      "topic_evidence": "Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "benchmark"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "original_title": "If in doubt, delete the uv.lock file",
+      "original_summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv , til , python",
+      "topic_evidence": "If in doubt, delete the uv.lock file",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "python",
+        "library"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "original_title": "Evaluate Vercel Flags from another project without sharing SDK keys.",
+      "original_summary": "Project Connections let applications evaluate flags defined in another Vercel project within the same team, without managing SDK keys.Previously, sharing flags between projects required copying a server SDK key into an environment variable and managing it manually. Connected projects authenticate using their deployment’s identity. For local development, vercel env pull retrieves your project’s OIDC token.Manage access from the Connections page under your project's Flags section, or with vercel flags connections in the CLI. Connections grant read-only access across all environments. The consumer deployment determines the flag environment (production deployments evaluate production flags). In the consumer application, create an adapter with the source project’s ID.Access can be revoked without redeploying. Project Connections are available on all plans and require @flags-sdk/vercel 1.6.0 or later, or @vercel/flags-core 1.11.0 or later when using the core library directly. Managing connections from the CLI requires Vercel CLI 63.0.0 or later.Learn more in the Vercel Flags documentation Read more",
+      "topic_evidence": "evaluate flags defined in another Vercel project within the same team, without managing SDK keys",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "library"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "original_title": "llm 0.37",
+      "original_summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2 , which can embed text, audio, images, and video. A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes! This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix. So thanks to 0d00ciallo0721 , ac1982 , Allen Flux , Bian Yuhan , Bishop Kammeraad , Chen Yufeiyang , Christopher Krah , Ethan Stoner , Jiachen Xie , Olamide Faniyan , Sharat Chandra Sai Boddu , nosmile99 for helping out with (or spending tokens on) this release! Tags: open-source , projects , ai , annotated-release-notes , generative-ai , llms , embeddings , llm",
+      "topic_evidence": "There's a lot of stuff in this new release of my LLM CLI tool and Python library",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "open source",
+        "cli",
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "original_title": "Vercel MCP now renders deployments as an interactive card",
+      "original_summary": "Vercel MCP can now show your deployments as an interactive card inside ChatGPT and other chat clients that support MCP Apps.The card shows live deployment status, build logs, and source and commit details, with a Visit button once the deployment URL is ready. You can send logs into the chat to debug with the model, or open the fullscreen view to read them beneath the card. For repositories linked to multiple projects, a project list lets you switch between them.The card is Vercel MCP's first MCP App, built on the MCP Apps extension. Clients without app support receive the deployment state, preview URL, and commit as text instead. The open_deployments tool looks up deployments by project, repository, or commit, with environment filtering. ChatGPT connects to Vercel MCP through its Connectors setup. Read more",
+      "topic_evidence": "Vercel MCP can now show your deployments as an interactive card inside ChatGPT",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "tool"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "original_title": "Game Off 2026: The theme is SHIFT",
+      "original_summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+      "topic_evidence": "GitHub's annual month-long game jam is back for its 14th year!",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "original_title": "Flags Explorer redesigned for easier override sharing",
+      "original_summary": "Flags Explorer is a tool in the Vercel Toolbar where you can see which feature flags are active on your end, and share them with your team, either by setting them for the branch or through a URL.The Explorer surface has been redesigned to co-locate overrides, branch recommendations, and any related actions.Whenever a branch has overrides set, they will be recommended to teammates visiting the deployment through a dialog.Flags Explorer is available on all plans. Read the documentation to get started. Read more",
+      "topic_evidence": "The Explorer surface has been redesigned to co-locate overrides, branch recommendations, and any related actions.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "actions",
+        "tool"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "original_title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
+      "original_summary": "Vercel Sandboxes that mount Drives now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.The speedup applies automatically to every sandbox that uses Drives, with no SDK upgrade or configuration changes needed. Pricing stays the same.Learn more in the Vercel Drives documentation. Read more",
+      "topic_evidence": "Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/blocking-malicious-npm-packages-before-and-during-installation",
+      "original_title": "Blocking malicious npm packages before and during installation",
+      "original_summary": "Vercel now checks for blocked npm packages before and during dependency installation in builds, helping prevent malicious install scripts from running.The checks use a blocklist of specific package versions selected for blocking because of malware or security vulnerabilities, with new rules typically reaching new builds within minutes.Before installation, Vercel checks supported lockfiles, including when dependencies are restored from the build cache.During installation, Vercel blocks affected public npm downloads.Existing checks of installed dependencies and function outputs continue before deployment.These protections apply automatically to new builds on all plans, with no configuration required.If a blocked dependency is detected, Vercel fails the deployment, identifies the package and version in the error, and attempts to invalidate the affected build cache. Update the dependency to a safe version and update the lockfile, then redeploy. Read more",
+      "topic_evidence": "checks for blocked npm packages before and during dependency installation in builds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "original_title": "How We Took Over ChatGPT Accounts",
+      "original_summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes , javascript , sandboxing , security , xss , openai , chatgpt , content-security-policy",
+      "topic_evidence": "Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "original_title": "Vercel MCP now supports Client ID Metadata Documents",
+      "original_summary": "Any MCP client can now ask to connect to Vercel MCP. You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel reviewed and allowlisted each client and its redirect URIs by hand, and anything not on the list was rejected.To connect, a client publishes a Client ID Metadata Document (CIMD), a JSON file on its own domain that describes it, and uses that file's HTTPS URL as its OAuth client_id. This follows the MCP authorization spec, which now recommends CIMD over Dynamic Client Registration.Because Vercel hasn't reviewed these clients, the consent screen shows where each one comes from: its name, its logo, and the hostname that serves its metadata document, for example \"Claude Code by claude.ai\". CIMD clients don't get the Vercel verified badge, so the hostname is what you're trusting when you approve.Apps already registered with Vercel are unchanged.Read the Vercel MCP documentation to connect your client. Read more",
+      "topic_evidence": "Any MCP client can now ask to connect to Vercel MCP.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+      "original_title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+      "original_summary": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune. Scientists discovered that these ancient building blocks of planets have remained remarkably unchanged for billions of years, while their unexpected sizes and numbers challenge existing theories of planet formation.",
+      "topic_evidence": "27 tiny, distant objects beyond Neptune",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm",
+      "original_title": "NASA’s Perseverance Mars rover breaks historic record after traveling 28 miles",
+      "original_summary": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world. Armed with groundbreaking autonomous navigation technology and increasingly advanced driving capabilities, the rover is pushing the boundaries of robotic exploration.",
+      "topic_evidence": "traveling 28.10 miles across Mars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+      "original_title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+      "original_summary": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources using a massive observatory buried in Antarctic ice. These elusive “ghost particles” could hold extraordinary clues about the Big Bang, extreme cosmic events, and some of the universe’s greatest mysteries.",
+      "topic_evidence": "10 billion times the energy of solar neutrinos",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "energy"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+      "original_title": "Scientists say a forgotten particle may explain why the universe exists",
+      "original_summary": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and may have left detectable gravitational wave signals that could help unlock the cosmos’s deepest mysteries.",
+      "topic_evidence": "a forgotten particle may explain why the universe exists",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "star",
+        "stars"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+      "original_title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
+      "original_summary": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in humans, the experimental treatment could offer a faster path toward therapies that target the disease at its roots.",
+      "topic_evidence": "repairs DNA damage and reduces brain inflammation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
+      "original_title": "Large Hadron Collider reveals evidence of Big Bang matter in surprisingly small collisions",
+      "original_summary": "Scientists at CERN's Large Hadron Collider have uncovered compelling new evidence that even relatively small atomic collisions can recreate the extraordinary state of matter that filled the universe moments after the Big Bang. Known as quark-gluon plasma, this exotic substance forms at temperatures more than 100,000 times hotter than the center of the Sun, causing ordinary particles to break apart into their fundamental building blocks.",
+      "topic_evidence": "even relatively small atomic collisions can recreate",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
+      "original_title": "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half",
+      "original_summary": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting levels of an Alzheimer’s-linked protein in half and bringing bad cholesterol down to youthful levels. The treatment also revived a previously unknown communication system that helps liver cells remove harmful substances from the bloodstream.",
+      "topic_evidence": "cutting levels of an Alzheimer’s-linked protein in half",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+      "original_title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+      "original_summary": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical damages brain cells and identified a promising way to protect them.",
+      "topic_evidence": "2.5 times the risk of Parkinson’s disease",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists",
+        "study"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers",
+      "original_title": "Readwise takes on Amazon’s Kindle and Goodreads with its new app for book lovers",
+      "original_summary": "Readwise Books combines an e-book store, reading tracker, detailed reading stats, and AI features in a bid to challenge Amazon's ecosystem.",
+      "topic_evidence": "combines an e-book store, reading tracker, detailed reading stats, and AI features",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "app"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like",
+      "original_title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
+      "original_summary": "Startup Everbloom's new material, renoa, is the first new fiber in 25 years, and it feels very familiar.",
+      "topic_evidence": "the first new fiber in 25 years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/friday-work",
+      "original_title": "Friday Work",
+      "original_summary": "When Claude hits its limit, your task keeps going Discussion | Link",
+      "topic_evidence": "When Claude hits its limit, your task keeps going",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/agent-inbox",
+      "original_title": "Agent Inbox",
+      "original_summary": "Give your agent an email address, Slack and Telegram handle Discussion | Link",
+      "topic_evidence": "Give your agent an email address, Slack and Telegram handle",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "original_title": "US strikes Iran ahead of midterm elections",
+      "original_summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+      "topic_evidence": "US officials described the attacks on Qeshm Island as limited and defensive",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+      "original_title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+      "original_summary": "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the entire Gulf region on edge.",
+      "topic_evidence": "Qatar has been leading intense mediation efforts over the past 72 hours",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "original_summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "topic_evidence": "at least nine 3,000kg aerial bombs hit a southern Ukrainian village",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "original_summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+      "topic_evidence": "the six-day truce has done little to alter the wider trajectory",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ceasefire",
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "original_title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+      "original_summary": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities Donald Trump ’s trade wars have largely fallen off the headlines. Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates. But the sense that the world’s two largest economies are plowing ahead into an overt economic conflagration has taken a back seat to other, more salient fears, about Trump ending American democracy, AI killing us all and stuff like that. The sense of calm is misleading. Under the radar, the world is marching toward an economic war of potentially epic proportions, one that, history suggests, could well spill over into the real thing. Continue reading...",
+      "topic_evidence": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Legal challenge to Australia's social media ban to start in High Court",
+      "original_summary": "A rights group will argue the world-leading policy robs under-16s of their right to free communication.",
+      "topic_evidence": "A rights group will argue the world-leading policy robs under-16s of their right to free communication",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "policy"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "original_title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "original_summary": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
+      "topic_evidence": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election",
+        "administration"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/3/us-midterms-present-a-test-for-republican-redistricting-in-texas-and-beyond?traffic_source=rss",
+      "original_title": "US midterms present a test for Republican redistricting in Texas and beyond",
+      "original_summary": "Partisan redistricting has transformed elections for Black voters in Houston as Democrats seek new pathways to victory.",
+      "topic_evidence": "Partisan redistricting has transformed elections for Black voters in Houston",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+      "original_title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+      "original_summary": "British prime minister has now agreed to structured dialogue on reparatory justice but issue remains off formal Chogm agenda British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda of the Commonwealth leaders’ summit in Antigua and Barbuda – and even warned that Andy Burnham would not attend the meeting if the subject was formally included, according to a leading Caribbean political figure. Ralph Gonsalves, a former prime minister of St Vincent and the Grenadines and a senior figure in the reparatory justice movement Repair Campaign, welcomed Britain’s decision to enter structured dialogue on reparations, but said the UK had come “kicking and screaming” to the conversation. Continue reading...",
+      "topic_evidence": "British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "prime minister"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss",
+      "original_title": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
+      "original_summary": "As Israel grapples with an inconclusive election, Palestinians face West Bank closures and Gaza killings.",
+      "topic_evidence": "As Israel grapples with an inconclusive election, Palestinians face West Bank closures and Gaza killings.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/iea-issues-warning-on-gas-market-tightness-extending-into-2027",
+      "original_title": "IEA Issues Warning on Gas Market Tightness Extending Into 2027",
+      "original_summary": "Tightness in the world’s natural gas market could extend well into next year as Europe risks ending this winter with record-low fuel inventories and will need to replenish them, according to the International Energy Agency.",
+      "topic_evidence": "Tightness in the world’s natural gas market could extend well into next year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "world",
+        "international"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/news/2026/11/3/going-hungry-garment-workers-in-bangladesh-say-wages-barely-cover-needs?traffic_source=rss",
+      "original_title": "‘Going hungry’: Garment workers in Bangladesh say wages barely cover needs",
+      "original_summary": "Tens of thousands of workers in world's second-largest apparel exporter hit the streets to demand better minimum wages.",
+      "topic_evidence": "Tens of thousands of workers in world's second-largest apparel exporter hit the streets to demand better minimum wages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "world"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725282.shtml",
+      "original_title": "“十五五”时期我国将实施“蛟龙探海”三期等重大工程",
+      "original_summary": "中新网11月3日电 11月3日，国家发展改革委就培育壮大新动能有关情况举行新闻发布会。会上，有记者提问，“十五五”时期，我国将如何完善支持海洋产业发展的政策举措，培育海洋经济发展的新动能？",
+      "topic_evidence": "“十五五”时期我国将实施“蛟龙探海”三期等重大工程",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725267.shtml",
+      "original_title": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+      "original_summary": "中新网11月3日电 据国家知识产权局网站消息，国家知识产权局日前印发《专利和商标审查“十五五”规划》(以下简称《规划》)，明确了“十五五”时期开展专利和商标审查工作的主要目标、重点任务和专项工程。",
+      "topic_evidence": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725266.shtml",
+      "original_title": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+      "original_summary": "新华社杭州11月3日电(记者伍岳、商意盈)11月3日上午，国务院总理李强在浙江乌镇出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲。",
+      "topic_evidence": "李强出席2026年世界互联网大会乌镇峰会开幕式并发表主旨演讲",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725295.shtml",
+      "original_title": "广西要求平台企业“双十一”前集中复核在播主体资质",
+      "original_summary": "中新网南宁11月3日电(林浩 覃幸)11月2日，广西壮族自治区市场监督管理局在南宁召开2026年“双十一”网络集中促销活动行政指导会，要求各平台企业聚焦质量安全，“双十一”前集中复核在播主体资质，持续清退证照失效、地址不符、一照多店的空壳店铺，确保违禁商品无法上架、无法检索；严把入网审查第一道关口，从源头铲除“幽灵外卖”滋生土壤，推动线上线下同标同管。",
+      "topic_evidence": "“双十一”前集中复核在播主体资质",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725208.shtml",
+      "original_title": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+      "original_summary": "中新社北京11月3日电 (记者 马帅莎)据中国民营火箭公司中科宇航消息，11月3日8时15分，力箭二号遥二运载火箭在东风商业航天创新试验区点火升空，将搭载的千帆极轨21组共18颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。这是力箭二号运载火箭首次执行卫星互联网大规模组网任务。",
+      "topic_evidence": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725314.shtml",
+      "original_title": "联合国第十五届能源可持续发展国际论坛在西安开幕",
+      "original_summary": "今天(3日)上午，联合国第十五届能源可持续发展国际论坛在西安国际会议中心开幕，这是该论坛首次在中国举办。",
+      "topic_evidence": "联合国第十五届能源可持续发展国际论坛在西安开幕",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "能源"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725297.shtml",
+      "original_title": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+      "original_summary": "中新网南宁11月3日电(杨陈 李浦东)记者3日从广西壮族自治区农业农村厅获悉，近期广西统筹推进基层监管能力提升、禁用农药清缴回收、“四不两直”暗访、问题点位“回头看”、经营资质清理等系列举措，多点发力、闭环管控，持续压实农药经营主体责任，规范当地农药经营市场秩序。",
+      "topic_evidence": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725262.shtml",
+      "original_title": "中央气象台：预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+      "original_summary": "中新网11月3日电 11月3日，中国气象局今日召开的新闻发布会，国家气象中心副主任黄卓表示，预计11月北方大部气温偏高，冬麦区大部降水偏多，利于冬小麦播种出苗和冬前生长；东北地区大部气温正常或略偏低，降水接近常年，对粮食收晒和储运有利。南方大部气温偏高，降水偏多，其中江淮南部、江汉东南部、江南北部等地降水偏多5至8成，不利秋收扫尾，部分地区可能土壤过湿，易导致冬小麦播种、油菜播栽缓慢；华南南部气温偏高、降水偏少，利于晚稻收获晾晒；西南地区西部气温偏高，降水偏少，农业干旱风险较高，对冬小麦播种出苗和油菜播栽不利。建议北方农区抓住晴好天气加快秋粮收晒、适时播种冬小麦，已播地区做好田间管理，培育壮苗；南方降水偏多地区抓住降水间隙及时收获已成熟作物和开展秋种，同时注意清沟理墒、防范农田湿渍害。",
+      "topic_evidence": "预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725218.shtml",
+      "original_title": "贵州省贵阳市政府原党组成员、副市长高杨被“双开”",
+      "original_summary": "中新网11月3日电 据贵州省纪委监委消息，经贵州省委批准，贵州省纪委监委对贵州省贵阳市政府原党组成员、副市长高杨严重违纪违法问题进行了立案审查调查。",
+      "topic_evidence": "贵州省贵阳市政府原党组成员、副市长高杨被“双开”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725199.shtml",
+      "original_title": "广西农业科学院原党组书记、院长邓国富被开除党籍",
+      "original_summary": "中新网11月3日电 据广西壮族自治区纪委监委消息：经广西壮族自治区党委批准，广西壮族自治区纪委监委对广西农业科学院原党组书记、院长邓国富严重违纪违法问题进行了立案审查调查。",
+      "topic_evidence": "广西农业科学院原党组书记、院长邓国富被开除党籍",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725265.shtml",
+      "original_title": "河南安阳通报“异地高考”咨询：对违法开展咨询的无照经营行为予以取缔",
+      "original_summary": "中新网11月3日电 11月3日，河南省安阳市市场监督管理局在其微信公众号发布情况通报称，近日，媒体关注有人在该市开展“异地高考”咨询。该局高度重视，迅速依法开展调查，目前已对涉事人员侯某依法下达责令整改通知书，对其违法开展咨询的无照经营行为予以取缔。下一步，该局将联合有关部门在全市开展排查整治，依法严查此类问题。",
+      "topic_evidence": "对违法开展咨询的无照经营行为予以取缔",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725299.shtml",
+      "original_title": "最强厄尔尼诺将明显影响我国！中国气象局：预计今冬冷暖起伏大",
+      "original_summary": "中新网北京11月3日电(记者 邵萌)3日，记者从中国气象局新闻发布会上获悉，2026年9月，赤道中东太平洋形成一次超强厄尔尼诺事件，10月已发展为有监测记录以来最强的厄尔尼诺事件，预计秋末冬初达到峰值，将对我国今冬明春气候产生明显的影响。",
+      "topic_evidence": "10月已发展为有监测记录以来最强的厄尔尼诺事件",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Asian Stocks Drop on US Tech Jitters, Yuan Weakens: Markets Wrap",
+      "original_summary": "Asian stocks fell as a selloff in US chipmakers deepened and investors grew wary ahead of the US midterm elections. The yuan weakened.",
+      "topic_evidence": "Asian stocks fell as a selloff in US chipmakers deepened",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-to-boost-use-of-stock-support-tools-to-stabilize-market",
+      "original_title": "Chinese Stock Selloff Resumes as Rescue Tools Face Skepticism",
+      "original_summary": "China’s efforts to stem a market rout by reviving tools from the 2024 downturn were met with skepticism as stocks resumed their selloff.",
+      "topic_evidence": "China’s efforts to stem a market rout by reviving tools from the 2024 downturn were met with skepticism",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+      "original_title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+      "original_summary": "The “tech wreck” from October continues. Is a bear market next?",
+      "topic_evidence": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
+      "original_title": "Wall Street Eyes Biggest Treasury Sales Overhaul in Years",
+      "original_summary": "After Treasury Secretary Scott Bessent surprised dealers with his willingness to intervene in the bond market to drive down yields in recent months, Wall Street is now girding for the biggest revamp in guidance for US Treasuries issuance since early 2024.",
+      "topic_evidence": "biggest revamp in guidance for US Treasuries issuance since early 2024",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
+      "original_title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+      "original_summary": "Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.",
+      "topic_evidence": "Marvell said it reached an all-stock agreement to buy Lumentum",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/markets-and-economists-are-divided-beyond-a-boe-hike-this-week",
+      "original_title": "Markets and Economists Are Divided Beyond a BOE Hike This Week",
+      "original_summary": "With UK inflation heading toward 4% and no end to the Iran war in sight, a Bank of England interest-rate hike on Thursday is seen as all but a done deal. How many more Governor Andrew Bailey and his colleagues deliver is where economists and investors sharply diverge.",
+      "topic_evidence": "a Bank of England interest-rate hike on Thursday is seen as all but a done deal",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy",
+      "original_title": "Pakistan’s Rebound Masks Deeper Problems Weighing on Economy",
+      "original_summary": "Pakistan’s soaring stock market, record foreign reserves and improving credit ratings are signaling an economy on the mend. Beneath the surface, the recovery remains far less convincing.",
+      "topic_evidence": "Beneath the surface, the recovery remains far less convincing.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/el-nino-could-raise-us-inflation-boost-jobs-in-2027-fed-study",
+      "original_title": "El Niño Could Raise US Inflation, Boost Jobs in 2027: Fed Study",
+      "original_summary": "A powerful warming of Pacific waters this year — a cyclical phenomenon known as El Niño — could push US prices higher and boost employment next year, according to a new economic letter from the Federal Reserve Bank of San Francisco.",
+      "topic_evidence": "could push US prices higher and boost employment next year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation",
+        "fed",
+        "federal reserve"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-02/south-korea-inflation-holds-firm-bolstering-case-for-more-hikes",
+      "original_title": "Korea Inflation Holds Firm, Bolstering Case for More Hikes",
+      "original_summary": "South Korea’s inflation remained elevated in October, strengthening the case for another rate increase at the central bank’s November policy meeting.",
+      "topic_evidence": "South Korea’s inflation remained elevated in October",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/graphics/2026-inflation-price-index",
+      "original_title": "US Inflation: Millions of Data Points Show Some Price Pressures Easing",
+      "original_summary": "The Bloomberg Price Project offers an independent read on inflation: The headline is high, but the details reveal some price pressures easing.",
+      "topic_evidence": "the details reveal some price pressures easing",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "original_title": "Egoless Mathematics in the AI Era",
+      "original_summary": "Article URL: https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50341736 Points: 144 # Comments: 98",
+      "topic_evidence": "Egoless Mathematics in the AI Era",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "original_title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "original_summary": "Article URL: https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432 Comments URL: https://news.ycombinator.com/item?id=50341462 Points: 430 # Comments: 126",
+      "topic_evidence": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "linux"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "business-society",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "original_title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "original_summary": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 294 # Comments: 227",
+      "topic_evidence": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://hackertimes.ca/",
+      "original_title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "original_summary": "I thought it would be fun to browse HN as if it were a newspaper. The site updates once an hour. Enjoy! Comments URL: https://news.ycombinator.com/item?id=50346981 Points: 171 # Comments: 53",
+      "topic_evidence": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://openai.com/index/qodo-codex-plugin",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "original_title": "Qodo builds context into AI code review with Codex",
+      "original_summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "topic_evidence": "Qodo brings company knowledge and coding standards into Codex",
+      "approved": true,
+      "evidence": "Qodo brings company knowledge and coding standards into Codex",
+      "reason": "主事件是Qodo将企业知识与编码标准接入Codex，用于AI代码审查，属于具体的AI产品与平台集成。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "original_title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "original_summary": "The one-year-old startup is now valued at $300 million.",
+      "topic_evidence": "make AI model training accessible to nontechnical experts",
+      "approved": false,
+      "evidence": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "reason": "主事件是初创公司融资与估值，摘要未描述具体AI产品或平台功能，不能归入AI产品与平台。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "original_title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
+      "original_summary": "Vercel Sandboxes that mount Drives now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.The speedup applies automatically to every sandbox that uses Drives, with no SDK upgrade or configuration changes needed. Pricing stays the same.Learn more in the Vercel Drives documentation. Read more",
+      "topic_evidence": "Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.",
+      "approved": true,
+      "evidence": "Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.",
+      "reason": "主事件是Vercel Sandbox挂载Drives后的启动性能提升，属于开发基础设施的具体改进。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "original_title": "Vercel MCP now supports Client ID Metadata Documents",
+      "original_summary": "Any MCP client can now ask to connect to Vercel MCP. You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel reviewed and allowlisted each client and its redirect URIs by hand, and anything not on the list was rejected.To connect, a client publishes a Client ID Metadata Document (CIMD), a JSON file on its own domain that describes it, and uses that file's HTTPS URL as its OAuth client_id. This follows the MCP authorization spec, which now recommends CIMD over Dynamic Client Registration.Because Vercel hasn't reviewed these clients, the consent screen shows where each one comes from: its name, its logo, and the hostname that serves its metadata document, for example \"Claude Code by claude.ai\". CIMD clients don't get the Vercel verified badge, so the hostname is what you're trusting when you approve.Apps already registered with Vercel are unchanged.Read the Vercel MCP documentation to connect your client. Read more",
+      "topic_evidence": "Any MCP client can now ask to connect to Vercel MCP.",
+      "approved": true,
+      "evidence": "Any MCP client can now ask to connect to Vercel MCP.",
+      "reason": "主事件是Vercel MCP支持新的客户端元数据文档与连接授权机制，属于开发者平台基础设施能力更新。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like",
+      "original_title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
+      "original_summary": "Startup Everbloom's new material, renoa, is the first new fiber in 25 years, and it feels very familiar.",
+      "topic_evidence": "the first new fiber in 25 years",
+      "approved": true,
+      "evidence": "the first new fiber in 25 years",
+      "reason": "主事件是初创公司Everbloom推出新纤维材料renoa，材料明确描述具体新材料产品，属于新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/friday-work",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/friday-work",
+      "original_title": "Friday Work",
+      "original_summary": "When Claude hits its limit, your task keeps going Discussion | Link",
+      "topic_evidence": "When Claude hits its limit, your task keeps going",
+      "approved": true,
+      "evidence": "When Claude hits its limit, your task keeps going",
+      "reason": "该Product Hunt条目以具体产品名Friday Work和明确用例呈现，属于新产品发布信息。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/agent-inbox",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/agent-inbox",
+      "original_title": "Agent Inbox",
+      "original_summary": "Give your agent an email address, Slack and Telegram handle Discussion | Link",
+      "topic_evidence": "Give your agent an email address, Slack and Telegram handle",
+      "approved": true,
+      "evidence": "Give your agent an email address, Slack and Telegram handle",
+      "reason": "该Product Hunt条目描述Agent Inbox为智能体提供邮箱及Slack、Telegram账号的具体产品能力，属于新产品。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/11-03/10725267.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725267.shtml",
+      "original_title": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+      "original_summary": "中新网11月3日电 据国家知识产权局网站消息，国家知识产权局日前印发《专利和商标审查“十五五”规划》(以下简称《规划》)，明确了“十五五”时期开展专利和商标审查工作的主要目标、重点任务和专项工程。",
+      "topic_evidence": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+      "approved": true,
+      "evidence": "国家知识产权局印发《专利和商标审查“十五五”规划》",
+      "reason": "主事件是国家知识产权局印发专利和商标审查五年规划，属于具体政府政策与制度安排。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/sh/2026/11-03/10725295.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725295.shtml",
+      "original_title": "广西要求平台企业“双十一”前集中复核在播主体资质",
+      "original_summary": "中新网南宁11月3日电(林浩 覃幸)11月2日，广西壮族自治区市场监督管理局在南宁召开2026年“双十一”网络集中促销活动行政指导会，要求各平台企业聚焦质量安全，“双十一”前集中复核在播主体资质，持续清退证照失效、地址不符、一照多店的空壳店铺，确保违禁商品无法上架、无法检索；严把入网审查第一道关口，从源头铲除“幽灵外卖”滋生土壤，推动线上线下同标同管。",
+      "topic_evidence": "“双十一”前集中复核在播主体资质",
+      "approved": true,
+      "evidence": "“双十一”前集中复核在播主体资质",
+      "reason": "主事件是广西市场监管部门在“双十一”前要求平台企业复核直播主体资质并清退空壳店铺，属于具体监管行动。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/11-03/10725208.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-03/10725208.shtml",
+      "original_title": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+      "original_summary": "中新社北京11月3日电 (记者 马帅莎)据中国民营火箭公司中科宇航消息，11月3日8时15分，力箭二号遥二运载火箭在东风商业航天创新试验区点火升空，将搭载的千帆极轨21组共18颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。这是力箭二号运载火箭首次执行卫星互联网大规模组网任务。",
+      "topic_evidence": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+      "approved": true,
+      "evidence": "力箭二号运载火箭首次执行卫星互联网大规模组网任务",
+      "reason": "主事件是力箭二号火箭执行卫星互联网组网发射，属于商业航天产业的具体进展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-03/10725297.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725297.shtml",
+      "original_title": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+      "original_summary": "中新网南宁11月3日电(杨陈 李浦东)记者3日从广西壮族自治区农业农村厅获悉，近期广西统筹推进基层监管能力提升、禁用农药清缴回收、“四不两直”暗访、问题点位“回头看”、经营资质清理等系列举措，多点发力、闭环管控，持续压实农药经营主体责任，规范当地农药经营市场秩序。",
+      "topic_evidence": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+      "approved": false,
+      "evidence": "广西打出农药监管“组合拳” 守好农产品质量安全底线",
+      "reason": "主事件是地方政府农药监管举措，属于政策与监管，不应归入产业与地方。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-03/10725262.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725262.shtml",
+      "original_title": "中央气象台：预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+      "original_summary": "中新网11月3日电 11月3日，中国气象局今日召开的新闻发布会，国家气象中心副主任黄卓表示，预计11月北方大部气温偏高，冬麦区大部降水偏多，利于冬小麦播种出苗和冬前生长；东北地区大部气温正常或略偏低，降水接近常年，对粮食收晒和储运有利。南方大部气温偏高，降水偏多，其中江淮南部、江汉东南部、江南北部等地降水偏多5至8成，不利秋收扫尾，部分地区可能土壤过湿，易导致冬小麦播种、油菜播栽缓慢；华南南部气温偏高、降水偏少，利于晚稻收获晾晒；西南地区西部气温偏高，降水偏少，农业干旱风险较高，对冬小麦播种出苗和油菜播栽不利。建议北方农区抓住晴好天气加快秋粮收晒、适时播种冬小麦，已播地区做好田间管理，培育壮苗；南方降水偏多地区抓住降水间隙及时收获已成熟作物和开展秋种，同时注意清沟理墒、防范农田湿渍害。",
+      "topic_evidence": "预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+      "approved": false,
+      "evidence": "预计11月北方利于冬小麦播种，南方部分地区需防范湿渍害",
+      "reason": "主事件是气象部门对农业生产的天气影响预测和建议，并非具体产业或地方发展事件。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-03/10725299.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-03/10725299.shtml",
+      "original_title": "最强厄尔尼诺将明显影响我国！中国气象局：预计今冬冷暖起伏大",
+      "original_summary": "中新网北京11月3日电(记者 邵萌)3日，记者从中国气象局新闻发布会上获悉，2026年9月，赤道中东太平洋形成一次超强厄尔尼诺事件，10月已发展为有监测记录以来最强的厄尔尼诺事件，预计秋末冬初达到峰值，将对我国今冬明春气候产生明显的影响。",
+      "topic_evidence": "10月已发展为有监测记录以来最强的厄尔尼诺事件",
+      "approved": false,
+      "evidence": "10月已发展为有监测记录以来最强的厄尔尼诺事件",
+      "reason": "主事件是厄尔尼诺事件及今冬气候预测，不涉及社会与法治议题。"
+    },
+    {
+      "id": "opinion/business-society/https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "section": "观点与社论",
+      "subsection": "商业与社会评论",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "original_title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "original_summary": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 294 # Comments: 227",
+      "topic_evidence": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "approved": true,
+      "evidence": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "reason": "主事件是评论文章主张SEC阻止Anthropic的IPO，属于商业与社会评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/index/qodo-codex-plugin"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/11-03/10725208.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/gn/2026/11-03/10725267.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/sh/2026/11-03/10725295.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster"
+    ],
+    [
+      "opinion",
+      "business-society",
+      "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/agent-inbox"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/friday-work"
+    ]
+  ]
+}

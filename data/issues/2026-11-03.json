@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "title": "信息日报 2026-11-03",
+  "title_en": "Information Daily 2026-11-03",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "Anthropic 警告已非常接近 RSI 能力，即自我构建的 AI",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+    "source": "TechCrunch AI",
+    "summary": "TechCrunch 报道，Anthropic 警告其已非常接近 RSI 能力，即自我构建的 AI；报道将 RSI 定义为 AI 训练自身并引发能力急剧加速的节点。",
+    "source_en": "TechCrunch AI",
+    "title_en": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "summary_en": "TechCrunch reports that Anthropic warned it is very close to recursive self-improvement, or self-building AI, a point where AI training itself could sharply accelerate capabilities.",
+    "original_title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "published_at": "2026-11-02T22:14:50+00:00",
+    "reason": "直接涉及前沿 AI 能力与递归自我改进风险，是当日最具信息量的模型能力讨论之一。",
+    "reason_en": "Directly concerns frontier AI capability and recursive self-improvement risk, making it one of the day’s most informative model-capability items.",
+    "score": 4.95
+  },
+  "path": "papers/2026-11-03.html",
+  "raw_path": "raw/2026-11-03.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-products: topic evidence does not match subsection [https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/11-03/10725297.shtml]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/11-03/10725262.shtml]",
+    "Editorial item ignored in china/china-society-law: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/11-03/10725299.shtml]",
+    "Source federal-reserve returned HTTP 404"
+  ]
+}

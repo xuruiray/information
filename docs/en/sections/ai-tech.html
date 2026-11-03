@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-11-02</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-11-03</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261102</span>
+        <span>Issue 20261103</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>November 2, 2026 · Monday</span></div>
+      <div class="dateline"><span>November 3, 2026 · Tuesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -43,39 +43,45 @@
       <span class="ed">10 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI &amp; LLMs: Frontier Models, Products, and Governance">
-      <div class="lead-label">AI &amp; LLMs: Frontier Models, Products, and Governance</div>
-      <p>This edition covers frontier models, AI products and platforms, and research and governance. On frontier models, the papers discuss adaptive personalization for conversational AI under preference uncertainty, AutoHebb self-modifying neural networks combining zero-shot inference and continual learning, and catastrophic forgetting in a physics foundation model during sim-to-real fine-tuning. On products, datasette-llm released version 0.1a9 with automatic use of LLM’s default model, while privacy-focused AI assistant Ollie will shut down in a week. On research and governance, items include CoFiBreak’s diversity reward for multi-turn jailbreaks, pruning redundant attention heads to suppress verbatim memorization, the Qistas fairness evaluation protocol, the BILAL-BENCH benchmark for Islamic-source fabrication in Bengali, and a judge allowing the NAACP lawsuit over xAI data center pollution to proceed.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: RSI Warning, Agent World Models, and Safety Evaluations">
+      <div class="lead-label">AI and Large Models: RSI Warning, Agent World Models, and Safety Evaluations</div>
+      <p>Anthropic warned that it is very close to RSI, or self-building AI, while 42AI emerged from stealth with $62.5 million and a world model it says can predict human behavior. Research proposed a portable specification for the agent harness and agentic world modeling for test-time scaling without environment replicas. On the product side, Qodo brought enterprise knowledge and coding standards into Codex. Governance and evaluation work examined safety sufficiency in web world models, ChatGPT-assisted surveillance risks, LLM detection of chain-of-thought monitoring, and self-evolving agents under a hidden-rule curriculum; OpenAI introduced the LifeVal benchmark for everyday tasks.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>3 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Personalization, Self-Modification, and Sim-to-Real Forgetting">
-          <div class="lead-label">Frontier Models: Personalization, Self-Modification, and Sim-to-Real Forgetting</div>
-          <p>Three papers respectively propose adaptive personalization under preference epistemic uncertainty, introduce AutoHebb self-modifying neural networks for zero-shot inference and continual learning, and examine catastrophic forgetting in a physics foundation model under sim-to-real fine-tuning.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: RSI Warning, Agent Harness Specification, and World Model Funding">
+          <div class="lead-label">Frontier Models: RSI Warning, Agent Harness Specification, and World Model Funding</div>
+          <p>Anthropic warned that it is very close to RSI capability, a point where AI training itself could sharply accelerate capabilities. One paper proposes decomposing the agent harness into eight specifiable, composable functional components for a portable definition, while another proposes agentic world modeling for test-time scaling without environment replicas. 42AI emerged from stealth with $62.5 million and a world model it says can predict human behavior in completely new situations.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.40930" target="_blank" rel="noopener">
-            <span class="at">Adaptive Personalization Under Preference Epistemic Uncertainty</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper proposes an adaptive personalization approach for conversational AI that adjusts response strategies as user preferences remain stable, become uncertain, or are explicitly revised, rather than relying only on passive memory retrieval.</p>
+          <a class="art" href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai" target="_blank" rel="noopener">
+            <span class="at">Anthropic warns that it’s very close to RSI capability, aka self-building AI</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">TechCrunch reports that Anthropic warned it is very close to recursive self-improvement, or self-building AI, a point where AI training itself could sharply accelerate capabilities.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.40757" target="_blank" rel="noopener">
-            <span class="at">AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">The paper introduces AutoHebb, a self-modifying neural network aimed at combining zero-shot inference and continual learning, while noting limits in existing models that simulate these abilities.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40917" target="_blank" rel="noopener">
+            <span class="at">Towards Portable Specification of the Agent Harness</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper argues LLMs act only through surrounding infrastructure and proposes decomposing the agent harness into eight specifiable, composable functional components to create a portable definition.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.40857" target="_blank" rel="noopener">
-            <span class="at">Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">The study examines catastrophic forgetting in scientific foundation models during sim-to-real fine-tuning, noting that while such models adapt to unseen data distributions, additional fine-tuning can degrade prior capabilities.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40927" target="_blank" rel="noopener">
+            <span class="at">Agentic World Modeling for Agent Test-time Scaling without Environment Replica</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper proposes agentic world modeling for test-time scaling without environment replicas, targeting deployments where enterprise workspaces and cloud services cannot be copied for parallel trajectory execution.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior" target="_blank" rel="noopener">
+            <span class="at">42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">TechCrunch reports that 42AI emerged from stealth with $62.5 million and a world model it says can predict human behavior in completely new situations.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -83,24 +89,18 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>2 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: datasette-llm Update and Ollie Shutdown">
-          <div class="lead-label">AI Products and Platforms: datasette-llm Update and Ollie Shutdown</div>
-          <p>datasette-llm released version 0.1a9, which picks up LLM’s default model so Datasette Agent can be used without explicitly configuring a default model; privacy-focused AI assistant Ollie will shut down in a week.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Qodo Builds Enterprise Context into Codex Code Review">
+          <div class="lead-label">AI Products and Platforms: Qodo Builds Enterprise Context into Codex Code Review</div>
+          <p>Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Oct/31/datasette-llm" target="_blank" rel="noopener">
-            <span class="at">datasette-llm 0.1a9</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">The datasette-llm plugin released version 0.1a9, which now picks up LLM’s default model so Datasette Agent can be used without explicitly configuring a default model.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down" target="_blank" rel="noopener">
-            <span class="at">Ollie, a privacy-focused AI assistant, is shutting down</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Ollie, a privacy-focused AI assistant, will shut down in a week, its founder said, as the market becomes increasingly crowded with AI assistants.</p>
+          <a class="art" href="https://openai.com/index/qodo-codex-plugin" target="_blank" rel="noopener">
+            <span class="at">Qodo builds context into AI code review with Codex</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -110,40 +110,40 @@
           <h3>Research &amp; Governance</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Jailbreaks, Memorization Suppression, Fairness Evaluation, and Legal Developments">
-          <div class="lead-label">Research and Governance: Jailbreaks, Memorization Suppression, Fairness Evaluation, and Legal Developments</div>
-          <p>Research items include CoFiBreak’s coarse-to-fine diversity reward, pruning redundant attention heads to suppress verbatim memorization, the pre-registered and portable Qistas fairness evaluation protocol, and BILAL-BENCH for benchmarking Islamic-source fabrication in Bengali. On governance, a judge allowed the NAACP lawsuit over xAI data center pollution to proceed.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: World Model Safety, Surveillance Risk, and Agent Evaluations">
+          <div class="lead-label">Research and Governance: World Model Safety, Surveillance Risk, and Agent Evaluations</div>
+          <p>A matched human evaluation of 3,000 web world model predictions from ten frozen open models found 86.1% semantically plausible, but plausible predictions did not necessarily support correct safety decisions. A case study examined how ChatGPT’s ability to generate detailed guidance, functional code and persuasive text may enable surveillance-related tasks. OpenAI introduced LifeVal, a benchmark measuring how well AI helps with everyday tasks such as childcare, finances and government paperwork. Another paper noted that chain-of-thought can expose harmful plans but monitoring may weaken once models notice it; CLR-Bench tests whether self-evolving agents learn unstated rules under a hidden-rule curriculum.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2610.40926" target="_blank" rel="noopener">
-            <span class="at">CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper introduces CoFiBreak, a coarse-to-fine diversity reward for training attacker LLMs in multi-turn jailbreaks, aiming to reduce prompt-diversity collapse when attack success is the only reward and to improve safety evaluation.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40798" target="_blank" rel="noopener">
+            <span class="at">Beyond Plausible Prediction: Safety Sufficiency in Web World Models</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">A matched human evaluation of 3,000 predictions from ten frozen open models found 86.1% semantically plausible, but plausible predictions did not necessarily support correct safety decisions.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.40974" target="_blank" rel="noopener">
-            <span class="at">Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The study examines pruning redundant attention heads to suppress verbatim memorization in large language models, aiming to reduce privacy leakage and intellectual-property exposure while considering effects on generalization.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40890" target="_blank" rel="noopener">
+            <span class="at">ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The case study examines how ChatGPT’s ability to generate detailed guidance, functional code and persuasive text may enable surveillance-related tasks, raising misuse and privacy concerns.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.40893" target="_blank" rel="noopener">
-            <span class="at">Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper presents Qistas, a pre-registered and portable protocol for evaluating LLM fairness, addressing benchmarks that are largely English-born and American in their social categories and often do not fit other societies after translation.</p>
+          <a class="art" href="https://openai.com/index/lifeval" target="_blank" rel="noopener">
+            <span class="at">LifeVal</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI introduced LifeVal, a benchmark measuring how well AI helps people complete everyday tasks such as finding childcare, managing finances and handling government paperwork.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2610.40996" target="_blank" rel="noopener">
-            <span class="at">Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper introduces BILAL-BENCH to benchmark fabrication of Qur’anic verses and hadith by open language models in Bengali, noting that existing Islamic hallucination benchmarks are largely Arabic and often closed-ended.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40946" target="_blank" rel="noopener">
+            <span class="at">Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper investigates how LLMs behave when they can detect chain-of-thought monitoring, noting that reasoning traces can expose harmful plans but monitoring may weaken once models notice it.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward" target="_blank" rel="noopener">
-            <span class="at">Judge allows NAACP lawsuit over xAI data center pollution to move forward</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">A judge allowed the NAACP lawsuit over xAI’s data center pollution to proceed; the suit accuses the SpaceX-owned AI company of violating the Clean Air Act.</p>
+          <a class="art" href="https://arxiv.org/abs/2610.40758" target="_blank" rel="noopener">
+            <span class="at">More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces CLR-Bench, a hidden-rule curriculum for testing whether self-evolving agents learn unstated rules or merely record each correction as an exception, causing lists to grow.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
