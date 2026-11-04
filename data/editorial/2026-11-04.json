@@ -1,0 +1,2353 @@
+{
+  "date": "2026-11-04",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": []
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+              "title": "Mercor 在 Vercel 上部署内部应用并路由数十亿生产 token",
+              "summary": "Vercel 案例称，Mercor 在十天内通过 AI Gateway 路由 1800 万请求和 630 亿 token，并将批处理任务从 12 小时缩短到 2 小时。",
+              "title_en": "How Mercor ships internal apps and billions of production tokens on one platform",
+              "summary_en": "A Vercel case study says Mercor routed 18 million requests and 63 billion tokens through AI Gateway in 10 days and cut batch jobs from 12 hours to 2 hours.",
+              "topic_evidence": "18M requests and 63B tokens routed through AI Gateway in 10 days",
+              "reason": "展示企业 AI 平台调用规模与工作流优化，属于 AI 平台应用案例。",
+              "reason_en": "Shows enterprise AI platform usage at scale and workflow optimization, making it a relevant AI platform case study.",
+              "score": 5.9
+            },
+            {
+              "url": "https://openai.com/index/cisco-cyber",
+              "title": "思科借助 OpenAI 模型以机器速度防御网络威胁",
+              "summary": "思科将网络情报与 OpenAI 模型结合，用于增强企业安全防护，构建更具适应性的防御体系。",
+              "title_en": "How Cisco defends at machine speed with OpenAI",
+              "summary_en": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+              "topic_evidence": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security",
+              "reason": "企业级 AI 安全应用案例，说明 OpenAI 模型在防御场景的部署。",
+              "reason_en": "An enterprise AI security use case showing OpenAI models deployed in defensive scenarios.",
+              "score": 5.2
+            },
+            {
+              "url": "https://openai.com/index/heimstaden",
+              "title": "Heimstaden 用 ChatGPT Enterprise 与 Codex 改造物业管理",
+              "summary": "欧洲房地产管理公司 Heimstaden 使用 ChatGPT Enterprise 和 Codex 改造物业管理、降低成本并赋能员工。",
+              "title_en": "Heimstaden is changing residential real estate management with AI",
+              "summary_en": "Heimstaden is using OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+              "topic_evidence": "uses OpenAI’s ChatGPT Enterprise and Codex to transform property management",
+              "reason": "具体企业采用生成式 AI 工具改造业务流程的案例。",
+              "reason_en": "A concrete case of an enterprise adopting generative AI tools to transform business processes.",
+              "score": 5.2
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+              "title": "Netflix 推出 AI Discover 标签页，按心情推荐内容",
+              "summary": "Netflix 上线实验性 AI Discover 标签页，首个功能允许用户根据当前心情获得观看推荐，目前为实验性质。",
+              "title_en": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+              "summary_en": "Netflix launched an experimental AI Discover tab; its first feature lets users get viewing recommendations based on their current mood.",
+              "topic_evidence": "get recommendations based on what they're currently in the mood for",
+              "reason": "具体 AI 产品功能上线，属于面向消费者的 AI 推荐平台。",
+              "reason_en": "A specific AI product feature launch in a consumer-facing recommendation platform.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+              "title": "谷歌允许学校禁用其 AI 工具，但需牺牲搜索功能",
+              "summary": "谷歌允许学校限制其 AI 工具，但由于 AI 功能已集成进搜索引擎，选择完全禁用 AI 的学校将无法访问 Google 搜索。",
+              "title_en": "Google will let schools disable its AI tools, but not without sacrificing Search",
+              "summary_en": "Google will let schools restrict its AI tools, but because AI features are integrated into Search, schools that disable AI entirely will lose access to Google Search.",
+              "topic_evidence": "Schools choosing to restrict AI altogether will no longer be able to access Google Search",
+              "reason": "涉及 AI 功能与搜索产品捆绑，以及学校场景的产品与政策选择。",
+              "reason_en": "Covers the bundling of AI features with Search and the product-policy choices facing schools.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2611.00244",
+              "title": "MEMENTO：为长上下文处理智能体学习上下文管理",
+              "summary": "论文提出 MEMENTO，让长输入 LLM 智能体学习在固定上下文窗口内保留哪些信息；研究指出 GPT-5.5 与 GLM-5.3 等现成模型生成的压缩笔记常效果不佳。",
+              "title_en": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+              "summary_en": "MEMENTO trains long-context LLM agents to decide what to retain in a fixed context window; the paper finds off-the-shelf models like GPT-5.5 and GLM-5.3 often write ineffective compaction notes.",
+              "topic_evidence": "deciding what to retain in a fixed-size context window",
+              "reason": "具体介绍面向长上下文智能体的上下文管理方法，并给出对现有模型压缩笔记效果的评估。",
+              "reason_en": "A specific method paper on context management for long-context agents, including an evaluation of existing models’ compaction notes.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.00450",
+              "title": "从检索到记忆：将检索知识蒸馏为参数化记忆",
+              "summary": "论文研究把此前检索到的信息蒸馏进 LLM 的参数化记忆，以便复用而无需在线检索，目标是在降低存储与推理成本的同时保留事实问答能力。",
+              "title_en": "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
+              "summary_en": "The paper distills previously retrieved information into parametric memories so LLMs can reuse it without online retrieval, aiming to cut storage and inference costs while preserving factual question answering.",
+              "topic_evidence": "Distilling previously retrieved information into parametric memories",
+              "reason": "聚焦 RAG 知识向参数化记忆转化，属于大模型记忆与推理效率研究。",
+              "reason_en": "Focuses on converting RAG knowledge into parametric memory, a study of LLM memory and inference efficiency.",
+              "score": 6.9
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+              "title": "Anthropic 研发 FlashProve，用于验证 AI 模型身份",
+              "summary": "Anthropic 正在开发名为 FlashProve 的系统，让任何人都能核查某条 AI 回复是否确实来自其声称的模型。",
+              "title_en": "Anthropic is working on a system to prove AI models’ identity",
+              "summary_en": "Anthropic is developing FlashProve, a system that would let anyone check whether an AI response really came from the model it claims to be from.",
+              "topic_evidence": "let anyone check that an AI response really came from the model it claims to be from",
+              "reason": "涉及模型身份验证与来源可信度，属于 AI 安全与治理方向。",
+              "reason_en": "Addresses model identity verification and provenance trust, fitting AI safety and governance.",
+              "score": 5.95
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.00420",
+              "title": "Circuit Oracle：用自然语言查询自动分析归因图",
+              "summary": "论文提出 Circuit Oracle，利用自然语言查询自动分析机制可解释性中的归因图，减少专家手动分析归因图所需的时间。",
+              "title_en": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
+              "summary_en": "Circuit Oracle automates analysis of attribution graphs in mechanistic interpretability through natural-language queries, reducing the manual expert time needed to turn graphs into safety-relevant insights.",
+              "topic_evidence": "Automating Attribution Graph Analysis via Natural-Language Queries",
+              "reason": "聚焦机制可解释性工具自动化，属于 AI 可解释性与安全研究。",
+              "reason_en": "Focuses on automating mechanistic interpretability tools, fitting AI explainability and safety research.",
+              "score": 5.9
+            },
+            {
+              "url": "https://huggingface.co/blog/allenai/statebench",
+              "title": "StateBench：测试语言模型如何在长文档中跟踪状态变化",
+              "summary": "Hugging Face 博客介绍 StateBench 基准，用于测试语言模型在长文档中跟踪状态变化的能力，关注长上下文理解。",
+              "title_en": "StateBench: Testing how language models track state changes over long documents",
+              "summary_en": "A Hugging Face blog introduces StateBench, a benchmark that tests how language models track state changes over long documents, focusing on long-context understanding.",
+              "topic_evidence": "Testing how language models track state changes over long documents",
+              "reason": "提供长上下文状态跟踪的评测基准，属于模型评估研究。",
+              "reason_en": "Provides a benchmark for long-context state tracking, fitting model evaluation research.",
+              "score": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": [
+            {
+              "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production",
+              "title": "Meta 详解 F3 Lightning：加速广告 ML 特征规模化上线",
+              "summary": "Meta 工程博客介绍 F3 Lightning：F3 把广告排序特征编译为单一合并图，单次请求可需逾 2 万个特征，以降低执行计算成本并加速上线。",
+              "title_en": "Meta Details F3 Lightning for Scaling Ads ML Features to Production",
+              "summary_en": "Meta Engineering describes F3 Lightning, which compiles ads-ranking features into a merged graph to cut execution costs. A single request can require more than 20,000 features.",
+              "topic_evidence": "a single request can require more than 20,000 features",
+              "reason": "属于软件框架与工程实践，并给出特征规模和编译优化等具体信息。",
+              "reason_en": "Fits the frameworks and engineering practice subsection with concrete feature scale and compilation details.",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/2/llm",
+              "title": "llm 0.37 发布：新增 gpt-6.1-sol/terra 与 OpenAI 兼容端点命令",
+              "summary": "Simon Willison 发布 llm 0.37，新增 gpt-6.1-sol 和 gpt-6.1-terra 模型，并加入 llm openai endpoint add 命令，方便配置兼容 OpenAI 的端点。",
+              "title_en": "llm 0.37 Released with New Models and OpenAI-Compatible Endpoint Command",
+              "summary_en": "Simon Willison released llm 0.37, adding gpt-6.1-sol and gpt-6.1-terra models plus an llm openai endpoint add command for configuring OpenAI-compatible endpoints.",
+              "topic_evidence": "new llm openai endpoint add command",
+              "reason": "开源 CLI 与 Python 库的具体版本更新，包含模型和端点配置变化。",
+              "reason_en": "A concrete release of an open-source CLI and Python library, with new models and endpoint configuration.",
+              "score": 9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+              "title": "Vercel Security Review 公测：推送代码即自动审查漏洞",
+              "summary": "Vercel 面向 Pro 和 Enterprise 团队推出 Security Review 公测；连接 GitHub 仓库后，每次推送都会自动检查漏洞，并将结果汇总到漏洞仪表盘。",
+              "title_en": "Vercel Security Review Opens Public Beta with Automatic Push Checks",
+              "summary_en": "Vercel Security Review is in public beta for Pro and Enterprise teams. Every push to a connected GitHub repository is automatically reviewed for vulnerabilities, with findings shown in a dashboard.",
+              "topic_evidence": "every push to a connected GitHub repository is automatically reviewed for vulnerabilities",
+              "reason": "开发安全工具更新，明确触发条件和结果展示。",
+              "reason_en": "A developer security tool update with clear triggers and reporting.",
+              "score": 6
+            },
+            {
+              "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world",
+              "title": "Arnis：把地球上任意地点转成《我的世界》世界",
+              "summary": "GitHub 博客介绍开源项目 Arnis：作者 Louis Erbkamm 利用业余时间做出首个原型，如今借助 GitHub Copilot 独自维护该项目。",
+              "title_en": "Arnis Turns Any Place on Earth into a Minecraft World",
+              "summary_en": "GitHub Blog profiles the open-source project Arnis. Louis Erbkamm built the first prototype in his spare time and now maintains it alone with help from GitHub Copilot.",
+              "topic_evidence": "Louis Erbkamm built the first prototype in his free time.",
+              "reason": "开源维护者项目案例，提供项目背景和 Copilot 维护方式，技术细节有限。",
+              "reason_en": "An open-source maintainer case with project background and Copilot usage, though limited technical detail.",
+              "score": 4
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+              "title": "Vercel CLI 新增 vercel doctor 诊断命令",
+              "summary": "Vercel CLI 加入 vercel doctor，可检查 CLI 版本、登录团队、项目关联和 vercel.json 配置，并为发现的问题给出修复命令。",
+              "title_en": "Vercel CLI Adds vercel doctor Diagnostics Command",
+              "summary_en": "Vercel CLI now includes vercel doctor, which checks the CLI installation, login and team, project link, and vercel.json configuration, then shows a fixing command for each problem.",
+              "topic_evidence": "Vercel CLI now includes vercel doctor",
+              "reason": "CLI 工具新增具体诊断能力，适合开发工具版面。",
+              "reason_en": "A concrete new diagnostic capability in a CLI tool, suitable for the developer tools subsection.",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+              "title": "OpenEvidence 如何在 Vercel 上为 65 万医生扩展医疗搜索",
+              "summary": "OpenEvidence 在 Vercel 上为 65 万名医生提供医疗搜索，生产部署约五分钟完成，并通过 Fluid compute 将无服务器支出降低 90%。",
+              "title_en": "How OpenEvidence Scales Medical Search for 650,000 Doctors",
+              "summary_en": "OpenEvidence serves 650,000 doctors with medical search on Vercel, completes production deployments in about five minutes, and cut serverless spend by 90% with Fluid compute.",
+              "topic_evidence": "Reduced serverless spend by 90% with Fluid compute",
+              "reason": "云部署、弹性扩缩与成本优化的具体案例，属于基础设施与性能。",
+              "reason_en": "A concrete case of cloud deployment, scaling, and cost optimization under infrastructure and performance.",
+              "score": 12
+            },
+            {
+              "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+              "title": "Zapier 如何用 Vercel 在数小时内把想法变成可用软件",
+              "summary": "Zapier 用 v0 在两小时内做出合作方演示，三个内部应用首版各一天完成；一个月创建 330 万个沙箱隔离代码执行。",
+              "title_en": "How Zapier Turns Ideas into Working Software in Hours with Vercel",
+              "summary_en": "Zapier used v0 to build partner demos in under two hours and first versions of three internal apps in one day each, while creating 3.3 million sandboxes in a month.",
+              "topic_evidence": "3.3 million sandboxes created in one month",
+              "reason": "涉及开发速度与沙箱隔离等基础设施指标，信息具体。",
+              "reason_en": "Covers development speed and sandbox isolation metrics with concrete figures.",
+              "score": 9
+            },
+            {
+              "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+              "title": "Vercel CI 不再要求关联 Vercel 项目",
+              "summary": "Vercel CI 现在可直接在未关联 Vercel 项目的 GitHub 仓库上运行，无需先创建空项目；启用需安装 Vercel GitHub App、连接账号并具备写或管理权限。",
+              "title_en": "Vercel CI No Longer Requires a Linked Vercel Project",
+              "summary_en": "Vercel CI can now run on a GitHub repository without a linked Vercel project, removing the need to create an empty project first. Setup requires the Vercel GitHub App and a connected account.",
+              "topic_evidence": "Vercel CI can now run on a GitHub repository that has no Vercel project",
+              "reason": "CI 基础设施流程简化，条件和适用范围明确。",
+              "reason_en": "Simplifies a CI infrastructure workflow with clear conditions and scope.",
+              "score": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+              "title": "Hera 探测器首次清晰拍摄双小行星，将调查 NASA 撞击后果",
+              "summary": "欧洲 Hera 探测器首次清晰拍摄 NASA 2022 年撞击实验涉及的两颗小行星，正接近目标，将调查碰撞后续及小行星偏移远超预期的原因。",
+              "title_en": "Hera captures first clear view of asteroid pair to study NASA impact aftermath",
+              "summary_en": "Europe's Hera spacecraft has captured its first clear view of the two asteroids involved in NASA's 2022 impact experiment and is approaching them to study the collision's aftermath.",
+              "topic_evidence": "Hera spacecraft has captured its first clear view of two asteroids",
+              "reason": "报道 Hera 对 NASA 2022 年小行星撞击实验目标的首次清晰成像，属于小行星防御与深空探测的具体进展。",
+              "reason_en": "Reports Hera's first clear imaging of the targets of NASA's 2022 asteroid impact experiment, a concrete advance in planetary defense and deep-space exploration.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
+              "title": "旅行者1号将抵达距地球一光日的历史性里程碑",
+              "summary": "NASA 旅行者1号在发射近50年后即将达到距地球一光日的距离；工程师通过节能机动延长任务，但探测器仍面临电力下降和通信异常。",
+              "title_en": "Voyager 1 nears historic one-light-day distance from Earth",
+              "summary_en": "NASA's Voyager 1 is nearing a one-light-day distance from Earth nearly 50 years after launch, as engineers manage declining power and recent communications problems.",
+              "topic_evidence": "about to reach a historic one-light-day milestone",
+              "reason": "提供旅行者1号即将达到一光日距离、节能延长任务及通信异常等具体状态，属于深空探测器运行进展。",
+              "reason_en": "Details Voyager 1's approach to a one-light-day milestone, its power-saving maneuver and communications anomaly, a concrete update on a deep-space probe.",
+              "score": 4.8
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+              "title": "龙宫小行星样本中发现 DNA 和 RNA 全部五种碱基",
+              "summary": "科学家在龙宫小行星原始样本中检出构成DNA和RNA的全部五种核碱基，表明生命关键原料数十亿年前可能广泛存在于太空。",
+              "title_en": "All five DNA and RNA nucleobases found in Ryugu asteroid samples",
+              "summary_en": "Scientists found all five nucleobases used in DNA and RNA in pristine samples from asteroid Ryugu, adding evidence that life's building blocks were widespread in the early Solar System.",
+              "topic_evidence": "all five essential nucleobases used in DNA and RNA",
+              "reason": "报道龙宫原始样本中检出全部五种核碱基，是行星科学与生命起源研究的具体实验发现。",
+              "reason_en": "Reports the detection of all five nucleobases in pristine Ryugu samples, a concrete finding in planetary science and origins-of-life research.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+              "title": "新证据显示隐藏伴星正穿过参宿四大气层",
+              "summary": "射电观测显示，参宿四可能有一颗名为 Siwarha 的隐藏伴星，正穿过其巨大大气层，造成扰动并使这颗红超巨星形状被拉伸和扭曲。",
+              "title_en": "New evidence suggests a hidden companion star is plowing through Betelgeuse's atmosphere",
+              "summary_en": "New radio observations suggest a hidden companion star, Siwarha, may be plowing through Betelgeuse's atmosphere, disturbing and distorting the red supergiant's shape.",
+              "topic_evidence": "a hidden companion star called Siwarha",
+              "reason": "基于射电观测提出参宿四隐藏伴星穿过其大气层并造成形变，属于恒星物理的具体观测结果。",
+              "reason_en": "Presents radio observations suggesting a hidden companion star is disturbing Betelgeuse's atmosphere and shape, a specific stellar-physics result.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm",
+              "title": "基因编辑或可替代终身服药，但长期安全性仍是难题",
+              "summary": "研究人员提出，单次基因编辑治疗未来可能数十年预防心脏病和高胆固醇等常见疾病，从而替代长期用药；但永久改变基因带来的风险可能多年后才显现。",
+              "title_en": "Gene editing could replace lifetime medication, but long-term safety remains a challenge",
+              "summary_en": "A single gene-editing treatment could someday protect against heart disease and high cholesterol for decades, but scientists warn that permanent genetic changes carry long-term risks.",
+              "topic_evidence": "Gene editing could replace a lifetime of medication",
+              "reason": "讨论单次基因编辑可能长期预防常见疾病，同时指出永久改变基因的迟发风险，属于医学研究中的具体治疗路径评估。",
+              "reason_en": "Examines single gene-editing treatment as long-term prevention for common diseases while noting delayed risks of permanent genetic changes, a concrete therapeutic assessment.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm",
+              "title": "科学家诱导癌细胞制造杀死自身的药物",
+              "summary": "研究团队利用肿瘤细胞自然产生的一氧化碳，在癌细胞内合成强效药物；早期实验显示该策略可能选择性攻击癌细胞而不伤害健康细胞。",
+              "title_en": "Scientists trick cancer cells into making the drugs that kill them",
+              "summary_en": "Scientists have devised a strategy that uses carbon monoxide produced by tumor cells to manufacture drugs inside cancer cells, with early lab tests suggesting selective targeting of cancer while sparing healthy cells.",
+              "topic_evidence": "uses carbon monoxide naturally produced by tumor cells to manufacture powerful drugs",
+              "reason": "报道利用肿瘤细胞一氧化碳在癌细胞内原位制药，并给出早期实验的选择性结果，属于癌症治疗新策略。",
+              "reason_en": "Reports an in-cell drug-making strategy using tumor-produced carbon monoxide, with early lab results suggesting selective cancer targeting.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+              "title": "阿尔茨海默病新药可修复 DNA 损伤并减轻脑部炎症",
+              "summary": "科学家发现一种最初用于脊髓损伤的药物可作用于阿尔茨海默病多个关键病理特征，包括DNA损伤和炎症；该实验性疗法已在人体做过初步安全性测试。",
+              "title_en": "New Alzheimer's drug repairs DNA damage and reduces brain inflammation",
+              "summary_en": "A drug originally developed for spinal cord injuries can address several features of Alzheimer's disease, including DNA damage and inflammation, and has already undergone initial human safety testing.",
+              "topic_evidence": "a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease",
+              "reason": "报道一款原用于脊髓损伤的药物可修复DNA损伤并减轻脑部炎症，且已有初步人体安全性测试，属于神经退行性疾病药物发现。",
+              "reason_en": "Reports a spinal-cord-injury drug that addresses DNA damage and inflammation in Alzheimer's disease and has had initial human safety testing, a concrete drug-discovery result.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
+              "title": "大型强子对撞机：较小碰撞也产生大爆炸物质证据",
+              "summary": "欧洲核子研究中心团队发现新证据，表明相对较小的原子碰撞也能产生夸克-胶子等离子体；这种物质在大爆炸后充满宇宙，形成温度超过太阳中心10万倍。",
+              "title_en": "Large Hadron Collider finds evidence of Big Bang matter in smaller collisions",
+              "summary_en": "CERN's Large Hadron Collider has found new evidence that relatively small atomic collisions can create quark-gluon plasma, the state of matter that filled the early universe.",
+              "topic_evidence": "even relatively small atomic collisions can recreate the extraordinary state of matter",
+              "reason": "报道 LHC 发现较小原子碰撞也能产生夸克-胶子等离子体的新证据，属于高能核物理的具体实验结果。",
+              "reason_en": "Reports new LHC evidence that relatively small atomic collisions can create quark-gluon plasma, a specific high-energy nuclear-physics result.",
+              "score": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them",
+              "title": "基辅初创公司推出可观看俄军无人机视频的口袋接收器",
+              "summary": "乌克兰基辅一家初创公司推出约 10 盎司的口袋接收器，使乌军能观看俄军无人机视频；报道指出，俄方转向数字视频和 AI 制导无人机可能削弱其效果。",
+              "title_en": "Kyiv startup’s pocket receiver lets Ukrainian troops watch Russian drone video",
+              "summary_en": "A Kyiv startup’s 10-ounce pocket receiver lets Ukrainian troops view Russian drone video feeds, but the advantage may fade as Russia moves to digital video and AI-guided drones.",
+              "topic_evidence": "pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds",
+              "reason": "报道介绍基辅初创公司的口袋接收器被乌军用于观看俄无人机视频，并指出技术局限，属于初创公司产品与采用。",
+              "reason_en": "The report covers a Kyiv startup’s pocket receiver used by Ukrainian troops to watch Russian drone feeds, while noting technical limits; it fits startup products and adoption.",
+              "score": 3.8
+            },
+            {
+              "url": "https://www.producthunt.com/products/one-roof",
+              "title": "One Roof：强调用户主导的智能体构建方式",
+              "summary": "Product Hunt 页面介绍 One Roof 为构建智能体的新方式，并强调用户保持控制权；候选材料未披露更多功能、定价或增长数据。",
+              "title_en": "One Roof: A user-controlled way to build with agents",
+              "summary_en": "Product Hunt lists One Roof as a new way to build with agents while keeping users in charge; the listing provides no further feature, pricing or growth details.",
+              "topic_evidence": "A new way to build with agents. You stay in charge.",
+              "reason": "该条目是 Product Hunt 上的新产品，简介明确指向智能体构建工具；但材料仅提供有限说明，未补写未披露的功能或增长。",
+              "reason_en": "It is a Product Hunt new product clearly positioned as an agent-building tool; coverage is limited to the listing, so no undisclosed features or growth are added.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/nana-2",
+              "title": "nana：面向 Windows 多编码智能体的统一终端",
+              "summary": "Product Hunt 页面称 nana 是 Windows 上用于多种编码智能体的统一终端；候选材料仅提供这一简介和讨论入口，未说明具体功能或用户数据。",
+              "title_en": "nana: A unified terminal for every coding agent on Windows",
+              "summary_en": "Product Hunt describes nana as a single terminal for every coding agent on Windows; the listing offers no further details on features or user adoption.",
+              "topic_evidence": "One terminal for every coding agent, on Windows",
+              "reason": "该产品直接面向多编码智能体的终端使用场景，属于新产品；仅按 Product Hunt 简介报告，不推断采用情况。",
+              "reason_en": "The product directly addresses a terminal for multiple coding agents and is a new product; it is reported only from the Product Hunt listing without inferring adoption.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/context-dev",
+              "title": "Context.dev 的 People Search API 可按职位、公司和地点查找人员",
+              "summary": "Product Hunt 页面介绍 Context.dev 的 People Search API，可按职位、公司和地点查找人员；材料未提供定价、用户规模或更多产品细节。",
+              "title_en": "Context.dev’s People Search API finds people by role, company and location",
+              "summary_en": "Product Hunt lists Context.dev’s People Search API, which finds people by role, company and location; no pricing, user scale or additional product details are provided.",
+              "topic_evidence": "People Search API: Find People by Role, Company & Location",
+              "reason": "该条目是 Product Hunt 上的人员搜索 API 产品，功能描述具体；材料有限，因此只报告已给出的查找维度。",
+              "reason_en": "It is a Product Hunt people-search API product with a specific function; because material is limited, only the stated search dimensions are reported.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+              "title": "Trajectory 融资 4500 万美元，估值达 3 亿美元",
+              "summary": "成立一年的 Trajectory 获 4500 万美元融资，旨在让非技术专家也能参与 AI 模型训练；报道称公司估值达到 3 亿美元。",
+              "title_en": "Trajectory raises $45M at $300M valuation to broaden AI model training",
+              "summary_en": "Trajectory, a one-year-old startup, raised $45 million to make AI model training accessible to nontechnical experts and is now valued at $300 million.",
+              "topic_evidence": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+              "reason": "融资事件明确，金额、估值和资金用途均来自候选摘要，直接属于融资与并购小版。",
+              "reason_en": "The funding event is explicit, with amount, valuation and purpose drawn from the candidate summary; it directly fits the funding and M&A subsection.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch",
+              "title": "Rivian 分拆公司 Also 退出肯尼亚电动摩托项目，优先自动驾驶",
+              "summary": "Rivian 分拆公司 Also 曾推进肯尼亚电动摩托项目，但最终退出；联合创始人兼总裁 Chris Yu 表示，公司希望优先发展自动驾驶。",
+              "title_en": "Rivian spinout Also exits Kenya e-moto project to prioritize autonomous vehicles",
+              "summary_en": "Rivian spinout Also had been working on an e-moto project in Kenya but walked away; co-founder and president Chris Yu said the company wanted to prioritize autonomous vehicles.",
+              "topic_evidence": "was working on an e-moto project in Kenya — until it walked away",
+              "reason": "报道聚焦 Rivian 分拆公司 Also 退出肯尼亚电动摩托项目并优先自动驾驶，属于创业公司项目取舍与战略调整。",
+              "reason_en": "The report focuses on Rivian spinout Also exiting a Kenya e-moto project to prioritize autonomous vehicles, a startup project trade-off and strategy shift.",
+              "score": 3.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+              "title": "欧洲七架航班遭疑似炸弹威胁 多国机场展开检查",
+              "summary": "波兰、西班牙、保加利亚和意大利的航班在接到分别的威胁后接受爆炸物检查，事件令欧洲航空安全警戒升高。",
+              "title_en": "Seven flights across Europe targeted by suspected bomb threats",
+              "summary_en": "Flights in Poland, Spain, Bulgaria and Italy were checked for explosives after separate threats, raising aviation security concerns across Europe.",
+              "topic_evidence": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+              "reason": "多国航班同时遭炸弹威胁，涉及欧洲航空安全与反恐警戒。",
+              "reason_en": "Simultaneous bomb threats targeting flights in several European countries raise aviation security and counterterrorism concerns.",
+              "score": 4
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+              "title": "欧洲十国超市冰柜遭网络攻击 多国进入警戒",
+              "summary": "从爱沙尼亚、瑞典到葡萄牙和意大利，多国超市报告冰柜系统遭网络攻击，部分零售商被迫丢弃食品。",
+              "title_en": "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
+              "summary_en": "Supermarkets across 10 European countries reported freezer disruptions from cyber-attacks, forcing some retailers to discard food as authorities investigated the incidents.",
+              "topic_evidence": "supermarket freezers hit by cyber-attacks in 10 countries",
+              "reason": "跨国网络攻击波及超市冷链系统，属于关键基础设施安全议题。",
+              "reason_en": "A cross-border cyber-attack disrupting supermarket cold-chain systems is a critical infrastructure security issue.",
+              "score": 4
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+              "title": "特朗普伊朗困局或为中国打开中东外交空间",
+              "summary": "中国近期密集会见海湾国家领导人，在特朗普与习近平会晤前加强中东外交存在，分析称美伊紧张给北京创造机会。",
+              "title_en": "Trump’s troubles with Iran could open the door to China",
+              "summary_en": "China has held a flurry of meetings with Gulf leaders, stepping up Middle East diplomacy ahead of a high-stakes Trump-Xi meeting.",
+              "topic_evidence": "China has held a flurry of meetings with Gulf leaders",
+              "reason": "报道中国在海湾的外交动作，涉及美中与中东地缘博弈。",
+              "reason_en": "The report covers China's diplomatic outreach in the Gulf, relevant to U.S.-China and Middle East geopolitics.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+              "title": "日本在核邻国联合压力下面临外交两难",
+              "summary": "俄乌战争持续之际，日俄关系降至数十年来低点；东京希望获得美国更多支持，但部分日本民众担忧难以如愿。",
+              "title_en": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+              "summary_en": "As the Ukraine war continues, Japan-Russia ties are at their worst in decades. Tokyo seeks more U.S. support, but some Japanese doubt it will come.",
+              "topic_evidence": "ties between Russia and neighboring Japan are at their worst in decades",
+              "reason": "聚焦日俄关系与日本在核邻国压力下的安全选择。",
+              "reason_en": "Focuses on Japan-Russia ties and Tokyo's security choices under pressure from nuclear-armed neighbors.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+              "title": "俄罗斯袭击乌克兰援助中心、临终关怀机构和医院 死亡人数上升",
+              "summary": "乌克兰总统泽连斯基称，俄军24小时内袭击多地，造成至少38人死亡，另有数十人可能被埋在废墟下。",
+              "title_en": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+              "summary_en": "At least 38 people were killed in 24 hours after Russian attacks hit an aid centre, hospice and hospital in Ukraine, with dozens feared trapped.",
+              "topic_evidence": "At least 38 people are killed in 24 hours",
+              "reason": "俄军袭击乌克兰民用设施并造成大量伤亡，是重大战争事件。",
+              "reason_en": "Russian strikes on Ukrainian civilian sites with heavy casualties are a major war development.",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections?traffic_source=rss",
+              "title": "民主党在2026年美国中期选举中赢得参议院控制权",
+              "summary": "民主党翻转参议院，被广泛视为对特朗普所属共和党的否定；共和党曾在2024年赢得该院控制权。",
+              "title_en": "Democratic Party wins US Senate in 2026 midterm elections",
+              "summary_en": "Democrats flipped the U.S. Senate in the 2026 midterms, a result widely seen as a rebuke to Trump's Republican Party, which won the chamber in 2024.",
+              "topic_evidence": "The outcome is widely seen as a rebuke to Trump's Republican Party",
+              "reason": "美国中期选举参议院归属是国会权力格局的关键结果。",
+              "reason_en": "Control of the U.S. Senate is a key outcome shaping congressional power after the midterms.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "title": "詹姆斯·塔拉里科成为1988年以来首位赢得得州参议员席位的民主党人",
+              "summary": "民主党人塔拉里科赢得得克萨斯州参议员选举，为自1988年以来该州首次由民主党拿下参议院席位。",
+              "title_en": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+              "summary_en": "Democrat James Talarico won a Texas Senate seat, the first Democrat to do so since 1988, in a historic midterm result for the party.",
+              "topic_evidence": "first Democrat to win Texas Senate seat since 1988",
+              "reason": "得州参议院席位数十年来首次翻蓝，具政治指标意义。",
+              "reason_en": "A Texas Senate seat flipping Democratic for the first time since 1988 is politically symbolic.",
+              "score": 3
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
+              "title": "佛罗里达州选出首位黑人州长 共和党击退民主党挑战",
+              "summary": "获特朗普支持的共和党人拜伦·唐纳兹赢得佛州州长选举，将成为该州首位黑人州长，共和党保住关键州。",
+              "title_en": "Florida Republicans fend off Democrats as state elects first black governor",
+              "summary_en": "Republican Byron Donalds, backed by President Donald Trump, won Florida's governor race and will become the state's first Black governor.",
+              "topic_evidence": "will be the first black governor of Florida",
+              "reason": "佛州州长选举结果及首位黑人州长产生，具有政治与历史意义。",
+              "reason_en": "Florida's governor race and its first Black governor have political and historical significance.",
+              "score": 3
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+              "title": "南非地方选举：ANC因公共服务不佳面临选民愤怒",
+              "summary": "南非民众在断水、停电和基础设施老化引发的强烈不满中投票，执政党非洲人国民大会预计得票不足三分之一。",
+              "title_en": "ANC faces anger over poor services as South Africans vote in local elections",
+              "summary_en": "South Africans voted in local elections amid anger over water outages, power cuts and crumbling infrastructure, with the ANC expected to win less than a third of the vote.",
+              "topic_evidence": "voters go to the polls amid deep discontent over water outages, power cuts and crumbling infrastructure",
+              "reason": "南非执政党在地方选举中面临公共服务不满的考验。",
+              "reason_en": "South Africa's ruling ANC faces a test over public service failures in local elections.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+              "title": "南卡罗来纳州近三十年来首次选出民主党参议员",
+              "summary": "民主党人安妮·安德鲁斯预计击败特朗普支持的达琳·格雷厄姆，成为南卡州近三十年来首位民主党参议员。",
+              "title_en": "South Carolina elects Democratic senator for first time in almost three decades",
+              "summary_en": "Democrat Annie Andrews is projected to defeat Trump-backed Darline Graham, becoming South Carolina's first Democratic senator in almost 30 years.",
+              "topic_evidence": "South Carolina elects Democratic senator for first time in almost three decades",
+              "reason": "南卡州参议员席位近三十年首次由民主党赢得。",
+              "reason_en": "South Carolina elects a Democratic senator for the first time in almost three decades.",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
+              "title": "巴西发布首份全球化石燃料淘汰路线图",
+              "summary": "巴西政府在气候峰会前提出逐步摆脱煤炭、石油和天然气的步骤，称各国无需等待新技术即可开始行动。",
+              "title_en": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
+              "summary_en": "Brazil's government published a global roadmap for phasing out coal, oil and gas, saying countries can start cutting fossil fuel dependence now without waiting for new technologies.",
+              "topic_evidence": "first global ‘roadmap’ for phasing out fossil fuels",
+              "reason": "巴西在气候峰会前发布化石燃料淘汰路线图，属全球气候治理动向。",
+              "reason_en": "Brazil's pre-summit roadmap for phasing out fossil fuels is a significant global climate governance development.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+              "title": "西班牙致命列车相撞事故后 交通部长辞职",
+              "summary": "马德里以南列车相撞造成至少69人死亡、数十人受伤，西班牙交通部长在事故数日后宣布辞职。",
+              "title_en": "Spanish transport minister resigns days after deadly train crash",
+              "summary_en": "Spain's transport minister resigned days after a train collision south of Madrid killed at least 69 people and injured dozens.",
+              "topic_evidence": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+              "reason": "重大铁路事故及部长辞职，涉及欧洲公共安全与问责。",
+              "reason_en": "A deadly rail crash and the transport minister's resignation touch on European public safety and accountability.",
+              "score": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725872.shtml",
+              "title": "国台办回应赖清德当局所谓“认知战”与“介选”说法",
+              "summary": "11月4日国台办例行发布会上，发言人回应赖清德及民进党当局称需慎防大陆对台选举进行“认知作战”、透过黑帮或在地协力者“介选”等说法。",
+              "title_en": "Taiwan Affairs Office responds to Lai Ching-te authorities' claims of \"cognitive warfare\" and \"election interference\"",
+              "summary_en": "At a routine press conference on Nov 4, the State Council Taiwan Affairs Office responded to claims by Lai Ching-te and the DPP authorities that the mainland is conducting \"cognitive warfare\" and interfering in Taiwan's elections.",
+              "topic_evidence": "要慎防“中国对台湾选举进行认知作战，以及透过黑帮或在地协力者介入选举等”",
+              "reason": "国台办例行发布会就两岸选举争议表态，属政策与监管。",
+              "reason_en": "TAO press conference statement on cross-strait election allegations; fits policy and regulation.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725849.shtml",
+              "title": "国台办回应台陆委会称“现在没有‘台独’问题”",
+              "summary": "国台办11月4日发布会回应台陆委会称现在没有“台独”问题、只有是否被强迫统一的问题，并称台方目标是“维持和平现状、捍卫民主自由”。",
+              "title_en": "TAO responds to MAC claim that there is \"no 'Taiwan independence' issue\" now",
+              "summary_en": "The State Council Taiwan Affairs Office on Nov 4 responded to Taiwan's MAC saying there is no \"Taiwan independence\" issue now, only whether Taiwan will be forced into unification.",
+              "topic_evidence": "现在没有“台独”问题，只有要不要被强迫统一的问题",
+              "reason": "涉及两岸政策定位的官方回应。",
+              "reason_en": "Official response concerning cross-strait policy positioning.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725904.shtml",
+              "title": "何立峰视频致辞香港国际金融领袖投资峰会",
+              "summary": "香港国际金融领袖投资峰会11月2日至4日举行，中共中央政治局委员、国务院副总理何立峰发表视频致辞。",
+              "title_en": "He Lifeng delivers video address to Hong Kong Global Financial Leaders' Investment Summit",
+              "summary_en": "Chinese Vice Premier He Lifeng delivered a video address to the Global Financial Leaders' Investment Summit in Hong Kong, held from Nov 2 to 4.",
+              "topic_evidence": "何立峰发表视频致辞",
+              "reason": "中央领导人在港金融峰会致辞，属政策与监管。",
+              "reason_en": "Central leader's address at a Hong Kong financial summit; fits policy and regulation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725888.shtml",
+              "title": "郭宁宁任福建省副省长、代省长",
+              "summary": "福建省十四届人大常委会第二十五次会议11月4日决定，接受赵龙辞去省长职务，任命郭宁宁为副省长、代理省长。",
+              "title_en": "Guo Ningning appointed Fujian vice governor and acting governor",
+              "summary_en": "Fujian's provincial legislature on Nov 4 accepted Governor Zhao Long's resignation and appointed Guo Ningning as vice governor and acting governor.",
+              "topic_evidence": "任命郭宁宁为福建省人民政府副省长、代理省长",
+              "reason": "省级政府主要负责人人事调整，属时政政策。",
+              "reason_en": "Personnel change in a provincial government leadership; fits policy and current affairs.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725894.shtml",
+              "title": "首批33个和美海岛三年建设阶段性成效报告发布",
+              "summary": "自然资源部海岛研究中心在中国—岛屿国家海洋合作论坛发布报告，称首批33个和美海岛经三年建设，生态安全、宜居水平、绿色产业和防灾减灾能力均有提升。",
+              "title_en": "Report reviews three-year progress of China's first 33 \"harmonious and beautiful islands\"",
+              "summary_en": "China's island research center under the Ministry of Natural Resources released a report saying the first 33 \"harmonious and beautiful islands\" improved ecological safety, livability, green industries and disaster resilience over three years.",
+              "topic_evidence": "经过三年建设，我国首批33个和美海岛生态安全屏障进一步筑牢",
+              "reason": "自然资源部发布海岛建设阶段性报告，属产业与地方。",
+              "reason_en": "Ministry of Natural Resources report on island construction; fits industry and local development.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725879.shtml",
+              "title": "北京东城在京港洽谈会发布14处产业空间",
+              "summary": "第二十九届北京·香港经济合作研讨洽谈会东城区专题推介活动3日举行，现场发布文化产业京港创新合作机遇清单，并启动2026“故宫以东”文创校园设计大赛香港赛场。",
+              "title_en": "Beijing's Dongcheng District releases 14 industrial spaces at Beijing-Hong Kong investment fair",
+              "summary_en": "Dongcheng District presented 14 industrial spaces and a cultural-industry cooperation list at the 29th Beijing-Hong Kong Economic Cooperation Symposium, and launched the Hong Kong track of a 2026 cultural creative design competition.",
+              "topic_evidence": "集中发布14处产业空间",
+              "reason": "地方在京港洽谈会发布产业空间与文创合作，属产业与地方。",
+              "reason_en": "Local district releases industrial spaces and cultural cooperation at a Beijing-Hong Kong fair; fits industry and local development.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725903.shtml",
+              "title": "宁夏中卫大麦地岩画建成数字基因库",
+              "summary": "中卫官方11月4日表示，大麦地岩画数字化采集与建库取得阶段性成果，已有4095幅岩画录入数字基因库并获得专属“数字身份证”。",
+              "title_en": "Digital gene bank built for Damaidi rock art in Ningxia's Zhongwei",
+              "summary_en": "Authorities in Zhongwei, Ningxia, said 4,095 Damaidi rock art images have been digitized and given unique digital IDs as part of a digital gene bank project.",
+              "topic_evidence": "已有4095幅岩画录入大麦地岩画数字基因库",
+              "reason": "地方文化遗产数字化项目，属产业与地方。",
+              "reason_en": "Local cultural heritage digitization project; fits industry and local development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725875.shtml",
+              "title": "新疆昌吉数据标注员为AI当“老师” 拓展就业",
+              "summary": "在新疆昌吉，数据标注员通过标记海量数据，帮助人工智能识别信息、理解指令，相关岗位为当地拓展就业空间。",
+              "title_en": "Data annotators in Xinjiang's Changji \"teach\" AI, opening new job opportunities",
+              "summary_en": "Data annotators in Changji, Xinjiang, label massive datasets to help AI systems recognize information and follow instructions, creating new local employment.",
+              "topic_evidence": "数据标注员为AI当“老师” 拓展就业新空间",
+              "reason": "地方AI数据标注就业，属产业与地方。",
+              "reason_en": "Local AI data annotation employment; fits industry and local development.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725929.shtml",
+              "title": "女子自导自演“停车场惊魂”博流量 警方提示",
+              "summary": "法治在线报道，一女子为博流量自导自演“停车场惊魂”视频，警方就此提示公众勿编造、传播虚假信息。",
+              "title_en": "Woman stages \"parking lot scare\" for traffic; police issue warning",
+              "summary_en": "A woman staged a \"parking lot scare\" video to attract online traffic, prompting police to warn the public against fabricating and spreading false information.",
+              "topic_evidence": "女子为博流量自导自演“停车场惊魂”",
+              "reason": "治安类虚假视频案例与警方提示，属社会与法治。",
+              "reason_en": "Public security case involving a staged video and police warning; fits society and law.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725928.shtml",
+              "title": "湛江海域两名垂钓者凌晨遇险获救",
+              "summary": "湛江海事局11月4日通报，3日凌晨两名人员乘快艇在东海岛宝钢西区码头对开水域垂钓，因快艇故障被困海上、随流漂泊，后获救。",
+              "title_en": "Two anglers rescued after boat breakdown off Zhanjiang",
+              "summary_en": "Two people were rescued after their speedboat broke down while fishing early on Nov 3 off Donghai Island in Zhanjiang, the local maritime bureau said.",
+              "topic_evidence": "两名出海垂钓人员因快艇故障被困海上、随流漂泊",
+              "reason": "海上救援事件，属社会。",
+              "reason_en": "Maritime rescue incident; fits society.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725922.shtml",
+              "title": "多国城墙保护机构代表聚首大同 探讨古城墙活态传承",
+              "summary": "2026国际古城墙（堡）联盟交流活动4日在山西大同开幕，多国城墙机构代表及文物保护、考古、建筑遗产、文旅融合专家参会，讨论古城墙保护与科学利用。",
+              "title_en": "Heritage experts from multiple countries gather in Datong to discuss living conservation of ancient city walls",
+              "summary_en": "The 2026 International Alliance of Ancient City Walls and Fortresses event opened in Datong, Shanxi, bringing together heritage officials and experts to discuss conservation and sustainable use of ancient walls.",
+              "topic_evidence": "共商古城墙(堡)文化遗产保护、研究与科学利用之道",
+              "reason": "国际文化遗产保护交流活动，属社会与文化保护。",
+              "reason_en": "International cultural heritage conservation exchange; fits society and protection.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725930.shtml",
+              "title": "肇庆高新区回应自助服务区门禁问题：已改进",
+              "summary": "针对网友反映24小时自助服务区补办身份证需刷身份证才能进入，肇庆高新区行政服务中心通报称当天即改进安保门禁，特殊情况可由安保人员协助开门并设置标识指引。",
+              "title_en": "Zhaoqing high-tech zone fixes self-service ID replacement access after complaint",
+              "summary_en": "Zhaoqing High-tech Zone's administrative service center said it adjusted security access rules after complaints that residents needed an ID card to enter a 24-hour self-service area to replace a lost ID.",
+              "topic_evidence": "补办身份证需刷身份证才能进入",
+              "reason": "公共服务门禁问题整改，属社会与治理。",
+              "reason_en": "Public service access problem corrected; fits society and governance.",
+              "score": 4.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
+              "title": "美国中期选举结果引发股市与美元下跌，逢低买盘浮现",
+              "summary": "民主党横扫国会两院后，全球股市与美元走低，美国国债上涨，市场押注选举结果将制约特朗普议程；随后出现逢低买盘。",
+              "title_en": "Stocks, Dollar Drop on US Vote; Dip Buyers Emerge: Markets Wrap",
+              "summary_en": "A Democratic sweep of Congress sent global stocks and the dollar lower while lifting Treasuries, as investors bet the result will constrain President Donald Trump’s agenda; dip buyers later emerged.",
+              "topic_evidence": "sending stocks and the dollar lower while boosting Treasuries",
+              "reason": "直接报道中期选举结果对股市、美元和美债的跨资产影响，属于市场与资产核心新闻。",
+              "reason_en": "Directly covers cross-asset market reaction to the midterm election outcome, a core markets and assets story.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+              "title": "AI对债券市场的影响力上升，甚至可与战争和选举相比",
+              "summary": "报道称，超大规模云厂商消耗现金后，其债券发行正在为经济提供动力，AI相关融资对债市的影响日益显著。",
+              "title_en": "AI’s control over the bond market is growing — even rivaling war and elections",
+              "summary_en": "Hyperscalers have burned through cash, and their bond deals are now helping fuel the economy, making AI-related financing an increasingly important force in the bond market.",
+              "topic_evidence": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+              "reason": "聚焦AI相关债券发行对债市和经济的影响，连接AI与固定收益市场。",
+              "reason_en": "Focuses on how AI-related bond issuance is affecting the bond market and economy.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+              "title": "中期选举削弱美元，瑞郎和日元成为汇市赢家",
+              "summary": "美国选举结果显示民主党可能赢得参众两院，美元创一个月来最差单日表现，瑞士法郎和日元大幅上涨。",
+              "title_en": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+              "summary_en": "US election results pointing to Democrats winning both chambers sent the dollar to its worst day in a month, while the Swiss franc and Japanese yen jumped.",
+              "topic_evidence": "The Swiss franc and Japanese yen jumped",
+              "reason": "报道选举结果引发的外汇市场变动，具体涉及美元、瑞郎和日元。",
+              "reason_en": "Covers specific FX moves driven by the election results, including the dollar, franc and yen.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+              "title": "AMD股价上涨，向AI交易传递信心信号",
+              "summary": "芯片制造商AMD展现出AI带来的“真实”收入，并给出乐观业绩指引，缓解了市场对AI交易可持续性的担忧。",
+              "title_en": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+              "summary_en": "Chip maker AMD is showing “real” revenue from AI and issued an upbeat forecast, shrugging off concerns about the sustainability of the AI trade and lifting its stock.",
+              "topic_evidence": "The chip maker is showing “real” revenue from AI",
+              "reason": "提供AMD财报与AI收入的具体表现，属于个股与AI交易动态。",
+              "reason_en": "Provides specific AMD earnings and AI revenue details, relevant to single-stock and AI trade moves.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+              "title": "超微电脑股价大涨，财报显示AI服务器需求旺盛",
+              "summary": "超微电脑财报显示AI服务器需求强劲，首席财务官称公司正在建立“高质量客户群”，推动营收增长和股价上涨。",
+              "title_en": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+              "summary_en": "Super Micro’s earnings showed booming demand for AI servers, and its CFO said the company is building a “high-quality customer base” that is fueling revenue growth and lifting the stock.",
+              "topic_evidence": "earnings show booming demand for AI servers",
+              "reason": "超微电脑财报揭示AI服务器需求，是具体的公司业绩与股价新闻。",
+              "reason_en": "Super Micro earnings reveal AI server demand, a specific company earnings and stock story.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-04/australia-s-household-spending-exceeds-estimate-boosted-by-fuel",
+              "title": "澳大利亚家庭支出超预期，燃油支出推动增长",
+              "summary": "澳大利亚9月家庭支出增幅高于预期，显示在央行连续加息遏制通胀后，经济中的需求仍具韧性。",
+              "title_en": "Australia’s Household Spending Exceeds Estimate, Boosted by Fuel",
+              "summary_en": "Australian household spending rose more than expected in September, suggesting demand remains resilient even after the Reserve Bank’s rapid interest-rate hikes to curb inflation.",
+              "topic_evidence": "Australia’s household spending climbed more than expected in September",
+              "reason": "直接反映澳大利亚消费需求与利率政策背景下的经济韧性。",
+              "reason_en": "Directly reflects Australian consumer demand and economic resilience amid rate hikes.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-04/thailand-growth-forecasts-raised-on-factory-data-revamp",
+              "title": "工厂数据修订后泰国增长预测上调",
+              "summary": "泰国工厂数据修订显示，人工智能热潮带来更大提振，因此增长预测被上调，但经济中许多领域仍然疲弱。",
+              "title_en": "Thailand Growth Forecasts Raised on Factory Data Revamp",
+              "summary_en": "Thailand’s growth forecasts are rising after revised factory data showed a bigger boost from the AI boom, even though much of the economy remains sluggish.",
+              "topic_evidence": "new factory data reveal a bigger boost from the artificial intelligence boom",
+              "reason": "报道宏观增长预测调整及其AI相关工厂数据原因，属于宏观与政策。",
+              "reason_en": "Covers a macro growth forecast revision tied to AI-related factory data.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/ecb-will-probably-have-to-raise-rates-in-december-nagel-says",
+              "title": "德国央行行长纳格尔：欧洲央行12月可能不得不加息",
+              "summary": "欧洲央行管委会成员纳格尔表示，由于通胀前景恶化，欧洲央行下月可能不得不提高借贷成本。",
+              "title_en": "ECB Will Probably Have to Hike in December, Nagel Says",
+              "summary_en": "ECB Governing Council member Joachim Nagel said the European Central Bank will probably have to raise borrowing costs next month due to a worsening inflation outlook.",
+              "topic_evidence": "The European Central Bank will probably increase borrowing costs next month",
+              "reason": "涉及欧洲央行利率决策与通胀前景，是核心货币政策新闻。",
+              "reason_en": "Involves ECB rate decisions and the inflation outlook, a core monetary policy story.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-gdp-q3-economic-growth-exports-surge-electronics-ai",
+              "title": "香港经济意外跃升，增长创五年新高",
+              "summary": "香港经济上季度增长快于预期，受出口激增和投资改善推动，今年前三季度扩张速度为五年来最快。",
+              "title_en": "Hong Kong Economy’s Surprise Jump Takes Growth to Five-Year High",
+              "summary_en": "Hong Kong’s economy grew faster than expected last quarter, with exports surging and investment improving, pushing growth in the first nine months to the fastest pace in five years.",
+              "topic_evidence": "Hong Kong’s economy unexpectedly grew at a faster rate last quarter",
+              "reason": "提供香港GDP超预期增长及出口、投资变化的具体宏观数据。",
+              "reason_en": "Provides specific macro data on Hong Kong’s GDP surprise, exports and investment.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/videos/2026-11-04/bain-capital-chair-expects-30b-of-exits-this-year-video",
+              "title": "贝恩资本董事长预计今年退出规模达300亿美元",
+              "summary": "贝恩资本董事长约翰·康诺顿表示，对亚洲业务持乐观态度，并希望在中国通过退出项目建立势头，预计今年全球退出规模达300亿美元。",
+              "title_en": "Bain Capital Chair Expects $30 Billion of Exits This Year",
+              "summary_en": "Bain Capital Chair John Connaughton said he is optimistic about the firm’s Asia business and hopes to build momentum with exits in China, expecting $30 billion of exits this year.",
+              "topic_evidence": "Expects $30 Billion of Exits This Year",
+              "reason": "涉及私募股权退出、亚洲业务和中国项目，属于理财与商业资本动态。",
+              "reason_en": "Covers private equity exits, Asia business and China deals, relevant to wealth and business capital.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
+              "title": "民主党赢得参众两院，这对个人财务意味着什么",
+              "summary": "美国中期选举结果明朗，民主党赢得参众两院，报道梳理这一结果可能对美国人投资和钱包产生的影响。",
+              "title_en": "Democrats win the House and Senate. Here’s what it means for your finances.",
+              "summary_en": "With Democrats winning both the House and Senate, the midterm results are now clear and are likely to affect Americans’ investments and personal finances.",
+              "topic_evidence": "Here’s what it means for your finances.",
+              "reason": "直接面向个人财务，解释选举结果对投资和家庭钱包的潜在影响。",
+              "reason_en": "Directly addresses personal finance and the election’s potential impact on investments and household wallets.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive",
+              "title": "C++26 未获通过：C++ 将如何存续",
+              "summary": "Hacker News 讨论链接到一篇博客，标题为“C++26 未获通过”，并追问 C++ 如何存续；该条目获 211 分、105 条评论。",
+              "title_en": "C++26 Disapproved: How Does C++ Survive?",
+              "summary_en": "A Hacker News item links to a blog post titled 'C++26 Disapproved' asking how C++ survives; it has 211 points and 105 comments.",
+              "topic_evidence": "C++26 Disapproved",
+              "reason": "博客标题直接讨论 C++26 标准化未获通过及语言存续问题，属于技术社区对编程语言治理的观点与分析。",
+              "reason_en": "The blog title directly frames the C++26 standardization failure and the language's survival, making it a technical-community opinion and analysis item.",
+              "score": 8
+            },
+            {
+              "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+              "title": "我如何使用 AI（2026 年 10 月）",
+              "summary": "Hacker News 讨论链接到一篇个人博客，作者介绍其在 2026 年 10 月使用 AI 的方式；该条目获 132 分、112 条评论。",
+              "title_en": "How I Use AI (Oct 2026)",
+              "summary_en": "A personal blog post describes how the author uses AI in October 2026; the Hacker News item has 132 points and 112 comments.",
+              "topic_evidence": "How I use AI (Oct 2026)",
+              "reason": "个人博客以第一人称总结 AI 使用方式，属于技术观点类经验文章，且 HN 评论活跃。",
+              "reason_en": "The personal blog offers a first-person account of AI use, fitting technical opinion and experience writing, with active HN discussion.",
+              "score": 7
+            },
+            {
+              "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+              "title": "“Astra 可读写权重以改进 Qwen”的说法具有误导性",
+              "summary": "Hacker News 讨论链接到一篇博客，指称有关 Astra 能读写权重以改进 Qwen 的帖子具有误导性；该条目获 951 分、197 条评论。",
+              "title_en": "The 'Astra Can Read and Write Weights to Improve Qwen' Post Is Misleading",
+              "summary_en": "A blog post argues that a claim about Astra reading and writing weights to improve Qwen is misleading; the Hacker News item has 951 points and 197 comments.",
+              "topic_evidence": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+              "reason": "文章直接反驳一项 AI 模型能力声明，属于对 AI 技术主张的评论与分析。",
+              "reason_en": "The post directly challenges an AI model capability claim, making it commentary and analysis on an AI technical assertion.",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+              "title": "Postman 被指静默自动安装 AI 插件并试图共享全部 API 数据",
+              "summary": "Hacker News 讨论链接到 Postman 支持仓库的一则 issue，标题称其静默自动安装 AI 插件并试图共享全部 API 数据；该条目获 1171 分、383 条评论。",
+              "title_en": "Postman Silently Auto-Installs AI Plugins and Attempts to Share All API Data",
+              "summary_en": "A Hacker News item links to a Postman support issue alleging silent AI plugin installation and attempts to share all API data; it has 1,171 points and 383 comments.",
+              "topic_evidence": "Postman silently auto-installs AI plugins and attempts to share all API data",
+              "reason": "高热度社区讨论聚焦开发者工具的数据与 AI 插件行为，属于技术社区争议性讨论。",
+              "reason_en": "A high-traffic community discussion focuses on a developer tool's data and AI plugin behavior, making it a contested technical-community thread.",
+              "score": 8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+      "original_title": "How Mercor ships internal apps and billions of production tokens on one platform",
+      "original_summary": "Mercor on VercelBatch jobs cut from 12 hours to 2 hours18M requests and 63B tokens routed through AI Gateway in 10 daysExpert access provisioned in seconds via Vercel PassportOver 2,000 projects created by hundreds of internal buildersMercor connects hundreds of thousands of domain experts with frontier AI labs, helping those labs generate the human data they need to train and evaluate leading models. It also runs large batches of automated grading jobs to evaluate models for labs and enterprises.Demand arrives in bursts that can push model traffic to peak capacity for days, even as individual evaluation or labeling jobs carry 24-hour deadlines. With so little time to deliver, requests waiting on a provider’s rate limits can put a client’s deadline at risk.Mercor’s business teams also need applications tailored to each engagement, giving experts a way to see their tasks and progress without waiting for changes to the core platform.For Aaron Brown, Mercor’s Head of Security, enabling more people to build means making it easier to give them the access they need and keep track of how they use it. Mercor uses Vercel AI Gateway to manage model access and Vercel Passport to handle secure access to their applications. When model capacity becomes a customer deadlineMercor’s mix of direct integrations and third-party gateways could not provide enough token-per-minute capacity for its open-model workloads when demand surged. As requests hit provider limits and entered retry queues, time-sensitive batch jobs stretched beyond 12 hours, consuming more than half of a client’s 24-hour deadline.AI Gateway provided more inference capacity and failover routing between providers when requests hit rate limits, helping batch work continue instead of waiting in retry queues. Mercor reports that those jobs now finish in 2 to 3 hours, leaving more time to complete the rest of the client’s work. In its first 10 days on Gateway, the team routed 18 million requests and 63 billion tokens, without hitting rate limits.Mercor continues to use multiple gateways and vendors, valuing Vercel for its combination of model access, controls, and hands-on support when the team needs more capacity. Engineers also get one API for leading foundation model providers and a growing catalog of open models, so they can try a new model without building another provider integration.Giving engineers room to experiment within limitsAs model use grew, Mercor needed to understand where token spend was going, but its previous setup offered little visibility into usage by team and project. A single loop error in a script could exhaust the available budget.Hundreds of Mercor engineers now use open models through AI Gateway with per-user keys that carry expiration dates, token limits, and spend limits. Security can give experimentation a budget and an end date, then use the usage records to see which user, project, and workload is driving consumption. Engineers can try different models through the same gateway under those controls, without managing another set of provider credentials each time.Managing access as business teams buildA few hundred people across Mercor’s business teams now build applications on Vercel, where the company’s project count has grown from fewer than a dozen to roughly 2,000. Many of those projects are temporary environments for a specific client engagement.One production use case gives experts detailed views of their project tasks and progress. Rather than ask engineering to add every engagement’s interface to the core platform, business teams build the interfaces themselves and share them with the experts doing the work.To share those applications, teams need to control who can sign in without taking on a separate authentication setup for every project. Passport provides that common authentication layer, handling sign-in to Vercel deployments through an existing identity provider.Mercor’s identity team built a product called Audiences, integrating Vercel Passport as a first class primitive, to automate access provisioning. Once a team selects the experts who need access, Audiences creates the IdP group, Vercel connection, and Passport configuration. With that workflow, Mercor reports provisioning access in seconds for audiences ranging from dozens of experts to tens of thousands. Offboarding works the same way in reverse. Because access is derived from the IdP group, removing the group at the end of an engagement removes access to the project, so no stale access is left behind.Limiting what each agent can doAlongside those applications, Mercor uses agents to answer questions from experts in its marketplace, automate HR workflows, and help employees navigate internal systems. Mercor’s approach is to give each agent narrow permissions suited to its job, rather than everything available to the person who invoked it.For agents that use open models through AI Gateway, Mercor can also scope model access, set expiration dates, and cap spending. That governs their model use while Mercor separately determines which systems and actions each agent can access.What’s nextMercor expects more open models to power its internal agents and systems, and more teams outside engineering to build tools for experts. As that work grows, the company wants teams to spend less time setting up model integrations and application authentication so they can respond to client workloads with tight deadlines.The aim is to make the secure path the fastest path, with shared model access and repeatable authentication workflows helping experts get the tools they need and labs get their work back on time. Mercor wants to support that growth without security work increasing at the same rate.About Mercor: Mercor is an AI data company that organizes human intelligence for AI training and evaluation. Its network of more than 5M experts, from doctors to lawyers to engineers, powers benchmarks, enterprise evals, RL environments, post-training and agent deployments. Read more",
+      "topic_evidence": "18M requests and 63B tokens routed through AI Gateway in 10 days",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "product",
+        "platform"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/cisco-cyber",
+      "original_title": "How Cisco defends at machine speed with OpenAI",
+      "original_summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "topic_evidence": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/index/heimstaden",
+      "original_title": "Heimstaden is changing residential real estate management with AI",
+      "original_summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "topic_evidence": "uses OpenAI’s ChatGPT Enterprise and Codex to transform property management",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "original_title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "original_summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "topic_evidence": "get recommendations based on what they're currently in the mood for",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "original_title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "original_summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "topic_evidence": "Schools choosing to restrict AI altogether will no longer be able to access Google Search",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.00244",
+      "original_title": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+      "original_summary": "arXiv:2611.00244v1 Announce Type: new Abstract: LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generated note. Yet off-the-shelf agentic models, including GPT-5.5 and GLM-5.3, often write ineffective notes, and reinforcement learning (RL) alone rarely discovers useful note-taking behavior. We present MEMENTO, a long-context agent built on Qwen3-8B and trained to manage its context through compaction. We first bootstrap note-taking by fine-tuning on synthetic trajectories annotated with notes generated in hindsight, then reinforce it with RL using a reward that combines answer correctness, note-quality heuristics, and confidence calibration. Although trained only to compact into a fresh window, MEMENTO extends at test time to strategies such as context folding and confidence-based backtracking. On book-level question answering across four benchmarks, with books of up to 2.5M tokens, MEMENTO raises Qwen3-8B's accuracy from 36.9% to 67.8% while never holding more than 20K tokens in context. It outperforms GPT-5.5 agent in the same harness (13.1%) and full book context (56.7%) at less than 1/50 the cost. It also nearly matches a ~100x larger GLM-5.3 agent (69.3%) at 1/9 the cost, and comes within 6.4 points of GLM-5.3 full context at 1/26 the cost.",
+      "topic_evidence": "deciding what to retain in a fixed-size context window",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "reward",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.00450",
+      "original_title": "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
+      "original_summary": "arXiv:2611.00450v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) helps large language models (LLMs) answer factual questions beyond their training data, but it adds storage and inference costs. Distilling previously retrieved information into parametric memories enables reuse without online retrieval. However, training the memory to mimic a retriever rewards accurate independent predictions, which do not necessarily improve the final output quality when combined with the LLM's existing predictions. To address this, we introduce ResMem, in which the LLM reads retrieved text offline to generate teacher targets. This design avoids storing massive token representations, unlike existing parametric memory approaches such as MLP Memory, which relies on k-nearest neighbor (kNN) datastores. Furthermore, by using the LLM as an offline teacher that reads privileged retrieved evidence alongside the input, we train a parametric memory to learn an additive logit residual. This residual aligns the predictions of a student sharing the same backbone with the teacher distribution, while self-distillation updates remain confined to the parametric memory. On a Wikipedia subset, ResMem reduces the storage retained for teacher construction by 94.7% compared with the evaluated kNN pipeline. Across five question answering datasets, ResMem raises mean token F1 from 32.83% for the frozen LLM to 34.48%. It also breaks 21% fewer of the LLM's correct answers than a kNN-trained memory. These findings validate our motivation of treating retrieval as a learning resource, with parametric memory shaped by how retrieved knowledge is used to inform the model's future predictions. Code and model weights are available at https://github.com/SSRand/From-Lookups-to-Lessons and https://huggingface.co/RandHan/ResMem-Mistral-7B-v0.3.",
+      "topic_evidence": "Distilling previously retrieved information into parametric memories",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "reward",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "original_title": "Anthropic is working on a system to prove AI models’ identity",
+      "original_summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "topic_evidence": "let anyone check that an AI response really came from the model it claims to be from",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.00420",
+      "original_title": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
+      "original_summary": "arXiv:2611.00420v1 Announce Type: new Abstract: Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges. However, turning a graph into a safety-relevant insight requires hours of manual analysis by experts. We introduce Circuit Oracle, an off-the-shelf LLM equipped with a multi-agent harness and task-specific authored skills, which answers natural-language questions about a target model by reading the attribution graph through tool calls. We evaluate it on three safety-relevant proxy tasks: detecting spurious features in probe circuits, eliciting hidden knowledge from taboo-finetuned models, and suppression jailbreaking via feature-level interventions. Beyond task scores, the oracle produces pruned subgraphs and context-specific feature explanations that we assess qualitatively. Results are mixed. On spurious-feature detection, Circuit Oracle reaches 78.2 $\\pm$ 2.4% accuracy, outperforming single-layer feature-ranking baselines. On secret elicitation, trained self-explainers like Activation Oracles remain the stronger baseline. On refusal suppression over 50 prompts, its single committed intervention is slightly below a diff-in-means baseline, and only exceeds it when allowed the best of five attempts. Results are stable across five runs and across model choices for the agents. We also release the pruned subgraphs and context-specific feature readings that revise existing global labels, and invite future work to develop evaluations that can measure their usefulness directly.",
+      "topic_evidence": "Automating Attribution Graph Analysis via Natural-Language Queries",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "safety"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "original_title": "StateBench: Testing how language models track state changes over long documents",
+      "original_summary": "",
+      "topic_evidence": "Testing how language models track state changes over long documents",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "languages-frameworks",
+      "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production",
+      "original_title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+      "original_summary": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020. F3 reduced execution computational costs by compiling all features into a single merged graph, but that [...] Read More... The post F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale appeared first on Engineering at Meta .",
+      "topic_evidence": "a single request can require more than 20,000 features",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "framework"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "original_title": "llm 0.37",
+      "original_summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2 , which can embed text, audio, images, and video. A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes! This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix. So thanks to 0d00ciallo0721 , ac1982 , Allen Flux , Bian Yuhan , Bishop Kammeraad , Chen Yufeiyang , Christopher Krah , Ethan Stoner , Jiachen Xie , Olamide Faniyan , Sharat Chandra Sai Boddu , nosmile99 for helping out with (or spending tokens on) this release! Tags: open-source , projects , ai , annotated-release-notes , generative-ai , llms , embeddings , llm",
+      "topic_evidence": "new llm openai endpoint add command",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "open source",
+        "cli",
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+      "original_title": "Vercel Security Review now in public beta",
+      "original_summary": "Vercel Security Review is now in public beta for Pro and Enterprise teams. Once enabled, every push to a connected GitHub repository is automatically reviewed for vulnerabilities, and findings are reported in the Vulnerabilities dashboard.What triggers a reviewSecurity Review runs automatically when code is pushed to a connected GitHub repository. Because reviews start from push events rather than pull requests, direct and force pushes to your production branch are reviewed as well. Every project affected by a single push is reviewed together.What a finding includesEach finding records the project, environment, branch, and commit, with a summary, a suggested fix, and an AI-generated severity rating.Security Review adds its own GitHub check to each commit it reviews. When there's a pull request, it also posts findings as review comments that link back to each finding. On public repositories, finding details stay in the dashboard.Fixes and resolutionClicking Fix with Vercel Agent on a vulnerability report hands the finding to Vercel Agent, which proposes a fix and opens a pull request for you to review. Nothing merges until you approve it.To fix findings with your coding agent instead, use vercel security vulnerabilities in the Vercel CLI, or copy any finding as Markdown or JSON.Security policiesTeams can write security policies in plain language, for all projects or specific ones, to give Security Review more context about how they build. Set a team policy in Agent settings and a project policy in the project's Security settings.LimitationsSecurity Review analyzes source code. It isn't a security audit, and it doesn't perform runtime or penetration testing. It helps you find vulnerabilities but doesn't guarantee your application is free of them.PricingSecurity Review is billed at the Vercel Agent rate: provider inference at the underlying token rate with no markup, plus the Vercel Token Rate of $0.25 per million tokens (input, cached, output). Reviews run on each push to GitHub, so cost scales with how often you push and how much code changes.Security reviews are free until November 10, 2026, and fixes made with Vercel Agent are billed at the Vercel Agent rate.Enable Security Review in your team’s Agent settings, or read the documentation and the announcement to learn more. The CLI command needs Vercel CLI 65.10.0 or later. Read more",
+      "topic_evidence": "every push to a connected GitHub repository is automatically reviewed for vulnerabilities",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github",
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world",
+      "original_title": "Arnis turns any place on Earth into a Minecraft world",
+      "original_summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+      "topic_evidence": "Louis Erbkamm built the first prototype in his free time.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+      "original_title": "Diagnose Vercel CLI setup problems with vercel doctor",
+      "original_summary": "Vercel CLI now includes vercel doctor, which checks your setup and shows the command that fixes each problem it finds.It checks the CLI version and install, your login and current team, the project link, and your project configuration in vercel.json. It also reports active incidents from the Vercel status page.Each check reports OK, Warning, Failed, or Skipped. When vercel upgrade can't update the installed CLI, the install check shows where the CLI runs from and how to reinstall it.Doctor runs without a login or a linked project, and it never prompts, logs in, or links a project, so coding agents can run it before guessing at a fix. Add --json to get each check's status and suggested commands as structured output.Update to the latest CLI version and run vercel doctor to check your setup, or read the doctor command reference. Read more",
+      "topic_evidence": "Vercel CLI now includes vercel doctor",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "cli"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+      "original_title": "How OpenEvidence scales medical search for 650K doctors",
+      "original_summary": "OpenEvidence on VercelServes 650,000 doctors with medical searchCompletes production deployments in about five minutesAbsorbs traffic spikes without additional capacity provisioningReduced serverless spend by 90% with Fluid computeUpdates doctor- and patient-facing applications independentlyOpenEvidence helps physicians find medical evidence during care, whether they’re checking a dosage on intensive care rounds or handling a case outside their specialty without a specialist nearby. Answers draw on peer-reviewed literature and include citations, so doctors can examine the sources behind them.OpenEvidence’s small team began using Vercel to get early experiments online and kept that workflow as the product grew, relying on the platform to handle web deployments and capacity.Building software physicians depend onThe stakes are different when software helps inform medical decisions. An incorrect answer can affect how a doctor treats a patient, while an unavailable application can cut off access to evidence when it is needed.OpenEvidence supported more than 20 million clinical consultations in January 2026. The company also reported that more than 100 million Americans were treated by doctors using OpenEvidence in 2025.\"Honestly, life or death is not inaccurate,\" says Kush Khosla, Engineering Lead at OpenEvidence. \"We operate in situations where it's an ER and they really need to know what's going on. Uptime is very, very important to us.\"\"A lot of doctors and medical professionals are used to really outdated software,\" says Andy Yoon, Engineering Lead at OpenEvidence. A more modern experience still needs to meet physicians' expectations of speed, stability, clarity, and information they can trust. The small team needs a way to test updates to the web application before putting them into production and to roll back if something goes wrong.Keeping releases simple as the audience growsAndy recalls why Vercel suited the team he joined at OpenEvidence. \"I was pretty much the only engineer on our team coming from an actual frontend background,\" he says. \"Most of our team works in Python and machine learning.\" He adds, \"Given the makeup of our engineering team, Vercel really scaled with our needs so well.\"The team builds its physician-facing web application with the Next.js framework. When engineers push changes to a development branch, Vercel builds and deploys a preview, giving them a link they can use for live demos and share with colleagues to try new features. Pushing or merging into the production branch then triggers the production build and deployment. If a release needs reverting, the team can roll back to a previous deployment.That workflow lets the team release multiple times a day, with each change becoming available to a physician audience that Kush thinks about whenever he ships something:More doctors without more provisioningKeeping that application available means handling demand the team can’t always anticipate. Andy was scrolling through Slack when he saw the message that OpenEvidence had gone viral on TikTok, reaching around two million views in under a week. He watched traffic climb and checked the logs. Response times stayed fast and error rates remained near zero, and with no additional capacity to provision, he went back to his work.Beyond sudden spikes, the team has accommodated sustained growth without rebuilding the web application.\"Not once have I had to think, now that we have five times as many doctors, what's happening to page loads or time to first paint,\" Kush says. \"The scaling has happened so naturally that we end up focusing on other things.\"A 90% drop in serverless spendAs usage grew, VP of Engineering Micah Smith was watching compute costs. The team enabled Fluid compute for its functions on Vercel, and Micah described the result alongside the wider infrastructure budget:\"We reduced our serverless spend by 90% while maintaining the same performance, and even as we've scaled up to 1000x growth, Vercel is less than 5% of our overall infra spend.\"Fluid compute lets multiple requests share a running function instance, so it can handle other work while a request waits for another service, such as a database or an AI backend, to respond. With Active CPU pricing, that waiting time doesn’t incur CPU charges, though memory remains billed while requests are in progress.A familiar workflow for a new audienceTake Home, OpenEvidence’s first patient-facing application, lets a doctor translate a clinical answer into plain language and share it with a patient, who logs in to review and save the evidence. Clinical-trial matching is also part of the application’s planned direction.To support this expansion, the team uses a pattern established through dozens of early proofs of concept, each deployed as its own Vercel project with a custom domain. Stakeholders could open those applications and test the workflows for themselves. Getting new projects online in minutes helped the team find product-market fit and made it easier to win early enterprise partnerships.Take Home has its own project and domain too, so engineers can update the patient experience without deploying the other applications.With Take Home, evidence that helps a doctor during a consultation can become something a patient returns to afterward.About OpenEvidence: OpenEvidence helps healthcare professionals find medical evidence at the point of care, with answers sourced, cited, and grounded in peer-reviewed literature. Physicians use it daily across more than 10,000 hospitals and medical centers in the United States. Its mission is to help doctors save lives and improve patient care. Learn more at openevidence.com. Read more",
+      "topic_evidence": "Reduced serverless spend by 90% with Fluid compute",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "database",
+        "infrastructure",
+        "performance"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+      "original_title": "How Zapier turns ideas into working software in hours with Vercel",
+      "original_summary": "Zapier on VercelInteractive partner demos in under two hours with v0, replacing a process that could take weeksFirst versions of three internal applications, each built in one dayA shared daily briefing for more than 60 marketers, replacing individual efforts to assemble the same information3.3 million sandboxes created in one month, isolating the code execution behind Zapier’s AI workloadsBefore the industry had a word for agents, Zapier was building them. Today Zapier is the AI orchestration platform connecting AI to the workflows, data, and systems businesses use every day.Zapier has been a Vercel customer since they began using Vercel for web experiences several years ago. They stayed, and expanded, because every team that needed to ship quickly found the same answer: speed, with the security guardrails already in place. As they grew, so did their adoption of Vercel as more teams found new uses for the platform. Today, Vercel supports work across engineering, partnerships, and marketing, from customer-facing AI to interactive partner demos and internal applications.The needs vary by team, but the priority is getting useful work into people’s hands quickly. A backend engineer can create an interactive demo of an integration inside a partner’s product. In marketing, a former product marketer with no prior deployment experience can share tools containing sensitive information through a company-approved environment and keep improving them as colleagues use them.Zapier’s teams are moving faster and doing more than they could before. When the next launch comes around, building on Vercel is a given.From weeks of prototype work to a demo in under two hoursEvery partnership Zapier signs extends what its customers can automate. The Powered by Zapier team is how those partnerships become product, helping SaaS and AI companies embed Zapier’s automation capabilities directly into their own tools, so users can automate without ever leaving the partner’s app. The stakes are high, because Zapier relies on this team to make its platform the entry point to all the software in the world. The problem was speed: collaborating outside the organization took forever, with every prototype requiring screenshots, design time, and frontend resources, and weeks could pass before a partner saw anything clickable.With v0, the team can create a fully interactive, multi-view prototype in under two hours, showing an embedded Zapier experience inside the partner’s own product.Chu’s background is in backend development, not frontend engineering or design, but v0 lets her build these experiences without coordinating a separate design and frontend effort for every partner conversation. Partners can click through the flow and share it with colleagues, using the prototype as a blueprint for implementation alongside the API documentation.Sharing sensitive internal data securelyIn marketing, Joe Stych set out to make the team’s scattered knowledge easier to use. He had spent years in product marketing before becoming a agentic go-to-market engineer, but had never worked out of a Git repository or deployed an application.At an internal hackathon, he built Marketing Hive, a shared source for positioning, messaging, personas, and competitive intelligence. Sharing his local prototype meant making sensitive information accessible to colleagues without exposing it to everyone else.“The Hive holds our positioning, personas, and competitive intel, so I couldn't just send people a link. On Vercel it was behind our SSO from the first deploy, so I could share it without exposing it” says Joe Stych, Senior Lead, Agentic GTM at Zapier. Zapier’s data and security teams had already endorsed Vercel. Stych deployed through the company’s approved internal tooling environment, with access gated behind Zapier’s single sign-on.He develops in Cursor and keeps code and source material in GitLab, where changes trigger Vercel builds and deployments. If an update needs to be undone, he can roll back the deployment.The first versions of three of his internal applications took about a day each. In roughly two months, a hackathon project had grown into production software used across marketing. It was built by someone who had never deployed anything before.Internal apps for marketing and salesMarketing Hive holds the knowledge. Marketing OS puts it to work. It gives more than 60 marketers a daily briefing in Slack and a dashboard with what changed across marketing, one update from each team, a win worth celebrating, and progress against goals. Each marketer can start from the briefing instead of assembling the same information from separate channels. “The first five minutes of your day, you need to look at the Marketing OS update,” says Dan Slagen, Zapier’s CMO.Readers mark what they found useful, helping Stych prioritize improvements. The briefings also spark discussions in a marketing channel open to everyone at the company. Stych is building a sales coaching application that brings together account context and industry messaging before a call. Afterward, it reviews the Gong recording to highlight what worked and suggest changes to the talk track.For the internal applications, he checks reported numbers and the evidence behind claimed insights. Decisions about positioning remain with people, and he says additional safeguards will come before agents publish without human review.Model access and isolated code executionBeyond Marketing OS, a separate team at Zapier uses AI Gateway to send requests to AI models on behalf of customers using Zapier products.A common endpoint lets an application change or add models without maintaining a separate integration for each provider. Failover gives requests another route when a provider cannot serve them, while unified reporting lets a team see their usage across providers in once place. What's nextZapier’s relationship with Vercel began with web experiences and expanded as the company grew, with more teams finding uses for the platform as their needs changed. Today its role spans the software Zapier runs for customers and the tools its people build for one another, and every thread is still widening.The clearest picture of where it leads is in marketing, where other teams are starting to borrow the pattern. The goal is more versions across the company, and perhaps a Revenue OS for Zapier’s customer-facing teams next, each built the way the first one was, by someone close to the problem. First comes trust. Stych still checks reported numbers and the evidence behind claimed insights, and additional safeguards will come before agents publish without human review.Across all of it, Vercel helps Zapier put useful work into people’s hands and keep adapting it to the needs of the business. Read more",
+      "topic_evidence": "3.3 million sandboxes created in one month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+      "original_title": "Vercel CI no longer requires a linked Vercel project",
+      "original_summary": "Vercel CI can now run on a GitHub repository that has no Vercel project. Until now you had to create an empty project just to connect the repository.To enable it, you need:The Vercel GitHub App installed with access to the repositoryYour GitHub account connected to your Vercel accountWrite or admin permission on the repositoryThen, from a clone of the repository, run:CI is enabled for the team your CLI is set to. Pass --scope to use a different one. From the next push, tasks run as configured in your repository.Private GitHub repositories only. Public repositories and other Git providers are not yet supported.Read the Vercel CI documentation to configure tasks. Read more",
+      "topic_evidence": "Vercel CI can now run on a GitHub repository that has no Vercel project",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+      "original_title": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
+      "original_summary": "Europe’s Hera spacecraft has captured its first clear view of two asteroids involved in NASA’s historic 2022 experiment to redirect a potentially dangerous space rock. Now approaching the pair, Hera will investigate the mysterious aftermath of the collision and uncover why the asteroid shifted far more than scientists predicted.",
+      "topic_evidence": "Hera spacecraft has captured its first clear view of two asteroids",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space",
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
+      "original_title": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
+      "original_summary": "NASA’s Voyager 1 is approaching an extraordinary milestone nearly 50 years after its launch, even as engineers battle dwindling power and mysterious technical problems. A clever energy-saving maneuver has extended the spacecraft’s scientific mission, while an unexplained 48-hour communications blackout recently gave NASA a scare. On November 18, Voyager 1 will reach a distance of one light-day from Earth, making even the simplest round-trip communication take 48 hours.",
+      "topic_evidence": "about to reach a historic one-light-day milestone",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa",
+        "energy"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "original_title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+      "original_summary": "Scientists have discovered all five essential nucleobases used in DNA and RNA in pristine samples from asteroid Ryugu, revealing that key ingredients for life existed in space billions of years ago. The remarkable finding adds to growing evidence from other asteroids and meteorites that these molecules were widespread throughout the early Solar System.",
+      "topic_evidence": "all five essential nucleobases used in DNA and RNA",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "space"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+      "original_title": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
+      "original_summary": "Something mysterious is disturbing Betelgeuse, and astronomers believe they have identified the culprit: a hidden companion star called Siwarha. New radio observations reveal that the smaller star may be plowing through Betelgeuse’s enormous atmosphere, creating disturbances that subtly stretch and distort the red supergiant’s shape.",
+      "topic_evidence": "a hidden companion star called Siwarha",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "star",
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm",
+      "original_title": "Gene editing could replace a lifetime of medication, but there's a catch",
+      "original_summary": "A single gene-editing treatment could someday protect against heart disease, high cholesterol, and other common conditions for decades, potentially replacing lifelong medications. But scientists warn that permanently altering genes introduces risks that could take years to emerge, making long-term safety a critical challenge.",
+      "topic_evidence": "Gene editing could replace a lifetime of medication",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261101010552.htm",
+      "original_title": "Scientists trick cancer cells into making the drugs that kill them",
+      "original_summary": "Scientists have developed a promising new cancer-fighting strategy that uses carbon monoxide naturally produced by tumor cells to manufacture powerful drugs inside the cancer cells themselves. Early laboratory experiments suggest the technique could selectively attack cancer while sparing healthy cells, potentially paving the way for safer chemotherapy alternatives.",
+      "topic_evidence": "uses carbon monoxide naturally produced by tumor cells to manufacture powerful drugs",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+      "original_title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
+      "original_summary": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in humans, the experimental treatment could offer a faster path toward therapies that target the disease at its roots.",
+      "topic_evidence": "a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
+      "original_title": "Large Hadron Collider reveals evidence of Big Bang matter in surprisingly small collisions",
+      "original_summary": "Scientists at CERN's Large Hadron Collider have uncovered compelling new evidence that even relatively small atomic collisions can recreate the extraordinary state of matter that filled the universe moments after the Big Bang. Known as quark-gluon plasma, this exotic substance forms at temperatures more than 100,000 times hotter than the center of the Sun, causing ordinary particles to break apart into their fundamental building blocks.",
+      "topic_evidence": "even relatively small atomic collisions can recreate the extraordinary state of matter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them",
+      "original_title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+      "original_summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
+      "topic_evidence": "pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/one-roof",
+      "original_title": "One Roof",
+      "original_summary": "A new way to build with agents. You stay in charge. Discussion | Link",
+      "topic_evidence": "A new way to build with agents. You stay in charge.",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/nana-2",
+      "original_title": "nana",
+      "original_summary": "One terminal for every coding agent, on Windows Discussion | Link",
+      "topic_evidence": "One terminal for every coding agent, on Windows",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "original_title": "People Search by Context.dev",
+      "original_summary": "People Search API: Find People by Role, Company & Location Discussion | Link",
+      "topic_evidence": "People Search API: Find People by Role, Company & Location",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "original_title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "original_summary": "The one-year-old startup is now valued at $300 million.",
+      "topic_evidence": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "startup-strategy",
+      "url": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch",
+      "original_title": "Rivian spinout Also was working on an e-moto project in Kenya — until it walked away",
+      "original_summary": "Also co-founder and president Chris Yu told TechCrunch that he wanted to prioritize autonomous vehicles.",
+      "topic_evidence": "was working on an e-moto project in Kenya — until it walked away",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "founder"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Seven flights across Europe targeted by suspected bomb threats",
+      "original_summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+      "topic_evidence": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "europe"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
+      "original_summary": "Supermarkets have reported problems from Estonia and Sweden to Portugal and Italy and many retainers have been forced to discard food.",
+      "topic_evidence": "supermarket freezers hit by cyber-attacks in 10 countries",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "attack",
+        "attacks",
+        "europe"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+      "original_title": "Trump’s troubles with Iran could open the door to China",
+      "original_summary": "Beijing launches diplomatic salvo to woo Gulf leaders and bolster its influence in the region China has held a flurry of meetings with Gulf leaders in a sign that Beijing is stepping up its diplomatic efforts in the Middle East. The diplomatic salvo comes before a highly anticipated meeting between Donald Trump and Xi Jinping when the US president is expected to attend the Apec conference in Shenzhen, China, on 18 and 19 November. Continue reading...",
+      "topic_evidence": "China has held a flurry of meetings with Gulf leaders",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "middle east"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+      "original_title": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+      "original_summary": "As the Ukraine war grinds on, ties between Russia and neighboring Japan are at their worst in decades. Tokyo wants more support from Washington, but some Japanese are concerned they may not get it.",
+      "topic_evidence": "ties between Russia and neighboring Japan are at their worst in decades",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "original_summary": "At least 38 people are killed in 24 hours and Ukraine's Volodymyr Zelensky warns dozens more could be trapped under rubble.",
+      "topic_evidence": "At least 38 people are killed in 24 hours",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "attack",
+        "attacks"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections?traffic_source=rss",
+      "original_title": "Democratic Party wins US Senate in 2026 midterm elections",
+      "original_summary": "The outcome is widely seen as a rebuke to Trump's Republican Party, which won control of the chamber in 2024.",
+      "topic_evidence": "The outcome is widely seen as a rebuke to Trump's Republican Party",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+      "original_title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "original_summary": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
+      "topic_evidence": "first Democrat to win Texas Senate seat since 1988",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Florida Republicans fend off Democrats as state elects first black governor",
+      "original_summary": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
+      "topic_evidence": "will be the first black governor of Florida",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+      "original_title": "ANC faces anger over poor services as South Africans vote in local elections",
+      "original_summary": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages, power cuts and crumbling infrastructure. The former liberation movement, which Nelson Mandela led to power in 1994 at the end of apartheid as South Africa’s first black president, is still likely to be the largest party. However, polls show it getting less than a third of the vote, down from 45.6% at the last municipal elections in 2021 and 40.2% in 2024’s national elections . Continue reading...",
+      "topic_evidence": "voters go to the polls amid deep discontent over water outages, power cuts and crumbling infrastructure",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "elections",
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+      "original_title": "South Carolina elects Democratic senator for first time in almost three decades",
+      "original_summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
+      "topic_evidence": "South Carolina elects Democratic senator for first time in almost three decades",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
+      "original_title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
+      "original_summary": "Cop30 host sets out steps to break link with coal, oil and gas as it aims to move focus from negotiating to implementing All countries can start to break their dependence on fossil fuels now without needing to wait for new technologies or economic changes, Brazil’s government has said ahead of a global climate summit. Brazil, the host of last year’s UN climate conference , set out the world’s first global “roadmap” for phasing out fossil fuels on Tuesday, showing that countries could boost their economies and pull people out of poverty while breaking the link with coal, oil and gas. Continue reading...",
+      "topic_evidence": "first global ‘roadmap’ for phasing out fossil fuels",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world",
+        "climate"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Spanish transport minister resigns days after deadly train crash",
+      "original_summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "topic_evidence": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725872.shtml",
+      "original_title": "国台办回应赖清德当局称要慎防大陆“认知战”和“介选”",
+      "original_summary": "中新网11月4日电 11月4日，国务院台办举行例行新闻发布会。有记者问：赖清德及民进党当局声称，要慎防“中国对台湾选举进行认知作战，以及透过黑帮或在地协力者介入选举等”。请问对此有何评论？",
+      "topic_evidence": "要慎防“中国对台湾选举进行认知作战，以及透过黑帮或在地协力者介入选举等”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725849.shtml",
+      "original_title": "陆委会称现在没有“台独”问题 国台办回应",
+      "original_summary": "中新网11月4日电 11月4日，国务院台办举行例行新闻发布会。有记者问：近日，陆委会称，现在没有“台独”问题，只有要不要被强迫统一的问题，台方的两岸政策目标为“维持和平现状、捍卫民主自由”。请问对此有何评论？",
+      "topic_evidence": "现在没有“台独”问题，只有要不要被强迫统一的问题",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院",
+        "政策"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725904.shtml",
+      "original_title": "何立峰在香港国际金融领袖投资峰会上发表视频致辞",
+      "original_summary": "中新社香港11月4日电 香港国际金融领袖投资峰会2日至4日在香港举行，中共中央政治局委员、国务院副总理何立峰发表视频致辞。",
+      "topic_evidence": "何立峰发表视频致辞",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "国务院"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725888.shtml",
+      "original_title": "郭宁宁任福建省副省长、代省长",
+      "original_summary": "福建省十四届人大常委会第二十五次会议11月4日决定，接受赵龙辞去福建省人民政府省长职务的请求，任命郭宁宁为福建省人民政府副省长、代理省长。",
+      "topic_evidence": "任命郭宁宁为福建省人民政府副省长、代理省长",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "政府"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725894.shtml",
+      "original_title": "我国首批和美海岛三年建设“成绩单”出炉",
+      "original_summary": "自然资源部今天(4日)介绍，正在召开的中国—岛屿国家海洋合作论坛上，自然资源部海岛研究中心发布了《中国和美海岛建设阶段性成效报告》。报告指出，经过三年建设，我国首批33个和美海岛生态安全屏障进一步筑牢、宜居水平进一步提升、海岛绿色共富产业转型初显规模、防灾减灾能力进一步提升。",
+      "topic_evidence": "经过三年建设，我国首批33个和美海岛生态安全屏障进一步筑牢",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725879.shtml",
+      "original_title": "北京东城亮相京港洽谈会 集中发布14处产业空间",
+      "original_summary": "中新网北京11月4日电 (记者 陈杭)第二十九届北京·香港经济合作研讨洽谈会东城区专题推介活动3日举行。活动、项目、成果发布环节，现场发布东城区文化产业京港创新合作机遇清单；正式启动2026“故宫以东”完美世界文创校园设计大赛香港赛场。",
+      "topic_evidence": "集中发布14处产业空间",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725903.shtml",
+      "original_title": "宁夏中卫大麦地岩画建起数字基因库",
+      "original_summary": "中新社宁夏中卫11月4日电 (记者 于晶)记者4日从宁夏中卫官方获悉，坐落于卫宁北山戈壁之上的大麦地岩画数字化采集与建库工作取得阶段性成果，已有4095幅岩画录入大麦地岩画数字基因库，获得专属“数字身份证”。",
+      "topic_evidence": "已有4095幅岩画录入大麦地岩画数字基因库",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725875.shtml",
+      "original_title": "新疆昌吉：数据标注员为AI当“老师” 拓展就业新空间",
+      "original_summary": "中新网新疆昌吉11月4日电(吴昕妮) AI短剧中的生动画面、智能驾驶对环境的精准识别、具身智能机器人灵活的动作……如今，人工智能正逐渐融入日常生活。这些应用背后，离不开一群特殊的“老师”——数据标注员。他们通过标记海量数据，帮助人工智能识别信息、理解指令。",
+      "topic_evidence": "数据标注员为AI当“老师” 拓展就业新空间",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725929.shtml",
+      "original_title": "女子为博流量自导自演“停车场惊魂” 警方提示→",
+      "original_summary": "法治在线丨女子为博流量自导自演“停车场惊魂” 警方提示→",
+      "topic_evidence": "女子为博流量自导自演“停车场惊魂”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "警方",
+        "法治"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725928.shtml",
+      "original_title": "广东湛江海域2人凌晨垂钓遇险获救",
+      "original_summary": "中新网广东湛江11月4日电 (梁盛 谢晓琳 曾子晋)湛江海事局4日通报称，3日凌晨，湛江东海岛宝钢西区码头对开水域，两名出海垂钓人员因快艇故障被困海上、随流漂泊，情况危急。",
+      "topic_evidence": "两名出海垂钓人员因快艇故障被困海上、随流漂泊",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725922.shtml",
+      "original_title": "多国城墙“守护者”聚首大同 共探古城墙活态传承",
+      "original_summary": "中新社山西大同11月4日电 (记者 胡健)2026国际古城墙(堡)联盟交流活动4日在山西大同开幕，来自全球多国的城墙(堡)机构代表及文物保护、考古、建筑遗产、文旅融合等领域专家学者，共商古城墙(堡)文化遗产保护、研究与科学利用之道。",
+      "topic_evidence": "共商古城墙(堡)文化遗产保护、研究与科学利用之道",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "保护"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725930.shtml",
+      "original_title": "自助服务区补办身份证需刷身份证才能进？肇庆高新区通报：已改进",
+      "original_summary": "中新网11月4日电 据肇庆高新技术产业开发区网站消息，肇庆高新区行政服务中心发布情况通报称，日前，有网友反映该中心24小时自助服务区补办身份证需刷身份证才能进入。对此，该中心高度重视，接到反映当天即改进安保门禁措施，明确办事群众如遇特殊情况不能进入自助服务区，安保人员可协助开门进入，并在现场设置明显标识指引办理。",
+      "topic_evidence": "补办身份证需刷身份证才能进入",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks, Dollar Drop on US Vote; Dip Buyers Emerge: Markets Wrap",
+      "original_summary": "A Democratic sweep of both houses of Congress rippled across global markets, sending stocks and the dollar lower while boosting Treasuries, on speculation the result will put the brakes on President Donald Trump’s agenda.",
+      "topic_evidence": "sending stocks and the dollar lower while boosting Treasuries",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+      "original_title": "AI’s control over the bond market is growing — even rivaling war and elections",
+      "original_summary": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+      "topic_evidence": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "bond"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+      "original_title": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+      "original_summary": "The Swiss franc and Japanese yen jumped as US election results pointed to the Democrats winning both the House and the Senate, sending the dollar to its worst day in a month.",
+      "topic_evidence": "The Swiss franc and Japanese yen jumped",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+      "original_title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+      "original_summary": "The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+      "topic_evidence": "The chip maker is showing “real” revenue from AI",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "original_title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+      "original_summary": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+      "topic_evidence": "earnings show booming demand for AI servers",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/australia-s-household-spending-exceeds-estimate-boosted-by-fuel",
+      "original_title": "Australia’s Household Spending Exceeds Estimate, Boosted by Fuel",
+      "original_summary": "Australia’s household spending climbed more than expected in September, suggesting demand remains resilient in the economy even after the Reserve Bank’s rapid-fire interest-rate hikes to curb inflation.",
+      "topic_evidence": "Australia’s household spending climbed more than expected in September",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy",
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/thailand-growth-forecasts-raised-on-factory-data-revamp",
+      "original_title": "Thailand Growth Forecasts Raised on Factory Data Revamp",
+      "original_summary": "Thailand’s growth forecasts are rising as new factory data reveal a bigger boost from the artificial intelligence boom, though much of the economy remains sluggish.",
+      "topic_evidence": "new factory data reveal a bigger boost from the artificial intelligence boom",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/ecb-will-probably-have-to-raise-rates-in-december-nagel-says",
+      "original_title": "ECB Will Probably Have to Hike in December, Nagel Says",
+      "original_summary": "The European Central Bank will probably increase borrowing costs next month due to the worsening outlook for inflation, Governing Council member Joachim Nagel said.",
+      "topic_evidence": "The European Central Bank will probably increase borrowing costs next month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-gdp-q3-economic-growth-exports-surge-electronics-ai",
+      "original_title": "Hong Kong Economy’s Surprise Jump Takes Growth to Five-Year High",
+      "original_summary": "Hong Kong’s economy unexpectedly grew at a faster rate last quarter, taking expansion in the first nine months to the quickest in five years thanks to a surge in exports and improved investment.",
+      "topic_evidence": "Hong Kong’s economy unexpectedly grew at a faster rate last quarter",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "economy"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-04/bain-capital-chair-expects-30b-of-exits-this-year-video",
+      "original_title": "Bain Capital Chair Expects $30 Billion of Exits This Year",
+      "original_summary": "John Connaughton, Chair at Bain Capital, says he is optimistic about the firm’s Asia business and hopes to build momentum with exits in China. He speaks exclusively with David Ingles and Yvonne Man on the sidelines of the Hong Kong Monetary Authority Global Financial Leaders' Investment Summit. (Source: Bloomberg)",
+      "topic_evidence": "Expects $30 Billion of Exits This Year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "business"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
+      "original_title": "Democrats win the House and Senate. Here’s what it means for your finances.",
+      "original_summary": "The results from the U.S. midterm elections are now clear and look likely to have effects on Americans’ investments and their wallets.",
+      "topic_evidence": "Here’s what it means for your finances.",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "finance"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive",
+      "original_title": "C++26 Disapproved",
+      "original_summary": "Article URL: https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/ Comments URL: https://news.ycombinator.com/item?id=50360164 Points: 211 # Comments: 105",
+      "topic_evidence": "C++26 Disapproved",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "original_title": "How I use AI (Oct 2026)",
+      "original_summary": "Article URL: https://ben.stolovitz.com/posts/how-use-ai-oct-2026/ Comments URL: https://news.ycombinator.com/item?id=50355767 Points: 132 # Comments: 112",
+      "topic_evidence": "How I use AI (Oct 2026)",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "original_title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "original_summary": "Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 951 # Comments: 197",
+      "topic_evidence": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "original_title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "original_summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 1171 # Comments: 383",
+      "topic_evidence": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://openai.com/index/cisco-cyber",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/index/cisco-cyber",
+      "original_title": "How Cisco defends at machine speed with OpenAI",
+      "original_summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "topic_evidence": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security",
+      "approved": true,
+      "evidence": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security",
+      "reason": "主事件是Cisco将OpenAI模型用于企业安全防护，属于AI产品与平台应用，而非单纯公司新闻。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "original_title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "original_summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "topic_evidence": "get recommendations based on what they're currently in the mood for",
+      "approved": true,
+      "evidence": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "reason": "Netflix推出AI Discover标签页并按用户情绪推荐内容，属于具体AI产品功能。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "original_title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "original_summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "topic_evidence": "Schools choosing to restrict AI altogether will no longer be able to access Google Search",
+      "approved": true,
+      "evidence": "Google will let schools disable its AI tools",
+      "reason": "Google为学校提供AI工具关闭选项，且AI已整合进搜索产品，属于AI产品平台的功能与管控。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "original_title": "Anthropic is working on a system to prove AI models’ identity",
+      "original_summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "topic_evidence": "let anyone check that an AI response really came from the model it claims to be from",
+      "approved": true,
+      "evidence": "let anyone check that an AI response really came from the model it claims to be from",
+      "reason": "FlashProve用于验证AI模型身份与响应来源，属于AI研究与治理中的溯源透明度工具。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://huggingface.co/blog/allenai/statebench",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "original_title": "StateBench: Testing how language models track state changes over long documents",
+      "original_summary": "",
+      "topic_evidence": "Testing how language models track state changes over long documents",
+      "approved": true,
+      "evidence": "Testing how language models track state changes over long documents",
+      "reason": "StateBench是测试语言模型长文档状态追踪能力的基准，属于AI研究评测。"
+    },
+    {
+      "id": "developer/infra-data/https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+      "section": "开发与编程",
+      "subsection": "基础设施与数据",
+      "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+      "original_title": "Vercel CI no longer requires a linked Vercel project",
+      "original_summary": "Vercel CI can now run on a GitHub repository that has no Vercel project. Until now you had to create an empty project just to connect the repository.To enable it, you need:The Vercel GitHub App installed with access to the repositoryYour GitHub account connected to your Vercel accountWrite or admin permission on the repositoryThen, from a clone of the repository, run:CI is enabled for the team your CLI is set to. Pass --scope to use a different one. From the next push, tasks run as configured in your repository.Private GitHub repositories only. Public repositories and other Git providers are not yet supported.Read the Vercel CI documentation to configure tasks. Read more",
+      "topic_evidence": "Vercel CI can now run on a GitHub repository that has no Vercel project",
+      "approved": true,
+      "evidence": "Vercel CI can now run on a GitHub repository that has no Vercel project",
+      "reason": "Vercel CI可在无关联Vercel项目的GitHub仓库运行，属于开发基础设施功能更新。"
+    },
+    {
+      "id": "startup-product/new-products/https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them",
+      "original_title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+      "original_summary": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
+      "topic_evidence": "pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds",
+      "approved": true,
+      "evidence": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones",
+      "reason": "基辅初创公司的10盎司接收器可接收俄无人机视频，属于具体新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/one-roof",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/one-roof",
+      "original_title": "One Roof",
+      "original_summary": "A new way to build with agents. You stay in charge. Discussion | Link",
+      "topic_evidence": "A new way to build with agents. You stay in charge.",
+      "approved": false,
+      "evidence": "A new way to build with agents. You stay in charge.",
+      "reason": "仅有口号式描述，未说明One Roof的具体产品能力或增长，材料不足，不能仅因来自Product Hunt放行。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/nana-2",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/nana-2",
+      "original_title": "nana",
+      "original_summary": "One terminal for every coding agent, on Windows Discussion | Link",
+      "topic_evidence": "One terminal for every coding agent, on Windows",
+      "approved": true,
+      "evidence": "One terminal for every coding agent, on Windows",
+      "reason": "nana是面向Windows上各类编码代理的单一终端，属于具体新产品。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/context-dev",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "original_title": "People Search by Context.dev",
+      "original_summary": "People Search API: Find People by Role, Company & Location Discussion | Link",
+      "topic_evidence": "People Search API: Find People by Role, Company & Location",
+      "approved": true,
+      "evidence": "People Search API: Find People by Role, Company & Location",
+      "reason": "Context.dev的People Search API可按角色、公司和地点找人，属于具体API产品。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "original_title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "original_summary": "The one-year-old startup is now valued at $300 million.",
+      "topic_evidence": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "approved": true,
+      "evidence": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "reason": "Trajectory完成4500万美元融资，属于融资与并购事件。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+      "original_title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "original_summary": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
+      "topic_evidence": "first Democrat to win Texas Senate seat since 1988",
+      "approved": false,
+      "evidence": "first Democrat to win Texas Senate seat since 1988",
+      "reason": "主事件是德州参议院选举结果，不是具体政府行动、制度或政策讨论，不属于政府与政策。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Florida Republicans fend off Democrats as state elects first black governor",
+      "original_summary": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
+      "topic_evidence": "will be the first black governor of Florida",
+      "approved": false,
+      "evidence": "will be the first black governor of Florida",
+      "reason": "主事件是佛州州长选举结果与人物身份，不是具体政府政策行动。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+      "original_title": "South Carolina elects Democratic senator for first time in almost three decades",
+      "original_summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
+      "topic_evidence": "South Carolina elects Democratic senator for first time in almost three decades",
+      "approved": false,
+      "evidence": "South Carolina elects Democratic senator for first time in almost three decades",
+      "reason": "主事件是南卡州参议员选举结果，不是具体政府行动或政策。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Spanish transport minister resigns days after deadly train crash",
+      "original_summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "topic_evidence": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "approved": true,
+      "evidence": "At least 69 people were killed and dozens injured",
+      "reason": "西班牙列车相撞造成重大伤亡，属于全球社会中的事故灾难；部长辞职是该事故后的政治反应。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/11-04/10725903.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725903.shtml",
+      "original_title": "宁夏中卫大麦地岩画建起数字基因库",
+      "original_summary": "中新社宁夏中卫11月4日电 (记者 于晶)记者4日从宁夏中卫官方获悉，坐落于卫宁北山戈壁之上的大麦地岩画数字化采集与建库工作取得阶段性成果，已有4095幅岩画录入大麦地岩画数字基因库，获得专属“数字身份证”。",
+      "topic_evidence": "已有4095幅岩画录入大麦地岩画数字基因库",
+      "approved": true,
+      "evidence": "已有4095幅岩画录入大麦地岩画数字基因库",
+      "reason": "宁夏中卫将岩画数字化录入基因库，属于地方文化遗产数字化进展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-04/10725875.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725875.shtml",
+      "original_title": "新疆昌吉：数据标注员为AI当“老师” 拓展就业新空间",
+      "original_summary": "中新网新疆昌吉11月4日电(吴昕妮) AI短剧中的生动画面、智能驾驶对环境的精准识别、具身智能机器人灵活的动作……如今，人工智能正逐渐融入日常生活。这些应用背后，离不开一群特殊的“老师”——数据标注员。他们通过标记海量数据，帮助人工智能识别信息、理解指令。",
+      "topic_evidence": "数据标注员为AI当“老师” 拓展就业新空间",
+      "approved": true,
+      "evidence": "数据标注员为AI当“老师” 拓展就业新空间",
+      "reason": "昌吉数据标注员服务AI并拓展就业，属于地方AI产业与就业动态。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-04/10725928.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725928.shtml",
+      "original_title": "广东湛江海域2人凌晨垂钓遇险获救",
+      "original_summary": "中新网广东湛江11月4日电 (梁盛 谢晓琳 曾子晋)湛江海事局4日通报称，3日凌晨，湛江东海岛宝钢西区码头对开水域，两名出海垂钓人员因快艇故障被困海上、随流漂泊，情况危急。",
+      "topic_evidence": "两名出海垂钓人员因快艇故障被困海上、随流漂泊",
+      "approved": true,
+      "evidence": "两名出海垂钓人员因快艇故障被困海上、随流漂泊",
+      "reason": "湛江海上垂钓者因快艇故障遇险获救，属于社会公共安全事件。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-04/10725930.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-04/10725930.shtml",
+      "original_title": "自助服务区补办身份证需刷身份证才能进？肇庆高新区通报：已改进",
+      "original_summary": "中新网11月4日电 据肇庆高新技术产业开发区网站消息，肇庆高新区行政服务中心发布情况通报称，日前，有网友反映该中心24小时自助服务区补办身份证需刷身份证才能进入。对此，该中心高度重视，接到反映当天即改进安保门禁措施，明确办事群众如遇特殊情况不能进入自助服务区，安保人员可协助开门进入，并在现场设置明显标识指引办理。",
+      "topic_evidence": "补办身份证需刷身份证才能进入",
+      "approved": true,
+      "evidence": "补办身份证需刷身份证才能进入",
+      "reason": "肇庆高新区自助服务区门禁问题整改，属于社会公共服务治理。"
+    },
+    {
+      "id": "finance/markets-assets/https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+      "section": "财经理财",
+      "subsection": "市场与资产",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+      "original_title": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+      "original_summary": "The Swiss franc and Japanese yen jumped as US election results pointed to the Democrats winning both the House and the Senate, sending the dollar to its worst day in a month.",
+      "topic_evidence": "The Swiss franc and Japanese yen jumped",
+      "approved": true,
+      "evidence": "The Swiss franc and Japanese yen jumped",
+      "reason": "瑞郎和日元因美国中期选举推低美元而跳涨，属于外汇市场与资产表现。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive",
+      "original_title": "C++26 Disapproved",
+      "original_summary": "Article URL: https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/ Comments URL: https://news.ycombinator.com/item?id=50360164 Points: 211 # Comments: 105",
+      "topic_evidence": "C++26 Disapproved",
+      "approved": true,
+      "evidence": "C++26 Disapproved",
+      "reason": "文章讨论C++26未获通过及C++存续问题，属于技术观点与评论。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://honnibal.dev/blog/astra-read-write-misleading",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "original_title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "original_summary": "Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 951 # Comments: 197",
+      "topic_evidence": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "approved": true,
+      "evidence": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "reason": "文章反驳Astra可读写权重改进Qwen的说法，属于技术观点与评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/index/cisco-cyber"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://huggingface.co/blog/allenai/statebench"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/11-04/10725903.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-04/10725875.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-04/10725928.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-04/10725930.shtml"
+    ],
+    [
+      "developer",
+      "infra-data",
+      "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project"
+    ],
+    [
+      "finance",
+      "markets-assets",
+      "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://honnibal.dev/blog/astra-read-write-misleading"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/context-dev"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/nana-2"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss"
+    ]
+  ]
+}

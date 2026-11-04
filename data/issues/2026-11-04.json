@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "title": "信息日报 2026-11-04",
+  "title_en": "Information Daily 2026-11-04",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "民主党在2026年美国中期选举中赢得参议院控制权",
+    "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections?traffic_source=rss",
+    "source": "半岛电视台",
+    "summary": "民主党翻转参议院，被广泛视为对特朗普所属共和党的否定；共和党曾在2024年赢得该院控制权。",
+    "source_en": "Al Jazeera",
+    "title_en": "Democratic Party wins US Senate in 2026 midterm elections",
+    "summary_en": "Democrats flipped the U.S. Senate in the 2026 midterms, a result widely seen as a rebuke to Trump's Republican Party, which won the chamber in 2024.",
+    "original_title": "Democratic Party wins US Senate in 2026 midterm elections",
+    "published_at": "2026-11-04T04:37:05+00:00",
+    "reason": "美国中期选举参议院归属是国会权力格局的关键结果。",
+    "reason_en": "Control of the U.S. Senate is a key outcome shaping congressional power after the midterms.",
+    "score": 3.85
+  },
+  "path": "papers/2026-11-04.html",
+  "raw_path": "raw/2026-11-04.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in startup-product/new-products: topic evidence does not match subsection [https://www.producthunt.com/products/one-roof]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss]"
+  ]
+}
