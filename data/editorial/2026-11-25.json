@@ -1,0 +1,2310 @@
+{
+  "date": "2026-11-25",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+              "title": "GLM-5.4发布：Z.ai首个循环Transformer模型，面向通用编码",
+              "summary": "中国AI实验室Z.ai发布GLM-5.4，称其为首个采用循环Transformer架构的模型；该架构让一组共享权重层多次迭代，目标提升通用编码能力。",
+              "title_en": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+              "summary_en": "Chinese AI lab Z.ai released GLM-5.4, its first model built on a looped transformer architecture in which weight-shared layers run for multiple iterations, aimed at generalized coding.",
+              "topic_evidence": "It's their first model to use a looped transformer architecture",
+              "reason": "直接报道Z.ai新模型GLM-5.4及其循环Transformer架构，属于前沿模型发布。",
+              "reason_en": "Directly covers Z.ai's new GLM-5.4 model and its looped transformer architecture, making it a frontier model release.",
+              "score": 6.1
+            },
+            {
+              "url": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway",
+              "title": "Inkling 2 Mini上线Vercel AI Gateway",
+              "summary": "Thinking Machines的小型多模态推理模型Inkling 2 Mini上线Vercel AI Gateway，面向智能体编码与工具使用；总参数264亿，每token激活34亿，中间层会多次运行。",
+              "title_en": "Inkling 2 Mini now available on AI Gateway",
+              "summary_en": "Thinking Machines’ small multimodal reasoning model Inkling 2 Mini is now on Vercel AI Gateway, targeting agentic coding, tool use and knowledge work, with 26.4 billion total parameters and 3.4 billion active per token.",
+              "topic_evidence": "The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work",
+              "reason": "报道新模型Inkling 2 Mini的规格、能力与平台上线，属于前沿模型。",
+              "reason_en": "Covers the specifications, capabilities and platform availability of the new Inkling 2 Mini model, a frontier model item.",
+              "score": 5.9
+            },
+            {
+              "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+              "title": "GPT-6模型展示内在蛋白质设计能力",
+              "summary": "OpenAI称GPT-6模型利用推理和代码设计蛋白质结构与序列；实验室测试在五个靶点上发现结合证据。",
+              "title_en": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+              "summary_en": "OpenAI says GPT-6 models used reasoning and code to design protein structures and sequences, with lab tests finding evidence of binding across five targets.",
+              "topic_evidence": "GPT-6 models design protein structures and sequences using reasoning and code",
+              "reason": "具体披露GPT-6在蛋白质设计上的能力与实验验证，属于前沿模型能力进展。",
+              "reason_en": "Specifically reports GPT-6 protein-design capabilities and lab validation, a frontier model capability advance.",
+              "score": 4.2
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+              "title": "沃尔玛联手Meta，将黑五优惠接入AI智能体Muse",
+              "summary": "沃尔玛允许顾客通过Meta的AI智能体Muse选购黑色星期五优惠，把零售促销接入对话式AI代理。",
+              "title_en": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+              "summary_en": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent, integrating retail promotions into a conversational AI assistant.",
+              "topic_evidence": "Walmart now lets customers shop Black Friday deals through Muse",
+              "reason": "报道零售企业与AI智能体的具体商务集成，属于AI产品与平台应用。",
+              "reason_en": "Reports a concrete commerce integration between a retailer and an AI agent, fitting AI products and platforms.",
+              "score": 4.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+              "title": "Meta把Muse AI助手直接接入Instagram私信",
+              "summary": "Meta将Muse AI助手集成进Instagram私信，用户无需在Instagram与Muse应用之间切换即可与AI智能体互动。",
+              "title_en": "Meta brings its Muse AI assistant directly into Instagram DMs",
+              "summary_en": "Meta integrated its Muse AI assistant into Instagram direct messages, removing the need for users to switch between Instagram and the Muse app to interact with the agent.",
+              "topic_evidence": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app",
+              "reason": "具体产品集成，扩大AI助手触达场景，属于AI产品与平台。",
+              "reason_en": "A concrete product integration that expands where users can reach an AI assistant, fitting AI products and platforms.",
+              "score": 4.95
+            },
+            {
+              "url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+              "title": "Vercel MCP让智能体管理AI Gateway",
+              "summary": "Vercel称智能体现在可通过MCP管理AI Gateway，包括用自然语言创建虚拟模型、配置团队路由规则和设置支出预算。",
+              "title_en": "Agents can now manage AI Gateway through Vercel MCP",
+              "summary_en": "Vercel says agents can now manage AI Gateway through Vercel MCP, using plain language to create virtual models, configure team routing rules and set spending budgets.",
+              "topic_evidence": "Your agent can now manage AI Gateway through Vercel MCP",
+              "reason": "报道AI网关的智能体管理功能，属于AI平台工具更新。",
+              "reason_en": "Covers agent-driven management features for an AI gateway, an AI platform tool update.",
+              "score": 4.9
+            },
+            {
+              "url": "https://openai.com/business/customer-stories/ifood",
+              "title": "iFood如何在1.5万个代码库中扩展编码智能体",
+              "summary": "OpenAI客户案例称，iFood在1.5万个代码库中扩展编码智能体，展示企业级AI编码工具的部署规模。",
+              "title_en": "How iFood scales coding agents across 15,000 repositories",
+              "summary_en": "An OpenAI customer story says iFood scales coding agents across 15,000 repositories, illustrating enterprise deployment of AI coding tools.",
+              "topic_evidence": "How iFood scales coding agents across 15,000 repositories",
+              "reason": "具体企业部署案例，涉及编码智能体规模化使用，属于AI产品应用。",
+              "reason_en": "A concrete enterprise deployment case involving coding agents at scale, fitting AI product applications.",
+              "score": 4.2
+            },
+            {
+              "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+              "title": "Clay借Codex和ChatGPT帮助销售团队",
+              "summary": "OpenAI客户案例称，Clay通过ChatGPT和Codex集成帮助用户研究交易并把数据转化为上市策略，由GPT-6模型负责推理。",
+              "title_en": "Clay helps sales teams win with Codex and ChatGPT",
+              "summary_en": "An OpenAI customer story says Clay uses ChatGPT and Codex integrations to help users research deals and turn data into go-to-market plays, with GPT-6 models handling reasoning.",
+              "topic_evidence": "ChatGPT and Codex integrations help Clay’s users research deals",
+              "reason": "具体企业AI产品集成与用途，属于AI产品与平台。",
+              "reason_en": "A specific enterprise AI product integration and use case, fitting AI products and platforms.",
+              "score": 4.2
+            }
+          ]
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+              "title": "新基准显示最强AI智能体仍难可靠完成日常任务",
+              "summary": "TechCrunch报道，一项新基准显示，即便最先进的AI模型在无新增风险的情况下可靠完成日常任务仍很吃力，引发对个人AI助手安全性的关注。",
+              "title_en": "Even the best AI agents struggle with everyday life",
+              "summary_en": "A new benchmark reported by TechCrunch finds that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+              "topic_evidence": "a new benchmark reveals that even the most advanced AI models struggle",
+              "reason": "以新基准评估AI智能体日常任务表现，属于AI评估与安全研究。",
+              "reason_en": "Uses a new benchmark to evaluate AI agents on everyday tasks, fitting AI evaluation and safety research.",
+              "score": 6.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+              "title": "英国警告AI驱动网络攻击暴露多年安全短板",
+              "summary": "英国网络安全机构警告，AI黑客工具正利用简单安全漏洞，暴露多年薄弱的安全基础，强调构建强基础比以往更重要。",
+              "title_en": "UK warns AI-driven cyberattacks are exposing years of weak security",
+              "summary_en": "The UK cyber agency warns that AI hacking tools are exploiting simple security flaws, exposing years of weak security foundations, and says building strong foundations has never mattered more.",
+              "topic_evidence": "AI hacking tools rely on exploiting simple security flaws",
+              "reason": "涉及AI驱动的网络安全风险与政策警告，属于AI治理与安全。",
+              "reason_en": "Addresses AI-driven cybersecurity risks and a policy warning, fitting AI governance and safety.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+              "title": "Tidal将禁止并下架数百万AI生成曲目",
+              "summary": "Tidal称将禁止并移除数百万首AI生成曲目，以应对AI垃圾内容涌入音乐流媒体；但接受AI辅助创作、非完全生成的歌曲。",
+              "title_en": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+              "summary_en": "Tidal says it will ban and remove millions of AI-generated tracks as AI slop floods music streaming, while still accepting songs made with AI assistance but not fully generated.",
+              "topic_evidence": "Tidal to ban and remove millions of AI-generated tracks",
+              "reason": "平台对AI生成内容的具体治理措施，属于AI内容政策。",
+              "reason_en": "A platform’s concrete governance measure for AI-generated content, fitting AI content policy.",
+              "score": 3.95
+            },
+            {
+              "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+              "title": "Pinterest允许家长限制青少年看到的AI生成内容",
+              "summary": "Pinterest新增家长控制，让家长限制青少年信息流中的AI生成内容；与其他平台限制青少年使用AI聊天机器人不同。",
+              "title_en": "Pinterest will now let parents limit the AI-generated content their teens see",
+              "summary_en": "Pinterest now lets parents limit the AI-generated content teens see in their feeds, focusing on AI content rather than restricting access to AI chatbots as other platforms have done.",
+              "topic_evidence": "Pinterest will now let parents limit the AI-generated content their teens see",
+              "reason": "涉及平台对AI生成内容的青少年保护措施，属于AI治理与内容政策。",
+              "reason_en": "Covers a platform’s teen-protection measure for AI-generated content, fitting AI governance and content policy.",
+              "score": 3.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/23/ladybird",
+              "title": "Ladybird 浏览器发布首个 alpha 版本",
+              "summary": "Ladybird 发布首个 alpha 版，自研 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，同时仍依赖 HarfBuzz、Skia、ffmpeg 和 SQLite。",
+              "title_en": "Ladybird's first alpha release",
+              "summary_en": "Ladybird has shipped its first alpha release. The ambitious browser implements HTML parsing, CSS, layout, JavaScript and WebAssembly itself while still relying on HarfBuzz, Skia, ffmpeg and SQLite.",
+              "topic_evidence": "Ladybird's first alpha release",
+              "reason": "报道开源浏览器 Ladybird 的首个 alpha 版本及其自研核心组件，属于开发者关注的浏览器与运行时进展。",
+              "reason_en": "Covers the first alpha release of the open-source Ladybird browser and its self-built core components, relevant to developer tooling and runtimes.",
+              "score": 11.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Nov/24/datasette-charts",
+              "title": "datasette-charts 0.2a0 发布，集成 Datasette Agent",
+              "summary": "Datasette 图表插件 datasette-charts 发布 0.2a0，新增与 Datasette Agent 集成；用户可在聊天中请求图表，插件会用相同的图表建议与生成工具创建图表。",
+              "title_en": "datasette-charts 0.2a0",
+              "summary_en": "Datasette-charts 0.2a0 adds integration with Datasette Agent, letting users request a chart in chat and have it generated with the same chart suggestion and generation tools.",
+              "topic_evidence": "Today it's gained integration with Datasette Agent",
+              "reason": "具体报道开源 Datasette 图表插件的版本更新及其与 Agent 的集成功能。",
+              "reason_en": "Reports a specific release of the open-source Datasette charting plugin and its new Datasette Agent integration.",
+              "score": 6.1
+            },
+            {
+              "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+              "title": "datasette-agent 0.7a1 发布，改进片段哈希导航",
+              "summary": "Datasette Agent 发布 0.7a1，改进了聊天会话侧边 iframe 的片段哈希导航，便于与在用户交互时更新片段哈希的其他 Datasette 插件深度集成。",
+              "title_en": "datasette-agent 0.7a1",
+              "summary_en": "Datasette-agent 0.7a1 improves fragment-hash navigation in the chat session’s iframe side panel, enabling deeper integration with other Datasette plugins that update fragment hashes on interaction.",
+              "topic_evidence": "This version improves navigation by fragment hashes",
+              "reason": "具体介绍 Datasette Agent 插件的小版本更新及其导航集成改进。",
+              "reason_en": "Describes a specific point release of the Datasette Agent plugin and its navigation integration improvement.",
+              "score": 4.1
+            },
+            {
+              "url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+              "title": "Flags SDK 现可在 Vercel 上无需 FLAGS_SECRET 运行",
+              "summary": "flags@4.5.0 让 Vercel 项目无需 FLAGS_SECRET 即可使用 Flags Explorer 和预计算，减少新项目配置步骤，也免去在微前端间同步共享密钥。",
+              "title_en": "Flags SDK now works on Vercel without FLAGS_SECRET",
+              "summary_en": "Flags 4.5.0 lets Vercel projects use Flags Explorer and precompute without FLAGS_SECRET, removing a setup step for new projects and the need to sync a shared secret across microfrontends.",
+              "topic_evidence": "projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET",
+              "reason": "报道 Flags SDK 的具体版本更新，简化 Vercel 项目的功能开关配置。",
+              "reason_en": "Covers a specific Flags SDK release that simplifies feature-flag setup for Vercel projects.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+              "title": "Vercel Sandbox 运行时全部改用 Vercel Managed Images",
+              "summary": "Vercel Sandbox 所有运行时改用 Vercel Managed Images；node22 等旧运行时使用 vercel/sandbox 开源镜像并经 Vercel Container Registry 分发，新建沙箱提供 64 GB 存储。",
+              "title_en": "All Sandbox runtimes now use Vercel Managed Images",
+              "summary_en": "All Vercel Sandbox runtimes now use Vercel Managed Images. Legacy runtimes such as node22 use open-source images from the vercel/sandbox repository, distributed via Vercel Container Registry, with 64 GB storage.",
+              "topic_evidence": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs)",
+              "reason": "涉及 Vercel 沙箱运行时的镜像与分发基础设施变化，属于开发基础设施。",
+              "reason_en": "Covers a change to Vercel Sandbox runtime images and distribution infrastructure, relevant to development infrastructure.",
+              "score": 6.9
+            },
+            {
+              "url": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+              "title": "Vercel Secure Compute 新增 AWS PrivateLink 端点",
+              "summary": "使用 Secure Compute 的企业团队现可在 Vercel 仪表板创建和管理 AWS PrivateLink 端点；端点位于团队专用 VPC，使用该网络的 AWS 区域，并由连接的项目环境共享。",
+              "title_en": "AWS PrivateLink endpoints are now available on Secure Compute",
+              "summary_en": "Enterprise teams on Secure Compute can now create and manage AWS PrivateLink endpoints from the Vercel dashboard. Endpoints live in the team’s dedicated VPC and are shared by connected project environments.",
+              "topic_evidence": "Enterprise teams using Secure Compute can now create and manage AWS PrivateLink endpoints",
+              "reason": "报道云网络与私有连接能力的具体更新，面向企业开发基础设施。",
+              "reason_en": "Reports a specific cloud networking and private connectivity update for enterprise development infrastructure.",
+              "score": 3.9
+            },
+            {
+              "url": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
+              "title": "Workflow SDK 支持按需删除运行数据",
+              "summary": "Workflow SDK 现允许按需删除已完成运行的存储数据，包括输入、输出、钩子负载和错误轨迹，以便在敏感数据需要清除时满足合规与安全要求。",
+              "title_en": "Delete a run's data on demand in Workflow SDK",
+              "summary_en": "The Workflow SDK now lets developers delete a finished run’s stored data on demand, including inputs, outputs, hook payloads and error traces, to meet compliance and security requirements.",
+              "topic_evidence": "lets you delete a finished run's stored data on demand",
+              "reason": "具体介绍 Workflow SDK 的数据删除能力，与开发中的数据安全和合规相关。",
+              "reason_en": "Describes a specific data-deletion capability in Workflow SDK, relevant to data security and compliance in development.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon",
+              "title": "NASA 寻求合作伙伴设计月球首座核反应堆",
+              "summary": "NASA 正征集工业伙伴，开发并测试用于月面供电的首座核反应堆。LR-1 为小型裂变电源，可产生 20 千瓦电力，目标支持持续载人月球存在。",
+              "title_en": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+              "summary_en": "NASA is seeking industry partners to develop and test Lunar Reactor-1, a small fission system intended to generate 20 kilowatts of electricity and support a sustained human presence on the Moon.",
+              "topic_evidence": "Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts",
+              "reason": "报道 NASA 为月面裂变电源征集合作伙伴的具体计划，涉及航天能源与月球基础设施。",
+              "reason_en": "Reports NASA’s concrete plan to seek partners for a lunar fission power system, involving space energy and lunar infrastructure.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+              "title": "原子大小的黑洞可能摧毁整颗恒星",
+              "summary": "MIT 科学家提出，大爆炸遗留的微型黑洞可能从内部缓慢吞噬恒星，最终引发星系尺度可见的爆炸；探测此类事件或有助于寻找原初黑洞并解释暗物质。",
+              "title_en": "A black hole the size of an atom could destroy an entire star",
+              "summary_en": "MIT scientists suggest primordial black holes left from the Big Bang could slowly consume stars from within and trigger visible explosions, offering a possible way to detect them and probe dark matter.",
+              "topic_evidence": "tiny black holes left over from the Big Bang could slowly devour stars from within",
+              "reason": "报道 MIT 关于原初黑洞吞噬恒星并可能解释暗物质的天体物理研究，属于空间科学。",
+              "reason_en": "Reports MIT astrophysics research on primordial black holes devouring stars and potentially explaining dark matter.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
+              "title": "银河系中心附近冲击波或改写银河系地图",
+              "summary": "研究人员发现银河系中心附近一个巨大旋转结构产生强冲击波，触发而非抑制恒星形成；诺玛旋臂的一部分可能并非旋臂。该结果挑战现有银河系结构认识。",
+              "title_en": "A galactic shock wave could rewrite the map of the Milky Way",
+              "summary_en": "Researchers found that a massive rotating structure near the galactic center creates powerful shock waves that trigger star formation, and that part of the Norma spiral arm may not be a spiral arm at all.",
+              "topic_evidence": "a massive rotating structure near the galactic center is creating powerful shock waves that trigger star formation",
+              "reason": "报道银河系中心冲击波触发恒星形成并挑战旋臂结构认识的具体天文发现。",
+              "reason_en": "Reports a specific astronomical finding on shock waves triggering star formation and challenging views of the Milky Way’s spiral structure.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+              "title": "宇宙黎明期的双黑洞类星体挑战现有理论",
+              "summary": "天文学家发现已知最古老的紧凑类星体对，两个黑洞在宇宙大爆炸后仅 9 亿年时存在，质量分别约为太阳的 15 亿倍和 4 亿倍，其早期成长速度难以用现有理论解释。",
+              "title_en": "Two monster black holes from the dawn of time defy explanation",
+              "summary_en": "Astronomers found the oldest known compact quasar pair, two black holes existing 900 million years after the Big Bang with masses of 1.5 billion and 400 million suns, growing far earlier than theories explain.",
+              "topic_evidence": "oldest known compact pair of quasars",
+              "reason": "报道已知最古老紧凑类星体对的发现及其对早期黑洞成长理论的挑战。",
+              "reason_en": "Reports the discovery of the oldest known compact quasar pair and its challenge to theories of early black hole growth.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+              "title": "鼻滴疗法在老年小鼠中恢复记忆并对抗阿尔茨海默病样病变",
+              "summary": "一种鼻滴疗法在老年小鼠中恢复学习与记忆表现，并在阿尔茨海默病样小鼠中防止严重认知衰退。其技术类似新冠 mRNA 疫苗，可刺激产生保护大脑的蛋白。",
+              "title_en": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+              "summary_en": "A nasal treatment using mRNA-vaccine-like technology restored learning and memory in aging mice and prevented severe cognitive decline in mice with Alzheimer’s-like disease by stimulating a brain-protecting protein.",
+              "topic_evidence": "restored youthful learning and memory performance in aging mice",
+              "reason": "直接报道一项神经医学动物研究：鼻滴疗法改善老年小鼠记忆并预防阿尔茨海默病样认知衰退，属于医学与生命科学研究。",
+              "reason_en": "Directly reports a neuro-medical animal study on nasal drops improving memory and preventing Alzheimer’s-like decline.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+              "title": "月球背面古老岩石改写太阳系撞击史",
+              "summary": "科学家研究月球背面古老岩石后发现，小行星撞击可能在过去数十亿年间逐渐减弱，而非一次灾难性轰击；这为地球早期演化提供新线索。",
+              "title_en": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+              "summary_en": "Ancient rocks from the Moon’s far side suggest asteroid impacts declined gradually over billions of years rather than occurring in one catastrophic bombardment, offering clues to Earth’s early evolution.",
+              "topic_evidence": "asteroid impacts appear to have declined gradually over billions of years",
+              "reason": "报道月球背面岩石研究对太阳系撞击历史的修正，属于行星科学研究。",
+              "reason_en": "Reports lunar far-side rock research revising the Solar System’s impact history, a planetary science study.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm",
+              "title": "研究：地球下一次冰期或已开始，却被全球变暖阻止",
+              "summary": "科学家通过加拿大北极巴恩斯冰盖下保存的古老植物发现，约 2000 年前巨大冰盖残余曾重新扩张，可能标志下一次冰期开始，但全球变暖使其停止。",
+              "title_en": "Earth's next ice age may have already begun. Global warming stopped it",
+              "summary_en": "Ancient plants beneath the Barnes Ice Cap in the Canadian Arctic suggest remnants of a huge ice sheet began expanding about 2,000 years ago, possibly starting the next ice age, before global warming stopped it.",
+              "topic_evidence": "remnants of a massive ice sheet began expanding again about 2,000 years ago",
+              "reason": "报道北极冰盖下古植物证据与下一次冰期可能已开始的气候研究，属于气候与地球科学研究。",
+              "reason_en": "Reports climate and Earth science research using ancient plants to suggest the next ice age may have begun before global warming halted it.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+              "title": "新发现病毒或揭示演化缺失环节",
+              "summary": "科学家发现此前未知的病毒，可能解释生命早期某些生物结构如何演化；结果挑战长期演化理论，并提示病毒能力可能远超感染细胞。",
+              "title_en": "Mysterious new viruses reveal a missing link in evolution",
+              "summary_en": "Scientists have discovered previously unknown viruses that may explain how some of life’s earliest biological structures evolved, challenging a longstanding theory and suggesting viruses have capabilities beyond infecting cells.",
+              "topic_evidence": "previously unknown viruses that could help explain how some of life’s earliest biological structures evolved",
+              "reason": "报道新发现病毒与生命早期结构演化关系的研究，属于生物学与演化研究。",
+              "reason_en": "Reports research on newly discovered viruses and their possible role in the evolution of early biological structures.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/blink-35",
+              "title": "Blink：用自然语言描述交易并自动构建",
+              "summary": "Product Hunt 发布 Blink，简介称用户可描述任意交易，随后观看 Blink 自动构建该交易；现有材料未披露更多功能或增长数据。",
+              "title_en": "Blink",
+              "summary_en": "Blink launched on Product Hunt with a description that lets users describe any trade and watch the product build it; no further features or growth data were provided.",
+              "topic_evidence": "Describe any trade and watch Blink build it",
+              "reason": "简介给出明确产品动作：用户描述交易、Blink 自动构建，属于新产品发布。",
+              "reason_en": "The summary gives a concrete product action—describing a trade and having Blink build it—so it fits new product launches.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/vybe-4",
+              "title": "Vybe 推出 Falcon：免费分析竞争对手并执行后续工作",
+              "summary": "Product Hunt 发布 Vybe 的 Falcon，简介称其可免费分析竞争对手，然后开始工作；材料未说明分析范围、定价或用户数据。",
+              "title_en": "Falcon by Vybe",
+              "summary_en": "Vybe launched Falcon on Product Hunt, saying it analyzes competitors for free and then gets to work; the listing does not detail scope, pricing, or user data.",
+              "topic_evidence": "Falcon analyzes your competitors for free, then gets to work",
+              "reason": "简介描述 Falcon 免费分析竞争对手并继续执行任务，属于新产品与增长。",
+              "reason_en": "The summary describes Falcon analyzing competitors for free and then getting to work, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/myclaw-3-0",
+              "title": "MyClaw 3.0：构建共享记忆的常驻 AI 团队",
+              "summary": "Product Hunt 发布 MyClaw 3.0，简介称用户可构建一个始终在线、共享记忆的 AI 团队；材料未提供团队规模、价格或性能细节。",
+              "title_en": "MyClaw 3.0",
+              "summary_en": "MyClaw 3.0 launched on Product Hunt with a description of building an always-on AI team with shared memory; the listing gives no pricing, team-size, or performance details.",
+              "topic_evidence": "Build an always-on AI team with shared memory",
+              "reason": "简介说明 MyClaw 3.0 可构建常驻且共享记忆的 AI 团队，属于 AI 产品新版本发布。",
+              "reason_en": "The summary shows MyClaw 3.0 as a new AI product for an always-on team with shared memory, fitting new product launches.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": [
+            {
+              "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+              "title": "Supertake 融资 2000 万美元，让 AI 代理把市场预测转为股票组合",
+              "summary": "Supertake 完成 2000 万美元融资，产品允许用户不必自己选股，而是让 AI 代理把对市场走向的判断转化为股票组合。",
+              "title_en": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+              "summary_en": "Supertake raised $20 million for a product that lets users put money behind market views without picking stocks themselves, using AI agents to turn predictions into portfolios.",
+              "topic_evidence": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+              "reason": "标题明确披露 2000 万美元融资，摘要说明产品让 AI 代理根据市场预测构建股票组合，直接属于融资与并购。",
+              "reason_en": "The title reports a $20M raise and the summary describes AI agents building stock portfolios from market predictions, fitting funding and M&A.",
+              "score": 3.8
+            }
+          ]
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+              "title": "俄方数据据报显示乌克兰战争死亡近50万人",
+              "summary": "泄露数据据报显示，俄罗斯对乌克兰的全面入侵已造成近50万人死亡，并从根本上改变俄罗斯的死亡率结构。",
+              "title_en": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+              "summary_en": "Leaked data indicate that Russia’s full-scale invasion of Ukraine has caused almost 500,000 deaths and fundamentally changed mortality patterns in Russia.",
+              "topic_evidence": "almost 500,000 deaths in war in Ukraine",
+              "reason": "直接涉及俄乌战争伤亡与俄罗斯社会影响，属于地缘与安全核心议题。",
+              "reason_en": "Directly covers Ukraine war casualties and their demographic impact on Russia, a core geopolitics and security issue.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+              "title": "以色列空袭加沙杀死哈马斯内部安全负责人",
+              "summary": "以色列周二空袭加沙，杀死任职两个月的哈马斯内部安全负责人纳伊姆·阿布·纳赫尔；据报道共七名巴勒斯坦人丧生。",
+              "title_en": "Israeli air strike kills Hamas internal security chief in Gaza",
+              "summary_en": "An Israeli air strike in Gaza killed Naeem Abu Nahel, Hamas’s internal security chief of two months, among seven Palestinians reportedly killed on Tuesday.",
+              "topic_evidence": "kills Hamas internal security chief in Gaza",
+              "reason": "加沙冲突中的定点打击与人员伤亡，属于地缘安全直接事件。",
+              "reason_en": "A targeted strike and casualties in the Gaza conflict, directly relevant to geopolitics and security.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+              "title": "乌克兰确认用海上无人机在利比亚附近袭击两艘俄船只",
+              "summary": "乌克兰安全局称，从母船发射七架国产海上无人机，在利比亚附近海域袭击两艘俄罗斯船只，其中击沉俄新型护卫舰“水星”号。",
+              "title_en": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+              "summary_en": "Ukraine’s SBU said it launched seven domestically made naval drones from a mothership in strikes off Libya that sank the Russian corvette Merkury, one of Russia’s newest warships.",
+              "topic_evidence": "strike two Russian ships off Libya",
+              "reason": "展示俄乌战争向地中海方向延伸的海上无人作战，具地缘安全意义。",
+              "reason_en": "Shows Ukraine’s naval drone operations extending toward the Mediterranean, significant for geopolitics and security.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
+              "title": "英国警告企业警惕俄罗斯潜在破坏威胁",
+              "summary": "英国国防部与安全部门罕见公开警告企业，称俄罗斯可能对英国企业实施破坏活动，要求加强安全防范。",
+              "title_en": "UK warns companies of potential Russian sabotage threat",
+              "summary_en": "Britain’s Defence Ministry and security service issued an unusual public warning that Russian saboteurs may target UK companies and urged firms to strengthen protections.",
+              "topic_evidence": "warns companies of potential Russian sabotage threat",
+              "reason": "涉及俄罗斯对欧洲的破坏活动与英国安全警戒，属地缘安全动态。",
+              "reason_en": "Concerns Russian sabotage against Europe and UK security warnings, a geopolitics and security development.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+              "title": "中国是否是针对台湾AI假视频潮的幕后推手？",
+              "summary": "一个网络利用AI假视频攻击台湾执政党民进党要员，包括赖清德和市长候选人沈；报道检视中国是否涉入。",
+              "title_en": "Is China behind a wave of AI fake videos targeting Taiwan?",
+              "summary_en": "A network of AI fake videos has targeted key figures in Taiwan’s ruling DPP, including President Lai and mayoral candidate Shen, raising questions over Chinese involvement.",
+              "topic_evidence": "wave of AI fake videos targeting Taiwan",
+              "reason": "涉及台海信息战与两岸安全，直接属于地缘政治。",
+              "reason_en": "Involves cross-strait information warfare and Taiwan security, directly relevant to geopolitics.",
+              "score": 3.0
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss",
+              "title": "冈比亚大选：下一任总统能否兑现十年承诺",
+              "summary": "冈比亚选民在经济困难、改革与司法承诺未兑现的背景下前往投票，关注下一任总统能否兑现十年来的承诺。",
+              "title_en": "The Gambia election: Can the next president deliver on a decade of promise",
+              "summary_en": "Gambians are voting amid economic hardship and unfulfilled promises of reform and justice, with attention on whether the next president can deliver on a decade of pledges.",
+              "topic_evidence": "Gambians head to the polls",
+              "reason": "直接报道冈比亚全国选举与治理承诺，属于政府与政策。",
+              "reason_en": "Directly covers a national election and governance promises in The Gambia, fitting government and policy.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+              "title": "特朗普驱逐争议核心人物阿布雷戈·加西亚离开美国",
+              "summary": "萨尔瓦多籍男子阿布雷戈·加西亚在特朗普政府驱逐争议后自愿离开美国前往西班牙，其律师与国土安全部已证实。",
+              "title_en": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+              "summary_en": "Kilmar Ábrego García, the Salvadoran man at the center of a Trump deportation dispute, has left the US voluntarily for Spain, his lawyers and Homeland Security confirmed.",
+              "topic_evidence": "leaving of own volition for Spain",
+              "reason": "涉及美国移民驱逐政策与司法争议，属于政府政策议题。",
+              "reason_en": "Involves US immigration deportation policy and legal dispute, fitting government and policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+              "title": "被禁赴英航班的“蟑螂”领袖称印度政府“迷失方向”",
+              "summary": "印度政治人物绍拉夫·达斯称，德里机场移民部门告知其护照被标记，因而被禁止登机赴英；他批评印度政府“迷失方向”。",
+              "title_en": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
+              "summary_en": "Indian political figure Saurav Das said immigration authorities at Delhi airport told him his passport had been flagged, barring him from a UK flight, and criticised the government.",
+              "topic_evidence": "barred from UK flight",
+              "reason": "涉及印度移民管控与政治人物出行争议，属政府与政策。",
+              "reason_en": "Concerns Indian immigration controls and a political figure’s travel dispute, fitting government and policy.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+              "title": "经济危机下古巴预期寿命自1950年以来首次下降",
+              "summary": "世卫组织总干事谭德塞表示，古巴人均预期寿命从2020年的78.8岁降至2025年的74.4岁，为1950年以来首次下降。",
+              "title_en": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+              "summary_en": "WHO chief Tedros said Cuba’s life expectancy fell from 78.8 years in 2020 to 74.4 in 2025, the first decline since 1950, amid a severe economic crisis.",
+              "topic_evidence": "life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025",
+              "reason": "公共卫生与经济社会危机交汇，直接属于全球社会。",
+              "reason_en": "Intersects public health and economic crisis, directly fitting global society.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+              "title": "电动车热潮的人权代价成为刚果（金）诉讼焦点",
+              "summary": "刚果（金）27名居民提起标志性诉讼，指控一家中资铜钴矿污染社区，并指政府未能保护他们；案件凸显电动车矿产供应链代价。",
+              "title_en": "The human cost of the electric vehicle boom is at the center of a lawsuit in Congo",
+              "summary_en": "In a landmark lawsuit, 27 residents in Congo accuse a Chinese-owned copper and cobalt mine of poisoning their community and the government of failing to protect them.",
+              "topic_evidence": "27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community",
+              "reason": "涉及矿产供应链、社区健康与政府责任，属于全球社会议题。",
+              "reason_en": "Involves mineral supply chains, community health and government accountability, fitting global society.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
+              "title": "这些朝鲜人称因基督教信仰遭监视、殴打和监禁",
+              "summary": "一份新报告收录数百名脱北者证词，他们称因基督教信仰在朝鲜遭监视、殴打和监禁，报告记录相关迫害经历。",
+              "title_en": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+              "summary_en": "A new report presents testimony from hundreds of North Korean defectors who say they were spied on, beaten and jailed because of their Christian faith.",
+              "topic_evidence": "spied on, beaten and jailed for being Christian",
+              "reason": "基于脱北者证词的宗教迫害与人权议题，属于全球社会。",
+              "reason_en": "A religious persecution and human rights issue based on defector testimony, fitting global society.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+              "title": "哥伦比亚总统抵达旅游城市超市人质事件现场",
+              "summary": "哥伦比亚总统抵达卡塔赫纳一家超市人质事件现场，安全人员正试图解救至少20名被枪手扣押的人质。",
+              "title_en": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+              "summary_en": "Colombia’s president arrived in Cartagena at the scene of a supermarket hostage siege, where security forces are trying to free at least 20 people held by gunmen.",
+              "topic_evidence": "supermarket hostage siege in tourist city",
+              "reason": "突发公共安全与人质危机，属于全球社会紧急事件。",
+              "reason_en": "A sudden public security and hostage crisis, fitting global society emergencies.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737564.shtml",
+              "title": "中巴航天员共赴“天宫” 中方称系载人航天国际合作新里程碑",
+              "summary": "外交部发言人郭嘉昆11月25日表示，中巴航天员共赴中国空间站“天宫”开展航天科技合作，中国空间站首次迎来外籍航天员，这是中国载人航天工程国际合作新的里程碑。",
+              "title_en": "Chinese, Pakistani Astronauts Travel to Tiangong; China Calls It New Milestone in Manned Space Cooperation",
+              "summary_en": "Foreign Ministry spokesperson Guo Jiakun said on Nov 25 that Chinese and Pakistani astronauts traveled together to the Tiangong space station, the first visit by a foreign astronaut, calling it a new milestone in international manned-space cooperation.",
+              "topic_evidence": "中巴航天员共赴中国空间站“天宫”",
+              "reason": "外交部发布会披露中巴航天员共赴“天宫”的具体合作进展，直接体现中国载人航天国际合作政策。",
+              "reason_en": "The Foreign Ministry briefing disclosed a concrete China-Pakistan astronaut cooperation at Tiangong, directly reflecting China's international manned-space policy.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737548.shtml",
+              "title": "中柬“金龙-2026”联合演习在柬埔寨开始",
+              "summary": "当地时间11月25日上午，中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行，双方参演官兵代表和多国驻柬武官出席。",
+              "title_en": "China-Cambodia 'Golden Dragon-2026' Joint Exercise Begins in Cambodia",
+              "summary_en": "The opening ceremony of the China-Cambodia 'Golden Dragon-2026' joint exercise was held on Nov 25 at the Yunrang Port joint support and training center in Cambodia, with participating troops and foreign military attaches attending.",
+              "topic_evidence": "中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行",
+              "reason": "报道给出联合演习开始的具体时间、地点和出席方，体现中柬军事合作安排。",
+              "reason_en": "The report provides the specific time, venue and attendees of the joint exercise opening, showing China-Cambodia military cooperation.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737572.shtml",
+              "title": "中方呼吁警惕《海洋生物多样性协定》秘书处申办工作被政治化",
+              "summary": "外交部发言人郭嘉昆11月25日主持记者会，中方呼吁各方警惕有人正在将《海洋生物多样性协定》秘书处申办工作政治化、对抗化。",
+              "title_en": "China Urges Vigilance Against Politicizing Bid to Host BBNJ Secretariat",
+              "summary_en": "At a Nov 25 briefing, Foreign Ministry spokesperson Guo Jiakun urged all parties to guard against efforts to politicize and turn confrontational the bid to host the secretariat of the Marine Biodiversity Agreement.",
+              "topic_evidence": "将《海洋生物多样性协定》秘书处申办工作政治化、对抗化",
+              "reason": "外交部就海洋生物多样性协定秘书处申办表明具体立场，属于多边海洋治理政策表态。",
+              "reason_en": "The Foreign Ministry stated a concrete position on hosting the marine biodiversity agreement secretariat, a multilateral ocean-governance policy stance.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737601.shtml",
+              "title": "海南统一城乡低保标准至每人每月850元",
+              "summary": "海南省新闻办公室11月25日发布会透露，海南将城乡低保标准统一提升至每人每月850元，特困人员基本生活保障标准提升至每人每月1110元，实现困难群众救助标准城乡区域一体化。",
+              "title_en": "Hainan Raises Urban and Rural Subsistence Allowance to 850 Yuan per Month",
+              "summary_en": "Hainan has unified its urban and rural minimum subsistence allowance at 850 yuan per person per month and raised the basic living guarantee for extremely poor people to 1,110 yuan, a provincial briefing said on Nov 25.",
+              "topic_evidence": "海南已将城乡低保标准统一提升至每人每月850元",
+              "reason": "发布会公布低保和特困人员保障标准的具体调整，反映民生救助政策城乡一体化。",
+              "reason_en": "The briefing announced specific adjustments to subsistence and extremely poor persons' guarantees, reflecting urban-rural integration of social assistance policy.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737567.shtml",
+              "title": "江西青原以统战力量推动小菌菇产业助力乡村振兴",
+              "summary": "江西吉安市青原区富田镇王田村建设黑木耳标准化种植示范基地，百余亩菌田连片铺开，当地以统战赋能小菌菇产业，带动乡村振兴。",
+              "title_en": "Jiangxi Qingyuan Uses United Front Resources to Boost Edible Fungus Industry for Rural Revitalization",
+              "summary_en": "In Wangtian Village, Qingyuan District, Ji'an, Jiangxi, a standardized black fungus planting base has been built, with more than 100 mu of mushroom fields, as local united front efforts support the edible fungus industry and rural revitalization.",
+              "topic_evidence": "小菌菇撑起乡村振兴“致富伞”",
+              "reason": "报道展示青原区以标准化种植基地发展黑木耳产业的具体地方实践。",
+              "reason_en": "The report shows a concrete local practice in Qingyuan using a standardized base to develop the black fungus industry.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737561.shtml",
+              "title": "辽宁召开医疗健康数据标注先行先试会议 多项成果合作亮相",
+              "summary": "辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开，集中展示多项成果与合作。",
+              "title_en": "Liaoning Holds Pilot Meeting on Medical and Health Data Annotation",
+              "summary_en": "Liaoning held a meeting in Dalian on Nov 25 on piloting medical and health data annotation and on digital-intelligent transformation in healthcare, showcasing multiple results and cooperation.",
+              "topic_evidence": "辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开",
+              "reason": "会议聚焦医疗健康数据标注先行先试和智改数转，属于地方产业数字化具体进展。",
+              "reason_en": "The meeting focused on pilot medical data annotation and digital-intelligent transformation, a concrete local industrial digitalization step.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737547.shtml",
+              "title": "江西出台“十五五”防震减灾规划 建设空天地一体化地震监测网",
+              "summary": "江西省11月25日举行“十五五”防震减灾规划新闻发布会，提出实施地震立体监测网核心工程，建设空天地一体化地震监测网，提升地震预警与震灾速报水平。",
+              "title_en": "Jiangxi Issues 15th Five-Year Earthquake Prevention Plan, to Build Space-Air-Ground Monitoring Network",
+              "summary_en": "Jiangxi unveiled its 15th Five-Year Plan for earthquake prevention and disaster reduction on Nov 25, proposing a core space-air-ground integrated seismic monitoring network to improve early warning and rapid disaster reporting.",
+              "topic_evidence": "建空天地一体化地震监测网",
+              "reason": "规划发布会明确空天地一体化监测网等工程，属于地方防灾科技基础设施建设。",
+              "reason_en": "The plan briefing specifies a space-air-ground integrated monitoring network, a local disaster-prevention science infrastructure project.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737593.shtml",
+              "title": "青土湖生态治理见效：沙退水进鸟归来",
+              "summary": "初冬的甘肃民勤县青土湖芦苇连片、水鸟低飞；这片湿地几十年前还是巴丹吉林和腾格里两大沙漠逼近的风沙前线，如今呈现沙退水进鸟归来的治理变化。",
+              "title_en": "Qingtu Lake Ecological Restoration Shows Results as Sand Retreats, Water Returns and Birds Come Back",
+              "summary_en": "Qingtu Lake in Minqin, Gansu, now has reed beds and low-flying waterbirds; decades ago it was a sandstorm front pressed by two deserts, showing a restoration change of retreating sand and returning water and birds.",
+              "topic_evidence": "沙退水进鸟归来",
+              "reason": "报道呈现青土湖从风沙前线到湿地生态改善的具体地方治理成效。",
+              "reason_en": "The report presents a concrete local governance outcome at Qingtu Lake, from a sandstorm front to improved wetland ecology.",
+              "score": 3.75
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737569.shtml",
+              "title": "广东约49.2万网络订餐主体食品安全治理受关注",
+              "summary": "广东省市场监管局统计，截至今年11月11日，广东经营网络订餐主体约49.2万家，占全省在营餐饮服务经营者80.9%，近50万商户的食品安全考验超大规模市场监管能力。",
+              "title_en": "Food Safety Governance for About 492,000 Online Catering Entities in Guangdong Draws Attention",
+              "summary_en": "Guangdong had about 492,000 online catering operators as of Nov 11, accounting for 80.9% of the province's active catering service providers, testing food-safety regulation for a very large market.",
+              "topic_evidence": "广东经营网络订餐的主体约49.2万家，占全省在营餐饮服务经营者的80.9%",
+              "reason": "报道用具体商户数量说明网络餐饮食品安全监管的规模与挑战，直接属于社会食安治理。",
+              "reason_en": "The report uses specific operator numbers to show the scale and challenge of online catering food-safety regulation, directly a social food-safety governance issue.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737583.shtml",
+              "title": "检察机关依法对唐福泉、孔德明、黄思明、崔勇提起公诉",
+              "summary": "据最高人民检察院微信公众号11月25日消息，检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉。",
+              "title_en": "Procuratorates File Public Prosecutions Against Tang Fuquan, Kong Deming, Huang Siming and Cui Yong",
+              "summary_en": "China's procuratorates have filed public prosecutions against Tang Fuquan, Kong Deming, Huang Siming and Cui Yong, according to the Supreme People's Procuratorate's WeChat account on Nov 25.",
+              "topic_evidence": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+              "reason": "最高检渠道发布对四名具体人员提起公诉，属于法治领域案件进展。",
+              "reason_en": "The Supreme People's Procuratorate channel announced public prosecutions against four named individuals, a concrete legal case development.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737581.shtml",
+              "title": "河南焦作市政协原副主席吕沛被“双开”",
+              "summary": "河南省纪委监委11月25日通报，经省委批准，对焦作市政协原党组成员、副主席吕沛严重违纪违法问题立案审查调查，并给予其“双开”处分。",
+              "title_en": "Former Jiaozuo CPPCC Vice Chairman Lü Pei Expelled from Party and Public Office",
+              "summary_en": "Henan's discipline inspection commission said on Nov 25 that Lü Pei, former vice chairman of the Jiaozuo CPPCC, was expelled from the Communist Party and public office after an investigation into serious violations.",
+              "topic_evidence": "河南省焦作市政协原党组成员、副主席吕沛被“双开”",
+              "reason": "纪委监委通报具体官员严重违纪违法审查结果，属于反腐败与法治执纪信息。",
+              "reason_en": "The discipline inspection commission announced the result of a serious disciplinary and legal investigation into a specific official, an anti-corruption and rule-of-law item.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737577.shtml",
+              "title": "山西公安发布“十五五”执法规范化建设路线图",
+              "summary": "山西省委宣传部、省政府新闻办11月25日举行“十五五”系列主题新闻发布会，山西公安围绕执法规范化建设给出路线图，涉及接处警提速和“码上监督”等内容。",
+              "title_en": "Shanxi Police Outline Roadmap for Standardizing Law Enforcement in 15th Five-Year Period",
+              "summary_en": "Shanxi police outlined a roadmap for standardizing law enforcement during the 15th Five-Year Plan period at a Nov 25 briefing, including faster police response and 'code-based supervision.'",
+              "topic_evidence": "山西公安围绕执法规范化建设给出“路线图”",
+              "reason": "发布会给出公安执法规范化具体路线图，涉及接处警和码上监督，属于法治建设。",
+              "reason_en": "The briefing presented a concrete police law-enforcement standardization roadmap covering response speed and code-based supervision, a rule-of-law development.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+              "title": "AI担忧引发科技股抛售 资金转向债券",
+              "summary": "全球科技股抛售延续，市场对人工智能前景的担忧升温，投资者转向债券避险；彭博市场综述显示风险偏好回落。",
+              "title_en": "Tech Selloff Rolls On as AI Worries Lift Bonds: Markets Wrap",
+              "summary_en": "A global technology selloff continued as concerns about artificial intelligence intensified, pushing investors toward bonds, according to Bloomberg's markets wrap.",
+              "topic_evidence": "A global selloff in technology stocks is showing no sign of letting up",
+              "reason": "直接描述全球科技股与债券市场的最新资金流向。",
+              "reason_en": "Directly covers the latest global tech-stock selloff and bond flows.",
+              "score": 9.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-25/metals-mixed-after-major-selloff-as-traders-await-us-inflation",
+              "title": "金属抛售加深 AI与美联储担忧打压市场情绪",
+              "summary": "铜、铝、锡在周二大跌后继续承压，科技股扩大跌幅，交易员等待美国通胀数据以判断美联储利率路径。",
+              "title_en": "Metals Rout Deepens as AI, Fed Worries Fuel Bearish Sentiment",
+              "summary_en": "Copper, aluminum and tin extended Tuesday's steep selloff as tech losses deepened and traders awaited U.S. inflation data that could shape the Federal Reserve's rate path.",
+              "topic_evidence": "Copper, aluminum and tin all added to Tuesday’s fierce selloff in metals",
+              "reason": "反映大宗商品与股市联动及美联储政策预期。",
+              "reason_en": "Shows commodity-equity spillover and Fed policy expectations.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-25/indian-stocks-extend-world-beating-run-as-ai-selloff-resumes",
+              "title": "AI担忧引发全球轮动 印度股市升至全球榜首",
+              "summary": "人工智能概念股再度遭抛售，资金转向对该主题敞口较小的市场，印度股市本月延续涨势并登上全球股指表现榜首。",
+              "title_en": "Global Rotation on AI Jitters Lifts Indian Stocks to Top Spot",
+              "summary_en": "Renewed selling in AI shares drove investors toward markets with limited exposure to the theme, extending an Indian equity rally that has topped global rankings this month.",
+              "topic_evidence": "The Indian stock market extended a rally that has catapulted it to the top of global equity rankings this month",
+              "reason": "具体呈现AI交易降温下的跨市场资金轮动。",
+              "reason_en": "Captures cross-market rotation as the AI trade cools.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/latest-oil-market-news-and-analysis-for-nov-25",
+              "title": "原油供应增加迹象压过中东袭击 油价走低",
+              "summary": "原油供应上升的迹象盖过霍尔木兹海峡船只遇袭及地区能源设施遭打击的影响，油价下跌。",
+              "title_en": "Latest Oil Market News and Analysis for Nov. 25",
+              "summary_en": "Oil slipped as signs of rising crude supply outweighed escalating attacks on vessels in the Strait of Hormuz and strikes on other energy assets in the region.",
+              "topic_evidence": "Oil slipped as signs of rising crude supply outweighed escalating attacks on vessels in the Strait of Hormuz",
+              "reason": "提供油价与地缘供应风险的具体市场信息。",
+              "reason_en": "Offers specific oil-market and geopolitical supply-risk information.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+              "title": "Anthropic股价首次跌破IPO发行价",
+              "summary": "Anthropic在纳斯达克上市不到一周，股价已跌破83美元的IPO发行价，这是其上市以来首次跌破发行价。",
+              "title_en": "Anthropic’s stock just broke below its IPO price for the first time",
+              "summary_en": "Anthropic shares fell below their $83 IPO price less than a week after debuting on Nasdaq, marking the first time the stock has traded under its offering price.",
+              "topic_evidence": "Shares are trading below their IPO price of $83",
+              "reason": "记录重要AI公司新股上市后的关键价格表现。",
+              "reason_en": "Records a key post-IPO price milestone for a major AI company.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-fed-regional-boards-wanted-to-raise-rates-in-october",
+              "title": "美联储多数地区理事会曾主张10月上调贴现率",
+              "summary": "美联储12家地区银行理事会中有8家在10月FOMC会议前建议上调贴现贷款利率，而决策者最终维持基准利率不变。",
+              "title_en": "Most Fed Regional Boards Wanted to Raise Rates in October",
+              "summary_en": "Eight of the Federal Reserve's 12 regional bank boards recommended raising the discount lending rate before the October FOMC meeting, where policymakers left the benchmark rate unchanged.",
+              "topic_evidence": "Eight of the Federal Reserve’s 12 regional bank boards recommended raising the so-called discount lending rate",
+              "reason": "揭示美联储内部对利率路径的分歧。",
+              "reason_en": "Sheds light on internal Fed disagreement over the rate path.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-korea-seen-resuming-rate-hikes-as-ai-boom-stokes-growth",
+              "title": "韩国央行料重启加息 AI繁荣推升增长",
+              "summary": "半导体景气带动韩国增长强于预期并维持通胀压力，市场预计韩国央行本周重启加息，尽管内需疲弱和股市下跌带来不确定性。",
+              "title_en": "Bank of Korea Seen Resuming Rate Hikes as AI Boom Stokes Growth",
+              "summary_en": "The Bank of Korea is expected to resume rate hikes this week as a semiconductor boom drives stronger-than-expected growth and keeps inflation elevated, despite weak domestic demand and a recent stock-market rout.",
+              "topic_evidence": "The Bank of Korea is expected to resume raising interest rates this week",
+              "reason": "呈现AI/半导体周期对央行利率决策的影响。",
+              "reason_en": "Shows how the AI-semiconductor cycle affects central-bank rate decisions.",
+              "score": 5.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-canada-chief-warns-of-oil-passthrough-sticky-inflation",
+              "title": "加拿大央行警告通胀顽固 债券下跌",
+              "summary": "加拿大央行行长警告，油价上涨将传导至消费者，而经济表现好于官员预期，债券市场随之下跌。",
+              "title_en": "Bank of Canada Warns of Persistent Inflation; Bonds Decline",
+              "summary_en": "The Bank of Canada's chief warned that higher oil costs will pass through to consumers as the economy holds up better than officials expected, weighing on bonds.",
+              "topic_evidence": "higher oil costs will be passed on to consumers",
+              "reason": "涉及主要央行对通胀传导与债券市场的判断。",
+              "reason_en": "Covers a major central bank's inflation pass-through and bond-market view.",
+              "score": 6.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/uk-heating-bills-surge-26-adding-to-inflation-pressure",
+              "title": "英国取暖费飙升26% 加大通胀压力",
+              "summary": "英国监管机构将能源价格上限上调26%，取暖账单随之大涨，可能进一步推高通胀压力。",
+              "title_en": "UK Heating Bills Surge 26%, Adding to Inflation Pressure",
+              "summary_en": "Britain's energy regulator raised the price cap by 26%, driving a sharp increase in heating bills that adds to inflation pressure.",
+              "topic_evidence": "UK regulator lifts energy price cap by 26%",
+              "reason": "具体反映能源监管决定对家庭账单和通胀的影响。",
+              "reason_en": "Shows a specific energy-regulation decision's impact on household bills and inflation.",
+              "score": 4.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-25/boj-s-faster-inflation-indicator-backs-case-for-another-hike",
+              "title": "日本央行基础通胀指标创三年新高 支持再次加息",
+              "summary": "日本央行衡量更基础通胀的指标升至三年来最高水平，该指标加速上行，支持了再次加息的理由。",
+              "title_en": "BOJ’s Faster Inflation Indicator Backs Case for Another Hike",
+              "summary_en": "The Bank of Japan's indicator for more fundamental inflation accelerated to a three-year high, supporting the case for another interest-rate hike.",
+              "topic_evidence": "accelerated to the highest level in three years",
+              "reason": "直接关系日本央行下一次加息判断。",
+              "reason_en": "Directly relevant to the BOJ's next rate-hike decision.",
+              "score": 3.95
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring",
+              "title": "委内瑞拉公布2370亿美元债务 为历史性重组铺路",
+              "summary": "委内瑞拉政府多年来首次向投资者披露财政状况，债务规模达2370亿美元，可能启动史上最大主权债务重组之一。",
+              "title_en": "Venezuela Puts Debt at $237 Billion Before Historic Overhaul",
+              "summary_en": "Venezuela's government gave investors a first financial snapshot in years, disclosing $237 billion in debt and setting the stage for one of history's largest sovereign restructurings.",
+              "topic_evidence": "first snapshot into its finances in years",
+              "reason": "涉及主权债务披露与重组的重要理财/债务事件。",
+              "reason_en": "Covers a major sovereign-debt disclosure and restructuring event.",
+              "score": 3.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+              "title": "Gemini拒绝提供《小星星》歌词",
+              "summary": "Hacker News上一则帖子称Gemini拒绝提供《小星星》歌词，获162票和106条评论；摘要未说明具体拒答理由。",
+              "title_en": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+              "summary_en": "A Hacker News post says Gemini refused to provide the lyrics to 'Twinkle Twinkle Little Star'; the item drew 162 points and 106 comments, with no reason given in the summary.",
+              "topic_evidence": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+              "reason": "该帖涉及大模型拒答与内容过滤边界，属于技术观点话题，且互动量较高。",
+              "reason_en": "A high-engagement AI refusal case that fits tech-opinion discussion of LLM content filtering and refusal boundaries.",
+              "score": 8.6
+            },
+            {
+              "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+              "title": "绕过iOS Safari的60 FPS限制，构建原生感Web应用",
+              "summary": "一篇技术博客文章介绍如何绕过iOS Safari的60 FPS限制，以构建体验接近原生的Web应用；该Hacker News帖子获146票、53条评论。",
+              "title_en": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+              "summary_en": "A technical blog post explains how to bypass iOS Safari's 60 FPS limit to build web applications that feel native; the Hacker News item drew 146 points and 53 comments.",
+              "topic_evidence": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+              "reason": "该文是面向开发者的技术随笔，讨论Web性能与原生体验的取舍，符合技术观点定位。",
+              "reason_en": "A developer-facing technical essay on web performance and native-like experience trade-offs, fitting tech-opinion.",
+              "score": 8.2
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": []
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "original_title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "original_summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count. This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality. GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening. I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API. It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at https://api.z.ai/api/v1 ), and the API key for the coding plan worked with that and gave me access to the new model. I built a llm-glm plugin , then realized that llm-zai by Tommy Hughes already exists! I've shipped mine purely because llm-zai doesn't yet support the new model, but I'll likely retire mine once that plugin catches up. Here are pelicans for GLM-5.4 on low, high, and max. This is the max one: I realized I never ran pelicans for GLM-5.3, so here those are for the same effort levels. They look similar in quality to 5.4. It's interesting how GLM 5.1 and GLM 5.2 produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look. I made a comparison grid showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark. Tags: ai , generative-ai , llms , llm , pelican-riding-a-bicycle , llm-release , ai-in-china , glm",
+      "topic_evidence": "It's their first model to use a looped transformer architecture",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "llm",
+        "model",
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway",
+      "original_title": "Inkling 2 Mini now available on AI Gateway",
+      "original_summary": "Inkling 2 Mini from Thinking Machines is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output.Inkling 2 Mini has 26.4 billion total parameters and 3.4 billion active per token. The model runs its middle layers more than once for every token, which lets it reason further before writing anything down and often reach an answer with fewer reasoning tokens. Like Inkling 2 Small, it is strongest on long-running agentic tasks.The model has a 1M-token context window, and reasoning effort can be set from none through max.Use thinkingmachines/inkling-2-mini as the model name:To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup:Then select thinkingmachines/inkling-2-mini in the agent. See the coding agents guide for details.Try Inkling 2 Mini in the model playground.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more.AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.You can view all language models available on AI Gateway. Read more",
+      "topic_evidence": "The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai",
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "original_title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "original_summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "topic_evidence": "GPT-6 models design protein structures and sequences using reasoning and code",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "original_title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "original_summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "topic_evidence": "Walmart now lets customers shop Black Friday deals through Muse",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+      "original_title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "original_summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "topic_evidence": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+      "original_title": "Agents can now manage AI Gateway through Vercel MCP",
+      "original_summary": "Your agent can now manage AI Gateway through Vercel MCP. Ask it in plain language to:Manage virtual models: Create reusable model IDs with saved settings, then list, inspect, update, or restore them.Configure routing rules: View, add, and update team-wide rules that redirect requests to another model or block them.Set spending budgets: View and set budgets for your team, projects, and members, and configure defaults.To create a virtual model, for example, ask your agent:Create a virtual model named coding-agent that uses anthropic/claude-opus-5.5 with Zero Data Retention enabled.Your apps and coding agents using AI Gateway can then use vmc/coding-agent as the model ID. You can change its model or settings later without updating those clients or redeploying your app.To get started, connect your agent to Vercel MCP with team-level access and the required AI Gateway permissions. Your Vercel team permissions still apply. Read more",
+      "topic_evidence": "Your agent can now manage AI Gateway through Vercel MCP",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "claude"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "original_title": "How iFood scales coding agents across 15,000 repositories",
+      "original_summary": "",
+      "topic_evidence": "How iFood scales coding agents across 15,000 repositories",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-products",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "original_title": "Clay helps sales teams win with Codex and ChatGPT",
+      "original_summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "topic_evidence": "ChatGPT and Codex integrations help Clay’s users research deals",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "chatgpt"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+      "original_title": "Even the best AI agents struggle with everyday life",
+      "original_summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "topic_evidence": "a new benchmark reveals that even the most advanced AI models struggle",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "original_title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "original_summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "topic_evidence": "AI hacking tools rely on exploiting simple security flaws",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+      "original_title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "original_summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "topic_evidence": "Tidal to ban and remove millions of AI-generated tracks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "original_title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "original_summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "topic_evidence": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "original_title": "Ladybird's first alpha release",
+      "original_summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS . This morning the Ladybird project released their first alpha , which means you can now install the browser (on macOS or Linux) without having to compile it yourself! I've been trying it out today, and it's very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I've tried to load in it have worked as they should. It looks like this (showing my video-compressor tool): Here's the process tree after I opened six tabs in one window and another tab in a second window (generated by this script , thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├── ProcessReaper (72928) [1 MB] ├── Compositor (72930) [123 MB] ├── RequestServer (72953) [36 MB] ├── WebContent (72984) [819 MB] ├── MediaServer (73006) [118 MB] ├── VideoDecoderServer (73007) [20 MB] ├── WebContent (73052) [144 MB] ├── WebContent (73057) [73 MB] ├── WebContent (73073) [166 MB] ├── WebContent (73094) [70 MB] ├── WebContent (73112) [116 MB] ├── RequestServer (73113) [27 MB] └── WebContent (73185) [60 MB] Ladybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site). I tried Ladybird against several of my more advanced tool examples - like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my image-resize tool . It happily runs my Pyodide REPL (Python compiled to WebAssembly) too. The one thing I tried that didn't work was Datasette Lite , which runs Pyodide in a complicated arrangement of service workers and web workers. Attempting to start Datasette Lite displays this error: undefined is not a function (evaluated from 'navigator.serviceWorker.startMessages') I filed an issue about this , then found a FIXME annotation in the source code. The October explosion The project has been leaning heavily into coding agents this year. On February 23, 2026 Andreas Kling published Ladybird adopts Rust, with help from AI , describing how they ported parts of their LibJS JavaScript engine from C++ to 25,000 lines of Rust in two weeks using Claude Code and Codex. Here's the GitHub contributions chart for Ladybird over the past twelve months: That uptick in October corresponds to the landing of a wealth of big improvements. This Month in Ladybird — October 2026 describes what happened. In addition to moving style and layout to their own thread, landing a new JavaScript JIT, and replacing their C++ with Cranelift WebAssembly engine with new code that achieved a 7x boost on the JetStream 3 WASM benchmark , they gained 75,650 new passes on the ~2.25 million subtest web-platform-tests suite, beating Safari! How did they do that? Coding agents: Most of that gain came in five days, from about 2.12 million on October 22 to about 2.18 million on October 27. We pointed AI coding agents at WPT and asked them to fill in missing functionality. They made lots of small fixes, and those added up. Our biggest gains for the month were about 30,000 in /css and 10,000 in /editing . I'm interested in what models they are using here - I know Andreas uses Codex and Claude Code, but I haven't seen him talk about specific model versions. Claude Opus 5.5 came out on September 22, 2026 and Claude Fable 5.2 on November 9, 2026 (after that window). I'd love to know what they were using for that huge leap in the last week of October. Should you use Ladybird? Here's what Andreas says about Ladybird's suitability for use as a daily browser: This is an alpha, so some websites won’t work, and it will crash sometimes. When that happens, tell us! You can report a broken site from inside the browser. After a crash, you can read the crash report and decide whether to send it. Our privacy policy has the details. We want security nerds to hack it! A new browser gets hacked, over and over, and that’s part of the process, so we make no promises about security today. When you pwn us, please tell us how so we can harden Ladybird! Given how hard it is to secure a web browser, and the hostility of the environment they operate in, I won't be using Ladybird to sign into GitHub or Gmail or any of my other sensitive accounts. I'm going to keep it around for anonymous browsing though, partly to participate in the testing efforts but mainly because it gives me a glimmer of optimism to see a promising new entrant in the stagnant browser engine market start to grow its wings. Tags: browsers , open-source , ai , rust , webassembly , generative-ai , llms , andreas-kling , ladybird , coding-agents",
+      "topic_evidence": "Ladybird's first alpha release",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "github",
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts",
+      "original_title": "datasette-charts 0.2a0",
+      "original_summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box. It shows me a chart inline in the chat, and when I click \"Open in the chart builder\" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of \"datasette\", then when I ask the agent \"what does the chart show?\" it notices that I changed the content in the panel and describes the new Datasette chart to me. Here's a Markdown export of the chat from the video. Tags: datasette-agent , datasette , visualization",
+      "topic_evidence": "Today it's gained integration with Datasette Agent",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github",
+        "tool",
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+      "original_title": "datasette-agent 0.7a1",
+      "original_summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fix some bugs with the much more exciting datasette-charts 0.2a0 release . Tags: datasette-agent , datasette",
+      "topic_evidence": "This version improves navigation by fragment hashes",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "original_title": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "original_summary": "With flags@4.5.0, projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET. That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends. Vercel signs Flags Explorer discovery requests and overrides, and the SDK encrypts flag values shown in the Vercel Toolbar with Vercel’s public key.Existing projects keep using FLAGS_SECRET while the environment variable is set or the secret is passed in code. Upgrading alone doesn't switch them to Vercel-managed keys. To use Vercel-managed keys for these features, remove the environment variable and any code that passes the secret explicitly. For local development, run vercel env pull.Precomputed codes created without a secret work only in the deployment that created them. Precompute without a secret requires Vercel system environment variables, which are enabled by default. Prebuilt deployments and codes that must work across deployments still need a secret; use FLAGS_PRECOMPUTE_SECRET if only precompute needs one. If you use a build cache, see the precompute documentation for the required configuration.Learn more in the Flags SDK documentation. Read more",
+      "topic_evidence": "projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+      "original_title": "All Sandbox runtimes now use Vercel Managed Images",
+      "original_summary": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs).Legacy runtimes, such as node22, now use the open-source images in the vercel/sandbox repository, distributed through Vercel Container Registry (VCR). Sandboxes created with these now come with 64 GB of storage and use the same infrastructure as sandboxes powered by VCR.The universal image is released nightly, and rolling tags such as latest pick up operating system, dependency, and coding agent updates. Pin an image digest when you need a reproducible environment.Sandboxes created with version 3 or later of the JavaScript Sandbox SDK use vercel/sandbox/universal:latest by default. The universal image includes Node.js, Python, coding agents such as Claude Code and Pi, and common utilities. You can pull it at vcr.vercel.com/vercel/sandbox/universal:latest.Learn more in the Sandbox documentation. Read more",
+      "topic_evidence": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs)",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+      "original_title": "AWS PrivateLink endpoints are now available on Secure Compute",
+      "original_summary": "Enterprise teams using Secure Compute can now create and manage AWS PrivateLink endpoints directly from the Vercel dashboard.Endpoints on Secure Compute live in your team's dedicated VPC and use the network's AWS region. They belong to the network and are shared by its connected project environments.Vercel Functions, Vercel Sandbox, and builds connected to the network can reach AWS-hosted backends over the AWS private network. Before you add an endpoint in Vercel, the backend must already be exposed through a published AWS PrivateLink endpoint service. Examples include RDS, Aurora, Redshift, Snowflake, MongoDB Atlas, and internal services behind a Network Load Balancer.In Team Settings → Networking, open your Secure Compute network and choose Add Endpoint from the PrivateLink tab.Standard pricing for new endpoints:Each Secure Compute network includes one AWS PrivateLink endpoint. Additional endpoints cost $30 per month each.PrivateLink data transfer costs $0.04 per GB.Read the Secure Compute PrivateLink documentation to get started. Read more",
+      "topic_evidence": "Enterprise teams using Secure Compute can now create and manage AWS PrivateLink endpoints",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "data"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
+      "original_title": "Delete a run's data on demand in Workflow SDK",
+      "original_summary": "The Workflow SDK now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run payloads.Deleting a run's data deletes any inputs, outputs, hook payloads, and error traces for the run and its related entities. This does not delete the run's metadata: the run is still listed in observability. Attributes, hook tokens, and timings for steps and events can still be inspected.You can delete a run's data from the Vercel Dashboard, or via the CLI:You can also delete a run's data programmatically from your code:Deletion applies to finished runs only, so a run that is still going is skipped and keeps running. If you want to delete a run's payload as soon as it finishes, use the retention settings instead.Upgrade to workflow@5.7.0 or higher to use this feature. Learn more in the deleteRuns() reference. Read more",
+      "topic_evidence": "lets you delete a finished run's stored data on demand",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security",
+        "data"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon",
+      "original_title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+      "original_summary": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
+      "topic_evidence": "Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "nasa"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060332.htm",
+      "original_title": "A black hole the size of an atom could destroy an entire star",
+      "original_summary": "MIT scientists have discovered that tiny black holes left over from the Big Bang could slowly devour stars from within, eventually triggering spectacular explosions visible across galaxies. Detecting these unusual cosmic events could reveal the existence of primordial black holes and help solve the mystery of dark matter.",
+      "topic_evidence": "tiny black holes left over from the Big Bang could slowly devour stars from within",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "star",
+        "stars"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
+      "original_title": "A galactic shock wave could rewrite the map of the Milky Way",
+      "original_summary": "A surprising discovery suggests the Milky Way may be making stars in places where most galaxies cannot. Scientists found evidence that a massive rotating structure near the galactic center is creating powerful shock waves that trigger star formation rather than suppress it. Even more unexpectedly, part of the Norma spiral arm may not be a spiral arm at all, but a vast region where new stars are being born.",
+      "topic_evidence": "a massive rotating structure near the galactic center is creating powerful shock waves that trigger star formation",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "star",
+        "stars"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060342.htm",
+      "original_title": "Two monster black holes from the dawn of time defy explanation",
+      "original_summary": "Astronomers have discovered the oldest known compact pair of quasars, powered by two enormous black holes that existed just 900 million years after the Big Bang. Weighing an astonishing 1.5 billion and 400 million times the mass of the Sun, these cosmic giants somehow grew to incredible sizes far earlier than current theories can explain.",
+      "topic_evidence": "oldest known compact pair of quasars",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+      "original_title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+      "original_summary": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed using technology similar to COVID-19 mRNA vaccines, the nose drops stimulate production of a brain-protecting protein that strengthens neurons and supports memory. Remarkably, the treatment preserved brain function without removing Alzheimer’s-associated plaques, suggesting a completely different way to combat cognitive decline.",
+      "topic_evidence": "restored youthful learning and memory performance in aging mice",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+      "original_title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+      "original_summary": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of a single catastrophic bombardment, asteroid impacts appear to have declined gradually over billions of years, revealing new clues about Earth's early evolution and the origins of life.",
+      "topic_evidence": "asteroid impacts appear to have declined gradually over billions of years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm",
+      "original_title": "Earth's next ice age may have already begun. Global warming stopped it",
+      "original_summary": "Scientists have uncovered surprising evidence that Earth’s next ice age may have already begun, only to be stopped by global warming. By studying ancient plants preserved beneath the Barnes Ice Cap in the Canadian Arctic, researchers discovered that the remnants of a massive ice sheet began expanding again about 2,000 years ago, signaling the possible start of a new glacial period. But by the 1960s, rising temperatures had reversed that growth, causing the ice to shrink instead.",
+      "topic_evidence": "remnants of a massive ice sheet began expanding again about 2,000 years ago",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "researchers",
+        "scientists"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+      "original_title": "Mysterious new viruses reveal a missing link in evolution",
+      "original_summary": "Scientists have discovered previously unknown viruses that could help explain how some of life’s earliest biological structures evolved. The surprising findings challenge a longstanding evolutionary theory and suggest that viruses may have hidden capabilities far beyond simply infecting cells.",
+      "topic_evidence": "previously unknown viruses that could help explain how some of life’s earliest biological structures evolved",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/blink-35",
+      "original_title": "Blink",
+      "original_summary": "Describe any trade and watch Blink build it Discussion | Link",
+      "topic_evidence": "Describe any trade and watch Blink build it",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/vybe-4",
+      "original_title": "Falcon by Vybe",
+      "original_summary": "Falcon analyzes your competitors for free, then gets to work Discussion | Link",
+      "topic_evidence": "Falcon analyzes your competitors for free, then gets to work",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/myclaw-3-0",
+      "original_title": "MyClaw 3.0",
+      "original_summary": "Build an always-on AI team with shared memory Discussion | Link",
+      "topic_evidence": "Build an always-on AI team with shared memory",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "funding-ma",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "original_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "original_summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "topic_evidence": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "original_summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+      "topic_evidence": "almost 500,000 deaths in war in Ukraine",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "original_summary": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+      "topic_evidence": "kills Hamas internal security chief in Gaza",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+      "original_title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "original_summary": "Ukraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship Ukraine has confirmed it deployed naval drones in strikes on two Russian vessels off Libya on Sunday, including one that sank the corvette Merkury, one of Russia’s newest vessels. Ukraine’s security service, the SBU, said seven domestically made naval drones were launched from a mothership in the operation, which Volodymyr Zelenskyy described as “exemplary”. Continue reading...",
+      "topic_evidence": "strike two Russian ships off Libya",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
+      "original_title": "UK warns companies of potential Russian sabotage threat",
+      "original_summary": "Britain's Defence Ministry and security service warn of the threat in unusual public announcement.",
+      "topic_evidence": "warns companies of potential Russian sabotage threat",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Is China behind a wave of AI fake videos targeting Taiwan?",
+      "original_summary": "The network attacked key figures in the ruling DPP, including President Lai and mayoral candidate Shen.",
+      "topic_evidence": "wave of AI fake videos targeting Taiwan",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.aljazeera.com/news/2026/11/25/the-gambia-election-can-the-next-president-deliver-on-a-decade-of-promise?traffic_source=rss",
+      "original_title": "The Gambia election: Can the next president deliver on a decade of promise",
+      "original_summary": "Gambians head to the polls amid economic hardship and unfulfilled promises of reform and justice.",
+      "topic_evidence": "Gambians head to the polls",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "election"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+      "original_title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+      "original_summary": "Salvadorian man, who was deported in March 2025 and returned to US after supreme court ruling, leaving of own volition for Spain Kilmar Ábrego García has left the United States of his own volition, his lawyers confirmed on Tuesday, with the Department of Homeland Security confirming that he was travelling to Spain. The Salvadorian immigrant was at the center of a months-long legal battle since he was deported to El Salvador in March 2025 by the Trump administration, in defiance of a court’s protection. He was held in Cecot, a notorious anti-terrorism mega-prison . Continue reading...",
+      "topic_evidence": "leaving of own volition for Spain",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "administration"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+      "original_title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
+      "original_summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
+      "topic_evidence": "barred from UK flight",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+      "original_title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+      "original_summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World Health Organization (WHO) said on Tuesday. On a visit to Havana, WHO chief Tedros Adhanom Ghebreyesus said life expectancy had fallen from 78.8 years in 2020 to 74.4 years in 2025, the first decline since records began in 1950. Continue reading...",
+      "topic_evidence": "life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world",
+        "health"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+      "original_title": "The human cost of the electric vehicle boom is at the center of a lawsuit in Congo",
+      "original_summary": "A landmark lawsuit in Congo sees 27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community and the government of failing to protect them.",
+      "topic_evidence": "27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
+      "original_title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+      "original_summary": "A new report has testimonies from hundreds of defectors who say they were persecuted because of their faith.",
+      "topic_evidence": "spied on, beaten and jailed for being Christian",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+      "original_title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+      "original_summary": "Abelardo de la Espriella to take control of an operation involving scores of security personnel trying to free at least 20 hostages Colombia’s president has arrived at the scene of an hours-long standoff between security services and gunmen holding at least 20 people hostage inside a supermarket in Cartagena, a popular tourist city. Abelardo de la Espriella’s motorcade arrived in Cartagena on Tuesday night, Agence France-Presse reported, where he will ostensibly take control of a operation involving scores of officers, the navy and special forces. Continue reading...",
+      "topic_evidence": "supermarket hostage siege in tourist city",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737564.shtml",
+      "original_title": "中方谈中巴航天员共赴“天宫”：中国载人航天工程国际合作新的里程碑",
+      "original_summary": "中新网北京11月25日电 (记者 曾玥)中国外交部发言人郭嘉昆25日在例行记者会上答问时表示，今天在中国和巴基斯坦两国人民热切期待下，中巴航天员共赴中国空间站“天宫”，开展历史性的航天科技合作。中国空间站首次迎来外籍航天员，这是中国载人航天工程国际合作新的里程碑。",
+      "topic_evidence": "中巴航天员共赴中国空间站“天宫”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "外交部"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737548.shtml",
+      "original_title": "中柬“金龙-2026”联合演习开始",
+      "original_summary": "中新社柬埔寨西哈努克市11月25日电 (杨晓敏 邓小胜 杨强)当地时间11月25日上午，中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行。中柬双方参演官兵代表、多国驻柬武官出席仪式。",
+      "topic_evidence": "中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737572.shtml",
+      "original_title": "中方呼吁各方警惕有人正在将《海洋生物多样性协定》秘书处申办工作政治化、对抗化",
+      "original_summary": "中新网北京11月25日电 (记者 曾玥)中国外交部发言人郭嘉昆25日主持例行记者会。",
+      "topic_evidence": "将《海洋生物多样性协定》秘书处申办工作政治化、对抗化",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "外交部"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737601.shtml",
+      "original_title": "海南城乡低保标准统一提升至850元/月",
+      "original_summary": "中新网海口11月25日电 (记者 王晓斌)记者从海南省新闻办公室25日举行新闻发布会获悉，海南已将城乡低保标准统一提升至每人每月850元，特困人员基本生活保障标准统一提升至每人每月1110元，全面实现全省困难群众基本生活救助标准城乡区域一体化。",
+      "topic_evidence": "海南已将城乡低保标准统一提升至每人每月850元",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737567.shtml",
+      "original_title": "江西青原：统战赋能 小菌菇撑起乡村振兴“致富伞”",
+      "original_summary": "中新网江西吉安11月25日电(付丽玲 高先长 刘雅思)冬日午后，走进江西省吉安市青原区富田镇王田村的奁之味黑木耳标准化种植示范基地，百余亩菌田在田垄间连片铺展开来，一排排菌棒上的黑木耳肉厚饱满、色泽黑亮。",
+      "topic_evidence": "小菌菇撑起乡村振兴“致富伞”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737561.shtml",
+      "original_title": "辽宁省医疗健康数据标注先行先试会召开 多项成果、合作集中亮相",
+      "original_summary": "中新网大连11月25日电 (记者 李晛)为加快推进医疗健康领域数据标注先行先试，辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开。",
+      "topic_evidence": "辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737547.shtml",
+      "original_title": "江西出台“十五五”防震减灾规划 建空天地一体化地震监测网",
+      "original_summary": "中新网南昌11月25日电 (朱莹)25日，江西省“十五五”防震减灾规划新闻发布会在南昌举行。据了解，江西将实施地震立体监测网核心工程，持续提升地震预警与震灾速报水平。",
+      "topic_evidence": "建空天地一体化地震监测网",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737593.shtml",
+      "original_title": "沙退水进鸟归来：青土湖守住民勤绿洲“北大门”",
+      "original_summary": "中新网兰州11月25日电 (马爱彬)初冬时节，甘肃省武威市民勤县青土湖，连片芦苇翻起金浪，成群水鸟贴水低飞，鸣声清亮。这片湿地，几十年前还是巴丹吉林、腾格里两大沙漠步步紧逼的风沙前线。",
+      "topic_evidence": "沙退水进鸟归来",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737569.shtml",
+      "original_title": "广东网络餐饮治理观察：近50万商户背后的食安攻坚",
+      "original_summary": "中新网广州11月25日电 (记者 孙秋霞)打开手机、点一份外卖，早已是许多人解决一日三餐的日常。据广东省市场监管局统计，截至今年11月11日，广东经营网络订餐的主体约49.2万家，占全省在营餐饮服务经营者的80.9%。近50万商户的食品安全，连着千万消费者的日常餐桌，也考验着超大规模市场的监管能力。",
+      "topic_evidence": "广东经营网络订餐的主体约49.2万家，占全省在营餐饮服务经营者的80.9%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "食品安全"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737583.shtml",
+      "original_title": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+      "original_summary": "中新网11月25日电 据最高人民检察院微信公众号消息，日前，检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉。",
+      "topic_evidence": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737581.shtml",
+      "original_title": "河南省焦作市政协原党组成员、副主席吕沛被“双开”",
+      "original_summary": "中新网11月25日电 据河南省纪委监委消息：经中共河南省委批准，河南省纪委监委对焦作市政协原党组成员、副主席吕沛严重违纪违法问题进行了立案审查调查。",
+      "topic_evidence": "河南省焦作市政协原党组成员、副主席吕沛被“双开”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "违纪",
+        "违法"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737577.shtml",
+      "original_title": "从“接处警提速”到“码上监督” 山西公安“十五五”执法规范化再升级",
+      "original_summary": "中新网太原11月25日电 (记者 李庭耀)群众对公安执法最关心什么？公平正义。中共山西省委宣传部、山西省人民政府新闻办公室25日举办开局起步“十五五”系列主题新闻发布会，山西公安围绕执法规范化建设给出“路线图”。",
+      "topic_evidence": "山西公安围绕执法规范化建设给出“路线图”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "公安"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+      "original_title": "Tech Selloff Rolls On as AI Worries Lift Bonds: Markets Wrap",
+      "original_summary": "A global selloff in technology stocks is showing no sign of letting up as worries about the outlook for artificial intelligence intensified and sent investors to the safety of bonds.",
+      "topic_evidence": "A global selloff in technology stocks is showing no sign of letting up",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks",
+        "bond",
+        "bonds"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/metals-mixed-after-major-selloff-as-traders-await-us-inflation",
+      "original_title": "Metals Rout Deepens as AI, Fed Worries Fuel Bearish Sentiment",
+      "original_summary": "Copper, aluminum and tin all added to Tuesday’s fierce selloff in metals as tech stocks extended losses and traders braced for US inflation data that will feed the Federal Reserve’s next moves on interest rates.",
+      "topic_evidence": "Copper, aluminum and tin all added to Tuesday’s fierce selloff in metals",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/indian-stocks-extend-world-beating-run-as-ai-selloff-resumes",
+      "original_title": "Global Rotation on AI Jitters Lifts Indian Stocks to Top Spot",
+      "original_summary": "The Indian stock market extended a rally that has catapulted it to the top of global equity rankings this month, as renewed selling in artificial intelligence shares continues to drive investors to markets with limited exposure to the theme.",
+      "topic_evidence": "The Indian stock market extended a rally that has catapulted it to the top of global equity rankings this month",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/latest-oil-market-news-and-analysis-for-nov-25",
+      "original_title": "Latest Oil Market News and Analysis for Nov. 25",
+      "original_summary": "Oil slipped as signs of rising crude supply outweighed escalating attacks on vessels in the Strait of Hormuz and strikes against other energy assets in the region.",
+      "topic_evidence": "Oil slipped as signs of rising crude supply outweighed escalating attacks on vessels in the Strait of Hormuz",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+      "original_title": "Anthropic’s stock just broke below its IPO price for the first time",
+      "original_summary": "Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.",
+      "topic_evidence": "Shares are trading below their IPO price of $83",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/most-fed-regional-boards-wanted-to-raise-rates-in-october",
+      "original_title": "Most Fed Regional Boards Wanted to Raise Rates in October",
+      "original_summary": "Eight of the Federal Reserve’s 12 regional bank boards recommended raising the so-called discount lending rate prior to the Federal Open Market Committee’s October meeting at which policymakers kept their benchmark rate unchanged.",
+      "topic_evidence": "Eight of the Federal Reserve’s 12 regional bank boards recommended raising the so-called discount lending rate",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-korea-seen-resuming-rate-hikes-as-ai-boom-stokes-growth",
+      "original_title": "Bank of Korea Seen Resuming Rate Hikes as AI Boom Stokes Growth",
+      "original_summary": "The Bank of Korea is expected to resume raising interest rates this week as a semiconductor boom drives stronger-than-anticipated growth and keeps inflation elevated, even as weak domestic demand and a recent stock-market rout cloud the outlook.",
+      "topic_evidence": "The Bank of Korea is expected to resume raising interest rates this week",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-canada-chief-warns-of-oil-passthrough-sticky-inflation",
+      "original_title": "Bank of Canada Warns of Persistent Inflation; Bonds Decline",
+      "original_summary": "The head of the Bank of Canada warned that higher oil costs will be passed on to consumers as the economy holds up better than officials expected.",
+      "topic_evidence": "higher oil costs will be passed on to consumers",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "economy",
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/uk-heating-bills-surge-26-adding-to-inflation-pressure",
+      "original_title": "UK Heating Bills Surge 26%, Adding to Inflation Pressure",
+      "original_summary": "UK regulator lifts energy price cap by 26%",
+      "topic_evidence": "UK regulator lifts energy price cap by 26%",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/boj-s-faster-inflation-indicator-backs-case-for-another-hike",
+      "original_title": "BOJ’s Faster Inflation Indicator Backs Case for Another Hike",
+      "original_summary": "The Bank of Japan’s indicator for more fundamental inflation accelerated to the highest level in three years, supporting the case for another rate hike.",
+      "topic_evidence": "accelerated to the highest level in three years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring",
+      "original_title": "Venezuela Puts Debt at $237 Billion Before Historic Overhaul",
+      "original_summary": "Venezuela’s government gave investors the first snapshot into its finances in years, setting the stage for what could be one of the largest sovereign debt restructurings in history.",
+      "topic_evidence": "first snapshot into its finances in years",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "finance"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "original_title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "original_summary": "Article URL: https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F Comments URL: https://news.ycombinator.com/item?id=50638320 Points: 162 # Comments: 106",
+      "topic_evidence": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "technology"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "original_title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "original_summary": "Article URL: https://rida.dev/blog/bypassing-ios-safari-60-fps-limit Comments URL: https://news.ycombinator.com/item?id=50637890 Points: 146 # Comments: 53",
+      "topic_evidence": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "original_title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "original_summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "topic_evidence": "Walmart now lets customers shop Black Friday deals through Muse",
+      "approved": true,
+      "evidence": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "reason": "主事件是沃尔玛通过 Meta 的 AI 代理 Muse 提供黑五优惠购物，属于 AI 产品与平台在零售场景的集成落地。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+      "original_title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "original_summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "topic_evidence": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app",
+      "approved": true,
+      "evidence": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "reason": "主事件是 Meta 将 Muse AI 助手直接接入 Instagram 私信，属于 AI 助手产品与平台的功能扩展。"
+    },
+    {
+      "id": "ai-tech/ai-products/https://openai.com/business/customer-stories/ifood",
+      "section": "AI 与大模型",
+      "subsection": "AI 产品与平台",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "original_title": "How iFood scales coding agents across 15,000 repositories",
+      "original_summary": "",
+      "topic_evidence": "How iFood scales coding agents across 15,000 repositories",
+      "approved": true,
+      "evidence": "How iFood scales coding agents across 15,000 repositories",
+      "reason": "主事件是 iFood 在 1.5 万个代码仓库中扩展编码代理，属于 AI 编码代理产品的企业级部署。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "original_title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "original_summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "topic_evidence": "AI hacking tools rely on exploiting simple security flaws",
+      "approved": true,
+      "evidence": "AI hacking tools rely on exploiting simple security flaws",
+      "reason": "主事件是英国网络安全机构警告 AI 驱动的网络攻击利用基础安全缺陷，属于 AI 安全治理议题。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+      "original_title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "original_summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "topic_evidence": "Tidal to ban and remove millions of AI-generated tracks",
+      "approved": true,
+      "evidence": "Tidal to ban and remove millions of AI-generated tracks",
+      "reason": "主事件是 Tidal 禁止并下架大量完全由 AI 生成的曲目，属于平台对 AI 生成内容的治理。"
+    },
+    {
+      "id": "ai-tech/ai-research-governance/https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "section": "AI 与大模型",
+      "subsection": "研究与治理",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "original_title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "original_summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+      "topic_evidence": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "approved": true,
+      "evidence": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "reason": "主事件是 Pinterest 允许家长限制青少年看到的 AI 生成内容，属于 AI 内容治理与平台责任。"
+    },
+    {
+      "id": "developer/open-source-tools/https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "section": "开发与编程",
+      "subsection": "开源与工具",
+      "url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "original_title": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "original_summary": "With flags@4.5.0, projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET. That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends. Vercel signs Flags Explorer discovery requests and overrides, and the SDK encrypts flag values shown in the Vercel Toolbar with Vercel’s public key.Existing projects keep using FLAGS_SECRET while the environment variable is set or the secret is passed in code. Upgrading alone doesn't switch them to Vercel-managed keys. To use Vercel-managed keys for these features, remove the environment variable and any code that passes the secret explicitly. For local development, run vercel env pull.Precomputed codes created without a secret work only in the deployment that created them. Precompute without a secret requires Vercel system environment variables, which are enabled by default. Prebuilt deployments and codes that must work across deployments still need a secret; use FLAGS_PRECOMPUTE_SECRET if only precompute needs one. If you use a build cache, see the precompute documentation for the required configuration.Learn more in the Flags SDK documentation. Read more",
+      "topic_evidence": "projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET",
+      "approved": true,
+      "evidence": "With flags@4.5.0, projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET.",
+      "reason": "主事件是 Vercel Flags SDK 更新后无需 FLAGS_SECRET 即可使用 Flags Explorer 和预计算，属于开发者工具更新。"
+    },
+    {
+      "id": "science-tech/science-research/https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+      "section": "科技与科学",
+      "subsection": "科学研究",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+      "original_title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+      "original_summary": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed using technology similar to COVID-19 mRNA vaccines, the nose drops stimulate production of a brain-protecting protein that strengthens neurons and supports memory. Remarkably, the treatment preserved brain function without removing Alzheimer’s-associated plaques, suggesting a completely different way to combat cognitive decline.",
+      "topic_evidence": "restored youthful learning and memory performance in aging mice",
+      "approved": true,
+      "evidence": "restored youthful learning and memory performance in aging mice",
+      "reason": "主事件是鼻滴疗法在衰老小鼠中恢复学习记忆并对抗阿尔茨海默样病变，属于科学研究。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/blink-35",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/blink-35",
+      "original_title": "Blink",
+      "original_summary": "Describe any trade and watch Blink build it Discussion | Link",
+      "topic_evidence": "Describe any trade and watch Blink build it",
+      "approved": true,
+      "evidence": "Describe any trade and watch Blink build it",
+      "reason": "主事件是 Blink 让用户描述交易并由产品自动构建，属于新产品介绍。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/vybe-4",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/vybe-4",
+      "original_title": "Falcon by Vybe",
+      "original_summary": "Falcon analyzes your competitors for free, then gets to work Discussion | Link",
+      "topic_evidence": "Falcon analyzes your competitors for free, then gets to work",
+      "approved": true,
+      "evidence": "Falcon analyzes your competitors for free, then gets to work",
+      "reason": "主事件是 Falcon 免费分析竞争对手并执行后续工作，属于新产品介绍。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/myclaw-3-0",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/myclaw-3-0",
+      "original_title": "MyClaw 3.0",
+      "original_summary": "Build an always-on AI team with shared memory Discussion | Link",
+      "topic_evidence": "Build an always-on AI team with shared memory",
+      "approved": true,
+      "evidence": "Build an always-on AI team with shared memory",
+      "reason": "主事件是 MyClaw 3.0 支持构建带共享记忆的常驻 AI 团队，属于新产品介绍。"
+    },
+    {
+      "id": "startup-product/funding-ma/https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "section": "创业与产品",
+      "subsection": "融资与并购",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "original_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "original_summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "topic_evidence": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "approved": true,
+      "evidence": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "reason": "主事件是 Supertake 完成 2000 万美元融资，用于让 AI 代理把市场预测转化为股票组合，属于融资与并购。"
+    },
+    {
+      "id": "world/geopolitics/https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Is China behind a wave of AI fake videos targeting Taiwan?",
+      "original_summary": "The network attacked key figures in the ruling DPP, including President Lai and mayoral candidate Shen.",
+      "topic_evidence": "wave of AI fake videos targeting Taiwan",
+      "approved": true,
+      "evidence": "wave of AI fake videos targeting Taiwan",
+      "reason": "主事件是涉华 AI 假视频针对台湾政治人物的跨海峡信息操作，属于地缘与安全。"
+    },
+    {
+      "id": "world/global-society/https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+      "original_title": "The human cost of the electric vehicle boom is at the center of a lawsuit in Congo",
+      "original_summary": "A landmark lawsuit in Congo sees 27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community and the government of failing to protect them.",
+      "topic_evidence": "27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community",
+      "approved": true,
+      "evidence": "27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community",
+      "reason": "主事件是刚果（金）居民起诉中资铜钴矿污染社区，属于全球社会与人权、企业责任议题。"
+    },
+    {
+      "id": "world/global-society/https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
+      "original_title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+      "original_summary": "A new report has testimonies from hundreds of defectors who say they were persecuted because of their faith.",
+      "topic_evidence": "spied on, beaten and jailed for being Christian",
+      "approved": true,
+      "evidence": "spied on, beaten and jailed for being Christian",
+      "reason": "主事件是脱北者称因基督教信仰遭监视、殴打和监禁，属于全球社会与宗教迫害议题。"
+    },
+    {
+      "id": "world/global-society/https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+      "original_title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+      "original_summary": "Abelardo de la Espriella to take control of an operation involving scores of security personnel trying to free at least 20 hostages Colombia’s president has arrived at the scene of an hours-long standoff between security services and gunmen holding at least 20 people hostage inside a supermarket in Cartagena, a popular tourist city. Abelardo de la Espriella’s motorcade arrived in Cartagena on Tuesday night, Agence France-Presse reported, where he will ostensibly take control of a operation involving scores of officers, the navy and special forces. Continue reading...",
+      "topic_evidence": "supermarket hostage siege in tourist city",
+      "approved": true,
+      "evidence": "supermarket hostage siege in tourist city",
+      "reason": "主事件是哥伦比亚卡塔赫纳超市人质危机及安全行动，属于国际社会与突发社会新闻。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/11-25/10737548.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737548.shtml",
+      "original_title": "中柬“金龙-2026”联合演习开始",
+      "original_summary": "中新社柬埔寨西哈努克市11月25日电 (杨晓敏 邓小胜 杨强)当地时间11月25日上午，中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行。中柬双方参演官兵代表、多国驻柬武官出席仪式。",
+      "topic_evidence": "中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行",
+      "approved": false,
+      "evidence": "中柬“金龙-2026”联合演习开始仪式在柬埔寨中柬云壤港联合保障和训练中心举行",
+      "reason": "主事件是中柬联合军事演习开始，属于军事外交与安全，不属于政策与监管。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/sh/2026/11-25/10737601.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737601.shtml",
+      "original_title": "海南城乡低保标准统一提升至850元/月",
+      "original_summary": "中新网海口11月25日电 (记者 王晓斌)记者从海南省新闻办公室25日举行新闻发布会获悉，海南已将城乡低保标准统一提升至每人每月850元，特困人员基本生活保障标准统一提升至每人每月1110元，全面实现全省困难群众基本生活救助标准城乡区域一体化。",
+      "topic_evidence": "海南已将城乡低保标准统一提升至每人每月850元",
+      "approved": true,
+      "evidence": "海南已将城乡低保标准统一提升至每人每月850元",
+      "reason": "主事件是海南统一提升城乡低保和特困人员保障标准，属于具体政府政策与标准调整。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/11-25/10737567.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737567.shtml",
+      "original_title": "江西青原：统战赋能 小菌菇撑起乡村振兴“致富伞”",
+      "original_summary": "中新网江西吉安11月25日电(付丽玲 高先长 刘雅思)冬日午后，走进江西省吉安市青原区富田镇王田村的奁之味黑木耳标准化种植示范基地，百余亩菌田在田垄间连片铺展开来，一排排菌棒上的黑木耳肉厚饱满、色泽黑亮。",
+      "topic_evidence": "小菌菇撑起乡村振兴“致富伞”",
+      "approved": true,
+      "evidence": "小菌菇撑起乡村振兴“致富伞”",
+      "reason": "主事件是江西青原以菌菇产业推动乡村振兴，属于地方产业与乡村发展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-25/10737561.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737561.shtml",
+      "original_title": "辽宁省医疗健康数据标注先行先试会召开 多项成果、合作集中亮相",
+      "original_summary": "中新网大连11月25日电 (记者 李晛)为加快推进医疗健康领域数据标注先行先试，辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开。",
+      "topic_evidence": "辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开",
+      "approved": true,
+      "evidence": "辽宁省医疗健康领域数据标注先行先试工作会议暨医疗领域智改数转对接交流会11月25日在大连召开",
+      "reason": "主事件是辽宁召开医疗健康数据标注先行先试会议并推动对接合作，属于地方产业与数据标注发展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-25/10737547.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737547.shtml",
+      "original_title": "江西出台“十五五”防震减灾规划 建空天地一体化地震监测网",
+      "original_summary": "中新网南昌11月25日电 (朱莹)25日，江西省“十五五”防震减灾规划新闻发布会在南昌举行。据了解，江西将实施地震立体监测网核心工程，持续提升地震预警与震灾速报水平。",
+      "topic_evidence": "建空天地一体化地震监测网",
+      "approved": false,
+      "evidence": "建空天地一体化地震监测网",
+      "reason": "主事件是江西出台“十五五”防震减灾规划并建设监测网，属于政策规划，不属于产业与地方。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-25/10737593.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737593.shtml",
+      "original_title": "沙退水进鸟归来：青土湖守住民勤绿洲“北大门”",
+      "original_summary": "中新网兰州11月25日电 (马爱彬)初冬时节，甘肃省武威市民勤县青土湖，连片芦苇翻起金浪，成群水鸟贴水低飞，鸣声清亮。这片湿地，几十年前还是巴丹吉林、腾格里两大沙漠步步紧逼的风沙前线。",
+      "topic_evidence": "沙退水进鸟归来",
+      "approved": true,
+      "evidence": "沙退水进鸟归来",
+      "reason": "主事件是青土湖生态修复使沙退水进鸟归来，属于地方生态治理与地方发展。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/gn/2026/11-25/10737583.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737583.shtml",
+      "original_title": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+      "original_summary": "中新网11月25日电 据最高人民检察院微信公众号消息，日前，检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉。",
+      "topic_evidence": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+      "approved": true,
+      "evidence": "检察机关依法分别对唐福泉、孔德明、黄思明、崔勇提起公诉",
+      "reason": "主事件是检察机关对四名人员提起公诉，属于社会与法治。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "original_title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "original_summary": "Article URL: https://rida.dev/blog/bypassing-ios-safari-60-fps-limit Comments URL: https://news.ycombinator.com/item?id=50637890 Points: 146 # Comments: 53",
+      "topic_evidence": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "approved": true,
+      "evidence": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "reason": "主事件是技术文章讨论绕过 iOS Safari 60 FPS 限制以构建接近原生体验的 Web 应用，属于技术观点。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "ai-tech",
+      "ai-products",
+      "https://openai.com/business/customer-stories/ifood"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms"
+    ],
+    [
+      "ai-tech",
+      "ai-products",
+      "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming"
+    ],
+    [
+      "ai-tech",
+      "ai-research-governance",
+      "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/gn/2026/11-25/10737567.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-25/10737561.shtml"
+    ],
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-25/10737593.shtml"
+    ],
+    [
+      "china",
+      "china-policy",
+      "https://www.chinanews.com.cn/sh/2026/11-25/10737601.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/gn/2026/11-25/10737583.shtml"
+    ],
+    [
+      "developer",
+      "open-source-tools",
+      "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
+    ],
+    [
+      "science-tech",
+      "science-research",
+      "https://www.sciencedaily.com/releases/2026/11/261123005337.htm"
+    ],
+    [
+      "startup-product",
+      "funding-ma",
+      "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/blink-35"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/myclaw-3-0"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/vybe-4"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket"
+    ]
+  ]
+}

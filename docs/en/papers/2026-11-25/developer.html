@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-11-25</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261125</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>November 25, 2026 · Wednesday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-11-25/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">7 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer and programming briefing: Ladybird alpha and Vercel tooling updates">
+      <div class="lead-label">Developer and programming briefing: Ladybird alpha and Vercel tooling updates</div>
+      <p>This briefing covers Ladybird’s first alpha release, updates to Datasette chart and agent plugins, Flags SDK running on Vercel without FLAGS_SECRET, Vercel Managed Images for all Sandbox runtimes, AWS PrivateLink endpoints on Secure Compute, and on-demand deletion of run data in Workflow SDK.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>4 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open source and tools: Ladybird alpha and Datasette plugin updates">
+          <div class="lead-label">Open source and tools: Ladybird alpha and Datasette plugin updates</div>
+          <p>Ladybird shipped its first alpha release, implementing HTML parsing, CSS, layout, JavaScript and WebAssembly itself while still relying on HarfBuzz, Skia, ffmpeg and SQLite. datasette-charts 0.2a0 integrates with Datasette Agent, letting users request charts in chat and generate them with the same chart suggestion and generation tools; datasette-agent 0.7a1 improves fragment-hash navigation in the chat session’s iframe side panel. Flags SDK 4.5.0 lets Vercel projects use Flags Explorer and precompute without FLAGS_SECRET.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/23/ladybird" target="_blank" rel="noopener">
+            <span class="at">Ladybird&#39;s first alpha release</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Ladybird has shipped its first alpha release. The ambitious browser implements HTML parsing, CSS, layout, JavaScript and WebAssembly itself while still relying on HarfBuzz, Skia, ffmpeg and SQLite.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.2a0</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Datasette-charts 0.2a0 adds integration with Datasette Agent, letting users request a chart in chat and have it generated with the same chart suggestion and generation tools.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-agent" target="_blank" rel="noopener">
+            <span class="at">datasette-agent 0.7a1</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Datasette-agent 0.7a1 improves fragment-hash navigation in the chat session’s iframe side panel, enabling deeper integration with other Datasette plugins that update fragment hashes on interaction.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret" target="_blank" rel="noopener">
+            <span class="at">Flags SDK now works on Vercel without FLAGS_SECRET</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Flags 4.5.0 lets Vercel projects use Flags Explorer and precompute without FLAGS_SECRET, removing a setup step for new projects and the need to sync a shared secret across microfrontends.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure and data: Vercel Sandbox images and PrivateLink endpoint updates">
+          <div class="lead-label">Infrastructure and data: Vercel Sandbox images and PrivateLink endpoint updates</div>
+          <p>All Vercel Sandbox runtimes now use Vercel Managed Images; legacy runtimes such as node22 use open-source images from the vercel/sandbox repository, distributed via Vercel Container Registry, and new sandboxes provide 64 GB storage. Enterprise teams on Secure Compute can create and manage AWS PrivateLink endpoints from the Vercel dashboard; endpoints live in the team’s dedicated VPC and are shared by connected project environments. The Workflow SDK can delete a finished run’s stored data on demand, including inputs, outputs, hook payloads and error traces, to meet compliance and security requirements.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images" target="_blank" rel="noopener">
+            <span class="at">All Sandbox runtimes now use Vercel Managed Images</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">All Vercel Sandbox runtimes now use Vercel Managed Images. Legacy runtimes such as node22 use open-source images from the vercel/sandbox repository, distributed via Vercel Container Registry, with 64 GB storage.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute" target="_blank" rel="noopener">
+            <span class="at">AWS PrivateLink endpoints are now available on Secure Compute</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Enterprise teams on Secure Compute can now create and manage AWS PrivateLink endpoints from the Vercel dashboard. Endpoints live in the team’s dedicated VPC and are shared by connected project environments.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/delete-run-data-workflow-sdk" target="_blank" rel="noopener">
+            <span class="at">Delete a run&#39;s data on demand in Workflow SDK</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">The Workflow SDK now lets developers delete a finished run’s stored data on demand, including inputs, outputs, hook payloads and error traces, to meet compliance and security requirements.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

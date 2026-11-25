@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-25",
+  "title": "信息日报 2026-11-25",
+  "title_en": "Information Daily 2026-11-25",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "GLM-5.4发布：Z.ai首个循环Transformer模型，面向通用编码",
+    "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+    "source": "Simon Willison",
+    "summary": "中国AI实验室Z.ai发布GLM-5.4，称其为首个采用循环Transformer架构的模型；该架构让一组共享权重层多次迭代，目标提升通用编码能力。",
+    "source_en": "Simon Willison",
+    "title_en": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+    "summary_en": "Chinese AI lab Z.ai released GLM-5.4, its first model built on a looped transformer architecture in which weight-shared layers run for multiple iterations, aimed at generalized coding.",
+    "original_title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+    "published_at": "2026-11-23T23:40:49+00:00",
+    "reason": "直接报道Z.ai新模型GLM-5.4及其循环Transformer架构，属于前沿模型发布。",
+    "reason_en": "Directly covers Z.ai's new GLM-5.4 model and its looped transformer architecture, making it a frontier model release.",
+    "score": 6.1
+  },
+  "path": "papers/2026-11-25.html",
+  "raw_path": "raw/2026-11-25.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-25/10737548.shtml]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/11-25/10737547.shtml]",
+    "Source sciencedaily-technology returned invalid XML"
+  ]
+}

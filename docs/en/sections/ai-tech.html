@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-11-04</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-11-25</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261104</span>
+        <span>Issue 20261125</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>November 4, 2026 · Wednesday</span></div>
+      <div class="dateline"><span>November 25, 2026 · Wednesday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,61 +40,85 @@
 
     <header class="pagehead category-head">
       <h2>01 AI &amp; LLMs</h2>
-      <span class="ed">10 articles / 3 subsections</span>
+      <span class="ed">12 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Enterprise Deployments Expand as Research Turns to Memory, Verification, and Interpretability">
-      <div class="lead-label">AI and Large Models: Enterprise Deployments Expand as Research Turns to Memory, Verification, and Interpretability</div>
-      <p>This briefing covers Mercor routing 18 million requests and 63 billion tokens through AI Gateway on Vercel in 10 days and cutting batch jobs from 12 hours to 2 hours, while Cisco and Heimstaden apply OpenAI models to enterprise security and property management. On the consumer side, Netflix launched an experimental AI Discover tab for mood-based recommendations, and Google will let schools restrict its AI tools, though disabling AI entirely affects Google Search. Research highlights include MEMENTO for long-context management, distilling retrieved knowledge into parametric memory, Anthropic’s FlashProve for model identity verification, Circuit Oracle for automating attribution-graph analysis, and StateBench for tracking state changes over long documents.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Frontier Models, Platform Rollouts and Governance">
+      <div class="lead-label">AI and Large Models: Frontier Models, Platform Rollouts and Governance</div>
+      <p>This briefing covers Z.ai’s GLM-5.4 looped transformer model, Thinking Machines’ Inkling 2 Mini on Vercel AI Gateway, and OpenAI’s claim that GPT-6 models can design proteins. On products, Meta’s Muse is used for Walmart Black Friday deals and Instagram DMs, Vercel MCP lets agents manage AI Gateway, and iFood and Clay share enterprise use cases. On governance, a new benchmark finds AI agents struggle with everyday tasks, the UK warns about AI-driven cyberattacks, and Tidal and Pinterest tighten rules on AI-generated music and teens’ AI content.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>0 articles</span>
+          <span>3 articles</span>
         </header>
-        <p class="empty">No articles selected in this subsection today.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: GLM-5.4, Inkling 2 Mini and GPT-6">
+          <div class="lead-label">Frontier Models: GLM-5.4, Inkling 2 Mini and GPT-6</div>
+          <p>Z.ai released GLM-5.4, which it describes as its first model built on a looped transformer architecture for generalized coding. Thinking Machines’ Inkling 2 Mini is now available on Vercel AI Gateway, targeting agentic coding and tool use with 26.4 billion total parameters and 3.4 billion active per token. OpenAI says GPT-6 models used reasoning and code to design protein structures and sequences, with lab tests finding binding evidence across five targets.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/23/glm-54" target="_blank" rel="noopener">
+            <span class="at">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">Chinese AI lab Z.ai released GLM-5.4, its first model built on a looped transformer architecture in which weight-shared layers run for multiple iterations, aimed at generalized coding.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway" target="_blank" rel="noopener">
+            <span class="at">Inkling 2 Mini now available on AI Gateway</span>
+            <span class="by">Vercel 博客</span>
+            <p class="as">Thinking Machines’ small multimodal reasoning model Inkling 2 Mini is now on Vercel AI Gateway, targeting agentic coding, tool use and knowledge work, with 26.4 billion total parameters and 3.4 billion active per token.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities" target="_blank" rel="noopener">
+            <span class="at">GPT-6 models demonstrate intrinsic protein-design capabilities</span>
+            <span class="by">OpenAI 新闻</span>
+            <p class="as">OpenAI says GPT-6 models used reasoning and code to design protein structures and sequences, with lab tests finding evidence of binding across five targets.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
       </section>
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
           <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Enterprise Token Routing, Industry Applications, and Consumer Experiments">
-          <div class="lead-label">AI Products and Platforms: Enterprise Token Routing, Industry Applications, and Consumer Experiments</div>
-          <p>A Vercel case study says Mercor routed 18 million requests and 63 billion tokens through AI Gateway in 10 days and cut batch jobs from 12 hours to 2 hours. Cisco combines network intelligence with OpenAI models to strengthen enterprise security, and Heimstaden uses ChatGPT Enterprise and Codex to transform property management. On the consumer side, Netflix launched an experimental AI Discover tab that recommends content based on users’ moods, while Google will let schools restrict its AI tools; because AI is integrated into Search, disabling AI entirely will prevent schools from accessing Google Search.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Meta Agents in Retail and DMs, Vercel and OpenAI Enterprise Cases">
+          <div class="lead-label">AI Products and Platforms: Meta Agents in Retail and DMs, Vercel and OpenAI Enterprise Cases</div>
+          <p>Walmart now lets customers shop Black Friday deals through Meta’s AI agent Muse, and Meta has integrated Muse into Instagram direct messages. Vercel says agents can manage AI Gateway through MCP using plain language, including creating virtual models, configuring team routing rules and setting spending budgets. OpenAI customer stories say iFood scales coding agents across 15,000 repositories, while Clay uses ChatGPT and Codex integrations to help sales teams research deals, with GPT-6 models handling reasoning.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform" target="_blank" rel="noopener">
-            <span class="at">How Mercor ships internal apps and billions of production tokens on one platform</span>
+          <a class="art" href="https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse" target="_blank" rel="noopener">
+            <span class="at">Walmart teams up with Meta to bring Black Friday deals to AI agent Muse</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent, integrating retail promotions into a conversational AI assistant.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms" target="_blank" rel="noopener">
+            <span class="at">Meta brings its Muse AI assistant directly into Instagram DMs</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Meta integrated its Muse AI assistant into Instagram direct messages, removing the need for users to switch between Instagram and the Muse app to interact with the agent.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp" target="_blank" rel="noopener">
+            <span class="at">Agents can now manage AI Gateway through Vercel MCP</span>
             <span class="by">Vercel 博客</span>
-            <p class="as">A Vercel case study says Mercor routed 18 million requests and 63 billion tokens through AI Gateway in 10 days and cut batch jobs from 12 hours to 2 hours.</p>
+            <p class="as">Vercel says agents can now manage AI Gateway through Vercel MCP, using plain language to create virtual models, configure team routing rules and set spending budgets.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://openai.com/index/cisco-cyber" target="_blank" rel="noopener">
-            <span class="at">How Cisco defends at machine speed with OpenAI</span>
+          <a class="art" href="https://openai.com/business/customer-stories/ifood" target="_blank" rel="noopener">
+            <span class="at">How iFood scales coding agents across 15,000 repositories</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Cisco combines network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.</p>
+            <p class="as">An OpenAI customer story says iFood scales coding agents across 15,000 repositories, illustrating enterprise deployment of AI coding tools.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://openai.com/index/heimstaden" target="_blank" rel="noopener">
-            <span class="at">Heimstaden is changing residential real estate management with AI</span>
+          <a class="art" href="https://openai.com/business/customer-stories/clay-plugins-openai" target="_blank" rel="noopener">
+            <span class="at">Clay helps sales teams win with Codex and ChatGPT</span>
             <span class="by">OpenAI 新闻</span>
-            <p class="as">Heimstaden is using OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood" target="_blank" rel="noopener">
-            <span class="at">Netflix’s new AI Discover tab helps you find something to watch based on your mood</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Netflix launched an experimental AI Discover tab; its first feature lets users get viewing recommendations based on their current mood.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search" target="_blank" rel="noopener">
-            <span class="at">Google will let schools disable its AI tools, but not without sacrificing Search</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Google will let schools restrict its AI tools, but because AI features are integrated into Search, schools that disable AI entirely will lose access to Google Search.</p>
+            <p class="as">An OpenAI customer story says Clay uses ChatGPT and Codex integrations to help users research deals and turn data into go-to-market plays, with GPT-6 models handling reasoning.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -102,42 +126,36 @@
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>Research &amp; Governance</h3>
-          <span>5 articles</span>
+          <span>4 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Long-Context Memory, Model Identity Verification, and Interpretability Tools">
-          <div class="lead-label">Research and Governance: Long-Context Memory, Model Identity Verification, and Interpretability Tools</div>
-          <p>MEMENTO trains long-context LLM agents to decide what to retain in a fixed context window; the paper finds that off-the-shelf models such as GPT-5.5 and GLM-5.3 often write ineffective compaction notes. Another paper distills retrieved knowledge into parametric memory so LLMs can reuse it while aiming to cut storage and inference costs. Anthropic is developing FlashProve to let anyone check whether an AI response really came from the model it claims to be from; Circuit Oracle automates attribution-graph analysis through natural-language queries; and StateBench tests how language models track state changes over long documents.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Agent Reliability, AI Cyberattacks and Platform Limits">
+          <div class="lead-label">Research and Governance: Agent Reliability, AI Cyberattacks and Platform Limits</div>
+          <p>A new benchmark reported by TechCrunch finds that even the most advanced AI models still struggle to complete everyday tasks reliably. The UK cyber agency warns that AI hacking tools are exploiting simple security flaws, exposing years of weak security foundations. Tidal says it will ban and remove millions of AI-generated tracks while still accepting AI-assisted songs, and Pinterest now lets parents limit the AI-generated content teens see in their feeds.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2611.00244" target="_blank" rel="noopener">
-            <span class="at">MEMENTO: Learning Context Management for Long Context Processing Agents</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">MEMENTO trains long-context LLM agents to decide what to retain in a fixed context window; the paper finds off-the-shelf models like GPT-5.5 and GLM-5.3 often write ineffective compaction notes.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2611.00450" target="_blank" rel="noopener">
-            <span class="at">From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">The paper distills previously retrieved information into parametric memories so LLMs can reuse it without online retrieval, aiming to cut storage and inference costs while preserving factual question answering.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity" target="_blank" rel="noopener">
-            <span class="at">Anthropic is working on a system to prove AI models’ identity</span>
+          <a class="art" href="https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life" target="_blank" rel="noopener">
+            <span class="at">Even the best AI agents struggle with everyday life</span>
             <span class="by">TechCrunch AI</span>
-            <p class="as">Anthropic is developing FlashProve, a system that would let anyone check whether an AI response really came from the model it claims to be from.</p>
+            <p class="as">A new benchmark reported by TechCrunch finds that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2611.00420" target="_blank" rel="noopener">
-            <span class="at">Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">Circuit Oracle automates analysis of attribution graphs in mechanistic interpretability through natural-language queries, reducing the manual expert time needed to turn graphs into safety-relevant insights.</p>
+          <a class="art" href="https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security" target="_blank" rel="noopener">
+            <span class="at">UK warns AI-driven cyberattacks are exposing years of weak security</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">The UK cyber agency warns that AI hacking tools are exploiting simple security flaws, exposing years of weak security foundations, and says building strong foundations has never mattered more.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://huggingface.co/blog/allenai/statebench" target="_blank" rel="noopener">
-            <span class="at">StateBench: Testing how language models track state changes over long documents</span>
-            <span class="by">Hugging Face 博客</span>
-            <p class="as">A Hugging Face blog introduces StateBench, a benchmark that tests how language models track state changes over long documents, focusing on long-context understanding.</p>
+          <a class="art" href="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming" target="_blank" rel="noopener">
+            <span class="at">Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Tidal says it will ban and remove millions of AI-generated tracks as AI slop floods music streaming, while still accepting songs made with AI assistance but not fully generated.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see" target="_blank" rel="noopener">
+            <span class="at">Pinterest will now let parents limit the AI-generated content their teens see</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Pinterest now lets parents limit the AI-generated content teens see in their feeds, focusing on AI content rather than restricting access to AI chatbots as other platforms have done.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
