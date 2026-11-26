@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 开发与编程 · 信息日报 2026-11-25</title>
+<title>02 开发与编程 · 信息日报 2026-11-26</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261125 期</span>
+        <span>第 20261126 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年11月25日 星期三</span></div>
+      <div class="dateline"><span>2026年11月26日 星期四</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 开发与编程</h2>
-      <span class="ed">7 条 / 3 个细分</span>
+      <span class="ed">3 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="开发与编程：Ladybird 首个 alpha 与 Vercel 工具链更新">
-      <div class="lead-label">开发与编程：Ladybird 首个 alpha 与 Vercel 工具链更新</div>
-      <p>本期开发与编程内容涵盖 Ladybird 首个 alpha 版本、Datasette 图表与 Agent 插件更新、Flags SDK 在 Vercel 上免 FLAGS_SECRET 运行，以及 Vercel Sandbox 托管镜像、Secure Compute 的 AWS PrivateLink 端点和 Workflow SDK 按需删除运行数据。</p>
+    <section class="briefing-panel category-briefing" aria-label="开发与编程：图表标注、现代化步骤与 SQLite 远程复制">
+      <div class="lead-label">开发与编程：图表标注、现代化步骤与 SQLite 远程复制</div>
+      <p>本期开发与编程板块涵盖 datasette-charts 0.3a0 新增图表标注、GitHub 博客关于选择应用现代化安全步骤的方法，以及 sqlite3_rsync 远程复制 SQLite 数据库的用途。</p>
     </section>
 
     <div class="subsection-stack">
@@ -59,36 +59,24 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>开源与工具</h3>
-          <span>4 条</span>
+          <span>2 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：Ladybird alpha 与 Datasette 插件更新">
-          <div class="lead-label">开源与工具：Ladybird alpha 与 Datasette 插件更新</div>
-          <p>Ladybird 发布首个 alpha 版，自研 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，同时仍依赖 HarfBuzz、Skia、ffmpeg 和 SQLite。datasette-charts 0.2a0 集成 Datasette Agent，可在聊天中请求并用相同的图表建议与生成工具创建图表；datasette-agent 0.7a1 改进聊天会话侧边 iframe 的片段哈希导航。Flags SDK 4.5.0 让 Vercel 项目无需 FLAGS_SECRET 即可使用 Flags Explorer 和预计算。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="开源与工具：图表标注与现代化步骤评估">
+          <div class="lead-label">开源与工具：图表标注与现代化步骤评估</div>
+          <p>datasette-charts 0.3a0 为图表加入线、阴影区域和标签标注，并可在 Datasette Lite 的图表构建器中调整；GitHub 博客介绍评估遗留应用、选择范围有限的现代化步骤，并可通过 GitHub Copilot 代理技能复用该方法。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Nov/23/ladybird" target="_blank" rel="noopener">
-            <span class="at">Ladybird 浏览器发布首个 alpha 版本</span>
+          <a class="art" href="https://simonwillison.net/2026/Nov/25/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.3a0 发布，新增图表标注</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Ladybird 发布首个 alpha 版，自研 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，同时仍依赖 HarfBuzz、Skia、ffmpeg 和 SQLite。</p>
+            <p class="as">datasette-charts 0.3a0 为图表加入线、阴影区域和标签标注，并可在 Datasette Lite 的图表构建器中调整；用户也可安装相关组件使用。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-charts" target="_blank" rel="noopener">
-            <span class="at">datasette-charts 0.2a0 发布，集成 Datasette Agent</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Datasette 图表插件 datasette-charts 发布 0.2a0，新增与 Datasette Agent 集成；用户可在聊天中请求图表，插件会用相同的图表建议与生成工具创建图表。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-agent" target="_blank" rel="noopener">
-            <span class="at">datasette-agent 0.7a1 发布，改进片段哈希导航</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Datasette Agent 发布 0.7a1，改进了聊天会话侧边 iframe 的片段哈希导航，便于与在用户交互时更新片段哈希的其他 Datasette 插件深度集成。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret" target="_blank" rel="noopener">
-            <span class="at">Flags SDK 现可在 Vercel 上无需 FLAGS_SECRET 运行</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">flags@4.5.0 让 Vercel 项目无需 FLAGS_SECRET 即可使用 Flags Explorer 和预计算，减少新项目配置步骤，也免去在微前端间同步共享密钥。</p>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization" target="_blank" rel="noopener">
+            <span class="at">如何为应用现代化选择下一个安全步骤</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub 博客介绍评估遗留应用、选择范围有限的现代化步骤，并借助 GitHub Copilot 代理技能复用该方法。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -96,30 +84,18 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>基础设施与数据</h3>
-          <span>3 条</span>
+          <span>1 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：Vercel Sandbox 镜像与 PrivateLink 端点更新">
-          <div class="lead-label">基础设施与数据：Vercel Sandbox 镜像与 PrivateLink 端点更新</div>
-          <p>Vercel Sandbox 所有运行时改用 Vercel Managed Images；node22 等旧运行时使用 vercel/sandbox 开源镜像并经 Vercel Container Registry 分发，新建沙箱提供 64 GB 存储。Secure Compute 的企业团队可在 Vercel 仪表板创建和管理 AWS PrivateLink 端点；端点位于团队专用 VPC，使用该网络的 AWS 区域，并由连接的项目环境共享。Workflow SDK 允许按需删除已完成运行的存储数据，包括输入、输出、钩子负载和错误轨迹，以满足合规与安全要求。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="基础设施与数据：SQLite 远程复制工具">
+          <div class="lead-label">基础设施与数据：SQLite 远程复制工具</div>
+          <p>sqlite3_rsync 自 SQLite 3.47.0 起作为实验功能提供，并在 3.50.0 得到增强；它用于远程复制 SQLite 数据库，作者称其突出优点是便于获取数据库快照。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images" target="_blank" rel="noopener">
-            <span class="at">Vercel Sandbox 运行时全部改用 Vercel Managed Images</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel Sandbox 所有运行时改用 Vercel Managed Images；node22 等旧运行时使用 vercel/sandbox 开源镜像并经 Vercel Container Registry 分发，新建沙箱提供 64 GB 存储。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute" target="_blank" rel="noopener">
-            <span class="at">Vercel Secure Compute 新增 AWS PrivateLink 端点</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">使用 Secure Compute 的企业团队现可在 Vercel 仪表板创建和管理 AWS PrivateLink 端点；端点位于团队专用 VPC，使用该网络的 AWS 区域，并由连接的项目环境共享。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/delete-run-data-workflow-sdk" target="_blank" rel="noopener">
-            <span class="at">Workflow SDK 支持按需删除运行数据</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Workflow SDK 现允许按需删除已完成运行的存储数据，包括输入、输出、钩子负载和错误轨迹，以便在敏感数据需要清除时满足合规与安全要求。</p>
+          <a class="art" href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync" target="_blank" rel="noopener">
+            <span class="at">sqlite3_rsync：SQLite 的数据库远程复制工具</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">sqlite3_rsync 自 SQLite 3.47.0 起作为实验功能提供，3.50.0 得到增强；它用于远程复制 SQLite 数据库，作者称其突出优点是便于获取数据库快照。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>

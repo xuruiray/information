@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI &amp; LLMs · Information Daily 2026-11-25</title>
+<title>01 AI &amp; LLMs · Information Daily 2026-11-26</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261125</span>
+        <span>Issue 20261126</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>November 25, 2026 · Wednesday</span></div>
+      <div class="dateline"><span>November 26, 2026 · Thursday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,42 +40,54 @@
 
     <header class="pagehead category-head">
       <h2>01 AI &amp; LLMs</h2>
-      <span class="ed">12 articles / 3 subsections</span>
+      <span class="ed">10 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Frontier Models, Platform Rollouts and Governance">
-      <div class="lead-label">AI and Large Models: Frontier Models, Platform Rollouts and Governance</div>
-      <p>This briefing covers Z.ai’s GLM-5.4 looped transformer model, Thinking Machines’ Inkling 2 Mini on Vercel AI Gateway, and OpenAI’s claim that GPT-6 models can design proteins. On products, Meta’s Muse is used for Walmart Black Friday deals and Instagram DMs, Vercel MCP lets agents manage AI Gateway, and iFood and Clay share enterprise use cases. On governance, a new benchmark finds AI agents struggle with everyday tasks, the UK warns about AI-driven cyberattacks, and Tidal and Pinterest tighten rules on AI-generated music and teens’ AI content.</p>
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Agent Competence, Memory, and Evaluation Governance">
+      <div class="lead-label">AI and Large Models: Agent Competence, Memory, and Evaluation Governance</div>
+      <p>This AI and Large Models briefing covers 10 papers: the frontier-model section examines separating task competence from interface competence in agentic training, evolving procedural intelligence for spatial-reasoning agents, a long-horizon agent memory framework, extraneous cognitive load in LLMs, and learning ideation from repository evolution; the research-and-governance section covers an audio-video deepfake benchmark, interactive chart-to-code evaluation, multilingual decision-model calibration, failure attribution for vision-language agents, and a pilot evaluation of partially covered questions.</p>
     </section>
 
     <div class="subsection-stack">
       <section class="subsection-block" id="frontier-ai">
         <header class="subsection-head">
           <h3>Frontier Models</h3>
-          <span>3 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: GLM-5.4, Inkling 2 Mini and GPT-6">
-          <div class="lead-label">Frontier Models: GLM-5.4, Inkling 2 Mini and GPT-6</div>
-          <p>Z.ai released GLM-5.4, which it describes as its first model built on a looped transformer architecture for generalized coding. Thinking Machines’ Inkling 2 Mini is now available on Vercel AI Gateway, targeting agentic coding and tool use with 26.4 billion total parameters and 3.4 billion active per token. OpenAI says GPT-6 models used reasoning and code to design protein structures and sequences, with lab tests finding binding evidence across five targets.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Decomposing Agent Competence, Memory, and Spatial Reasoning">
+          <div class="lead-label">Frontier Models: Decomposing Agent Competence, Memory, and Spatial Reasoning</div>
+          <p>The five papers in this group decompose task and interface competence in agentic training; introduce SpatialCraft, which evolves procedural intelligence for spatial-reasoning agents from experience and skills; present MGMem, an efficient, deterministic, and provenance-preserving long-horizon memory framework; examine whether LLMs exhibit extraneous cognitive load from how task information is presented; and propose REI to learn ideation from repository evolution.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Nov/23/glm-54" target="_blank" rel="noopener">
-            <span class="at">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Chinese AI lab Z.ai released GLM-5.4, its first model built on a looped transformer architecture in which weight-shared layers run for multiple iterations, aimed at generalized coding.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.31427" target="_blank" rel="noopener">
+            <span class="at">Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper separates task knowledge from interface competence in agentic training, arguing that a model can know a task yet fail under a given harness of prompts, action formats, and feedback loops.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway" target="_blank" rel="noopener">
-            <span class="at">Inkling 2 Mini now available on AI Gateway</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Thinking Machines’ small multimodal reasoning model Inkling 2 Mini is now on Vercel AI Gateway, targeting agentic coding, tool use and knowledge work, with 26.4 billion total parameters and 3.4 billion active per token.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.31475" target="_blank" rel="noopener">
+            <span class="at">SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">SpatialCraft trains spatial reasoning agents to evolve procedural intelligence from experience and skills, coordinating external tools such as 3D reconstruction, segmentation, and geometric computation.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities" target="_blank" rel="noopener">
-            <span class="at">GPT-6 models demonstrate intrinsic protein-design capabilities</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">OpenAI says GPT-6 models used reasoning and code to design protein structures and sequences, with lab tests finding evidence of binding across five targets.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.33174" target="_blank" rel="noopener">
+            <span class="at">MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">MGMem is an efficient, deterministic, and provenance-preserving memory framework for long-horizon agents, avoiding the high cost of repeatedly invoking generative models to rewrite interaction history.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33197" target="_blank" rel="noopener">
+            <span class="at">Extraneous Cognitive Load in Large Language Models</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">Borrowing from Cognitive Load Theory, the paper examines whether large language models exhibit extraneous cognitive load, where how task information is presented alone affects problem-solving performance.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33183" target="_blank" rel="noopener">
+            <span class="at">REI: Learning Ideation from Repository Evolution</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">REI learns ideation from repository evolution to ease the bottleneck in automated AI experimentation, where useful ideas are sparse and validation is costly.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -83,79 +95,49 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI Products &amp; Platforms</h3>
-          <span>5 articles</span>
+          <span>0 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="AI Products and Platforms: Meta Agents in Retail and DMs, Vercel and OpenAI Enterprise Cases">
-          <div class="lead-label">AI Products and Platforms: Meta Agents in Retail and DMs, Vercel and OpenAI Enterprise Cases</div>
-          <p>Walmart now lets customers shop Black Friday deals through Meta’s AI agent Muse, and Meta has integrated Muse into Instagram direct messages. Vercel says agents can manage AI Gateway through MCP using plain language, including creating virtual models, configuring team routing rules and setting spending budgets. OpenAI customer stories say iFood scales coding agents across 15,000 repositories, while Clay uses ChatGPT and Codex integrations to help sales teams research deals, with GPT-6 models handling reasoning.</p>
-        </section>
-
-        <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse" target="_blank" rel="noopener">
-            <span class="at">Walmart teams up with Meta to bring Black Friday deals to AI agent Muse</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent, integrating retail promotions into a conversational AI assistant.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms" target="_blank" rel="noopener">
-            <span class="at">Meta brings its Muse AI assistant directly into Instagram DMs</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Meta integrated its Muse AI assistant into Instagram direct messages, removing the need for users to switch between Instagram and the Muse app to interact with the agent.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp" target="_blank" rel="noopener">
-            <span class="at">Agents can now manage AI Gateway through Vercel MCP</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Vercel says agents can now manage AI Gateway through Vercel MCP, using plain language to create virtual models, configure team routing rules and set spending budgets.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/business/customer-stories/ifood" target="_blank" rel="noopener">
-            <span class="at">How iFood scales coding agents across 15,000 repositories</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">An OpenAI customer story says iFood scales coding agents across 15,000 repositories, illustrating enterprise deployment of AI coding tools.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://openai.com/business/customer-stories/clay-plugins-openai" target="_blank" rel="noopener">
-            <span class="at">Clay helps sales teams win with Codex and ChatGPT</span>
-            <span class="by">OpenAI 新闻</span>
-            <p class="as">An OpenAI customer story says Clay uses ChatGPT and Codex integrations to help users research deals and turn data into go-to-market plays, with GPT-6 models handling reasoning.</p>
-            <span class="more">Read more →</span>
-          </a>
-        </div>
+        <p class="empty">No articles selected in this subsection today.</p>
       </section>
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>Research &amp; Governance</h3>
-          <span>4 articles</span>
+          <span>5 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Agent Reliability, AI Cyberattacks and Platform Limits">
-          <div class="lead-label">Research and Governance: Agent Reliability, AI Cyberattacks and Platform Limits</div>
-          <p>A new benchmark reported by TechCrunch finds that even the most advanced AI models still struggle to complete everyday tasks reliably. The UK cyber agency warns that AI hacking tools are exploiting simple security flaws, exposing years of weak security foundations. Tidal says it will ban and remove millions of AI-generated tracks while still accepting AI-assisted songs, and Pinterest now lets parents limit the AI-generated content teens see in their feeds.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Deepfakes, Interactive Charts, and Agent Failure Attribution">
+          <div class="lead-label">Research and Governance: Deepfakes, Interactive Charts, and Agent Failure Attribution</div>
+          <p>The five papers in this group release MOZAIC, an audio-video deepfake benchmark with four-way paired labels separating fake faces, voices, or both; propose an interactive chart-to-code benchmark for multimodal LLMs; evaluate and calibrate 25 open-weight multilingual decision models across 17 tasks in 14 languages; attribute failures of vision-language agents using interactive 2D environments; and pilot-evaluate how language models answer when reference material covers only part of a question.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life" target="_blank" rel="noopener">
-            <span class="at">Even the best AI agents struggle with everyday life</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">A new benchmark reported by TechCrunch finds that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.31301" target="_blank" rel="noopener">
+            <span class="at">MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">MOZAIC is a paired audio-video deepfake benchmark with four-way labels that separates fake faces, voices, or both, helping reveal whether detectors rely on images, speech, or encoding traces.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security" target="_blank" rel="noopener">
-            <span class="at">UK warns AI-driven cyberattacks are exposing years of weak security</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">The UK cyber agency warns that AI hacking tools are exploiting simple security flaws, exposing years of weak security foundations, and says building strong foundations has never mattered more.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.31345" target="_blank" rel="noopener">
+            <span class="at">Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces a benchmark for interactive chart-to-code generation by multimodal LLMs, filling a gap left by evaluations that cover only static charts and ignore interactive data exploration.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming" target="_blank" rel="noopener">
-            <span class="at">Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Tidal says it will ban and remove millions of AI-generated tracks as AI slop floods music streaming, while still accepting songs made with AI assistance but not fully generated.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.33307" target="_blank" rel="noopener">
+            <span class="at">Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The study evaluates 25 open-weight decision models across 17 tasks in 14 languages, probing how multilingual routers and guardrails perform and calibrate outside English.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see" target="_blank" rel="noopener">
-            <span class="at">Pinterest will now let parents limit the AI-generated content their teens see</span>
-            <span class="by">TechCrunch AI</span>
-            <p class="as">Pinterest now lets parents limit the AI-generated content teens see in their feeds, focusing on AI content rather than restricting access to AI chatbots as other platforms have done.</p>
+          <a class="art" href="https://arxiv.org/abs/2611.33162" target="_blank" rel="noopener">
+            <span class="at">Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments</span>
+            <span class="by">arXiv 机器学习</span>
+            <p class="as">Using interactive 2D environments, the paper attributes failures of reasoning vision-language agents to distinct causes such as misreading the environment, misunderstanding components, wrong ordering, and failure to recover.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33428" target="_blank" rel="noopener">
+            <span class="at">When the Knowledge Runs Out: A Part-Level Pilot Evaluation of How Language Models Handle Partially Covered Questions</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">This pilot evaluation examines how language models answer when reference material covers only part of a question, noting that prior evaluations often treat partially sufficient context as simply insufficient.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

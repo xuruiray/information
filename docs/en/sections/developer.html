@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>02 Development &amp; Programming · Information Daily 2026-11-25</title>
+<title>02 Development &amp; Programming · Information Daily 2026-11-26</title>
 <meta name="description" content="A configurable personal daily newspaper for focused reading">
 <link rel="stylesheet" href="../../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>Issue 20261125</span>
+        <span>Issue 20261126</span>
         <span>AI edited · For reading only</span>
       </div>
       <h1 class="title">Information Daily</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>November 25, 2026 · Wednesday</span></div>
+      <div class="dateline"><span>November 26, 2026 · Thursday</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>02 Development &amp; Programming</h2>
-      <span class="ed">7 articles / 3 subsections</span>
+      <span class="ed">3 articles / 3 subsections</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="Developer and programming briefing: Ladybird alpha and Vercel tooling updates">
-      <div class="lead-label">Developer and programming briefing: Ladybird alpha and Vercel tooling updates</div>
-      <p>This briefing covers Ladybird’s first alpha release, updates to Datasette chart and agent plugins, Flags SDK running on Vercel without FLAGS_SECRET, Vercel Managed Images for all Sandbox runtimes, AWS PrivateLink endpoints on Secure Compute, and on-demand deletion of run data in Workflow SDK.</p>
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Chart Annotations, Modernization Steps, and SQLite Remote Copy">
+      <div class="lead-label">Developer &amp; Programming: Chart Annotations, Modernization Steps, and SQLite Remote Copy</div>
+      <p>This Developer &amp; Programming section covers datasette-charts 0.3a0&#39;s new chart annotations, GitHub Blog&#39;s method for choosing a safe application modernization step, and sqlite3_rsync for remote SQLite database copying.</p>
     </section>
 
     <div class="subsection-stack">
@@ -59,36 +59,24 @@
       <section class="subsection-block" id="open-source-tools">
         <header class="subsection-head">
           <h3>Open Source &amp; Tools</h3>
-          <span>4 articles</span>
+          <span>2 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Open source and tools: Ladybird alpha and Datasette plugin updates">
-          <div class="lead-label">Open source and tools: Ladybird alpha and Datasette plugin updates</div>
-          <p>Ladybird shipped its first alpha release, implementing HTML parsing, CSS, layout, JavaScript and WebAssembly itself while still relying on HarfBuzz, Skia, ffmpeg and SQLite. datasette-charts 0.2a0 integrates with Datasette Agent, letting users request charts in chat and generate them with the same chart suggestion and generation tools; datasette-agent 0.7a1 improves fragment-hash navigation in the chat session’s iframe side panel. Flags SDK 4.5.0 lets Vercel projects use Flags Explorer and precompute without FLAGS_SECRET.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: Chart Annotations and Modernization Step Assessment">
+          <div class="lead-label">Open Source &amp; Tools: Chart Annotations and Modernization Step Assessment</div>
+          <p>datasette-charts 0.3a0 adds line, shaded-area, and label annotations to charts, adjustable through the chart builder in Datasette Lite; GitHub Blog explains assessing a legacy application and choosing a bounded modernization step, reusable through a GitHub Copilot agent skill.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://simonwillison.net/2026/Nov/23/ladybird" target="_blank" rel="noopener">
-            <span class="at">Ladybird&#39;s first alpha release</span>
+          <a class="art" href="https://simonwillison.net/2026/Nov/25/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.3a0</span>
             <span class="by">Simon Willison</span>
-            <p class="as">Ladybird has shipped its first alpha release. The ambitious browser implements HTML parsing, CSS, layout, JavaScript and WebAssembly itself while still relying on HarfBuzz, Skia, ffmpeg and SQLite.</p>
+            <p class="as">datasette-charts 0.3a0 adds line, shaded-area, and label annotations to charts, adjustable through the chart builder in Datasette Lite; related components can also be installed.</p>
             <span class="more">Read more →</span>
           </a>
-          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-charts" target="_blank" rel="noopener">
-            <span class="at">datasette-charts 0.2a0</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Datasette-charts 0.2a0 adds integration with Datasette Agent, letting users request a chart in chat and have it generated with the same chart suggestion and generation tools.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://simonwillison.net/2026/Nov/24/datasette-agent" target="_blank" rel="noopener">
-            <span class="at">datasette-agent 0.7a1</span>
-            <span class="by">Simon Willison</span>
-            <p class="as">Datasette-agent 0.7a1 improves fragment-hash navigation in the chat session’s iframe side panel, enabling deeper integration with other Datasette plugins that update fragment hashes on interaction.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret" target="_blank" rel="noopener">
-            <span class="at">Flags SDK now works on Vercel without FLAGS_SECRET</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Flags 4.5.0 lets Vercel projects use Flags Explorer and precompute without FLAGS_SECRET, removing a setup step for new projects and the need to sync a shared secret across microfrontends.</p>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization" target="_blank" rel="noopener">
+            <span class="at">How to choose the next safe step in application modernization</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub Blog explains how to assess a legacy application, choose a bounded modernization step, and reuse the method through a GitHub Copilot agent skill.</p>
             <span class="more">Read more →</span>
           </a>
         </div>
@@ -96,30 +84,18 @@
       <section class="subsection-block" id="infra-data">
         <header class="subsection-head">
           <h3>Infrastructure &amp; Data</h3>
-          <span>3 articles</span>
+          <span>1 articles</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure and data: Vercel Sandbox images and PrivateLink endpoint updates">
-          <div class="lead-label">Infrastructure and data: Vercel Sandbox images and PrivateLink endpoint updates</div>
-          <p>All Vercel Sandbox runtimes now use Vercel Managed Images; legacy runtimes such as node22 use open-source images from the vercel/sandbox repository, distributed via Vercel Container Registry, and new sandboxes provide 64 GB storage. Enterprise teams on Secure Compute can create and manage AWS PrivateLink endpoints from the Vercel dashboard; endpoints live in the team’s dedicated VPC and are shared by connected project environments. The Workflow SDK can delete a finished run’s stored data on demand, including inputs, outputs, hook payloads and error traces, to meet compliance and security requirements.</p>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: SQLite Remote-Copy Tool">
+          <div class="lead-label">Infrastructure &amp; Data: SQLite Remote-Copy Tool</div>
+          <p>sqlite3_rsync has been available as an experimental feature since SQLite 3.47.0 and was enhanced in 3.50.0; it enables remote copying of SQLite databases, with easier snapshot copies cited as a standout benefit.</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images" target="_blank" rel="noopener">
-            <span class="at">All Sandbox runtimes now use Vercel Managed Images</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">All Vercel Sandbox runtimes now use Vercel Managed Images. Legacy runtimes such as node22 use open-source images from the vercel/sandbox repository, distributed via Vercel Container Registry, with 64 GB storage.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute" target="_blank" rel="noopener">
-            <span class="at">AWS PrivateLink endpoints are now available on Secure Compute</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">Enterprise teams on Secure Compute can now create and manage AWS PrivateLink endpoints from the Vercel dashboard. Endpoints live in the team’s dedicated VPC and are shared by connected project environments.</p>
-            <span class="more">Read more →</span>
-          </a>
-          <a class="art" href="https://vercel.com/changelog/delete-run-data-workflow-sdk" target="_blank" rel="noopener">
-            <span class="at">Delete a run&#39;s data on demand in Workflow SDK</span>
-            <span class="by">Vercel 博客</span>
-            <p class="as">The Workflow SDK now lets developers delete a finished run’s stored data on demand, including inputs, outputs, hook payloads and error traces, to meet compliance and security requirements.</p>
+          <a class="art" href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync" target="_blank" rel="noopener">
+            <span class="at">sqlite3_rsync: Database Remote-Copy Tool For SQLite</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">sqlite3_rsync, an experimental SQLite tool since 3.47.0 and enhanced in 3.50.0, enables remote database copying; its standout benefit is making snapshot copies easier, the author notes.</p>
             <span class="more">Read more →</span>
           </a>
         </div>

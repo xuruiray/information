@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-26",
+  "title": "信息日报 2026-11-26",
+  "title_en": "Information Daily 2026-11-26",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "美国宣布对包括中国在内的多国加征新关税",
+    "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC 国际",
+    "summary": "美国宣布对多个主要贸易伙伴加征新关税，涉及中国和欧盟等经济体，可能影响美国最大贸易伙伴之间的商品流动。",
+    "source_en": "BBC World",
+    "title_en": "US announces new tariffs on host of countries including China",
+    "summary_en": "The US announced new tariffs on many of its biggest trading partners, including China and the EU, in a move that could affect goods flows across major economies.",
+    "original_title": "US announces new tariffs on host of countries including China",
+    "published_at": "2026-11-26T04:10:58+00:00",
+    "reason": "直接涉及美国政府关税决定与国际贸易政策。",
+    "reason_en": "Directly covers a US government tariff decision and international trade policy.",
+    "score": 3.0
+  },
+  "path": "papers/2026-11-26.html",
+  "raw_path": "raw/2026-11-26.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in world/government-policy: topic evidence does not match subsection [https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-26/10738128.shtml]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-26/10738111.shtml]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-26/10738133.shtml]"
+  ]
+}

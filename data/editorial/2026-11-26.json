@@ -1,0 +1,1940 @@
+{
+  "date": "2026-11-26",
+  "sections": [
+    {
+      "id": "ai-tech",
+      "subsections": [
+        {
+          "id": "frontier-ai",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2611.31427",
+              "title": "智能体训练中的“学什么”与“怎么学”：拆解任务能力与接口能力",
+              "summary": "论文区分智能体训练中的任务能力与接口能力，指出模型可能掌握任务知识，却因系统提示、动作格式或反馈循环等运行框架不匹配而失败。",
+              "title_en": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+              "summary_en": "The paper separates task knowledge from interface competence in agentic training, arguing that a model can know a task yet fail under a given harness of prompts, action formats, and feedback loops.",
+              "topic_evidence": "Decomposing Task and Interface Competence in Agentic Training",
+              "reason": "直接讨论智能体运行框架对能力发挥的影响，属于前沿模型训练与评测的重要问题。",
+              "reason_en": "Directly addresses how agent harnesses shape competence, a key issue for frontier agent training and evaluation.",
+              "score": 7.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.31475",
+              "title": "SpatialCraft：让空间推理智能体从经验与技能中演化程序性智能",
+              "summary": "论文提出 SpatialCraft，让空间推理智能体从经验与技能中演化程序性智能，以协调 3D 重建、分割和几何计算等外部工具。",
+              "title_en": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+              "summary_en": "SpatialCraft trains spatial reasoning agents to evolve procedural intelligence from experience and skills, coordinating external tools such as 3D reconstruction, segmentation, and geometric computation.",
+              "topic_evidence": "Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+              "reason": "聚焦多模态智能体的工具编排瓶颈，方法具体，适合前沿模型版。",
+              "reason_en": "Focuses on the tool-orchestration bottleneck for multimodal agents with a concrete method, fitting frontier model coverage.",
+              "score": 6.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33174",
+              "title": "MGMem：面向长期智能体记忆的高效、确定且可追溯框架",
+              "summary": "论文提出 MGMem，一种高效、确定且保留来源的长期智能体记忆框架，避免反复调用生成模型改写历史带来的高成本。",
+              "title_en": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+              "summary_en": "MGMem is an efficient, deterministic, and provenance-preserving memory framework for long-horizon agents, avoiding the high cost of repeatedly invoking generative models to rewrite interaction history.",
+              "topic_evidence": "An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+              "reason": "长期记忆是智能体落地的关键组件，论文给出成本与可追溯性兼顾的框架。",
+              "reason_en": "Long-term memory is a key agent component; the paper offers a framework balancing cost and provenance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33197",
+              "title": "大语言模型中的外在认知负荷：呈现方式也会影响表现",
+              "summary": "论文借用认知负荷理论，考察大语言模型是否也会因任务信息的呈现方式产生“外在认知负荷”，从而影响解题表现。",
+              "title_en": "Extraneous Cognitive Load in Large Language Models",
+              "summary_en": "Borrowing from Cognitive Load Theory, the paper examines whether large language models exhibit extraneous cognitive load, where how task information is presented alone affects problem-solving performance.",
+              "topic_evidence": "presentation alone can affect model performance",
+              "reason": "把认知负荷理论用于分析模型表现，提供提示设计与评测的新视角。",
+              "reason_en": "Applies cognitive load theory to model behavior, offering a new lens on prompt design and evaluation.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33183",
+              "title": "REI：从代码仓库演化中学习创意生成",
+              "summary": "论文提出 REI，从代码仓库演化中学习科研与工程创意生成，以缓解 AI 自动实验系统中“想法稀疏、验证昂贵”的瓶颈。",
+              "title_en": "REI: Learning Ideation from Repository Evolution",
+              "summary_en": "REI learns ideation from repository evolution to ease the bottleneck in automated AI experimentation, where useful ideas are sparse and validation is costly.",
+              "topic_evidence": "ideation is emerging as a bottleneck in automated scientific and engineering iteration",
+              "reason": "针对 AI 自动科研中的创意瓶颈提出学习方法，问题明确。",
+              "reason_en": "Targets the ideation bottleneck in automated scientific iteration with a learning approach.",
+              "score": 6.9
+            }
+          ]
+        },
+        {
+          "id": "ai-products",
+          "articles": []
+        },
+        {
+          "id": "ai-research-governance",
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2611.31301",
+              "title": "MOZAIC：区分面部、声音与编码痕迹的音视频深度伪造基准",
+              "summary": "论文发布 MOZAIC 音视频深度伪造基准，用四类配对标签区分伪造面部、声音或两者，以判断检测器依赖图像、语音还是编码痕迹。",
+              "title_en": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+              "summary_en": "MOZAIC is a paired audio-video deepfake benchmark with four-way labels that separates fake faces, voices, or both, helping reveal whether detectors rely on images, speech, or encoding traces.",
+              "topic_evidence": "a paired benchmark with a 4-way label",
+              "reason": "深度伪造检测需要更细粒度基准，MOZAIC 的标签设计直接针对检测依据。",
+              "reason_en": "Deepfake detection needs finer-grained benchmarks; MOZAIC’s label design directly probes detector reliance.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.31345",
+              "title": "超越静态图表：面向多模态大模型的交互式图表转代码基准",
+              "summary": "论文提出面向多模态大模型的交互式图表转代码基准，弥补现有评测只覆盖静态图表、忽视可交互数据探索的不足。",
+              "title_en": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+              "summary_en": "The paper introduces a benchmark for interactive chart-to-code generation by multimodal LLMs, filling a gap left by evaluations that cover only static charts and ignore interactive data exploration.",
+              "topic_evidence": "existing benchmarks mainly focus on static charts, overlooking interactive charts",
+              "reason": "图表转代码是 MLLM 的实用能力，交互式评测补足现有空白。",
+              "reason_en": "Chart-to-code is a practical MLLM capability, and interactive evaluation fills an existing gap.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33307",
+              "title": "失落在翻译而非置信度：多语言决策模型的评测与校准",
+              "summary": "论文在 14 种语言、17 项任务上评测 25 个开源决策模型，检验多语言路由与护栏模型在非英语环境下的表现与置信度校准。",
+              "title_en": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+              "summary_en": "The study evaluates 25 open-weight decision models across 17 tasks in 14 languages, probing how multilingual routers and guardrails perform and calibrate outside English.",
+              "topic_evidence": "We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages",
+              "reason": "决策模型被路由器和护栏直接阈值化使用，多语言校准评测具有治理意义。",
+              "reason_en": "Decision models are thresholded directly by routers and guardrails, making multilingual calibration evaluation governance-relevant.",
+              "score": 5.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33162",
+              "title": "用交互式二维环境归因视觉语言智能体的失败",
+              "summary": "论文用交互式二维环境归因视觉语言智能体的失败，区分误读环境、不理解组件、操作顺序错误和无法纠错等不同原因。",
+              "title_en": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+              "summary_en": "Using interactive 2D environments, the paper attributes failures of reasoning vision-language agents to distinct causes such as misreading the environment, misunderstanding components, wrong ordering, and failure to recover.",
+              "topic_evidence": "confounds distinct causes of failure: misreading the environment",
+              "reason": "把智能体成功率拆解为可诊断的失败类型，有助于评测与改进。",
+              "reason_en": "Decomposes agent success rates into diagnosable failure types, aiding evaluation and improvement.",
+              "score": 4.9
+            },
+            {
+              "url": "https://arxiv.org/abs/2611.33428",
+              "title": "当知识不够用：语言模型处理部分覆盖问题的试点评测",
+              "summary": "论文试点评估语言模型在参考资料只覆盖问题一部分时的回答表现，指出以往评测常把“部分足够”的上下文简单视为“不足”。",
+              "title_en": "When the Knowledge Runs Out: A Part-Level Pilot Evaluation of How Language Models Handle Partially Covered Questions",
+              "summary_en": "This pilot evaluation examines how language models answer when reference material covers only part of a question, noting that prior evaluations often treat partially sufficient context as simply insufficient.",
+              "topic_evidence": "treat partially sufficient context as simply insufficient",
+              "reason": "部分覆盖是检索增强应用的常见情形，评测设计有实际价值。",
+              "reason_en": "Partial coverage is common in retrieval-augmented applications, making the evaluation design practically useful.",
+              "score": 4.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "subsections": [
+        {
+          "id": "languages-frameworks",
+          "articles": []
+        },
+        {
+          "id": "open-source-tools",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/25/datasette-charts",
+              "title": "datasette-charts 0.3a0 发布，新增图表标注",
+              "summary": "datasette-charts 0.3a0 为图表加入线、阴影区域和标签标注，并可在 Datasette Lite 的图表构建器中调整；用户也可安装相关组件使用。",
+              "title_en": "datasette-charts 0.3a0",
+              "summary_en": "datasette-charts 0.3a0 adds line, shaded-area, and label annotations to charts, adjustable through the chart builder in Datasette Lite; related components can also be installed.",
+              "topic_evidence": "I added chart annotations to datasette-charts",
+              "reason": "具体发布版本并说明新增图表标注功能，属于开源工具更新。",
+              "reason_en": "A specific version release with new chart annotation features, relevant as an open-source tool update.",
+              "score": 4.1
+            },
+            {
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+              "title": "如何为应用现代化选择下一个安全步骤",
+              "summary": "GitHub 博客介绍评估遗留应用、选择范围有限的现代化步骤，并借助 GitHub Copilot 代理技能复用该方法。",
+              "title_en": "How to choose the next safe step in application modernization",
+              "summary_en": "GitHub Blog explains how to assess a legacy application, choose a bounded modernization step, and reuse the method through a GitHub Copilot agent skill.",
+              "topic_evidence": "assess a legacy application, choose a bounded modernization step",
+              "reason": "提供应用现代化评估与分步实施方法，并关联 Copilot 代理技能，适合开发实践。",
+              "reason_en": "Offers a method for assessing legacy applications and taking bounded modernization steps, tied to a Copilot agent skill for developer practice.",
+              "score": 4.0
+            }
+          ]
+        },
+        {
+          "id": "infra-data",
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+              "title": "sqlite3_rsync：SQLite 的数据库远程复制工具",
+              "summary": "sqlite3_rsync 自 SQLite 3.47.0 起作为实验功能提供，3.50.0 得到增强；它用于远程复制 SQLite 数据库，作者称其突出优点是便于获取数据库快照。",
+              "title_en": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+              "summary_en": "sqlite3_rsync, an experimental SQLite tool since 3.47.0 and enhanced in 3.50.0, enables remote database copying; its standout benefit is making snapshot copies easier, the author notes.",
+              "topic_evidence": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+              "reason": "直接涉及 SQLite 数据库远程复制工具及其版本演进，属于基础设施与数据。",
+              "reason_en": "Directly covers a SQLite remote database copying tool and its version history, fitting infrastructure and data.",
+              "score": 5.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-tech",
+      "subsections": [
+        {
+          "id": "chips-hardware",
+          "articles": []
+        },
+        {
+          "id": "space-energy-robotics",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+              "title": "天文学家或发现诞生于首批恒星之前的黑洞",
+              "summary": "一个名为Phoebe的神秘天体在短暂放大远方恒星时被发现，可能形成于大爆炸后不久，质量约为月球三倍，或为暗物质研究提供线索。",
+              "title_en": "Astronomers may have discovered a black hole born before the first stars",
+              "summary_en": "A mysterious object named Phoebe briefly magnified a distant star. It may be a primordial black hole formed soon after the Big Bang, with about three times the Moon’s mass, offering clues to dark matter.",
+              "topic_evidence": "could be a primordial black hole formed just after the Big Bang",
+              "reason": "报道具体天文观测候选体Phoebe及其原初黑洞解释，直接属于航天与天体物理发现。",
+              "reason_en": "Reports a specific astronomical candidate, Phoebe, and its primordial black hole interpretation, directly fitting space and astrophysics discovery.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "science-research",
+          "articles": [
+            {
+              "url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
+              "title": "科学家在红海海底逾一英里处发现神秘湖泊",
+              "summary": "科学家在红海海面下逾一英里处发现罕见的高盐、无氧卤水池，其中微生物活跃，可能为研究地球古海洋和地外生命提供线索。",
+              "title_en": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
+              "summary_en": "Scientists found rare brine pools more than a mile beneath the Red Sea. The extremely salty, oxygen-free lakes host microbial life and may offer clues to ancient oceans and alien life.",
+              "topic_evidence": "rare underwater lakes that could reveal secrets about Earth's ancient oceans",
+              "reason": "报道具体发现红海海底卤水池及其微生物生态，直接属于科学研究中的地球与生命科学发现。",
+              "reason_en": "Reports the discovery of Red Sea brine pools and their microbial ecology, directly fitting earth and life science research.",
+              "score": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "startup-product",
+      "subsections": [
+        {
+          "id": "new-products",
+          "articles": [
+            {
+              "url": "https://www.producthunt.com/products/pydantic",
+              "title": "Pydantic 发布 Pax 编码代理",
+              "summary": "Pydantic 在 Product Hunt 发布 Pax 编码代理，特点是连编码本身也可作为插件；条目提供讨论与链接入口。",
+              "title_en": "Pax by Pydantic",
+              "summary_en": "Pydantic launched Pax on Product Hunt, a coding agent where coding itself can be a plugin; the listing provides discussion and a link.",
+              "topic_evidence": "A coding agent where even coding is a plugin",
+              "reason": "这是 Pydantic 的新产品发布，摘要明确说明 Pax 是编码代理且连编码也可作为插件，属于具体的新产品信息。",
+              "reason_en": "This is a Product Hunt launch from Pydantic; the summary specifically describes Pax as a coding agent that treats coding as a plugin, making it a concrete new-product item.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/upsolve-ai",
+              "title": "Upsolve 发布 Harness 2.0 数据智能体",
+              "summary": "Upsolve 在 Product Hunt 发布 Harness 2.0 数据智能体，称其速度提升一倍并能学习每个用户；条目提供讨论与链接。",
+              "title_en": "Upsolve Harness 2.0",
+              "summary_en": "Upsolve released Harness 2.0 on Product Hunt, describing it as a data agent that is twice as fast and learns from every user; the listing includes discussion and a link.",
+              "topic_evidence": "A data agent that's 2x faster and learns every user",
+              "reason": "该条目是 Upsolve 的产品版本更新，摘要给出速度提升与用户学习两项具体产品变化，契合新产品与增长。",
+              "reason_en": "The item is a product-version release from Upsolve, with specific claims about doubled speed and learning from every user, fitting new products and growth.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/openchat-5",
+              "title": "OpenChat 发布开源实时聊天工具",
+              "summary": "OpenChat 在 Product Hunt 发布开源实时聊天工具，可运行在用户自己的 Cloudflare 账户中；条目提供讨论与链接。",
+              "title_en": "OpenChat",
+              "summary_en": "OpenChat launched on Product Hunt as open-source live chat that runs in the user's own Cloudflare account; the listing provides discussion and a link.",
+              "topic_evidence": "Open-source live chat in your own Cloudflare account",
+              "reason": "这是开源实时聊天产品发布，摘要明确说明可部署在用户自己的 Cloudflare 账户中，产品形态与部署方式具体。",
+              "reason_en": "This is an open-source live-chat product launch; the summary specifically says it runs in the user's own Cloudflare account, giving a concrete product and deployment detail.",
+              "score": 2.85
+            },
+            {
+              "url": "https://www.producthunt.com/products/iwantmy-app",
+              "title": "iwantmy.app 推出对话生成移动应用工具",
+              "summary": "iwantmy.app 在 Product Hunt 发布，用户可在聊天中描述移动应用并在手机上打开；条目提供讨论与链接。",
+              "title_en": "iwantmy.app",
+              "summary_en": "iwantmy.app launched on Product Hunt, letting users describe a mobile app in chat and open it on their phone; the listing offers discussion and a link.",
+              "topic_evidence": "Describe a mobile app in chat and open it on your phone",
+              "reason": "该产品通过聊天描述生成并在手机上打开移动应用，摘要给出了明确的使用流程，属于新产品发布。",
+              "reason_en": "The product lets users describe a mobile app in chat and open it on their phone, providing a specific user flow for a new-product launch.",
+              "score": 2.85
+            }
+          ]
+        },
+        {
+          "id": "funding-ma",
+          "articles": []
+        },
+        {
+          "id": "startup-strategy",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "subsections": [
+        {
+          "id": "geopolitics",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
+              "title": "国际刑事法院法官金伯利·普罗斯特成为美国制裁目标",
+              "summary": "半岛电视台报道，审理战争罪案件的国际刑事法院法官金伯利·普罗斯特成为美国制裁对象，其日常应用和银行转账受阻，法院也需规避美国企业。",
+              "title_en": "ICC judge Kimberly Prost tries war crimes. She’s a target of US sanctions",
+              "summary_en": "Al Jazeera reports that ICC judge Kimberly Prost, who tries war crimes cases, is a target of US sanctions, with apps and bank transfers disrupted and the court avoiding US firms.",
+              "topic_evidence": "She’s a target of US sanctions",
+              "reason": "涉及国际刑事法院与美国制裁冲突，属国际司法与地缘政治。",
+              "reason_en": "Covers a clash between the ICC and US sanctions, fitting international justice and geopolitics.",
+              "score": 4.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+              "title": "哥伦比亚安全部队强攻超市 所有人质获救",
+              "summary": "哥伦比亚警方强攻卡塔赫纳一家超市，结束长达一天的劫持事件，所有人质获释，一名被警方称为劫持者的人死亡，其身份仍有争议。",
+              "title_en": "All hostages rescued after Colombian security forces storm supermarket, police say",
+              "summary_en": "Colombian police stormed a supermarket in Cartagena, ending a daylong hostage siege; all hostages were freed and one man described as a hostage-taker was killed, with his status unclear.",
+              "topic_evidence": "All hostages rescued after Colombian security forces storm supermarket",
+              "reason": "涉及安全部队行动与人质事件，属国际安全新闻。",
+              "reason_en": "Covers a security force operation and hostage incident, fitting international security news.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/26/how-silicon-valley-central-israel-war-palestinians?traffic_source=rss",
+              "title": "硅谷如何深度介入以色列对巴勒斯坦的战争",
+              "summary": "半岛电视台调查报道称，从监控系统到AI目标定位，美国科技巨头深度嵌入以色列的战争机器，引发对技术供应链和人权责任的关注。",
+              "title_en": "How Silicon Valley became central to Israel’s war on Palestinians",
+              "summary_en": "An Al Jazeera report says US tech giants are deeply embedded in Israel’s war machine, from surveillance systems to AI targeting, raising concerns about technology supply chains and human rights accountability.",
+              "topic_evidence": "US tech giants are deeply embedded in Israel's war machine",
+              "reason": "涉及科技公司与中东冲突，属国际安全与地缘政治。",
+              "reason_en": "Links technology firms to the Middle East conflict, fitting international security and geopolitics.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+              "title": "日本记者在俄被拘 妻子呼吁放人",
+              "summary": "日本记者今井悠纪在俄罗斯远东萨哈林岛工作期间被指从事间谍活动，在莫斯科被拘超过一个月，其妻子公开呼吁俄方释放他。",
+              "title_en": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+              "summary_en": "Japanese journalist Yuki Imai has been detained in Moscow for over a month on suspicion of espionage while working in Russia’s Far East; his wife has publicly appealed for his release.",
+              "topic_evidence": "wife of Japanese journalist detained by Russia pleads for his release",
+              "reason": "涉及俄日外交争执与记者被拘，属地缘政治与安全。",
+              "reason_en": "Involves Russia-Japan diplomatic tensions and a detained journalist, fitting geopolitics and security.",
+              "score": 2.9
+            }
+          ]
+        },
+        {
+          "id": "government-policy",
+          "articles": [
+            {
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+              "title": "巴西称特朗普关税威胁不可接受 中国批毫无依据",
+              "summary": "巴西表示不会屈服于美国新一轮关税威胁，中国则指责华盛顿搞“政治操纵”；特朗普拟对包括中国和欧盟在内的14个贸易伙伴加征关税。",
+              "title_en": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+              "summary_en": "Brazil said it will not bend to Donald Trump’s new tariff threat, while China accused Washington of “political manipulation” after the US proposed tariffs on 14 partners including China and the EU.",
+              "topic_evidence": "Trump tariff threat ‘unacceptable’, says Brazil",
+              "reason": "涉及美国关税政策及主要经济体反应，属政府与贸易政策。",
+              "reason_en": "Covers US tariff policy and reactions from major economies, fitting government and trade policy.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+              "title": "美国宣布对包括中国在内的多国加征新关税",
+              "summary": "美国宣布对多个主要贸易伙伴加征新关税，涉及中国和欧盟等经济体，可能影响美国最大贸易伙伴之间的商品流动。",
+              "title_en": "US announces new tariffs on host of countries including China",
+              "summary_en": "The US announced new tariffs on many of its biggest trading partners, including China and the EU, in a move that could affect goods flows across major economies.",
+              "topic_evidence": "US announces new tariffs on host of countries including China",
+              "reason": "直接涉及美国政府关税决定与国际贸易政策。",
+              "reason_en": "Directly covers a US government tariff decision and international trade policy.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+              "title": "以色列法官建议撤销对内塔尼亚胡最严重指控",
+              "summary": "以色列法官表示，在针对总理内塔尼亚胡的三起案件之一中定罪可能性很低，建议撤销最严重指控；内塔尼亚胡称审判应结束。",
+              "title_en": "Israeli judges recommend dropping most serious charges against Netanyahu",
+              "summary_en": "Israeli judges said there was little chance of conviction in one of three cases against Prime Minister Benjamin Netanyahu and recommended dropping the most serious charges; Netanyahu says his trial should end.",
+              "topic_evidence": "Israeli judges recommend dropping most serious charges against Netanyahu",
+              "reason": "涉及以色列司法程序与总理政治命运，属政府与政策。",
+              "reason_en": "Involves Israeli judicial proceedings and the prime minister’s political future, fitting government and policy.",
+              "score": 3.0
+            },
+            {
+              "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+              "title": "美共和党议员要求FBI和CIA说明英伟达CEO相关安全审查",
+              "summary": "一名美国共和党议员表示，在质询英伟达首席执行官黄仁勋前，希望联邦调查局和中央情报局说明对潜在国家安全威胁的了解，以及黄仁勋是否被警示。",
+              "title_en": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+              "summary_en": "A Republican US lawmaker wants the FBI and CIA to explain what they knew about potential national security threats and whether Nvidia CEO Jensen Huang was warned before he questions Huang.",
+              "topic_evidence": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+              "reason": "涉及美国国会监督、国家安全与芯片企业，属政府政策与安全监管。",
+              "reason_en": "Involves US congressional oversight, national security and a major chip company, fitting government policy and security.",
+              "score": 3.85
+            }
+          ]
+        },
+        {
+          "id": "global-society",
+          "articles": [
+            {
+              "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-rallies-around-the-world-denounce-violence-against-women?traffic_source=rss",
+              "title": "全球多地集会谴责针对女性的暴力",
+              "summary": "联合国数据显示，去年约有4.7万名妇女和女孩被亲密伴侣或家庭成员故意杀害；全球多地举行集会，呼吁制止针对女性的暴力。",
+              "title_en": "Photos: Rallies around the world denounce violence against women",
+              "summary_en": "UN data shows about 47,000 women and girls were intentionally killed by intimate partners or family members last year, as rallies worldwide called for an end to violence against women.",
+              "topic_evidence": "About 47,000 women and girls were intentionally killed by an intimate partner or family member last year",
+              "reason": "涉及全球性别暴力数据与多地社会运动，属全球社会。",
+              "reason_en": "Covers global gender-violence data and worldwide social mobilization, fitting global society.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+              "title": "战争与干旱威胁苏丹农民生计",
+              "summary": "半岛电视台报道，电力基础设施遭袭和干旱正威胁苏丹的收成，并使数百万人缺乏用水，农民生计面临战争与气候双重压力。",
+              "title_en": "War and drought threaten livelihoods of Sudan’s farmers",
+              "summary_en": "Al Jazeera reports that attacks on electricity infrastructure and drought are threatening Sudan’s harvests and leaving millions without water, putting farmers’ livelihoods under pressure from war and climate.",
+              "topic_evidence": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests",
+              "reason": "涉及战争、干旱与民生，属全球社会与人道议题。",
+              "reason_en": "Covers war, drought and livelihoods, fitting global society and humanitarian issues.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/26/sri-lanka-mass-grave-revives-quest-for-answers-to-forgotten-muslim-massacre?traffic_source=rss",
+              "title": "斯里兰卡乱葬坑重启对穆斯林大屠杀的追查",
+              "summary": "斯里兰卡发现乱葬坑，重新引发对泰米尔分离主义武装在战争期间杀害数百名穆斯林的历史追查，幸存者要求查明真相。",
+              "title_en": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+              "summary_en": "A mass grave in Sri Lanka has revived efforts to uncover answers about the killing of hundreds of Muslims by Tamil separatists during the civil war, as survivors seek truth and accountability.",
+              "topic_evidence": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+              "reason": "涉及战后追责与族群暴力记忆，属全球社会。",
+              "reason_en": "Involves postwar accountability and memory of communal violence, fitting global society.",
+              "score": 3.85
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+              "title": "开罗高速公路油罐车相撞引发大火 至少31人死亡",
+              "summary": "埃及当局称，一辆油罐车在开罗环城公路相撞后引发大火，造成至少31人死亡、21人受伤，多辆汽车和摩托车被烧毁。",
+              "title_en": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+              "summary_en": "Egyptian authorities say a fuel tanker crash on Cairo’s ring road ignited a huge fire that killed at least 31 people and injured 21, leaving cars and motorcycles charred.",
+              "topic_evidence": "A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people",
+              "reason": "涉及重大交通事故与公共安全，属全球社会。",
+              "reason_en": "Covers a major transport disaster and public safety, fitting global society.",
+              "score": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "subsections": [
+        {
+          "id": "china-policy",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738128.shtml",
+              "title": "中国国防部长访问意大利、英国深化战略互信",
+              "summary": "国防部新闻发言人陈曦在11月26日例行记者会上发布，中国国防部长将访问意大利、英国，推动深化战略互信。",
+              "title_en": "Chinese Defense Minister to visit Italy and UK to deepen strategic trust",
+              "summary_en": "China's defense minister will visit Italy and the United Kingdom to deepen strategic mutual trust, the Defense Ministry announced at its November 26 press briefing.",
+              "topic_evidence": "中国国防部长访问意大利、英国深化战略互信",
+              "reason": "涉及中国国防外交出访安排，属时政政策范畴。",
+              "reason_en": "Covers a scheduled defense-diplomacy visit, fitting the policy and current-affairs subsection.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738122.shtml",
+              "title": "第十届中非青年大联欢在北京、陕西举办 外交部介绍情况",
+              "summary": "外交部发言人郭嘉昆11月26日介绍，第十届中非青年大联欢在北京、陕西举办，旨在促进中非青年交流。",
+              "title_en": "10th China-Africa Youth Festival held in Beijing and Shaanxi",
+              "summary_en": "The 10th China-Africa Youth Festival is being held in Beijing and Shaanxi, Foreign Ministry spokesperson Guo Jiakun said on November 26, highlighting youth exchanges.",
+              "topic_evidence": "第十届中非青年大联欢在北京、陕西举办",
+              "reason": "外交部例行记者会发布具体活动安排，属外事政策动态。",
+              "reason_en": "The Foreign Ministry briefing announces a specific bilateral youth exchange event.",
+              "score": 4.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738131.shtml",
+              "title": "国防部回应菲澳防务合作协议：将继续采取必要措施 有力应对侵权挑衅行径",
+              "summary": "针对菲律宾与澳大利亚签署防务合作协议，国防部11月26日回应称，将继续采取必要措施，有力应对侵权挑衅行径。",
+              "title_en": "Defense Ministry responds to Philippines-Australia defense pact",
+              "summary_en": "Responding to the Philippines-Australia defense cooperation agreement, China's Defense Ministry said on November 26 it will continue taking necessary measures against infringements and provocations.",
+              "topic_evidence": "将继续采取必要措施 有力应对侵权挑衅行径",
+              "reason": "国防部就区域防务协议作出明确政策表态。",
+              "reason_en": "The Defense Ministry states a clear policy position on a regional defense agreement.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738111.shtml",
+              "title": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+              "summary": "国防部11月26日发布，中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演。",
+              "title_en": "Chinese Navy to host 2026 WPNS humanitarian relief seminar and tabletop exercise",
+              "summary_en": "China's Navy will host a 2026 Western Pacific Naval Symposium seminar and tabletop exercise on humanitarian assistance and disaster relief, the Defense Ministry said on November 26.",
+              "topic_evidence": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+              "reason": "军方发布多边人道救援研讨与推演安排，属政策与外事动态。",
+              "reason_en": "Announcement of a multilateral naval humanitarian exercise, relevant to policy and external affairs.",
+              "score": 4.9
+            }
+          ]
+        },
+        {
+          "id": "china-industry-local",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738043.shtml",
+              "title": "江苏职教与产业对话“把脉”产教融合：专业建在产业链岗位上",
+              "summary": "11月23日至25日，2026年江苏职业教育与产业对话活动在扬州举行，75所职业院校与龙头企业代表探讨产教融合、专业对接产业链。",
+              "title_en": "Jiangsu vocational education and industry dialogue focuses on integration",
+              "summary_en": "The 2026 Jiangsu vocational education-industry dialogue was held in Yangzhou from November 23 to 25, bringing together 75 vocational colleges and leading firms to align programs with industry needs.",
+              "topic_evidence": "专业建在产业链岗位上",
+              "reason": "地方产教融合与产业人才对接的具体活动。",
+              "reason_en": "A concrete local event on vocational education-industry integration and talent matching.",
+              "score": 4.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738153.shtml",
+              "title": "兴边富民助力高质量发展｜AI出海的“广西答卷”，贵在一个“懂”字",
+              "summary": "报道介绍广西企业面向东盟的AI出海实践，称去年与老挝合作推出本地语大模型，强调理解当地语言与民俗。",
+              "title_en": "Guangxi firms take AI overseas with locally tailored models",
+              "summary_en": "The report highlights Guangxi firms' AI going-global efforts, including a large model developed with Laos last year that is tailored to local languages and customs in ASEAN.",
+              "topic_evidence": "我们去年跟老挝合作推出了一款他们国家的大模型",
+              "reason": "地方AI产业出海与东盟合作的具体案例。",
+              "reason_en": "A specific case of local AI industry expansion and cooperation with ASEAN.",
+              "score": 3.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738133.shtml",
+              "title": "歼-20A、运-20B将首次亮相中国航展",
+              "summary": "第十六届中国国际航空航天博览会将于12月7日至13日在珠海举办，空军将派33型60余件装备参展，歼-20A、运-20B首次亮相。",
+              "title_en": "J-20A and Y-20B to make debut at China airshow",
+              "summary_en": "The 16th China International Aviation and Aerospace Exhibition runs in Zhuhai from December 7 to 13, with the Air Force displaying 33 types and over 60 items, including the debut of the J-20A and Y-20B.",
+              "topic_evidence": "歼-20A、运-20B将首次亮相中国航展",
+              "reason": "航空航天产业展会与装备展示动态。",
+              "reason_en": "News on an aerospace industry exhibition and equipment displays.",
+              "score": 3.9
+            }
+          ]
+        },
+        {
+          "id": "china-society-law",
+          "articles": [
+            {
+              "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738136.shtml",
+              "title": "台湾彰化重大车祸致3死16伤",
+              "summary": "台湾1号主要交通干道南下彰化路段11月26日发生重大车祸，小客车与大货车等碰撞，已致3人死亡、16人受伤。",
+              "title_en": "Major crash in Taiwan's Changhua kills 3, injures 16",
+              "summary_en": "A major crash on Taiwan's main north-south highway in Changhua on November 26 killed three people and injured 16 after cars and a truck collided.",
+              "topic_evidence": "已致3人死亡、16人受伤",
+              "reason": "重大交通事故，具体伤亡信息明确。",
+              "reason_en": "A major traffic accident with specific casualty figures.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738157.shtml",
+              "title": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+              "summary": "报道聚焦网络主播劳动关系模糊、工作地点灵活带来的工伤认定难题，并提到强光、熬夜、长期用嗓造成的慢性损伤。",
+              "title_en": "How are work injuries determined for livestreamers with unclear employment?",
+              "summary_en": "The report examines how ambiguous employment status and flexible work locations complicate work-injury claims for livestreamers, citing chronic harm from bright lights, late nights and prolonged speaking.",
+              "topic_evidence": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+              "reason": "新就业形态劳动者权益与工伤认定的法治议题。",
+              "reason_en": "A legal issue concerning labor rights and injury recognition for new forms of employment.",
+              "score": 2.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738098.shtml",
+              "title": "换脸视频 高仿真语音 批量外呼 AI造假何以“眼见为虚”？",
+              "summary": "报道称不法分子利用几秒换脸视频、高仿真语音和AI批量外呼实施诈骗，包括克隆演员在直播间卖货骗钱。",
+              "title_en": "AI face-swaps and voice clones fuel fraud, report warns",
+              "summary_en": "Scammers are using short face-swap videos, highly realistic voice clones and AI batch calling to defraud people, including faking a celebrity to sell goods in livestreams, the report says.",
+              "topic_evidence": "不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”",
+              "reason": "AI深度伪造用于电信诈骗的社会法治问题。",
+              "reason_en": "A society and law issue involving deepfake-enabled telecom fraud.",
+              "score": 2.75
+            },
+            {
+              "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738041.shtml",
+              "title": "黑龙江发布大雪预报 局地有暴雪伴风吹雪",
+              "summary": "黑龙江省气象台11月26日12时发布大雪、道路结冰预报，预计27日至28日多地强降雪或雨夹雪，局地暴雪并伴风吹雪和降温。",
+              "title_en": "Heilongjiang issues heavy snow forecast with blizzards expected",
+              "summary_en": "Heilongjiang's meteorological station issued snow and road-icing warnings on November 26, forecasting heavy snow or sleet across much of the province from November 27 to 28, with blizzards and blowing snow in some areas.",
+              "topic_evidence": "预计27日至28日，该省多地将出现强降雪或雨夹雪天气",
+              "reason": "地方气象预警与公共安全信息。",
+              "reason_en": "A local weather warning with public safety implications.",
+              "score": 3.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "subsections": [
+        {
+          "id": "markets-assets",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+              "title": "金价在重挫后震荡，交易员评估美联储路径与AI忧虑",
+              "summary": "金价在约15个月低点上方震荡，投资者担忧美联储为遏制通胀而加息，同时更广泛市场情绪趋稳。",
+              "title_en": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
+              "summary_en": "Gold fluctuated just above a roughly 15-month low as investors weighed concerns that the Federal Reserve will raise rates to fight inflation, while broader markets took a calmer tone.",
+              "topic_evidence": "Gold wavered just above the lowest level in about 15 months",
+              "reason": "直接报道金价走势及美联储加息预期对资产价格的影响。",
+              "reason_en": "Directly covers gold's price action and how Fed rate expectations affect asset markets.",
+              "score": 8.0
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+              "title": "美股与纳指期货上涨，AI交易反弹：市场综述",
+              "summary": "美股与美股指数期货上涨，投资者在感恩节前重返人工智能交易，此前一周市场经历剧烈震荡。",
+              "title_en": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap",
+              "summary_en": "US stocks and equity-index futures rose as investors returned to the AI trade before Thanksgiving, following a week of sharp market swings.",
+              "topic_evidence": "Stocks rose alongside US equity-index futures as investors returned to the artificial intelligence trade",
+              "reason": "概括美股与纳指期货在AI交易反弹下的走势。",
+              "reason_en": "Summarizes US stock and Nasdaq futures moves driven by the rebound in the AI trade.",
+              "score": 7.0
+            },
+            {
+              "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+              "title": "甲骨文、CoreWeave等科技股在抛售后反弹",
+              "summary": "甲骨文、CoreWeave及其他科技股周三从早盘跌势中反弹，此前一度看起来严重的抛售在收盘前缓解。",
+              "title_en": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+              "summary_en": "Oracle, CoreWeave and other technology stocks rebounded from early losses on Wednesday after what appeared to be a major selloff eased before the close.",
+              "topic_evidence": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday",
+              "reason": "报道AI相关科技股在抛售后反弹，属于市场与资产动态。",
+              "reason_en": "Covers the rebound in AI-linked technology stocks after a selloff, a market-assets development.",
+              "score": 5.9
+            },
+            {
+              "url": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+              "title": "英伟达回吐周一大涨的大部分涨幅，逢低买入者获利了结",
+              "summary": "据Vanda Research，英伟达股价回吐周一反弹的很大一部分，上周逢低买入的散户投资者收益几乎全部消失。",
+              "title_en": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+              "summary_en": "Nvidia shares gave back a large part of Monday’s rally as dip buyers cashed in, with Vanda Research saying retail investors’ gains from last week are nearly gone.",
+              "topic_evidence": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+              "reason": "具体报道英伟达股价回吐及散户交易收益变化。",
+              "reason_en": "Specifically reports Nvidia’s pullback and the swing in retail investors’ gains.",
+              "score": 3.9
+            },
+            {
+              "url": "https://www.bloomberg.com/news/live-blog/2026-11-26/ftse-100-live-updates-pound-bonds-dollar-ai-stocks-gold-prices-tube-strike-boe-report-what-s-moving-uk-markets-right-now-markets-today",
+              "title": "富时100实时更新：英国股市上涨，剧烈波动的股市降温",
+              "summary": "富时100实时更新显示，英国股市上涨，因此前剧烈波动的股票市场有所降温；该实时报道追踪英国市场最新动态。",
+              "title_en": "FTSE 100 Live Updates: UK Stocks Jump as Volatile Stock Markets Cool",
+              "summary_en": "FTSE 100 live updates show UK stocks jumping as volatile stock markets cool, with the live report tracking the latest UK market moves.",
+              "topic_evidence": "UK Stocks Jump as Volatile Stock Markets Cool",
+              "reason": "提供英国股市上涨及波动降温的实时市场信息。",
+              "reason_en": "Provides real-time market information on UK stocks rising as volatility cools.",
+              "score": 7.0
+            }
+          ]
+        },
+        {
+          "id": "macro-policy",
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
+              "title": "美联储褐皮书显示温和增长，工资压力上升",
+              "summary": "美联储对地区联系人调查显示，多数辖区近几周录得轻微至温和增长，企业报告工资压力上升。",
+              "title_en": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+              "summary_en": "Most Federal Reserve districts saw slight to moderate growth in recent weeks, and companies reported increased wage pressures, according to the central bank’s regional survey.",
+              "topic_evidence": "Most Federal Reserve districts saw slight to moderate growth in recent weeks",
+              "reason": "直接反映美联储褐皮书的增长与工资压力信息。",
+              "reason_en": "Directly reflects the Fed Beige Book’s growth and wage-pressure findings.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+              "title": "日本央行鹰派委员因通胀主张尽快加息",
+              "summary": "日本央行政策委员会一名鹰派委员呼吁尽早行动、继续提高基准利率，支撑市场对下月加息的预期。",
+              "title_en": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes on Inflation",
+              "summary_en": "A hawkish Bank of Japan policy board member called for early action to keep raising the benchmark rate, supporting market expectations for a hike next month.",
+              "topic_evidence": "called for early action to keep raising the BOJ’s benchmark rate",
+              "reason": "报道日本央行政策委员的加息主张及市场预期。",
+              "reason_en": "Reports a BOJ policy board member’s call for rate hikes and related market expectations.",
+              "score": 4.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-firms-see-inflation-holding-over-4-for-next-12-months",
+              "title": "澳大利亚企业预计未来12个月通胀仍高于4%",
+              "summary": "澳大利亚企业预计，未来12个月通胀仍将远高于央行2%至3%的目标区间，尽管政策制定者今年已五次加息。",
+              "title_en": "Australia Firms See Inflation Holding Over 4% for Next 12 Months",
+              "summary_en": "Australian businesses expect inflation to remain well above the Reserve Bank’s 2-3% target band for the next 12 months, even after five rate hikes this year.",
+              "topic_evidence": "Australian businesses expect inflation will remain well above the top of the Reserve Bank’s 2-3% target band",
+              "reason": "提供澳大利亚企业通胀预期与央行政策背景。",
+              "reason_en": "Provides Australian business inflation expectations and central-bank policy context.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-26/bok-hikes-rate-on-stubborn-inflation-as-ai-boom-drives-growth",
+              "title": "韩国央行加息，并因AI繁荣大幅上调增长预期",
+              "summary": "韩国央行恢复加息，并大幅上调明年增长预测，显示在半导体繁荣推动增长、通胀压力仍高之际仍有进一步收紧空间。",
+              "title_en": "BOK Hikes Rate While Sharply Revising Up Growth View on AI Boom",
+              "summary_en": "The Bank of Korea resumed raising rates and sharply raised next year’s growth forecast, signaling room for further tightening as a semiconductor boom drives growth and inflation stays elevated.",
+              "topic_evidence": "The Bank of Korea resumed raising interest rates and sharply increased its growth forecast for next year",
+              "reason": "报道韩国央行利率决定、增长预测及AI/半导体繁荣背景。",
+              "reason_en": "Covers the BOK rate decision, growth forecast and AI/semiconductor boom backdrop.",
+              "score": 3.95
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+              "title": "印度股票创纪录流入后，银行寻求印度央行外汇互换",
+              "summary": "知情人士称，一些印度银行请求央行开展外汇互换，以缓解因美元涌入而上升的对冲成本；此前印度股票录得创纪录资金流入。",
+              "title_en": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+              "summary_en": "Some Indian lenders asked the central bank to conduct FX swaps to ease rising hedging costs as banks handle an influx of dollars, people familiar with the matter said.",
+              "topic_evidence": "Some Indian lenders have asked the central bank to carry out foreign-exchange swaps",
+              "reason": "涉及印度央行外汇操作与股票资金流入带来的银行对冲成本。",
+              "reason_en": "Covers RBI FX operations and banks’ hedging costs amid stock inflows.",
+              "score": 5.0
+            }
+          ]
+        },
+        {
+          "id": "wealth-regulation",
+          "articles": [
+            {
+              "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+              "title": "结婚58年：这是“我们的钱”，为何许多夫妻仍分开理财？",
+              "summary": "一位结婚58年的读者认为夫妻财务应视为共同财产，并质疑为何许多夫妻仍选择分开管理财务；其妻自1970年起不再外出工作。",
+              "title_en": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+              "summary_en": "A reader married for 58 years argues couples’ money should be shared, not divided into his and hers; his wife stopped working outside the home in 1970.",
+              "topic_evidence": "It’s ‘our’ money, not ‘his’ and ‘hers.’",
+              "reason": "个人理财栏目讨论夫妻共同与分开管理财务的选择。",
+              "reason_en": "A personal-finance column on whether couples should manage money jointly or separately.",
+              "score": 3.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opinion",
+      "subsections": [
+        {
+          "id": "tech-opinion",
+          "articles": [
+            {
+              "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+              "title": "Ubuntu 安全响应缓慢引发批评",
+              "summary": "openwall 邮件列表帖子批评 Ubuntu 安全响应时间缓慢，HN 讨论获 274 分、121 条评论。",
+              "title_en": "Slow Ubuntu Security Response Times Criticized",
+              "summary_en": "An openwall mailing list post criticizes Ubuntu's slow security response times; the HN discussion has 274 points and 121 comments.",
+              "topic_evidence": "Slow Ubuntu security response times",
+              "reason": "该邮件列表帖子直接批评 Ubuntu 安全响应速度，属于技术社区观点；HN 讨论热度高。",
+              "reason_en": "The mailing list post directly critiques Ubuntu's security response speed, fitting tech opinion; high HN engagement.",
+              "score": 8
+            },
+            {
+              "url": "https://scottaaronson.blog/?p=10379",
+              "title": "Scott Aaronson 撰文感叹近期重大进展的规模",
+              "summary": "Scott Aaronson 博客以强烈语气讨论近期某项重大进展，并提及矩阵乘法指数为 9/4 的论文；HN 讨论 1425 分、1244 条评论。",
+              "title_en": "Scott Aaronson on the Magnitude of What’s Now Happening",
+              "summary_en": "Scott Aaronson's blog post uses strong language to discuss a major recent development, referencing a paper on the matrix multiplication exponent being nine fourths; HN discussion has 1425 points and 1244 comments.",
+              "topic_evidence": "The magnitude of what’s now happening",
+              "reason": "这是知名计算机科学家博客的评论文章，直接表达对重大进展的观点，符合技术观点。",
+              "reason_en": "A commentary essay by a well-known computer scientist expressing opinion on a major development, fitting tech opinion.",
+              "score": 8
+            },
+            {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+              "title": "《纽约时报》警告摄影师勿因 AI 功能更新 Photoshop",
+              "summary": "《纽约时报》警告摄影师不要因 Photoshop 的 AI 功能而更新软件；HN 讨论获 347 分、295 条评论。",
+              "title_en": "The New York Times Warns Photographers Not to Update Photoshop over AI Features",
+              "summary_en": "The New York Times warns photographers against updating Photoshop due to its AI features; the HN discussion has 347 points and 295 comments.",
+              "topic_evidence": "warns photographers not to update Photoshop over AI features",
+              "reason": "该报道涉及专业机构对 AI 功能的立场，属于技术应用与专业实践的观点讨论。",
+              "reason_en": "The report covers a professional organization's stance on AI features, fitting tech opinion on application and practice.",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "business-society",
+          "articles": []
+        },
+        {
+          "id": "community-discussion",
+          "articles": [
+            {
+              "url": "https://news.ycombinator.com/item?id=50649864",
+              "title": "Tell HN：Ask HN 帖子再次大量出现",
+              "summary": "HN 用户发帖讨论 Ask HN 页面近期出现大量帖子，并引用此前关于 /ask 页面内容稀少的提问。",
+              "title_en": "Tell HN: Lots of Ask HNs Again",
+              "summary_en": "An HN user discusses the recent surge of Ask HN posts and references earlier questions about the /ask page running dry.",
+              "topic_evidence": "Lots of Ask HNs again",
+              "reason": "这是 HN 社区关于 Ask HN 页面状态的元讨论，属于社区讨论。",
+              "reason_en": "A meta-discussion on HN about the state of the Ask HN page, fitting community discussion.",
+              "score": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2611.31427",
+      "original_title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "original_summary": "arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface. Otherwise, single-harness training can induce interference in interface competence, sometimes catastrophically collapsing performance on a held-out harness despite improvements in underlying task knowledge. To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface. Cross-harness task supervision or rehearsal alone yields little gain, but their combination yields gains far larger than either: on BFCL V3 multi-turn with Qwen3-4B, they achieve 8.5% and 32.5% respectively, versus 58.8% together. Finally, on-policy reinforcement learning (RL) is more robust than distillation to single-harness training: it does not substantially degrade performance on other harnesses, and interface competence acquired through multi-harness distillation persists through subsequent RL.",
+      "topic_evidence": "Decomposing Task and Interface Competence in Agentic Training",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2611.31475",
+      "original_title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+      "original_summary": "arXiv:2611.31475v1 Announce Type: new Abstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, and how to interpret their outputs, yet a stateless agent repeats the same mistakes across tasks. We ask whether a frozen tool-using agent can improve its orchestration from its own interaction history, without parameter updates. We present SpatialCraft, a self-evolving framework that maintains two forms of external knowledge: Experiences, condition-action tactics distilled by contrasting rollouts of the same task, and Skills, multi-step procedures with explicit activation and termination conditions. Three designs couple the two streams. Experiences can be anchored to a Skill, appearing only while it is active rather than once per task. A Contrastive Utility Score estimates each Experience's effect by randomly withholding it across rollouts of the same task, separating its contribution from task difficulty, and Experiences with consistently positive utility are consolidated into the Skills they support. Across five spatial benchmarks and four backbones, SpatialCraft achieves the best accuracy in all 20 settings, showing that a frozen agent can learn to orchestrate spatial tools from its own experience.",
+      "topic_evidence": "Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2611.33174",
+      "original_title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+      "original_summary": "arXiv:2611.33174v1 Announce Type: new Abstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite history into summaries, facts, or knowledge graphs--a step that is (a) costly (thousands of generative calls per build), (b) non-deterministic (undermining reproducibility and giving inconsistent answers across runs), and (c) provenance-erasing (the reader sees synthesized text, not the original turn). We propose MGMem, a framework with no generative indexing calls that replaces this step with a deterministic discriminative-parser pipeline: recurring mentions across sessions are organized into an incidence graph, question mentions are resolved by a subject-conditioned three-stage resolver, and raw dialogue episodes are returned to the reader. On English multi-session dialogue QA, MGMem outperforms matched-protocol baselines on LoCoMo without generative indexing calls; on the full LongMemEval-S, it remains competitive overall and leads or ties on single-session types among local retrieval comparisons. Code: https://github.com/junhong-h/MGMem",
+      "topic_evidence": "An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "llm",
+        "model",
+        "agent"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2611.33197",
+      "original_title": "Extraneous Cognitive Load in Large Language Models",
+      "original_summary": "arXiv:2611.33197v1 Announce Type: new Abstract: Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task information is presented. Large language models (LLMs) show analogous effects: presentation alone can affect model performance, but these effects have not yet been systematically isolated from task difficulty. To address this gap, we introduce CogLoadBench, a controlled benchmark that varies five CLT-inspired presentation factors across three reasoning task families. Across models, we find that higher extraneous load conditions often reduce accuracy by either adding competition or complicating the reasoning path. To support diagnosis and mitigation of load-related effects, we propose the Extraneous Load Score (ELS), a prompt-time metric computed from activations that estimates a model's extraneous load, and show that it generalizes across reasoning task types and load levels. We further show that shifting model representations toward lower-load directions at inference time can improve average model performance without changing prompt content.",
+      "topic_evidence": "presentation alone can affect model performance",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "model",
+        "inference"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "frontier-ai",
+      "url": "https://arxiv.org/abs/2611.33183",
+      "original_title": "REI: Learning Ideation from Repository Evolution",
+      "original_summary": "arXiv:2611.33183v1 Announce Type: new Abstract: As AI systems become increasingly capable of executing and evaluating experiments, ideation is emerging as a bottleneck in automated scientific and engineering iteration. In many real-world domains, useful ideas are sparse and their validation is costly, making direct online exploration inefficient. We observe that repository evolution provides a scalable source of reusable technical experience: code changes record concrete technical hypotheses, while subsequent revisions, adoption, and reuse provide signals about their utility. Based on this observation, we propose REI, a Repository Evolution-driven Ideation framework that learns reusable ideation policies from repository evolution, injecting domain-specific technical experience into model parameters and reducing reliance on costly trial-and-error. We further identify a hidden failure mode in quality-driven ideation optimization: semantic diversity collapse. Although generated ideas can remain lexically diverse, they increasingly concentrate in a small number of dominant method families, limiting cross-task generalization and long-tail exploration. To address this problem, we introduce Semantic Prior Optimization and Debiasing (SPOD), a diversity-preserving alignment mechanism that makes method identity explicit, corrects category-level reward bias, and limits redundant accumulation within the same method family while retaining strong representatives. Experiments on public benchmarks and a real-world industrial setting demonstrate improvements in ideation quality, method diversity, cross-task generalization, and long-tail exploration.",
+      "topic_evidence": "ideation is emerging as a bottleneck in automated scientific and engineering iteration",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "ai",
+        "model"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "original_title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "original_summary": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released in all four combinations of real or fake video and real or fake audio so each modality contribution can be measured directly. Fakes cover inner-face swapping, whole-frame video diffusion and voice conversion. MOZAIC has 137,745 clips from 15,014 source pairs and four tasks: T1 AV authenticity, T2 manipulation type, T3 identity verification and T4 explanation. We evaluate 12 AV multimodal LLMs (MLLMs), train four detectors and fine-tune MLLMs with LoRA. Overall, the best MLLM reaches only 35.6% on the four-way T1 and catches far more video-only fakes than voice-only fakes (43.6% vs 7.5%). Trained detectors reach 98.4% on T1, and LoRA fine-tuning raises explanation scores (OmniVinci 4.17 to 7.40, Qwen2.5-Omni 4.42 to 6.98), but the best T1 detector falls to 78.3% when the face-swap generator is held out of training, so generalization and explanation remain open. We release the dataset, the compact MOZAIC-SMALL split, the code and the prompts. https://vectorinstitute.github.io/mozaic/",
+      "topic_evidence": "a paired benchmark with a 4-way label",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "benchmark",
+        "dataset"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.31345",
+      "original_title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "original_summary": "arXiv:2611.31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive data exploration. Unlike static chart-to-code generation, which emphasizes visual consistency, interactive chart-to-code evaluation targets behavioral consistency, requiring chart states to evolve correctly under sequences of user interactions, thereby rendering traditional one-step evaluation paradigms ineffective. To address this gap, we introduce ChartInt, the first benchmark specifically designed for interactive chart-to-code generation. ChartInt consists of 2,779 carefully annotated examples covering common interaction patterns such as hover, highlight, and tooltips. Additionally, ChartInt incorporates editing tasks such as data updates, style adjustments, and cross-chart style transfer to expand real-world application scenarios. To enable reliable evaluation of interaction behavior, we propose a preset state snapshot protocol that predefines target interaction states and deterministically triggers interaction events, transforming dynamic behaviors into reproducible evaluation targets. Based on this protocol, we design a multi-dimensional evaluation framework measuring semantic and stylistic consistency. Experiments show that while current MLLMs perform well on static charts, their performance drops significantly on interactive tasks, highlighting the need for interaction-aware benchmarks.",
+      "topic_evidence": "existing benchmarks mainly focus on static charts, overlooking interactive charts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.33307",
+      "original_title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "original_summary": "arXiv:2611.33307v1 Announce Type: new Abstract: Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages, comparing each language with English on parallel items. Every model loses accuracy in every language, from about 2 points in high-resource languages to 8 in Tamil, while confidence falls only half as much: a threshold set for 95\\% accuracy in English yields 90% in Tamil. The size of the loss is set by the language and the base model rather than by leaderboard rank. In 81 controlled fine-tuning runs, task skill learned in English transfers to other languages and a few thousand target-language items narrow large losses, but neither more data nor full-parameter tuning closes them. Finally, the same test items are answered more accurately in all 23 benchmark--language pairs we compare when an LLM rather than a person translated them, so LLM-translated test sets understate the gap.",
+      "topic_evidence": "We evaluate 25 top-ranked open-weight decision models on 17 tasks in 14 languages",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "guardrails",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.33162",
+      "original_title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+      "original_summary": "arXiv:2611.33162v1 Announce Type: new Abstract: Agentic benchmarks report a success rate that confounds distinct causes of failure: misreading the environment, never working out how components of the environment operates, operating the components in the wrong order, and failing to recover from a mistake, each of which calls for a different fix. We present an early preview of MultiNet v2.0-Gridworld - an interactive maze environment built for attribution rather than ranking. Four different types of mechanisms, namely key-door pairs, switch-gate pairs, distractors and decoys, and ordered combinations of these mechanisms, can be added, modified, or removed independently while the renderer, the action space, and the scoring function stay fixed. A breadth-first search over the joint state of position, facing direction, inventory, and mechanism state gives every instance an exact optimal action count, which sets its difficulty and grades unfinished episodes. We fix the evaluation protocol on 15 held-out mazes over 540 episodes, then evaluate three vision-language models on 50 mazes. They solve 6 of 150 episodes, 45 of the 50 mazes were not solved by any model, and no episode containing a switch-gate mechanism was solved.",
+      "topic_evidence": "confounds distinct causes of failure: misreading the environment",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "ai-tech",
+      "subsection": "ai-research-governance",
+      "url": "https://arxiv.org/abs/2611.33428",
+      "original_title": "When the Knowledge Runs Out: A Part-Level Pilot Evaluation of How Language Models Handle Partially Covered Questions",
+      "original_summary": "arXiv:2611.33428v1 Announce Type: new Abstract: Assistants that answer from supplied reference material often receive material that covers some parts of a user's question and not others. Existing evaluations of insufficient context mostly score one answer per question, and often treat partially sufficient context as simply insufficient. We describe a small, open evaluation that scores each part of a three-part question separately, with a verdict for parts that are answered correctly from the material but carry an added unsupported claim. On 30 cases (five scenarios, six coverage patterns, five samples each) we test claude-haiku-4-5 and llama3.1:8b. Without an explicit instruction to stay within the material, both models fill most gaps from their own knowledge (unsupported-claim rates of 0.71 and 0.90). One added sentence instructing them to answer only from the material brings these rates to 0.00 and 0.06, consistent with prior work. What remains is less visible: answers that strengthen the material, for example turning \"many job sites prohibit bots\" into a flat \"no\". We also report on the judge. Three rounds of blind hand labelling show that this added-claim verdict is the hardest to apply, for the judge and the author alike; RAGAS faithfulness is unsuitable for this task because it penalises correct withholding; and a difference between the two models that is clear under one judge disappears when the judge model is replaced. The dataset, code, hand labels and per-run figures are public.",
+      "topic_evidence": "treat partially sufficient context as simply insufficient",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "evaluation",
+        "evaluations",
+        "dataset"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts",
+      "original_title": "datasette-charts 0.3a0",
+      "original_summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt: Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations Tags: datasette , visualization , datasette-charts",
+      "topic_evidence": "I added chart annotations to datasette-charts",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "release"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "open-source-tools",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "original_title": "How to choose the next safe step in application modernization",
+      "original_summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+      "topic_evidence": "assess a legacy application, choose a bounded modernization step",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "github"
+      ]
+    },
+    {
+      "section": "developer",
+      "subsection": "infra-data",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+      "original_title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "original_summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck. sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy! It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync: The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most. Update : Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released. Tags: backups , sqlite",
+      "topic_evidence": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "database"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "space-energy-robotics",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
+      "original_title": "Astronomers may have discovered a black hole born before the first stars",
+      "original_summary": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only three times that of the Moon, it may be a 13-billion-year-old cosmic relic that offers new clues to the mystery of dark matter.",
+      "topic_evidence": "could be a primordial black hole formed just after the Big Bang",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "star",
+        "stars",
+        "astronomers"
+      ]
+    },
+    {
+      "section": "science-tech",
+      "subsection": "science-research",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm",
+      "original_title": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
+      "original_summary": "More than a mile beneath the surface of the Red Sea, scientists have discovered rare underwater lakes that could reveal secrets about Earth's ancient oceans and the possibility of alien life. Known as brine pools, these extremely salty, oxygen-free environments are surprisingly teeming with microbial life, challenging our understanding of where living organisms can survive.",
+      "topic_evidence": "rare underwater lakes that could reveal secrets about Earth's ancient oceans",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "scientists"
+      ]
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/pydantic",
+      "original_title": "Pax by Pydantic",
+      "original_summary": "A coding agent where even coding is a plugin Discussion | Link",
+      "topic_evidence": "A coding agent where even coding is a plugin",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "original_title": "Upsolve Harness 2.0",
+      "original_summary": "A data agent that's 2x faster and learns every user Discussion | Link",
+      "topic_evidence": "A data agent that's 2x faster and learns every user",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/openchat-5",
+      "original_title": "OpenChat",
+      "original_summary": "Open-source live chat in your own Cloudflare account Discussion | Link",
+      "topic_evidence": "Open-source live chat in your own Cloudflare account",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "startup-product",
+      "subsection": "new-products",
+      "url": "https://www.producthunt.com/products/iwantmy-app",
+      "original_title": "iwantmy.app",
+      "original_summary": "Describe a mobile app in chat and open it on your phone Discussion | Link",
+      "topic_evidence": "Describe a mobile app in chat and open it on your phone",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "app"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
+      "original_title": "ICC judge Kimberly Prost tries war crimes. She’s a target of US sanctions",
+      "original_summary": "Apps not working. Bank transfers not going through. And a court fighting for international law must skirt US firms.",
+      "topic_evidence": "She’s a target of US sanctions",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+      "original_title": "All hostages rescued after Colombian security forces storm supermarket, police say",
+      "original_summary": "Unclear if ‘hostage-taker’ who was killed may have been a hostage as daylong siege in Cartagena shopping centre ends Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one man police described as a hostage-taker was killed. Abelardo de la Espriella, the far-right president, travelled to the Caribbean port city of Cartagena to follow the final hours of negotiations and the tactical assault, in which special forces officers broke through blocked entrances and detonated stun grenades. Continue reading...",
+      "topic_evidence": "All hostages rescued after Colombian security forces storm supermarket",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "security"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.aljazeera.com/news/2026/11/26/how-silicon-valley-central-israel-war-palestinians?traffic_source=rss",
+      "original_title": "How Silicon Valley became central to Israel’s war on Palestinians",
+      "original_summary": "From surveillance systems to AI targeting, US tech giants are deeply embedded in Israel's war machine.",
+      "topic_evidence": "US tech giants are deeply embedded in Israel's war machine",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "war"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "geopolitics",
+      "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+      "original_title": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+      "original_summary": "Yuki Imai being held in Moscow on allegations he conducted ‘espionage’ while working for a newspaper in Sakhalin island in Russia’s far east The wife of a Japanese journalist who has been detained in Russia for more than a month on suspicion of spying has issued an emotive appeal for his release. Yuki Imai, a reporter for the Hokkaido Shimbun, was arrested in mid-October as he was preparing to return to Japan from a two-year assignment at the Japanese newspaper’s bureau in the city of Yuzhno-Sakhalinsk, on the island of Sakhalin in Russia’s far east. Continue reading...",
+      "topic_evidence": "wife of Japanese journalist detained by Russia pleads for his release",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "original_title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+      "original_summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and China accused Washington of “political manipulation” in the wake of Donald Trump’s latest economic salvo against 14 major trading partners. Brazil’s government said on Wednesday: “Brazil will not yield to this type of threat”, adding in its statement that the “unilateral decision constitutes an unacceptable action within the framework of the ongoing bilateral negotiating process”. Continue reading...",
+      "topic_evidence": "Trump tariff threat ‘unacceptable’, says Brazil",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "government"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "original_title": "US announces new tariffs on host of countries including China",
+      "original_summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "topic_evidence": "US announces new tariffs on host of countries including China",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "original_summary": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+      "topic_evidence": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "government-policy",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+      "original_title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "original_summary": "\"The public is rightly concerned,\" says the Republican lawmaker, who wants to know what the FBI and CIA knew about potential national security threats and whether Jensen Huang was warned.",
+      "topic_evidence": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-rallies-around-the-world-denounce-violence-against-women?traffic_source=rss",
+      "original_title": "Photos: Rallies around the world denounce violence against women",
+      "original_summary": "About 47,000 women and girls were intentionally killed by an intimate partner or family member last year, UN data shows.",
+      "topic_evidence": "About 47,000 women and girls were intentionally killed by an intimate partner or family member last year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "world"
+      ]
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+      "original_title": "War and drought threaten livelihoods of Sudan’s farmers",
+      "original_summary": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests and leaving millions without water.",
+      "topic_evidence": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.aljazeera.com/news/2026/11/26/sri-lanka-mass-grave-revives-quest-for-answers-to-forgotten-muslim-massacre?traffic_source=rss",
+      "original_title": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "original_summary": "As Sri Lanka's Tamil separatists fought a deadly war with the army, they also killed hundreds of Muslims.",
+      "topic_evidence": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "world",
+      "subsection": "global-society",
+      "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+      "original_title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "original_summary": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said. The blaze on the ring road, a key artery that encircles the Egyptian capital, also injured at least 21 people and left more than two dozen cars and motorcycles charred, according to the latest figures released by the health ministry. Continue reading...",
+      "topic_evidence": "A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "health"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738128.shtml",
+      "original_title": "中国国防部长访问意大利、英国深化战略互信",
+      "original_summary": "中新网11月26日电 11月26日下午，国防部举行例行记者会，国防部新闻发言人陈曦大校答记者问。",
+      "topic_evidence": "中国国防部长访问意大利、英国深化战略互信",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738122.shtml",
+      "original_title": "第十届中非青年大联欢在北京、陕西举办 外交部介绍情况",
+      "original_summary": "中新网北京11月26日电 (记者 谢雁冰)中国外交部发言人郭嘉昆26日主持例行记者会。",
+      "topic_evidence": "第十届中非青年大联欢在北京、陕西举办",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "外交部"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738131.shtml",
+      "original_title": "国防部回应菲澳防务合作协议：将继续采取必要措施 有力应对侵权挑衅行径",
+      "original_summary": "据报道，菲律宾与澳大利亚近日签署“防务合作协议”，有分析认为此举“意在针对中国”。菲防长称有关合作协议有利于巩固菲在南海等区域的可信威慑能力，应对中方在南海的行动。请问对此有何评论？",
+      "topic_evidence": "将继续采取必要措施 有力应对侵权挑衅行径",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "措施"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-policy",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738111.shtml",
+      "original_title": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+      "original_summary": "中新网11月26日电 11月26日下午，国防部举行例行记者会，国防部新闻发言人陈曦大校发布消息。",
+      "topic_evidence": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738043.shtml",
+      "original_title": "江苏职教与产业对话“把脉”产教融合：专业建在产业链岗位上",
+      "original_summary": "中新网扬州11月26日电 (李丽 周明益)11月23日至25日，2026年江苏职业教育与产业对话活动在扬州举办。活动由江苏省职业技术教育学会主办、扬州工业职业技术学院承办，汇聚江苏75所职业院校和行业龙头企业代表，以政行企校深度对话凝聚共识，探寻职业教育精准对接产业发展需求的改革路径。",
+      "topic_evidence": "专业建在产业链岗位上",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "产业"
+      ]
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738153.shtml",
+      "original_title": "兴边富民助力高质量发展｜AI出海的“广西答卷”，贵在一个“懂”字",
+      "original_summary": "中新网崇左11月26日电(记者 刘越 俞靖)“我们去年跟老挝合作推出了一款他们国家的大模型，其本质就类似于一个特别懂本地语、特别懂东盟当地民俗的‘豆包’。”",
+      "topic_evidence": "我们去年跟老挝合作推出了一款他们国家的大模型",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-industry-local",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738133.shtml",
+      "original_title": "歼-20A、运-20B将首次亮相中国航展",
+      "original_summary": "第十六届中国国际航空航天博览会将于12月7日至13日在珠海举办，空军采取“飞行展示+地面静态展示”相结合方式，选派33型60余件装备参展。",
+      "topic_evidence": "歼-20A、运-20B将首次亮相中国航展",
+      "status": "rejected",
+      "reason": "topic evidence does not match subsection",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738136.shtml",
+      "original_title": "台湾彰化重大车祸致3死16伤",
+      "original_summary": "中新社台北11月26日电 台湾1号主要交通干道南下彰化路段26日发生重大车祸，小客车、大货车等车辆发生碰撞，已致3人死亡、16人受伤。",
+      "topic_evidence": "已致3人死亡、16人受伤",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738157.shtml",
+      "original_title": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+      "original_summary": "直播工作中的强光、熬夜、长期用嗓，给一些网络主播造成慢性损伤",
+      "topic_evidence": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738098.shtml",
+      "original_title": "换脸视频 高仿真语音 批量外呼 AI造假何以“眼见为虚”？",
+      "original_summary": "近日，某知名演员发现，被“克隆”的自己竟在别人的直播间里卖货骗钱。AI“虚拟活人”骗局不仅损害当事人声誉，更把不少普通人的钱财席卷一空。北京晚报记者了解到，不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”，轻易收割了不少人的信任与钱财。AI给电信网络诈骗披上了更逼真的外衣，面对这类新骗局，我们该如何防范？",
+      "topic_evidence": "不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "china",
+      "subsection": "china-society-law",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738041.shtml",
+      "original_title": "黑龙江发布大雪预报 局地有暴雪伴风吹雪",
+      "original_summary": "中新网哈尔滨11月26日电(记者 王妮娜)黑龙江省气象台26日12时发布大雪、道路结冰预报，预计27日至28日，该省多地将出现强降雪或雨夹雪天气，局地有暴雪，部分地区伴有风吹雪和降温。",
+      "topic_evidence": "预计27日至28日，该省多地将出现强降雪或雨夹雪天气",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+      "original_title": "Gold Wavers After Battering as Traders Assess Fed Path, AI Angst",
+      "original_summary": "Gold wavered just above the lowest level in about 15 months, as investors contended with concerns that the Federal Reserve will hike interest rates to combat inflation against a calmer tone in wider markets.",
+      "topic_evidence": "Gold wavered just above the lowest level in about 15 months",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "market",
+        "markets"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+      "original_title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap",
+      "original_summary": "Stocks rose alongside US equity-index futures as investors returned to the artificial intelligence trade in the runup to the Thanksgiving holiday after a week of whipsawing.",
+      "topic_evidence": "Stocks rose alongside US equity-index futures as investors returned to the artificial intelligence trade",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+      "original_title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+      "original_summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
+      "topic_evidence": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+      "original_title": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+      "original_summary": "Based on where retail investors bought Nvidia shares on the dip last week, their gains are now nearly all gone, according to Vanda Research.",
+      "topic_evidence": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "stock"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "markets-assets",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-11-26/ftse-100-live-updates-pound-bonds-dollar-ai-stocks-gold-prices-tube-strike-boe-report-what-s-moving-uk-markets-right-now-markets-today",
+      "original_title": "FTSE 100 Live Updates: UK Stocks Jump as Volatile Stock Markets Cool",
+      "original_summary": "",
+      "topic_evidence": "UK Stocks Jump as Volatile Stock Markets Cool",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "market",
+        "markets",
+        "stock",
+        "stocks"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures",
+      "original_title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+      "original_summary": "Most Federal Reserve districts saw slight to moderate growth in recent weeks, and companies reported increased wage pressures, according to a survey of the central bank’s regional contacts.",
+      "topic_evidence": "Most Federal Reserve districts saw slight to moderate growth in recent weeks",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "fed",
+        "federal reserve",
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+      "original_title": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes on Inflation",
+      "original_summary": "A hawkish member of the Bank of Japan’s policy board called for early action to keep raising the BOJ’s benchmark rate, supporting market expectations for a rate hike next month.",
+      "topic_evidence": "called for early action to keep raising the BOJ’s benchmark rate",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-firms-see-inflation-holding-over-4-for-next-12-months",
+      "original_title": "Australia Firms See Inflation Holding Over 4% for Next 12 Months",
+      "original_summary": "Australian businesses expect inflation will remain well above the top of the Reserve Bank’s 2-3% target band for the next 12 months, even after policymakers delivered five interest-rate hikes this year to try to rein in consumer prices.",
+      "topic_evidence": "Australian businesses expect inflation will remain well above the top of the Reserve Bank’s 2-3% target band",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/bok-hikes-rate-on-stubborn-inflation-as-ai-boom-drives-growth",
+      "original_title": "BOK Hikes Rate While Sharply Revising Up Growth View on AI Boom",
+      "original_summary": "The Bank of Korea resumed raising interest rates and sharply increased its growth forecast for next year, signaling scope for further tightening as an unprecedented semiconductor boom drives economic expansion and keeps inflation pressures elevated.",
+      "topic_evidence": "The Bank of Korea resumed raising interest rates and sharply increased its growth forecast for next year",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "inflation",
+        "rates"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "macro-policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+      "original_title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+      "original_summary": "Some Indian lenders have asked the central bank to carry out foreign-exchange swaps to help ease rising hedging costs as banks deal with an influx of dollars, according to people familiar with the matter.",
+      "topic_evidence": "Some Indian lenders have asked the central bank to carry out foreign-exchange swaps",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "central bank"
+      ]
+    },
+    {
+      "section": "finance",
+      "subsection": "wealth-regulation",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "original_title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "original_summary": "“My wife stopped working outside the home in 1970.”",
+      "topic_evidence": "It’s ‘our’ money, not ‘his’ and ‘hers.’",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "finance"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "original_title": "Slow Ubuntu security response times",
+      "original_summary": "Article URL: https://www.openwall.com/lists/oss-security/2026/11/25/9 Comments URL: https://news.ycombinator.com/item?id=50647181 Points: 274 # Comments: 121",
+      "topic_evidence": "Slow Ubuntu security response times",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "original_title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "original_summary": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 Comments URL: https://news.ycombinator.com/item?id=50646108 Points: 1425 # Comments: 1244",
+      "topic_evidence": "The magnitude of what’s now happening",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": true,
+      "quote_keyword_match": false,
+      "source_keyword_matches": []
+    },
+    {
+      "section": "opinion",
+      "subsection": "tech-opinion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "original_title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "original_summary": "https://archive.ph/pcUgy Comments URL: https://news.ycombinator.com/item?id=50647673 Points: 347 # Comments: 295",
+      "topic_evidence": "warns photographers not to update Photoshop over AI features",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": true,
+      "source_keyword_matches": [
+        "ai"
+      ]
+    },
+    {
+      "section": "opinion",
+      "subsection": "community-discussion",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "original_title": "Tell HN: Lots of Ask HNs again",
+      "original_summary": "There have been questions about why the /ask page ( https://news.ycombinator.com/ask ) was running dry of Ask HNs - e.g.: Ask HN: Why is Ask HN only showing me 14 posts? - https://news.ycombinator.com/item?id=49984484 - Oct 2026 (47 comments) Ask HN: Why is pagination gone on \"Ask HN\", and showing only 19 items? - https://news.ycombinator.com/item?id=50280719 - Oct 2026 (3 comments) I believe I found the problem. The pool of stories for https://news.ycombinator.com/ask has traditionally been drawn from the ranked stories list from which we generate the frontpage. That list is restricted to the top 1500 ranked submissions, and it seems the % of submissions which are text posts (i.e. no linked URL) had declined enough to starve the Ask HN feed. The solution is to compute a separate list of ranked Ask HNs. p.s. \"Ask HN\" is the conventional name but it means text posts. The title can also start with \"Tell HN\" or nothing in particular. They're just posts which were submitted without a URL. Comments URL: https://news.ycombinator.com/item?id=50649864 Points: 245 # Comments: 90",
+      "topic_evidence": "Lots of Ask HNs again",
+      "status": "accepted",
+      "reason": "",
+      "semantic_topic_approved": false,
+      "quote_keyword_match": false,
+      "source_keyword_matches": [
+        "comments"
+      ]
+    }
+  ],
+  "topic_review": [
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/pydantic",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/pydantic",
+      "original_title": "Pax by Pydantic",
+      "original_summary": "A coding agent where even coding is a plugin Discussion | Link",
+      "topic_evidence": "A coding agent where even coding is a plugin",
+      "approved": true,
+      "evidence": "A coding agent where even coding is a plugin",
+      "reason": "原文介绍 Pydantic 的 Pax 编码代理，属于具体新产品展示，符合新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/upsolve-ai",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "original_title": "Upsolve Harness 2.0",
+      "original_summary": "A data agent that's 2x faster and learns every user Discussion | Link",
+      "topic_evidence": "A data agent that's 2x faster and learns every user",
+      "approved": true,
+      "evidence": "A data agent that's 2x faster and learns every user",
+      "reason": "原文介绍 Upsolve Harness 2.0 数据代理，强调速度提升和用户学习能力，符合新产品与增长。"
+    },
+    {
+      "id": "startup-product/new-products/https://www.producthunt.com/products/openchat-5",
+      "section": "创业与产品",
+      "subsection": "新产品与增长",
+      "url": "https://www.producthunt.com/products/openchat-5",
+      "original_title": "OpenChat",
+      "original_summary": "Open-source live chat in your own Cloudflare account Discussion | Link",
+      "topic_evidence": "Open-source live chat in your own Cloudflare account",
+      "approved": true,
+      "evidence": "Open-source live chat in your own Cloudflare account",
+      "reason": "原文介绍可部署在自有 Cloudflare 账户中的开源实时聊天产品，属于新产品。"
+    },
+    {
+      "id": "world/geopolitics/https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+      "section": "国际事务",
+      "subsection": "地缘与安全",
+      "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+      "original_title": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+      "original_summary": "Yuki Imai being held in Moscow on allegations he conducted ‘espionage’ while working for a newspaper in Sakhalin island in Russia’s far east The wife of a Japanese journalist who has been detained in Russia for more than a month on suspicion of spying has issued an emotive appeal for his release. Yuki Imai, a reporter for the Hokkaido Shimbun, was arrested in mid-October as he was preparing to return to Japan from a two-year assignment at the Japanese newspaper’s bureau in the city of Yuzhno-Sakhalinsk, on the island of Sakhalin in Russia’s far east. Continue reading...",
+      "topic_evidence": "wife of Japanese journalist detained by Russia pleads for his release",
+      "approved": true,
+      "evidence": "Yuki Imai being held in Moscow on allegations he conducted ‘espionage’",
+      "reason": "日本记者在俄被以间谍嫌疑拘押、家属呼吁释放，涉及俄罗斯与日本间的安全与地缘议题。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "original_title": "US announces new tariffs on host of countries including China",
+      "original_summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "topic_evidence": "US announces new tariffs on host of countries including China",
+      "approved": true,
+      "evidence": "US announces new tariffs on host of countries including China",
+      "reason": "美国政府宣布对包括中国和欧盟在内的多国加征新关税，属于具体政府政策行动。"
+    },
+    {
+      "id": "world/government-policy/https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+      "original_title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "original_summary": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+      "topic_evidence": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "approved": false,
+      "evidence": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "reason": "主事件是以色列法官建议撤销对内塔尼亚胡的最严重指控，属于司法审理进展，不是政府政策或监管行动。"
+    },
+    {
+      "id": "world/government-policy/https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+      "section": "国际事务",
+      "subsection": "政府与政策",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+      "original_title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "original_summary": "\"The public is rightly concerned,\" says the Republican lawmaker, who wants to know what the FBI and CIA knew about potential national security threats and whether Jensen Huang was warned.",
+      "topic_evidence": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "approved": true,
+      "evidence": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "reason": "美国议员要求 FBI 和 CIA 先就国家安全问题作出说明，再质询英伟达负责人，属于国会监督与政府政策讨论。"
+    },
+    {
+      "id": "world/global-society/https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+      "original_title": "War and drought threaten livelihoods of Sudan’s farmers",
+      "original_summary": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests and leaving millions without water.",
+      "topic_evidence": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests",
+      "approved": true,
+      "evidence": "Attacks on electricity infrastructure and drought are threatening Sudan's harvests",
+      "reason": "战争破坏电力设施并叠加干旱，威胁苏丹农民收成和供水，属于全球社会与人道议题。"
+    },
+    {
+      "id": "world/global-society/https://www.aljazeera.com/news/2026/11/26/sri-lanka-mass-grave-revives-quest-for-answers-to-forgotten-muslim-massacre?traffic_source=rss",
+      "section": "国际事务",
+      "subsection": "全球社会",
+      "url": "https://www.aljazeera.com/news/2026/11/26/sri-lanka-mass-grave-revives-quest-for-answers-to-forgotten-muslim-massacre?traffic_source=rss",
+      "original_title": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "original_summary": "As Sri Lanka's Tamil separatists fought a deadly war with the army, they also killed hundreds of Muslims.",
+      "topic_evidence": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "approved": true,
+      "evidence": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "reason": "斯里兰卡乱葬岗重新引发对穆斯林群体遭屠杀真相的追查，属于全球社会、人权与历史正义议题。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/11-26/10738128.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738128.shtml",
+      "original_title": "中国国防部长访问意大利、英国深化战略互信",
+      "original_summary": "中新网11月26日电 11月26日下午，国防部举行例行记者会，国防部新闻发言人陈曦大校答记者问。",
+      "topic_evidence": "中国国防部长访问意大利、英国深化战略互信",
+      "approved": false,
+      "evidence": "中国国防部长访问意大利、英国深化战略互信",
+      "reason": "主事件是国防部长出访意大利和英国、深化战略互信，属于防务外交活动，不是政策制定或监管措施。"
+    },
+    {
+      "id": "china/china-policy/https://www.chinanews.com.cn/gn/2026/11-26/10738111.shtml",
+      "section": "中国观察",
+      "subsection": "政策与监管",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738111.shtml",
+      "original_title": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+      "original_summary": "中新网11月26日电 11月26日下午，国防部举行例行记者会，国防部新闻发言人陈曦大校发布消息。",
+      "topic_evidence": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+      "approved": false,
+      "evidence": "中国海军将举办2026年西太海军论坛人道主义救援减灾研讨与桌面推演",
+      "reason": "主事件是中国海军举办人道主义救援减灾研讨与桌面推演，属于军事交流活动，不是政策与监管。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/sh/2026/11-26/10738153.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738153.shtml",
+      "original_title": "兴边富民助力高质量发展｜AI出海的“广西答卷”，贵在一个“懂”字",
+      "original_summary": "中新网崇左11月26日电(记者 刘越 俞靖)“我们去年跟老挝合作推出了一款他们国家的大模型，其本质就类似于一个特别懂本地语、特别懂东盟当地民俗的‘豆包’。”",
+      "topic_evidence": "我们去年跟老挝合作推出了一款他们国家的大模型",
+      "approved": true,
+      "evidence": "我们去年跟老挝合作推出了一款他们国家的大模型",
+      "reason": "报道广西与老挝合作推出本地大模型、推动 AI 出海，属于地方产业与高质量发展。"
+    },
+    {
+      "id": "china/china-industry-local/https://www.chinanews.com.cn/gn/2026/11-26/10738133.shtml",
+      "section": "中国观察",
+      "subsection": "产业与地方",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738133.shtml",
+      "original_title": "歼-20A、运-20B将首次亮相中国航展",
+      "original_summary": "第十六届中国国际航空航天博览会将于12月7日至13日在珠海举办，空军采取“飞行展示+地面静态展示”相结合方式，选派33型60余件装备参展。",
+      "topic_evidence": "歼-20A、运-20B将首次亮相中国航展",
+      "approved": false,
+      "evidence": "歼-20A、运-20B将首次亮相中国航展",
+      "reason": "主事件是歼-20A、运-20B 在中国航展首次亮相，属于军事与国防装备动态，不是产业与地方发展。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/gn/2026/11-26/10738136.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738136.shtml",
+      "original_title": "台湾彰化重大车祸致3死16伤",
+      "original_summary": "中新社台北11月26日电 台湾1号主要交通干道南下彰化路段26日发生重大车祸，小客车、大货车等车辆发生碰撞，已致3人死亡、16人受伤。",
+      "topic_evidence": "已致3人死亡、16人受伤",
+      "approved": true,
+      "evidence": "已致3人死亡、16人受伤",
+      "reason": "台湾彰化发生重大车祸并造成3死16伤，属于社会突发事件。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-26/10738157.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738157.shtml",
+      "original_title": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+      "original_summary": "直播工作中的强光、熬夜、长期用嗓，给一些网络主播造成慢性损伤",
+      "topic_evidence": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+      "approved": true,
+      "evidence": "劳动关系模糊、工作地点灵活，主播的工伤如何认定？",
+      "reason": "讨论网络主播劳动关系模糊、工作地点灵活情况下的工伤认定，属于社会与法治、劳动权益议题。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-26/10738098.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738098.shtml",
+      "original_title": "换脸视频 高仿真语音 批量外呼 AI造假何以“眼见为虚”？",
+      "original_summary": "近日，某知名演员发现，被“克隆”的自己竟在别人的直播间里卖货骗钱。AI“虚拟活人”骗局不仅损害当事人声誉，更把不少普通人的钱财席卷一空。北京晚报记者了解到，不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”，轻易收割了不少人的信任与钱财。AI给电信网络诈骗披上了更逼真的外衣，面对这类新骗局，我们该如何防范？",
+      "topic_evidence": "不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”",
+      "approved": true,
+      "evidence": "不法分子依靠几秒钟的换脸视频、高度仿真的语音，搭配AI批量外呼“钓鱼”",
+      "reason": "报道不法分子利用换脸、拟声和 AI 批量外呼实施诈骗，属于社会与法治、网络犯罪议题。"
+    },
+    {
+      "id": "china/china-society-law/https://www.chinanews.com.cn/sh/2026/11-26/10738041.shtml",
+      "section": "中国观察",
+      "subsection": "社会与法治",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-26/10738041.shtml",
+      "original_title": "黑龙江发布大雪预报 局地有暴雪伴风吹雪",
+      "original_summary": "中新网哈尔滨11月26日电(记者 王妮娜)黑龙江省气象台26日12时发布大雪、道路结冰预报，预计27日至28日，该省多地将出现强降雪或雨夹雪天气，局地有暴雪，部分地区伴有风吹雪和降温。",
+      "topic_evidence": "预计27日至28日，该省多地将出现强降雪或雨夹雪天气",
+      "approved": true,
+      "evidence": "预计27日至28日，该省多地将出现强降雪或雨夹雪天气",
+      "reason": "黑龙江发布大雪和道路结冰预报，涉及公共出行与安全，属于社会民生。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "original_title": "Slow Ubuntu security response times",
+      "original_summary": "Article URL: https://www.openwall.com/lists/oss-security/2026/11/25/9 Comments URL: https://news.ycombinator.com/item?id=50647181 Points: 274 # Comments: 121",
+      "topic_evidence": "Slow Ubuntu security response times",
+      "approved": true,
+      "evidence": "Slow Ubuntu security response times",
+      "reason": "原文是对 Ubuntu 安全响应迟缓的技术批评与讨论，属于技术观点。"
+    },
+    {
+      "id": "opinion/tech-opinion/https://scottaaronson.blog/?p=10379",
+      "section": "观点与社论",
+      "subsection": "技术观点",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "original_title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "original_summary": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 Comments URL: https://news.ycombinator.com/item?id=50646108 Points: 1425 # Comments: 1244",
+      "topic_evidence": "The magnitude of what’s now happening",
+      "approved": true,
+      "evidence": "The magnitude of what’s now happening",
+      "reason": "博客文章评论矩阵乘法指数进展的意义，属于技术观点与评论。"
+    }
+  ],
+  "topic_approvals": [
+    [
+      "china",
+      "china-industry-local",
+      "https://www.chinanews.com.cn/sh/2026/11-26/10738153.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/gn/2026/11-26/10738136.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-26/10738041.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-26/10738098.shtml"
+    ],
+    [
+      "china",
+      "china-society-law",
+      "https://www.chinanews.com.cn/sh/2026/11-26/10738157.shtml"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://scottaaronson.blog/?p=10379"
+    ],
+    [
+      "opinion",
+      "tech-opinion",
+      "https://www.openwall.com/lists/oss-security/2026/11/25/9"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/openchat-5"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/pydantic"
+    ],
+    [
+      "startup-product",
+      "new-products",
+      "https://www.producthunt.com/products/upsolve-ai"
+    ],
+    [
+      "world",
+      "geopolitics",
+      "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss"
+    ],
+    [
+      "world",
+      "global-society",
+      "https://www.aljazeera.com/news/2026/11/26/sri-lanka-mass-grave-revives-quest-for-answers-to-forgotten-muslim-massacre?traffic_source=rss"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+    ],
+    [
+      "world",
+      "government-policy",
+      "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
+    ]
+  ]
+}

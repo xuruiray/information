@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-11-26</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261126</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>November 26, 2026 · Thursday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-11-26/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">3 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer &amp; Programming: Chart Annotations, Modernization Steps, and SQLite Remote Copy">
+      <div class="lead-label">Developer &amp; Programming: Chart Annotations, Modernization Steps, and SQLite Remote Copy</div>
+      <p>This Developer &amp; Programming section covers datasette-charts 0.3a0&#39;s new chart annotations, GitHub Blog&#39;s method for choosing a safe application modernization step, and sqlite3_rsync for remote SQLite database copying.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>2 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Open Source &amp; Tools: Chart Annotations and Modernization Step Assessment">
+          <div class="lead-label">Open Source &amp; Tools: Chart Annotations and Modernization Step Assessment</div>
+          <p>datasette-charts 0.3a0 adds line, shaded-area, and label annotations to charts, adjustable through the chart builder in Datasette Lite; GitHub Blog explains assessing a legacy application and choosing a bounded modernization step, reusable through a GitHub Copilot agent skill.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/25/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.3a0</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-charts 0.3a0 adds line, shaded-area, and label annotations to charts, adjustable through the chart builder in Datasette Lite; related components can also be installed.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization" target="_blank" rel="noopener">
+            <span class="at">How to choose the next safe step in application modernization</span>
+            <span class="by">GitHub 博客</span>
+            <p class="as">GitHub Blog explains how to assess a legacy application, choose a bounded modernization step, and reuse the method through a GitHub Copilot agent skill.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Infrastructure &amp; Data: SQLite Remote-Copy Tool">
+          <div class="lead-label">Infrastructure &amp; Data: SQLite Remote-Copy Tool</div>
+          <p>sqlite3_rsync has been available as an experimental feature since SQLite 3.47.0 and was enhanced in 3.50.0; it enables remote copying of SQLite databases, with easier snapshot copies cited as a standout benefit.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync" target="_blank" rel="noopener">
+            <span class="at">sqlite3_rsync: Database Remote-Copy Tool For SQLite</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">sqlite3_rsync, an experimental SQLite tool since 3.47.0 and enhanced in 3.50.0, enables remote database copying; its standout benefit is making snapshot copies easier, the author notes.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
