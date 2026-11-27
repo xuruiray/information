@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-27",
+  "title": "信息日报 2026-11-27",
+  "title_en": "Information Daily 2026-11-27",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "新西兰大选最终结果：执政联盟需小党支持才能组阁",
+    "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+    "source": "卫报国际",
+    "summary": "新西兰大选最终结果显示，现任总理拉克森领导的右翼联盟失去多数席位，需获得中间派新党“机会党”支持才能继续执政，否则可能再次大选。",
+    "source_en": "The Guardian World",
+    "title_en": "New Zealand election: final results show ruling coalition needs minor party to govern",
+    "summary_en": "Final election results show Prime Minister Christopher Luxon's rightwing coalition has lost its majority and needs support from the centrist Opportunity party to govern, or face another election.",
+    "original_title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+    "published_at": "2026-11-27T02:38:15+00:00",
+    "reason": "新西兰大选后的组阁谈判直接关系到政府组成与政策走向。",
+    "reason_en": "Post-election coalition talks determine New Zealand's government and policy direction.",
+    "score": 4.9
+  },
+  "path": "papers/2026-11-27.html",
+  "raw_path": "raw/2026-11-27.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/sh/2026/11-27/10738695.shtml]",
+    "Editorial item ignored in opinion/business-society: topic evidence does not match subsection [https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan]"
+  ]
+}

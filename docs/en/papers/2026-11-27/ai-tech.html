@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>01 AI &amp; LLMs · Information Daily 2026-11-27</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="ai-tech">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261127</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>November 27, 2026 · Friday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="ai-tech.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-11-27/ai-tech.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html" aria-current="page">01 AI &amp; LLMs</a>
+      <a href="developer.html">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>01 AI &amp; LLMs</h2>
+      <span class="ed">11 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="AI and Large Models: Context Scaling, Agents, and Governance">
+      <div class="lead-label">AI and Large Models: Context Scaling, Agents, and Governance</div>
+      <p>This batch examines LLM scaling and agent deployment: one paper proposes context scaling as a new frontier, while others compare LLM triage, introduce partial routing and the MGMem memory framework, and offer constraint-aware test-time scoring. On products, Amazon and Meta are reportedly in talks to lift the blockade on the AI agent Muse. Research and governance coverage includes confidence scores for gated automation, the AutoformBench Lean formalization benchmark, structured harm assessment for mental-health safety, and multilingual decision calibration; Anthropic CEO Dario Amodei rejects accusations of surrendering human control to AI.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="frontier-ai">
+        <header class="subsection-head">
+          <h3>Frontier Models</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Frontier Models: Context Scaling, Agent Routing, and Memory">
+          <div class="lead-label">Frontier Models: Context Scaling, Agent Routing, and Memory</div>
+          <p>The Frontier Models subsection covers five studies: one frames context scaling as a new AI scaling frontier and compares static classifiers, graph-based signal fusion, and LLM triage agents in detection and response; another introduces partial routing to delegate easier and harder subtasks to different models; MGMem offers an efficient, deterministic, provenance-preserving memory framework for long-horizon LLM agents; and constraint-aware test-time scoring selects among LLM and VLM candidate answers.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2611.33470" target="_blank" rel="noopener">
+            <span class="at">Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper presents an end-to-end empirical study comparing static classifiers, graph-based signal fusion, and LLM triage agents under strict human-analyst attention budgets in detection and response pipelines.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33160" target="_blank" rel="noopener">
+            <span class="at">Context Scaling: A New Frontier of AI Scaling</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper frames context scaling as a new AI scaling frontier, arguing many deployed AI failures stem from mismatches between task-dependent state and available context, not weak inference.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33402" target="_blank" rel="noopener">
+            <span class="at">Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces partial routing, delegating easier and harder subtasks within an agentic workflow to different models for more cost-efficient execution.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33174" target="_blank" rel="noopener">
+            <span class="at">MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper presents MGMem, an efficient, deterministic, provenance-preserving memory framework for long-horizon LLM agents that avoids generative LLM rewriting of history.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33161" target="_blank" rel="noopener">
+            <span class="at">Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper proposes constraint-aware test-time scoring to select among multiple LLM or VLM candidate answers by incorporating domain constraints beyond model confidence or judge scores.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-products">
+        <header class="subsection-head">
+          <h3>AI Products &amp; Platforms</h3>
+          <span>1 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Amazon and Meta reportedly in talks to lift blockade on AI agent Muse">
+          <div class="lead-label">Amazon and Meta reportedly in talks to lift blockade on AI agent Muse</div>
+          <p>Amazon and Meta are reportedly discussing a potential deal to end a two-month blockade of the AI agent Muse; the agreement has not been confirmed.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse" target="_blank" rel="noopener">
+            <span class="at">Amazon and Meta reportedly in talks to lift blockade on AI agent Muse</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Amazon and Meta are reportedly discussing a potential deal to end a two-month blockade of the AI agent Muse; the agreement has not been confirmed.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="ai-research-governance">
+        <header class="subsection-head">
+          <h3>Research &amp; Governance</h3>
+          <span>5 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Research and Governance: Confidence, Formalization Benchmarks, and Safety Assessment">
+          <div class="lead-label">Research and Governance: Confidence, Formalization Benchmarks, and Safety Assessment</div>
+          <p>The Research and Governance subsection focuses on model reliability and safety: one paper studies reliable confidence scores for gating automated decisions affecting individuals and organizations; AutoformBench evaluates AI systems&#39; ability to build definitions and intermediate lemmas connecting results to formal libraries in advanced mathematics; another proposes a clinically grounded taxonomy and short-reasoning harm assessment for mental-health support; a further study evaluates 25 open-weight decision models across 17 tasks in 14 languages and calibrates multilingual confidence. Anthropic CEO Dario Amodei rejects rivals&#39; accusations that he favors surrendering human control to AI as absurd.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://arxiv.org/abs/2611.33394" target="_blank" rel="noopener">
+            <span class="at">Confidence scores for gated automation of large language models</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper argues LLMs can give incorrect answers with high confidence and studies reliable confidence scores for gating automated decisions affecting individuals and organizations.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33165" target="_blank" rel="noopener">
+            <span class="at">AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces AutoformBench to evaluate AI systems&#39; ability to build definitions and intermediate lemmas connecting results to formal libraries, beyond isolated theorem proving.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33263" target="_blank" rel="noopener">
+            <span class="at">What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">The paper introduces a clinically grounded taxonomy and short-reasoning assessment to identify what harmful content, whom it affects, and when in LLM mental-health support.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd" target="_blank" rel="noopener">
+            <span class="at">Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Anthropic CEO Dario Amodei rejects rivals’ accusations that he favors surrendering human agency to AI as &#39;absurd,&#39; amid leading AI companies increasingly automating research and model development.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33307" target="_blank" rel="noopener">
+            <span class="at">Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models</span>
+            <span class="by">arXiv 计算语言学</span>
+            <p class="as">The paper evaluates 25 top-ranked open-weight decision models across 17 tasks in 14 languages, focusing on benchmarking and calibrating multilingual confidence.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

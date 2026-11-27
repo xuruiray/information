@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>01 AI 与大模型 · 信息日报 2026-11-26</title>
+<title>01 AI 与大模型 · 信息日报 2026-11-27</title>
 <meta name="description" content="面向个人阅读的可配置中文日报">
 <link rel="stylesheet" href="../assets/newspaper.css">
 </head>
@@ -13,12 +13,12 @@
     <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
     <header class="masthead">
       <div class="corners">
-        <span>第 20261126 期</span>
+        <span>第 20261127 期</span>
         <span>AI 编纂 · 仅供阅读</span>
       </div>
       <h1 class="title">信息日报</h1>
       <div class="subtitle">INFORMATION DAILY</div>
-      <div class="dateline"><span>2026年11月26日 星期四</span></div>
+      <div class="dateline"><span>2026年11月27日 星期五</span></div>
     </header>
 
     <nav class="language-switch" aria-label="Language">
@@ -40,12 +40,12 @@
 
     <header class="pagehead category-head">
       <h2>01 AI 与大模型</h2>
-      <span class="ed">10 条 / 3 个细分</span>
+      <span class="ed">11 条 / 3 个细分</span>
     </header>
 
-    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：智能体能力、记忆与评测治理">
-      <div class="lead-label">AI 与大模型：智能体能力、记忆与评测治理</div>
-      <p>本期 AI 与大模型版收录 10 篇论文：前沿模型部分关注智能体训练中的任务能力与接口能力拆分、空间推理智能体的程序性智能演化、长期记忆框架、大模型的外在认知负荷，以及从代码仓库演化中学习创意生成；研究与治理部分覆盖音视频深度伪造基准、交互式图表转代码评测、多语言决策模型校准、视觉语言智能体失败归因和部分覆盖问题问答评测。</p>
+    <section class="briefing-panel category-briefing" aria-label="AI 与大模型：上下文扩展、智能体与治理">
+      <div class="lead-label">AI 与大模型：上下文扩展、智能体与治理</div>
+      <p>本期文章围绕大模型扩展与智能体落地展开：一篇论文提出“上下文扩展”新前沿，另有研究比较LLM分诊、提出部分路由与MGMem记忆框架，并给出约束感知的测试时评分。产品侧，亚马逊与Meta据报洽谈解除对AI代理Muse的封锁。治理与研究方面，论文讨论LLM置信度评分、高等数学形式化基准AutoformBench、心理健康安全的结构化危害评估与多语言决策校准；Anthropic CEO Dario Amodei则反驳向AI让渡人类控制的指控。</p>
     </section>
 
     <div class="subsection-stack">
@@ -54,40 +54,40 @@
           <h3>前沿模型</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：智能体能力拆分、记忆与空间推理">
-          <div class="lead-label">前沿模型：智能体能力拆分、记忆与空间推理</div>
-          <p>本组五篇论文分别拆解智能体训练中的任务能力与接口能力，提出 SpatialCraft 让空间推理智能体从经验与技能演化程序性智能，发布高效、确定且可追溯的长期记忆框架 MGMem，考察大语言模型是否因信息呈现方式产生外在认知负荷，并提出 REI 从代码仓库演化中学习创意生成。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="前沿模型：上下文扩展、智能体路由与记忆">
+          <div class="lead-label">前沿模型：上下文扩展、智能体路由与记忆</div>
+          <p>前沿模型小版包含五项研究：论文提出“上下文扩展”作为AI扩展新前沿，并在检测与响应流程中比较静态分类器、图信号融合与LLM分诊代理；提出部分路由，将智能体工作流中的简单与困难子任务分派给不同模型；提出MGMem，为长时程LLM智能体提供高效、确定性且保留来源追溯的记忆框架；还提出约束感知的测试时评分，用于LLM与VLM候选答案选择。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2611.31427" target="_blank" rel="noopener">
-            <span class="at">智能体训练中的“学什么”与“怎么学”：拆解任务能力与接口能力</span>
+          <a class="art" href="https://arxiv.org/abs/2611.33470" target="_blank" rel="noopener">
+            <span class="at">下一代检测与响应中的动态推理：LLM分诊、强化调优与对抗规避的实证研究</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">论文区分智能体训练中的任务能力与接口能力，指出模型可能掌握任务知识，却因系统提示、动作格式或反馈循环等运行框架不匹配而失败。</p>
+            <p class="as">论文对下一代检测与响应流程开展端到端实证研究，在严格的人工分析师注意力预算下，比较静态分类器、图信号融合与LLM分诊代理的表现。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2611.31475" target="_blank" rel="noopener">
-            <span class="at">SpatialCraft：让空间推理智能体从经验与技能中演化程序性智能</span>
+          <a class="art" href="https://arxiv.org/abs/2611.33160" target="_blank" rel="noopener">
+            <span class="at">上下文扩展：AI扩展的新前沿</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出 SpatialCraft，让空间推理智能体从经验与技能中演化程序性智能，以协调 3D 重建、分割和几何计算等外部工具。</p>
+            <p class="as">论文提出“上下文扩展”作为AI扩展的新前沿，认为许多部署失败源于任务依赖状态与系统可用上下文不匹配，而非推理能力不足。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33402" target="_blank" rel="noopener">
+            <span class="at">部分路由：面向资源高效智能体工作流的轨迹调优委派</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出部分路由，把智能体任务中的简单与困难子任务分派给不同模型，以在能力与成本之间取得更高效平衡。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2611.33174" target="_blank" rel="noopener">
-            <span class="at">MGMem：面向长期智能体记忆的高效、确定且可追溯框架</span>
+            <span class="at">MGMem：面向长时程智能体记忆的高效、确定性且保留来源追溯的框架</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文提出 MGMem，一种高效、确定且保留来源的长期智能体记忆框架，避免反复调用生成模型改写历史带来的高成本。</p>
+            <p class="as">论文提出MGMem，一种面向长时程LLM智能体的高效、确定性且保留来源追溯的记忆框架，避免依赖生成式LLM重写历史。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2611.33197" target="_blank" rel="noopener">
-            <span class="at">大语言模型中的外在认知负荷：呈现方式也会影响表现</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文借用认知负荷理论，考察大语言模型是否也会因任务信息的呈现方式产生“外在认知负荷”，从而影响解题表现。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2611.33183" target="_blank" rel="noopener">
-            <span class="at">REI：从代码仓库演化中学习创意生成</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">论文提出 REI，从代码仓库演化中学习科研与工程创意生成，以缓解 AI 自动实验系统中“想法稀疏、验证昂贵”的瓶颈。</p>
+          <a class="art" href="https://arxiv.org/abs/2611.33161" target="_blank" rel="noopener">
+            <span class="at">约束感知的测试时评分：用于LLM与VLM候选答案选择</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文提出约束感知的测试时评分方法，用于在LLM与VLM生成多个候选答案时，结合领域约束选择更可靠答案。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
@@ -95,49 +95,61 @@
       <section class="subsection-block" id="ai-products">
         <header class="subsection-head">
           <h3>AI 产品与平台</h3>
-          <span>0 条</span>
+          <span>1 条</span>
         </header>
-        <p class="empty">本小版今日暂无入选文章。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="亚马逊与Meta据报洽谈解除对AI代理Muse的封锁">
+          <div class="lead-label">亚马逊与Meta据报洽谈解除对AI代理Muse的封锁</div>
+          <p>亚马逊与Meta据报正讨论一项潜在协议，以结束对AI代理Muse为期两个月的封锁；报道指出交易尚未确认。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse" target="_blank" rel="noopener">
+            <span class="at">亚马逊与Meta据报洽谈解除对AI代理Muse的封锁</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">亚马逊与Meta据报正讨论一项潜在协议，以结束对AI代理Muse为期两个月的封锁；交易尚未确认。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
       </section>
       <section class="subsection-block" id="ai-research-governance">
         <header class="subsection-head">
           <h3>研究与治理</h3>
           <span>5 条</span>
         </header>
-        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：深度伪造、交互图表与智能体失败归因">
-          <div class="lead-label">研究与治理：深度伪造、交互图表与智能体失败归因</div>
-          <p>本组五篇论文发布 MOZAIC 音视频深度伪造基准，以四类配对标签区分伪造面部、声音或两者；提出面向多模态大模型的交互式图表转代码基准；在 14 种语言、17 项任务上评测并校准 25 个开源多语言决策模型；用交互式二维环境归因视觉语言智能体的失败；并试点评估语言模型在参考资料仅部分覆盖问题时的回答表现。</p>
+        <section class="briefing-panel subsection-briefing" aria-label="研究与治理：置信度、形式化基准与安全评估">
+          <div class="lead-label">研究与治理：置信度、形式化基准与安全评估</div>
+          <p>研究与治理小版关注模型可靠性与安全：论文研究LLM可靠置信度评分，以门控影响个人与组织的自动化决策；AutoformBench评估AI在高等数学中构建定义、中间引理并连接形式化库的能力；针对心理健康支持场景，论文提出临床基础分类法与短推理危害评估；另有研究在14种语言、17项任务上评估25个开放权重决策模型并校准多语言置信度。Anthropic CEO Dario Amodei则反驳竞争对手关于他向AI让渡人类控制的指控，称其“荒谬”。</p>
         </section>
 
         <div class="columns subsection-columns">
-          <a class="art" href="https://arxiv.org/abs/2611.31301" target="_blank" rel="noopener">
-            <span class="at">MOZAIC：区分面部、声音与编码痕迹的音视频深度伪造基准</span>
+          <a class="art" href="https://arxiv.org/abs/2611.33394" target="_blank" rel="noopener">
+            <span class="at">面向大语言模型门控自动化的置信度评分</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">论文发布 MOZAIC 音视频深度伪造基准，用四类配对标签区分伪造面部、声音或两者，以判断检测器依赖图像、语音还是编码痕迹。</p>
+            <p class="as">论文指出LLM可能高置信度给出错误答案，研究可靠置信度评分，以用于门控影响个人与组织的自动化决策。</p>
             <span class="more">阅读全文 →</span>
           </a>
-          <a class="art" href="https://arxiv.org/abs/2611.31345" target="_blank" rel="noopener">
-            <span class="at">超越静态图表：面向多模态大模型的交互式图表转代码基准</span>
+          <a class="art" href="https://arxiv.org/abs/2611.33165" target="_blank" rel="noopener">
+            <span class="at">AutoformBench：面向高等数学的轻量形式化基准</span>
             <span class="by">arXiv 人工智能</span>
-            <p class="as">论文提出面向多模态大模型的交互式图表转代码基准，弥补现有评测只覆盖静态图表、忽视可交互数据探索的不足。</p>
+            <p class="as">论文提出AutoformBench，评估AI系统在高等数学中构建定义、中间引理并连接形式化库的能力，而不仅是孤立定理证明。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://arxiv.org/abs/2611.33263" target="_blank" rel="noopener">
+            <span class="at">什么、谁与何时：基于短推理的心理健康安全结构化危害评估</span>
+            <span class="by">arXiv 人工智能</span>
+            <p class="as">论文针对LLM心理健康支持场景，提出临床基础分类法，用短推理评估有害内容的具体对象、时间与情境，以改进防护模型。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd" target="_blank" rel="noopener">
+            <span class="at">Anthropic的Dario Amodei称向AI让渡人类控制的指控“荒谬”</span>
+            <span class="by">TechCrunch AI</span>
+            <p class="as">Anthropic CEO Dario Amodei反驳竞争对手称他主张将人类能动性让渡给AI的指控，并称其“荒谬”；此时领先AI公司正日益自动化自身研究与模型开发。</p>
             <span class="more">阅读全文 →</span>
           </a>
           <a class="art" href="https://arxiv.org/abs/2611.33307" target="_blank" rel="noopener">
-            <span class="at">失落在翻译而非置信度：多语言决策模型的评测与校准</span>
+            <span class="at">迷失于翻译而非置信度：多语言决策模型的基准测试与校准</span>
             <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文在 14 种语言、17 项任务上评测 25 个开源决策模型，检验多语言路由与护栏模型在非英语环境下的表现与置信度校准。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2611.33162" target="_blank" rel="noopener">
-            <span class="at">用交互式二维环境归因视觉语言智能体的失败</span>
-            <span class="by">arXiv 机器学习</span>
-            <p class="as">论文用交互式二维环境归因视觉语言智能体的失败，区分误读环境、不理解组件、操作顺序错误和无法纠错等不同原因。</p>
-            <span class="more">阅读全文 →</span>
-          </a>
-          <a class="art" href="https://arxiv.org/abs/2611.33428" target="_blank" rel="noopener">
-            <span class="at">当知识不够用：语言模型处理部分覆盖问题的试点评测</span>
-            <span class="by">arXiv 计算语言学</span>
-            <p class="as">论文试点评估语言模型在参考资料只覆盖问题一部分时的回答表现，指出以往评测常把“部分足够”的上下文简单视为“不足”。</p>
+            <p class="as">论文在14种语言的17项任务上评估25个开放权重决策模型，关注多语言决策模型的基准测试与置信度校准。</p>
             <span class="more">阅读全文 →</span>
           </a>
         </div>
