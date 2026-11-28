@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 开发与编程 · 信息日报 2026-11-28</title>
+<meta name="description" content="面向个人阅读的可配置中文日报">
+<link rel="stylesheet" href="../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>第 20261128 期</span>
+        <span>AI 编纂 · 仅供阅读</span>
+      </div>
+      <h1 class="title">信息日报</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>2026年11月28日 星期六</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="../../en/papers/2026-11-28/developer.html">English</a>
+      <a href="developer.html" aria-current="page">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="本期版面">
+      <a href="../../index.html">总览</a>
+      <a href="ai-tech.html">01 AI 与大模型</a>
+      <a href="developer.html" aria-current="page">02 开发与编程</a>
+      <a href="science-tech.html">03 科技与科学</a>
+      <a href="startup-product.html">04 创业与产品</a>
+      <a href="world.html">05 国际事务</a>
+      <a href="china.html">06 中国观察</a>
+      <a href="finance.html">07 财经理财</a>
+      <a href="opinion.html">08 观点与社论</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 开发与编程</h2>
+      <span class="ed">5 条 / 3 个细分</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="开发与编程日报：Datasette 图表插件钩子、SQLite 远程复制工具与 Convex skills 争议">
+      <div class="lead-label">开发与编程日报：Datasette 图表插件钩子、SQLite 远程复制工具与 Convex skills 争议</div>
+      <p>本期开发与编程版聚焦 Datasette 生态的插件更新、SQLite 的数据库远程复制工具，以及围绕 Convex skills 将用户应用创意发送至远程服务器的争议。Simon Willison 发布 datasette-charts 0.4a0，新增让其他插件定义图表类型的插件钩子，并借助 Claude Opus 5.5 构建实验插件验证该钩子；datasette-mcp 0.4 修复与 Datasette 1.0a44 的兼容性；此前的 datasette-charts 0.3a0 增加图表标注功能。基础设施方面，sqlite3_rsync 作为 SQLite 的数据库远程复制工具，于 2024 年 3.47.0 作为实验特性加入、2025 年 3.50.0 得到增强。此外，Hacker News 上一则关于 Convex skills 未经告知将用户应用创意发送至远程服务器的 GitHub issue 获得 289 分和 92 条评论。</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>语言与框架</h3>
+          <span>0 条</span>
+        </header>
+        <p class="empty">本小版今日暂无入选文章。</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>开源与工具</h3>
+          <span>3 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Datasette 插件更新：图表自定义钩子与 MCP 兼容性修复">
+          <div class="lead-label">Datasette 插件更新：图表自定义钩子与 MCP 兼容性修复</div>
+          <p>Simon Willison 发布 datasette-charts 0.4a0，新增插件钩子让其他插件定义图表类型；作者用 Claude Opus 5.5 构建实验插件测试该钩子，并修复设计中的摩擦点。datasette-mcp 0.4 发布，主要修复与 Datasette 1.0a44 的兼容性问题。此前的 datasette-charts 0.3a0 新增图表标注功能，可在图表上添加线条、阴影区域、标签或三者组合，并可在 Datasette Lite 中通过图表构建器调整。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/27/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.4a0 发布，改进自定义图表插件钩子</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-charts 0.4a0 发布，新增插件钩子让其他插件定义图表类型；作者用 Claude Opus 5.5 构建实验插件测试该钩子，并修复设计中的摩擦点。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/27/datasette-mcp" target="_blank" rel="noopener">
+            <span class="at">datasette-mcp 0.4 修复与 Datasette 1.0a44 的兼容性</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-mcp 0.4 发布，主要修复与 Datasette 1.0a44 的兼容性问题；该版本标签包括 model-context-protocol 和 datasette。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/25/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.3a0 增加图表标注功能</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-charts 0.3a0 发布，新增图表标注功能，可在图表上添加线条、阴影区域、标签或三者组合，并可在 Datasette Lite 中通过图表构建器调整。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>基础设施与数据</h3>
+          <span>2 条</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="SQLite 远程复制工具与 Convex skills 数据传输争议">
+          <div class="lead-label">SQLite 远程复制工具与 Convex skills 数据传输争议</div>
+          <p>SQLite 的 sqlite3_rsync 是用于远程复制数据库的工具，2024 年作为实验特性随 SQLite 3.47.0 加入，2025 年 3.50.0 得到增强。Hacker News 上一则 GitHub issue 讨论标题称 Convex skills 未告知用户便将应用创意发送至远程服务器，该帖获得 289 分和 92 条评论。</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync" target="_blank" rel="noopener">
+            <span class="at">sqlite3_rsync：SQLite 的数据库远程复制工具</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">SQLite 的 sqlite3_rsync 工具可用于远程复制数据库；该工具于 2024 年 SQLite 3.47.0 作为实验特性加入，2025 年 3.50.0 得到增强。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+          <a class="art" href="https://github.com/convex/convex-backend-skill/issues/64" target="_blank" rel="noopener">
+            <span class="at">Convex skills 被指未经告知将用户应用创意发送至远程服务器</span>
+            <span class="by">Hacker News</span>
+            <p class="as">Hacker News 上一则 GitHub issue 讨论获 289 分、92 条评论；标题称 Convex skills 未告知用户便将应用创意发送至远程服务器。</p>
+            <span class="more">阅读全文 →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← 返回总览</a>
+      <a href="../../archive.html">往期 →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

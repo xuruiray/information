@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 Development &amp; Programming · Information Daily 2026-11-28</title>
+<meta name="description" content="A configurable personal daily newspaper for focused reading">
+<link rel="stylesheet" href="../../../assets/newspaper.css">
+</head>
+<body>
+<div class="stage">
+  <article class="sheet front section-paper" id="developer">
+    <button class="peel" type="button" title="回到顶部" aria-label="回到顶部"></button>
+    <header class="masthead">
+      <div class="corners">
+        <span>Issue 20261128</span>
+        <span>AI edited · For reading only</span>
+      </div>
+      <h1 class="title">Information Daily</h1>
+      <div class="subtitle">INFORMATION DAILY</div>
+      <div class="dateline"><span>November 28, 2026 · Saturday</span></div>
+    </header>
+
+    <nav class="language-switch" aria-label="Language">
+      <a href="developer.html" aria-current="page">English</a>
+      <a href="../../../papers/2026-11-28/developer.html">中文</a>
+    </nav>
+
+    <nav class="edition-nav" aria-label="Daily Editions">
+      <a href="../../index.html">Overview</a>
+      <a href="ai-tech.html">01 AI &amp; LLMs</a>
+      <a href="developer.html" aria-current="page">02 Development &amp; Programming</a>
+      <a href="science-tech.html">03 Science &amp; Technology</a>
+      <a href="startup-product.html">04 Startups &amp; Products</a>
+      <a href="world.html">05 World Affairs</a>
+      <a href="china.html">06 China Watch</a>
+      <a href="finance.html">07 Finance &amp; Wealth</a>
+      <a href="opinion.html">08 Opinion &amp; Analysis</a>
+    </nav>
+
+    <header class="pagehead category-head">
+      <h2>02 Development &amp; Programming</h2>
+      <span class="ed">5 articles / 3 subsections</span>
+    </header>
+
+    <section class="briefing-panel category-briefing" aria-label="Developer Briefing: Datasette Chart Plugin Hooks, SQLite Remote Copy Tool and the Convex Skills Controversy">
+      <div class="lead-label">Developer Briefing: Datasette Chart Plugin Hooks, SQLite Remote Copy Tool and the Convex Skills Controversy</div>
+      <p>This developer section covers plugin updates across the Datasette ecosystem, SQLite&#39;s remote database copy tool, and a controversy over Convex skills sending user app ideas to a remote server. Simon Willison released datasette-charts 0.4a0, which adds a plugin hook letting other plugins define new chart types and was validated with an experimental plugin built using Claude Opus 5.5; datasette-mcp 0.4 fixes compatibility with Datasette 1.0a44; and the earlier datasette-charts 0.3a0 added chart annotations. On the infrastructure side, sqlite3_rsync is SQLite&#39;s remote-copy tool for databases, added as an experimental feature in 3.47.0 in 2024 and enhanced in 3.50.0 in 2025. Separately, a GitHub issue alleging that Convex skills send the user&#39;s app idea to a remote server without telling them drew 289 points and 92 comments on Hacker News.</p>
+    </section>
+
+    <div class="subsection-stack">
+      <section class="subsection-block" id="languages-frameworks">
+        <header class="subsection-head">
+          <h3>Languages &amp; Frameworks</h3>
+          <span>0 articles</span>
+        </header>
+        <p class="empty">No articles selected in this subsection today.</p>
+      </section>
+      <section class="subsection-block" id="open-source-tools">
+        <header class="subsection-head">
+          <h3>Open Source &amp; Tools</h3>
+          <span>3 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="Datasette Plugin Updates: Custom Chart Hooks and an MCP Compatibility Fix">
+          <div class="lead-label">Datasette Plugin Updates: Custom Chart Hooks and an MCP Compatibility Fix</div>
+          <p>Simon Willison released datasette-charts 0.4a0, which adds a plugin hook for other plugins to define new chart types; the author used Claude Opus 5.5 to build an experimental plugin against the hook and fixed friction points in the design. datasette-mcp 0.4 fixes compatibility with Datasette 1.0a44. The earlier datasette-charts 0.3a0 added chart annotations, allowing lines, shaded areas, labels, or combinations on charts, adjustable via the chart builder in Datasette Lite.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/27/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.4a0</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-charts 0.4a0 adds a plugin hook for other plugins to define new chart types; the author used Claude Opus 5.5 to build an experimental plugin and fixed friction points in the design.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/27/datasette-mcp" target="_blank" rel="noopener">
+            <span class="at">datasette-mcp 0.4</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-mcp 0.4 has been released with a fix for compatibility with Datasette 1.0a44; the release is tagged with model-context-protocol and datasette.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://simonwillison.net/2026/Nov/25/datasette-charts" target="_blank" rel="noopener">
+            <span class="at">datasette-charts 0.3a0</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">datasette-charts 0.3a0 adds chart annotations, allowing lines, shaded areas, labels, or combinations on rendered charts, adjustable via the chart builder in Datasette Lite.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+      <section class="subsection-block" id="infra-data">
+        <header class="subsection-head">
+          <h3>Infrastructure &amp; Data</h3>
+          <span>2 articles</span>
+        </header>
+        <section class="briefing-panel subsection-briefing" aria-label="SQLite&#39;s Remote Copy Tool and the Convex Skills Data Transmission Controversy">
+          <div class="lead-label">SQLite&#39;s Remote Copy Tool and the Convex Skills Data Transmission Controversy</div>
+          <p>SQLite&#39;s sqlite3_rsync is a remote-copy tool for databases, added as an experimental feature in SQLite 3.47.0 in 2024 and enhanced in SQLite 3.50.0 in 2025. A GitHub issue titled &#39;Convex skills send the user&#39;s app idea to a remote server without telling them&#39; drew 289 points and 92 comments on Hacker News.</p>
+        </section>
+
+        <div class="columns subsection-columns">
+          <a class="art" href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync" target="_blank" rel="noopener">
+            <span class="at">sqlite3_rsync: Database Remote-Copy Tool For SQLite</span>
+            <span class="by">Simon Willison</span>
+            <p class="as">SQLite&#39;s sqlite3_rsync is a remote-copy tool for databases; it was added as experimental in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025.</p>
+            <span class="more">Read more →</span>
+          </a>
+          <a class="art" href="https://github.com/convex/convex-backend-skill/issues/64" target="_blank" rel="noopener">
+            <span class="at">Convex skills send the user&#39;s app idea to a remote server without telling them</span>
+            <span class="by">Hacker News</span>
+            <p class="as">A GitHub issue titled &#39;Convex skills send the user&#39;s app idea to a remote server without telling them&#39; drew 289 points and 92 comments on Hacker News.</p>
+            <span class="more">Read more →</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="colophon">
+      <a href="../../index.html">← Back to overview</a>
+      <a href="../../archive.html">Archive →</a>
+    </footer>
+  </article>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.peel').forEach(function(peel){
+    peel.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

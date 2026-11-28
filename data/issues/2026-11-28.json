@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-28",
+  "title": "信息日报 2026-11-28",
+  "title_en": "Information Daily 2026-11-28",
+  "profile_id": "ai-tech",
+  "headline": {
+    "title": "中国罕见盘中表态支持市场，股市创2024年以来最大涨幅",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+    "source": "彭博市场",
+    "summary": "中国有关部门罕见在盘中发布支持市场的声明，推动股市创2024年以来最大涨幅，并录得两年多来最佳单日表现。",
+    "source_en": "Bloomberg Markets",
+    "title_en": "China Spurs Biggest Stock Gain Since 2024 on Rare Midday Vow",
+    "summary_en": "Chinese authorities issued a rare midday statement pledging market support, sending stocks to their best day in more than two years and the biggest gain since 2024.",
+    "original_title": "China Spurs Biggest Stock Gain Since 2024 on Rare Midday Vow",
+    "published_at": "2026-11-27T05:00:23+00:00",
+    "reason": "直接反映政策表态对股市的即时影响",
+    "reason_en": "Directly shows the immediate market impact of a rare policy statement.",
+    "score": 7.0
+  },
+  "path": "papers/2026-11-28.html",
+  "raw_path": "raw/2026-11-28.html",
+  "raw_count": 180,
+  "source_count": 32,
+  "warnings": [
+    "Editorial item ignored in ai-tech/ai-research-governance: topic evidence does not match subsection [https://huggingface.co/blog/training-swarms]",
+    "Editorial item ignored in startup-product/new-products: topic evidence does not match subsection [https://www.producthunt.com/products/rightfont]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-28/10739226.shtml]",
+    "Editorial item ignored in china/china-policy: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-28/10739205.shtml]",
+    "Editorial item ignored in china/china-industry-local: topic evidence does not match subsection [https://www.chinanews.com.cn/gn/2026/11-28/10739155.shtml]"
+  ]
+}
